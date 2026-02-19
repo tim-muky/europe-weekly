@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% if page.categories contains 'podcast' or page.layout == 'podcast' %}
+  {% assign is_podcast = true %}
+{% else %}
+  {% assign is_podcast = false %}
+{% endif %}
+
+<article class="{% if is_podcast %}podcast-episode{% else %}article{% endif %}">
+    <header class="{% if is_podcast %}episode-header{% else %}article-header{% endif %}">
+        {% if is_podcast and page.season and page.episode %}
+        <div class="episode-number">Season {{ page.season }}, Episode {{ page.episode }}</div>
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+        <div class="{% if is_podcast %}episode-meta{% else %}article-meta{% endif %}">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            {% if is_podcast and page.duration %}
+            <span class="duration">{{ page.duration }}</span>
+            {% endif %}
+            {% if page.categories %}
+            <span class="categories">
+                {% for category in page.categories %}
+                <span class="category">{{ category }}</span>
+                {% endfor %}
+            </span>
+            {% endif %}
+        </div>
+    </header>
+
+    {% if is_podcast %}
+    <div class="episode-player">
+        {% if site.podcast.artwork or page.image %}
+        <img src="{{ page.image | default: site.podcast.artwork | relative_url }}" alt="Episode Cover" class="episode-cover">
+        {% endif %}
+        <audio controls>
+            <source src="https://storage.googleapis.com/europe-weekly-podcast/episodes/{{ page.audio_file }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>
+            <a href="https://storage.googleapis.com/europe-weekly-podcast/episodes/{{ page.audio_file }}" download class="download-link">Download Episode</a>
+        </p>
+    </div>
+    {% endif %}
+
+    <div class="{% if is_podcast %}episode-content{% else %}article-content{% endif %}">
+        {{ content }}
+    </div>
+
+    {% if page.tags %}
+    <div class="tags">
+        {% for tag in page.tags %}
+        <span class="tag">#{{ tag }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if page.sources %}
+    <div class="sources">
+        <h3>Sources</h3>
+        <ul>
+            {% for source in page.sources %}
+            <li><a href="{{ source.url }}" target="_blank">{{ source.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</article>

@@ -1,0 +1,55 @@
+# Site settings
+title: Europe Weekly
+description: Your weekly dose of European news and insights
+url: https://europe-weekly.eu
+baseurl: ""
+
+# Author
+author: Europe Weekly Team
+email: europeweekly27@gmail.com
+
+# Podcast settings
+podcast:
+  title: Europe Weekly
+  description: Weekly European news podcast covering politics, culture, and current events
+  artwork: /assets/images/cover-art.jpg
+  category: News & Politics
+  subcategory: Politics
+  explicit: false
+  language: en
+  
+# RSS Feed
+feed:
+  path: feed.xml
+  
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap

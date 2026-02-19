@@ -1,0 +1,36 @@
+---
+layout: default
+title: Podcast
+---
+
+<h1>Podcast Episodes</h1>
+
+<p>Subscribe via <a href="{{ '/feed.xml' | relative_url }}">RSS</a> or listen below.</p>
+
+<ul class="post-list">
+{% for post in site.posts %}
+  {% if post.categories contains 'podcast' or post.layout == 'podcast' %}
+  <li class="post-item">
+    <div class="episode-number">Season {{ post.season }}, Episode {{ post.episode }}</div>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <div class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      {% if post.duration %}
+      <span class="duration">{{ post.duration }}</span>
+      {% endif %}
+      {% if post.countries %}
+      <span class="countries">
+        {% for country in post.countries %}
+        <span class="country">{{ country }}</span>
+        {% endfor %}
+      </span>
+      {% endif %}
+    </div>
+    {% if post.excerpt %}
+    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+    {% endif %}
+    <a href="{{ post.url | relative_url }}" class="read-more">Listen →</a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>

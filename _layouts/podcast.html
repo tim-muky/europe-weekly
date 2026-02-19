@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="podcast-episode">
+    <header class="episode-header">
+        <div class="episode-number">Season {{ page.season }}, Episode {{ page.episode }}</div>
+        <h1>{{ page.title }}</h1>
+        <div class="episode-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            {% if page.duration %}
+            <span class="duration">{{ page.duration }}</span>
+            {% endif %}
+            {% if page.countries %}
+            <span class="countries">
+                {% for country in page.countries %}
+                <span class="country">{{ country }}</span>
+                {% endfor %}
+            </span>
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="episode-player">
+        <img src="{{ site.podcast.artwork | default: '/assets/images/cover-art.jpg' | relative_url }}" alt="Episode Cover" class="episode-cover">
+        <audio controls>
+            <source src="https://storage.googleapis.com/europe-weekly-podcast/episodes/{{ page.audio_file }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>
+            <a href="https://storage.googleapis.com/europe-weekly-podcast/episodes/{{ page.audio_file }}" download class="download-link">Download Episode</a>
+        </p>
+    </div>
+
+    <div class="episode-content">
+        {{ content }}
+    </div>
+
+    {% if page.keywords %}
+    <div class="keywords">
+        <strong>Keywords:</strong> {{ page.keywords | join: ", " }}
+    </div>
+    {% endif %}
+</article>
