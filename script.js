@@ -318,22 +318,18 @@ async function initEpisodesList() {
   const data = await getData();
   renderFooter(data);
   const container = document.getElementById('episodes-list');
-  if (!data.episodes.length) { container.innerHTML = '<p class="no-results">No episodes yet.</p>'; return; }
-
-  data.episodes.forEach(ep => {
-    const prefix = 'ep-' + ep.id + '-';
-    const div = document.createElement('div');
-    div.className = 'episode-card';
-    const coverImg = ep.coverArt
-      ? `<img class="episode-cover" src="${escHtml(ep.coverArt)}" alt="Cover art for ${escHtml(ep.title)}" />` : '';
-    const seBadge = `<span class="episode-badge">S${ep.season || 1} · E${ep.episodeNumber || 1}</span>`;
-    const kws = (ep.keywords || '').split(',').map(k => k.trim()).filter(Boolean);
-    const kwHTML   = kws.length ? `<div class="episode-keywords">${kws.map(k => `<span class="keyword">${escHtml(k)}</span>`).join('')}</div>` : '';
-    const notesHTML = ep.notes ? `<p class="episode-notes">${escHtml(ep.notes)}</p>` : '';
-    div.innerHTML = `${coverImg}<div class="episode-card-meta">${seBadge}<a href="episode.html?id=${ep.id}" class="episode-card-title-link"><h2 class="episode-card-title">${escHtml(ep.title)}</h2></a><div class="episode-card-tags">${tagsHTML(data, ep.categories)}</div>${kwHTML}</div>${playerHTML(prefix)}${notesHTML}`;
-    container.appendChild(div);
-    initPlayer(ep.duration, prefix);
-  });
+  container.innerHTML = data.episodes.length
+    ? data.episodes.map(ep => `
+        <a href="episode.html?id=${ep.id}" class="ep-list-card">
+          ${ep.coverArt ? `<img class="ep-list-thumb" src="${escHtml(ep.coverArt)}" alt="" />` : ''}
+          <div class="ep-list-body">
+            <span class="episode-badge">S${ep.season || 1} · E${ep.episodeNumber || 1}</span>
+            <span class="ep-list-title">${escHtml(ep.title)}</span>
+            <div class="cat-item-tags">${tagsHTML(data, ep.categories)}</div>
+            ${ep.notes ? `<p class="ep-list-notes">${escHtml(ep.notes.slice(0, 120))}${ep.notes.length > 120 ? '…' : ''}</p>` : ''}
+          </div>
+        </a>`).join('')
+    : '<p class="no-results">No episodes yet.</p>';
 }
 
 // ── CATEGORY ─────────────────────────────────
