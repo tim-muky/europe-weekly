@@ -676,6 +676,65 @@ a.cat-item-title:hover { text-decoration: underline; }
 
 .admin-save-row { margin-top: 20px; }
 
+/* ===== DARK THEME – podcast / episode pages ===== */
+
+.episode-page,
+.episodes-page {
+  background: var(--blue-dark);
+  color: var(--text-light);
+}
+.episode-page .article-header,
+.episodes-page .article-header {
+  background: rgba(10, 22, 44, 0.55);
+}
+.episode-page .article-nav .nav-main-link,
+.episodes-page .article-nav .nav-main-link {
+  color: rgba(255,255,255,0.82);
+}
+.episode-page .article-nav .nav-main-link:hover,
+.episodes-page .article-nav .nav-main-link:hover { opacity: 0.7; }
+.episode-page .header-rule,
+.episodes-page .header-rule { border-color: rgba(255,255,255,0.1); }
+.episode-page main,
+.episodes-page main { background: var(--blue-dark); }
+.episode-page .content-title,
+.episodes-page .list-page-heading { color: var(--text-light); }
+.episode-page .site-footer,
+.episodes-page .site-footer { background: rgba(0,0,0,0.3); }
+
+/* Episode title link on list + category pages */
+.episode-card-title-link {
+  text-decoration: none;
+  color: inherit;
+}
+.episode-card-title-link:hover .episode-card-title { text-decoration: underline; }
+
+/* Episode title link on home */
+.ep-title-link { text-decoration: none; color: inherit; display: block; }
+.ep-title-link:hover .content-title { text-decoration: underline; }
+
+/* LISTEN link in podcast preview (light version of more-link) */
+.more-link--light {
+  color: #8ab4cc;
+  margin-top: 14px;
+  display: inline-block;
+}
+.more-link--light:hover { color: #c8daea; text-decoration: underline; }
+
+/* ===== EPISODE DETAIL PAGE ===== */
+
+.episode-detail-cover {
+  display: block;
+  width: calc(100% + 72px);
+  margin: -28px -36px 24px;
+  max-height: 300px;
+  object-fit: cover;
+}
+.episode-detail-badge { display: block; margin-bottom: 6px; }
+.episode-detail-title { color: var(--text-light); margin-bottom: 10px; }
+.episode-detail-tags  { margin-bottom: 22px; }
+.episode-detail-player { max-width: 520px; margin-bottom: 20px; }
+
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 600px) {

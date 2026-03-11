@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Episode – Europe Weekly</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="article-page episode-page">
+
+  <header class="article-header">
+    <nav class="article-nav">
+      <a href="index.html" class="nav-main-link">HOME</a>
+      <a href="javascript:history.back()" class="nav-main-link">BACK</a>
+    </nav>
+    <hr class="header-rule">
+  </header>
+
+  <main class="article-main" id="episode-content">
+    <img id="episode-cover" class="episode-detail-cover" src="" alt="" style="display:none" />
+    <span id="episode-badge" class="episode-badge episode-detail-badge"></span>
+    <h1 id="episode-title" class="content-title episode-detail-title"></h1>
+    <div id="episode-tags" class="episode-card-tags episode-detail-tags"></div>
+    <div id="episode-player-wrap" class="episode-detail-player"></div>
+    <div id="episode-keywords" class="episode-keywords" style="display:none"></div>
+    <p id="episode-notes" class="episode-notes" style="display:none"></p>
+  </main>
+
+  <footer class="site-footer">
+    <div id="footer-social" class="footer-social"></div>
+    <a href="imprint.html">Imprint</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>initEpisodePage();</script>
+</body>
+</html>

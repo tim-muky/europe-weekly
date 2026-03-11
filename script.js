@@ -32,7 +32,32 @@ function setData(data) {
   // Stamp with current time so local admin edits are not overwritten by an
   // older published content.json.
   data.version = Date.now();
-  localStorage.setItem(CMS_KEY, JSON.stringify(data));
+  try {
+    localStorage.setItem(CMS_KEY, JSON.stringify(data));
+  } catch (e) {
+    alert('Could not save — storage is full. Use an image URL instead of uploading large files directly.');
+  }
+}
+
+// ── IMAGE COMPRESSION ─────────────────────────
+
+function compressImage(file, maxPx = 1920, quality = 0.85) {
+  return new Promise(resolve => {
+    const reader = new FileReader();
+    reader.onload = e => {
+      const img = new Image();
+      img.onload = () => {
+        const ratio  = Math.min(1, maxPx / Math.max(img.width, img.height));
+        const canvas = document.createElement('canvas');
+        canvas.width  = Math.round(img.width  * ratio);
+        canvas.height = Math.round(img.height * ratio);
+        canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+        resolve(canvas.toDataURL('image/jpeg', quality));
+      };
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  });
 }
 
 // ── HELPERS ───────────────────────────────────
@@ -228,6 +253,10 @@ async function initHome() {
   if (ep) {
     document.getElementById('ep-title').textContent = ep.title;
     document.getElementById('ep-tags').innerHTML    = tagsHTML(data, ep.categories);
+    const epTitleLink = document.getElementById('ep-title-link');
+    if (epTitleLink) epTitleLink.href = `episode.html?id=${ep.id}`;
+    const listenLink = document.getElementById('ep-listen');
+    if (listenLink) listenLink.href = `episode.html?id=${ep.id}`;
     const wrap = document.getElementById('ep-player-wrap');
     if (wrap) { wrap.innerHTML = playerHTML('ep-'); initPlayer(ep.duration, 'ep-'); }
   }
@@ -301,7 +330,7 @@ async function initEpisodesList() {
     const kws = (ep.keywords || '').split(',').map(k => k.trim()).filter(Boolean);
     const kwHTML   = kws.length ? `<div class="episode-keywords">${kws.map(k => `<span class="keyword">${escHtml(k)}</span>`).join('')}</div>` : '';
     const notesHTML = ep.notes ? `<p class="episode-notes">${escHtml(ep.notes)}</p>` : '';
-    div.innerHTML = `${coverImg}<div class="episode-card-meta">${seBadge}<h2 class="episode-card-title">${escHtml(ep.title)}</h2><div class="episode-card-tags">${tagsHTML(data, ep.categories)}</div>${kwHTML}</div>${playerHTML(prefix)}${notesHTML}`;
+    div.innerHTML = `${coverImg}<div class="episode-card-meta">${seBadge}<a href="episode.html?id=${ep.id}" class="episode-card-title-link"><h2 class="episode-card-title">${escHtml(ep.title)}</h2></a><div class="episode-card-tags">${tagsHTML(data, ep.categories)}</div>${kwHTML}</div>${playerHTML(prefix)}${notesHTML}`;
     container.appendChild(div);
     initPlayer(ep.duration, prefix);
   });
@@ -327,7 +356,7 @@ async function initCategory() {
     : '<p class="no-results">No articles in this category.</p>';
 
   document.getElementById('cat-episodes').innerHTML = eps.length
-    ? eps.map(e => `<div class="cat-item cat-item--episode"><span class="cat-item-title">${escHtml(e.title)}</span><div class="cat-item-tags">${tagsHTML(data, e.categories)}</div></div>`).join('')
+    ? eps.map(e => `<div class="cat-item cat-item--episode"><a href="episode.html?id=${e.id}" class="cat-item-title">${escHtml(e.title)}</a><div class="cat-item-tags">${tagsHTML(data, e.categories)}</div></div>`).join('')
     : '<p class="no-results">No episodes in this category.</p>';
 }
 
@@ -339,6 +368,43 @@ async function initPage(pageKey, titleText) {
   document.title = titleText + ' – Europe Weekly';
   const el = document.getElementById('page-content');
   if (el) el.innerHTML = textToHTML(data.pages?.[pageKey] || '');
+}
+
+// ── EPISODE DETAIL ────────────────────────────
+
+async function initEpisodePage() {
+  const data = await getData();
+  renderFooter(data);
+
+  const id = new URLSearchParams(location.search).get('id') ?? data.episodes[0]?.id;
+  const ep = data.episodes.find(e => e.id === id);
+  if (!ep) {
+    const el = document.getElementById('episode-content');
+    if (el) el.innerHTML = '<p style="color:#8ab4cc;padding:20px">Episode not found.</p>';
+    return;
+  }
+
+  document.title = ep.title + ' – Europe Weekly';
+
+  const coverEl = document.getElementById('episode-cover');
+  if (coverEl) { coverEl.src = ep.coverArt || ''; coverEl.style.display = ep.coverArt ? '' : 'none'; }
+
+  document.getElementById('episode-badge').textContent  = `S${ep.season || 1} · E${ep.episodeNumber || 1}`;
+  document.getElementById('episode-title').textContent  = ep.title;
+  document.getElementById('episode-tags').innerHTML     = tagsHTML(data, ep.categories);
+
+  const wrap = document.getElementById('episode-player-wrap');
+  if (wrap) { wrap.innerHTML = playerHTML('ep-single-'); initPlayer(ep.duration, 'ep-single-'); }
+
+  const kwEl = document.getElementById('episode-keywords');
+  if (kwEl) {
+    const kws = (ep.keywords || '').split(',').map(k => k.trim()).filter(Boolean);
+    kwEl.innerHTML   = kws.length ? kws.map(k => `<span class="keyword">${escHtml(k)}</span>`).join('') : '';
+    kwEl.style.display = kws.length ? '' : 'none';
+  }
+
+  const notesEl = document.getElementById('episode-notes');
+  if (notesEl) { notesEl.textContent = ep.notes || ''; notesEl.style.display = ep.notes ? '' : 'none'; }
 }
 
 // ── ADMIN ─────────────────────────────────────
@@ -377,11 +443,10 @@ async function initAdmin() {
   const bgFile = document.getElementById('settings-bg-file');
   const bgUrl  = document.getElementById('settings-bg-url');
   const bgPrev = document.getElementById('settings-bg-preview');
-  bgFile.addEventListener('change', () => {
+  bgFile.addEventListener('change', async () => {
     const file = bgFile.files[0]; if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => { bgUrl.value = reader.result; bgPrev.src = reader.result; bgPrev.style.display = ''; };
-    reader.readAsDataURL(file);
+    const dataUrl = await compressImage(file, 1920, 0.85);
+    bgUrl.value = dataUrl; bgPrev.src = dataUrl; bgPrev.style.display = '';
   });
   bgUrl.addEventListener('input', () => { bgPrev.src = bgUrl.value; bgPrev.style.display = bgUrl.value ? '' : 'none'; });
 
@@ -566,11 +631,10 @@ async function initAdmin() {
     const fileInput = div.querySelector('.f-cover-file');
     const urlInput  = div.querySelector('.f-cover-url');
     const prevImg   = div.querySelector('.f-cover-preview');
-    fileInput.addEventListener('change', () => {
+    fileInput.addEventListener('change', async () => {
       const file = fileInput.files[0]; if (!file) return;
-      const reader = new FileReader();
-      reader.onload = () => { urlInput.value = reader.result; prevImg.src = reader.result; prevImg.style.display = ''; };
-      reader.readAsDataURL(file);
+      const dataUrl = await compressImage(file, 800, 0.85);
+      urlInput.value = dataUrl; prevImg.src = dataUrl; prevImg.style.display = '';
     });
     urlInput.addEventListener('input', () => { prevImg.src = urlInput.value; prevImg.style.display = urlInput.value ? '' : 'none'; });
 
