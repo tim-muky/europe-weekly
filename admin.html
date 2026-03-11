@@ -5,8 +5,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CMS – Europe Weekly</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* ── Auth overlay ── */
+    #auth-overlay {
+      position: fixed;
+      inset: 0;
+      background: var(--blue-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    #auth-overlay.hidden { display: none; }
+
+    .auth-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 40px 36px 36px;
+      width: 100%;
+      max-width: 340px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.28);
+      text-align: center;
+    }
+    .auth-logo {
+      font-size: 1rem;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      color: var(--blue-dark);
+    }
+    .auth-logo span { opacity: 0.5; font-weight: 400; }
+    .auth-subtitle {
+      font-size: 0.78rem;
+      color: #888;
+      margin-bottom: 28px;
+    }
+    .auth-field {
+      position: relative;
+      margin-bottom: 14px;
+    }
+    .auth-field input {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid #d0d3d8;
+      border-radius: 5px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .auth-field input:focus { border-color: var(--blue-dark); }
+    .auth-field input.shake {
+      border-color: #c0392b;
+      animation: shake 0.35s ease;
+    }
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      20%      { transform: translateX(-6px); }
+      40%      { transform: translateX(6px); }
+      60%      { transform: translateX(-4px); }
+      80%      { transform: translateX(4px); }
+    }
+    .auth-error {
+      font-size: 0.78rem;
+      color: #c0392b;
+      margin-bottom: 12px;
+      min-height: 18px;
+    }
+    .auth-btn {
+      width: 100%;
+      padding: 10px;
+      background: var(--blue-dark);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .auth-btn:hover { opacity: 0.85; }
+
+    /* Hide page content until authenticated */
+    body.auth-locked > *:not(#auth-overlay) { visibility: hidden; }
+  </style>
 </head>
-<body class="admin-page">
+<body class="admin-page auth-locked">
+
+  <!-- ── AUTH OVERLAY ── -->
+  <div id="auth-overlay">
+    <div class="auth-card">
+      <p class="auth-logo">Europe Weekly <span>CMS</span></p>
+      <p class="auth-subtitle">Enter your password to continue</p>
+      <form id="auth-form">
+        <div class="auth-field">
+          <input id="auth-pw" type="password" placeholder="Password" autocomplete="current-password" autofocus />
+        </div>
+        <p class="auth-error" id="auth-error"></p>
+        <button type="submit" class="auth-btn">Sign in</button>
+      </form>
+    </div>
+  </div>
 
   <header class="admin-header">
     <div class="admin-header-inner">
@@ -127,6 +228,52 @@
   </footer>
 
   <script src="script.js"></script>
-  <script>initAdmin();</script>
+  <script>
+    // ── CMS password auth ──────────────────────────────────────────────────
+    // Password is stored as a SHA-256 hash — never in plain text.
+    // To change the password: generate a new hash with:
+    //   python3 -c "import hashlib; print(hashlib.sha256(b'NEW_PASSWORD').hexdigest())"
+    // then replace the HASH constant below.
+    const HASH = '94b60bbee70d95343752c01c21093987deefdc97334e5760653478f45536b719';
+
+    async function sha256(str) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    async function initAuth() {
+      // Already authenticated this session?
+      if (sessionStorage.getItem('ew-admin-auth') === '1') {
+        unlock();
+        return;
+      }
+
+      document.getElementById('auth-form').addEventListener('submit', async e => {
+        e.preventDefault();
+        const pw   = document.getElementById('auth-pw').value;
+        const hash = await sha256(pw);
+        if (hash === HASH) {
+          sessionStorage.setItem('ew-admin-auth', '1');
+          unlock();
+        } else {
+          const inp = document.getElementById('auth-pw');
+          const err = document.getElementById('auth-error');
+          err.textContent = 'Incorrect password — try again.';
+          inp.value = '';
+          inp.classList.add('shake');
+          inp.addEventListener('animationend', () => inp.classList.remove('shake'), { once: true });
+          inp.focus();
+        }
+      });
+    }
+
+    function unlock() {
+      document.getElementById('auth-overlay').classList.add('hidden');
+      document.body.classList.remove('auth-locked');
+      initAdmin();
+    }
+
+    initAuth();
+  </script>
 </body>
 </html>
