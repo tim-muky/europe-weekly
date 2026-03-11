@@ -676,6 +676,13 @@ a.cat-item-title:hover { text-decoration: underline; }
 
 .admin-save-row { margin-top: 20px; }
 
+/* Season·Episode badge on light backgrounds (episodes list) */
+.ep-list-badge {
+  color: #3a6a8a;
+  display: block;
+  margin-bottom: 2px;
+}
+
 /* ===== DARK THEME – podcast / episode pages ===== */
 
 .episode-page,

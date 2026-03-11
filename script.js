@@ -219,7 +219,7 @@ function renderNav(data) {
   const al = document.getElementById('nav-articles');
   const el = document.getElementById('nav-episodes');
   if (al) al.innerHTML = data.articles.map(a => `<li><a href="article.html?id=${a.id}">${escHtml(a.title)}</a></li>`).join('');
-  if (el) el.innerHTML = data.episodes.map(e => `<li><a href="episodes.html">${escHtml(e.title)}</a></li>`).join('');
+  if (el) el.innerHTML = data.episodes.map(e => `<li><a href="episode.html?id=${e.id}">${escHtml(e.title)}</a></li>`).join('');
 }
 
 // ── HOME ──────────────────────────────────────
@@ -320,15 +320,12 @@ async function initEpisodesList() {
   const container = document.getElementById('episodes-list');
   container.innerHTML = data.episodes.length
     ? data.episodes.map(ep => `
-        <a href="episode.html?id=${ep.id}" class="ep-list-card">
-          ${ep.coverArt ? `<img class="ep-list-thumb" src="${escHtml(ep.coverArt)}" alt="" />` : ''}
-          <div class="ep-list-body">
-            <span class="episode-badge">S${ep.season || 1} · E${ep.episodeNumber || 1}</span>
-            <span class="ep-list-title">${escHtml(ep.title)}</span>
-            <div class="cat-item-tags">${tagsHTML(data, ep.categories)}</div>
-            ${ep.notes ? `<p class="ep-list-notes">${escHtml(ep.notes.slice(0, 120))}${ep.notes.length > 120 ? '…' : ''}</p>` : ''}
-          </div>
-        </a>`).join('')
+        <div class="cat-item cat-item--episode">
+          <span class="episode-badge ep-list-badge">S${ep.season || 1} · E${ep.episodeNumber || 1}</span>
+          <a href="episode.html?id=${ep.id}" class="cat-item-title">${escHtml(ep.title)}</a>
+          <div class="cat-item-tags">${tagsHTML(data, ep.categories)}</div>
+          ${ep.notes ? `<p class="cat-item-excerpt">${escHtml(ep.notes.slice(0, 120))}${ep.notes.length > 120 ? '…' : ''}</p>` : ''}
+        </div>`).join('')
     : '<p class="no-results">No episodes yet.</p>';
 }
 
