@@ -31,7 +31,7 @@ body {
   position: relative;
   min-height: 500px;
   /* Replace background.jpg with your own image */
-  background: url('background.jpg') center / cover no-repeat #8a9870;
+  background: url('background.jpg') center / cover no-repeat #FFE607;
 }
 
 .site-nav {
