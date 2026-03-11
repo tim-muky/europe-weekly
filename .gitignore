@@ -1,6 +1,9 @@
 # Claude Code local config
 .claude/
 
+# Wrangler cache
+.wrangler/
+
 # macOS
 .DS_Store
 .AppleDouble
