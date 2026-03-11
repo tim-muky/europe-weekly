@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMS – Europe Weekly</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="admin-page">
+
+  <header class="admin-header">
+    <div class="admin-header-inner">
+      <h1 class="admin-title">Europe Weekly <span>CMS</span></h1>
+      <nav><a href="index.html" class="nav-main-link">← Back to site</a></nav>
+    </div>
+  </header>
+
+  <main class="admin-main">
+
+    <!-- ── SETTINGS ── -->
+    <section class="admin-section">
+      <h2 class="admin-section-title">Settings</h2>
+
+      <!-- Background Image -->
+      <div class="admin-subsection">
+        <h3 class="admin-subsection-title">Background Image</h3>
+        <div class="admin-cover-wrap">
+          <img id="settings-bg-preview" class="admin-cover-preview" src="" alt="Background preview"
+               style="display:none; max-width:280px; max-height:160px;" />
+          <input id="settings-bg-url" class="admin-input" type="text"
+                 placeholder="Paste an image URL, or upload below" />
+          <label class="admin-btn admin-btn--secondary admin-upload-label">Upload image
+            <input id="settings-bg-file" type="file" accept="image/*" style="display:none" />
+          </label>
+        </div>
+      </div>
+
+      <!-- Social Media -->
+      <div class="admin-subsection">
+        <h3 class="admin-subsection-title">Social Media</h3>
+        <div class="admin-subsection-fields">
+          <div class="admin-field">
+            <label class="admin-label">Instagram URL</label>
+            <input id="settings-instagram" class="admin-input" type="url"
+                   placeholder="https://instagram.com/yourprofile" />
+          </div>
+          <div class="admin-field">
+            <label class="admin-label">X (Twitter) URL</label>
+            <input id="settings-x" class="admin-input" type="url"
+                   placeholder="https://x.com/yourprofile" />
+          </div>
+          <div class="admin-field">
+            <label class="admin-label">YouTube URL</label>
+            <input id="settings-youtube" class="admin-input" type="url"
+                   placeholder="https://youtube.com/@yourchannel" />
+          </div>
+        </div>
+      </div>
+
+      <!-- About Page -->
+      <div class="admin-subsection">
+        <h3 class="admin-subsection-title">About Page</h3>
+        <p class="admin-hint">Use blank lines between paragraphs.</p>
+        <textarea id="settings-about" class="admin-textarea" rows="7"
+                  placeholder="Write about your publication…"></textarea>
+      </div>
+
+      <!-- Imprint Page -->
+      <div class="admin-subsection admin-subsection--last">
+        <h3 class="admin-subsection-title">Imprint Page</h3>
+        <p class="admin-hint">Legal information (name, address, contact). Use blank lines between paragraphs.</p>
+        <textarea id="settings-imprint" class="admin-textarea" rows="7"
+                  placeholder="Legal name, address, contact details…"></textarea>
+      </div>
+
+      <div class="admin-save-row">
+        <button id="settings-save-btn" class="admin-btn admin-btn--primary">Save Settings</button>
+      </div>
+    </section>
+
+    <!-- ── CATEGORIES ── -->
+    <section class="admin-section">
+      <h2 class="admin-section-title">Categories</h2>
+      <p class="admin-hint">Edit label names — changes apply everywhere. Tab away from a field to save.</p>
+      <ul id="admin-cat-list" class="admin-cat-list"></ul>
+      <div class="admin-add-row">
+        <input id="new-cat-input" class="admin-input" type="text" placeholder="New category label…" />
+        <button id="add-cat-btn" class="admin-btn admin-btn--primary">Add</button>
+      </div>
+    </section>
+
+    <!-- ── ARTICLES ── -->
+    <section class="admin-section">
+      <div class="admin-section-header">
+        <div>
+          <h2 class="admin-section-title">Articles</h2>
+          <p class="admin-hint">Click an article to expand and edit all its fields.</p>
+        </div>
+        <button id="add-article-btn" class="admin-btn admin-btn--primary">+ New Article</button>
+      </div>
+      <div id="admin-articles"></div>
+    </section>
+
+    <!-- ── EPISODES ── -->
+    <section class="admin-section">
+      <div class="admin-section-header">
+        <div>
+          <h2 class="admin-section-title">Podcast Episodes</h2>
+          <p class="admin-hint">Click an episode to expand and edit all its fields.</p>
+        </div>
+        <button id="add-episode-btn" class="admin-btn admin-btn--primary">+ New Episode</button>
+      </div>
+      <div id="admin-episodes"></div>
+    </section>
+
+    <!-- ── CONTROLS ── -->
+    <section class="admin-section admin-controls">
+      <button id="export-btn" class="admin-btn admin-btn--primary">Export content.json</button>
+      <button id="reset-btn"  class="admin-btn admin-btn--danger">Reset to defaults</button>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div id="footer-social" class="footer-social"></div>
+    <a href="imprint.html">Imprint</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>initAdmin();</script>
+</body>
+</html>

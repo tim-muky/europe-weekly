@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "settings": {
+    "backgroundImage": "",
+    "social": {
+      "instagram": "",
+      "x": "",
+      "youtube": ""
+    }
+  },
+  "pages": {
+    "about": "Europe Weekly is an independent media project covering European politics, economics, and culture.\n\nOur goal is to provide in-depth analysis and accessible journalism about the European Union and its member states.\n\nFounded in 2024, we publish weekly articles and a regular podcast.",
+    "imprint": "Europe Weekly\n\nResponsible for content: [Your Name]\n[Street Address]\n[City, Country]\n\nContact: [email@example.com]\n\nThis website is operated as an independent media project. All rights reserved."
+  },
+  "categories": [
+    { "id": "cat-1", "label": "country category 1" },
+    { "id": "cat-2", "label": "country category 2" },
+    { "id": "cat-3", "label": "country category 3" },
+    { "id": "cat-4", "label": "country category 4" }
+  ],
+  "articles": [
+    {
+      "id": "article-1",
+      "title": "LATEST POST TITLE 1",
+      "categories": ["cat-1"],
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "body": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "chartData": { "values": [65, 42, 30, 88], "labels": ["Element 1", "Element 2", "Element 3", "Element 4"] },
+      "keywords": "europe, policy, economy",
+      "sources": "European Commission Report 2024; Eurostat Data Portal; Reuters, Jan 2024"
+    },
+    {
+      "id": "article-2",
+      "title": "LATEST POST TITLE 2",
+      "categories": ["cat-2", "cat-3"],
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "body": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.",
+      "chartData": null,
+      "keywords": "",
+      "sources": ""
+    },
+    {
+      "id": "article-3",
+      "title": "LATEST POST TITLE 3",
+      "categories": ["cat-3"],
+      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+      "body": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.",
+      "chartData": null,
+      "keywords": "",
+      "sources": ""
+    }
+  ],
+  "episodes": [
+    {
+      "id": "episode-1",
+      "title": "LATEST EPISODE Title 1",
+      "categories": ["cat-1", "cat-2", "cat-3", "cat-4"],
+      "duration": 226,
+      "audioUrl": "",
+      "coverArt": "",
+      "season": 1,
+      "episodeNumber": 1,
+      "keywords": "europe, weekly, podcast",
+      "notes": "In this episode we discuss the latest developments across Europe."
+    },
+    {
+      "id": "episode-2",
+      "title": "LATEST EPISODE Title 2",
+      "categories": ["cat-1", "cat-2"],
+      "duration": 180,
+      "audioUrl": "",
+      "coverArt": "",
+      "season": 1,
+      "episodeNumber": 2,
+      "keywords": "",
+      "notes": ""
+    },
+    {
+      "id": "episode-3",
+      "title": "LATEST EPISODE Title 3",
+      "categories": ["cat-3"],
+      "duration": 300,
+      "audioUrl": "",
+      "coverArt": "",
+      "season": 1,
+      "episodeNumber": 3,
+      "keywords": "",
+      "notes": ""
+    }
+  ]
+}

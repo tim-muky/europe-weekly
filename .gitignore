@@ -1,0 +1,19 @@
+# Claude Code local config
+.claude/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+
+# Local dev server
+__pycache__/
+
+# Large local media (use URLs in CMS instead)
+*.mp3
+*.mp4
+*.mov

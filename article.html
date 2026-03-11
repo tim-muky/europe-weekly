@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article – Europe Weekly</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="article-page">
+
+  <!-- ===== ARTICLE HEADER ===== -->
+  <header class="article-header">
+    <nav class="article-nav">
+      <a href="index.html" class="nav-main-link">HOME</a>
+      <a href="javascript:history.back()" class="nav-main-link">BACK</a>
+    </nav>
+    <hr class="header-rule">
+  </header>
+
+  <!-- ===== ARTICLE CONTENT ===== -->
+  <main class="article-main" id="article-content">
+    <article>
+      <h1 id="article-title" class="content-title"></h1>
+      <div class="article-body">
+        <div id="article-tags" class="article-meta"></div>
+        <div class="article-text">
+          <p id="article-excerpt"></p>
+          <div id="chart-section" class="chart-container" style="display:none">
+            <canvas id="articleChart" width="360" height="180"></canvas>
+          </div>
+          <p id="article-body"></p>
+          <div id="article-keywords" class="article-keywords" style="display:none"></div>
+          <div id="article-sources" class="article-sources" style="display:none"></div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div id="footer-social" class="footer-social"></div>
+    <a href="imprint.html">Imprint</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>initArticle();</script>
+</body>
+</html>

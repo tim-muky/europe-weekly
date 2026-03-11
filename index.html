@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Europe Weekly</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header">
+    <nav class="site-nav">
+      <div class="nav-section">
+        <h2 class="nav-heading"><a href="articles.html" class="nav-heading-link">ARTICLES</a></h2>
+        <ul id="nav-articles"></ul>
+      </div>
+      <div class="nav-section">
+        <h2 class="nav-heading"><a href="episodes.html" class="nav-heading-link">PODCAST</a></h2>
+        <ul id="nav-episodes"></ul>
+      </div>
+      <div class="nav-links">
+        <a href="#rss"      class="nav-main-link">RSS FEED</a>
+        <a href="about.html" class="nav-main-link">ABOUT</a>
+        <a href="admin.html" class="nav-main-link nav-cms-link">CMS</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- Article Preview -->
+    <section class="article-preview">
+      <a href="#" id="preview-title-link">
+        <h2 id="preview-title" class="content-title"></h2>
+      </a>
+      <div class="article-body">
+        <div id="preview-tags" class="article-meta"></div>
+        <div class="article-text">
+          <p id="preview-excerpt"></p>
+          <div class="chart-container">
+            <canvas id="homeChart" width="320" height="160"></canvas>
+          </div>
+          <p id="preview-body"></p>
+          <a href="#" id="preview-more" class="more-link">MORE&hellip;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Podcast Preview -->
+    <section class="podcast-preview">
+      <h2 id="ep-title" class="content-title"></h2>
+      <div id="ep-tags" class="podcast-tags"></div>
+      <div id="ep-player-wrap"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div id="footer-social" class="footer-social"></div>
+    <a href="imprint.html">Imprint</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>initHome();</script>
+</body>
+</html>
