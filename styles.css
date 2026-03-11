@@ -29,7 +29,7 @@ body {
 
 .site-header {
   position: relative;
-  min-height: 300px;
+  min-height: 500px;
   /* Replace background.jpg with your own image */
   background: url('background.jpg') center / cover no-repeat #8a9870;
 }
@@ -39,8 +39,12 @@ body {
   background: var(--yellow-nav);
   padding: 28px 36px 28px;
   min-width: 240px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
+  max-height: 100%;
+  overflow-y: auto;
 }
 
 /* ===== NAV ===== */
@@ -790,7 +794,8 @@ a.cat-item-title:hover { text-decoration: underline; }
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 600px) {
-  .site-nav { display: block; width: 100%; }
+  .site-header { min-height: 0; }
+  .site-nav { position: static; display: block; width: 100%; max-height: none; overflow-y: visible; }
   .article-body { grid-template-columns: 1fr; }
   .article-preview, .podcast-preview, .article-main, .article-header { padding-left: 18px; padding-right: 18px; }
   .admin-main { padding: 20px 14px 40px; }

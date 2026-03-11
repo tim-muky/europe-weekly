@@ -179,7 +179,7 @@ function playerHTML(prefix) {
     </div>`;
 }
 
-function initPlayer(total, prefix) {
+function initPlayer(total, prefix, audioUrl) {
   const playBtn   = document.getElementById(prefix + 'playBtn');
   const playIcon  = document.getElementById(prefix + 'playIcon');
   const pauseIcon = document.getElementById(prefix + 'pauseIcon');
@@ -190,27 +190,57 @@ function initPlayer(total, prefix) {
   const bar       = document.getElementById(prefix + 'progressBar');
   if (!playBtn) return;
 
-  let elapsed = 0, playing = false, timer = null;
-  function ui() {
-    const pct = total ? (elapsed / total) * 100 : 0;
-    fill.style.width = pct + '%'; thumb.style.left = pct + '%';
-    curEl.textContent = fmtTime(elapsed);
-    durEl.textContent = '-' + fmtTime(total - elapsed);
+  if (audioUrl) {
+    const audio = new Audio(audioUrl);
+    function updateUI() {
+      const cur = audio.currentTime;
+      const dur = isFinite(audio.duration) ? audio.duration : (total || 1);
+      const pct = dur ? (cur / dur) * 100 : 0;
+      fill.style.width  = pct + '%'; thumb.style.left  = pct + '%';
+      curEl.textContent = fmtTime(Math.floor(cur));
+      durEl.textContent = '-' + fmtTime(Math.max(0, Math.floor(dur - cur)));
+    }
+    audio.addEventListener('timeupdate', updateUI);
+    audio.addEventListener('loadedmetadata', updateUI);
+    audio.addEventListener('ended', () => { playIcon.style.display = 'block'; pauseIcon.style.display = 'none'; });
+    playBtn.addEventListener('click', () => {
+      if (audio.paused) { audio.play(); playIcon.style.display = 'none'; pauseIcon.style.display = 'block'; }
+      else              { audio.pause(); playIcon.style.display = 'block'; pauseIcon.style.display = 'none'; }
+    });
+    const prev = document.getElementById(prefix + 'prevBtn');
+    const next = document.getElementById(prefix + 'nextBtn');
+    if (prev) prev.addEventListener('click', () => { audio.currentTime = 0; });
+    if (next) next.addEventListener('click', () => { audio.currentTime = 0; });
+    if (bar)  bar.addEventListener('click', e => {
+      const r   = bar.getBoundingClientRect();
+      const dur = isFinite(audio.duration) ? audio.duration : (total || 1);
+      audio.currentTime = ((e.clientX - r.left) / r.width) * dur;
+    });
+    curEl.textContent = '00:00';
+    durEl.textContent = '-' + fmtTime(total || 0);
+  } else {
+    // No audio URL — fake timer for UI preview
+    let elapsed = 0, playing = false, timer = null;
+    function ui() {
+      const pct = total ? (elapsed / total) * 100 : 0;
+      fill.style.width = pct + '%'; thumb.style.left = pct + '%';
+      curEl.textContent = fmtTime(elapsed);
+      durEl.textContent = '-' + fmtTime(total - elapsed);
+    }
+    function pause() { playing = false; playIcon.style.display = 'block'; pauseIcon.style.display = 'none'; clearInterval(timer); }
+    function play()  { playing = true;  playIcon.style.display = 'none';  pauseIcon.style.display = 'block';
+      timer = setInterval(() => { elapsed < total ? (elapsed++, ui()) : pause(); }, 1000); }
+    playBtn.addEventListener('click', () => playing ? pause() : play());
+    const prev = document.getElementById(prefix + 'prevBtn');
+    const next = document.getElementById(prefix + 'nextBtn');
+    if (prev) prev.addEventListener('click', () => { pause(); elapsed = 0; ui(); });
+    if (next) next.addEventListener('click', () => { pause(); elapsed = 0; ui(); });
+    if (bar)  bar.addEventListener('click', e => {
+      const r = bar.getBoundingClientRect();
+      elapsed = Math.round(((e.clientX - r.left) / r.width) * total); ui();
+    });
+    ui();
   }
-  function pause() { playing = false; playIcon.style.display = 'block'; pauseIcon.style.display = 'none'; clearInterval(timer); }
-  function play()  { playing = true;  playIcon.style.display = 'none';  pauseIcon.style.display = 'block';
-    timer = setInterval(() => { elapsed < total ? (elapsed++, ui()) : pause(); }, 1000); }
-
-  playBtn.addEventListener('click', () => playing ? pause() : play());
-  const prev = document.getElementById(prefix + 'prevBtn');
-  const next = document.getElementById(prefix + 'nextBtn');
-  if (prev) prev.addEventListener('click', () => { pause(); elapsed = 0; ui(); });
-  if (next) next.addEventListener('click', () => { pause(); elapsed = 0; ui(); });
-  if (bar)  bar.addEventListener('click', e => {
-    const r = bar.getBoundingClientRect();
-    elapsed = Math.round(((e.clientX - r.left) / r.width) * total); ui();
-  });
-  ui();
 }
 
 // ── NAV ───────────────────────────────────────
@@ -258,7 +288,7 @@ async function initHome() {
     const listenLink = document.getElementById('ep-listen');
     if (listenLink) listenLink.href = `episode.html?id=${ep.id}`;
     const wrap = document.getElementById('ep-player-wrap');
-    if (wrap) { wrap.innerHTML = playerHTML('ep-'); initPlayer(ep.duration, 'ep-'); }
+    if (wrap) { wrap.innerHTML = playerHTML('ep-'); initPlayer(ep.duration, 'ep-', ep.audioUrl); }
   }
 }
 
@@ -387,7 +417,7 @@ async function initEpisodePage() {
   document.getElementById('episode-tags').innerHTML     = tagsHTML(data, ep.categories);
 
   const wrap = document.getElementById('episode-player-wrap');
-  if (wrap) { wrap.innerHTML = playerHTML('ep-single-'); initPlayer(ep.duration, 'ep-single-'); }
+  if (wrap) { wrap.innerHTML = playerHTML('ep-single-'); initPlayer(ep.duration, 'ep-single-', ep.audioUrl); }
 
   const kwEl = document.getElementById('episode-keywords');
   if (kwEl) {
