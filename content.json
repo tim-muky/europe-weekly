@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 1773240424951,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -31,6 +31,18 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7sfjg6d",
+      "title": "France Opens Nuclear Deterrence to Europe in Historic Cold War-Scale Realignment",
+      "categories": [
+        "cat-1"
+      ],
+      "excerpt": "France's shift to 'forward deterrence' and nuclear cooperation with European allies marks a historic break from Gaullist nuclear sovereignty. Germany commits to Europe's strongest conventional army amid a Franco-German security pivot.",
+      "body": "France has initiated a historic shift in its nuclear doctrine, opening its deterrence capabilities to European allies in what President Macron calls \"forward deterrence\" (dissuasion avanc\u00e9e). This marks a significant departure from decades of Gaullist nuclear sovereignty.\n\nGermany, under Chancellor Merz, has committed to building Europe's strongest conventional army, including a permanent brigade deployment to Lithuania. The Franco-German axis is forming the backbone of a new European security architecture as NATO faces an uncertain future.\n\nKey developments include:\n- Joint nuclear steering groups and exercises between France and European allies\n- Germany's Baltic Brigade deployment as part of NATO's eastern flank reinforcement\n- Break from Gaullist tradition toward European strategic autonomy\n- Responses to perceived US unreliability and ongoing Russian aggression\n\nEconomic risks mount as Europe funds this massive defense overhaul, with fiscal challenges in both France and Germany. The move risks NATO decoupling and a potential arms race with Russia, but leaders like Macron, Merz, and Tusk see it as necessary for European security.\n\nThe \"\u00e9paulement\" doctrine represents France's new approach to nuclear deterrence, offering European partners a role in nuclear decision-making that was previously unthinkable under France's strictly independent force de frappe.",
+      "chartData": null,
+      "keywords": "France nuclear deterrence, forward deterrence, European strategic autonomy, Franco-German axis, German army expansion, President Macron, Chancellor Merz, \u00e9paulement doctrine, NATO cohesion",
+      "sources": "Arms Control Association (armscontrol.org); Le Monde (lemonde.fr); Anadolu Agency (aa.com.tr); \u00c9lys\u00e9e Palace speech (elysee.fr); Atlantic Council (atlanticcouncil.org); BNP Paribas economic forecasts; Federation of American Scientists"
+    },
     {
       "id": "article-4",
       "title": "France Opens Nuclear Deterrence to Europe in Historic Cold War-Scale Realignment",
@@ -95,6 +107,20 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-fy4p5xj",
+      "title": "Germany, France, Belgium, Netherlands - Nuclear Deterrence & European Defense",
+      "categories": [
+        "cat-1"
+      ],
+      "duration": 1320,
+      "audioUrl": "",
+      "coverArt": "",
+      "season": 2,
+      "episodeNumber": 19,
+      "keywords": "France nuclear deterrence, forward deterrence, European strategic autonomy, Franco-German axis, German army expansion, President Macron, Chancellor Merz, \u00e9paulement doctrine, NATO cohesion",
+      "description": "France's shift to 'forward deterrence' and nuclear cooperation with European allies marks a historic break from Gaullist nuclear sovereignty. Germany commits to Europe's strongest conventional army amid a Franco-German security pivot."
+    },
     {
       "id": "episode-4",
       "title": "Germany, France, Belgium, Netherlands - Nuclear Deterrence & European Defense",
