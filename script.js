@@ -248,8 +248,8 @@ function initPlayer(total, prefix, audioUrl) {
 function renderNav(data) {
   const al = document.getElementById('nav-articles');
   const el = document.getElementById('nav-episodes');
-  if (al) al.innerHTML = data.articles.map(a => `<li><a href="article.html?id=${a.id}">${escHtml(a.title)}</a></li>`).join('');
-  if (el) el.innerHTML = data.episodes.map(e => `<li><a href="episode.html?id=${e.id}">${escHtml(e.title)}</a></li>`).join('');
+  if (al) al.innerHTML = data.articles.slice(0, 3).map(a => `<li><a href="article.html?id=${a.id}">${escHtml(a.title)}</a></li>`).join('');
+  if (el) el.innerHTML = data.episodes.slice(0, 3).map(e => `<li><a href="episode.html?id=${e.id}">${escHtml(e.title)}</a></li>`).join('');
 }
 
 // ── HOME ──────────────────────────────────────

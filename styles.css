@@ -30,13 +30,12 @@ body {
 .site-header {
   position: relative;
   min-height: 500px;
-  /* Replace background.jpg with your own image */
-  background: url('background.jpg') center / cover no-repeat #FFE607;
+  background: url('favicon.png') center / cover no-repeat #87CEEB;
 }
 
 .site-nav {
   display: inline-block;
-  background: var(--yellow-nav);
+  background: transparent;
   padding: 28px 36px 28px;
   min-width: 240px;
   max-width: 320px;
@@ -100,7 +99,7 @@ body {
 /* ===== ARTICLE HEADER (detail / category pages) ===== */
 
 .article-header {
-  background: #fff;
+  background: #F1F1EC;
   padding: 20px 36px 0;
 }
 .article-nav {
@@ -303,12 +302,12 @@ a#preview-title-link:hover .content-title { text-decoration: underline; }
   padding-bottom: 6px;
 }
 .cat-item {
-  background: rgba(255,255,255,0.55);
+  background: transparent;
   border-radius: 4px;
   padding: 14px 18px;
   margin-bottom: 12px;
 }
-.cat-item--episode { background: rgba(255,255,255,0.35); }
+.cat-item--episode { background: transparent; }
 .cat-item-title {
   display: block;
   font-weight: 900;
@@ -792,6 +791,21 @@ a.cat-item-title:hover { text-decoration: underline; }
   color: #8ab0c8;
   line-height: 1.5;
 }
+
+/* ===== EPISODES LIST PAGE (dark blue) ===== */
+
+.episodes-list-page { background: #16487D; }
+.episodes-list-page .article-header { background: #16487D; border-bottom: 1px solid rgba(255,255,255,0.12); }
+.episodes-list-page .article-nav .nav-main-link { color: rgba(255,255,255,0.85); }
+.episodes-list-page .article-nav .nav-main-link:hover { opacity: 0.7; }
+.episodes-list-page .header-rule { border-color: rgba(255,255,255,0.12); }
+.episodes-list-page main { background: #16487D; }
+.episodes-list-page .list-page-heading { color: #fff; }
+.episodes-list-page .cat-item-title { color: #fff; }
+.episodes-list-page .cat-item-excerpt { color: rgba(255,255,255,0.72); }
+.episodes-list-page .ep-list-badge { color: #8ab4cc; }
+.episodes-list-page .tag { background: rgba(245,240,100,0.85); }
+.episodes-list-page .site-footer { background: rgba(0,0,0,0.25); }
 
 /* ===== RESPONSIVE ===== */
 
