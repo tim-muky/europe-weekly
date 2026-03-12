@@ -492,6 +492,7 @@ function generateRSSFeed(data) {
   const year     = new Date().getFullYear();
 
   return `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="podcast-feed.xsl"?>
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom"
