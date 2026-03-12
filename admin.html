@@ -159,6 +159,42 @@
         </div>
       </div>
 
+      <!-- Podcast Feed -->
+      <div class="admin-subsection">
+        <h3 class="admin-subsection-title">Podcast Feed</h3>
+        <p class="admin-hint">These details go into your self-hosted RSS feed. Click <strong>Export podcast-feed.xml</strong> in the Controls section to download the file.</p>
+        <div class="admin-subsection-fields">
+          <div class="admin-field">
+            <label class="admin-label">Podcast Title</label>
+            <input id="settings-podcast-title" class="admin-input" type="text" placeholder="Europe Weekly" />
+          </div>
+          <div class="admin-field">
+            <label class="admin-label">Description <small>(shown in Apple Podcasts, Spotify, etc.)</small></label>
+            <textarea id="settings-podcast-desc" class="admin-textarea" rows="3" placeholder="Brief description of your podcast…"></textarea>
+          </div>
+          <div class="admin-field">
+            <label class="admin-label">Cover Art URL <small>(1400 × 1400 px minimum)</small></label>
+            <input id="settings-podcast-cover" class="admin-input" type="url" placeholder="https://…/cover.jpg" />
+          </div>
+          <div class="admin-field">
+            <label class="admin-label">Author / Publisher Name</label>
+            <input id="settings-podcast-author" class="admin-input" type="text" placeholder="Europe Weekly" />
+          </div>
+          <div class="admin-field">
+            <label class="admin-label">Contact Email</label>
+            <input id="settings-podcast-email" class="admin-input" type="email" placeholder="contact@europe-weekly.eu" />
+          </div>
+          <div class="admin-field">
+            <label class="admin-label">iTunes Category</label>
+            <input id="settings-podcast-category" class="admin-input" type="text" placeholder="News" />
+          </div>
+          <div class="admin-field">
+            <label class="admin-label">Language <small>(ISO code — en, de, fr…)</small></label>
+            <input id="settings-podcast-language" class="admin-input" type="text" placeholder="en" style="max-width:90px" />
+          </div>
+        </div>
+      </div>
+
       <!-- About Page -->
       <div class="admin-subsection">
         <h3 class="admin-subsection-title">About Page</h3>
@@ -217,8 +253,9 @@
 
     <!-- ── CONTROLS ── -->
     <section class="admin-section admin-controls">
-      <button id="export-btn" class="admin-btn admin-btn--primary">Export content.json</button>
-      <button id="reset-btn"  class="admin-btn admin-btn--danger">Reset to defaults</button>
+      <button id="export-btn"     class="admin-btn admin-btn--primary">Export content.json</button>
+      <button id="export-rss-btn" class="admin-btn admin-btn--primary">Export podcast-feed.xml</button>
+      <button id="reset-btn"      class="admin-btn admin-btn--danger">Reset to defaults</button>
     </section>
 
   </main>

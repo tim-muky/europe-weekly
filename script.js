@@ -440,6 +440,81 @@ async function initEpisodePage() {
   if (notesEl) { notesEl.textContent = ep.notes || ''; notesEl.style.display = ep.notes ? '' : 'none'; }
 }
 
+// ── PODCAST RSS FEED GENERATOR ────────────────
+
+function generateRSSFeed(data) {
+  const siteUrl = 'https://europe-weekly.eu';
+  const pod     = (data.settings || {}).podcast || {};
+
+  function escXml(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function fmtDur(sec) {
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    const s = sec % 60;
+    return h > 0
+      ? `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`
+      : `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  }
+  function toRFC2822(dateStr) {
+    const d = dateStr ? new Date(dateStr) : null;
+    return (d && !isNaN(d)) ? d.toUTCString() : new Date().toUTCString();
+  }
+
+  const items = data.episodes.map(ep => {
+    const desc = escXml(ep.notes || ep.description || '');
+    const enc  = ep.audioUrl
+      ? `\n      <enclosure url="${escXml(ep.audioUrl)}" length="0" type="audio/mpeg"/>`
+      : '';
+    return `    <item>
+      <title>${escXml(ep.title)}</title>
+      <description>${desc}</description>${enc}
+      <guid isPermaLink="false">${escXml(ep.id)}</guid>
+      <pubDate>${toRFC2822(ep.pubDate)}</pubDate>
+      <link>${siteUrl}/episode.html?id=${encodeURIComponent(ep.id)}</link>
+      <itunes:duration>${fmtDur(ep.duration || 0)}</itunes:duration>
+      <itunes:season>${ep.season || 1}</itunes:season>
+      <itunes:episode>${ep.episodeNumber || 1}</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>`;
+  }).join('\n');
+
+  const title    = escXml(pod.title       || 'Europe Weekly');
+  const desc     = escXml(pod.description || '');
+  const author   = escXml(pod.author      || 'Europe Weekly');
+  const email    = escXml(pod.email       || '');
+  const cover    = escXml(pod.coverArt    || '');
+  const category = escXml(pod.category    || 'News');
+  const lang     = escXml(pod.language    || 'en');
+  const year     = new Date().getFullYear();
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>${title}</title>
+    <link>${siteUrl}</link>
+    <description>${desc}</description>
+    <language>${lang}</language>
+    <copyright>© ${year} ${author}</copyright>
+    <atom:link href="${siteUrl}/podcast-feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>${author}</itunes:author>
+    <itunes:owner>
+      <itunes:name>${author}</itunes:name>
+      <itunes:email>${email}</itunes:email>
+    </itunes:owner>${cover ? `\n    <itunes:image href="${cover}"/>` : ''}
+    <itunes:category text="${category}"/>
+    <itunes:explicit>false</itunes:explicit>
+${items}
+  </channel>
+</rss>`;
+}
+
 // ── ADMIN ─────────────────────────────────────
 
 async function initAdmin() {
@@ -470,6 +545,14 @@ async function initAdmin() {
     document.getElementById('settings-youtube').value   = social.youtube   || '';
     document.getElementById('settings-about').innerHTML   = pages.about   || '';
     document.getElementById('settings-imprint').innerHTML = pages.imprint || '';
+    const pod = s.podcast || {};
+    document.getElementById('settings-podcast-title').value    = pod.title       || '';
+    document.getElementById('settings-podcast-desc').value     = pod.description || '';
+    document.getElementById('settings-podcast-cover').value    = pod.coverArt    || '';
+    document.getElementById('settings-podcast-author').value   = pod.author      || '';
+    document.getElementById('settings-podcast-email').value    = pod.email       || '';
+    document.getElementById('settings-podcast-category').value = pod.category    || '';
+    document.getElementById('settings-podcast-language').value = pod.language    || '';
   }
 
   // Background image upload
@@ -494,6 +577,15 @@ async function initAdmin() {
     data.pages = data.pages || {};
     data.pages.about   = document.getElementById('settings-about').innerHTML;
     data.pages.imprint = document.getElementById('settings-imprint').innerHTML;
+    data.settings.podcast = {
+      title:       document.getElementById('settings-podcast-title').value.trim(),
+      description: document.getElementById('settings-podcast-desc').value.trim(),
+      coverArt:    document.getElementById('settings-podcast-cover').value.trim(),
+      author:      document.getElementById('settings-podcast-author').value.trim(),
+      email:       document.getElementById('settings-podcast-email').value.trim(),
+      category:    document.getElementById('settings-podcast-category').value.trim(),
+      language:    document.getElementById('settings-podcast-language').value.trim()
+    };
     save(); showSaved(this);
   });
 
@@ -634,6 +726,8 @@ async function initAdmin() {
         <div class="admin-form">
           <div class="admin-field"><label class="admin-label">Title</label>
             <input class="admin-input f-title" type="text" value="${escHtml(ep.title)}" /></div>
+          <div class="admin-field"><label class="admin-label">Publish Date <small>(used in RSS feed)</small></label>
+            <input class="admin-input f-pubdate" type="date" value="${ep.pubDate || ''}" style="max-width:180px" /></div>
           <div class="admin-field"><label class="admin-label">Duration <small>(MM:SS)</small></label>
             <input class="admin-input f-duration" type="text" placeholder="03:46" value="${mm}:${ss}" style="max-width:110px" /></div>
           <div class="admin-field"><label class="admin-label">Audio file URL <small>(optional)</small></label>
@@ -673,6 +767,7 @@ async function initAdmin() {
 
     div.querySelector('.btn-save').addEventListener('click', function () {
       ep.title         = div.querySelector('.f-title').value.trim();
+      ep.pubDate       = div.querySelector('.f-pubdate').value || '';
       ep.audioUrl      = div.querySelector('.f-audio').value.trim();
       ep.coverArt      = div.querySelector('.f-cover-url').value.trim();
       ep.season        = parseInt(div.querySelector('.f-season').value) || 1;
@@ -695,7 +790,7 @@ async function initAdmin() {
   }
 
   document.getElementById('add-episode-btn').addEventListener('click', () => {
-    const newEp = { id: 'episode-' + slugId(), title: 'New Episode', categories: [], duration: 0, audioUrl: '', coverArt: '', season: 1, episodeNumber: 1, keywords: '', notes: '' };
+    const newEp = { id: 'episode-' + slugId(), title: 'New Episode', categories: [], duration: 0, audioUrl: '', coverArt: '', season: 1, episodeNumber: 1, keywords: '', notes: '', pubDate: new Date().toISOString().slice(0, 10) };
     data.episodes.push(newEp); save();
     const wrap = document.getElementById('admin-episodes');
     appendEpisodeCard(wrap, newEp, true);
@@ -707,6 +802,13 @@ async function initAdmin() {
   document.getElementById('export-btn').addEventListener('click', () => {
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
     const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: 'content.json' });
+    a.click();
+  });
+
+  document.getElementById('export-rss-btn').addEventListener('click', () => {
+    const xml  = generateRSSFeed(data);
+    const blob = new Blob([xml], { type: 'application/rss+xml' });
+    const a    = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: 'podcast-feed.xml' });
     a.click();
   });
 
