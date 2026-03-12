@@ -100,13 +100,32 @@ console.log(`  Categories: ${data.categories.map(c => c.label).join(", ")}`);
 ```json
 {
   "version": 1741694400000,
-  "settings": { "backgroundImage": "", "social": { "instagram": "", "x": "", "youtube": "" } },
+  "settings": {
+    "backgroundImage": "",
+    "social": { "instagram": "", "x": "", "youtube": "" },
+    "podcast": {
+      "title": "Europe Weekly",
+      "description": "Independent media covering European politics, economics, and culture.",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "author": "Europe Weekly",
+      "email": "contact@europe-weekly.eu",
+      "category": "News",
+      "language": "en"
+    }
+  },
   "pages": { "about": "...", "imprint": "..." },
   "categories": [
     { "id": "cat-1", "label": "country category 1" }
   ],
   "articles": [ { "id": "article-1", "title": "...", ... } ],
-  "episodes": [ { "id": "episode-1", "title": "...", ... } ]
+  "episodes": [
+    {
+      "id": "episode-1", "title": "...", "pubDate": "2026-03-12",
+      "duration": 1320, "audioUrl": "https://audio.europe-weekly.eu/episode-1.mp3",
+      "coverArt": "", "season": 1, "episodeNumber": 1,
+      "keywords": "", "notes": "", "categories": []
+    }
+  ]
 }
 ```
 
@@ -400,18 +419,19 @@ def next_episode_number(data, season):
 
 def build_episode(episode_id, title, duration_mmss, audio_url,
                   cover_art, season, episode_number,
-                  category_ids, keywords="", notes=""):
+                  category_ids, keywords="", notes="", pub_date=""):
     """
     episode_id     : string — from Step 3
     title          : string — sentence case
     duration_mmss  : string — "MM:SS" or "H:MM:SS"
-    audio_url      : string — direct HTTPS URL to MP3, or ""
+    audio_url      : string — direct HTTPS URL to MP3 hosted on Cloudflare R2, or ""
     cover_art      : string — public HTTPS URL to image, or ""
     season         : int    — season number ≥ 1
     episode_number : int    — episode number within season ≥ 1
     category_ids   : list   — IDs from data["categories"]
     keywords       : string — comma-separated, or ""
     notes          : string — show notes, plain text, \\n\\n between paragraphs
+    pub_date       : string — ISO date "YYYY-MM-DD" (e.g. "2026-03-12"), used in RSS feed pubDate
     """
     if cover_art.startswith("data:"):
         raise ValueError("coverArt must be a public HTTPS URL, never a base64 data URL")
@@ -426,7 +446,8 @@ def build_episode(episode_id, title, duration_mmss, audio_url,
         "season":        int(season),
         "episodeNumber": int(episode_number),
         "keywords":      keywords.strip(),
-        "notes":         notes.strip()
+        "notes":         notes.strip(),
+        "pubDate":       pub_date.strip()
     }
 
 # Example usage
@@ -435,13 +456,14 @@ new_episode = build_episode(
     episode_id     = new_episode_id,
     title          = "The Trade Deal Explained",
     duration_mmss  = "28:00",
-    audio_url      = "https://media.rss.com/europe-weekly/episodes/s1e6-trade-deal.mp3",
-    cover_art      = "https://media.rss.com/europe-weekly/covers/s1e6.jpg",
+    audio_url      = "https://audio.europe-weekly.eu/europe-weekly-s1e6-trade-deal.mp3",
+    cover_art      = "https://audio.europe-weekly.eu/covers/s1e6.jpg",
     season         = season,
     episode_number = next_episode_number(data, season),
     category_ids   = selected_ids,
     keywords       = "trade, EU, economy, summit",
-    notes          = "This week we break down the EU trade deal agreed at the Brussels summit.\n\nWhat does it mean for businesses, consumers, and member states?"
+    notes          = "This week we break down the EU trade deal agreed at the Brussels summit.\n\nWhat does it mean for businesses, consumers, and member states?",
+    pub_date       = "2026-03-12"   # ISO date of publication
 )
 
 print(json.dumps(new_episode, indent=2))
@@ -465,7 +487,7 @@ function nextEpisodeNumber(data, season) {
 
 function buildEpisode({ episodeId, title, durationMmss, audioUrl,
                          coverArt, season, episodeNumber,
-                         categoryIds, keywords = "", notes = "" }) {
+                         categoryIds, keywords = "", notes = "", pubDate = "" }) {
   if (coverArt.startsWith("data:"))
     throw new Error("coverArt must be a public HTTPS URL, never a base64 data URL");
 
@@ -474,12 +496,13 @@ function buildEpisode({ episodeId, title, durationMmss, audioUrl,
     title:         title.trim(),
     categories:    categoryIds,
     duration:      parseMmss(durationMmss),
-    audioUrl:      audioUrl.trim(),
+    audioUrl:      audioUrl.trim(),     // Direct HTTPS URL to MP3 on Cloudflare R2
     coverArt:      coverArt.trim(),
     season:        Number(season),
     episodeNumber: Number(episodeNumber),
     keywords:      keywords.trim(),
-    notes:         notes.trim()
+    notes:         notes.trim(),
+    pubDate:       pubDate.trim()       // ISO date "YYYY-MM-DD", used in RSS feed pubDate
   };
 }
 
@@ -489,13 +512,14 @@ const newEpisode = buildEpisode({
   episodeId:     newEpisodeId,
   title:         "The Trade Deal Explained",
   durationMmss:  "28:00",
-  audioUrl:      "https://media.rss.com/europe-weekly/episodes/s1e6-trade-deal.mp3",
-  coverArt:      "https://media.rss.com/europe-weekly/covers/s1e6.jpg",
+  audioUrl:      "https://audio.europe-weekly.eu/europe-weekly-s1e6-trade-deal.mp3",
+  coverArt:      "https://audio.europe-weekly.eu/covers/s1e6.jpg",
   season,
   episodeNumber: nextEpisodeNumber(data, season),
   categoryIds:   selectedIds,
   keywords:      "trade, EU, economy, summit",
-  notes:         "This week we break down the EU trade deal agreed at the Brussels summit.\n\nWhat does it mean for businesses, consumers, and member states?"
+  notes:         "This week we break down the EU trade deal agreed at the Brussels summit.\n\nWhat does it mean for businesses, consumers, and member states?",
+  pubDate:       "2026-03-12"   // ISO date of publication
 });
 
 console.log(JSON.stringify(newEpisode, null, 2));
@@ -515,6 +539,7 @@ console.log(JSON.stringify(newEpisode, null, 2));
 | `episodeNumber` | number | ✅ | Integer ≥ 1. Must be higher than the last episode in the same season. |
 | `keywords` | string | ✅ | Comma-separated. `""` if none. |
 | `notes` | string | ✅ | Plain text. `\n\n` between paragraphs. First 120 characters shown as teaser on list page. `""` if none. |
+| `pubDate` | string | ✅ | ISO date `"YYYY-MM-DD"` (e.g. `"2026-03-12"`). Used as the `<pubDate>` tag in the RSS feed so podcast apps display the correct publication date and sort episodes correctly. Use the actual air date. `""` is accepted but will default to the current timestamp in the feed. |
 
 ### Duration conversion reference
 | Input | Seconds | Calculation |
@@ -725,7 +750,9 @@ console.log(`✅ content.json written — ${fs.statSync(CONTENT_FILE).size} byte
 **Why:** GitHub is the permanent source of truth. Every published state of `content.json` must be committed so that the file can be recovered if Cloudflare is redeployed and so future bot runs always start from the correct base.
 
 **Rules:**
-- Stage **only `content.json`** — never commit HTML, CSS, JS, images, or any other file.
+- When publishing an **article only**: stage `content.json` alone.
+- When publishing an **episode** (or both): stage `content.json` **and** `podcast-feed.xml` together in the same commit. See Step 8b for how to regenerate `podcast-feed.xml` server-side before staging it.
+- Never commit HTML, CSS, JS, images, or any other file.
 - The commit must be pushed to `main` before deploying to Cloudflare.
 
 ### Bash
@@ -735,12 +762,16 @@ cd /tmp/europe-weekly
 # Ensure remote includes the PAT (set once per environment)
 git remote set-url origin https://ghp_YOURTOKEN@github.com/tim-muky/europe-weekly.git
 
-# Stage only content.json
+# For an article: stage content.json only
 git add content.json
 
-# Confirm only content.json is staged
+# For an episode: stage content.json AND podcast-feed.xml
+# git add content.json podcast-feed.xml
+
+# Confirm what is staged
 git status
-# Expected: "Changes to be committed: modified: content.json"
+# Article:  "Changes to be committed: modified: content.json"
+# Episode:  "Changes to be committed: modified: content.json  modified: podcast-feed.xml"
 
 # Commit
 git commit -m "post: Add article – EU SUMMIT REACHES LANDMARK TRADE DEAL"
@@ -758,7 +789,8 @@ import subprocess, sys
 
 REPO_DIR = "/tmp/europe-weekly"
 GITHUB_TOKEN = "ghp_YOURTOKEN"
-POST_TITLE = new_article["title"]  # or new_episode["title"]
+POST_TITLE = new_article["title"]   # or new_episode["title"]
+IS_EPISODE = False                  # set True when publishing an episode
 
 def run(cmd, cwd=REPO_DIR):
     result = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
@@ -772,14 +804,19 @@ def run(cmd, cwd=REPO_DIR):
 run(["git", "remote", "set-url", "origin",
      f"https://{GITHUB_TOKEN}@github.com/tim-muky/europe-weekly.git"])
 
-# Stage only content.json
-run(["git", "add", "content.json"])
+# Stage content.json (always) + podcast-feed.xml (episode publishes only)
+files_to_stage = ["content.json"]
+if IS_EPISODE:
+    files_to_stage.append("podcast-feed.xml")
+run(["git", "add"] + files_to_stage)
 
-# Verify only content.json is staged
+# Verify staged files are exactly what we expect
 status = run(["git", "status", "--porcelain"])
 staged = [l for l in status.splitlines() if l.startswith(("M ", "A "))]
-if any("content.json" not in l for l in staged):
-    print(f"❌ Unexpected staged files: {staged}")
+allowed = set(files_to_stage)
+unexpected = [l for l in staged if not any(f in l for f in allowed)]
+if unexpected:
+    print(f"❌ Unexpected staged files: {unexpected}")
     sys.exit(1)
 
 # Commit
@@ -1037,11 +1074,14 @@ https.get(url, res => {
 2.  Read categories                         build label→ID map
 3.  Generate unique ID                      article-XXXXXXX / episode-XXXXXXX
 4a. Build Article object                    all 8 fields required
-4b. Build Episode object                    all 10 fields required
+4b. Build Episode object                    all 11 fields required (incl. pubDate, audioUrl)
+    └─ audioUrl = Cloudflare R2 public URL  upload MP3 to R2 first — see Appendix A
 5.  Prepend to array at position 0          insert(0,...) / unshift()
 6.  Set data.version = Date.now()           13-digit Unix ms timestamp
 7.  Validate + write content.json           check errors, then write + re-parse
-8.  git add content.json → commit → push    content.json only, message format: "post: ..."
+8b. (Episode only) Regenerate podcast-feed.xml  see Appendix B for server-side generator
+8.  git add + commit + push                 article: content.json only
+                                            episode: content.json + podcast-feed.xml
 9.  Cloudflare auto-deploys from GitHub     no bot action needed — push triggers deploy
     └─ fallback: npx wrangler pages deploy  only if GitHub integration is broken
 10. Verify via HTTPS fetch                  confirm version + [0] IDs match
@@ -1063,3 +1103,439 @@ https.get(url, res => {
 | Cover image not loading | `coverArt` set to a base64 `data:` URL | Replace with a public `https://` URL |
 | `chartData` missing from article | `chart_values` was falsy but field omitted | Always include `"chartData": null` even when no chart |
 | Episode duration shows `00:00` | `duration` set to `0` or left as string | Convert MM:SS to integer seconds in Step 4b |
+| Audio player silent / not loading | `audioUrl` is empty or not a public HTTPS URL | Upload MP3 to Cloudflare R2 first (Appendix A), then paste the public URL |
+| R2 audio file returns 403 | Public Development URL not enabled on bucket | In Cloudflare R2 bucket → Settings → Public Development URL → Enable |
+| Browser blocks audio from R2 | CORS policy missing or wrong origin | In R2 bucket → Settings → CORS Policy — verify `AllowedOrigins` includes `https://europe-weekly.eu` |
+| podcast-feed.xml not updated after new episode | Forgot to regenerate and commit the XML file | Run Appendix B generator after Step 7, stage `podcast-feed.xml` alongside `content.json` in Step 8 |
+| Podcast apps show wrong episode dates | `pubDate` is empty or missing | Set `pubDate` to the ISO air date `"YYYY-MM-DD"` in Step 4b |
+| Apple Podcasts / Spotify not updating to new feed | RSS.com redirect not set up | Log into RSS.com → Settings → Redirect Feed → paste `https://europe-weekly.eu/podcast-feed.xml` |
+
+---
+
+## Appendix A — Audio Hosting: Cloudflare R2
+
+All podcast audio files are hosted in a Cloudflare R2 bucket. The bucket is separate from the Cloudflare Pages deployment. This section documents the bucket configuration and the per-episode upload workflow.
+
+### Bucket details
+
+| Property | Value |
+|---|---|
+| Bucket name | `europe-weekly-audio` |
+| Account ID | `346420fbb345201f091a6daf86735346` |
+| Location | Eastern Europe (EEUR) |
+| S3 API endpoint | `https://346420fbb345201f091a6daf86735346.r2.cloudflarestorage.com/europe-weekly-audio` |
+| Public Development URL | `https://pub-d8a18f8b52924560b2674b95d11a7ae7.r2.dev` |
+| Custom domain (preferred) | `https://audio.europe-weekly.eu` |
+
+### Bucket settings that must be active
+
+These were configured once and must remain active. If audio stops working, check these first.
+
+| Setting | Location in Cloudflare dashboard | Required value |
+|---|---|---|
+| Public access | R2 → europe-weekly-audio → Settings → Public Development URL | **Enabled** |
+| Custom domain | R2 → europe-weekly-audio → Settings → Custom Domains | `audio.europe-weekly.eu` → Active |
+| CORS policy | R2 → europe-weekly-audio → Settings → CORS Policy | See CORS block below |
+
+**Required CORS policy (must be saved in bucket settings):**
+```json
+[
+  {
+    "AllowedOrigins": ["https://europe-weekly.eu"],
+    "AllowedMethods": ["GET", "HEAD"],
+    "AllowedHeaders": ["*"],
+    "MaxAgeSeconds": 86400
+  }
+]
+```
+
+### File naming convention
+
+Every audio file uploaded to R2 must follow this naming pattern — no spaces, no special characters, lowercase only:
+
+```
+europe-weekly-s{SEASON}e{EPISODE}-{short-slug}.mp3
+```
+
+Examples:
+```
+europe-weekly-s2e24-france-nuclear-update.mp3
+europe-weekly-s2e25-poland-elections.mp3
+europe-weekly-podcast-cover.jpg          ← show cover art (1400×1400 px minimum)
+```
+
+### Per-episode upload steps (manual, via Cloudflare dashboard)
+
+These steps are performed by a human before the bot runs, because the bot does not have R2 write access by default.
+
+1. Record and export the episode as an MP3
+2. Rename the file following the naming convention above (no spaces)
+3. Log into [dash.cloudflare.com](https://dash.cloudflare.com)
+4. Navigate to **R2 Object Storage → europe-weekly-audio → Objects**
+5. Click **"Upload"** → drag the MP3 file into the upload area → click **"Upload"**
+6. Wait for the upload to complete (a 30-minute episode at 128 kbps ≈ 27 MB)
+7. Click on the filename in the object list to open its details
+8. Copy the **"Object URL"** — it will look like:
+   ```
+   https://audio.europe-weekly.eu/europe-weekly-s2e24-france-nuclear-update.mp3
+   ```
+9. Pass this URL to the bot as the `audio_url` / `audioUrl` parameter in Step 4b
+
+### Per-episode upload steps (automated, via R2 S3-compatible API)
+
+The bot can upload files programmatically using the S3-compatible API. This requires an R2 API token with **Object Read & Write** permissions.
+
+**Generate an R2 API token:**
+1. Cloudflare dashboard → R2 → Manage R2 API Tokens → Create API Token
+2. Permissions: **Object Read & Write**
+3. Scope: Specific bucket → `europe-weekly-audio`
+4. Save the **Access Key ID** and **Secret Access Key** — they are shown only once
+
+**Python upload using boto3:**
+```python
+import boto3, os
+
+R2_ACCOUNT_ID    = "346420fbb345201f091a6daf86735346"
+R2_ACCESS_KEY    = "YOUR_R2_ACCESS_KEY_ID"
+R2_SECRET_KEY    = "YOUR_R2_SECRET_ACCESS_KEY"
+R2_BUCKET        = "europe-weekly-audio"
+R2_ENDPOINT      = f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
+CUSTOM_DOMAIN    = "https://audio.europe-weekly.eu"
+
+def upload_audio(local_path: str) -> str:
+    """
+    Upload an MP3 file to R2 and return its public URL.
+    local_path: absolute path to the MP3, e.g. "/tmp/europe-weekly-s2e24-france.mp3"
+    Returns: "https://audio.europe-weekly.eu/europe-weekly-s2e24-france.mp3"
+    """
+    filename = os.path.basename(local_path)
+
+    # Validate filename — no spaces, no uppercase
+    if " " in filename:
+        raise ValueError(f"Filename must not contain spaces: {filename}")
+    if filename != filename.lower():
+        raise ValueError(f"Filename must be lowercase: {filename}")
+    if not filename.endswith(".mp3"):
+        raise ValueError(f"File must be an MP3: {filename}")
+
+    s3 = boto3.client(
+        "s3",
+        endpoint_url         = R2_ENDPOINT,
+        aws_access_key_id    = R2_ACCESS_KEY,
+        aws_secret_access_key= R2_SECRET_KEY,
+        region_name          = "auto"
+    )
+
+    print(f"Uploading {filename} to R2...")
+    s3.upload_file(
+        local_path,
+        R2_BUCKET,
+        filename,
+        ExtraArgs={"ContentType": "audio/mpeg"}
+    )
+
+    public_url = f"{CUSTOM_DOMAIN}/{filename}"
+    print(f"✅ Uploaded: {public_url}")
+    return public_url
+
+# Usage
+audio_url = upload_audio("/tmp/europe-weekly-s2e24-france-nuclear-update.mp3")
+# Pass audio_url as the audio_url parameter in build_episode()
+```
+
+**JavaScript (Node.js) upload using @aws-sdk/client-s3:**
+```javascript
+const { S3Client, PutObjectCommand } = require("@aws-sdk/client-s3");
+const fs   = require("fs");
+const path = require("path");
+
+const R2_ACCOUNT_ID = "346420fbb345201f091a6daf86735346";
+const R2_ACCESS_KEY = "YOUR_R2_ACCESS_KEY_ID";
+const R2_SECRET_KEY = "YOUR_R2_SECRET_ACCESS_KEY";
+const R2_BUCKET     = "europe-weekly-audio";
+const CUSTOM_DOMAIN = "https://audio.europe-weekly.eu";
+
+const s3 = new S3Client({
+  endpoint:    `https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
+  region:      "auto",
+  credentials: { accessKeyId: R2_ACCESS_KEY, secretAccessKey: R2_SECRET_KEY }
+});
+
+async function uploadAudio(localPath) {
+  const filename = path.basename(localPath);
+
+  if (filename.includes(" ")) throw new Error(`Filename must not contain spaces: ${filename}`);
+  if (filename !== filename.toLowerCase()) throw new Error(`Filename must be lowercase: ${filename}`);
+  if (!filename.endsWith(".mp3")) throw new Error(`File must be an MP3: ${filename}`);
+
+  const body = fs.readFileSync(localPath);
+
+  console.log(`Uploading ${filename} to R2...`);
+  await s3.send(new PutObjectCommand({
+    Bucket:      R2_BUCKET,
+    Key:         filename,
+    Body:        body,
+    ContentType: "audio/mpeg"
+  }));
+
+  const publicUrl = `${CUSTOM_DOMAIN}/${filename}`;
+  console.log(`✅ Uploaded: ${publicUrl}`);
+  return publicUrl;
+}
+
+// Usage (async context required)
+const audioUrl = await uploadAudio("/tmp/europe-weekly-s2e24-france-nuclear-update.mp3");
+// Pass audioUrl as the audioUrl parameter in buildEpisode()
+```
+
+**Install dependencies:**
+```bash
+# Python
+pip install boto3
+
+# Node.js
+npm install @aws-sdk/client-s3
+```
+
+### Free tier limits
+
+| Resource | Free allowance | Typical usage |
+|---|---|---|
+| Storage | 10 GB | ≈ 370 × 30-min episodes at 128 kbps |
+| Egress bandwidth | **Free** (Cloudflare CDN — no egress fees) | Unlimited |
+| Class A operations (writes) | 1 million / month | One upload per episode |
+| Class B operations (reads) | 10 million / month | Listener downloads |
+
+You will not be charged unless you store more than 10 GB of audio files.
+
+---
+
+## Appendix B — Podcast RSS Feed: Server-Side Generator
+
+The file `podcast-feed.xml` lives in the repository root and is served at `https://europe-weekly.eu/podcast-feed.xml`. It must be regenerated every time a new episode is published and committed to the repo alongside `content.json`.
+
+The browser-side generator lives in `script.js` (`generateRSSFeed()`). The functions below are the exact server-side equivalents for use in automated publishing scripts.
+
+### What the RSS feed contains
+
+- **Channel metadata**: title, description, cover art, author, email, iTunes category, language — read from `data.settings.podcast`
+- **One `<item>` per episode**: title, description (from `notes`), audio enclosure URL, GUID, pubDate, duration, season, episode number
+- **Self-referencing `<atom:link>`**: tells podcast apps the canonical feed URL is `https://europe-weekly.eu/podcast-feed.xml`
+
+### Python generator
+```python
+from datetime import datetime, timezone
+
+def generate_rss_feed(data, site_url="https://europe-weekly.eu"):
+    """
+    Generate podcast RSS 2.0 / iTunes XML from content.json data.
+    Returns the XML string. Write it to podcast-feed.xml in the repo root.
+    """
+    def esc_xml(s):
+        return str(s or "").replace("&","&amp;").replace("<","&lt;") \
+                           .replace(">","&gt;").replace('"',"&quot;")
+
+    def fmt_dur(sec):
+        sec = int(sec or 0)
+        h, rem = divmod(sec, 3600)
+        m, s   = divmod(rem, 60)
+        return f"{h}:{m:02d}:{s:02d}" if h > 0 else f"{m:02d}:{s:02d}"
+
+    def to_rfc2822(date_str):
+        if date_str:
+            try:
+                d = datetime.fromisoformat(str(date_str))
+                if d.tzinfo is None:
+                    d = d.replace(tzinfo=timezone.utc)
+                return d.strftime("%a, %d %b %Y %H:%M:%S +0000")
+            except Exception:
+                pass
+        return datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+    pod      = (data.get("settings") or {}).get("podcast") or {}
+    title    = esc_xml(pod.get("title")       or "Europe Weekly")
+    desc     = esc_xml(pod.get("description") or "")
+    author   = esc_xml(pod.get("author")      or "Europe Weekly")
+    email    = esc_xml(pod.get("email")       or "")
+    cover    = esc_xml(pod.get("coverArt")    or "")
+    category = esc_xml(pod.get("category")    or "News")
+    lang     = esc_xml(pod.get("language")    or "en")
+    year     = datetime.now().year
+    cover_tag = f'\n    <itunes:image href="{cover}"/>' if cover else ""
+
+    items = []
+    for ep in data.get("episodes", []):
+        desc_ep = esc_xml(ep.get("notes") or ep.get("description") or "")
+        enc = (f'\n      <enclosure url="{esc_xml(ep["audioUrl"])}" '
+               f'length="0" type="audio/mpeg"/>') if ep.get("audioUrl") else ""
+        items.append(f"""    <item>
+      <title>{esc_xml(ep.get("title",""))}</title>
+      <description>{desc_ep}</description>{enc}
+      <guid isPermaLink="false">{esc_xml(ep.get("id",""))}</guid>
+      <pubDate>{to_rfc2822(ep.get("pubDate",""))}</pubDate>
+      <link>{site_url}/episode.html?id={ep.get("id","")}</link>
+      <itunes:duration>{fmt_dur(ep.get("duration",0))}</itunes:duration>
+      <itunes:season>{ep.get("season",1)}</itunes:season>
+      <itunes:episode>{ep.get("episodeNumber",1)}</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>""")
+
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{title}</title>
+    <link>{site_url}</link>
+    <description>{desc}</description>
+    <language>{lang}</language>
+    <copyright>© {year} {author}</copyright>
+    <atom:link href="{site_url}/podcast-feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>{author}</itunes:author>
+    <itunes:owner>
+      <itunes:name>{author}</itunes:name>
+      <itunes:email>{email}</itunes:email>
+    </itunes:owner>{cover_tag}
+    <itunes:category text="{category}"/>
+    <itunes:explicit>false</itunes:explicit>
+{"".join(items)}
+  </channel>
+</rss>"""
+
+
+# ── Usage (call this AFTER Steps 5–7, before Step 8 git commit) ────────────
+import os
+
+REPO_DIR     = "/tmp/europe-weekly"
+RSS_FILE     = os.path.join(REPO_DIR, "podcast-feed.xml")
+
+xml = generate_rss_feed(data)
+
+with open(RSS_FILE, "w", encoding="utf-8") as f:
+    f.write(xml)
+
+print(f"✅ podcast-feed.xml written — {os.path.getsize(RSS_FILE)} bytes")
+
+# Then in Step 8, stage it alongside content.json:
+#   run(["git", "add", "content.json", "podcast-feed.xml"])
+```
+
+### JavaScript (Node.js) generator
+```javascript
+const fs   = require("fs");
+const path = require("path");
+
+function generateRSSFeed(data, siteUrl = "https://europe-weekly.eu") {
+  const pod = (data.settings || {}).podcast || {};
+
+  function escXml(str) {
+    return String(str || "")
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  function fmtDur(sec) {
+    sec = Math.floor(sec || 0);
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    const s = sec % 60;
+    return h > 0
+      ? `${h}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`
+      : `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+  }
+  function toRFC2822(dateStr) {
+    const d = dateStr ? new Date(dateStr) : null;
+    return (d && !isNaN(d)) ? d.toUTCString() : new Date().toUTCString();
+  }
+
+  const items = data.episodes.map(ep => {
+    const desc = escXml(ep.notes || ep.description || "");
+    const enc  = ep.audioUrl
+      ? `\n      <enclosure url="${escXml(ep.audioUrl)}" length="0" type="audio/mpeg"/>`
+      : "";
+    return `    <item>
+      <title>${escXml(ep.title)}</title>
+      <description>${desc}</description>${enc}
+      <guid isPermaLink="false">${escXml(ep.id)}</guid>
+      <pubDate>${toRFC2822(ep.pubDate)}</pubDate>
+      <link>${siteUrl}/episode.html?id=${encodeURIComponent(ep.id)}</link>
+      <itunes:duration>${fmtDur(ep.duration)}</itunes:duration>
+      <itunes:season>${ep.season || 1}</itunes:season>
+      <itunes:episode>${ep.episodeNumber || 1}</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>`;
+  }).join("\n");
+
+  const title    = escXml(pod.title       || "Europe Weekly");
+  const desc     = escXml(pod.description || "");
+  const author   = escXml(pod.author      || "Europe Weekly");
+  const email    = escXml(pod.email       || "");
+  const cover    = escXml(pod.coverArt    || "");
+  const category = escXml(pod.category    || "News");
+  const lang     = escXml(pod.language    || "en");
+  const year     = new Date().getFullYear();
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>${title}</title>
+    <link>${siteUrl}</link>
+    <description>${desc}</description>
+    <language>${lang}</language>
+    <copyright>© ${year} ${author}</copyright>
+    <atom:link href="${siteUrl}/podcast-feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>${author}</itunes:author>
+    <itunes:owner>
+      <itunes:name>${author}</itunes:name>
+      <itunes:email>${email}</itunes:email>
+    </itunes:owner>${cover ? `\n    <itunes:image href="${cover}"/>` : ""}
+    <itunes:category text="${category}"/>
+    <itunes:explicit>false</itunes:explicit>
+${items}
+  </channel>
+</rss>`;
+}
+
+// ── Usage (call this AFTER Steps 5–7, before Step 8 git commit) ────────────
+const REPO_DIR = "/tmp/europe-weekly";
+const RSS_FILE = path.join(REPO_DIR, "podcast-feed.xml");
+
+const xml = generateRSSFeed(data);
+fs.writeFileSync(RSS_FILE, xml, "utf-8");
+
+console.log(`✅ podcast-feed.xml written — ${fs.statSync(RSS_FILE).size} bytes`);
+
+// Then in Step 8, stage it alongside content.json:
+//   run(`git add content.json podcast-feed.xml`);
+```
+
+### Podcast settings in content.json
+
+The RSS feed reads its channel-level metadata from `data.settings.podcast`. This object must exist with all seven fields. If a field is missing the generator falls back to safe defaults.
+
+| Field | Path in content.json | RSS tag it populates | Example value |
+|---|---|---|---|
+| `title` | `settings.podcast.title` | `<title>` | `"Europe Weekly"` |
+| `description` | `settings.podcast.description` | `<description>` and `<itunes:summary>` | `"Independent media covering..."` |
+| `coverArt` | `settings.podcast.coverArt` | `<itunes:image href="..."/>` | `"https://audio.europe-weekly.eu/podcast-cover.jpg"` |
+| `author` | `settings.podcast.author` | `<itunes:author>` and `<itunes:owner><itunes:name>` | `"Europe Weekly"` |
+| `email` | `settings.podcast.email` | `<itunes:owner><itunes:email>` | `"contact@europe-weekly.eu"` |
+| `category` | `settings.podcast.category` | `<itunes:category text="..."/>` | `"News"` |
+| `language` | `settings.podcast.language` | `<language>` | `"en"` |
+
+To update these settings: use the **admin CMS** (`admin.html` → Settings → Podcast Feed → Save Settings → Export content.json). The exported `content.json` will contain the updated `settings.podcast` object. The bot reads this automatically in Step 1.
+
+### Podcast directory redirect (one-time setup)
+
+When migrating from RSS.com to self-hosted:
+
+1. **RSS.com**: Log in → podcast dashboard → Settings → **"Redirect Feed"** → enter `https://europe-weekly.eu/podcast-feed.xml` → Save. RSS.com will add `<itunes:new-feed-url>` to the old feed and return HTTP 301. All podcast apps that follow redirects will migrate subscribers automatically within 24–48 hours.
+
+2. **Apple Podcasts Connect** ([podcastsconnect.apple.com](https://podcastsconnect.apple.com)): Select show → Settings → Feed URL → update to `https://europe-weekly.eu/podcast-feed.xml`.
+
+3. **Spotify for Podcasters** ([podcasters.spotify.com](https://podcasters.spotify.com)): Settings → RSS Feed → update URL.
+
+4. Keep the RSS.com account active for at least 3–6 months so the redirect covers lagging subscribers before cancelling.
