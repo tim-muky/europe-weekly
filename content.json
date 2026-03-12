@@ -1,5 +1,5 @@
 {
-  "version": 1773247986091,
+  "version": 1773333617736,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -155,6 +155,19 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-4o4a7ez",
+      "title": "Europe Weekly - March 12, 2026",
+      "categories": [],
+      "duration": 1370,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e24-daily-news.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 24,
+      "keywords": "Portugal, Spain, Italy, Greece",
+      "notes": "",
+      "pubDate": "2026-03-12"
+    },
     {
       "id": "episode-b7sxe3r",
       "title": "Germany, France, Belgium, Netherlands - France Opens Nuclear Deterrence to Europ...",
