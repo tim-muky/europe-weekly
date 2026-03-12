@@ -29,7 +29,7 @@ body {
 
 .site-header {
   position: relative;
-  min-height: 500px;
+  min-height: 720px;
   background: url('favicon.png') center / cover no-repeat #87CEEB;
 }
 
@@ -37,15 +37,12 @@ body {
   display: inline-block;
   background: transparent;
   padding: 28px 36px 28px;
-  min-width: 240px;
-  max-width: 320px;
+  width: 45%;
+  min-width: 220px;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
-  max-height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 /* ===== NAV ===== */
@@ -617,6 +614,18 @@ a.cat-item-title:hover { text-decoration: underline; }
   resize: vertical;
 }
 .admin-textarea:focus { outline: 2px solid #5a9fd4; border-color: transparent; }
+
+/* Rich-text contenteditable fields */
+.admin-richtext {
+  min-height: 80px;
+  cursor: text;
+  resize: vertical;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  line-height: 1.55;
+}
+.admin-richtext:focus { outline: 2px solid #5a9fd4; border-color: transparent; }
+.admin-richtext:empty::before { content: attr(data-placeholder); color: #aaa; }
 .admin-item-actions { display: flex; gap: 10px; margin-top: 4px; }
 
 /* Inputs & buttons */
