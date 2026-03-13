@@ -1,5 +1,5 @@
 {
-  "version": 1773410557274,
+  "version": 1773410568333,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -77,6 +77,10 @@
     {
       "id": "cat-d8v8u9s",
       "label": "Slovenia"
+    },
+    {
+      "id": "cat-x5njuro",
+      "label": "Romania"
     }
   ],
   "articles": [
