@@ -704,6 +704,22 @@ a.cat-item-title:hover { text-decoration: underline; }
 
 .admin-save-row { margin-top: 20px; }
 
+/* GitHub sync status bar */
+.gh-status {
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  min-height: 0;
+  transition: padding 0.15s, margin 0.15s;
+}
+.gh-status:not(:empty) {
+  padding: 9px 14px;
+  margin-bottom: 16px;
+}
+.gh-status--pending { background: #fff3cd; color: #856404; }
+.gh-status--success { background: #d1e7dd; color: #0a3622; }
+.gh-status--error   { background: #f8d7da; color: #842029; }
+
 /* Season·Episode badge on light backgrounds (episodes list) */
 .ep-list-badge {
   color: #3a6a8a;

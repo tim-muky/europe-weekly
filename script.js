@@ -8,14 +8,72 @@
 
 const CMS_KEY = 'ew-cms-data';
 
+// ── GITHUB INTEGRATION ────────────────────────
+// PAT is stored in sessionStorage only — cleared on tab close, never committed.
+
+const GH_REPO      = 'tim-muky/europe-weekly';
+const GH_FILE      = 'content.json';
+const GH_BRANCH    = 'main';
+const GH_API_URL   = `https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`;
+const GH_TOKEN_KEY = 'ew-gh-token';
+const GH_SHA_KEY   = 'ew-gh-sha';
+
+function getGHToken() { return sessionStorage.getItem(GH_TOKEN_KEY) || ''; }
+function setGHToken(t) { t ? sessionStorage.setItem(GH_TOKEN_KEY, t) : sessionStorage.removeItem(GH_TOKEN_KEY); }
+
+async function fetchFromGitHub(token) {
+  const res = await fetch(`${GH_API_URL}?ref=${GH_BRANCH}&t=${Date.now()}`, {
+    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+  });
+  if (!res.ok) throw Object.assign(new Error('GH fetch ' + res.status), { status: res.status });
+  const { content, sha } = await res.json();
+  const data = JSON.parse(atob(content.replace(/\s/g, '')));
+  return { data, sha };
+}
+
+async function pushToGitHub(token, data, sha, message) {
+  const json    = JSON.stringify(data, null, 2) + '\n';
+  const content = btoa(unescape(encodeURIComponent(json)));
+  const res = await fetch(GH_API_URL, {
+    method: 'PUT',
+    headers: {
+      Authorization:  `token ${token}`,
+      Accept:         'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ message, content, sha, branch: GH_BRANCH })
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw Object.assign(new Error('GH push ' + res.status), { status: res.status, ghErr: err });
+  }
+  return (await res.json()).content.sha;
+}
+
 async function getData() {
-  // Load whatever is cached locally first
+  const token   = getGHToken();
+  const isAdmin = document.body?.classList.contains('admin-page');
+
+  // On the admin page with a token: always read from GitHub — single source of truth.
+  // This ensures deletions, settings and categories made in the CMS are never
+  // overwritten by an older published content.json.
+  if (token && isAdmin) {
+    try {
+      const { data, sha } = await fetchFromGitHub(token);
+      sessionStorage.setItem(GH_SHA_KEY, sha);
+      localStorage.setItem(CMS_KEY, JSON.stringify(data));
+      return data;
+    } catch (e) {
+      console.warn('GitHub fetch failed — falling back to local cache:', e);
+    }
+  }
+
+  // Public pages (or no token): compare local cache with published content.json
+  // so bot-published updates propagate to returning visitors automatically.
   const raw = localStorage.getItem(CMS_KEY);
   let local = null;
   if (raw) { try { local = JSON.parse(raw); } catch (e) { /* corrupt */ } }
 
-  // Always fetch content.json and compare versions so bot-published updates
-  // propagate to returning visitors automatically.
   try {
     const res    = await fetch('content.json?v=' + Date.now());
     const remote = await res.json();
@@ -516,13 +574,68 @@ ${items}
 </rss>`;
 }
 
+// ── GITHUB PUSH STATUS ────────────────────────
+
+function showGHStatus(msg, type) {
+  const el = document.getElementById('gh-status');
+  if (!el) return;
+  el.textContent = msg;
+  el.className = 'gh-status' + (type ? ' gh-status--' + type : '');
+  if (type === 'success') {
+    setTimeout(() => {
+      if (el.textContent === msg) { el.textContent = ''; el.className = 'gh-status'; }
+    }, 4000);
+  }
+}
+
+async function pushDataToGitHub(message) {
+  const token = getGHToken();
+  if (!token) return;               // No token — localStorage is authoritative
+
+  const raw = localStorage.getItem(CMS_KEY);
+  if (!raw) return;
+  const data = JSON.parse(raw);
+
+  showGHStatus('Pushing to GitHub…', 'pending');
+
+  let sha = sessionStorage.getItem(GH_SHA_KEY);
+  try {
+    if (!sha) {
+      // No SHA cached yet — fetch it first (e.g. token was just entered this session)
+      const fetched = await fetchFromGitHub(token);
+      sha = fetched.sha;
+      sessionStorage.setItem(GH_SHA_KEY, sha);
+    }
+    const newSha = await pushToGitHub(token, data, sha, message);
+    sessionStorage.setItem(GH_SHA_KEY, newSha);
+    showGHStatus('Pushed to GitHub ✓', 'success');
+  } catch (e) {
+    // 409 / 422 = conflict (file changed on GitHub since last fetch) — retry with fresh SHA
+    if (e.status === 409 || e.status === 422) {
+      try {
+        const { sha: freshSha } = await fetchFromGitHub(token);
+        sessionStorage.setItem(GH_SHA_KEY, freshSha);
+        const newSha = await pushToGitHub(token, data, freshSha, message + ' (retry)');
+        sessionStorage.setItem(GH_SHA_KEY, newSha);
+        showGHStatus('Pushed to GitHub ✓', 'success');
+      } catch (e2) {
+        showGHStatus('GitHub push failed — check token / network.', 'error');
+        console.error('GitHub push failed (retry):', e2);
+      }
+    } else {
+      showGHStatus('GitHub push failed — check token / network.', 'error');
+      console.error('GitHub push failed:', e);
+    }
+  }
+}
+
 // ── ADMIN ─────────────────────────────────────
 
 async function initAdmin() {
   let data = await getData();
   renderFooter(data);
 
-  function save() { setData(data); }
+  function save(msg) { setData(data); pushDataToGitHub(msg || 'cms: update'); }
 
   function showSaved(btn) {
     const orig = btn.textContent;
@@ -554,6 +667,8 @@ async function initAdmin() {
     document.getElementById('settings-podcast-email').value    = pod.email       || '';
     document.getElementById('settings-podcast-category').value = pod.category    || '';
     document.getElementById('settings-podcast-language').value = pod.language    || '';
+    const tokenEl = document.getElementById('settings-gh-token');
+    if (tokenEl) tokenEl.value = getGHToken();
   }
 
   // Background image upload
@@ -587,13 +702,10 @@ async function initAdmin() {
       category:    document.getElementById('settings-podcast-category').value.trim(),
       language:    document.getElementById('settings-podcast-language').value.trim()
     };
-    save();
+    const tokenVal = (document.getElementById('settings-gh-token')?.value ?? '').trim();
+    setGHToken(tokenVal);
+    save('cms: update settings');
     showSaved(this);
-    // Auto-export content.json so settings are never lost on the next bot publish.
-    // Settings only live in GitHub if they're included in the pushed content.json.
-    const blob = new Blob([JSON.stringify(data, null, 2) + '\n'], { type: 'application/json' });
-    const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: 'content.json' });
-    a.click();
   });
 
   // ── Categories ──────────────────────────────
@@ -610,7 +722,7 @@ async function initAdmin() {
     ul.querySelectorAll('input[data-id]').forEach(inp => {
       inp.addEventListener('change', () => {
         const c = data.categories.find(c => c.id === inp.dataset.id);
-        if (c) { c.label = inp.value.trim(); save(); renderArticles(); renderEpisodes(); }
+        if (c) { c.label = inp.value.trim(); save('cms: update categories'); renderArticles(); renderEpisodes(); }
       });
     });
     ul.querySelectorAll('[data-del]').forEach(btn => {
@@ -620,7 +732,7 @@ async function initAdmin() {
         data.categories = data.categories.filter(c => c.id !== id);
         data.articles.forEach(a => { a.categories = a.categories.filter(x => x !== id); });
         data.episodes.forEach(e => { e.categories = e.categories.filter(x => x !== id); });
-        save(); renderCategories(); renderArticles(); renderEpisodes();
+        save('cms: delete category'); renderCategories(); renderArticles(); renderEpisodes();
       });
     });
   }
@@ -629,7 +741,7 @@ async function initAdmin() {
     const inp = document.getElementById('new-cat-input');
     const label = inp.value.trim(); if (!label) return;
     data.categories.push({ id: 'cat-' + slugId(), label });
-    inp.value = ''; save(); renderCategories(); renderArticles(); renderEpisodes();
+    inp.value = ''; save('cms: add category'); renderCategories(); renderArticles(); renderEpisodes();
   });
 
   // ── Articles ────────────────────────────────
@@ -695,19 +807,19 @@ async function initAdmin() {
       } else { article.chartData = null; }
       article.categories = collectCategories(div);
       div.querySelector('.admin-summary').textContent = article.title;
-      save(); showSaved(this);
+      save('cms: update article – ' + article.title); showSaved(this);
     });
     div.querySelector('.btn-delete').addEventListener('click', () => {
       if (!confirm(`Delete "${article.title}"?`)) return;
       data.articles = data.articles.filter(a => a.id !== article.id);
-      save(); wrap.removeChild(div);
+      save('cms: delete article – ' + article.title); wrap.removeChild(div);
     });
     wrap.appendChild(div);
   }
 
   document.getElementById('add-article-btn').addEventListener('click', () => {
     const newArt = { id: 'article-' + slugId(), title: 'New Article', categories: [], excerpt: '', body: '', chartData: null, keywords: '', sources: '' };
-    data.articles.push(newArt); save();
+    data.articles.push(newArt); save('cms: add article');
     const wrap = document.getElementById('admin-articles');
     appendArticleCard(wrap, newArt, true);
     wrap.lastElementChild.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -786,19 +898,19 @@ async function initAdmin() {
       ep.duration = parts.length === 2 ? (parseInt(parts[0]) || 0) * 60 + (parseInt(parts[1]) || 0) : parseInt(dStr) || 0;
       ep.categories = collectCategories(div);
       div.querySelector('.admin-summary').textContent = ep.title;
-      save(); showSaved(this);
+      save('cms: update episode – ' + ep.title); showSaved(this);
     });
     div.querySelector('.btn-delete').addEventListener('click', () => {
       if (!confirm(`Delete "${ep.title}"?`)) return;
       data.episodes = data.episodes.filter(e => e.id !== ep.id);
-      save(); wrap.removeChild(div);
+      save('cms: delete episode – ' + ep.title); wrap.removeChild(div);
     });
     wrap.appendChild(div);
   }
 
   document.getElementById('add-episode-btn').addEventListener('click', () => {
     const newEp = { id: 'episode-' + slugId(), title: 'New Episode', categories: [], duration: 0, audioUrl: '', coverArt: '', season: 1, episodeNumber: 1, keywords: '', notes: '', pubDate: new Date().toISOString().slice(0, 10) };
-    data.episodes.push(newEp); save();
+    data.episodes.push(newEp); save('cms: add episode');
     const wrap = document.getElementById('admin-episodes');
     appendEpisodeCard(wrap, newEp, true);
     wrap.lastElementChild.scrollIntoView({ behavior: 'smooth', block: 'start' });
