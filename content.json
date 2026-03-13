@@ -1,5 +1,5 @@
 {
-  "version": 1773410375288,
+  "version": 1773410386297,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -275,23 +275,6 @@
       "episodeNumber": 18,
       "keywords": "France nuclear deterrence, Germany military expansion, European defense, NATO, Macron, Merz",
       "description": "France opens nuclear deterrence to Europe in historic Cold War-scale realignment. Germany commits to Europe's strongest army amid Franco-German security pivot."
-    },
-    {
-      "id": "episode-1",
-      "title": "LATEST EPISODE Title 1",
-      "categories": [
-        "cat-1",
-        "cat-2",
-        "cat-3",
-        "cat-4"
-      ],
-      "duration": 226,
-      "audioUrl": "",
-      "coverArt": "",
-      "season": 1,
-      "episodeNumber": 1,
-      "keywords": "europe, weekly, podcast",
-      "notes": "In this episode we discuss the latest developments across Europe."
     },
     {
       "id": "episode-2",
