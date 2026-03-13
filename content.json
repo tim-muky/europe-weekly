@@ -1,5 +1,5 @@
 {
-  "version": 1773410211055,
+  "version": 1773410217658,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -161,19 +161,6 @@
       "chartData": null,
       "keywords": "France nuclear deterrence, forward deterrence, European strategic autonomy, Franco-German axis, German army expansion, President Macron, Chancellor Merz, Ã©paulement doctrine, NATO cohesion",
       "sources": "Arms Control Association (armscontrol.org); Le Monde (lemonde.fr); Anadolu Agency (aa.com.tr); ÃlysÃ©e Palace speech (elysee.fr); Atlantic Council (atlanticcouncil.org); BNP Paribas economic forecasts; Federation of American Scientists"
-    },
-    {
-      "id": "article-2",
-      "title": "LATEST POST TITLE 2",
-      "categories": [
-        "cat-2",
-        "cat-3"
-      ],
-      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      "body": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.",
-      "chartData": null,
-      "keywords": "",
-      "sources": ""
     },
     {
       "id": "article-3",
