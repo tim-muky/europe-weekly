@@ -1,5 +1,5 @@
 {
-  "version": 1773410573957,
+  "version": 1773410585715,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -85,6 +85,10 @@
     {
       "id": "cat-kbuqz4q",
       "label": "Croatia"
+    },
+    {
+      "id": "cat-p4f2tu7",
+      "label": "Czechia"
     }
   ],
   "articles": [
