@@ -1,11 +1,20 @@
 {
-  "version": 1773408491149,
+  "version": 1773410140429,
   "settings": {
     "backgroundImage": "",
     "social": {
       "instagram": "",
       "x": "",
       "youtube": ""
+    },
+    "podcast": {
+      "title": "",
+      "description": "",
+      "coverArt": "",
+      "author": "",
+      "email": "",
+      "category": "",
+      "language": ""
     }
   },
   "pages": {
