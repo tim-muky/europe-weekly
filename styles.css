@@ -86,13 +86,17 @@ body {
 }
 .nav-main-link:hover { text-decoration: underline; }
 
-/* Homepage nav: yellow highlight matching category tag colour */
+/* Homepage nav: yellow highlight matching category tag colour.
+   box-decoration-break: clone ensures every wrapped line gets
+   the same left/right padding so all lines start at the same edge. */
 .site-nav .nav-heading-link,
 .site-nav .nav-section ul li a,
 .site-nav .nav-main-link {
   background: var(--tag-bg);
   padding: 1px 6px;
   border-radius: 2px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .nav-cms-link {
@@ -452,23 +456,24 @@ a.cat-item-title:hover { text-decoration: underline; }
 
 .site-footer {
   background: var(--blue-dark);
-  color: var(--text-light);
-  text-align: center;
-  padding: 18px 18px 16px;
+  color: #fff;
+  padding: 14px 24px;
   font-size: 0.88rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
 }
-.site-footer a { color: var(--text-light); text-decoration: none; }
+.site-footer a { color: #fff; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
 
-/* Social icon row inside footer */
+/* Social icons — inline row next to Imprint */
 .footer-social {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
-  margin-bottom: 10px;
+  gap: 14px;
 }
-.footer-social:empty { margin-bottom: 0; }
+.footer-social:empty { display: none; }
 
 .social-link {
   color: #fff;

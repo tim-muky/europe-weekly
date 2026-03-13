@@ -587,7 +587,13 @@ async function initAdmin() {
       category:    document.getElementById('settings-podcast-category').value.trim(),
       language:    document.getElementById('settings-podcast-language').value.trim()
     };
-    save(); showSaved(this);
+    save();
+    showSaved(this);
+    // Auto-export content.json so settings are never lost on the next bot publish.
+    // Settings only live in GitHub if they're included in the pushed content.json.
+    const blob = new Blob([JSON.stringify(data, null, 2) + '\n'], { type: 'application/json' });
+    const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: 'content.json' });
+    a.click();
   });
 
   // ── Categories ──────────────────────────────

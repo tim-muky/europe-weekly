@@ -119,6 +119,41 @@
 
   <main class="admin-main">
 
+    <!-- ── ARTICLES ── -->
+    <section class="admin-section">
+      <div class="admin-section-header">
+        <div>
+          <h2 class="admin-section-title">Articles</h2>
+          <p class="admin-hint">Click an article to expand and edit all its fields.</p>
+        </div>
+        <button id="add-article-btn" class="admin-btn admin-btn--primary">+ New Article</button>
+      </div>
+      <div id="admin-articles"></div>
+    </section>
+
+    <!-- ── EPISODES ── -->
+    <section class="admin-section">
+      <div class="admin-section-header">
+        <div>
+          <h2 class="admin-section-title">Podcast Episodes</h2>
+          <p class="admin-hint">Click an episode to expand and edit all its fields.</p>
+        </div>
+        <button id="add-episode-btn" class="admin-btn admin-btn--primary">+ New Episode</button>
+      </div>
+      <div id="admin-episodes"></div>
+    </section>
+
+    <!-- ── CATEGORIES ── -->
+    <section class="admin-section">
+      <h2 class="admin-section-title">Categories</h2>
+      <p class="admin-hint">Edit label names — changes apply everywhere. Tab away from a field to save.</p>
+      <ul id="admin-cat-list" class="admin-cat-list"></ul>
+      <div class="admin-add-row">
+        <input id="new-cat-input" class="admin-input" type="text" placeholder="New category label…" />
+        <button id="add-cat-btn" class="admin-btn admin-btn--primary">Add</button>
+      </div>
+    </section>
+
     <!-- ── SETTINGS ── -->
     <section class="admin-section">
       <h2 class="admin-section-title">Settings</h2>
@@ -212,43 +247,8 @@
       </div>
 
       <div class="admin-save-row">
-        <button id="settings-save-btn" class="admin-btn admin-btn--primary">Save Settings</button>
+        <button id="settings-save-btn" class="admin-btn admin-btn--primary">Save Settings &amp; Export</button>
       </div>
-    </section>
-
-    <!-- ── CATEGORIES ── -->
-    <section class="admin-section">
-      <h2 class="admin-section-title">Categories</h2>
-      <p class="admin-hint">Edit label names — changes apply everywhere. Tab away from a field to save.</p>
-      <ul id="admin-cat-list" class="admin-cat-list"></ul>
-      <div class="admin-add-row">
-        <input id="new-cat-input" class="admin-input" type="text" placeholder="New category label…" />
-        <button id="add-cat-btn" class="admin-btn admin-btn--primary">Add</button>
-      </div>
-    </section>
-
-    <!-- ── ARTICLES ── -->
-    <section class="admin-section">
-      <div class="admin-section-header">
-        <div>
-          <h2 class="admin-section-title">Articles</h2>
-          <p class="admin-hint">Click an article to expand and edit all its fields.</p>
-        </div>
-        <button id="add-article-btn" class="admin-btn admin-btn--primary">+ New Article</button>
-      </div>
-      <div id="admin-articles"></div>
-    </section>
-
-    <!-- ── EPISODES ── -->
-    <section class="admin-section">
-      <div class="admin-section-header">
-        <div>
-          <h2 class="admin-section-title">Podcast Episodes</h2>
-          <p class="admin-hint">Click an episode to expand and edit all its fields.</p>
-        </div>
-        <button id="add-episode-btn" class="admin-btn admin-btn--primary">+ New Episode</button>
-      </div>
-      <div id="admin-episodes"></div>
     </section>
 
     <!-- ── CONTROLS ── -->
