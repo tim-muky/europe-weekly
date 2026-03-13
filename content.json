@@ -1,5 +1,5 @@
 {
-  "version": 1773410511639,
+  "version": 1773410520879,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -53,6 +53,10 @@
     {
       "id": "cat-ft8hclh",
       "label": "Greece"
+    },
+    {
+      "id": "cat-q3xena4",
+      "label": "Germany"
     }
   ],
   "articles": [
