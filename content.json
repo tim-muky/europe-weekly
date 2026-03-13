@@ -1,5 +1,5 @@
 {
-  "version": 1773410528285,
+  "version": 1773410535558,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -61,6 +61,10 @@
     {
       "id": "cat-8azgfhe",
       "label": "France"
+    },
+    {
+      "id": "cat-d7jygr4",
+      "label": "Belgium"
     }
   ],
   "articles": [
