@@ -1,5 +1,5 @@
 {
-  "version": 1773410204453,
+  "version": 1773410211055,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -161,31 +161,6 @@
       "chartData": null,
       "keywords": "France nuclear deterrence, forward deterrence, European strategic autonomy, Franco-German axis, German army expansion, President Macron, Chancellor Merz, Ã©paulement doctrine, NATO cohesion",
       "sources": "Arms Control Association (armscontrol.org); Le Monde (lemonde.fr); Anadolu Agency (aa.com.tr); ÃlysÃ©e Palace speech (elysee.fr); Atlantic Council (atlanticcouncil.org); BNP Paribas economic forecasts; Federation of American Scientists"
-    },
-    {
-      "id": "article-1",
-      "title": "LATEST POST TITLE 1",
-      "categories": [
-        "cat-1"
-      ],
-      "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "body": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "chartData": {
-        "values": [
-          65,
-          42,
-          30,
-          88
-        ],
-        "labels": [
-          "Element 1",
-          "Element 2",
-          "Element 3",
-          "Element 4"
-        ]
-      },
-      "keywords": "europe, policy, economy",
-      "sources": "European Commission Report 2024; Eurostat Data Portal; Reuters, Jan 2024"
     },
     {
       "id": "article-2",
