@@ -1,5 +1,5 @@
 {
-  "version": 1773333617736,
+  "version": 1773399217138,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -155,6 +155,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-h1pezng",
+      "title": "Bulgaria, Slovenia, Romania, Croatia – EU Presidencies and Regional Dynamics",
+      "categories": [
+        "cat-southeast-europe"
+      ],
+      "duration": 1411,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e25-balkans-presidencies.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 25,
+      "keywords": "Bulgaria, Slovenia, Romania, Croatia, EU presidency, Mediterranean, Three Seas Initiative, migration, energy",
+      "notes": "This episode covers the latest developments from Southeast Europe. Bulgaria navigates EU integration challenges, Slovenia focuses on economic resilience, Romania prepares for its 2026 Mediterranean presidency, and Croatia balances geopolitical ambitions with domestic concerns.",
+      "pubDate": "2026-03-13"
+    },
     {
       "id": "episode-4o4a7ez",
       "title": "Europe Weekly - March 12, 2026",
