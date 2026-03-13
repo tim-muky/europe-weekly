@@ -1,5 +1,5 @@
 {
-  "version": 1773410599359,
+  "version": 1773410608150,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -97,6 +97,10 @@
     {
       "id": "cat-no95m3z",
       "label": "Hungary"
+    },
+    {
+      "id": "cat-edscj6n",
+      "label": "Austria"
     }
   ],
   "articles": [
