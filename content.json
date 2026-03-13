@@ -1,5 +1,5 @@
 {
-  "version": 1773410548201,
+  "version": 1773410557274,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -73,6 +73,10 @@
     {
       "id": "cat-5zyoo2c",
       "label": "Bulgaria"
+    },
+    {
+      "id": "cat-d8v8u9s",
+      "label": "Slovenia"
     }
   ],
   "articles": [
