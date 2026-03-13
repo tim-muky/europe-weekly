@@ -1,5 +1,5 @@
 {
-  "version": 1773410585715,
+  "version": 1773410592620,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -89,6 +89,10 @@
     {
       "id": "cat-p4f2tu7",
       "label": "Czechia"
+    },
+    {
+      "id": "cat-lqlzgi3",
+      "label": "Slovakia"
     }
   ],
   "articles": [
