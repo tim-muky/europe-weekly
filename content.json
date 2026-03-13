@@ -1,5 +1,5 @@
 {
-  "version": 1773410542015,
+  "version": 1773410548201,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -69,6 +69,10 @@
     {
       "id": "cat-hwc886m",
       "label": "Netherlands"
+    },
+    {
+      "id": "cat-5zyoo2c",
+      "label": "Bulgaria"
     }
   ],
   "articles": [
