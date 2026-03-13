@@ -183,7 +183,130 @@ console.log(`Selected category IDs: ${selectedIds}`);
 - Only use `"id"` values that already exist in `data.categories`. Never use the label string as the ID.
 - Use `[]` if no category matches the post topic.
 - You may select multiple IDs: `["cat-1", "cat-3"]`.
-- Do not add or modify the `categories` array itself.
+- Do not add or modify the `categories` array itself during a normal publish — see **Step 2b** if you need to create a new category first.
+
+---
+
+## Step 2b — Adding or removing a category (optional)
+
+**Why:** Categories are the yellow tag pills shown on articles and episodes, each linking to a filtered category page. You must add a category to `data.categories` before you can assign it to any article or episode.
+
+**When to use:** Only when you need a category that does not already exist. If all required categories are present, skip to Step 3.
+
+### Category object structure
+
+```json
+{ "id": "cat-germany", "label": "Germany" }
+```
+
+| Field | Rules |
+|---|---|
+| `id` | `"cat-"` + short lowercase slug, e.g. `"cat-de"`, `"cat-nato"`, `"cat-eu-economy"`. Use only `a-z`, `0-9`, `-`. **Never reuse or change an existing id.** |
+| `label` | Human-readable display name shown as a tag on the site, e.g. `"Germany"`, `"Defence"`, `"EU Economy"`. |
+
+### Adding a new category — Python
+
+```python
+import re
+
+def add_category(data, label):
+    """
+    Add a new category to data["categories"] and return its id.
+    Call this BEFORE build_article() / build_episode() if the category is new.
+    """
+    slug = re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+    new_id = f"cat-{slug}"
+
+    existing_ids = {c["id"] for c in data["categories"]}
+    if new_id in existing_ids:
+        counter = 2
+        while f"cat-{slug}-{counter}" in existing_ids:
+            counter += 1
+        new_id = f"cat-{slug}-{counter}"
+
+    data["categories"].append({"id": new_id, "label": label})
+    print(f"Added category: id={new_id}  label={label}")
+    return new_id
+
+# Example
+new_cat_id = add_category(data, "Defence")
+# → new_cat_id = "cat-defence"
+# Use new_cat_id in selected_ids when building the article/episode
+```
+
+### Adding a new category — JavaScript (Node.js)
+
+```javascript
+function addCategory(data, label) {
+  const slug = label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  let newId = `cat-${slug}`;
+
+  const existingIds = new Set(data.categories.map(c => c.id));
+  if (existingIds.has(newId)) {
+    let counter = 2;
+    while (existingIds.has(`cat-${slug}-${counter}`)) counter++;
+    newId = `cat-${slug}-${counter}`;
+  }
+
+  data.categories.push({ id: newId, label });
+  console.log(`Added category: id=${newId}  label=${label}`);
+  return newId;
+}
+
+// Example
+const newCatId = addCategory(data, "Defence");
+// → newCatId = "cat-defence"
+// Use newCatId in selectedIds when building the article/episode
+```
+
+### Assigning categories to articles and episodes
+
+The `categories` field on each article/episode is an **array of `id` strings**. Every id must exist in `data.categories`.
+
+```json
+"categories": ["cat-germany", "cat-nato"]
+```
+
+- Categories render as yellow tag pills on the homepage, article pages, episode pages, and list pages.
+- Each tag links to `/category.html?id=<category-id>` showing all content with that tag.
+- An article or episode can have **zero, one, or many** categories. Use `[]` to show no tags.
+- To assign a new category created in this step, add its `id` to the `categories` array of the article/episode object in Step 4.
+
+### Removing a category
+
+Removing a category is a **two-step operation** — you must clean up all references first:
+
+```python
+cat_id_to_remove = "cat-old-topic"
+
+# 1. Remove from all articles
+for a in data["articles"]:
+    a["categories"] = [c for c in a.get("categories", []) if c != cat_id_to_remove]
+
+# 2. Remove from all episodes
+for e in data["episodes"]:
+    e["categories"] = [c for c in e.get("categories", []) if c != cat_id_to_remove]
+
+# 3. Remove from the categories list itself
+data["categories"] = [c for c in data["categories"] if c["id"] != cat_id_to_remove]
+```
+
+```javascript
+const catIdToRemove = "cat-old-topic";
+
+// 1. Remove from all articles
+data.articles.forEach(a => {
+  a.categories = (a.categories || []).filter(id => id !== catIdToRemove);
+});
+
+// 2. Remove from all episodes
+data.episodes.forEach(e => {
+  e.categories = (e.categories || []).filter(id => id !== catIdToRemove);
+});
+
+// 3. Remove from the categories list itself
+data.categories = data.categories.filter(c => c.id !== catIdToRemove);
+```
 
 ---
 

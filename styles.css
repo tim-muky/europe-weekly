@@ -57,7 +57,7 @@ body {
   margin-bottom: 6px;
 }
 
-.nav-section ul { list-style: none; padding-left: 20px; }
+.nav-section ul { list-style: none; padding-left: 0; }
 .nav-section ul li { margin-bottom: 3px; }
 .nav-section ul li a {
   font-size: 0.82rem;
@@ -85,6 +85,15 @@ body {
   letter-spacing: 0.02em;
 }
 .nav-main-link:hover { text-decoration: underline; }
+
+/* Homepage nav: yellow highlight matching category tag colour */
+.site-nav .nav-heading-link,
+.site-nav .nav-section ul li a,
+.site-nav .nav-main-link {
+  background: var(--tag-bg);
+  padding: 1px 6px;
+  border-radius: 2px;
+}
 
 .nav-cms-link {
   font-size: 0.78rem;
@@ -462,15 +471,15 @@ a.cat-item-title:hover { text-decoration: underline; }
 .footer-social:empty { margin-bottom: 0; }
 
 .social-link {
-  color: var(--text-light);
+  color: #fff;
   display: inline-flex;
   align-items: center;
-  opacity: 0.80;
+  opacity: 0.85;
   transition: opacity 0.15s;
   line-height: 1;
 }
 .social-link:hover { opacity: 1; }
-.social-link svg { display: block; }
+.social-link svg { display: block; fill: currentColor; }
 
 /* ===== STATIC PAGES (About / Imprint) ===== */
 
