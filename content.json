@@ -1,5 +1,5 @@
 {
-  "version": 1773410465995,
+  "version": 1773410473681,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -33,6 +33,10 @@
     {
       "id": "cat-qoz3hlo",
       "label": "Finland"
+    },
+    {
+      "id": "cat-r212kti",
+      "label": "Ireland"
     }
   ],
   "articles": [
