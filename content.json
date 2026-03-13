@@ -1,5 +1,5 @@
 {
-  "version": 1773410447798,
+  "version": 1773410458123,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -25,6 +25,10 @@
     {
       "id": "cat-5gtq4f2",
       "label": "Sweden"
+    },
+    {
+      "id": "cat-xlbr9em",
+      "label": "Denmark"
     }
   ],
   "articles": [
