@@ -1,5 +1,5 @@
 {
-  "version": 1773410639125,
+  "version": 1773410648199,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -113,6 +113,10 @@
     {
       "id": "cat-oifdqv9",
       "label": "Lithuania"
+    },
+    {
+      "id": "cat-nbf1ay4",
+      "label": "Estonia"
     }
   ],
   "articles": [
