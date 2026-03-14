@@ -1,5 +1,5 @@
 {
-  "version": 1773497497883,
+  "version": 1773503007716,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -196,106 +196,6 @@
       "keywords": "Slovakia, Hungary, Austria",
       "notes": "Episode covering Slovakia, Hungary, Austria",
       "pubDate": "2026-03-14"
-    },
-    {
-      "id": "episode-h1pezng",
-      "title": "Bulgaria, Slovenia, Romania, Croatia â EU Presidencies and Regional Dynamics",
-      "categories": [
-        "cat-southeast-europe"
-      ],
-      "duration": 1411,
-      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e25-balkans-presidencies.mp3",
-      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
-      "season": 2,
-      "episodeNumber": 25,
-      "keywords": "Bulgaria, Slovenia, Romania, Croatia, EU presidency, Mediterranean, Three Seas Initiative, migration, energy",
-      "notes": "This episode covers the latest developments from Southeast Europe. Bulgaria navigates EU integration challenges, Slovenia focuses on economic resilience, Romania prepares for its 2026 Mediterranean presidency, and Croatia balances geopolitical ambitions with domestic concerns.",
-      "pubDate": "2026-03-13"
-    },
-    {
-      "id": "episode-4o4a7ez",
-      "title": "Europe Weekly - March 12, 2026",
-      "categories": [],
-      "duration": 1370,
-      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e24-daily-news.mp3",
-      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
-      "season": 2,
-      "episodeNumber": 24,
-      "keywords": "Portugal, Spain, Italy, Greece",
-      "notes": "",
-      "pubDate": "2026-03-12"
-    },
-    {
-      "id": "episode-b7sxe3r",
-      "title": "Germany, France, Belgium, Netherlands - France Opens Nuclear Deterrence to Europ...",
-      "categories": [],
-      "duration": 1320,
-      "audioUrl": "",
-      "coverArt": "",
-      "season": 2,
-      "episodeNumber": 23,
-      "keywords": "France nuclear deterrence, Germany military expansion, Franco-German axis, European defense, NATO",
-      "notes": "France initiates a historic shift in nuclear doctrine, opening deterrence capabilities to European allies. Germany commits to Europe's strongest conventional army amid a Franco-German security pivot."
-    },
-    {
-      "id": "episode-iw1q9xz",
-      "title": "Poland, Latvia, Lithuania, Estonia - Poland Faces Russian Hybrid Onslaught Am...",
-      "categories": [],
-      "duration": 1320,
-      "audioUrl": "",
-      "coverArt": "",
-      "season": 2,
-      "episodeNumber": 22,
-      "keywords": "Poland hybrid warfare, Lithuania defense budget, Latvia elections, Estonia security, Baltic NATO",
-      "notes": "Poland battles Russian hybrid warfare including sabotage and cyberattacks while Baltic states dramatically increase defense spending. Lithuania approves record 5.38% GDP defense budget."
-    },
-    {
-      "id": "episode-ubqiq9g",
-      "title": "Sweden, Denmark, Finland, Ireland - Sweden's 2026 Election: First Vote on NA...",
-      "categories": [],
-      "duration": 1320,
-      "audioUrl": "",
-      "coverArt": "",
-      "season": 2,
-      "episodeNumber": 21,
-      "keywords": "Sweden NATO, Denmark election, Finland nuclear, Ireland SNA, Greenland sovereignty",
-      "notes": "Sweden's upcoming election marks the first vote since abandoning 200 years of military non-alignment. Denmark faces snap election amid Greenland sovereignty tensions. Finland proposes lifting nuclear weapons ban."
-    },
-    {
-      "id": "episode-8x8ucu2",
-      "title": "Bulgaria, Slovenia, Romania, Croatia - EU Defense Spending Surge: Eastern Membe...",
-      "categories": [],
-      "duration": 1320,
-      "audioUrl": "",
-      "coverArt": "",
-      "season": 2,
-      "episodeNumber": 20,
-      "keywords": "Bulgaria defense, Slovenia military, Romania security, Croatia NATO, EU defense spending",
-      "notes": "Eastern EU members are dramatically increasing defense spending amid growing security concerns. Bulgaria, Slovenia, Romania, and Croatia accelerate military modernization efforts."
-    },
-    {
-      "id": "episode-fy4p5xj",
-      "title": "Germany, France, Belgium, Netherlands - Nuclear Deterrence & European Defense",
-      "categories": [],
-      "duration": 1320,
-      "audioUrl": "",
-      "coverArt": "",
-      "season": 2,
-      "episodeNumber": 19,
-      "keywords": "France nuclear deterrence, forward deterrence, European strategic autonomy, Franco-German axis, German army expansion, President Macron, Chancellor Merz, Ã©paulement doctrine, NATO cohesion",
-      "description": "France's shift to 'forward deterrence' and nuclear cooperation with European allies marks a historic break from Gaullist nuclear sovereignty. Germany commits to Europe's strongest conventional army amid a Franco-German security pivot."
-    },
-    {
-      "id": "episode-4",
-      "title": "Germany, France, Belgium, Netherlands - Nuclear Deterrence & European Defense",
-      "categories": [],
-      "duration": 1320,
-      "audioUrl": "",
-      "coverArt": "",
-      "season": 2,
-      "episodeNumber": 18,
-      "keywords": "France nuclear deterrence, Germany military expansion, European defense, NATO, Macron, Merz",
-      "description": "France opens nuclear deterrence to Europe in historic Cold War-scale realignment. Germany commits to Europe's strongest army amid Franco-German security pivot."
     }
   ]
 }
