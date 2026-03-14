@@ -1,5 +1,5 @@
 {
-  "version": 1773410720058,
+  "version": 1773472595645,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -182,6 +182,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-5eaaiam",
+      "title": "Czechia, Slovakia, Hungary, Austria – Central European Dynamics",
+      "categories": [
+        "cat-southeast-europe"
+      ],
+      "duration": 350,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e26-czechia-slovakia-hungary-austria.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 26,
+      "keywords": "Czechia, Slovakia, Hungary, Austria, Central Europe, EU",
+      "notes": "Saturday episode covering Central European countries.",
+      "pubDate": "2026-03-14"
+    },
     {
       "id": "episode-h1pezng",
       "title": "Bulgaria, Slovenia, Romania, Croatia â EU Presidencies and Regional Dynamics",
