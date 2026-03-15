@@ -1,5 +1,5 @@
 {
-  "version": 1773503007716,
+  "version": 1773576921920,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -182,6 +182,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-4dlzlsp",
+      "title": "Bulgaria, Slovenia, Romania, Croatia – EU Daily Update",
+      "categories": [
+        "cat-5zyoo2c",
+        "cat-d8v8u9s",
+        "cat-x5njuro",
+        "cat-kbuqz4q"
+      ],
+      "duration": 1313,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e27-bulg-slro-cro.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 27,
+      "keywords": "Bulgaria, Slovenia, Romania, Croatia, EU news",
+      "notes": "Friday episode covering Southeast Europe: Bulgaria, Slovenia, Romania, and Croatia.",
+      "pubDate": "2026-03-15"
+    },
     {
       "id": "episode-791r3qr",
       "title": "Slovakia, Hungary, Austria – EU Daily Update",
