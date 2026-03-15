@@ -1,5 +1,5 @@
 {
-  "version": 1773589574923,
+  "version": 1773589661268,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -120,6 +120,31 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-tntazfu",
+      "title": "CROATIA DEEPENS NATO ROLE WITH TROOP DEPLOYMENTS AND UKRAINE\nAID AMID DOMESTIC DEBATE",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "excerpt": "Croatia is expanding its NATO commitments with troop\ndeployments to Lithuania, over 300 million euros in Ukraine aid, and\nplans to host a 2027 foreign ministers' meeting, NATO Secretary\nGeneral Mark Rutte confirmed during a January visit to Zagreb. The\nmoves strengthen the alliance's eastern flank but have sparked\ndomestic debate over costs and sovereignty. Separately, Croatia will\nhost a parliamentary summit of the Three Seas Initiative in 2026,\npositioning itself as a regional hub for infrastructure and energy\nsecurity.",
+      "body": "<h3>NATO Chief Endorses Croatia&#x27;s Expanded Security\nCommitments</h3><p>NATO Secretary General Mark Rutte met with Croatian Prime\nMinister Andrej Plenković on 12 January 2026 to reaffirm the country&#x27;s\ndeepening integration within the alliance amid rising European\nsecurity tensions. Croatia has committed 90 troops to Lithuania as\npart of NATO&#x27;s eastern flank reinforcement, adding to its existing\ndeployment of 270 personnel across five missions. The government has\nalso delivered over 300 million euros in aid to Ukraine and\nparticipated in 39 NATO exercises abroad in 2026, according to\nofficial records.</p><p>Plenković described Croatia as a &quot;responsible and serious&quot;\nNATO member since joining the alliance in 2009, emphasizing the\ncountry&#x27;s contributions to regional stability against what he\ncharacterized as Russian destabilization efforts. The visit concluded\nwith confirmation that Croatia will host a NATO foreign ministers&#x27;\nmeeting in 2027, elevating the country&#x27;s diplomatic profile within the\nalliance. Defense modernization efforts include procurement of more\nthan 10 million euros in ammunition and ongoing upgrades to military\ncapabilities.</p><p>The announcements come as NATO intensifies its focus on the\nalliance&#x27;s eastern members following Russia&#x27;s invasion of Ukraine.\nCroatia&#x27;s geographic position in the Balkans makes it a strategic link\nbetween Central Europe and the Mediterranean, a role the government\nhas sought to leverage through increased military cooperation and\ninfrastructure investments aligned with alliance\npriorities.</p><h3>Opposition Questions Costs and Sovereignty Trade-Offs</h3><p>President Zoran Milanović and opposition critics have\nchallenged the government&#x27;s NATO expansion, arguing that excessive\nalignment risks entangling Croatia in distant conflicts while\ndiverting resources from domestic priorities. Milanović has questioned\nthe value of hosting high-profile NATO events amid fiscal pressures,\nsuggesting that foreign aid commitments prioritize international\nobligations over economic needs and infrastructure development at\nhome.</p><p>The opposition Social Democratic Party and labor unions\nhave raised concerns that defense spending increases, potentially\nreaching the NATO target of 2 percent of GDP or higher, could strain\nhousehold budgets as the country continues its recovery from economic\ndisruptions. Critics lack specific counter-data to challenge the\ngovernment&#x27;s security assessments, but argue that diplomatic prestige\ndoes not translate into tangible benefits for ordinary citizens facing\ninflation and wage stagnation.</p><p>Government officials have countered that stronger defenses\nprotect Croatia against regional threats and enhance its standing\nwithin the European Union, where security and energy resilience have\nbecome intertwined priorities since the Ukraine war began. The\nadministration frames its NATO commitments as investments in long-term\nstability rather than short-term costs, though public enthusiasm for\nthe initiatives appears muted according to available\nreporting.</p><h3>Three Seas Initiative Adds Regional Infrastructure\nDimension</h3><p>Croatia will host a parliamentary summit of the Three Seas\nInitiative in 2026, bringing together legislators from 13 European\nUnion and NATO member states to advance regional connectivity\nprojects. The initiative focuses on infrastructure investments\nincluding rail networks and liquefied natural gas terminals designed\nto reduce European energy dependence on Russia. Croatia&#x27;s Krk LNG\nterminal, completed as part of earlier Three Seas projects,\nexemplifies the type of strategic infrastructure the initiative\npromotes.</p><p>The Three Seas Initiative has delivered more than 10\nbillion euros in projects since its 2016 launch, with backing from the\nUnited States and European Union institutions. Hosting the summit\npositions Croatia as a diplomatic hub for Central and Eastern European\ncooperation, complementing its expanded NATO role. Government\nsupporters argue the initiative creates jobs and stabilizes energy\nprices for Croatian households while strengthening North-South\nconnectivity across the EU.</p><p>Looking ahead, Croatia&#x27;s dual focus on NATO military\ncommitments and Three Seas infrastructure cooperation will test the\ngovernment&#x27;s ability to balance international ambitions with domestic\neconomic pressures. The 2027 NATO foreign ministers&#x27; meeting and\nongoing Three Seas projects will provide concrete measures of whether\nincreased defense spending and diplomatic investments yield tangible\nsecurity and economic benefits. As European security architecture\ncontinues to evolve in response to the Ukraine conflict, Croatia&#x27;s\nstrategic positioning in the Balkans ensures its choices will\ninfluence broader alliance cohesion and regional\nresilience.</p>",
+      "chartData": {
+        "values": [
+          270.0,
+          90.0,
+          300.0,
+          10.0
+        ],
+        "labels": [
+          "NATO troops deployed",
+          "Lithuania deployment",
+          "Ukraine aid\n(€M)",
+          "Ammunition procurement (€M)"
+        ]
+      },
+      "keywords": "Croatia, NATO, Mark Rutte, Andrej Plenković, Ukraine aid,\nThree Seas Initiative, defense spending, Balkans, European security,\nLithuania deployment",
+      "sources": "NATO Secretary General press conference, 12 January 2026;\nCroatian Government official records on military deployments; Three\nSeas Initiative project documentation; European Union recovery fund\nallocations"
+    },
     {
       "id": "article-49g7ju5",
       "title": "CROATIA DEEPENS NATO ROLE WITH TROOP DEPLOYMENTS AND UKRAINE AID AMID",
