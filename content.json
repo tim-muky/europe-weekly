@@ -1,5 +1,5 @@
 {
-  "version": 1773589863166,
+  "version": 1773650654426,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -240,6 +240,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-mc8p0al",
+      "title": "Sweden, Denmark, Finland, Ireland – EU Daily Update",
+      "categories": [
+        "cat-nordic-celtic"
+      ],
+      "duration": 1340,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e28-swed-denm.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 28,
+      "keywords": "Sweden, Denmark, Finland, Ireland",
+      "notes": "Monday episode covering Nordic and Celtic nations: Sweden, Denmark, Finland, Ireland",
+      "pubDate": "2026-03-16"
+    },
     {
       "id": "episode-4dlzlsp",
       "title": "Bulgaria, Slovenia, Romania, Croatia – EU Daily Update",
