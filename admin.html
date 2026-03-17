@@ -205,11 +205,9 @@
       <div class="admin-section-header">
         <div>
           <h2 class="admin-section-title">Episode Downloads</h2>
-          <p class="admin-hint">Track downloads per episode. Enter counts manually, or connect RSS.com for automatic sync (configure API key in Settings → Podcast Feed).</p>
+          <p class="admin-hint">Download counts are tracked via your prefix analytics service (OP3 or Podtrac — configure in Settings → Podcast Feed). Enter counts manually from your OP3/Podtrac dashboard, or leave at 0 for reference only.</p>
         </div>
-        <button id="rsscom-sync-btn" class="admin-btn admin-btn--secondary">↻ Sync from RSS.com</button>
       </div>
-      <p id="downloads-rsscom-hint" class="admin-hint" style="margin-bottom:14px;display:none"></p>
       <table class="downloads-table">
         <thead>
           <tr>
@@ -321,12 +319,10 @@
             <input id="settings-podcast-language" class="admin-input" type="text" placeholder="en" style="max-width:90px" />
           </div>
           <div class="admin-field">
-            <label class="admin-label">RSS.com Podcast Slug <small>(e.g. <code>europe-weekly</code> — for download stats sync)</small></label>
-            <input id="settings-rsscom-slug" class="admin-input" type="text" placeholder="your-podcast-slug" style="max-width:280px" />
-          </div>
-          <div class="admin-field">
-            <label class="admin-label">RSS.com API Token <small>(Settings → API in your RSS.com dashboard)</small></label>
-            <input id="settings-rsscom-token" class="admin-input" type="password" placeholder="rsscom_…" style="max-width:360px" autocomplete="off" />
+            <label class="admin-label">Download Tracking Prefix <small>(<a href="https://op3.dev" target="_blank" rel="noopener">OP3</a> or <a href="https://podtrac.com" target="_blank" rel="noopener">Podtrac</a> — prepended to every audio URL in the feed)</small></label>
+            <input id="settings-tracking-prefix" class="admin-input" type="url"
+                   placeholder="https://op3.dev/e" style="max-width:380px" />
+            <p class="admin-hint" style="margin-top:6px">Example: <code>https://op3.dev/e</code> or <code>https://dts.podtrac.com/redirect.mp3</code>. Sign up free at op3.dev, copy your prefix, paste it here. The feed is regenerated automatically on every save.</p>
           </div>
         </div>
       </div>

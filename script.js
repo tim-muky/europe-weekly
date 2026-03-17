@@ -13,9 +13,8 @@ const _SUN_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 const _MOON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
 
 function _getEffectiveTheme() {
-  const saved = localStorage.getItem(THEME_KEY);
-  if (saved) return saved;
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  // Day mode is always the default; dark only when the user explicitly chose it.
+  return localStorage.getItem(THEME_KEY) || 'light';
 }
 
 function _applyTheme(theme) {
@@ -58,10 +57,6 @@ function initThemeToggle() {
     _updateToggleBtn();
   });
 
-  // Keep icon in sync if OS preference changes and no manual override is set
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    if (!localStorage.getItem(THEME_KEY)) _updateToggleBtn();
-  });
 }
 
 // Run as soon as the DOM is ready (before any page-specific init)
@@ -78,12 +73,15 @@ const CMS_KEY = 'ew-cms-data';
 // ── GITHUB INTEGRATION ────────────────────────
 // PAT is stored in sessionStorage only — cleared on tab close, never committed.
 
-const GH_REPO      = 'tim-muky/europe-weekly';
-const GH_FILE      = 'content.json';
-const GH_BRANCH    = 'main';
-const GH_API_URL   = `https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`;
-const GH_TOKEN_KEY = 'ew-gh-token';
-const GH_SHA_KEY   = 'ew-gh-sha';
+const GH_REPO        = 'tim-muky/europe-weekly';
+const GH_FILE        = 'content.json';
+const GH_RSS_FILE    = 'podcast-feed.xml';
+const GH_BRANCH      = 'main';
+const GH_API_URL     = `https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`;
+const GH_RSS_API_URL = `https://api.github.com/repos/${GH_REPO}/contents/${GH_RSS_FILE}`;
+const GH_TOKEN_KEY   = 'ew-gh-token';
+const GH_SHA_KEY     = 'ew-gh-sha';
+const GH_RSS_SHA_KEY = 'ew-gh-rss-sha';
 
 function getGHToken() { return sessionStorage.getItem(GH_TOKEN_KEY) || ''; }
 function setGHToken(t) { t ? sessionStorage.setItem(GH_TOKEN_KEY, t) : sessionStorage.removeItem(GH_TOKEN_KEY); }
@@ -115,6 +113,42 @@ async function pushToGitHub(token, data, sha, message) {
     throw Object.assign(new Error('GH push ' + res.status), { status: res.status, ghErr: err });
   }
   return (await res.json()).content.sha;
+}
+
+async function pushRSSToGitHub(token, data) {
+  // Generate the RSS XML from current data
+  const xml = generateRSSFeed(data);
+  const content = btoa(unescape(encodeURIComponent(xml)));
+
+  // We need the current file SHA — fetch it if not cached
+  let sha = sessionStorage.getItem(GH_RSS_SHA_KEY);
+  if (!sha) {
+    const res = await fetch(`${GH_RSS_API_URL}?ref=${GH_BRANCH}&t=${Date.now()}`, {
+      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+    });
+    if (res.ok) {
+      sha = (await res.json()).sha;
+      sessionStorage.setItem(GH_RSS_SHA_KEY, sha);
+    }
+  }
+
+  const body = { message: 'cms: regenerate podcast-feed.xml', content, branch: GH_BRANCH };
+  if (sha) body.sha = sha;
+
+  const res = await fetch(GH_RSS_API_URL, {
+    method: 'PUT',
+    headers: {
+      Authorization:  `token ${token}`,
+      Accept:         'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  });
+  if (res.ok) {
+    sessionStorage.setItem(GH_RSS_SHA_KEY, (await res.json()).content.sha);
+  }
+  // RSS push failure is non-fatal — log but don't throw
+  else { console.warn('RSS feed push failed:', res.status); }
 }
 
 async function getData() {
@@ -884,14 +918,23 @@ function generateRSSFeed(data) {
     const d = dateStr ? new Date(dateStr) : null;
     return (d && !isNaN(d)) ? d.toUTCString() : new Date().toUTCString();
   }
+  // OP3 / Podtrac: prefix + domain+path (no https://)
+  const rawPrefix = (pod.trackingPrefix || '').trim().replace(/\/$/, '');
+  function withPrefix(url) {
+    if (!rawPrefix || !url) return url;
+    return rawPrefix + '/' + url.replace(/^https?:\/\//, '');
+  }
+
+  const cover = escXml(pod.coverArt || ''); // declare early so epImg can reference it
 
   const items = data.episodes.map(ep => {
     const desc    = escXml(ep.notes || ep.description || '');
     const epSize  = ep.fileSize || 0;
-    const enc     = ep.audioUrl
-      ? `\n      <enclosure url="${escXml(ep.audioUrl)}" length="${epSize}" type="audio/mpeg"/>`
+    const trackedUrl = withPrefix(ep.audioUrl);
+    const enc     = trackedUrl
+      ? `\n      <enclosure url="${escXml(trackedUrl)}" length="${epSize}" type="audio/mpeg"/>`
       : '';
-    const epImg   = ep.coverArt || cover;
+    const epImg   = ep.coverArt || pod.coverArt || '';
     return `    <item>
       <title>${escXml(ep.title)}</title>
       <description>${desc}</description>${enc}
@@ -909,7 +952,6 @@ function generateRSSFeed(data) {
   const desc     = escXml(pod.description || '');
   const author   = escXml(pod.author      || 'Europe Weekly');
   const email    = escXml(pod.email       || '');
-  const cover    = escXml(pod.coverArt    || '');
   const category = escXml(pod.category    || 'News');
   const lang     = escXml(pod.language    || 'en');
   const year     = new Date().getFullYear();
@@ -1013,6 +1055,8 @@ async function pushDataToGitHub(message) {
     }
     const newSha = await pushToGitHub(token, data, sha, message);
     sessionStorage.setItem(GH_SHA_KEY, newSha);
+    // Also regenerate podcast-feed.xml on every save (non-fatal if it fails)
+    await pushRSSToGitHub(token, data);
     showGHStatus('Pushed to GitHub ✓', 'success');
   } catch (e) {
     // 409 / 422 = conflict (file changed on GitHub since last fetch) — retry with fresh SHA
@@ -1022,6 +1066,7 @@ async function pushDataToGitHub(message) {
         sessionStorage.setItem(GH_SHA_KEY, freshSha);
         const newSha = await pushToGitHub(token, data, freshSha, message + ' (retry)');
         sessionStorage.setItem(GH_SHA_KEY, newSha);
+        await pushRSSToGitHub(token, data);
         showGHStatus('Pushed to GitHub ✓', 'success');
       } catch (e2) {
         showGHStatus('GitHub push failed — check token / network.', 'error');
@@ -1072,10 +1117,8 @@ async function initAdmin() {
     document.getElementById('settings-podcast-email').value    = pod.email       || '';
     document.getElementById('settings-podcast-category').value = pod.category    || '';
     document.getElementById('settings-podcast-language').value = pod.language    || '';
-    const slugEl   = document.getElementById('settings-rsscom-slug');
-    const tokenREl = document.getElementById('settings-rsscom-token');
-    if (slugEl)   slugEl.value   = pod.rsscomSlug  || '';
-    if (tokenREl) tokenREl.value = pod.rsscomToken || '';
+    const prefixEl = document.getElementById('settings-tracking-prefix');
+    if (prefixEl) prefixEl.value = pod.trackingPrefix || '';
     const tokenEl = document.getElementById('settings-gh-token');
     if (tokenEl) tokenEl.value = getGHToken();
   }
@@ -1110,8 +1153,7 @@ async function initAdmin() {
       email:       document.getElementById('settings-podcast-email').value.trim(),
       category:    document.getElementById('settings-podcast-category').value.trim(),
       language:    document.getElementById('settings-podcast-language').value.trim(),
-      rsscomSlug:  (document.getElementById('settings-rsscom-slug')?.value  || '').trim(),
-      rsscomToken: (document.getElementById('settings-rsscom-token')?.value || '').trim()
+      trackingPrefix: (document.getElementById('settings-tracking-prefix')?.value || '').trim()
     };
     const tokenVal = (document.getElementById('settings-gh-token')?.value ?? '').trim();
     setGHToken(tokenVal);
@@ -1395,53 +1437,6 @@ async function initAdmin() {
     });
   }
 
-  // RSS.com sync
-  document.getElementById('rsscom-sync-btn')?.addEventListener('click', async () => {
-    const pod   = (data.settings || {}).podcast || {};
-    const slug  = pod.rsscomSlug?.trim();
-    const token = pod.rsscomToken?.trim();
-    const hint  = document.getElementById('downloads-rsscom-hint');
-
-    if (!slug || !token) {
-      hint.textContent = 'Add your RSS.com Podcast Slug and API Token in Settings → Podcast Feed, then save Settings before syncing.';
-      hint.style.display = '';
-      return;
-    }
-    hint.textContent = 'Fetching from RSS.com…';
-    hint.style.display = '';
-
-    try {
-      // RSS.com statistics API endpoint
-      const url = `https://api.rss.com/v1/podcasts/${encodeURIComponent(slug)}/episodes/statistics`;
-      const res = await fetch(url, {
-        headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' }
-      });
-      if (!res.ok) throw new Error(`RSS.com API responded with status ${res.status}`);
-      const json = await res.json();
-
-      // Map by episode GUID or title — RSS.com returns episodes with download counts
-      const statsMap = {};
-      (json.data || json.episodes || []).forEach(item => {
-        const key = item.guid || item.id || item.title;
-        if (key) statsMap[key] = item.downloads || item.total_downloads || 0;
-      });
-
-      let updated = 0;
-      data.episodes.forEach(ep => {
-        const val = statsMap[ep.id] ?? statsMap[ep.title];
-        if (val !== undefined) { ep.downloads = val; updated++; }
-      });
-      if (updated) {
-        save('cms: sync downloads from rss.com');
-        renderDownloads();
-        hint.textContent = `✓ Synced download counts for ${updated} episode(s).`;
-      } else {
-        hint.textContent = 'Sync succeeded but no matching episodes were found. Check that your podcast slug is correct.';
-      }
-    } catch (e) {
-      hint.textContent = `Sync failed: ${e.message}. Check your RSS.com API token and slug in Settings.`;
-    }
-  });
 
   // ── Initial render ───────────────────────────
   renderSettings();
