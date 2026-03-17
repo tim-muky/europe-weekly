@@ -21,78 +21,91 @@
             font-size: 15px;
             line-height: 1.55;
             color: #111;
-            background: #F1F1EC;
+            background: #fff;
           }
 
-          /* ── HEADER ── */
-          .feed-header {
+          /* ── HEADER — matches .article-header ── */
+          .site-header {
             background: #F1F1EC;
             padding: 20px 36px 0;
             border-bottom: 1.5px solid #ccc;
           }
-          .feed-nav {
+          .site-nav {
             display: flex;
             flex-direction: column;
             gap: 4px;
             margin-bottom: 16px;
           }
-          .site-link {
+          .nav-main {
             font-size: 1.15rem;
             font-weight: 900;
             text-transform: uppercase;
             letter-spacing: 0.02em;
             text-decoration: none;
-            color: #111;
+            color: #1c3252;
           }
-          .site-link:hover { text-decoration: underline; }
+          .nav-sub {
+            font-size: 0.82rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            color: #1c3252;
+            opacity: 0.55;
+          }
+          .nav-sub:hover, .nav-main:hover { text-decoration: underline; }
 
-          /* ── MAIN ── */
+          /* ── MAIN — matches article-page main ── */
           main {
             background: #c5daea;
-            min-height: calc(100vh - 140px);
+            min-height: calc(100vh - 130px);
+            padding: 28px 36px 48px;
           }
 
-          .feed-intro {
-            padding: 28px 36px 24px;
-          }
-          .feed-title {
-            font-size: 0.95rem;
+          /* ── INTRO BLOCK ── */
+          .feed-heading {
+            font-size: 1rem;
             font-weight: 900;
             text-transform: uppercase;
             letter-spacing: 0.03em;
-            margin-bottom: 10px;
+            color: #1c3252;
+            margin-bottom: 18px;
           }
           .feed-desc {
             font-size: 0.88rem;
             line-height: 1.6;
             color: #333;
-            margin-bottom: 14px;
+            margin-bottom: 18px;
+            max-width: 620px;
           }
-          .rss-notice {
+          .rss-pill-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 32px;
+          }
+          .rss-pill {
             display: inline-block;
             background: #f5f064;
             color: #111;
             font-size: 0.72rem;
             font-weight: 700;
-            padding: 4px 12px;
+            padding: 4px 14px;
             border-radius: 20px;
-            margin-bottom: 6px;
+            white-space: nowrap;
+            text-decoration: none;
           }
           .rss-url {
-            display: block;
             font-size: 0.78rem;
             color: #1a6ba8;
             word-break: break-all;
-            margin-top: 6px;
             text-decoration: none;
           }
           .rss-url:hover { text-decoration: underline; }
 
-          /* ── EPISODE LIST ── */
-          .episodes-section {
-            padding: 0 36px 48px;
-          }
-          .episodes-heading {
+          /* ── SECTION LABEL ── */
+          .section-label {
             font-size: 0.78rem;
             font-weight: 900;
             text-transform: uppercase;
@@ -103,17 +116,18 @@
             border-bottom: 1px solid #aac4d8;
           }
 
+          /* ── EPISODE CARDS — matches .ep-list-card ── */
           .ep-card {
-            background: #1c3252;
+            display: block;
+            background: #16487D;
             color: #fff;
             border-radius: 4px;
-            padding: 18px 22px 20px;
+            padding: 18px 22px;
             margin-bottom: 14px;
             text-decoration: none;
-            display: block;
-            transition: opacity 0.15s;
+            transition: background 0.15s;
           }
-          .ep-card:hover { opacity: 0.88; }
+          .ep-card:hover { background: #1c5a99; }
 
           .ep-badge {
             display: block;
@@ -130,7 +144,6 @@
             text-transform: uppercase;
             letter-spacing: 0.03em;
             margin-bottom: 8px;
-            color: #fff;
           }
           .ep-desc {
             font-size: 0.8rem;
@@ -148,82 +161,94 @@
             border-top: 1px solid rgba(255,255,255,0.1);
           }
 
-          /* ── FOOTER ── */
-          .feed-footer {
+          /* ── FOOTER — matches .site-footer ── */
+          .site-footer {
             background: #1c3252;
-            color: #fff;
+            color: rgba(255,255,255,0.7);
             text-align: center;
             padding: 18px;
             font-size: 0.82rem;
           }
-          .feed-footer a { color: #fff; text-decoration: none; }
-          .feed-footer a:hover { text-decoration: underline; }
+          .site-footer a { color: rgba(255,255,255,0.9); text-decoration: none; }
+          .site-footer a:hover { text-decoration: underline; }
 
           @media (max-width: 600px) {
-            .feed-header, .feed-intro, .episodes-section { padding-left: 18px; padding-right: 18px; }
+            main { padding: 20px 18px 40px; }
+            .site-header { padding: 16px 18px 0; }
+          }
+
+          @media (prefers-color-scheme: dark) {
+            body { background: #0d1520; color: #e0e8f0; }
+            .site-header { background: #121820; border-bottom-color: #2a4a6b; }
+            .nav-main, .nav-sub { color: #6ab0e0; }
+            main { background: #121820; }
+            .feed-heading { color: #6ab0e0; }
+            .feed-desc { color: #a0aab4; }
+            .section-label { color: #4a7a9a; border-bottom-color: #2a4a6b; }
+            .rss-url { color: #6ab0e0; }
           }
         </style>
       </head>
       <body>
 
         <!-- Header -->
-        <header class="feed-header">
-          <nav class="feed-nav">
-            <a href="https://europe-weekly.eu" class="site-link">Europe Weekly</a>
-            <a href="https://europe-weekly.eu/articles.html" class="site-link" style="font-size:0.82rem;font-weight:700;opacity:0.6">Articles</a>
-            <a href="https://europe-weekly.eu/episodes.html" class="site-link" style="font-size:0.82rem;font-weight:700;opacity:0.6">Podcast</a>
+        <header class="site-header">
+          <nav class="site-nav">
+            <a href="https://europe-weekly.eu" class="nav-main">Europe Weekly</a>
+            <a href="https://europe-weekly.eu/articles.html" class="nav-sub">Articles</a>
+            <a href="https://europe-weekly.eu/episodes.html" class="nav-sub">All Episodes</a>
           </nav>
         </header>
 
         <!-- Main -->
         <main>
 
-          <!-- Intro block -->
-          <section class="feed-intro">
-            <h1 class="feed-title"><xsl:value-of select="/rss/channel/title"/> – Podcast Feed</h1>
+          <h1 class="feed-heading"><xsl:value-of select="/rss/channel/title"/> &#8211; Podcast Feed</h1>
+
+          <xsl:if test="/rss/channel/description != ''">
             <p class="feed-desc"><xsl:value-of select="/rss/channel/description"/></p>
-            <span class="rss-notice">RSS Feed – copy URL into your podcast app</span>
+          </xsl:if>
+
+          <div class="rss-pill-row">
+            <span class="rss-pill">RSS Feed &#8212; copy URL into your podcast app</span>
             <a class="rss-url" href="https://europe-weekly.eu/podcast-feed.xml">
               https://europe-weekly.eu/podcast-feed.xml
             </a>
-          </section>
+          </div>
 
-          <!-- Episode list -->
-          <section class="episodes-section">
-            <p class="episodes-heading">Episodes (<xsl:value-of select="count(/rss/channel/item)"/>)</p>
+          <p class="section-label">
+            <xsl:value-of select="count(/rss/channel/item)"/>
+            <xsl:text> Episodes</xsl:text>
+          </p>
 
-            <xsl:for-each select="/rss/channel/item">
-              <a class="ep-card" href="{link}">
-                <span class="ep-badge">
-                  <xsl:text>Season </xsl:text>
-                  <xsl:value-of select="itunes:season"/>
-                  <xsl:text> · Ep </xsl:text>
-                  <xsl:value-of select="itunes:episode"/>
-                  <xsl:if test="itunes:duration">
-                    <xsl:text> · </xsl:text>
-                    <xsl:value-of select="itunes:duration"/>
-                  </xsl:if>
-                </span>
-                <p class="ep-title"><xsl:value-of select="title"/></p>
-                <xsl:if test="description != ''">
-                  <p class="ep-desc"><xsl:value-of select="description"/></p>
+          <xsl:for-each select="/rss/channel/item">
+            <a class="ep-card" href="{link}">
+              <span class="ep-badge">
+                <xsl:text>S</xsl:text><xsl:value-of select="itunes:season"/>
+                <xsl:text> &#183; Ep </xsl:text><xsl:value-of select="itunes:episode"/>
+                <xsl:if test="itunes:duration != ''">
+                  <xsl:text> &#183; </xsl:text><xsl:value-of select="itunes:duration"/>
                 </xsl:if>
-                <div class="ep-meta">
-                  <xsl:if test="pubDate != ''">
-                    <span><xsl:value-of select="pubDate"/></span>
-                  </xsl:if>
-                  <span>Listen →</span>
-                </div>
-              </a>
-            </xsl:for-each>
+              </span>
+              <p class="ep-title"><xsl:value-of select="title"/></p>
+              <xsl:if test="description != ''">
+                <p class="ep-desc"><xsl:value-of select="description"/></p>
+              </xsl:if>
+              <div class="ep-meta">
+                <xsl:if test="pubDate != ''">
+                  <span><xsl:value-of select="pubDate"/></span>
+                </xsl:if>
+                <span>Listen &#8594;</span>
+              </div>
+            </a>
+          </xsl:for-each>
 
-          </section>
         </main>
 
         <!-- Footer -->
-        <footer class="feed-footer">
+        <footer class="site-footer">
           <xsl:value-of select="/rss/channel/copyright"/>
-          <xsl:text> · </xsl:text>
+          <xsl:text> &#183; </xsl:text>
           <a href="https://europe-weekly.eu">europe-weekly.eu</a>
         </footer>
 

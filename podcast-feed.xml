@@ -1,134 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="podcast-feed.xsl"?>
 <rss version="2.0"
- xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"
- xmlns:atom="http://www.w3.org/2005/Atom"
- xmlns:content="http://purl.org/rss/1.0/modules/content/">
- <channel>
- <title>Europe Weekly</title>
- <link>https://europe-weekly.eu</link>
- <description></description>
- <language>en</language>
- <copyright>© 2026 Europe Weekly</copyright>
- <atom:link href="https://europe-weekly.eu/podcast-feed.xml" rel="self" type="application/rss+xml"/>
- <itunes:author>Europe Weekly</itunes:author>
- <itunes:owner>
- <itunes:name>Europe Weekly</itunes:name>
- <itunes:email></itunes:email>
- </itunes:owner>
- <itunes:category text="News"/>
- <itunes:explicit>false</itunes:explicit>
- <item>
- <title>Bulgaria, Slovenia, Romania, Croatia – EU Presidencies and Regional Dynamics</title>
- <description>This episode covers the latest developments from Southeast Europe. Bulgaria navigates EU integration challenges, Slovenia focuses on economic resilience, Romania prepares for its 2026 Mediterranean presidency, and Croatia balances geopolitical ambitions with domestic concerns.</description>
- <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e25-balkans-presidencies.mp3" length="0" type="audio/mpeg"/>
- <guid isPermaLink="false">episode-h1pezng</guid>
- <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-h1pezng</link>
- <itunes:duration>23:31</itunes:duration>
- <itunes:season>2</itunes:season>
- <itunes:episode>25</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>Europe Weekly - March 12, 2026</title>
- <description></description>
- <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e24-daily-news.mp3" length="0" type="audio/mpeg"/>
- <guid isPermaLink="false">episode-4o4a7ez</guid>
- <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-4o4a7ez</link>
- <itunes:duration>22:50</itunes:duration>
- <itunes:season>2</itunes:season>
- <itunes:episode>24</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>Germany, France, Belgium, Netherlands - France Opens Nuclear Deterrence to Europ...</title>
- <description>France initiates a historic shift in nuclear doctrine, opening deterrence capabilities to European allies. Germany commits to Europe's strongest conventional army amid a Franco-German security pivot.</description>
- <guid isPermaLink="false">episode-b7sxe3r</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-b7sxe3r</link>
- <itunes:duration>22:00</itunes:duration>
- <itunes:season>2</itunes:season>
- <itunes:episode>23</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>Poland, Latvia, Lithuania, Estonia - Poland Faces Russian Hybrid Onslaught Am...</title>
- <description>Poland battles Russian hybrid warfare including sabotage and cyberattacks while Baltic states dramatically increase defense spending. Lithuania approves record 5.38% GDP defense budget.</description>
- <guid isPermaLink="false">episode-iw1q9xz</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-iw1q9xz</link>
- <itunes:duration>22:00</itunes:duration>
- <itunes:season>2</itunes:season>
- <itunes:episode>22</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>Sweden, Denmark, Finland, Ireland - Sweden's 2026 Election: First Vote on NA...</title>
- <description>Sweden's upcoming election marks the first vote since abandoning 200 years of military non-alignment. Denmark faces snap election amid Greenland sovereignty tensions. Finland proposes lifting nuclear weapons ban.</description>
- <guid isPermaLink="false">episode-ubqiq9g</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-ubqiq9g</link>
- <itunes:duration>22:00</itunes:duration>
- <itunes:season>2</itunes:season>
- <itunes:episode>21</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>Bulgaria, Slovenia, Romania, Croatia - EU Defense Spending Surge: Eastern Membe...</title>
- <description>Eastern EU members are dramatically increasing defense spending amid growing security concerns. Bulgaria, Slovenia, Romania, and Croatia accelerate military modernization efforts.</description>
- <guid isPermaLink="false">episode-8x8ucu2</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-8x8ucu2</link>
- <itunes:duration>22:00</itunes:duration>
- <itunes:season>2</itunes:season>
- <itunes:episode>20</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>Germany, France, Belgium, Netherlands - Nuclear Deterrence &amp; European Defense</title>
- <description>France's shift to 'forward deterrence' and nuclear cooperation with European allies marks a historic break from Gaullist nuclear sovereignty. Germany commits to Europe's strongest conventional army amid a Franco-German security pivot.</description>
- <guid isPermaLink="false">episode-fy4p5xj</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-fy4p5xj</link>
- <itunes:duration>22:00</itunes:duration>
- <itunes:season>2</itunes:season>
- <itunes:episode>19</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>Germany, France, Belgium, Netherlands - Nuclear Deterrence &amp; European Defense</title>
- <description>France opens nuclear deterrence to Europe in historic Cold War-scale realignment. Germany commits to Europe's strongest army amid Franco-German security pivot.</description>
- <guid isPermaLink="false">episode-4</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-4</link>
- <itunes:duration>22:00</itunes:duration>
- <itunes:season>2</itunes:season>
- <itunes:episode>18</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>LATEST EPISODE Title 1</title>
- <description>In this episode we discuss the latest developments across Europe.</description>
- <guid isPermaLink="false">episode-1</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-1</link>
- <itunes:duration>03:46</itunes:duration>
- <itunes:season>1</itunes:season>
- <itunes:episode>1</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>LATEST EPISODE Title 2</title>
- <description></description>
- <guid isPermaLink="false">episode-2</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-2</link>
- <itunes:duration>03:00</itunes:duration>
- <itunes:season>1</itunes:season>
- <itunes:episode>2</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item> <item>
- <title>LATEST EPISODE Title 3</title>
- <description></description>
- <guid isPermaLink="false">episode-3</guid>
- <pubDate>Fri, 13 Mar 2026 10:54:29 +0000</pubDate>
- <link>https://europe-weekly.eu/episode.html?id=episode-3</link>
- <itunes:duration>05:00</itunes:duration>
- <itunes:season>1</itunes:season>
- <itunes:episode>3</itunes:episode>
- <itunes:explicit>false</itunes:explicit>
- </item>
- </channel>
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Europe Weekly</title>
+    <link>https://europe-weekly.eu</link>
+    <description>Europe Weekly delivers concise, expert analysis of European politics, economy, and international affairs – one country at a time.</description>
+    <language>en</language>
+    <copyright>© 2026 Europe Weekly</copyright>
+    <atom:link href="https://europe-weekly.eu/podcast-feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Europe Weekly</itunes:author>
+    <itunes:owner>
+      <itunes:name>Europe Weekly</itunes:name>
+      <itunes:email>europeweekly27@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+    <itunes:category text="News"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>Poland, Latvia, Lithuania, Estonia – EU Daily Update</title>
+      <description>Episode covering Poland, Latvia, Lithuania, Estonia</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e17-pola-latv.mp3" length="31990222" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-g42plu7</guid>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-g42plu7</link>
+      <itunes:duration>22:12</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>29</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sweden, Denmark, Finland, Ireland – EU Daily Update</title>
+      <description>Monday episode covering Nordic and Celtic nations: Sweden, Denmark, Finland, Ireland</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e28-swed-denm.mp3" length="31956750" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-mc8p0al</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-mc8p0al</link>
+      <itunes:duration>22:11</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>28</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Bulgaria, Slovenia, Romania, Croatia – EU Daily Update</title>
+      <description>Friday episode covering Southeast Europe: Bulgaria, Slovenia, Romania, and Croatia.</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e27-bulg-slro-cro.mp3" length="31528795" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-4dlzlsp</guid>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-4dlzlsp</link>
+      <itunes:duration>21:53</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>27</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Slovakia, Hungary, Austria – EU Daily Update</title>
+      <description>Episode covering Slovakia, Hungary, Austria</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e3-slov-hung.mp3" length="8402277" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-791r3qr</guid>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-791r3qr</link>
+      <itunes:duration>05:50</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>26</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
 </rss>

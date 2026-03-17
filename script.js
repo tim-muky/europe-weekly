@@ -819,10 +819,12 @@ function generateRSSFeed(data) {
   }
 
   const items = data.episodes.map(ep => {
-    const desc = escXml(ep.notes || ep.description || '');
-    const enc  = ep.audioUrl
-      ? `\n      <enclosure url="${escXml(ep.audioUrl)}" length="0" type="audio/mpeg"/>`
+    const desc    = escXml(ep.notes || ep.description || '');
+    const epSize  = ep.fileSize || 0;
+    const enc     = ep.audioUrl
+      ? `\n      <enclosure url="${escXml(ep.audioUrl)}" length="${epSize}" type="audio/mpeg"/>`
       : '';
+    const epImg   = ep.coverArt || cover;
     return `    <item>
       <title>${escXml(ep.title)}</title>
       <description>${desc}</description>${enc}
@@ -831,7 +833,7 @@ function generateRSSFeed(data) {
       <link>${siteUrl}/episode.html?id=${encodeURIComponent(ep.id)}</link>
       <itunes:duration>${fmtDur(ep.duration || 0)}</itunes:duration>
       <itunes:season>${ep.season || 1}</itunes:season>
-      <itunes:episode>${ep.episodeNumber || 1}</itunes:episode>
+      <itunes:episode>${ep.episodeNumber || 1}</itunes:episode>${epImg ? `\n      <itunes:image href="${escXml(epImg)}"/>` : ''}
       <itunes:explicit>false</itunes:explicit>
     </item>`;
   }).join('\n');
@@ -1003,6 +1005,10 @@ async function initAdmin() {
     document.getElementById('settings-podcast-email').value    = pod.email       || '';
     document.getElementById('settings-podcast-category').value = pod.category    || '';
     document.getElementById('settings-podcast-language').value = pod.language    || '';
+    const slugEl   = document.getElementById('settings-rsscom-slug');
+    const tokenREl = document.getElementById('settings-rsscom-token');
+    if (slugEl)   slugEl.value   = pod.rsscomSlug  || '';
+    if (tokenREl) tokenREl.value = pod.rsscomToken || '';
     const tokenEl = document.getElementById('settings-gh-token');
     if (tokenEl) tokenEl.value = getGHToken();
   }
@@ -1036,7 +1042,9 @@ async function initAdmin() {
       author:      document.getElementById('settings-podcast-author').value.trim(),
       email:       document.getElementById('settings-podcast-email').value.trim(),
       category:    document.getElementById('settings-podcast-category').value.trim(),
-      language:    document.getElementById('settings-podcast-language').value.trim()
+      language:    document.getElementById('settings-podcast-language').value.trim(),
+      rsscomSlug:  (document.getElementById('settings-rsscom-slug')?.value  || '').trim(),
+      rsscomToken: (document.getElementById('settings-rsscom-token')?.value || '').trim()
     };
     const tokenVal = (document.getElementById('settings-gh-token')?.value ?? '').trim();
     setGHToken(tokenVal);
@@ -1278,7 +1286,94 @@ async function initAdmin() {
     if (!confirm('Reset all CMS data to the default content.json?')) return;
     localStorage.removeItem(CMS_KEY);
     data = await getData();
-    renderSettings(); renderCategories(); renderArticles(); renderEpisodes();
+    renderSettings(); renderCategories(); renderArticles(); renderEpisodes(); renderDownloads();
+  });
+
+  // ── Downloads ────────────────────────────────
+
+  function renderDownloads() {
+    const tbody = document.getElementById('downloads-tbody');
+    if (!tbody) return;
+    const eps = (data.episodes || []).slice().sort((a, b) =>
+      (b.episodeNumber || 0) - (a.episodeNumber || 0));
+    tbody.innerHTML = eps.map(ep => {
+      const dl = ep.downloads || 0;
+      const label = `S${ep.season || 1}·E${ep.episodeNumber || 1}`;
+      return `<tr>
+        <td>${label}</td>
+        <td>${escHtml(ep.title)}</td>
+        <td style="text-align:right;padding-right:8px">
+          <input class="dl-input" type="number" min="0" step="1"
+                 data-ep-id="${ep.id}" value="${dl}" />
+        </td>
+        <td>
+          <button class="dl-save-btn" data-ep-id="${ep.id}">Save</button>
+        </td>
+      </tr>`;
+    }).join('');
+
+    tbody.querySelectorAll('.dl-save-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id  = btn.dataset.epId;
+        const inp = tbody.querySelector(`.dl-input[data-ep-id="${id}"]`);
+        const val = parseInt(inp.value, 10) || 0;
+        const ep  = data.episodes.find(e => e.id === id);
+        if (!ep) return;
+        ep.downloads = val;
+        save('cms: update downloads');
+        btn.textContent = '✓ Saved';
+        btn.classList.add('saved');
+        setTimeout(() => { btn.textContent = 'Save'; btn.classList.remove('saved'); }, 2000);
+      });
+    });
+  }
+
+  // RSS.com sync
+  document.getElementById('rsscom-sync-btn')?.addEventListener('click', async () => {
+    const pod   = (data.settings || {}).podcast || {};
+    const slug  = pod.rsscomSlug?.trim();
+    const token = pod.rsscomToken?.trim();
+    const hint  = document.getElementById('downloads-rsscom-hint');
+
+    if (!slug || !token) {
+      hint.textContent = 'Add your RSS.com Podcast Slug and API Token in Settings → Podcast Feed, then save Settings before syncing.';
+      hint.style.display = '';
+      return;
+    }
+    hint.textContent = 'Fetching from RSS.com…';
+    hint.style.display = '';
+
+    try {
+      // RSS.com statistics API endpoint
+      const url = `https://api.rss.com/v1/podcasts/${encodeURIComponent(slug)}/episodes/statistics`;
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' }
+      });
+      if (!res.ok) throw new Error(`RSS.com API responded with status ${res.status}`);
+      const json = await res.json();
+
+      // Map by episode GUID or title — RSS.com returns episodes with download counts
+      const statsMap = {};
+      (json.data || json.episodes || []).forEach(item => {
+        const key = item.guid || item.id || item.title;
+        if (key) statsMap[key] = item.downloads || item.total_downloads || 0;
+      });
+
+      let updated = 0;
+      data.episodes.forEach(ep => {
+        const val = statsMap[ep.id] ?? statsMap[ep.title];
+        if (val !== undefined) { ep.downloads = val; updated++; }
+      });
+      if (updated) {
+        save('cms: sync downloads from rss.com');
+        renderDownloads();
+        hint.textContent = `✓ Synced download counts for ${updated} episode(s).`;
+      } else {
+        hint.textContent = 'Sync succeeded but no matching episodes were found. Check that your podcast slug is correct.';
+      }
+    } catch (e) {
+      hint.textContent = `Sync failed: ${e.message}. Check your RSS.com API token and slug in Settings.`;
+    }
   });
 
   // ── Initial render ───────────────────────────
@@ -1286,4 +1381,5 @@ async function initAdmin() {
   renderCategories();
   renderArticles();
   renderEpisodes();
+  renderDownloads();
 }

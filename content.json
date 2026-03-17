@@ -9,11 +9,11 @@
     },
     "podcast": {
       "title": "Europe Weekly",
-      "description": "",
-      "coverArt": "",
+      "description": "Europe Weekly delivers concise, expert analysis of European politics, economy, and international affairs – one country at a time.",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
       "author": "Europe Weekly",
       "email": "europeweekly27@gmail.com",
-      "category": "NEWS POLITICS",
+      "category": "News",
       "language": "en"
     }
   },
