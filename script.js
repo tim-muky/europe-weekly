@@ -4,6 +4,73 @@
    Europe Weekly – CMS engine + page renderers
    ============================================= */
 
+// ── THEME TOGGLE ──────────────────────────────
+
+const THEME_KEY = 'ew-theme';
+
+const _SUN_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="19.07" y1="4.93" x2="17.66" y2="6.34"/><line x1="6.34" y1="17.66" x2="4.93" y2="19.07"/></svg>`;
+
+const _MOON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
+
+function _getEffectiveTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  if (saved) return saved;
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+function _applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+}
+
+function _updateToggleBtn() {
+  const btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+  const isDark = _getEffectiveTheme() === 'dark';
+  btn.innerHTML = isDark
+    ? `${_SUN_SVG}<span>Day</span>`
+    : `${_MOON_SVG}<span>Night</span>`;
+  btn.title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+}
+
+function initThemeToggle() {
+  // Skip on the admin page
+  if (document.body?.classList.contains('admin-page')) return;
+
+  // Apply persisted preference immediately (also done inline in <head>)
+  const saved = localStorage.getItem(THEME_KEY);
+  if (saved) _applyTheme(saved);
+
+  // Build button
+  const btn = document.createElement('button');
+  btn.id = 'theme-toggle';
+  btn.setAttribute('aria-label', 'Toggle colour scheme');
+
+  // Insert into whichever header is on this page
+  const header = document.querySelector('.site-header, .article-header');
+  if (header) header.appendChild(btn);
+
+  _updateToggleBtn();
+
+  btn.addEventListener('click', () => {
+    const next = _getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(THEME_KEY, next);
+    _applyTheme(next);
+    _updateToggleBtn();
+  });
+
+  // Keep icon in sync if OS preference changes and no manual override is set
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (!localStorage.getItem(THEME_KEY)) _updateToggleBtn();
+  });
+}
+
+// Run as soon as the DOM is ready (before any page-specific init)
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initThemeToggle);
+} else {
+  initThemeToggle();
+}
+
 // ── DATA LAYER ────────────────────────────────
 
 const CMS_KEY = 'ew-cms-data';

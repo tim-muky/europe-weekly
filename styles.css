@@ -1191,3 +1191,213 @@ a.cat-item-title:hover { text-decoration: underline; }
   /* Chart canvas */
   canvas { filter: brightness(0.85); }
 }
+
+/* ===== THEME TOGGLE BUTTON ===== */
+#theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: 1.5px solid currentColor;
+  border-radius: 20px;
+  padding: 4px 11px 4px 9px;
+  font-family: var(--font);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s;
+  line-height: 1;
+  position: absolute;
+  top: 18px;
+  right: 36px;
+  z-index: 10;
+}
+#theme-toggle:hover { opacity: 1; }
+#theme-toggle svg { flex-shrink: 0; }
+
+/* Home page: position within blue hero */
+.site-header #theme-toggle { color: #fff; top: 20px; right: 20px; }
+
+@media (max-width: 600px) {
+  #theme-toggle { right: 18px; top: 14px; font-size: 0; padding: 6px 8px; gap: 0; border-radius: 50%; }
+}
+
+/* ===== THEME: FORCE DARK (overrides OS light preference) ===== */
+
+
+    html[data-theme="dark"]:root {
+    --blue-light:  #2a4a6b;
+    --blue-dark:   #0d1e33;
+    --tag-bg:      #3a3a10;
+    --tag-text:    #e8e870;
+    --text-dark:   #e8e8e8;
+    --text-light:  #f0f0f0;
+    --more-link:   #6ab0e0;
+  }
+
+    html[data-theme="dark"] body {
+    background: #121820;
+    color: #e8e8e8;
+  }
+
+  /* Header / nav */
+  .site-header   { background-color: #0d1e33; }
+  .site-nav      { background: rgba(13,30,51,0.85); }
+  .nav-section ul li a,
+  .nav-main-link { color: #e8e8e8; }
+  .nav-heading   { color: #e8e8e8; }
+
+  /* Article / episode page chrome */
+  .article-header  { background: #121820; border-bottom-color: #2a4a6b; }
+  .article-main    { background: #121820; }
+  .article-page    { background: #121820; }
+  .header-rule     { border-color: #2a4a6b; }
+
+  /* Article content */
+  .content-title       { color: #f0f0f0; }
+  .article-text        { color: #d8d8d8; }
+  .article-keywords    { background: #1a2a3a; border-color: #2a4a6b; }
+  .keyword             { background: #2a3a10; color: #e8e870; }
+  .article-sources     { background: #1a2a3a; border-color: #2a4a6b; }
+  .sources-heading,
+  .sources-text        { color: #b0b8c4; }
+
+  /* Tags */
+  .tag { background: var(--tag-bg); color: var(--tag-text); }
+
+  /* Lists (articles / category) */
+  .cat-item        { border-bottom-color: #2a4a6b; }
+  .cat-item-title  { color: #6ab0e0; }
+  .cat-item-excerpt{ color: #a0aab4; }
+  .list-page-heading { color: #f0f0f0; }
+  .no-results      { color: #888; }
+
+  /* Search bar */
+    html[data-theme="dark"] .search-input {
+    background: #1a2a3a;
+    border-color: #2a4a6b;
+    color: #e8e8e8;
+  }
+  .search-input:focus  { border-color: #6ab0e0; background: #1a2a3a; }
+  .search-input::placeholder { color: #556677; }
+  .search-count { color: #6688aa; }
+
+  /* Load more button */
+    html[data-theme="dark"] .load-more-btn {
+    color: #6ab0e0;
+    border-color: #2a4a6b;
+  }
+    html[data-theme="dark"] .load-more-btn:hover {
+    background: #1a2a3a;
+    border-color: #6ab0e0;
+    color: #a0d0f0;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb      { color: #778899; }
+  .breadcrumb a    { color: #6ab0e0; }
+  .breadcrumb span[aria-current="page"] { color: #c0c8d4; }
+
+  /* Reading time */
+  .reading-time { color: #667788; }
+
+  /* Related articles */
+  .related-articles { background: #151e28; border-top-color: #2a4a6b; }
+  .related-heading  { color: #a0b8d0; }
+    html[data-theme="dark"] .related-card {
+    background: #1a2a3a;
+    border-color: #2a4a6b;
+    color: #e8e8e8;
+  }
+  .related-card:hover { border-color: #6ab0e0; box-shadow: 0 2px 10px rgba(0,0,0,0.4); }
+  .related-card-title   { color: #e8e8e8; }
+  .related-card-excerpt { color: #778899; }
+
+  /* Episode detail page */
+  .episode-page          { background: #0d1e33; }
+  .episode-page .article-header { background: #0d1e33; }
+  .episode-page .article-main   { background: #0d1e33; }
+  .episode-detail-title  { color: #f0f0f0; }
+  .episode-cover-placeholder    { background: #0a1520; color: rgba(255,255,255,0.2); }
+
+  /* Episode list page */
+  .ep-list-card               { background: #0d2040; }
+  .ep-list-card:hover         { background: #122550; }
+  .ep-list-thumb--placeholder { background: #0a1520; }
+
+  /* Footer */
+  .site-footer { background: #080f18; }
+
+  /* Audio player */
+  .player-bar  { background: #1a2a3a; border-color: #2a4a6b; }
+  .player-time { color: #778899; }
+  .progress-track { background: #2a4a6b; }
+
+  /* Home page preview panels */
+  .article-preview { background: #151e28; }
+  .podcast-preview { background: #0d1e33; }
+
+  /* Chart canvas */
+  canvas { filter: brightness(0.85); }
+
+
+/* ===== THEME: FORCE LIGHT (overrides OS dark preference) ===== */
+html[data-theme="light"]:root {
+  --blue-light:  #c5daea;
+  --blue-dark:   #1c3252;
+  --tag-bg:      #f5f064;
+  --tag-text:    #111;
+  --text-dark:   #111;
+  --text-light:  #fff;
+  --more-link:   #1a6ba8;
+}
+html[data-theme="light"] body                { background: #fff; color: #111; }
+html[data-theme="light"] .site-header        { background-color: inherit; }
+html[data-theme="light"] .site-nav           { background: transparent; }
+html[data-theme="light"] .nav-section ul li a,
+html[data-theme="light"] .nav-main-link      { color: #111; }
+html[data-theme="light"] .nav-heading        { color: #111; }
+html[data-theme="light"] .article-header     { background: #F1F1EC; border-bottom-color: #ccc; }
+html[data-theme="light"] .article-main       { background: #c5daea; }
+html[data-theme="light"] .article-page       { background: #F1F1EC; }
+html[data-theme="light"] .header-rule        { border-color: #ccc; }
+html[data-theme="light"] .content-title      { color: #1c3252; }
+html[data-theme="light"] .article-text       { color: #222; }
+html[data-theme="light"] .article-keywords   { background: #eef5fb; border-color: #c5daea; }
+html[data-theme="light"] .keyword            { background: #f5f064; color: #111; }
+html[data-theme="light"] .article-sources    { background: #eef5fb; border-color: #c5daea; }
+html[data-theme="light"] .sources-heading,
+html[data-theme="light"] .sources-text       { color: #444; }
+html[data-theme="light"] .cat-item           { border-bottom-color: #ccc; }
+html[data-theme="light"] .cat-item-title     { color: #1a6ba8; }
+html[data-theme="light"] .cat-item-excerpt   { color: #333; }
+html[data-theme="light"] .list-page-heading  { color: #1c3252; }
+html[data-theme="light"] .no-results         { color: #555; }
+html[data-theme="light"] .search-input       { background: #fff; border-color: #1c3252; color: #111; }
+html[data-theme="light"] .search-input::placeholder { color: #888; }
+html[data-theme="light"] .search-count       { color: #777; }
+html[data-theme="light"] .load-more-btn      { color: #1a6ba8; border-color: #c5daea; }
+html[data-theme="light"] .load-more-btn:hover { background: #c5daea; border-color: #c5daea; color: #1c3252; }
+html[data-theme="light"] .breadcrumb         { color: #888; }
+html[data-theme="light"] .breadcrumb a       { color: #1a6ba8; }
+html[data-theme="light"] .breadcrumb span[aria-current="page"] { color: #444; }
+html[data-theme="light"] .reading-time       { color: #888; }
+html[data-theme="light"] .related-articles   { background: #eef5fb; border-top-color: #ccc; }
+html[data-theme="light"] .related-heading    { color: #1c3252; }
+html[data-theme="light"] .related-card       { background: #fff; border-color: #ddd; color: #111; }
+html[data-theme="light"] .related-card-title   { color: #111; }
+html[data-theme="light"] .related-card-excerpt { color: #555; }
+html[data-theme="light"] .ep-list-card        { background: #16487D; }
+html[data-theme="light"] .ep-list-card:hover  { background: #1c5a99; }
+html[data-theme="light"] .ep-list-thumb--placeholder { background: #0a3060; }
+html[data-theme="light"] .site-footer         { background: #1c3252; }
+html[data-theme="light"] .player-bar          { background: #fff; border-color: #ddd; }
+html[data-theme="light"] .player-time         { color: #666; }
+html[data-theme="light"] .progress-track      { background: #c5daea; }
+html[data-theme="light"] .article-preview     { background: #fff; }
+html[data-theme="light"] canvas               { filter: none; }
+
