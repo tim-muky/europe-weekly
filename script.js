@@ -738,16 +738,19 @@ async function initEpisodesList() {
     return;
   }
 
+  // Outer element is a <div>, not <a> — episode cards contain <a class="tag"> links,
+  // and nested <a> tags are invalid HTML (browsers auto-close the outer one, breaking
+  // layout). Title link uses ::after to cover the full card; tags sit above via z-index.
   container.innerHTML = data.episodes.map((ep, i) => `
-      <a href="episode.html?id=${ep.id}" class="ep-list-card" data-ep-idx="${i}"${i >= EP_PAGE_SIZE ? ' style="display:none"' : ''}>
-        ${epThumb(ep)}
+      <div class="ep-list-card" data-ep-idx="${i}"${i >= EP_PAGE_SIZE ? ' style="display:none"' : ''}>
+        <a href="episode.html?id=${ep.id}" class="ep-list-thumb-link" tabindex="-1" aria-hidden="true">${epThumb(ep)}</a>
         <div class="ep-list-body">
           <span class="episode-badge ep-list-badge">S${ep.season || 1} · E${ep.episodeNumber || 1}</span>
-          <div class="ep-list-title">${escHtml(ep.title)}</div>
+          <a href="episode.html?id=${ep.id}" class="ep-list-title">${escHtml(ep.title)}</a>
           <div class="cat-item-tags">${tagsHTML(data, ep.categories)}</div>
           ${ep.notes ? `<p class="ep-list-notes">${escHtml(ep.notes.slice(0, 120))}${ep.notes.length > 120 ? '…' : ''}</p>` : ''}
         </div>
-      </a>`).join('');
+      </div>`).join('');
 
   let epShown = Math.min(EP_PAGE_SIZE, data.episodes.length);
   if (epMoreWrap) epMoreWrap.style.display = data.episodes.length > EP_PAGE_SIZE ? '' : 'none';

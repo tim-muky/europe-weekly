@@ -42,6 +42,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;          /* stretches full height of the header image */
   z-index: 1;
 }
 
@@ -812,28 +813,46 @@ a.cat-item-title:hover { text-decoration: underline; }
 .episode-detail-tags  { margin-bottom: 22px; }
 .episode-detail-player { max-width: 520px; margin-bottom: 20px; }
 
-/* ===== EPISODES LIST PAGE — simple clickable cards ===== */
+/* ===== EPISODES LIST PAGE ===== */
 
+/* Page chrome — dark blue in day mode (matches cards) */
+.episodes-list-page                    { background: #16487D; }
+.episodes-list-page .article-header   { background: #16487D; border-bottom-color: rgba(255,255,255,0.12); }
+.episodes-list-page .header-rule      { border-color: rgba(255,255,255,0.12); }
+.episodes-list-page main              { background: #16487D; }
+.episodes-list-page .list-page-heading { color: #fff; }
+.episodes-list-page .article-nav .nav-main-link       { color: rgba(255,255,255,0.85); }
+.episodes-list-page .article-nav .nav-main-link:hover { opacity: 0.7; }
+.episodes-list-page .site-footer      { background: rgba(0,0,0,0.3); }
+
+/* Cards — same background as page; hover adds subtle lift */
 .ep-list-card {
   display: flex;
   gap: 16px;
   align-items: flex-start;
-  background: #16487D;
+  background: #16487D;            /* matches page — no visible box in day mode */
+  border: 1px solid rgba(255,255,255,0.12);
   border-radius: 4px;
   padding: 16px 18px;
   margin-bottom: 14px;
-  text-decoration: none;
   color: var(--text-light);
-  transition: background 0.15s;
+  transition: background 0.15s, border-color 0.15s;
+  position: relative;             /* needed for ::after card-click-area */
+  cursor: pointer;
 }
-.ep-list-card:hover { background: #1c5a99; }
+.ep-list-card:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.28);
+}
+
+/* Thumbnail link — covers the image but hidden from a11y tree */
+.ep-list-thumb-link { flex-shrink: 0; display: block; line-height: 0; }
 
 .ep-list-thumb {
   width: 72px;
   height: 72px;
   object-fit: cover;
   border-radius: 3px;
-  flex-shrink: 0;
 }
 
 .ep-list-body {
@@ -843,22 +862,33 @@ a.cat-item-title:hover { text-decoration: underline; }
   flex: 1;
 }
 
+/* Title is the real <a>; ::after stretches it over the whole card */
 .ep-list-title {
+  display: block;
   font-weight: 900;
   font-size: 0.88rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  color: #fff;
+  text-decoration: none;
+  position: static;
+}
+.ep-list-title::after {
+  content: '';
+  position: absolute;
+  inset: 0;
 }
 .ep-list-card:hover .ep-list-title { text-decoration: underline; }
+
+/* Tags sit above the ::after layer so they're independently clickable */
+.ep-list-card .cat-item-tags { position: relative; z-index: 1; }
+.ep-list-card .tag            { position: relative; z-index: 1; }
 
 .ep-list-notes {
   font-size: 0.8rem;
   color: #8ab0c8;
   line-height: 1.5;
 }
-
-/* ===== EPISODES LIST PAGE ===== */
-/* Uses the same header/background as other pages; cards carry the dark-blue colour */
 
 /* ===== LOAD MORE ===== */
 
@@ -1209,9 +1239,20 @@ a.cat-item-title:hover { text-decoration: underline; }
   .episode-detail-title  { color: #f0f0f0; }
   .episode-cover-placeholder    { background: #0a1520; color: rgba(255,255,255,0.2); }
 
-  /* Episode list page */
-  .ep-list-card               { background: #0d2040; }
-  .ep-list-card:hover         { background: #122550; }
+  /* About / Imprint page content */
+  .page-content { color: #e8e8e8; }
+  .page-content a { color: #6ab0e0; }
+
+  /* Episode list page — page and cards share same dark background */
+  .episodes-list-page,
+  .episodes-list-page .article-header,
+  .episodes-list-page main    { background: #121820; }
+  .episodes-list-page .article-header { border-bottom-color: #2a4a6b; }
+  .episodes-list-page .header-rule    { border-color: #2a4a6b; }
+  .episodes-list-page .list-page-heading { color: #f0f0f0; }
+  .episodes-list-page .article-nav .nav-main-link { color: #e8e8e8; }
+  .ep-list-card               { background: #121820; border-color: #2a4a6b; }
+  .ep-list-card:hover         { background: #1a2535; border-color: #4a7aaa; }
   .ep-list-thumb--placeholder { background: #0a1520; }
 
   /* Footer */
@@ -1252,6 +1293,8 @@ html[data-theme="light"] .article-page       { background: #F1F1EC; }
 html[data-theme="light"] .header-rule        { border-color: #ccc; }
 html[data-theme="light"] .content-title      { color: #1c3252; }
 html[data-theme="light"] .article-text       { color: #222; }
+html[data-theme="light"] .page-content       { color: #333; }
+html[data-theme="light"] .page-content a     { color: #1a6ba8; }
 html[data-theme="light"] .article-keywords   { background: #eef5fb; border-color: #c5daea; }
 html[data-theme="light"] .keyword            { background: #f5f064; color: #111; }
 html[data-theme="light"] .article-sources    { background: #eef5fb; border-color: #c5daea; }
@@ -1276,8 +1319,15 @@ html[data-theme="light"] .related-heading    { color: #1c3252; }
 html[data-theme="light"] .related-card       { background: #fff; border-color: #ddd; color: #111; }
 html[data-theme="light"] .related-card-title   { color: #111; }
 html[data-theme="light"] .related-card-excerpt { color: #555; }
-html[data-theme="light"] .ep-list-card        { background: #16487D; }
-html[data-theme="light"] .ep-list-card:hover  { background: #1c5a99; }
+html[data-theme="light"] .episodes-list-page,
+html[data-theme="light"] .episodes-list-page .article-header,
+html[data-theme="light"] .episodes-list-page main    { background: #16487D; }
+html[data-theme="light"] .episodes-list-page .article-header { border-bottom-color: rgba(255,255,255,0.12); }
+html[data-theme="light"] .episodes-list-page .header-rule    { border-color: rgba(255,255,255,0.12); }
+html[data-theme="light"] .episodes-list-page .list-page-heading { color: #fff; }
+html[data-theme="light"] .episodes-list-page .article-nav .nav-main-link { color: rgba(255,255,255,0.85); }
+html[data-theme="light"] .ep-list-card        { background: #16487D; border-color: rgba(255,255,255,0.12); }
+html[data-theme="light"] .ep-list-card:hover  { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.28); }
 html[data-theme="light"] .ep-list-thumb--placeholder { background: #0a3060; }
 html[data-theme="light"] .site-footer         { background: #1c3252; }
 html[data-theme="light"] .player-bar          { background: #fff; border-color: #ddd; }
