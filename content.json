@@ -1,5 +1,5 @@
 {
-  "version": 1773740909664,
+  "version": 1773746663102,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -240,39 +240,6 @@
     }
   ],
   "episodes": [
-    {
-      "id": "episode-g42plu7",
-      "title": "Poland, Latvia, Lithuania, Estonia – EU Daily Update",
-      "categories": [
-        "cat-9s0v3r9",
-        "cat-jszfyjk",
-        "cat-oifdqv9",
-        "cat-nbf1ay4"
-      ],
-      "duration": 1332,
-      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e17-pola-latv.mp3",
-      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
-      "season": 2,
-      "episodeNumber": 29,
-      "keywords": "Poland, Latvia, Lithuania, Estonia",
-      "notes": "Episode covering Poland, Latvia, Lithuania, Estonia",
-      "pubDate": "2026-03-17"
-    },
-    {
-      "id": "episode-mc8p0al",
-      "title": "Sweden, Denmark, Finland, Ireland – EU Daily Update",
-      "categories": [
-        "cat-nordic-celtic"
-      ],
-      "duration": 1331,
-      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e28-swed-denm.mp3",
-      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
-      "season": 2,
-      "episodeNumber": 28,
-      "keywords": "Sweden, Denmark, Finland, Ireland",
-      "notes": "Monday episode covering Nordic and Celtic nations: Sweden, Denmark, Finland, Ireland",
-      "pubDate": "2026-03-16"
-    },
     {
       "id": "episode-4dlzlsp",
       "title": "Bulgaria, Slovenia, Romania, Croatia – EU Daily Update",
