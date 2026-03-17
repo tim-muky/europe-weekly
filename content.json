@@ -1,5 +1,5 @@
 {
-  "version": 1773750754282,
+  "version": 1773750772118,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -240,6 +240,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-axrc1cf",
+      "title": "Poland, Latvia, Lithuania, Estonia – EU Daily Update",
+      "categories": [
+        "cat-9s0v3r9",
+        "cat-jszfyjk",
+        "cat-oifdqv9",
+        "cat-nbf1ay4"
+      ],
+      "duration": 1332,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e17-pola-latv.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 30,
+      "keywords": "Poland, Latvia, Lithuania, Estonia",
+      "notes": "Episode covering Poland, Latvia, Lithuania, Estonia",
+      "pubDate": "2026-03-17"
+    },
     {
       "id": "episode-u6q7vje",
       "title": "Sweden, Denmark, Finland, Ireland – EU Daily Update",
