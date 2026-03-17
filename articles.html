@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>All Articles – Europe Weekly</title>
   <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="favicon-512.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="article-page">
@@ -18,7 +19,21 @@
 
   <main class="article-main">
     <h1 class="content-title list-page-heading">ALL ARTICLES</h1>
+    <div class="search-bar-wrap">
+      <input
+        id="article-search"
+        class="search-input"
+        type="search"
+        placeholder="Search articles…"
+        aria-label="Search articles"
+        autocomplete="off"
+      >
+      <span id="search-count" class="search-count" aria-live="polite"></span>
+    </div>
     <div id="articles-list"></div>
+    <div id="articles-more-wrap" class="load-more-wrap" style="display:none">
+      <button id="articles-more-btn" class="load-more-btn">Load more articles</button>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -26,7 +41,8 @@
     <a href="imprint.html">Imprint</a>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
   <script>initArticlesList();</script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "00875a4784cc1d4912396a05c28341792a772"}'></script>
 </body>
 </html>

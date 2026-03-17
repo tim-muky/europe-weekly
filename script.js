@@ -154,6 +154,89 @@ function renderHTML(str) {
   return textToHTML(str);
 }
 
+// ── SEO / META TAGS ───────────────────────────
+
+const SITE_URL  = 'https://europe-weekly.eu';
+const SITE_NAME = 'Europe Weekly';
+const SITE_DESC = 'European news, politics and analysis – articles and podcast from Europe Weekly.';
+
+// Convert ALL_CAPS or UPPER CASE titles to Title Case for use in meta/OG/Twitter tags.
+// Leaves mixed-case strings untouched. Restores known political/EU acronyms.
+const _TC_LOWER = new Set(['a','an','the','and','but','or','nor','for','so','yet',
+  'at','by','in','of','on','to','up','as','if','it','is','vs']);
+const _ACRONYMS = new Set([
+  'EU','UN','UK','US','USA','NATO','IMF','GDP','ECB','WTO','MEP','MEPs',
+  'EP','EC','G7','G8','G20','OECD','NGO','PM','VP','FM','MP','MPs',
+  'ECJ','EEA','EIB','ESM','EMU','EFSF','PESCO','OSCE','IAEA','WHO',
+  'CEE','CSDP','MFF','CAP','CFP','AI','COVID','BBC','CNN','DG','DGs'
+]);
+function toMetaTitle(str) {
+  if (!str) return str;
+  const alpha = str.replace(/[^a-zA-Z]/g, '');
+  const upperRatio = alpha.length ? (alpha.split('').filter(c => c === c.toUpperCase()).length / alpha.length) : 0;
+  if (upperRatio < 0.7) return str;   // already mixed case — leave as-is
+  // Split on word boundaries, preserving separators, then title-case word by word
+  const tokens  = str.toLowerCase().split(/(\b)/);
+  let forceUpper = true;  // capitalise after start, colon or em-dash
+  let prevTok    = '';
+  const titled = tokens.map(tok => {
+    if (/^[-–—:]$/.test(tok)) { forceUpper = true; prevTok = tok; return tok; }
+    if (!/[a-z]/.test(tok))   { if (tok) prevTok = tok; return tok; }  // punctuation / spaces / digits — update prevTok only if non-empty
+    if (prevTok === "'")       { prevTok = tok; return tok; }  // don't capitalise after apostrophe ('s, 't, etc.)
+    if (forceUpper || !_TC_LOWER.has(tok)) {
+      forceUpper = false; prevTok = tok;
+      return tok.charAt(0).toUpperCase() + tok.slice(1);
+    }
+    forceUpper = false; prevTok = tok;
+    return tok;
+  }).join('');
+  // Restore known acronyms
+  return titled.replace(/\b[A-Za-z]{2,6}\b/g, w => _ACRONYMS.has(w.toUpperCase()) ? w.toUpperCase() : w);
+}
+
+function _setMeta(attr, key, content) {
+  if (!content) return;
+  let el = document.querySelector(`meta[${attr}="${CSS.escape(key)}"]`);
+  if (!el) { el = document.createElement('meta'); el.setAttribute(attr, key); document.head.appendChild(el); }
+  el.content = content;
+}
+
+function setPageMeta({ title, description, image, url, type = 'website' }) {
+  const fullTitle    = title ? `${toMetaTitle(title)} – ${SITE_NAME}` : SITE_NAME;
+  const desc         = ((description || SITE_DESC).replace(/<[^>]+>/g, '').trim()).slice(0, 160);
+  const canonicalUrl = url || (SITE_URL + location.pathname + location.search);
+
+  document.title = fullTitle;
+
+  // Standard meta
+  _setMeta('name', 'description', desc);
+
+  // Canonical link
+  let canon = document.querySelector('link[rel="canonical"]');
+  if (!canon) { canon = document.createElement('link'); canon.rel = 'canonical'; document.head.appendChild(canon); }
+  canon.href = canonicalUrl;
+
+  // Open Graph
+  _setMeta('property', 'og:title',       fullTitle);
+  _setMeta('property', 'og:description', desc);
+  _setMeta('property', 'og:url',         canonicalUrl);
+  _setMeta('property', 'og:type',        type);
+  _setMeta('property', 'og:site_name',   SITE_NAME);
+  if (image) _setMeta('property', 'og:image', image);
+
+  // Twitter Card
+  _setMeta('name', 'twitter:card',        image ? 'summary_large_image' : 'summary');
+  _setMeta('name', 'twitter:title',       fullTitle);
+  _setMeta('name', 'twitter:description', desc);
+  if (image) _setMeta('name', 'twitter:image', image);
+}
+
+function setJsonLd(schema) {
+  let el = document.getElementById('json-ld');
+  if (!el) { el = document.createElement('script'); el.id = 'json-ld'; el.type = 'application/ld+json'; document.head.appendChild(el); }
+  el.textContent = JSON.stringify(schema);
+}
+
 // ── SOCIAL ICONS ──────────────────────────────
 
 const ICON_INSTAGRAM = `<svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>`;
@@ -324,6 +407,7 @@ async function initHome() {
   const data = await getData();
   renderNav(data);
   renderFooter(data);
+  setPageMeta({ url: `${SITE_URL}/` });
 
   // Apply background image from settings
   const bgImg = data.settings?.backgroundImage;
@@ -371,8 +455,45 @@ async function initArticle() {
   const art = data.articles.find(a => a.id === id);
   if (!art) { document.getElementById('article-content').innerHTML = '<p>Article not found.</p>'; return; }
 
-  document.title = art.title + ' – Europe Weekly';
+  setPageMeta({
+    title:       art.title,
+    description: art.excerpt,
+    url:         `${SITE_URL}/article.html?id=${art.id}`,
+    type:        'article'
+  });
+  setJsonLd({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type':       'NewsArticle',
+        'headline':    art.title,
+        'description': (art.excerpt || '').replace(/<[^>]+>/g, '').slice(0, 160),
+        'url':         `${SITE_URL}/article.html?id=${art.id}`,
+        'publisher':   { '@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL },
+        'keywords':    art.keywords || ''
+      },
+      {
+        '@type':           'BreadcrumbList',
+        'itemListElement': [
+          { '@type': 'ListItem', 'position': 1, 'name': 'Home',     'item': `${SITE_URL}/` },
+          { '@type': 'ListItem', 'position': 2, 'name': 'Articles', 'item': `${SITE_URL}/articles.html` },
+          { '@type': 'ListItem', 'position': 3, 'name': art.title,  'item': `${SITE_URL}/article.html?id=${art.id}` }
+        ]
+      }
+    ]
+  });
   document.getElementById('article-title').textContent = art.title;
+  const bcTitle = document.getElementById('breadcrumb-title');
+  if (bcTitle) bcTitle.textContent = toMetaTitle(art.title);
+
+  const rtEl = document.getElementById('article-reading-time');
+  if (rtEl) {
+    const wordCount = ((art.excerpt || '') + ' ' + (art.body || ''))
+      .replace(/<[^>]+>/g, '').trim().split(/\s+/).filter(Boolean).length;
+    const mins = Math.max(1, Math.round(wordCount / 200));
+    rtEl.textContent = `${mins} min read`;
+  }
+
   document.getElementById('article-tags').innerHTML     = tagsHTML(data, art.categories);
   document.getElementById('article-excerpt').innerHTML  = renderHTML(art.excerpt);
   document.getElementById('article-body').innerHTML     = renderHTML(art.body);
@@ -392,6 +513,24 @@ async function initArticle() {
     srcEl.innerHTML = art.sources
       ? `<h3 class="sources-heading">Sources</h3><p class="sources-text">${escHtml(art.sources)}</p>` : '';
   }
+
+  // Related articles: same category, different article, max 3
+  const relWrap = document.getElementById('related-articles');
+  const relList = document.getElementById('related-list');
+  if (relWrap && relList) {
+    const related = data.articles
+      .filter(a => a.id !== art.id && a.categories.some(c => art.categories.includes(c)))
+      .slice(0, 3);
+    if (related.length) {
+      relList.innerHTML = related.map(a => `
+        <a href="article.html?id=${a.id}" class="related-card">
+          <div class="related-card-tags">${tagsHTML(data, a.categories)}</div>
+          <div class="related-card-title">${escHtml(a.title)}</div>
+          <p class="related-card-excerpt">${escHtml((a.excerpt || '').replace(/<[^>]+>/g, '').slice(0, 100))}…</p>
+        </a>`).join('');
+      relWrap.style.display = '';
+    }
+  }
 }
 
 // ── ARTICLES LIST ─────────────────────────────
@@ -399,15 +538,76 @@ async function initArticle() {
 async function initArticlesList() {
   const data = await getData();
   renderFooter(data);
-  const container = document.getElementById('articles-list');
-  container.innerHTML = data.articles.length
-    ? data.articles.map(a => `
-        <div class="cat-item">
-          <a href="article.html?id=${a.id}" class="cat-item-title">${escHtml(a.title)}</a>
-          <div class="cat-item-tags">${tagsHTML(data, a.categories)}</div>
-          <p class="cat-item-excerpt">${a.excerpt || ''}</p>
-        </div>`).join('')
-    : '<p class="no-results">No articles yet.</p>';
+  setPageMeta({
+    title:       'All Articles',
+    description: 'Browse all Europe Weekly articles covering European news, politics and analysis.',
+    url:         `${SITE_URL}/articles.html`
+  });
+  const container  = document.getElementById('articles-list');
+  const searchInput = document.getElementById('article-search');
+  const countEl    = document.getElementById('search-count');
+
+  function articleCard(a) {
+    return `
+      <div class="cat-item" data-title="${escHtml(a.title.toLowerCase())}" data-excerpt="${escHtml((a.excerpt || '').replace(/<[^>]+>/g, '').toLowerCase())}" data-keywords="${escHtml((a.keywords || '').toLowerCase())}">
+        <a href="article.html?id=${a.id}" class="cat-item-title">${escHtml(a.title)}</a>
+        <div class="cat-item-tags">${tagsHTML(data, a.categories)}</div>
+        <p class="cat-item-excerpt">${a.excerpt || ''}</p>
+      </div>`;
+  }
+
+  const PAGE_SIZE   = 10;
+  const moreWrap    = document.getElementById('articles-more-wrap');
+  const moreBtn     = document.getElementById('articles-more-btn');
+
+  if (!data.articles.length) {
+    container.innerHTML = '<p class="no-results">No articles yet.</p>';
+    return;
+  }
+
+  // Render all cards (hidden beyond page 1); search works across all of them
+  container.innerHTML = data.articles.map((a, i) =>
+    articleCard(a).replace('class="cat-item"',
+      `class="cat-item"${i >= PAGE_SIZE ? ' style="display:none"' : ''} data-page-idx="${i}"`)
+  ).join('');
+
+  let shown = Math.min(PAGE_SIZE, data.articles.length);
+  if (moreWrap) moreWrap.style.display = data.articles.length > PAGE_SIZE ? '' : 'none';
+
+  if (moreBtn) {
+    moreBtn.addEventListener('click', () => {
+      const next = shown + PAGE_SIZE;
+      container.querySelectorAll('.cat-item[data-page-idx]').forEach(el => {
+        const idx = parseInt(el.dataset.pageIdx, 10);
+        if (idx < next) el.style.display = '';
+      });
+      shown = Math.min(next, data.articles.length);
+      if (shown >= data.articles.length && moreWrap) moreWrap.style.display = 'none';
+    });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      const q = searchInput.value.trim().toLowerCase();
+      let visible = 0;
+      container.querySelectorAll('.cat-item').forEach(el => {
+        const match = !q
+          || el.dataset.title.includes(q)
+          || el.dataset.excerpt.includes(q)
+          || el.dataset.keywords.includes(q);
+        // During a search ignore pagination — show all matches; restore pagination when cleared
+        if (q) {
+          el.style.display = match ? '' : 'none';
+        } else {
+          const idx = parseInt(el.dataset.pageIdx, 10);
+          el.style.display = idx < shown ? '' : 'none';
+        }
+        if (match && (q || parseInt(el.dataset.pageIdx, 10) < shown)) visible++;
+      });
+      if (moreWrap) moreWrap.style.display = q ? 'none' : (shown < data.articles.length ? '' : 'none');
+      if (countEl)  countEl.textContent = q ? `${visible} result${visible !== 1 ? 's' : ''}` : '';
+    });
+  }
 }
 
 // ── EPISODES LIST ─────────────────────────────
@@ -415,16 +615,52 @@ async function initArticlesList() {
 async function initEpisodesList() {
   const data = await getData();
   renderFooter(data);
+  setPageMeta({
+    title:       'Podcast Episodes',
+    description: 'Listen to all Europe Weekly podcast episodes on European affairs and politics.',
+    url:         `${SITE_URL}/episodes.html`
+  });
   const container = document.getElementById('episodes-list');
-  container.innerHTML = data.episodes.length
-    ? data.episodes.map(ep => `
-        <div class="cat-item cat-item--episode">
+
+  function epThumb(ep) {
+    if (ep.coverArt) return `<img src="${escHtml(ep.coverArt)}" alt="" class="ep-list-thumb" loading="lazy">`;
+    const initials = ep.title.split(/\s+/).slice(0, 2).map(w => (w[0] || '').toUpperCase()).join('');
+    return `<div class="ep-list-thumb ep-list-thumb--placeholder" aria-hidden="true">${escHtml(initials)}</div>`;
+  }
+
+  const EP_PAGE_SIZE = 10;
+  const epMoreWrap   = document.getElementById('episodes-more-wrap');
+  const epMoreBtn    = document.getElementById('episodes-more-btn');
+
+  if (!data.episodes.length) {
+    container.innerHTML = '<p class="no-results">No episodes yet.</p>';
+    return;
+  }
+
+  container.innerHTML = data.episodes.map((ep, i) => `
+      <a href="episode.html?id=${ep.id}" class="ep-list-card" data-ep-idx="${i}"${i >= EP_PAGE_SIZE ? ' style="display:none"' : ''}>
+        ${epThumb(ep)}
+        <div class="ep-list-body">
           <span class="episode-badge ep-list-badge">S${ep.season || 1} · E${ep.episodeNumber || 1}</span>
-          <a href="episode.html?id=${ep.id}" class="cat-item-title">${escHtml(ep.title)}</a>
+          <div class="ep-list-title">${escHtml(ep.title)}</div>
           <div class="cat-item-tags">${tagsHTML(data, ep.categories)}</div>
-          ${ep.notes ? `<p class="cat-item-excerpt">${escHtml(ep.notes.slice(0, 120))}${ep.notes.length > 120 ? '…' : ''}</p>` : ''}
-        </div>`).join('')
-    : '<p class="no-results">No episodes yet.</p>';
+          ${ep.notes ? `<p class="ep-list-notes">${escHtml(ep.notes.slice(0, 120))}${ep.notes.length > 120 ? '…' : ''}</p>` : ''}
+        </div>
+      </a>`).join('');
+
+  let epShown = Math.min(EP_PAGE_SIZE, data.episodes.length);
+  if (epMoreWrap) epMoreWrap.style.display = data.episodes.length > EP_PAGE_SIZE ? '' : 'none';
+
+  if (epMoreBtn) {
+    epMoreBtn.addEventListener('click', () => {
+      const next = epShown + EP_PAGE_SIZE;
+      container.querySelectorAll('.ep-list-card[data-ep-idx]').forEach(el => {
+        if (parseInt(el.dataset.epIdx, 10) < next) el.style.display = '';
+      });
+      epShown = Math.min(next, data.episodes.length);
+      if (epShown >= data.episodes.length && epMoreWrap) epMoreWrap.style.display = 'none';
+    });
+  }
 }
 
 // ── CATEGORY ─────────────────────────────────
@@ -436,7 +672,11 @@ async function initCategory() {
   const cat   = data.categories.find(c => c.id === id);
   const label = cat?.label ?? id ?? 'Category';
 
-  document.title = label + ' – Europe Weekly';
+  setPageMeta({
+    title:       label,
+    description: `Europe Weekly articles and podcast episodes about ${label}.`,
+    url:         `${SITE_URL}/category.html?id=${encodeURIComponent(id)}`
+  });
   document.getElementById('cat-heading').textContent = label;
 
   const arts = data.articles.filter(a => a.categories.includes(id));
@@ -456,7 +696,10 @@ async function initCategory() {
 async function initPage(pageKey, titleText) {
   const data = await getData();
   renderFooter(data);
-  document.title = titleText + ' – Europe Weekly';
+  setPageMeta({
+    title: titleText,
+    url:   `${SITE_URL}/${pageKey}.html`
+  });
   const el = document.getElementById('page-content');
   if (el) el.innerHTML = renderHTML(data.pages?.[pageKey] || '');
 }
@@ -475,13 +718,66 @@ async function initEpisodePage() {
     return;
   }
 
-  document.title = ep.title + ' – Europe Weekly';
+  setPageMeta({
+    title:       ep.title,
+    description: ep.notes,
+    image:       ep.coverArt || null,
+    url:         `${SITE_URL}/episode.html?id=${ep.id}`,
+    type:        'music.song'
+  });
+  setJsonLd({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type':           'BreadcrumbList',
+        'itemListElement': [
+          { '@type': 'ListItem', 'position': 1, 'name': 'Home',    'item': `${SITE_URL}/` },
+          { '@type': 'ListItem', 'position': 2, 'name': 'Podcast', 'item': `${SITE_URL}/episodes.html` },
+          { '@type': 'ListItem', 'position': 3, 'name': ep.title,  'item': `${SITE_URL}/episode.html?id=${ep.id}` }
+        ]
+      },
+      {
+        '@type':         'PodcastEpisode',
+        'name':          ep.title,
+        'description':   (ep.notes || '').slice(0, 300),
+        'url':           `${SITE_URL}/episode.html?id=${ep.id}`,
+        'associatedMedia': ep.audioUrl ? {
+          '@type':          'MediaObject',
+          'contentUrl':     ep.audioUrl,
+          'encodingFormat': 'audio/mpeg',
+          'duration':       ep.duration ? `PT${Math.floor(ep.duration / 60)}M${ep.duration % 60}S` : undefined
+        } : undefined,
+        'partOfSeries': {
+          '@type': 'PodcastSeries',
+          'name':  SITE_NAME,
+          'url':   SITE_URL
+        },
+        'episodeNumber': ep.episodeNumber || 1,
+        'datePublished': ep.pubDate || undefined,
+        'image':         ep.coverArt || undefined,
+        'keywords':      ep.keywords || ''
+      }
+    ]
+  });
 
-  const coverEl = document.getElementById('episode-cover');
-  if (coverEl) { coverEl.src = ep.coverArt || ''; coverEl.style.display = ep.coverArt ? '' : 'none'; }
+  const coverEl          = document.getElementById('episode-cover');
+  const coverPlaceholder = document.getElementById('episode-cover-placeholder');
+  if (ep.coverArt) {
+    if (coverEl)          { coverEl.src = ep.coverArt; coverEl.alt = escHtml(ep.title); coverEl.style.display = ''; }
+    if (coverPlaceholder)   coverPlaceholder.style.display = 'none';
+  } else {
+    if (coverEl)            coverEl.style.display = 'none';
+    if (coverPlaceholder) {
+      const initials = ep.title.split(/\s+/).slice(0, 2).map(w => (w[0] || '').toUpperCase()).join('');
+      coverPlaceholder.textContent = initials;
+      coverPlaceholder.style.display = '';
+    }
+  }
 
   document.getElementById('episode-badge').textContent  = `S${ep.season || 1} · E${ep.episodeNumber || 1}`;
   document.getElementById('episode-title').textContent  = ep.title;
+  const bcTitle = document.getElementById('breadcrumb-title');
+  if (bcTitle) bcTitle.textContent = toMetaTitle(ep.title);
   document.getElementById('episode-tags').innerHTML     = tagsHTML(data, ep.categories);
 
   const wrap = document.getElementById('episode-player-wrap');
@@ -586,6 +882,46 @@ function showGHStatus(msg, type) {
       if (el.textContent === msg) { el.textContent = ''; el.className = 'gh-status'; }
     }, 4000);
   }
+}
+
+function generateSitemap(data) {
+  const siteUrl = 'https://europe-weekly.eu';
+  const now     = new Date().toISOString().slice(0, 10);
+
+  const staticPages = [
+    { loc: `${siteUrl}/`,              priority: '1.0',  changefreq: 'daily'   },
+    { loc: `${siteUrl}/articles.html`, priority: '0.8',  changefreq: 'daily'   },
+    { loc: `${siteUrl}/episodes.html`, priority: '0.8',  changefreq: 'weekly'  },
+    { loc: `${siteUrl}/about.html`,    priority: '0.5',  changefreq: 'monthly' },
+  ];
+
+  const articleUrls = (data.articles || []).map(a => ({
+    loc:        `${siteUrl}/article.html?id=${encodeURIComponent(a.id)}`,
+    priority:   '0.9',
+    changefreq: 'monthly'
+  }));
+
+  const episodeUrls = (data.episodes || []).map(ep => ({
+    loc:        `${siteUrl}/episode.html?id=${encodeURIComponent(ep.id)}`,
+    lastmod:    ep.pubDate || now,
+    priority:   '0.7',
+    changefreq: 'monthly'
+  }));
+
+  const categoryUrls = (data.categories || []).map(c => ({
+    loc:        `${siteUrl}/category.html?id=${encodeURIComponent(c.id)}`,
+    priority:   '0.6',
+    changefreq: 'weekly'
+  }));
+
+  const allUrls = [...staticPages, ...articleUrls, ...episodeUrls, ...categoryUrls];
+
+  const urlNodes = allUrls.map(u => {
+    const lastmod = u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : '';
+    return `  <url>\n    <loc>${u.loc}</loc>${lastmod}\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`;
+  }).join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlNodes}\n</urlset>`;
 }
 
 async function pushDataToGitHub(message) {
@@ -928,6 +1264,13 @@ async function initAdmin() {
     const xml  = generateRSSFeed(data);
     const blob = new Blob([xml], { type: 'application/rss+xml' });
     const a    = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: 'podcast-feed.xml' });
+    a.click();
+  });
+
+  document.getElementById('export-sitemap-btn').addEventListener('click', () => {
+    const xml  = generateSitemap(data);
+    const blob = new Blob([xml], { type: 'application/xml' });
+    const a    = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: 'sitemap.xml' });
     a.click();
   });
 

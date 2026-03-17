@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Episode – Europe Weekly</title>
   <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="favicon-512.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="article-page episode-page">
@@ -13,11 +14,19 @@
     <nav class="article-nav">
       <a href="index.html" class="nav-main-link">HOME</a>
     </nav>
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">›</span>
+      <a href="episodes.html">Podcast</a>
+      <span aria-hidden="true">›</span>
+      <span id="breadcrumb-title" aria-current="page"></span>
+    </nav>
     <hr class="header-rule">
   </header>
 
   <main class="article-main" id="episode-content">
-    <img id="episode-cover" class="episode-detail-cover" src="" alt="" style="display:none" />
+    <img id="episode-cover" class="episode-detail-cover" src="" alt="" style="display:none" loading="lazy" />
+    <div id="episode-cover-placeholder" class="episode-detail-cover episode-cover-placeholder" aria-hidden="true" style="display:none"></div>
     <span id="episode-badge" class="episode-badge episode-detail-badge"></span>
     <h1 id="episode-title" class="content-title episode-detail-title"></h1>
     <div id="episode-tags" class="episode-card-tags episode-detail-tags"></div>
@@ -31,7 +40,8 @@
     <a href="imprint.html">Imprint</a>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
   <script>initEpisodePage();</script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "00875a4784cc1d4912396a05c28341792a772"}'></script>
 </body>
 </html>

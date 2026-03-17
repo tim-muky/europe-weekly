@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Article – Europe Weekly</title>
   <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="favicon-512.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="article-page">
@@ -14,6 +15,13 @@
     <nav class="article-nav">
       <a href="index.html" class="nav-main-link">HOME</a>
     </nav>
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">›</span>
+      <a href="articles.html">Articles</a>
+      <span aria-hidden="true">›</span>
+      <span id="breadcrumb-title" aria-current="page"></span>
+    </nav>
     <hr class="header-rule">
   </header>
 
@@ -21,6 +29,9 @@
   <main class="article-main" id="article-content">
     <article>
       <h1 id="article-title" class="content-title"></h1>
+      <div class="article-byline">
+        <span id="article-reading-time" class="reading-time"></span>
+      </div>
       <div class="article-body">
         <div id="article-tags" class="article-meta"></div>
         <div class="article-text">
@@ -36,12 +47,21 @@
     </article>
   </main>
 
+  <!-- ===== RELATED ARTICLES ===== -->
+  <section id="related-articles" class="related-articles" style="display:none">
+    <div class="related-inner">
+      <h2 class="related-heading">Related Articles</h2>
+      <div id="related-list" class="related-list"></div>
+    </div>
+  </section>
+
   <footer class="site-footer">
     <div id="footer-social" class="footer-social"></div>
     <a href="imprint.html">Imprint</a>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
   <script>initArticle();</script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "00875a4784cc1d4912396a05c28341792a772"}'></script>
 </body>
 </html>

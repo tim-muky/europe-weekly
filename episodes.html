@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>All Episodes – Europe Weekly</title>
   <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="favicon-512.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="article-page episodes-list-page">
@@ -19,6 +20,9 @@
   <main class="article-main">
     <h1 class="content-title list-page-heading">ALL PODCAST EPISODES</h1>
     <div id="episodes-list"></div>
+    <div id="episodes-more-wrap" class="load-more-wrap" style="display:none">
+      <button id="episodes-more-btn" class="load-more-btn">Load more episodes</button>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -26,7 +30,8 @@
     <a href="imprint.html">Imprint</a>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
   <script>initEpisodesList();</script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "00875a4784cc1d4912396a05c28341792a772"}'></script>
 </body>
 </html>
