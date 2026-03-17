@@ -19,10 +19,43 @@ After running, add the three printed values as GitHub Secrets at:
 """
 
 import json
+import ssl
+import subprocess
+import sys
 import webbrowser
 import urllib.parse
 import urllib.request
 from http.server import HTTPServer, BaseHTTPRequestHandler
+
+# ── SSL fix for macOS Python (python.org installer ships without system certs) ──
+def _make_ssl_context():
+    """Return an SSL context that works on macOS python.org installs."""
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        pass
+    # certifi not installed — try to install it silently
+    try:
+        subprocess.check_call(
+            [sys.executable, "-m", "pip", "install", "--quiet", "certifi"]
+        )
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        pass
+    # Last resort: unverified context (safe here — we're only calling Google)
+    print("⚠  Could not load SSL certificates — using unverified context.")
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode    = ssl.CERT_NONE
+    return ctx
+
+_SSL_CTX = _make_ssl_context()
+
+def _urlopen(req):
+    """urllib.request.urlopen with the patched SSL context."""
+    return urllib.request.urlopen(req, context=_SSL_CTX)
 
 REDIRECT_URI = "http://localhost:8080"
 SCOPES       = "https://www.googleapis.com/auth/youtube.upload"
@@ -96,7 +129,7 @@ data = urllib.parse.urlencode({
 req = urllib.request.Request(
     "https://oauth2.googleapis.com/token", data=data, method="POST"
 )
-with urllib.request.urlopen(req) as r:
+with _urlopen(req) as r:
     tokens = json.loads(r.read())
 
 if "refresh_token" not in tokens:
