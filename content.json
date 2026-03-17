@@ -1,5 +1,5 @@
 {
-  "version": 1773746663102,
+  "version": 1773746853952,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -240,6 +240,42 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-u6q7vje",
+      "title": "Sweden, Denmark, Finland, Ireland – EU Daily Update",
+      "categories": [
+        "cat-5gtq4f2",
+        "cat-xlbr9em",
+        "cat-qoz3hlo",
+        "cat-r212kti"
+      ],
+      "duration": 1360,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e16-swed-denm.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 29,
+      "keywords": "Sweden, Denmark, Finland, Ireland",
+      "notes": "Episode covering Sweden, Denmark, Finland, Ireland",
+      "pubDate": "2026-03-16"
+    },
+    {
+      "id": "episode-g28j55s",
+      "title": "Poland, Latvia, Lithuania, Estonia – EU Daily Update",
+      "categories": [
+        "cat-9s0v3r9",
+        "cat-jszfyjk",
+        "cat-oifdqv9",
+        "cat-nbf1ay4"
+      ],
+      "duration": 1332,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e17-pola-latv.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 28,
+      "keywords": "Poland, Latvia, Lithuania, Estonia",
+      "notes": "Episode covering Poland, Latvia, Lithuania, Estonia",
+      "pubDate": "2026-03-17"
+    },
     {
       "id": "episode-4dlzlsp",
       "title": "Bulgaria, Slovenia, Romania, Croatia – EU Daily Update",
