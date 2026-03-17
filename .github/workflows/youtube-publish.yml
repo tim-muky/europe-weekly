@@ -1,0 +1,33 @@
+name: Publish new episodes to YouTube
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - content.json   # only runs when episode data changes
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30        # a 22-min episode takes ~3-4 min to encode
+
+    steps:
+      - name: Checkout (with previous commit for diff)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2       # need HEAD and HEAD^ to detect new episodes
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg
+        run: sudo apt-get install -y ffmpeg
+
+      - name: Upload new episodes to YouTube
+        env:
+          YOUTUBE_CLIENT_ID:     ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: python scripts/youtube_upload.py
