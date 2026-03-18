@@ -595,6 +595,12 @@ async function initArticle() {
     rtEl.textContent = `${mins} min read`;
   }
 
+  const dtEl = document.getElementById('article-date');
+  if (dtEl && art.pubDate) {
+    const d = new Date(art.pubDate);
+    if (!isNaN(d)) dtEl.textContent = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
   document.getElementById('article-tags').innerHTML     = tagsHTML(data, art.categories);
   document.getElementById('article-excerpt').innerHTML  = renderHTML(art.excerpt);
   document.getElementById('article-body').innerHTML     = renderHTML(art.body);
@@ -883,6 +889,12 @@ async function initEpisodePage() {
   const bcTitle = document.getElementById('breadcrumb-title');
   if (bcTitle) bcTitle.textContent = toMetaTitle(ep.title);
   document.getElementById('episode-tags').innerHTML     = tagsHTML(data, ep.categories);
+
+  const epDtEl = document.getElementById('episode-date');
+  if (epDtEl && ep.pubDate) {
+    const d = new Date(ep.pubDate);
+    if (!isNaN(d)) epDtEl.textContent = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
 
   const wrap = document.getElementById('episode-player-wrap');
   if (wrap) { wrap.innerHTML = playerHTML('ep-single-'); initPlayer(ep.duration, 'ep-single-', ep.audioUrl); }
@@ -1227,6 +1239,8 @@ async function initAdmin() {
         <div class="admin-form">
           <div class="admin-field"><label class="admin-label">Title</label>
             <input class="admin-input f-title" type="text" value="${escHtml(article.title)}" /></div>
+          <div class="admin-field"><label class="admin-label">Publish Date</label>
+            <input class="admin-input f-pubdate" type="date" value="${article.pubDate || ''}" style="max-width:180px" /></div>
           <div class="admin-field"><label class="admin-label">Excerpt <small>(intro paragraph — paste formatted text)</small></label>
             <div class="admin-textarea admin-richtext f-excerpt" contenteditable="true" data-placeholder="Paste or type excerpt…">${article.excerpt || ''}</div></div>
           <div class="admin-field"><label class="admin-label">Body <small>(main text — paste formatted text)</small></label>
@@ -1250,6 +1264,7 @@ async function initAdmin() {
 
     div.querySelector('.btn-save').addEventListener('click', function () {
       article.title   = div.querySelector('.f-title').value.trim();
+      article.pubDate = div.querySelector('.f-pubdate').value || '';
       article.excerpt = div.querySelector('.f-excerpt').innerHTML.trim();
       article.body    = div.querySelector('.f-body').innerHTML.trim();
       article.keywords  = div.querySelector('.f-keywords').value.trim();
