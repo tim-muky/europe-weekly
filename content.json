@@ -1,5 +1,5 @@
 {
-  "version": 1773750772118,
+  "version": 1773810723721,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -240,6 +240,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-sf8jqod",
+      "title": "Germany, France, Belgium, Netherlands – EU Daily Update",
+      "categories": [
+        "cat-q3xena4",
+        "cat-8azgfhe",
+        "cat-d7jygr4",
+        "cat-hwc886m"
+      ],
+      "duration": 1283,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e4-germ-fran.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 31,
+      "keywords": "Germany, France, Belgium, Netherlands",
+      "notes": "Episode covering Germany, France, Belgium, Netherlands",
+      "pubDate": "2026-03-18"
+    },
     {
       "id": "episode-axrc1cf",
       "title": "Poland, Latvia, Lithuania, Estonia – EU Daily Update",
