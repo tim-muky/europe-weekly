@@ -1,0 +1,30 @@
+name: Regenerate RSS feed
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - content.json   # only runs when episode/article data changes
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate podcast-feed.xml
+        run: python3 scripts/generate_rss.py
+
+      - name: Commit updated RSS (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add podcast-feed.xml
+          if git diff --cached --quiet; then
+            echo "RSS unchanged — nothing to commit."
+          else
+            git commit -m "auto: Regenerate RSS feed from content.json"
+            git push
+          fi

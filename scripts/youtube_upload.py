@@ -37,8 +37,26 @@ def get_access_token(client_id: str, client_secret: str, refresh_token: str) -> 
     req = urllib.request.Request(
         "https://oauth2.googleapis.com/token", data=data, method="POST"
     )
-    with urllib.request.urlopen(req) as r:
-        return json.loads(r.read())["access_token"]
+    try:
+        with urllib.request.urlopen(req) as r:
+            resp = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode(errors="replace")
+        print(f"  ✗ Token exchange failed (HTTP {e.code}): {body}", file=sys.stderr)
+        print(
+            "\n  ⚠ If the error is 'invalid_grant', the refresh token has expired.\n"
+            "    This happens when the Google Cloud project is in 'Testing' mode\n"
+            "    (tokens expire after 7 days). Fix:\n"
+            "    1. Go to Google Cloud Console → OAuth consent screen → change to 'Production'\n"
+            "    2. Run: python3 scripts/get_youtube_token.py  (from the project directory)\n"
+            "    3. Update the YOUTUBE_REFRESH_TOKEN secret in GitHub Settings → Secrets.",
+            file=sys.stderr,
+        )
+        raise
+    if "access_token" not in resp:
+        print(f"  ✗ Unexpected token response: {resp}", file=sys.stderr)
+        raise ValueError(f"No access_token in response: {resp}")
+    return resp["access_token"]
 
 
 def download(url: str, dest: Path) -> None:
