@@ -364,16 +364,28 @@ function renderFooter(data) {
 function drawBarChart(canvasId, values, labels) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
+
+  // Hi-DPI / Retina: scale canvas buffer by devicePixelRatio
+  const dpr  = window.devicePixelRatio || 1;
+  const cssW = canvas.clientWidth  || 360;
+  const cssH = canvas.clientHeight || 200;
+  canvas.width  = Math.round(cssW * dpr);
+  canvas.height = Math.round(cssH * dpr);
+  canvas.style.width  = cssW + 'px';
+  canvas.style.height = cssH + 'px';
+
   const ctx = canvas.getContext('2d');
-  const W = canvas.width, H = canvas.height;
-  const padL = 34, padB = 32, padT = 14, padR = 10;
+  ctx.scale(dpr, dpr);
+
+  const W = cssW, H = cssH;
+  const padL = 38, padB = 72, padT = 16, padR = 10; // padB tall for rotated labels
   const chartW = W - padL - padR, chartH = H - padB - padT;
   const colors = ['#5ec8b8', '#1c6080', '#122c4a', '#8adeca'];
   const maxVal = Math.max(...values) * 1.15;
 
   ctx.clearRect(0, 0, W, H);
   ctx.strokeStyle = '#ccc'; ctx.lineWidth = 0.5;
-  ctx.fillStyle = '#555'; ctx.font = '9px Arial'; ctx.textAlign = 'right';
+  ctx.fillStyle = '#555'; ctx.font = '10px Arial'; ctx.textAlign = 'right';
   for (let i = 0; i <= 5; i++) {
     const val = Math.round((maxVal / 5) * i);
     const y   = padT + chartH - (i / 5) * chartH;
@@ -388,10 +400,18 @@ function drawBarChart(canvasId, values, labels) {
     const y  = padT + chartH - bh;
     ctx.fillStyle = colors[i % colors.length];
     ctx.fillRect(x, y, bw, bh);
-    ctx.fillStyle = '#333'; ctx.font = 'bold 9px Arial'; ctx.textAlign = 'center';
-    ctx.fillText(val, x + bw / 2, y - 3);
-    ctx.fillStyle = '#555'; ctx.font = '9px Arial';
-    ctx.fillText(labels[i] || '', x + bw / 2, padT + chartH + 16);
+    // Value label above bar
+    ctx.fillStyle = '#333'; ctx.font = 'bold 10px Arial'; ctx.textAlign = 'center';
+    ctx.fillText(val, x + bw / 2, y - 4);
+    // X-axis label: rotated -45° to prevent overlap
+    ctx.save();
+    ctx.translate(x + bw / 2, padT + chartH + 8);
+    ctx.rotate(-Math.PI / 4);
+    ctx.textAlign = 'right';
+    ctx.font = '10px Arial';
+    ctx.fillStyle = '#555';
+    ctx.fillText(labels[i] || '', 0, 0);
+    ctx.restore();
   });
   ctx.strokeStyle = '#999'; ctx.lineWidth = 1;
   ctx.beginPath();
@@ -655,10 +675,15 @@ async function initArticlesList() {
   const countEl    = document.getElementById('search-count');
 
   function articleCard(a) {
+    const d = a.pubDate ? new Date(a.pubDate) : null;
+    const dateStr = (d && !isNaN(d))
+      ? d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
+      : '';
     return `
       <div class="cat-item" data-title="${escHtml(a.title.toLowerCase())}" data-excerpt="${escHtml((a.excerpt || '').replace(/<[^>]+>/g, '').toLowerCase())}" data-keywords="${escHtml((a.keywords || '').toLowerCase())}">
         <a href="article.html?id=${a.id}" class="cat-item-title">${escHtml(a.title)}</a>
         <div class="cat-item-tags">${tagsHTML(data, a.categories)}</div>
+        ${dateStr ? `<p class="cat-item-date">${dateStr}</p>` : ''}
         <p class="cat-item-excerpt">${a.excerpt || ''}</p>
       </div>`;
   }

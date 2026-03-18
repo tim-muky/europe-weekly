@@ -181,6 +181,17 @@ a#preview-title-link:hover .content-title { text-decoration: underline; }
 
 /* ===== ARTICLE TEXT ===== */
 
+/* Date shown above excerpt in the text column */
+.article-date--inline {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #888;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
 /* Excerpt: prominent lead paragraph, half the column width */
 #article-excerpt {
   max-width: 50%;
@@ -188,6 +199,8 @@ a#preview-title-link:hover .content-title { text-decoration: underline; }
   font-weight: 700;
   line-height: 1.55;
   text-align: justify;
+  text-align-last: left;  /* prevent short lines from stretching */
+  hyphens: auto;
   margin-bottom: 22px;
 }
 
@@ -196,6 +209,8 @@ a#preview-title-link:hover .content-title { text-decoration: underline; }
   font-size: 0.88rem;
   line-height: 1.6;
   text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
 }
 .more-link { color: var(--more-link); font-size: 0.88rem; text-decoration: none; }
 .more-link:hover { text-decoration: underline; }
@@ -340,7 +355,15 @@ a#preview-title-link:hover .content-title { text-decoration: underline; }
   margin-bottom: 6px;
 }
 a.cat-item-title:hover { text-decoration: underline; }
-.cat-item-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.cat-item-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+.cat-item-date {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  margin-bottom: 6px;
+}
 .cat-item-excerpt { font-size: 0.82rem; color: #333; line-height: 1.5; }
 .no-results { font-size: 0.85rem; color: #666; font-style: italic; }
 
@@ -993,7 +1016,10 @@ a.cat-item-title:hover { text-decoration: underline; }
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: #888;
-  margin-left: 12px;
+}
+.episode-date {
+  display: block;        /* own line, no left offset */
+  margin-bottom: 20px;   /* space before the player */
 }
 
 /* ===== BREADCRUMB ===== */
@@ -1206,6 +1232,7 @@ a.cat-item-title:hover { text-decoration: underline; }
   /* Lists (articles / category) */
   .cat-item        { border-bottom-color: #2a4a6b; }
   .cat-item-title  { color: #6ab0e0; }
+  .cat-item-date   { color: #667788; }
   .cat-item-excerpt{ color: #a0aab4; }
   .list-page-heading { color: #f0f0f0; }
   .no-results      { color: #888; }
@@ -1237,7 +1264,7 @@ a.cat-item-title:hover { text-decoration: underline; }
   .breadcrumb span[aria-current="page"] { color: #c0c8d4; }
 
   /* Reading time / publish date */
-  .reading-time, .article-date { color: #667788; }
+  .reading-time, .article-date, .article-date--inline { color: #667788; }
   .episode-date { color: rgba(255,255,255,0.55); }
 
   /* Related articles */
@@ -1328,6 +1355,7 @@ html[data-theme="light"] .sources-heading,
 html[data-theme="light"] .sources-text       { color: #444; }
 html[data-theme="light"] .cat-item           { border-bottom-color: #ccc; }
 html[data-theme="light"] .cat-item-title     { color: #1a6ba8; }
+html[data-theme="light"] .cat-item-date      { color: #888; }
 html[data-theme="light"] .cat-item-excerpt   { color: #333; }
 html[data-theme="light"] .list-page-heading  { color: #1c3252; }
 html[data-theme="light"] .no-results         { color: #555; }
@@ -1339,7 +1367,7 @@ html[data-theme="light"] .load-more-btn:hover { background: #c5daea; border-colo
 html[data-theme="light"] .breadcrumb         { color: #888; }
 html[data-theme="light"] .breadcrumb a       { color: #1a6ba8; }
 html[data-theme="light"] .breadcrumb span[aria-current="page"] { color: #444; }
-html[data-theme="light"] .reading-time, html[data-theme="light"] .article-date { color: #888; }
+html[data-theme="light"] .reading-time, html[data-theme="light"] .article-date, html[data-theme="light"] .article-date--inline { color: #888; }
 html[data-theme="light"] .episode-date { color: rgba(255,255,255,0.7); }
 html[data-theme="light"] .related-articles   { background: #eef5fb; border-top-color: #ccc; }
 html[data-theme="light"] .related-heading    { color: #1c3252; }
