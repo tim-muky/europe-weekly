@@ -1,5 +1,5 @@
 {
-  "version": 1773842759347,
+  "version": 1773913039897,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -120,6 +120,29 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-nrmna6j",
+      "title": "Spain Faces US Trade Threat After Denying Military Bases for\nIran Operations",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "excerpt": "US President Donald Trump has threatened to sever all trade\nwith Spain after Madrid refused to allow American forces to use\nSpanish military bases for potential strikes against Iran. The\ndispute, which invokes NATO spending commitments and international\nlaw, has exposed deep divisions within Spain while raising questions\nabout transatlantic relations. With bilateral trade valued at 47\nbillion dollars annually, the standoff tests both Spain's economic\nresilience and the limits of alliance obligations.",
+      "body": "<h3>Base Access Denial Triggers Trade Ultimatum</h3><p>The Spanish government denied US requests to use the Rota\nand Morón military bases for operations against Iran, citing\ninternational law and the need for Spanish approval under existing\nagreements. Prime Minister Pedro Sánchez framed the decision as a\nprincipled stand against military escalation, delivering a televised\naddress that positioned Spain as an advocate for diplomatic solutions.\nThe move immediately drew a sharp response from President Trump, who\nthreatened to cut all trade ties with Spain while criticizing Madrid's\ndefense spending levels within NATO.</p><p>The dispute centers on the interpretation of a 1953\nbilateral agreement governing US military presence in Spain. While\nAmerican officials have suggested the bases provide unrestricted\naccess for operations, the accord explicitly grants Spain veto power\nover non-humanitarian military use. Second Deputy Prime Minister\nYolanda Díaz defended the government's position as legally sound and\nemphasized that Spain remains a committed NATO member, despite\nspending below the alliance's two percent of GDP target.</p><p>The threatened trade embargo would affect a bilateral\nrelationship worth approximately 47 billion dollars in 2025. However,\nUS-bound exports represent only four to five percent of Spain's total\nexport volume, with 62 percent directed toward European Union markets.\nSpanish exports to the United States consist primarily of machinery,\nchemicals, and food products, including olive oil, which could face\nimmediate disruption if Trump follows through on his\nthreat.</p><h3>Domestic Politics Sharpen Over Foreign Policy Stance</h3><p>The confrontation has intensified Spain's already polarized\npolitical landscape, with opposition leader Alberto Núñez Feijóo of\nthe conservative Popular Party accusing Sánchez of isolating the\ncountry from vital US ties for domestic political advantage. Feijóo\nargued that the prime minister's decision prioritizes re-election\nprospects over national security and economic stability, warning that\nSpain risks being left alone among Western allies. The criticism\nreflects broader concerns within center-right circles that Spain's\nforeign policy is becoming subordinated to coalition management with\nfar-left partners.</p><p>Sánchez's government has countered that Spain possesses\nsufficient resources to mitigate any embargo impacts through\ndiversification and EU-level coordination. Officials have stressed\nthat the European Union's trade agreements with the United States\nwould provide a buffer against unilateral American action, and that\nSpain's integration into European supply chains limits vulnerability\nto bilateral disruptions. The government has also promised protective\nmeasures for households and businesses potentially affected by trade\nrestrictions.</p><p>The dispute arrives as Sánchez faces mounting pressure\nahead of elections scheduled for 2027, with the base denial energizing\nprogressive voters who oppose military escalation while alarming\nconservative constituencies concerned about transatlantic relations.\nThe prime minister has drawn parallels to Spain's positions on Ukraine\nand Gaza, presenting a consistent foreign policy framework centered on\ninternational law and diplomatic engagement rather than military\nintervention.</p><h3>Economic Exposure and Alliance Implications</h3><p>Economic analysts suggest Spain's limited dependence on US\nmarkets provides genuine insulation against a full trade embargo,\nthough specific sectors face acute risks. Olive oil producers, who\nexport significant volumes to American consumers, would experience\nimmediate losses if tariffs or restrictions materialize. Machinery and\nchemical exporters would similarly need to redirect products to\nalternative markets, potentially at lower prices. The government's\nconfidence in weathering the storm rests partly on the assumption that\nEU institutions would challenge any American measures as violations of\nexisting trade frameworks.</p><p>The standoff also raises broader questions about NATO\ncohesion and the expectations placed on alliance members. Spain's\ndefense spending has long fallen short of the two percent commitment,\na point Trump has repeatedly highlighted in criticizing European\nallies. The base denial adds a new dimension to this tension,\nsuggesting that even host nations with significant US military\ninfrastructure may assert sovereignty over operational decisions.\nOther European countries with American bases, including Germany and\nItaly, are watching closely to assess whether similar disputes could\nemerge over future operations.</p><p>The immediate outlook depends on whether Trump's threat\nrepresents a negotiating tactic or a firm policy position. Spanish\nofficials have indicated no willingness to reverse the base decision,\nbetting that EU solidarity and Spain's modest trade exposure will\nlimit damage. If the United States proceeds with restrictions, the\ndispute could escalate into a broader transatlantic rift, testing\nwhether economic coercion can override alliance members' legal\ninterpretations of basing agreements. The coming weeks will reveal\nwhether diplomatic channels can defuse the confrontation or whether\nSpain's stance marks a lasting shift in how European allies balance\nAmerican security demands against domestic legal\nconstraints.</p>",
+      "chartData": {
+        "values": [
+          62.0,
+          4.0,
+          34.0
+        ],
+        "labels": [
+          "EU Markets",
+          "US Markets",
+          "Other Markets"
+        ]
+      },
+      "keywords": "Spain, United States, trade embargo, military bases, NATO,\nIran, Pedro Sánchez, Donald Trump, transatlantic relations, European\nUnion, defense spending, Rota, Morón",
+      "sources": "Research dossier on US-Spain trade dispute and military base\naccess denial; Spanish government statements on economic resilience\nand NATO commitments; Opposition party critiques of foreign policy\npositioning; Bilateral trade data for 2025"
+    },
     {
       "id": "article-0cfm0d5",
       "title": "Far-Right Gains and Green Setbacks Mark France's Municipal\nElections",
@@ -325,6 +348,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-s5ptgty",
+      "title": "Portugal, Spain, Italy – EU Daily Update",
+      "categories": [
+        "cat-bt20cny",
+        "cat-afrit6a",
+        "cat-brofdjc"
+      ],
+      "duration": 1019,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e3-port-spain-italy.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 32,
+      "keywords": "Portugal, Spain, Italy",
+      "notes": "Episode covering Portugal, Spain, Italy",
+      "pubDate": "2026-03-19"
+    },
     {
       "id": "episode-sf8jqod",
       "title": "Germany, France, Belgium, Netherlands – EU Daily Update",
