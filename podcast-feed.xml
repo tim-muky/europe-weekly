@@ -20,6 +20,19 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Germany, France, Belgium, Netherlands – EU Daily Update</title>
+      <description>Episode covering Germany, France, Belgium, Netherlands</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e4-germ-fran.mp3" length="30792769" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-sf8jqod</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-sf8jqod</link>
+      <itunes:duration>21:23</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>31</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Poland, Latvia, Lithuania, Estonia – EU Daily Update</title>
       <description>Episode covering Poland, Latvia, Lithuania, Estonia</description>
       <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e17-pola-latv.mp3" length="31990222" type="audio/mpeg"/>
