@@ -4,19 +4,68 @@ on:
   push:
     branches: [main]
     paths:
-      - content.json   # only runs when episode data changes
-  workflow_dispatch:     # also allows manual trigger from GitHub Actions tab
+      - content.json   # only runs when episode/article data changes
+  workflow_dispatch:     # manual trigger from GitHub Actions tab
 
 jobs:
-  upload:
+  # ── Job 1: detect whether any NEW episodes were added ─────────────────────
+  check:
     runs-on: ubuntu-latest
-    timeout-minutes: 30        # a 22-min episode takes ~3-4 min to encode
+    outputs:
+      has_new: ${{ steps.diff.outputs.has_new }}
 
     steps:
-      - name: Checkout (with previous commit for diff)
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 2       # need HEAD and HEAD^ to detect new episodes
+          fetch-depth: 2     # need HEAD and HEAD^ to compare
+
+      - name: Check for new episodes
+        id: diff
+        run: |
+          python3 - <<'PYEOF'
+          import json, subprocess, os
+
+          prev = subprocess.run(
+              ["git", "show", "HEAD^:content.json"],
+              capture_output=True, text=True,
+          )
+          with open("content.json", encoding="utf-8") as f:
+              curr = json.load(f)
+
+          prev_ids = set()
+          if prev.returncode == 0:
+              try:
+                  prev_ids = {ep["id"] for ep in json.loads(prev.stdout).get("episodes", [])}
+              except Exception:
+                  pass
+
+          # Only episodes (not articles) count
+          new_eps = [
+              ep for ep in curr.get("episodes", [])
+              if ep["id"] not in prev_ids and ep.get("audioUrl")
+          ]
+
+          has_new = "true" if new_eps else "false"
+          print(f"New episodes found: {len(new_eps)} → has_new={has_new}")
+          for ep in new_eps:
+              print(f"  • S{ep.get('season')}E{ep.get('episodeNumber')} – {ep.get('title','')}")
+
+          # Write output for GitHub Actions
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"has_new={has_new}\n")
+          PYEOF
+
+  # ── Job 2: encode + upload — only runs if new episodes were found ──────────
+  upload:
+    needs: check
+    if: needs.check.outputs.has_new == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v5

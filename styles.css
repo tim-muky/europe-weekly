@@ -181,10 +181,36 @@ a#preview-title-link:hover .content-title { text-decoration: underline; }
 
 /* ===== ARTICLE TEXT ===== */
 
+/* Date shown above excerpt in the text column */
+.article-date--inline {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #888;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+/* Excerpt: prominent lead paragraph, half the column width */
+#article-excerpt {
+  max-width: 50%;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.55;
+  text-align: justify;
+  text-align-last: left;  /* prevent short lines from stretching */
+  hyphens: auto;
+  margin-bottom: 22px;
+}
+
 .article-text p {
   margin-bottom: 18px;
   font-size: 0.88rem;
   line-height: 1.6;
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
 }
 .more-link { color: var(--more-link); font-size: 0.88rem; text-decoration: none; }
 .more-link:hover { text-decoration: underline; }
@@ -329,7 +355,15 @@ a#preview-title-link:hover .content-title { text-decoration: underline; }
   margin-bottom: 6px;
 }
 a.cat-item-title:hover { text-decoration: underline; }
-.cat-item-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.cat-item-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+.cat-item-date {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  margin-bottom: 6px;
+}
 .cat-item-excerpt { font-size: 0.82rem; color: #333; line-height: 1.5; }
 .no-results { font-size: 0.85rem; color: #666; font-style: italic; }
 
@@ -976,6 +1010,17 @@ a.cat-item-title:hover { text-decoration: underline; }
   letter-spacing: 0.06em;
   color: #888;
 }
+.article-date, .episode-date {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #888;
+}
+.episode-date {
+  display: block;        /* own line, no left offset */
+  margin-bottom: 20px;   /* space before the player */
+}
 
 /* ===== BREADCRUMB ===== */
 
@@ -1175,9 +1220,9 @@ a.cat-item-title:hover { text-decoration: underline; }
   /* Article content */
   .content-title       { color: #f0f0f0; }
   .article-text        { color: #d8d8d8; }
-  .article-keywords    { background: #1a2a3a; border-color: #2a4a6b; }
+  .article-keywords    { background: #121820; }
   .keyword             { background: #2a3a10; color: #e8e870; }
-  .article-sources     { background: #1a2a3a; border-color: #2a4a6b; }
+  .article-sources     { background: #121820; border-top-color: #2a4a6b; }
   .sources-heading,
   .sources-text        { color: #b0b8c4; }
 
@@ -1187,6 +1232,7 @@ a.cat-item-title:hover { text-decoration: underline; }
   /* Lists (articles / category) */
   .cat-item        { border-bottom-color: #2a4a6b; }
   .cat-item-title  { color: #6ab0e0; }
+  .cat-item-date   { color: #667788; }
   .cat-item-excerpt{ color: #a0aab4; }
   .list-page-heading { color: #f0f0f0; }
   .no-results      { color: #888; }
@@ -1217,8 +1263,9 @@ a.cat-item-title:hover { text-decoration: underline; }
   .breadcrumb a    { color: #6ab0e0; }
   .breadcrumb span[aria-current="page"] { color: #c0c8d4; }
 
-  /* Reading time */
-  .reading-time { color: #667788; }
+  /* Reading time / publish date */
+  .reading-time, .article-date, .article-date--inline { color: #667788; }
+  .episode-date { color: rgba(255,255,255,0.55); }
 
   /* Related articles */
   .related-articles { background: #151e28; border-top-color: #2a4a6b; }
@@ -1251,8 +1298,8 @@ a.cat-item-title:hover { text-decoration: underline; }
   .episodes-list-page .header-rule    { border-color: #2a4a6b; }
   .episodes-list-page .list-page-heading { color: #f0f0f0; }
   .episodes-list-page .article-nav .nav-main-link { color: #e8e8e8; }
-  .ep-list-card               { background: #121820; border-color: #2a4a6b; }
-  .ep-list-card:hover         { background: #1a2535; border-color: #4a7aaa; }
+  .ep-list-card               { background: #121820; border-color: #121820; }
+  .ep-list-card:hover         { background: #1a2535; border-color: #1a2535; }
   .ep-list-thumb--placeholder { background: #0a1520; }
 
   /* Footer */
@@ -1290,18 +1337,25 @@ html[data-theme="light"] .nav-heading        { color: #111; }
 html[data-theme="light"] .article-header     { background: #F1F1EC; border-bottom-color: #ccc; }
 html[data-theme="light"] .article-main       { background: #c5daea; }
 html[data-theme="light"] .article-page       { background: #F1F1EC; }
+/* Episode detail page: same dark-blue background as episodes list page */
+html[data-theme="light"] .episode-page,
+html[data-theme="light"] .episode-page .article-header,
+html[data-theme="light"] .episode-page main  { background: #16487D; }
+html[data-theme="light"] .episode-page .article-header { border-bottom-color: rgba(255,255,255,0.12); }
+html[data-theme="light"] .episode-page .header-rule    { border-color: rgba(255,255,255,0.12); }
 html[data-theme="light"] .header-rule        { border-color: #ccc; }
 html[data-theme="light"] .content-title      { color: #1c3252; }
 html[data-theme="light"] .article-text       { color: #222; }
 html[data-theme="light"] .page-content       { color: #333; }
 html[data-theme="light"] .page-content a     { color: #1a6ba8; }
-html[data-theme="light"] .article-keywords   { background: #eef5fb; border-color: #c5daea; }
+html[data-theme="light"] .article-keywords   { background: #c5daea; }
 html[data-theme="light"] .keyword            { background: #f5f064; color: #111; }
-html[data-theme="light"] .article-sources    { background: #eef5fb; border-color: #c5daea; }
+html[data-theme="light"] .article-sources    { background: #c5daea; border-top-color: rgba(0,0,0,0.12); }
 html[data-theme="light"] .sources-heading,
 html[data-theme="light"] .sources-text       { color: #444; }
 html[data-theme="light"] .cat-item           { border-bottom-color: #ccc; }
 html[data-theme="light"] .cat-item-title     { color: #1a6ba8; }
+html[data-theme="light"] .cat-item-date      { color: #888; }
 html[data-theme="light"] .cat-item-excerpt   { color: #333; }
 html[data-theme="light"] .list-page-heading  { color: #1c3252; }
 html[data-theme="light"] .no-results         { color: #555; }
@@ -1313,7 +1367,8 @@ html[data-theme="light"] .load-more-btn:hover { background: #c5daea; border-colo
 html[data-theme="light"] .breadcrumb         { color: #888; }
 html[data-theme="light"] .breadcrumb a       { color: #1a6ba8; }
 html[data-theme="light"] .breadcrumb span[aria-current="page"] { color: #444; }
-html[data-theme="light"] .reading-time       { color: #888; }
+html[data-theme="light"] .reading-time, html[data-theme="light"] .article-date, html[data-theme="light"] .article-date--inline { color: #888; }
+html[data-theme="light"] .episode-date { color: rgba(255,255,255,0.7); }
 html[data-theme="light"] .related-articles   { background: #eef5fb; border-top-color: #ccc; }
 html[data-theme="light"] .related-heading    { color: #1c3252; }
 html[data-theme="light"] .related-card       { background: #fff; border-color: #ddd; color: #111; }
@@ -1326,8 +1381,8 @@ html[data-theme="light"] .episodes-list-page .article-header { border-bottom-col
 html[data-theme="light"] .episodes-list-page .header-rule    { border-color: rgba(255,255,255,0.12); }
 html[data-theme="light"] .episodes-list-page .list-page-heading { color: #fff; }
 html[data-theme="light"] .episodes-list-page .article-nav .nav-main-link { color: rgba(255,255,255,0.85); }
-html[data-theme="light"] .ep-list-card        { background: #16487D; border-color: rgba(255,255,255,0.12); }
-html[data-theme="light"] .ep-list-card:hover  { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.28); }
+html[data-theme="light"] .ep-list-card        { background: #16487D; border-color: #16487D; }
+html[data-theme="light"] .ep-list-card:hover  { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.08); }
 html[data-theme="light"] .ep-list-thumb--placeholder { background: #0a3060; }
 html[data-theme="light"] .site-footer         { background: #1c3252; }
 html[data-theme="light"] .player-bar          { background: #fff; border-color: #ddd; }
