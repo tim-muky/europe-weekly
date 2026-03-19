@@ -1,5 +1,5 @@
 {
-  "version": 1773842759347,
+  "version": 1773897221593,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -325,6 +325,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-s5ptgty",
+      "title": "Portugal, Spain, Italy – EU Daily Update",
+      "categories": [
+        "cat-bt20cny",
+        "cat-afrit6a",
+        "cat-brofdjc"
+      ],
+      "duration": 1019,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e3-port-spain-italy.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 32,
+      "keywords": "Portugal, Spain, Italy",
+      "notes": "Episode covering Portugal, Spain, Italy",
+      "pubDate": "2026-03-19"
+    },
     {
       "id": "episode-sf8jqod",
       "title": "Germany, France, Belgium, Netherlands – EU Daily Update",
