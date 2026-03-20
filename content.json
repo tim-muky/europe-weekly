@@ -1,5 +1,5 @@
 {
-  "version": 1773983577676,
+  "version": 1773998279101,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -375,19 +375,20 @@
   "episodes": [
     {
       "id": "episode-wox5f3w",
-      "title": "Bulgaria, Slovenia, Romania – EU Daily Update",
+      "title": "Bulgaria, Slovenia, Romania, Croatia – EU Daily Update",
       "categories": [
         "cat-5zyoo2c",
         "cat-d8v8u9s",
-        "cat-x5njuro"
+        "cat-x5njuro",
+        "cat-kbuqz4q"
       ],
-      "duration": 984,
-      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e3-bulg-slov-rom.mp3",
+      "duration": 1452,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e3-bulg-slov-rom-cro.mp3",
       "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
       "season": 2,
       "episodeNumber": 33,
-      "keywords": "Bulgaria, Slovenia, Romania",
-      "notes": "Episode covering Bulgaria, Slovenia, Romania",
+      "keywords": "Bulgaria, Slovenia, Romania, Croatia",
+      "notes": "Episode covering Bulgaria, Slovenia, Romania, Croatia",
       "pubDate": "2026-03-20"
     },
     {

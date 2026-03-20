@@ -20,6 +20,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Bulgaria, Slovenia, Romania, Croatia – EU Daily Update</title>
+      <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e3-bulg-slov-rom-cro.mp3" length="0" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-wox5f3w</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-wox5f3w</link>
+      <itunes:duration>24:12</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>33</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Portugal, Spain, Italy – EU Daily Update</title>
+      <description>Episode covering Portugal, Spain, Italy</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e3-port-spain-italy.mp3" length="24463822" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-s5ptgty</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-s5ptgty</link>
+      <itunes:duration>16:59</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>32</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Germany, France, Belgium, Netherlands – EU Daily Update</title>
       <description>Episode covering Germany, France, Belgium, Netherlands</description>
       <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e4-germ-fran.mp3" length="30792769" type="audio/mpeg"/>
