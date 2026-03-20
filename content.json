@@ -1,5 +1,5 @@
 {
-  "version": 1773915867360,
+  "version": 1773983577676,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -373,6 +373,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-wox5f3w",
+      "title": "Bulgaria, Slovenia, Romania – EU Daily Update",
+      "categories": [
+        "cat-5zyoo2c",
+        "cat-d8v8u9s",
+        "cat-x5njuro"
+      ],
+      "duration": 984,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e3-bulg-slov-rom.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 33,
+      "keywords": "Bulgaria, Slovenia, Romania",
+      "notes": "Episode covering Bulgaria, Slovenia, Romania",
+      "pubDate": "2026-03-20"
+    },
     {
       "id": "episode-s5ptgty",
       "title": "Portugal, Spain, Italy – EU Daily Update",
