@@ -1,5 +1,5 @@
 {
-  "version": 1774047498287,
+  "version": 1774070090459,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -385,6 +385,22 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-ok8sdrd",
+      "title": "Czechia, Hungary – EU Daily Update",
+      "categories": [
+        "cat-p4f2tu7",
+        "cat-no95m3z"
+      ],
+      "duration": 662,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e2-czech-hung.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 34,
+      "keywords": "Czechia, Hungary",
+      "notes": "Episode covering Czechia, Hungary",
+      "pubDate": "2026-03-21"
+    },
     {
       "id": "episode-wox5f3w",
       "title": "Bulgaria, Slovenia, Romania, Croatia – EU Daily Update",
