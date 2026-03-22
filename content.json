@@ -1,5 +1,5 @@
 {
-  "version": 1774070090459,
+  "version": 1774184648411,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -120,6 +120,29 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-pw1yi5l",
+      "title": "Czech Republic Faces Democratic Crisis as President Clashes\nWith Government Over Far-Right Minister",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "excerpt": "President Petr Pavel's refusal to appoint a controversial\nfar-right nominee as environment minister has triggered the largest\nprotests in Prague since 2020, with up to 90,000 demonstrators warning\nof democratic backsliding. The standoff has exposed deepening tensions\nbetween the presidency and Prime Minister Andrej Babiš's coalition,\nwhile a newly approved budget falls short of NATO defense spending\ntargets despite the war in Ukraine.",
+      "body": "<h3>Presidential Veto Sparks Constitutional Standoff</h3><p>The Czech Republic is confronting its most serious\ninstitutional crisis in years after President Petr Pavel refused to\nappoint Filip Turek, the far-right Motorists party's nominee for\nenvironment minister, citing his history of Nazi salutes and offensive\nsocial media posts. The rejection has triggered a fierce backlash from\nthe governing coalition led by Prime Minister Andrej Babiš, who\nreturned to power in December 2025, with Deputy Prime Minister Macinka\nthreatening to block Pavel's attendance at NATO summits unless the\npresident relents.</p><p>The confrontation escalated when Macinka's messages to\nPavel were characterized by observers and opposition lawmakers as\nblackmail. MEP Jan Vondra stated the threats constituted an\nunacceptable attempt to coerce the presidency, undermining\nconstitutional checks and balances. The government survived a\nno-confidence vote over the dispute, but the narrow escape has done\nlittle to calm public anger or resolve the underlying power struggle\nover ministerial appointments.</p><p>Turek's documented history includes photographs with Nazi\nmemorabilia and a salute gesture that opposition parties argue\ndisqualifies him from holding public office. The government has framed\nPavel's refusal as executive overreach that blocks the elected\ncoalition's right to form a cabinet, arguing that normal political\nnegotiations are being portrayed as threats by opponents seeking to\nundermine the government's mandate.</p><h3>Mass Protests Signal Public Alarm Over Democratic\nErosion</h3><p>The controversy has mobilized the largest street\ndemonstrations in the Czech Republic since 2020, with up to 90,000\nprotesters gathering in Prague under the banner of Million Moments for\nDemocracy. Demonstrators waved European Union and Ukrainian flags\nwhile warning that the country risks following Slovakia and Hungary\ndown a path of democratic backsliding, weakened rule of law, and\nisolation from Western institutions.</p><p>A petition supporting President Pavel's stance has gathered\n620,000 signatures, reflecting widespread concern that the governing\ncoalition is eroding institutional independence and threatening public\nmedia freedoms. Protesters have explicitly linked the ministerial\nappointment dispute to broader fears about the government's commitment\nto EU and NATO membership, particularly given the coalition's\ninclusion of far-right parties with historically ambiguous positions\non Russia and European integration.</p><p>The government has dismissed the protests as elite-driven\nopposition to the will of voters, insisting that its coalition\npartners have a democratic right to nominate ministers. However, the\nscale and persistence of public demonstrations suggest that concerns\nextend beyond partisan politics to fundamental questions about the\ncountry's democratic trajectory and international orientation at a\ntime of heightened geopolitical tension.</p><h3>Defense Spending Shortfall Compounds Alliance\nConcerns</h3><p>Compounding international worries, Czech lawmakers approved\na 2026 budget on March 11-12 that allocates just 1.7 percent of GDP to\ndefense spending, falling short of NATO's 2 percent target despite the\nongoing war in Ukraine. President Pavel criticized the budget as\nirresponsible given the security environment but ultimately signed it,\nhighlighting the limited tools available to check the government's\nfiscal priorities.</p><p>The defense spending gap has drawn particular attention as\nthe United States under President Trump has called for NATO members to\nreach 5 percent of GDP for defense. While government officials argue\nthat including spending from other ministries may push the total above\n2 percent, the alliance has not confirmed this calculation. The\ncoalition has defended the budget by citing strained state finances\nand competing healthcare priorities, rejecting what it characterizes\nas unaffordable foreign pressure.</p><p>Opposition lawmakers and security analysts counter that the\nshortfall is unjustifiable given Russia's invasion of Ukraine and the\nCzech Republic's geographic position in Central Europe. MEP Vondra\nnoted that the budget also exceeds legal deficit limits by 70 to 100\nbillion crowns, violating the Budget Responsibility Act while\nsimultaneously underinvesting in national security. The combination of\nbelow-target defense spending and the diplomatic crisis over\nministerial appointments has raised concerns that Prague may find\nitself increasingly isolated within NATO and the EU, similar to\nHungary's current position.</p>",
+      "chartData": {
+        "values": [
+          1.7,
+          2.0,
+          5.0
+        ],
+        "labels": [
+          "Czech 2026 Budget",
+          "NATO Target",
+          "US Proposal"
+        ]
+      },
+      "keywords": "Czech Republic, Petr Pavel, Andrej Babiš, Filip Turek,\nMotorists party, NATO, defense spending, protests, democracy,\nfar-right, ministerial appointments, European Union",
+      "sources": "Government statements and parliamentary records; Million\nMoments for Democracy protest data; MEP Jan Vondra public comments;\nPresident Petr Pavel official statements; NATO defense spending\nguidelines"
+    },
     {
       "id": "article-p7k3m9n",
       "title": "Poland's Presidential Veto on EU Defense Loan Deepens Constitutional Crisis",
