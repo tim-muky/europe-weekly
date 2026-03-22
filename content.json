@@ -1,5 +1,5 @@
 {
-  "version": 1774185163264,
+  "version": "1774185346",
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -120,6 +120,31 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-9k3xob4",
+      "title": "Austria's New Coalition Struggles as Far-Right FPÖ Surges in\nPolls",
+      "categories": [
+        "cat-southeast-europe"
+      ],
+      "excerpt": "Austria's three-party coalition government, formed in March\n2025 after excluding the election-winning Freedom Party, faces\nmounting instability as the far-right FPÖ polls at 35-37 percent. The\ncoalition's adoption of hardline immigration policies, including a\ncontroversial anti-Muslim campaign, has failed to stem public\ndiscontent. Analysts warn the fragile arrangement may not survive as\nvoters express anger over the exclusion of the party that won the most\nvotes in 2024.",
+      "body": "<h3>Coalition Polls Trail Far-Right Despite Hardline Turn</h3><p>Austria's governing coalition of the conservative Austrian\nPeople's Party, the Social Democrats, and the liberal Neos is\nstruggling to maintain public support nine months after taking office.\nRecent polling shows the far-right Freedom Party commanding 35 to 37\npercent support, a significant increase from the 29 percent it won in\nthe September 2024 election that made it the country's largest party.\nBy contrast, the ÖVP polls between 20 and 24 percent, the SPÖ between\n16 and 19 percent, and Neos between 7 and 11 percent.</p><p>The coalition was formed in March 2025 after mainstream\nparties refused to govern with the FPÖ despite its electoral victory.\nThe three-party arrangement, branded under the slogan \"Do the right\nthing now,\" promised budget consolidation and what officials described\nas responsible governance aligned with European Union commitments.\nHowever, the polling deficit suggests voters remain dissatisfied with\nthe decision to exclude the party they elevated to first\nplace.</p><p>Government officials argue the coalition provides stability\nand prevents the far-right from gaining power, while implementing\npolicies to address voter concerns about immigration and asylum.\nCritics counter that the arrangement ignores the electorate's mandate\nand has adopted FPÖ-style rhetoric without delivering substantive\nresults, fueling further public resentment toward established\nparties.</p><h3>Anti-Muslim Campaign Sparks Accusations of\nIslamophobia</h3><p>In January 2026, the ÖVP launched a social media campaign\nclaiming that \"many Austrians feel unsafe near Muslims,\" drawing sharp\ncriticism for stoking religious bias. The campaign coincided with\ncoalition policies including mandatory asylum declarations against\nanti-Semitism, headscarf bans in certain settings, and pauses on\nfamily reunification for some migrant groups. The measures form part\nof the coalition's immigration platform, which government officials\ndescribe as addressing public safety concerns through stronger\nintegration requirements.</p><p>Opposition figures and civil society groups accused the ÖVP\nof mimicking FPÖ extremism to compete for votes while undermining\nliberal democratic norms. The FPÖ itself has criticized the coalition\nfor adopting far-right rhetoric without meaningful policy change,\narguing that simultaneous welfare cuts alienate working-class voters\nthe party claims to represent. No crime statistics were cited to\nsupport the campaign's safety claims, though immigration has emerged\nas a central issue driving voter sentiment since before the 2024\nelection.</p><p>The coalition's migration stance reflects a broader\nEuropean trend of mainstream parties hardening asylum policies under\npressure from the far-right. Austria's approach includes restrictions\non benefits and integration requirements that officials say fulfill\nvoter demands while maintaining EU commitments, though critics argue\nsuch measures erode the bloc's shared values on asylum and integration\nwithout addressing underlying economic anxieties.</p><h3>Fragile Arrangement Faces Uncertain Future</h3><p>Political analysts have expressed skepticism about the\ncoalition's longevity, with some predicting the three-party\narrangement will not survive a full term. The government's inability\nto close the polling gap with the FPÖ despite adopting stricter\nimmigration policies suggests its strategy has failed to win back\ndisaffected voters. For Austrian citizens, the coalition's fragility\nthreatens policy uncertainty on issues including housing reforms and\nsocial benefits, potentially affecting household costs amid broader\neconomic pressures.</p><p>The FPÖ's continued surge poses questions about Austria's\npolitical trajectory and its relationship with the European Union. A\nfuture FPÖ-led government could shift the country's stance on EU\nintegration, migration policy, and relations with neighboring states.\nThe party has historically advocated for stricter national sovereignty\nand skepticism toward Brussels, positions that could complicate EU\ndecision-making if Austria joins other member states with far-right or\nEurosceptic governments.</p><p>The coalition faces no immediate electoral test, but\nsustained polling deficits could trigger internal tensions among the\nthree parties or pressure for early elections. Government officials\nmaintain they will focus on implementing their program and\ndemonstrating results to voters. Whether this approach can reverse the\nFPÖ's momentum remains uncertain, with the far-right party positioned\nto capitalize on any coalition missteps or policy failures in the\nmonths ahead.</p>",
+      "chartData": {
+        "values": [
+          35.0,
+          20.0,
+          16.0,
+          7.0
+        ],
+        "labels": [
+          "FPÖ",
+          "ÖVP",
+          "SPÖ",
+          "Neos"
+        ]
+      },
+      "keywords": "Austria, FPÖ, coalition government, ÖVP, SPÖ, Neos,\nfar-right, immigration policy, polling, European Union, anti-Muslim\ncampaign, political instability",
+      "sources": "Austrian polling data 2025-2026; Coalition government program\n\"Do the right thing now\"; ÖVP social media campaign January 2026;\nPolitical analysis of Austrian coalition formation"
+    },
     {
       "id": "article-q13aqj9",
       "title": "Slovakia's Fico Navigates US-Russia Balancing Act as\nElection Year Deepens EU Rift",
