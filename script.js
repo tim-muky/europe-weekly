@@ -1043,7 +1043,8 @@ function generateSitemap(data) {
     { loc: `${siteUrl}/`,              priority: '1.0',  changefreq: 'daily'   },
     { loc: `${siteUrl}/articles.html`, priority: '0.8',  changefreq: 'daily'   },
     { loc: `${siteUrl}/episodes.html`, priority: '0.8',  changefreq: 'weekly'  },
-    { loc: `${siteUrl}/about.html`,    priority: '0.5',  changefreq: 'monthly' },
+    { loc: `${siteUrl}/about.html`,      priority: '0.5',  changefreq: 'monthly' },
+    { loc: `${siteUrl}/ai-podcast.html`, priority: '0.5',  changefreq: 'monthly' },
   ];
 
   const articleUrls = (data.articles || []).map(a => ({
@@ -1147,8 +1148,9 @@ async function initAdmin() {
     document.getElementById('settings-instagram').value = social.instagram || '';
     document.getElementById('settings-x').value         = social.x         || '';
     document.getElementById('settings-youtube').value   = social.youtube   || '';
-    document.getElementById('settings-about').innerHTML   = pages.about   || '';
-    document.getElementById('settings-imprint').innerHTML = pages.imprint || '';
+    document.getElementById('settings-about').innerHTML      = pages.about        || '';
+    document.getElementById('settings-imprint').innerHTML    = pages.imprint      || '';
+    document.getElementById('settings-ai-podcast').innerHTML = pages['ai-podcast'] || '';
     const pod = s.podcast || {};
     document.getElementById('settings-podcast-title').value    = pod.title       || '';
     document.getElementById('settings-podcast-desc').value     = pod.description || '';
@@ -1183,8 +1185,9 @@ async function initAdmin() {
       youtube:   document.getElementById('settings-youtube').value.trim()
     };
     data.pages = data.pages || {};
-    data.pages.about   = document.getElementById('settings-about').innerHTML;
-    data.pages.imprint = document.getElementById('settings-imprint').innerHTML;
+    data.pages.about          = document.getElementById('settings-about').innerHTML;
+    data.pages.imprint        = document.getElementById('settings-imprint').innerHTML;
+    data.pages['ai-podcast']  = document.getElementById('settings-ai-podcast').innerHTML;
     data.settings.podcast = {
       title:       document.getElementById('settings-podcast-title').value.trim(),
       description: document.getElementById('settings-podcast-desc').value.trim(),
