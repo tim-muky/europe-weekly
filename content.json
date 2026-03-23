@@ -1,5 +1,5 @@
 {
-  "version": "1774185346",
+  "version": 1774242848665,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -466,6 +466,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-bee6ggg",
+      "title": "Denmark, Finland, Ireland – EU Daily Update",
+      "categories": [
+        "cat-xlbr9em",
+        "cat-qoz3hlo",
+        "cat-r212kti"
+      ],
+      "duration": 1104,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e3-denk-fin.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 35,
+      "keywords": "Denmark, Finland, Ireland",
+      "notes": "Episode covering Denmark, Finland, Ireland",
+      "pubDate": "2026-03-23"
+    },
     {
       "id": "episode-ok8sdrd",
       "title": "Czechia, Slovakia, Hungary, Austria – EU Daily Update",
