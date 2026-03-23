@@ -1014,7 +1014,10 @@ function generateRSSFeed(data) {
       <itunes:name>${author}</itunes:name>
       <itunes:email>${email}</itunes:email>
     </itunes:owner>${cover ? `\n    <itunes:image href="${cover}"/>` : ''}
-    <itunes:category text="${category}"/>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="${category}">
+      <itunes:category text="Politics"/>
+    </itunes:category>
     <itunes:explicit>false</itunes:explicit>
 ${items}
   </channel>

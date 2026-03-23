@@ -100,7 +100,10 @@ def generate_rss(data: dict) -> str:
         f"      <itunes:email>{email}</itunes:email>",
         "    </itunes:owner>",
         f'    <itunes:image href="{cover}"/>',
-        f'    <itunes:category text="{escape_xml(category)}"/>',
+        "    <itunes:type>episodic</itunes:type>",
+        f'    <itunes:category text="{escape_xml(category)}">',
+        '      <itunes:category text="Politics"/>',
+        "    </itunes:category>",
         "    <itunes:explicit>false</itunes:explicit>",
     ]
 

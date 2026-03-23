@@ -17,7 +17,10 @@
       <itunes:email>europeweekly27@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
-    <itunes:category text="News"/>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="News">
+      <itunes:category text="Politics"/>
+    </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia – EU Daily Update</title>
