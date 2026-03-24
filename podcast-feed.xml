@@ -30,13 +30,26 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Poland, Latvia, Lithuania, Estonia – EU Daily Update</title>
+      <description>Tuesday episode covering Poland, Latvia, Lithuania, and Estonia. All 4 countries completed successfully.</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e36-poland-latvia-lithuania-estonia.mp3" length="60656370" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-zxvht8w</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-zxvht8w</link>
+      <itunes:duration>42:07</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>36</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Sweden, Denmark, Finland, Ireland – EU Daily Update</title>
       <description>Monday episode covering Nordics: Sweden, Denmark, Finland, and Ireland.</description>
       <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e35-swed-denm-fin-ire.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-bee6ggg</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-bee6ggg</link>
-      <itunes:duration>24:23</itunes:duration>
+      <itunes:duration>23:58</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>35</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
