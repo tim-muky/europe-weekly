@@ -378,7 +378,7 @@ function drawBarChart(canvasId, values, labels) {
   ctx.scale(dpr, dpr);
 
   const W = cssW, H = cssH;
-  const padL = 38, padB = 72, padT = 16, padR = 10; // padB tall for rotated labels
+  const padL = 38, padB = 42, padT = 16, padR = 10; // padB for two-line horizontal labels
   const chartW = W - padL - padR, chartH = H - padB - padT;
   const colors = ['#5ec8b8', '#1c6080', '#122c4a', '#8adeca'];
   const maxVal = Math.max(...values) * 1.15;
@@ -403,15 +403,16 @@ function drawBarChart(canvasId, values, labels) {
     // Value label above bar
     ctx.fillStyle = '#333'; ctx.font = 'bold 10px Arial'; ctx.textAlign = 'center';
     ctx.fillText(val, x + bw / 2, y - 4);
-    // X-axis label: rotated -45° to prevent overlap
-    ctx.save();
-    ctx.translate(x + bw / 2, padT + chartH + 8);
-    ctx.rotate(-Math.PI / 4);
-    ctx.textAlign = 'right';
+    // X-axis label: two horizontal lines to prevent overflow
+    const words = (labels[i] || '').split(' ');
+    const mid   = Math.ceil(words.length / 2);
+    const line1 = words.slice(0, mid).join(' ');
+    const line2 = words.slice(mid).join(' ');
     ctx.font = '10px Arial';
     ctx.fillStyle = '#555';
-    ctx.fillText(labels[i] || '', 0, 0);
-    ctx.restore();
+    ctx.textAlign = 'center';
+    ctx.fillText(line1, x + bw / 2, padT + chartH + 14);
+    if (line2) ctx.fillText(line2, x + bw / 2, padT + chartH + 26);
   });
   ctx.strokeStyle = '#999'; ctx.lineWidth = 1;
   ctx.beginPath();
@@ -641,19 +642,20 @@ async function initArticle() {
       ? `<h3 class="sources-heading">Sources</h3><p class="sources-text">${escHtml(art.sources)}</p>` : '';
   }
 
-  // Related articles: same category, different article, max 3
+  // Related articles: same category first, then fill to 3 from other articles
   const relWrap = document.getElementById('related-articles');
   const relList = document.getElementById('related-list');
   if (relWrap && relList) {
-    const related = data.articles
-      .filter(a => a.id !== art.id && a.categories.some(c => art.categories.includes(c)))
-      .slice(0, 3);
+    const others = data.articles.filter(a => a.id !== art.id);
+    const sameCategory = others.filter(a => a.categories.some(c => art.categories.includes(c)));
+    const rest = others.filter(a => !a.categories.some(c => art.categories.includes(c)));
+    const related = [...sameCategory, ...rest].slice(0, 3);
     if (related.length) {
       relList.innerHTML = related.map(a => `
         <a href="article.html?id=${a.id}" class="related-card">
-          <div class="related-card-tags">${tagsHTML(data, a.categories)}</div>
+          <div class="related-card-tags">${(a.categories || []).map(id => `<span class="related-tag">${catLabel(data, id)}</span>`).join('')}</div>
           <div class="related-card-title">${escHtml(a.title)}</div>
-          <p class="related-card-excerpt">${escHtml((a.excerpt || '').replace(/<[^>]+>/g, '').slice(0, 100))}…</p>
+          <p class="related-card-excerpt">${escHtml((a.excerpt || '').replace(/<[^>]+>/g, '').slice(0, 110))}…</p>
         </a>`).join('');
       relWrap.style.display = '';
     }
