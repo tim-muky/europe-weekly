@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - content.json   # only runs when episode/article data changes
+  workflow_dispatch:     # allow manual trigger from Actions tab
+
+permissions:
+  contents: write        # needed to push the regenerated RSS commit
 
 jobs:
   regen:
