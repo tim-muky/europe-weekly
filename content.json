@@ -720,19 +720,20 @@
     },
     {
       "id": "episode-8b25797a",
-      "title": "Latvia, Lithuania, Estonia \u2013 EU Daily Update",
+      "title": "Poland, Latvia, Lithuania, Estonia \u2013 EU Daily Update",
       "categories": [
+        "cat-bt20cny",
         "cat-jszfyjk",
         "cat-oifdqv9",
         "cat-nbf1ay4"
       ],
-      "duration": 1086,
-      "audioUrl": "https://pub-e101a87b9a042c06b2e6f71c28c07288.r2.dev/episodes/2026-03-24/EW-Ep._2026_03_24_Final.mp3",
+      "duration": 2527,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e36-poland-latvia-lithuania-estonia.mp3",
       "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
       "season": 2,
       "episodeNumber": 36,
-      "keywords": "Latvia, Lithuania, Estonia",
-      "notes": "Episode covering Latvia, Lithuania, Estonia. Poland script production failed.",
+      "keywords": "Poland, Latvia, Lithuania, Estonia",
+      "notes": "Tuesday episode covering Poland, Latvia, Lithuania, and Estonia. All 4 countries completed successfully.",
       "pubDate": "2026-03-24"
     }
   ]
