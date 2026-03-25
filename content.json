@@ -1,5 +1,5 @@
 {
-  "version": 1774429603780,
+  "version": 1774440690579,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -814,6 +814,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-3bohpfn",
+      "title": "Germany, France, Belgium, Netherlands \u2013 EU Daily Update",
+      "categories": [
+        "cat-q3xena4",
+        "cat-8azgfhe",
+        "cat-d7jygr4",
+        "cat-hwc886m"
+      ],
+      "duration": 1408,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e38-germany-france-belgium-netherlands.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 38,
+      "keywords": "Germany, France, Belgium, Netherlands",
+      "notes": "Episode covering Germany, France, Belgium, Netherlands",
+      "pubDate": "2026-03-25"
+    },
     {
       "id": "episode-iwwuaek",
       "title": "Germany \u2013 EU Daily Update",
