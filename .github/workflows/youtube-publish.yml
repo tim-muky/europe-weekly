@@ -39,10 +39,14 @@ jobs:
               except Exception:
                   pass
 
-          # Only episodes (not articles) count
+          # Only real episodes count — must have audioUrl AND be in
+          # the "episodes" array (not "articles").  Items whose id
+          # starts with "article-" are excluded as an extra safeguard.
           new_eps = [
               ep for ep in curr.get("episodes", [])
-              if ep["id"] not in prev_ids and ep.get("audioUrl")
+              if ep["id"] not in prev_ids
+              and ep.get("audioUrl")
+              and not ep["id"].startswith("article-")
           ]
 
           has_new = "true" if new_eps else "false"
@@ -73,7 +77,25 @@ jobs:
           python-version: "3.11"
 
       - name: Install ffmpeg
-        run: sudo apt-get install -y ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+
+      - name: Verify YouTube secrets are configured
+        run: |
+          missing=""
+          [ -z "$YOUTUBE_CLIENT_ID" ]     && missing="$missing YOUTUBE_CLIENT_ID"
+          [ -z "$YOUTUBE_CLIENT_SECRET" ] && missing="$missing YOUTUBE_CLIENT_SECRET"
+          [ -z "$YOUTUBE_REFRESH_TOKEN" ] && missing="$missing YOUTUBE_REFRESH_TOKEN"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing required secrets:$missing"
+            echo "Go to Settings → Secrets → Actions and add them."
+            exit 1
+          fi
+        env:
+          YOUTUBE_CLIENT_ID:     ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
 
       - name: Upload new episodes to YouTube
         env:

@@ -257,7 +257,9 @@ def main():
 
     new_episodes = [
         ep for ep in curr.get("episodes", [])
-        if ep["id"] not in prev_ids and ep.get("audioUrl")
+        if ep["id"] not in prev_ids
+        and ep.get("audioUrl")
+        and not ep["id"].startswith("article-")
     ]
 
     if not new_episodes:
@@ -267,6 +269,13 @@ def main():
     print(f"Found {len(new_episodes)} new episode(s) to upload.")
 
     # ── 2. Authenticate ───────────────────────────────────────────────────────
+    missing = [v for v in ("YOUTUBE_CLIENT_ID", "YOUTUBE_CLIENT_SECRET", "YOUTUBE_REFRESH_TOKEN")
+               if not os.environ.get(v)]
+    if missing:
+        print(f"✗ Missing required environment variables: {', '.join(missing)}", file=sys.stderr)
+        print("  Set them as GitHub Secrets under Settings → Secrets → Actions.", file=sys.stderr)
+        sys.exit(1)
+
     client_id     = os.environ["YOUTUBE_CLIENT_ID"]
     client_secret = os.environ["YOUTUBE_CLIENT_SECRET"]
     refresh_token = os.environ["YOUTUBE_REFRESH_TOKEN"]
