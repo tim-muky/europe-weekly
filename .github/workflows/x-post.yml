@@ -1,0 +1,104 @@
+name: Post new articles to X
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - content.json   # only runs when content data changes
+  workflow_dispatch:     # manual trigger from GitHub Actions tab
+
+jobs:
+  # ── Job 1: detect whether any NEW articles were added ──────────────────
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      has_new: ${{ steps.diff.outputs.has_new }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2     # need HEAD and HEAD^ to compare
+
+      - name: Check for new articles
+        id: diff
+        run: |
+          python3 - <<'PYEOF'
+          import json, subprocess, os
+
+          prev = subprocess.run(
+              ["git", "show", "HEAD^:content.json"],
+              capture_output=True, text=True,
+          )
+          with open("content.json", encoding="utf-8") as f:
+              curr = json.load(f)
+
+          prev_ids = set()
+          if prev.returncode == 0:
+              try:
+                  prev_ids = {art["id"] for art in json.loads(prev.stdout).get("articles", [])}
+              except Exception:
+                  pass
+
+          new_arts = [
+              art for art in curr.get("articles", [])
+              if art["id"] not in prev_ids
+              and art["id"].startswith("article-")
+          ]
+
+          has_new = "true" if new_arts else "false"
+          print(f"New articles found: {len(new_arts)} → has_new={has_new}")
+          for art in new_arts:
+              print(f"  • {art.get('title','')}")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"has_new={has_new}\n")
+          PYEOF
+
+  # ── Job 2: generate tweets + post — only runs if new articles found ────
+  post:
+    needs: check
+    if: needs.check.outputs.has_new == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120   # up to ~5 articles × 20 min delay + processing
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install tweepy
+
+      - name: Verify secrets are configured
+        run: |
+          missing=""
+          [ -z "$X_API_KEY" ]              && missing="$missing X_API_KEY"
+          [ -z "$X_API_SECRET" ]           && missing="$missing X_API_SECRET"
+          [ -z "$X_ACCESS_TOKEN" ]         && missing="$missing X_ACCESS_TOKEN"
+          [ -z "$X_ACCESS_TOKEN_SECRET" ]  && missing="$missing X_ACCESS_TOKEN_SECRET"
+          [ -z "$ANTHROPIC_API_KEY" ]      && missing="$missing ANTHROPIC_API_KEY"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing required secrets:$missing"
+            echo "Go to Settings → Secrets → Actions and add them."
+            exit 1
+          fi
+        env:
+          X_API_KEY:              ${{ secrets.X_API_KEY }}
+          X_API_SECRET:           ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN:         ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET:  ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          ANTHROPIC_API_KEY:      ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Post new articles to X
+        env:
+          X_API_KEY:              ${{ secrets.X_API_KEY }}
+          X_API_SECRET:           ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN:         ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET:  ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          ANTHROPIC_API_KEY:      ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/x_post.py
