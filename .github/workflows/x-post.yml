@@ -15,7 +15,7 @@ jobs:
       has_new: ${{ steps.diff.outputs.has_new }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 2     # need HEAD and HEAD^ to compare
 
@@ -62,7 +62,7 @@ jobs:
     timeout-minutes: 120   # up to ~5 articles × 20 min delay + processing
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 2
 
