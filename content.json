@@ -1,5 +1,5 @@
 {
-  "version": 1774674298034,
+  "version": 1774682648103,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -1160,6 +1160,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-kv9idl4",
+      "title": "Czechia, Slovakia, Hungary, Austria - 28.03.26",
+      "categories": [
+        "cat-p4f2tu7",
+        "cat-lqlzgi3",
+        "cat-no95m3z",
+        "cat-edscj6n"
+      ],
+      "duration": 1413,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e43-czechia-slovakia-hungary-austria.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 43,
+      "keywords": "Andrej Babi\u0161, parliamentary immunity, democratic backsliding, Prague, protests, NATO defense spending, Czech Republic, subsidy fraud, allegations, Stork Nest farm, public media reform, Milion chvilek pro, demokracii, rule of law, transatlantic relations, Russian hybrid, threats, Viktor Orb\u00e1n comparison, EU compliance; Hungarian parliamentary election, Viktor Orb\u00e1n, P\u00e9ter Magyar, Tisza, Party, Fidesz-KDNP, Russian electoral interference, Druzhba pipeline,, energy security, European Union cohesion funds, democratic, institutions, constitutional reform, polling data, electoral system",
+      "notes": "Czech Republic at Democratic Crossroads as 200,000+ Protest Babi\u0161 Government\nHungary's April Election: Democracy Under Pressure Amid Russian, Interference Allegations and Energy Crisis",
+      "pubDate": "2026-03-28"
+    },
     {
       "id": "episode-2wbpg92",
       "title": "Czechia, Slovakia, Hungary, Austria - 28.03.26",
