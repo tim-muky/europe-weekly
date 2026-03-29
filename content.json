@@ -1,5 +1,5 @@
 {
-  "version": 1774773556664,
+  "version": 1774809804348,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -1239,6 +1239,19 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-4grkx2f",
+      "title": " - 29.03.26",
+      "categories": [],
+      "duration": 1131,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e44-.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 44,
+      "keywords": "",
+      "notes": "Episode covering ",
+      "pubDate": "2026-03-29"
+    },
     {
       "id": "episode-cdp1b8c",
       "title": " - 29.03.26",
