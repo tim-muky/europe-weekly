@@ -519,8 +519,8 @@ function initPlayer(total, prefix, audioUrl) {
 function renderNav(data) {
   const al = document.getElementById('nav-articles');
   const el = document.getElementById('nav-episodes');
-  if (al) al.innerHTML = data.articles.slice(0, 3).map(a => `<li><a href="article.html?id=${a.id}">${escHtml(a.title)}</a></li>`).join('');
-  if (el) el.innerHTML = data.episodes.slice(0, 3).map(e => `<li><a href="episode.html?id=${e.id}">${escHtml(e.title)}</a></li>`).join('');
+  if (al) al.innerHTML = data.articles.slice(0, 5).map(a => `<li><a href="article.html?id=${a.id}">${escHtml(a.title)}</a></li>`).join('');
+  if (el) el.innerHTML = data.episodes.slice(0, 5).map(e => `<li><a href="episode.html?id=${e.id}">${escHtml(e.title)}</a></li>`).join('');
 }
 
 // ── HOME ──────────────────────────────────────
@@ -1131,7 +1131,37 @@ async function initAdmin() {
   let data = await getData();
   renderFooter(data);
 
-  function save(msg) { setData(data); pushDataToGitHub(msg || 'cms: update'); }
+  // Sync current settings form values into the data object before every save,
+  // so that no field is lost even if the user didn't click "Save Settings".
+  function syncSettingsFromForm() {
+    data.settings = data.settings || {};
+    const bgUrlEl = document.getElementById('settings-bg-url');
+    if (bgUrlEl) data.settings.backgroundImage = bgUrlEl.value.trim();
+    data.settings.social = {
+      instagram: (document.getElementById('settings-instagram')?.value || '').trim(),
+      x:         (document.getElementById('settings-x')?.value || '').trim(),
+      youtube:   (document.getElementById('settings-youtube')?.value || '').trim()
+    };
+    data.pages = data.pages || {};
+    const aboutEl     = document.getElementById('settings-about');
+    const imprintEl   = document.getElementById('settings-imprint');
+    const aiPodcastEl = document.getElementById('settings-ai-podcast');
+    if (aboutEl)     data.pages.about          = aboutEl.innerHTML;
+    if (imprintEl)   data.pages.imprint        = imprintEl.innerHTML;
+    if (aiPodcastEl) data.pages['ai-podcast']  = aiPodcastEl.innerHTML;
+    data.settings.podcast = {
+      title:          (document.getElementById('settings-podcast-title')?.value || '').trim(),
+      description:    (document.getElementById('settings-podcast-desc')?.value || '').trim(),
+      coverArt:       (document.getElementById('settings-podcast-cover')?.value || '').trim(),
+      author:         (document.getElementById('settings-podcast-author')?.value || '').trim(),
+      email:          (document.getElementById('settings-podcast-email')?.value || '').trim(),
+      category:       (document.getElementById('settings-podcast-category')?.value || '').trim(),
+      language:       (document.getElementById('settings-podcast-language')?.value || '').trim(),
+      trackingPrefix: (document.getElementById('settings-tracking-prefix')?.value || '').trim()
+    };
+  }
+
+  function save(msg) { syncSettingsFromForm(); setData(data); pushDataToGitHub(msg || 'cms: update'); }
 
   function showSaved(btn) {
     const orig = btn.textContent;
@@ -1182,27 +1212,6 @@ async function initAdmin() {
   bgUrl.addEventListener('input', () => { bgPrev.src = bgUrl.value; bgPrev.style.display = bgUrl.value ? '' : 'none'; });
 
   document.getElementById('settings-save-btn').addEventListener('click', function () {
-    data.settings = data.settings || {};
-    data.settings.backgroundImage = bgUrl.value.trim();
-    data.settings.social = {
-      instagram: document.getElementById('settings-instagram').value.trim(),
-      x:         document.getElementById('settings-x').value.trim(),
-      youtube:   document.getElementById('settings-youtube').value.trim()
-    };
-    data.pages = data.pages || {};
-    data.pages.about          = document.getElementById('settings-about').innerHTML;
-    data.pages.imprint        = document.getElementById('settings-imprint').innerHTML;
-    data.pages['ai-podcast']  = document.getElementById('settings-ai-podcast').innerHTML;
-    data.settings.podcast = {
-      title:       document.getElementById('settings-podcast-title').value.trim(),
-      description: document.getElementById('settings-podcast-desc').value.trim(),
-      coverArt:    document.getElementById('settings-podcast-cover').value.trim(),
-      author:      document.getElementById('settings-podcast-author').value.trim(),
-      email:       document.getElementById('settings-podcast-email').value.trim(),
-      category:    document.getElementById('settings-podcast-category').value.trim(),
-      language:    document.getElementById('settings-podcast-language').value.trim(),
-      trackingPrefix: (document.getElementById('settings-tracking-prefix')?.value || '').trim()
-    };
     const tokenVal = (document.getElementById('settings-gh-token')?.value ?? '').trim();
     setGHToken(tokenVal);
     save('cms: update settings');

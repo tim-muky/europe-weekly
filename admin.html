@@ -145,6 +145,36 @@
     }
     .dl-save-btn:hover { background: #1a6ba8; color: #fff; }
     .dl-save-btn.saved { background: #2a8a3a; border-color: #2a8a3a; color: #fff; }
+
+    /* ── CMS Tabs ── */
+    .admin-tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 2px solid #ddd;
+      margin-bottom: 24px;
+    }
+    .admin-tab {
+      padding: 10px 24px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      background: transparent;
+      border: none;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      cursor: pointer;
+      color: #888;
+      font-family: inherit;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .admin-tab:hover { color: #333; }
+    .admin-tab.active {
+      color: var(--blue-dark);
+      border-bottom-color: var(--blue-dark);
+    }
+    .admin-tab-panel { display: none; }
+    .admin-tab-panel.active { display: block; }
   </style>
 </head>
 <body class="admin-page auth-locked">
@@ -176,32 +206,41 @@
     <!-- ── GITHUB SYNC STATUS ── -->
     <div id="gh-status" class="gh-status"></div>
 
-    <!-- ── ARTICLES ── -->
-    <section class="admin-section">
-      <div class="admin-section-header">
-        <div>
-          <h2 class="admin-section-title">Articles</h2>
-          <p class="admin-hint">Click an article to expand and edit all its fields.</p>
-        </div>
-        <button id="add-article-btn" class="admin-btn admin-btn--primary">+ New Article</button>
-      </div>
-      <div id="admin-articles"></div>
-    </section>
+    <!-- ── TAB BAR ── -->
+    <nav class="admin-tabs">
+      <button class="admin-tab active" data-tab="articles">Articles</button>
+      <button class="admin-tab" data-tab="episodes">Episodes</button>
+      <button class="admin-tab" data-tab="settings">Settings</button>
+    </nav>
 
-    <!-- ── EPISODES ── -->
-    <section class="admin-section">
-      <div class="admin-section-header">
-        <div>
-          <h2 class="admin-section-title">Podcast Episodes</h2>
-          <p class="admin-hint">Click an episode to expand and edit all its fields.</p>
+    <!-- ── TAB: ARTICLES ── -->
+    <div class="admin-tab-panel active" id="tab-articles">
+      <section class="admin-section">
+        <div class="admin-section-header">
+          <div>
+            <h2 class="admin-section-title">Articles</h2>
+            <p class="admin-hint">Click an article to expand and edit all its fields.</p>
+          </div>
+          <button id="add-article-btn" class="admin-btn admin-btn--primary">+ New Article</button>
         </div>
-        <button id="add-episode-btn" class="admin-btn admin-btn--primary">+ New Episode</button>
-      </div>
-      <div id="admin-episodes"></div>
-    </section>
+        <div id="admin-articles"></div>
+      </section>
+    </div>
 
-    <!-- ── EPISODE DOWNLOADS ── -->
-    <section class="admin-section">
+    <!-- ── TAB: EPISODES ── -->
+    <div class="admin-tab-panel" id="tab-episodes">
+      <section class="admin-section">
+        <div class="admin-section-header">
+          <div>
+            <h2 class="admin-section-title">Podcast Episodes</h2>
+            <p class="admin-hint">Click an episode to expand and edit all its fields.</p>
+          </div>
+          <button id="add-episode-btn" class="admin-btn admin-btn--primary">+ New Episode</button>
+        </div>
+        <div id="admin-episodes"></div>
+      </section>
+
+      <section class="admin-section">
       <div class="admin-section-header">
         <div>
           <h2 class="admin-section-title">Episode Downloads</h2>
@@ -220,6 +259,10 @@
         <tbody id="downloads-tbody"></tbody>
       </table>
     </section>
+    </div>
+
+    <!-- ── TAB: SETTINGS ── -->
+    <div class="admin-tab-panel" id="tab-settings">
 
     <!-- ── CATEGORIES ── -->
     <section class="admin-section">
@@ -363,6 +406,7 @@
       <button id="export-sitemap-btn" class="admin-btn admin-btn--primary">Export sitemap.xml</button>
       <button id="reset-btn"          class="admin-btn admin-btn--danger">Reset to defaults</button>
     </section>
+    </div>
 
   </main>
 
@@ -418,6 +462,16 @@
     }
 
     initAuth();
+
+    // ── Tab switching ──
+    document.querySelectorAll('.admin-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.admin-tab-panel').forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+      });
+    });
   </script>
 </body>
 </html>
