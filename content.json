@@ -1,5 +1,5 @@
 {
-  "version": 1774809804348,
+  "version": 1774843465808,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -1239,6 +1239,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-urte8fz",
+      "title": "Sweden, Denmark, Finland, Ireland - 30.03.26",
+      "categories": [
+        "cat-5gtq4f2",
+        "cat-xlbr9em",
+        "cat-qoz3hlo",
+        "cat-r212kti"
+      ],
+      "duration": 1411,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e45-sweden-denmark-finland-ireland.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 45,
+      "keywords": "Iran execution, Iranian-Swedish citizen, espionage charges, consular access, Vienna Convention, Mahsa Amini protests, Russian drone intercept, grain smuggling, NATO frontline, defense spending",
+      "notes": "Sweden Faces Dual Crises: Iran Executes Dual National Amid Russian, Military Intercepts as New NATO Member",
+      "pubDate": "2026-03-30"
+    },
     {
       "id": "episode-4grkx2f",
       "title": " - 29.03.26",
