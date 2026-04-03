@@ -1,5 +1,5 @@
 {
-  "version": 1775119865952,
+  "version": 1775189047587,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -1981,6 +1981,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-kpyoqmt",
+      "title": "Bulgaria, Slovenia, Romania, Croatia - 03.04.26",
+      "categories": [
+        "cat-5zyoo2c",
+        "cat-d8v8u9s",
+        "cat-x5njuro",
+        "cat-kbuqz4q"
+      ],
+      "duration": 1427,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e49-bulgaria-slovenia-romania-croatia.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 49,
+      "keywords": "Sorin Grindeanu, PSD, PNL, USR, UDMR, World Bank loan, Coalition crisis, Fiscal deficit, EU requirements, ANAF scandal; Zoran Milanovi\u0107, Andrej Plenkovi\u0107, National Security Council, Supreme Court vacancy, David's Sling missile, Marko Perkovi\u0107 Thompson, HDZ party, Zagreb Mayor Tomislav Toma\u0161evi\u0107, EU structural funds, Balkan enlargement",
+      "notes": "Romania's Coalition Crisis Threatens Government Collapse Amid Fiscal, Woes and World Bank Loan\nCroatia's President and PM Locked in Power Struggle Fracturing, National Security and Governance",
+      "pubDate": "2026-04-03"
+    },
     {
       "id": "episode-rpbcn4a",
       "title": "Portugal, Spain, Italy, Greece - 02.04.26",
