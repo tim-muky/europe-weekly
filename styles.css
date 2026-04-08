@@ -121,6 +121,70 @@ body {
 }
 .article-nav .nav-main-link { font-size: 1.15rem; }
 
+/* ===== HAMBURGER MENU (all pages except home) ===== */
+
+.hamburger-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 26px;
+}
+
+.hamburger-btn span {
+  display: block;
+  height: 2.5px;
+  width: 100%;
+  background: var(--text-dark);
+  border-radius: 2px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.hamburger-btn[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(7.5px) rotate(45deg);
+}
+.hamburger-btn[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.hamburger-btn[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-7.5px) rotate(-45deg);
+}
+
+.main-menu-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: var(--tag-bg);
+  border: 1.5px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  padding: 8px 0;
+  min-width: 160px;
+  z-index: 100;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.main-menu-dropdown a {
+  display: block;
+  padding: 7px 18px;
+  font-size: 0.95rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-dark);
+  letter-spacing: 0.02em;
+}
+
+.main-menu-dropdown a:hover { text-decoration: underline; }
+
 .header-rule {
   border: none;
   border-top: 1.5px solid #ccc;
@@ -1229,6 +1293,13 @@ a.cat-item-title:hover { text-decoration: underline; }
   html[data-theme="dark"] .article-main    { background: #121820; }
   html[data-theme="dark"] .article-page    { background: #121820; }
   html[data-theme="dark"] .header-rule     { border-color: #2a4a6b; }
+  html[data-theme="dark"] .hamburger-btn span { background: #e8e8e8; }
+  html[data-theme="dark"] .main-menu-dropdown {
+    background: #1e2d3d;
+    border-color: #2a4a6b;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  }
+  html[data-theme="dark"] .main-menu-dropdown a { color: #e8e8e8; }
 
   /* Article content */
   html[data-theme="dark"] .content-title       { color: #f0f0f0; }

@@ -59,11 +59,42 @@ function initThemeToggle() {
 
 }
 
+// ── HAMBURGER MENU ────────────────────────────
+
+function initHamburger() {
+  const btn      = document.querySelector('.hamburger-btn');
+  const dropdown = document.getElementById('main-menu-dropdown');
+  if (!btn || !dropdown) return;
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = !dropdown.hidden;
+    dropdown.hidden = isOpen;
+    btn.setAttribute('aria-expanded', String(!isOpen));
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!dropdown.hidden && !btn.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.hidden = true;
+      btn.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !dropdown.hidden) {
+      dropdown.hidden = true;
+      btn.setAttribute('aria-expanded', 'false');
+      btn.focus();
+    }
+  });
+}
+
 // Run as soon as the DOM is ready (before any page-specific init)
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initThemeToggle);
+  document.addEventListener('DOMContentLoaded', () => { initThemeToggle(); initHamburger(); });
 } else {
   initThemeToggle();
+  initHamburger();
 }
 
 // ── DATA LAYER ────────────────────────────────

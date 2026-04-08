@@ -14,7 +14,19 @@
   <!-- ===== ARTICLE HEADER ===== -->
   <header class="article-header">
     <nav class="article-nav">
-      <a href="index.html" class="nav-main-link">HOME</a>
+      <div class="hamburger-wrap">
+        <button class="hamburger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="main-menu-dropdown">
+          <span></span><span></span><span></span>
+        </button>
+        <div id="main-menu-dropdown" class="main-menu-dropdown" hidden>
+          <a href="index.html">HOME</a>
+          <a href="articles.html">ARTICLES</a>
+          <a href="episodes.html">PODCAST</a>
+          <a href="https://europe-weekly.eu/podcast-feed.xml" target="_blank" rel="noopener">RSS FEED</a>
+          <a href="ai-podcast.html">AI-PODCAST</a>
+          <a href="about.html">ABOUT</a>
+        </div>
+      </div>
     </nav>
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <a href="index.html">Home</a>
