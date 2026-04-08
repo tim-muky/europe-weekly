@@ -1,5 +1,5 @@
 {
-  "version": 1775556068686,
+  "version": 1775621153597,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -2755,6 +2755,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-iv5uia5",
+      "title": "Germany, France, Belgium, Netherlands - 08.04.26",
+      "categories": [
+        "cat-q3xena4",
+        "cat-8azgfhe",
+        "cat-d7jygr4",
+        "cat-hwc886m"
+      ],
+      "duration": 1363,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e57-germany-france-belgium-netherlands.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 57,
+      "keywords": "Germany economic stagnation, energy crisis, natural gas dependence,, LNG infrastructure, industrial competitiveness, renewable energy, transition, Nord Stream pipeline, Iran conflict, electricity prices,, subsidies, grid stability, automotive industry, sectoral job losses,, political fragmentation, EU economic implications; Belgium crisis, Energy price shocks, Diesel prices, TTF exchange, Fiscal deficit, Bart De Wever, N-VA coalition, Nuclear phase-out, Stability and Growth Pact, Pierre Wunsch, Federal Planning Bureau, European Commission, European Central Bank, International Monetary Fund; Rob Jetten, Democrats Sixty-Six, minority government, Dutch coalition, politics, parliamentary fragmentation, Schoof cabinet, Geert Wilders,, Party for Freedom, Green Left-Labor, European political instability",
+      "notes": "Germany's Dual Crisis: Energy Shock and Economic Stagnation Reshape, Europe's Largest Economy\n**Belgium Faces Dual Crisis: Energy Shocks and Fiscal Deficits, Threaten Stability**\nThe Netherlands' Minority Government: Can Rob Jetten Govern Without a, Parliamentary Majority?",
+      "pubDate": "2026-04-08"
+    },
     {
       "id": "episode-jz2dovy",
       "title": "Poland, Latvia, Lithuania, Estonia - 07.04.26",
