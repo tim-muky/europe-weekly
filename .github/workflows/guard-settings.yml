@@ -1,0 +1,105 @@
+name: Guard protected settings fields
+
+# Runs whenever content.json changes on main.
+# Compares the new version to the previous commit and restores any of the
+# three protected fields (YouTube URL, Download Tracking Prefix,
+# AI-PODCAST PAGE) that were non-empty before but are now empty or missing.
+# This prevents a stale local content.json (e.g. from a direct "post: Add
+# episode" commit) from silently wiping settings saved through the CMS.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - content.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2   # need HEAD and HEAD^ to compare
+
+      - name: Restore settings if cleared by commit
+        run: |
+          python3 - <<'PYEOF'
+          import json, subprocess, sys
+
+          # ── Load previous version ──────────────────────────────────────
+          prev_run = subprocess.run(
+              ["git", "show", "HEAD^:content.json"],
+              capture_output=True, text=True,
+          )
+          if prev_run.returncode != 0:
+              print("No previous content.json — nothing to guard.")
+              sys.exit(0)
+
+          try:
+              prev = json.loads(prev_run.stdout)
+          except Exception as e:
+              print(f"Could not parse previous content.json: {e}")
+              sys.exit(0)
+
+          with open("content.json", encoding="utf-8") as f:
+              curr = json.load(f)
+
+          # ── Helper: restore a nested value if it was cleared ───────────
+          def was_cleared(prev_val, curr_val):
+              """True if the previous value was non-empty and the new one is not."""
+              return bool(prev_val) and not bool(curr_val)
+
+          changed = False
+
+          # 1. YouTube URL  (settings.social.youtube)
+          prev_yt = prev.get("settings", {}).get("social", {}).get("youtube", "")
+          curr_yt = curr.get("settings", {}).get("social", {}).get("youtube", "")
+          if was_cleared(prev_yt, curr_yt):
+              curr.setdefault("settings", {}).setdefault("social", {})["youtube"] = prev_yt
+              print(f"  ↩ Restored YouTube URL: {prev_yt}")
+              changed = True
+
+          # 2. Download Tracking Prefix  (settings.podcast.trackingPrefix)
+          prev_pfx = prev.get("settings", {}).get("podcast", {}).get("trackingPrefix", "")
+          curr_pfx = curr.get("settings", {}).get("podcast", {}).get("trackingPrefix", "")
+          if was_cleared(prev_pfx, curr_pfx):
+              curr.setdefault("settings", {}).setdefault("podcast", {})["trackingPrefix"] = prev_pfx
+              print(f"  ↩ Restored trackingPrefix: {prev_pfx}")
+              changed = True
+
+          # 3. AI-PODCAST PAGE  (pages['ai-podcast'])
+          prev_ai = prev.get("pages", {}).get("ai-podcast", "")
+          curr_ai = curr.get("pages", {}).get("ai-podcast", "")
+          if was_cleared(prev_ai, curr_ai):
+              curr.setdefault("pages", {})["ai-podcast"] = prev_ai
+              print("  ↩ Restored ai-podcast page content")
+              changed = True
+
+          if not changed:
+              print("All protected settings intact — nothing to restore.")
+              sys.exit(0)
+
+          with open("content.json", "w", encoding="utf-8") as f:
+              json.dump(curr, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+
+          print("content.json updated with restored settings.")
+          PYEOF
+
+      - name: Commit restored settings (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content.json
+          if git diff --cached --quiet; then
+            echo "No settings were cleared — nothing to commit."
+          else
+            git commit -m "auto: Restore protected settings cleared by direct commit"
+            git push
+          fi

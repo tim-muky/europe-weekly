@@ -44,6 +44,7 @@ body {
   left: 0;
   bottom: 0;          /* stretches full height of the header image */
   z-index: 1;
+  overflow: hidden;   /* prevent nav content from bleeding below the header */
 }
 
 /* ===== NAV ===== */
