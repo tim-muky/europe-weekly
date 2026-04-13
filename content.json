@@ -1,5 +1,5 @@
 {
-  "version": 1775971779855,
+  "version": 1776053179886,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -3427,6 +3427,24 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-6lssror",
+      "title": "Sweden, Denmark, Finland, Ireland - 13.04.26",
+      "categories": [
+        "cat-5gtq4f2",
+        "cat-xlbr9em",
+        "cat-qoz3hlo",
+        "cat-r212kti"
+      ],
+      "duration": 1343,
+      "audioUrl": "https://audio.europe-weekly.eu/europe-weekly-s2e61-sweden-denmark-finland-ireland.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 61,
+      "keywords": "Sweden GDP growth, post-pandemic recovery, household consumption,, defense procurement, export weakness, labor market dynamics, fiscal, sustainability, budget deficit, unemployment forecast, wage agreements; Danish coalition politics, parliamentary deadlock, centrist governance, collapse, Social Democrats electoral decline, Venstre party crisis,, cross-bloc pragmatism, Mette Frederiksen, Lars L\u00f8kke Rasmussen,, political fragmentation, European political realignment; Ireland economy, inflation 4.2%, Strait of Hormuz, Simon Harris, EU existential moment, Central Bank of Ireland, Miche\u00e1l Martin, modified domestic demand, energy crisis, fiscal deficit",
+      "notes": "Sweden's Economy Exits Stagnation with 1.5% Growth, but Structural, Vulnerabilities Remain Ahead of 2026 Elections\nDenmark's Political Paralysis: The Collapse of Centrist Coalition, Politics in Scandinavia\nIreland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions and EU 'Existential Moment'",
+      "pubDate": "2026-04-13"
+    },
     {
       "id": "episode-zkm2bbn",
       "title": "Austria, Czechia, Hungary, Slovakia - 11.04.26",
