@@ -23,6 +23,15 @@ The following must be available in the agent's environment before starting:
 
 ---
 
+## ⚠️ Critical rule — always start from the live GitHub copy
+
+**Never read a locally cached `content.json` without pulling from GitHub first.**
+The admin CMS pushes settings (YouTube URL, Download Tracking Prefix, AI-PODCAST page) directly to GitHub via the API. If you skip the pull, those settings will be silently wiped and the guard-settings workflow will have to restore them — causing an extra commit and potential confusion.
+
+**If publishing from the working directory** (`/Users/timmeyerdierks/Claude/Europe weekly project`), run `git pull origin main` before touching `content.json`. If publishing from a temp clone, the clone/pull in Step 1 already satisfies this requirement.
+
+---
+
 ## Step 1 — Fetch the current content.json
 
 **Why:** Always start from the latest published file so no previous edits are lost. Never edit a locally cached copy.

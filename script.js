@@ -182,6 +182,30 @@ async function pushRSSToGitHub(token, data) {
   else { console.warn('RSS feed push failed:', res.status); }
 }
 
+// Merge any protected settings the local cache has but the incoming object lacks.
+// This prevents a stale publish commit (which always has empty settings) from
+// wiping values the user saved in a previous CMS session.
+function _mergeProtectedSettings(incoming, local) {
+  if (!local) return;
+  const yt = (local.settings?.social?.youtube || '').trim();
+  const tp = (local.settings?.podcast?.trackingPrefix || '').trim();
+  const ai = (local.pages?.['ai-podcast'] || '').trim();
+  if (yt && !(incoming.settings?.social?.youtube || '').trim()) {
+    incoming.settings = incoming.settings || {};
+    incoming.settings.social = incoming.settings.social || {};
+    incoming.settings.social.youtube = yt;
+  }
+  if (tp && !(incoming.settings?.podcast?.trackingPrefix || '').trim()) {
+    incoming.settings = incoming.settings || {};
+    incoming.settings.podcast = incoming.settings.podcast || {};
+    incoming.settings.podcast.trackingPrefix = tp;
+  }
+  if (ai && !(incoming.pages?.['ai-podcast'] || '').trim()) {
+    incoming.pages = incoming.pages || {};
+    incoming.pages['ai-podcast'] = ai;
+  }
+}
+
 async function getData() {
   const token   = getGHToken();
   const isAdmin = document.body?.classList.contains('admin-page');
@@ -193,6 +217,12 @@ async function getData() {
     try {
       const { data, sha } = await fetchFromGitHub(token);
       sessionStorage.setItem(GH_SHA_KEY, sha);
+      // If GitHub has empty protected fields but localStorage has values the user
+      // previously entered, keep the local values so the form is not blanked out.
+      const localRaw = localStorage.getItem(CMS_KEY);
+      let localCache = null;
+      if (localRaw) { try { localCache = JSON.parse(localRaw); } catch (e) { /* corrupt */ } }
+      _mergeProtectedSettings(data, localCache);
       localStorage.setItem(CMS_KEY, JSON.stringify(data));
       return data;
     } catch (e) {
@@ -210,6 +240,9 @@ async function getData() {
     const res    = await fetch('content.json?v=' + Date.now());
     const remote = await res.json();
     if (!local || (remote.version || 0) > (local.version || 0)) {
+      // Preserve any protected settings the user entered locally that a publish
+      // commit may have blanked out.
+      _mergeProtectedSettings(remote, local);
       localStorage.setItem(CMS_KEY, JSON.stringify(remote));
       return remote;
     }

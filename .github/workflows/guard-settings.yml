@@ -1,11 +1,11 @@
 name: Guard protected settings fields
 
 # Runs whenever content.json changes on main.
-# Compares the new version to the previous commit and restores any of the
-# three protected fields (YouTube URL, Download Tracking Prefix,
-# AI-PODCAST PAGE) that were non-empty before but are now empty or missing.
-# This prevents a stale local content.json (e.g. from a direct "post: Add
-# episode" commit) from silently wiping settings saved through the CMS.
+# Searches the last 20 commits for the most recent non-empty value of each
+# protected field (YouTube URL, Download Tracking Prefix, AI-PODCAST PAGE)
+# and restores it if the current commit has cleared it.
+# This prevents a stale local content.json (e.g. from a "post: Add episode"
+# commit that did not pull first) from wiping settings saved via the CMS.
 
 on:
   push:
@@ -25,61 +25,74 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depth: 2   # need HEAD and HEAD^ to compare
+          fetch-depth: 22   # need HEAD + up to 20 ancestors to find last non-empty value
 
       - name: Restore settings if cleared by commit
         run: |
           python3 - <<'PYEOF'
           import json, subprocess, sys
 
-          # ── Load previous version ──────────────────────────────────────
-          prev_run = subprocess.run(
-              ["git", "show", "HEAD^:content.json"],
-              capture_output=True, text=True,
-          )
-          if prev_run.returncode != 0:
-              print("No previous content.json — nothing to guard.")
-              sys.exit(0)
-
-          try:
-              prev = json.loads(prev_run.stdout)
-          except Exception as e:
-              print(f"Could not parse previous content.json: {e}")
-              sys.exit(0)
-
           with open("content.json", encoding="utf-8") as f:
               curr = json.load(f)
 
-          # ── Helper: restore a nested value if it was cleared ───────────
-          def was_cleared(prev_val, curr_val):
-              """True if the previous value was non-empty and the new one is not."""
-              return bool(prev_val) and not bool(curr_val)
+          # ── Find the last non-empty value for each protected field ─────
+          # Search up to 20 previous commits so that a single stale publish
+          # cannot permanently wipe a value that was set in an earlier CMS save.
+          def find_last_value(commits, extractor):
+              for sha in commits:
+                  run = subprocess.run(
+                      ["git", "show", f"{sha}:content.json"],
+                      capture_output=True, text=True,
+                  )
+                  if run.returncode != 0:
+                      continue
+                  try:
+                      val = extractor(json.loads(run.stdout))
+                      if val:
+                          return val
+                  except Exception:
+                      continue
+              return ""
+
+          # Collect up to 20 ancestor SHAs (HEAD^ through HEAD~20)
+          log = subprocess.run(
+              ["git", "log", "--format=%H", "-20", "HEAD^"],
+              capture_output=True, text=True,
+          )
+          ancestors = log.stdout.split() if log.returncode == 0 else []
+
+          if not ancestors:
+              print("No previous commits — nothing to guard.")
+              sys.exit(0)
 
           changed = False
 
           # 1. YouTube URL  (settings.social.youtube)
-          prev_yt = prev.get("settings", {}).get("social", {}).get("youtube", "")
           curr_yt = curr.get("settings", {}).get("social", {}).get("youtube", "")
-          if was_cleared(prev_yt, curr_yt):
-              curr.setdefault("settings", {}).setdefault("social", {})["youtube"] = prev_yt
-              print(f"  ↩ Restored YouTube URL: {prev_yt}")
-              changed = True
+          if not curr_yt:
+              best_yt = find_last_value(ancestors, lambda d: d.get("settings", {}).get("social", {}).get("youtube", ""))
+              if best_yt:
+                  curr.setdefault("settings", {}).setdefault("social", {})["youtube"] = best_yt
+                  print(f"  ↩ Restored YouTube URL: {best_yt}")
+                  changed = True
 
           # 2. Download Tracking Prefix  (settings.podcast.trackingPrefix)
-          prev_pfx = prev.get("settings", {}).get("podcast", {}).get("trackingPrefix", "")
           curr_pfx = curr.get("settings", {}).get("podcast", {}).get("trackingPrefix", "")
-          if was_cleared(prev_pfx, curr_pfx):
-              curr.setdefault("settings", {}).setdefault("podcast", {})["trackingPrefix"] = prev_pfx
-              print(f"  ↩ Restored trackingPrefix: {prev_pfx}")
-              changed = True
+          if not curr_pfx:
+              best_pfx = find_last_value(ancestors, lambda d: d.get("settings", {}).get("podcast", {}).get("trackingPrefix", ""))
+              if best_pfx:
+                  curr.setdefault("settings", {}).setdefault("podcast", {})["trackingPrefix"] = best_pfx
+                  print(f"  ↩ Restored trackingPrefix: {best_pfx}")
+                  changed = True
 
           # 3. AI-PODCAST PAGE  (pages['ai-podcast'])
-          prev_ai = prev.get("pages", {}).get("ai-podcast", "")
           curr_ai = curr.get("pages", {}).get("ai-podcast", "")
-          if was_cleared(prev_ai, curr_ai):
-              curr.setdefault("pages", {})["ai-podcast"] = prev_ai
-              print("  ↩ Restored ai-podcast page content")
-              changed = True
+          if not curr_ai:
+              best_ai = find_last_value(ancestors, lambda d: d.get("pages", {}).get("ai-podcast", ""))
+              if best_ai:
+                  curr.setdefault("pages", {})["ai-podcast"] = best_ai
+                  print("  ↩ Restored ai-podcast page content")
+                  changed = True
 
           if not changed:
               print("All protected settings intact — nothing to restore.")
