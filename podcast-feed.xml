@@ -30,6 +30,19 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Bulgaria, Slovenia, Romania, Croatia - 15.05.26</title>
+      <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e79-bulgaria-slovenia-romania-croatia.mp3" length="21542981" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-mfdgmul</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-mfdgmul</link>
+      <itunes:duration>22:26</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>79</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Portugal, Spain, Italy, Greece - 14.05.26</title>
       <description>Episode covering Portugal, Spain, Italy, Greece</description>
       <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e78-portugal-spain-italy-greece.mp3" length="22005226" type="audio/mpeg"/>
