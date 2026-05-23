@@ -30,6 +30,19 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Czechia, Slovakia, Hungary, Austria - 23.05.26</title>
+      <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
+      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e86-czechia-slovakia-hungary-austria.mp3" length="22372627" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-y5wufkb</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-y5wufkb</link>
+      <itunes:duration>23:18</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>86</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 22.05.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
       <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e85-bulgaria-slovenia-romania-croatia.mp3" length="22632600" type="audio/mpeg"/>
