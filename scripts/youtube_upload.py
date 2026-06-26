@@ -60,8 +60,14 @@ def get_access_token(client_id: str, client_secret: str, refresh_token: str) -> 
 
 
 def download(url: str, dest: Path) -> None:
-    """Download a URL to a local file, following redirects."""
-    urllib.request.urlretrieve(url, dest)
+    """Download a URL to a local file, following redirects.
+
+    Sends a browser User-Agent because Cloudflare (in front of
+    audio.europe-weekly.eu) blocks the default Python-urllib agent with HTTP 403.
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req) as resp:
+        dest.write_bytes(resp.read())
 
 
 def create_video(cover: Path, audio: Path, out: Path) -> None:

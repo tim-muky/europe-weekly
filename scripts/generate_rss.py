@@ -36,7 +36,14 @@ def fetch_file_size(url: str) -> int:
 def seconds_to_hhmmss(seconds) -> str:
     if not seconds:
         return "00:00"
-    s = int(seconds)
+    # Already in clock format (e.g. "8:00", "1:23:45") — valid for
+    # <itunes:duration>, pass it through unchanged.
+    if isinstance(seconds, str) and ":" in seconds:
+        return seconds.strip()
+    try:
+        s = int(seconds)
+    except (TypeError, ValueError):
+        return "00:00"
     h, m, s = s // 3600, (s % 3600) // 60, s % 60
     if h:
         return f"{h}:{m:02d}:{s:02d}"
@@ -84,7 +91,7 @@ def generate_rss(data: dict) -> str:
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<?xml-stylesheet type="text/xsl" href="podcast-feed.xsl"?>',
         '<rss version="2.0"',
-        '     xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"',
+        '     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"',
         '     xmlns:atom="http://www.w3.org/2005/Atom"',
         '     xmlns:content="http://purl.org/rss/1.0/modules/content/">',
         "  <channel>",
