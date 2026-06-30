@@ -1,5 +1,5 @@
 {
-  "version": 1782792689627,
+  "version": 1782825974121,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -11697,6 +11697,51 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260630-ireland",
+      "title": "Ireland - 2026.06.29",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Ireland_Episode_2026_06_29.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 118,
+      "keywords": "Ireland",
+      "notes": "Daily episode for Ireland",
+      "pubDate": "2026-06-29"
+    },
+    {
+      "id": "episode-20260630-finland",
+      "title": "Finland - 2026.06.29",
+      "categories": [
+        "cat-qoz3hlo"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Finland_Episode_2026_06_29.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 117,
+      "keywords": "Finland",
+      "notes": "Daily episode for Finland",
+      "pubDate": "2026-06-29"
+    },
+    {
+      "id": "episode-20260630-denmark",
+      "title": "Denmark - 2026.06.29",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Denmark_Episode_2026_06_29.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 116,
+      "keywords": "Denmark",
+      "notes": "Daily episode for Denmark",
+      "pubDate": "2026-06-29"
+    },
     {
       "id": "episode-20260630-estonia",
       "title": "Estonia - 2026.06.30",
