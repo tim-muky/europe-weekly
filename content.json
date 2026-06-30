@@ -1,5 +1,5 @@
 {
-  "version": 1782468497315,
+  "version": 1782792689627,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -11697,6 +11697,141 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260630-estonia",
+      "title": "Estonia - 2026.06.30",
+      "categories": [
+        "cat-nbf1ay4"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Estonia_Episode_2026_06_30.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 115,
+      "keywords": "Estonia",
+      "notes": "Daily episode for Estonia",
+      "pubDate": "2026-06-30"
+    },
+    {
+      "id": "episode-20260630-lithuania",
+      "title": "Lithuania - 2026.06.30",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Lithuania_Episode_2026_06_30.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 114,
+      "keywords": "Lithuania",
+      "notes": "Daily episode for Lithuania",
+      "pubDate": "2026-06-30"
+    },
+    {
+      "id": "episode-20260630-latvia",
+      "title": "Latvia - 2026.06.30",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Latvia_Episode_2026_06_30.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 113,
+      "keywords": "Latvia",
+      "notes": "Daily episode for Latvia",
+      "pubDate": "2026-06-30"
+    },
+    {
+      "id": "episode-20260630-poland",
+      "title": "Poland - 2026.06.30",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Poland_Episode_2026_06_30.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 112,
+      "keywords": "Poland",
+      "notes": "Daily episode for Poland",
+      "pubDate": "2026-06-30"
+    },
+    {
+      "id": "episode-20260629-sweden",
+      "title": "Sweden - 2026.06.29",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Sweden_Episode_2026_06_29.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 111,
+      "keywords": "Sweden",
+      "notes": "Daily episode for Sweden",
+      "pubDate": "2026-06-29"
+    },
+    {
+      "id": "episode-20260627-austria",
+      "title": "Austria - 2026.06.27",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Austria_Episode_2026_06_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 110,
+      "keywords": "Austria",
+      "notes": "Daily episode for Austria",
+      "pubDate": "2026-06-27"
+    },
+    {
+      "id": "episode-20260627-hungary",
+      "title": "Hungary - 2026.06.27",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Hungary_Episode_2026_06_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 109,
+      "keywords": "Hungary",
+      "notes": "Daily episode for Hungary",
+      "pubDate": "2026-06-27"
+    },
+    {
+      "id": "episode-20260627-slovakia",
+      "title": "Slovakia - 2026.06.27",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Slovakia_Episode_2026_06_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 108,
+      "keywords": "Slovakia",
+      "notes": "Daily episode for Slovakia",
+      "pubDate": "2026-06-27"
+    },
+    {
+      "id": "episode-20260627-czechia",
+      "title": "Czechia - 2026.06.27",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Czechia_Episode_2026_06_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 107,
+      "keywords": "Czechia",
+      "notes": "Daily episode for Czechia",
+      "pubDate": "2026-06-27"
+    },
     {
       "id": "episode-20260626-croatia",
       "title": "Croatia - 2026.06.26",
