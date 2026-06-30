@@ -30,6 +30,45 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Ireland - 2026.06.29</title>
+      <description>Daily episode for Ireland</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Ireland_Episode_2026_06_29.mp3" length="5845948" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260630-ireland</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260630-ireland</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>118</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Finland - 2026.06.29</title>
+      <description>Daily episode for Finland</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Finland_Episode_2026_06_29.mp3" length="4873996" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260630-finland</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260630-finland</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>117</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Denmark - 2026.06.29</title>
+      <description>Daily episode for Denmark</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Denmark_Episode_2026_06_29.mp3" length="5501498" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260630-denmark</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260630-denmark</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>116</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Estonia - 2026.06.30</title>
       <description>Daily episode for Estonia</description>
       <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Estonia_Episode_2026_06_30.mp3" length="5141032" type="audio/mpeg"/>
