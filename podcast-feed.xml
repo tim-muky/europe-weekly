@@ -30,6 +30,123 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Estonia - 2026.06.30</title>
+      <description>Daily episode for Estonia</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Estonia_Episode_2026_06_30.mp3" length="5141032" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260630-estonia</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260630-estonia</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>115</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Lithuania - 2026.06.30</title>
+      <description>Daily episode for Lithuania</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Lithuania_Episode_2026_06_30.mp3" length="5816300" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260630-lithuania</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260630-lithuania</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>114</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Latvia - 2026.06.30</title>
+      <description>Daily episode for Latvia</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Latvia_Episode_2026_06_30.mp3" length="5622532" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260630-latvia</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260630-latvia</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>113</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Poland - 2026.06.30</title>
+      <description>Daily episode for Poland</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Poland_Episode_2026_06_30.mp3" length="5351305" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260630-poland</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260630-poland</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>112</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sweden - 2026.06.29</title>
+      <description>Daily episode for Sweden</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Sweden_Episode_2026_06_29.mp3" length="5363268" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260629-sweden</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260629-sweden</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>111</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Austria - 2026.06.27</title>
+      <description>Daily episode for Austria</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Austria_Episode_2026_06_27.mp3" length="5571299" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260627-austria</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260627-austria</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>110</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Hungary - 2026.06.27</title>
+      <description>Daily episode for Hungary</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Hungary_Episode_2026_06_27.mp3" length="5639686" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260627-hungary</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260627-hungary</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>109</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Slovakia - 2026.06.27</title>
+      <description>Daily episode for Slovakia</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Slovakia_Episode_2026_06_27.mp3" length="5536730" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260627-slovakia</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260627-slovakia</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>108</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Czechia - 2026.06.27</title>
+      <description>Daily episode for Czechia</description>
+      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Czechia_Episode_2026_06_27.mp3" length="5984596" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260627-czechia</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260627-czechia</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>107</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Croatia - 2026.06.26</title>
       <description>Daily episode for Croatia</description>
       <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_26/Croatia_Episode_2026_06_26.mp3" length="5694699" type="audio/mpeg"/>
