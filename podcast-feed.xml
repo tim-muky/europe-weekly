@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="podcast-feed.xsl"?>
 <rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
@@ -17,13 +17,6 @@
       <itunes:email>europeweekly27@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
-    <image>
-      <url>https://audio.europe-weekly.eu/podcast-cover.jpg</url>
-      <title>Europe Weekly</title>
-      <link>https://europe-weekly.eu</link>
-    </image>
-    <author>europeweekly27@gmail.com (Europe Weekly)</author>
-    <managingEditor>europeweekly27@gmail.com (Europe Weekly)</managingEditor>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News">
       <itunes:category text="Politics"/>
@@ -32,11 +25,11 @@
     <item>
       <title>Ireland - 2026.06.29</title>
       <description>Daily episode for Ireland</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Ireland_Episode_2026_06_29.mp3" length="5845948" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_29/Ireland_Episode_2026_06_29.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260630-ireland</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260630-ireland</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>118</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -45,11 +38,11 @@
     <item>
       <title>Finland - 2026.06.29</title>
       <description>Daily episode for Finland</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Finland_Episode_2026_06_29.mp3" length="4873996" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_29/Finland_Episode_2026_06_29.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260630-finland</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260630-finland</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>117</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -58,11 +51,11 @@
     <item>
       <title>Denmark - 2026.06.29</title>
       <description>Daily episode for Denmark</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Denmark_Episode_2026_06_29.mp3" length="5501498" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_29/Denmark_Episode_2026_06_29.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260630-denmark</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260630-denmark</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>116</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -71,11 +64,11 @@
     <item>
       <title>Estonia - 2026.06.30</title>
       <description>Daily episode for Estonia</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Estonia_Episode_2026_06_30.mp3" length="5141032" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_30/Estonia_Episode_2026_06_30.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260630-estonia</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260630-estonia</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>115</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -84,11 +77,11 @@
     <item>
       <title>Lithuania - 2026.06.30</title>
       <description>Daily episode for Lithuania</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Lithuania_Episode_2026_06_30.mp3" length="5816300" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_30/Lithuania_Episode_2026_06_30.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260630-lithuania</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260630-lithuania</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>114</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -97,11 +90,11 @@
     <item>
       <title>Latvia - 2026.06.30</title>
       <description>Daily episode for Latvia</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Latvia_Episode_2026_06_30.mp3" length="5622532" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_30/Latvia_Episode_2026_06_30.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260630-latvia</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260630-latvia</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>113</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -110,11 +103,11 @@
     <item>
       <title>Poland - 2026.06.30</title>
       <description>Daily episode for Poland</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_30/Poland_Episode_2026_06_30.mp3" length="5351305" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_30/Poland_Episode_2026_06_30.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260630-poland</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260630-poland</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>112</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -123,11 +116,11 @@
     <item>
       <title>Sweden - 2026.06.29</title>
       <description>Daily episode for Sweden</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_29/Sweden_Episode_2026_06_29.mp3" length="5363268" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_29/Sweden_Episode_2026_06_29.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260629-sweden</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260629-sweden</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>111</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -136,11 +129,11 @@
     <item>
       <title>Austria - 2026.06.27</title>
       <description>Daily episode for Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Austria_Episode_2026_06_27.mp3" length="5571299" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_27/Austria_Episode_2026_06_27.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260627-austria</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260627-austria</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>110</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -149,11 +142,11 @@
     <item>
       <title>Hungary - 2026.06.27</title>
       <description>Daily episode for Hungary</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Hungary_Episode_2026_06_27.mp3" length="5639686" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_27/Hungary_Episode_2026_06_27.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260627-hungary</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260627-hungary</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>109</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -162,11 +155,11 @@
     <item>
       <title>Slovakia - 2026.06.27</title>
       <description>Daily episode for Slovakia</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Slovakia_Episode_2026_06_27.mp3" length="5536730" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_27/Slovakia_Episode_2026_06_27.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260627-slovakia</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260627-slovakia</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>108</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -175,11 +168,11 @@
     <item>
       <title>Czechia - 2026.06.27</title>
       <description>Daily episode for Czechia</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_27/Czechia_Episode_2026_06_27.mp3" length="5984596" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_27/Czechia_Episode_2026_06_27.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260627-czechia</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260627-czechia</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>107</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -188,11 +181,11 @@
     <item>
       <title>Croatia - 2026.06.26</title>
       <description>Daily episode for Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_26/Croatia_Episode_2026_06_26.mp3" length="5694699" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_26/Croatia_Episode_2026_06_26.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260626-croatia</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260626-croatia</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>106</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -201,11 +194,11 @@
     <item>
       <title>Romania - 2026.06.26</title>
       <description>Daily episode for Romania</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_26/Romania_Episode_2026_06_26.mp3" length="5648576" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_26/Romania_Episode_2026_06_26.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260626-romania</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260626-romania</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>105</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -214,11 +207,11 @@
     <item>
       <title>Slovenia - 2026.06.26</title>
       <description>Daily episode for Slovenia</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_26/Slovenia_Episode_2026_06_26.mp3" length="5450727" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_26/Slovenia_Episode_2026_06_26.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260626-slovenia</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260626-slovenia</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>104</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -227,11 +220,11 @@
     <item>
       <title>Bulgaria - 2026.06.26</title>
       <description>Daily episode for Bulgaria</description>
-      <enclosure url="https://audio.europe-weekly.eu/episodes/v3/2026_06_26/Bulgaria_Episode_2026_06_26.mp3" length="5651974" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_26/Bulgaria_Episode_2026_06_26.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260626-bulgaria</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260626-bulgaria</link>
-      <itunes:duration>8:00</itunes:duration>
+      <itunes:duration>NaN:NaN</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>103</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
@@ -240,7 +233,7 @@
     <item>
       <title>Poland, Latvia, Lithuania, Estonia - 16.06.26</title>
       <description>Episode covering Poland, Latvia, Lithuania, Estonia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e102-poland-latvia-lithuania-estonia.mp3" length="21505776" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e102-poland-latvia-lithuania-estonia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-jspwfuq</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-jspwfuq</link>
@@ -253,7 +246,7 @@
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 15.06.26</title>
       <description>Episode covering Sweden, Denmark, Finland, Ireland</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e101-sweden-denmark-finland-ireland.mp3" length="21315184" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e101-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-jpqmzsz</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-jpqmzsz</link>
@@ -266,7 +259,7 @@
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 13.06.26</title>
       <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e100-czechia-slovakia-hungary-austria.mp3" length="21540888" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e100-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-l8u1thp</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-l8u1thp</link>
@@ -279,7 +272,7 @@
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 12.06.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e99-bulgaria-slovenia-romania-croatia.mp3" length="21305580" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e99-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-95yyycb</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-95yyycb</link>
@@ -292,7 +285,7 @@
     <item>
       <title>Portugal, Spain, Italy, Greece - 11.06.26</title>
       <description>Episode covering Portugal, Spain, Italy, Greece</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e98-portugal-spain-italy-greece.mp3" length="21125840" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e98-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-v965lvd</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-v965lvd</link>
@@ -305,7 +298,7 @@
     <item>
       <title>Germany, France, Belgium, Netherlands - 10.06.26</title>
       <description>Episode covering Germany, France, Belgium, Netherlands</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e97-germany-france-belgium-netherlands.mp3" length="22279846" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e97-germany-france-belgium-netherlands.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-a6tbvb7</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-a6tbvb7</link>
@@ -318,7 +311,7 @@
     <item>
       <title>Poland, Latvia, Lithuania, Estonia - 09.06.26</title>
       <description>Episode covering Poland, Latvia, Lithuania, Estonia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e96-poland-latvia-lithuania-estonia.mp3" length="20336327" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e96-poland-latvia-lithuania-estonia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-n7nfvh1</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-n7nfvh1</link>
@@ -331,7 +324,7 @@
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 08.06.26</title>
       <description>Episode covering Sweden, Denmark, Finland, Ireland</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e95-sweden-denmark-finland-ireland.mp3" length="20339667" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e95-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-m8z1b6f</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-m8z1b6f</link>
@@ -344,7 +337,7 @@
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 06.06.26</title>
       <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e94-czechia-slovakia-hungary-austria.mp3" length="20872571" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e94-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-hhdqehz</guid>
       <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-hhdqehz</link>
@@ -357,7 +350,7 @@
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 05.06.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e93-bulgaria-slovenia-romania-croatia.mp3" length="21622393" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e93-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-pbgnmel</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-pbgnmel</link>
@@ -370,7 +363,7 @@
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 01.06.26</title>
       <description>Episode covering Sweden, Denmark, Finland, Ireland</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e92-sweden-denmark-finland-ireland.mp3" length="20878417" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e92-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-pkx4bde</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-pkx4bde</link>
@@ -383,7 +376,7 @@
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 30.05.26</title>
       <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e91-czechia-slovakia-hungary-austria.mp3" length="21467327" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e91-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-mvt1ewq</guid>
       <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-mvt1ewq</link>
@@ -396,7 +389,7 @@
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 29.05.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e90-bulgaria-slovenia-romania-croatia.mp3" length="21181446" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e90-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20sbfnd</guid>
       <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20sbfnd</link>
@@ -409,7 +402,7 @@
     <item>
       <title>Portugal, Spain, Italy, Greece - 28.05.26</title>
       <description>Episode covering Portugal, Spain, Italy, Greece</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e89-portugal-spain-italy-greece.mp3" length="20607152" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e89-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-xjivwyu</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-xjivwyu</link>
@@ -421,10 +414,10 @@
     </item>
     <item>
       <title>Germany, France, Belgium, Netherlands - 27.05.26</title>
-      <description>Germany&apos;s Fiscal Gambit: Can Trillion-Euro Spending Reverse Structural, Economic Decline?
-France&apos;s Business Elite Breaks Decades-Long Isolation to Engage, Far-Right RN Amid Fiscal Crisis
+      <description>Germany's Fiscal Gambit: Can Trillion-Euro Spending Reverse Structural, Economic Decline?
+France's Business Elite Breaks Decades-Long Isolation to Engage, Far-Right RN Amid Fiscal Crisis
 Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e88-germany-france-belgium-netherlands.mp3" length="21272146" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e88-germany-france-belgium-netherlands.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-tx416za</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-tx416za</link>
@@ -437,7 +430,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 25.05.26</title>
       <description>Episode covering Sweden, Denmark, Finland, Ireland</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e87-sweden-denmark-finland-ireland.mp3" length="20951978" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e87-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-tr18ndl</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-tr18ndl</link>
@@ -450,7 +443,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 23.05.26</title>
       <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e86-czechia-slovakia-hungary-austria.mp3" length="22372627" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e86-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-y5wufkb</guid>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-y5wufkb</link>
@@ -463,7 +456,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 22.05.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e85-bulgaria-slovenia-romania-croatia.mp3" length="22632600" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e85-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-mh3xa6k</guid>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-mh3xa6k</link>
@@ -476,7 +469,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Portugal, Spain, Italy, Greece - 21.05.26</title>
       <description>Episode covering Portugal, Spain, Italy, Greece</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e84-portugal-spain-italy-greece.mp3" length="21109121" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e84-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-5l85c01</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-5l85c01</link>
@@ -488,10 +481,10 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     </item>
     <item>
       <title>Germany, France, Belgium, Netherlands - 20.05.26</title>
-      <description>Germany&apos;s Fiscal Gambit: Can Trillion-Euro Spending Reverse Structural, Economic Decline?
-France&apos;s Business Elite Breaks Decades-Long Isolation to Engage, Far-Right RN Amid Fiscal Crisis
+      <description>Germany's Fiscal Gambit: Can Trillion-Euro Spending Reverse Structural, Economic Decline?
+France's Business Elite Breaks Decades-Long Isolation to Engage, Far-Right RN Amid Fiscal Crisis
 Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e83-germany-france-belgium-netherlands.mp3" length="21268803" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e83-germany-france-belgium-netherlands.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-a49zpq5</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-a49zpq5</link>
@@ -504,7 +497,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Poland, Latvia, Lithuania, Estonia - 19.05.26</title>
       <description>Episode covering Poland, Latvia, Lithuania, Estonia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e82-poland-latvia-lithuania-estonia.mp3" length="21221564" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e82-poland-latvia-lithuania-estonia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-o818h1a</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-o818h1a</link>
@@ -517,7 +510,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 18.05.26</title>
       <description>Episode covering Sweden, Denmark, Finland, Ireland</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e81-sweden-denmark-finland-ireland.mp3" length="20951560" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e81-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-0dzwfat</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-0dzwfat</link>
@@ -530,7 +523,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 16.05.26</title>
       <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e80-czechia-slovakia-hungary-austria.mp3" length="21319370" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e80-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-nb48q3c</guid>
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-nb48q3c</link>
@@ -543,7 +536,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 15.05.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e79-bulgaria-slovenia-romania-croatia.mp3" length="21542981" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e79-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-mfdgmul</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-mfdgmul</link>
@@ -556,7 +549,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Portugal, Spain, Italy, Greece - 14.05.26</title>
       <description>Episode covering Portugal, Spain, Italy, Greece</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e78-portugal-spain-italy-greece.mp3" length="22005226" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e78-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-qe3zpkz</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-qe3zpkz</link>
@@ -569,7 +562,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 08.05.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e77-bulgaria-slovenia-romania-croatia.mp3" length="21081136" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e77-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-0ze5re8</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-0ze5re8</link>
@@ -582,7 +575,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 02.05.26</title>
       <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e76-czechia-slovakia-hungary-austria.mp3" length="21141319" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e76-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-qwnazmf</guid>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-qwnazmf</link>
@@ -595,7 +588,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 01.05.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e75-bulgaria-slovenia-romania-croatia.mp3" length="20032476" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e75-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-s76w6oc</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-s76w6oc</link>
@@ -608,7 +601,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Portugal, Spain, Italy, Greece - 30.04.26</title>
       <description>Episode covering Portugal, Spain, Italy, Greece</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e74-portugal-spain-italy-greece.mp3" length="21177249" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e74-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-rk6cmaq</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-rk6cmaq</link>
@@ -620,8 +613,8 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     </item>
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 27.04.26</title>
-      <description>Sweden&apos;s 87 Billion Kronor Budget Gambit: Domestic Relief vs., International Commitments Ahead of 2026 Election</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e73-sweden-denmark-finland-ireland.mp3" length="20767658" type="audio/mpeg"/>
+      <description>Sweden's 87 Billion Kronor Budget Gambit: Domestic Relief vs., International Commitments Ahead of 2026 Election</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e73-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-70fggda</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-70fggda</link>
@@ -634,7 +627,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 25.04.26</title>
       <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e72-czechia-slovakia-hungary-austria.mp3" length="22437828" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e72-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-ianpyd5</guid>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-ianpyd5</link>
@@ -647,7 +640,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 24.04.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e71-bulgaria-slovenia-romania-croatia.mp3" length="21412996" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e71-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-g86r84v</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-g86r84v</link>
@@ -660,7 +653,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     <item>
       <title>Portugal, Spain, Italy, Greece - 23.04.26</title>
       <description>Episode covering Portugal, Spain, Italy, Greece</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e70-portugal-spain-italy-greece.mp3" length="21145902" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e70-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-gjc32ag</guid>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-gjc32ag</link>
@@ -672,10 +665,10 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     </item>
     <item>
       <title>Germany, France, Belgium, Netherlands - 22.04.26</title>
-      <description>Germany&apos;s Fiscal Gambit: Can Trillion-Euro Spending Reverse Structural, Economic Decline?
-France&apos;s Business Elite Breaks Decades-Long Isolation to Engage, Far-Right RN Amid Fiscal Crisis
+      <description>Germany's Fiscal Gambit: Can Trillion-Euro Spending Reverse Structural, Economic Decline?
+France's Business Elite Breaks Decades-Long Isolation to Engage, Far-Right RN Amid Fiscal Crisis
 Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e69-germany-france-belgium-netherlands.mp3" length="22341704" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e69-germany-france-belgium-netherlands.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-dm05051</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-dm05051</link>
@@ -687,11 +680,11 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
     </item>
     <item>
       <title>Poland, Latvia, Lithuania, Estonia - 21.04.26</title>
-      <description>Poland Achieves Diplomatic Milestone with First G20 Finance, Ministers&apos; Invitation Amid Political Tensions
-Latvia&apos;s Coalition Averts Collapse Over €30M airBaltic Bailout Amid, Rail Baltica Delays
-**Lithuania&apos;s PM Resigns Amid Corruption Scandal and Media, Independence Threats**
-Estonia&apos;s Economy Faces Timid 0.6% Growth in 2025 Amid Widening, Deficits and NATO Defense Pressures</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e68-poland-latvia-lithuania-estonia.mp3" length="21428872" type="audio/mpeg"/>
+      <description>Poland Achieves Diplomatic Milestone with First G20 Finance, Ministers' Invitation Amid Political Tensions
+Latvia's Coalition Averts Collapse Over €30M airBaltic Bailout Amid, Rail Baltica Delays
+**Lithuania's PM Resigns Amid Corruption Scandal and Media, Independence Threats**
+Estonia's Economy Faces Timid 0.6% Growth in 2025 Amid Widening, Deficits and NATO Defense Pressures</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e68-poland-latvia-lithuania-estonia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-ok8aafc</guid>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-ok8aafc</link>
@@ -703,10 +696,10 @@ Estonia&apos;s Economy Faces Timid 0.6% Growth in 2025 Amid Widening, Deficits a
     </item>
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 20.04.26</title>
-      <description>Sweden&apos;s 87 Billion Kronor Budget Gambit: Domestic Relief vs., International Commitments Ahead of 2026 Election
+      <description>Sweden's 87 Billion Kronor Budget Gambit: Domestic Relief vs., International Commitments Ahead of 2026 Election
 Finland Faces Fiscal Crunch and Iran Conflict in Critical Spending Talks
 Ireland at Fiscal Crossroads: Banking Bailout Ends as Inflation and, Hardship Rise</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e67-sweden-denmark-finland-ireland.mp3" length="22334587" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e67-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-p139dqd</guid>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-p139dqd</link>
@@ -718,10 +711,10 @@ Ireland at Fiscal Crossroads: Banking Bailout Ends as Inflation and, Hardship Ri
     </item>
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 18.04.26</title>
-      <description>Slovakia&apos;s Government Targets Expatriate Voters Ahead of 2027 Election, Robert Fico&apos;s Coalition Advances Mail-In Voting Ban Affecting 59,000, Overseas Citizens, Democratic Erosion in Slovakia: Voter Suppression or Electoral Integrity Reform?
-**Hungary&apos;s Seismic Shift: Tisza Party Ends Orbán&apos;s 16-Year Rule, with Landslide Victory**
-**Austria&apos;s Economic Recovery Derailed by Strait of Hormuz Blockade, and Iran Conflict**</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e66-czechia-slovakia-hungary-austria.mp3" length="22056650" type="audio/mpeg"/>
+      <description>Slovakia's Government Targets Expatriate Voters Ahead of 2027 Election, Robert Fico's Coalition Advances Mail-In Voting Ban Affecting 59,000, Overseas Citizens, Democratic Erosion in Slovakia: Voter Suppression or Electoral Integrity Reform?
+**Hungary's Seismic Shift: Tisza Party Ends Orbán's 16-Year Rule, with Landslide Victory**
+**Austria's Economic Recovery Derailed by Strait of Hormuz Blockade, and Iran Conflict**</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e66-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-qd83jiw</guid>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-qd83jiw</link>
@@ -733,8 +726,8 @@ Ireland at Fiscal Crossroads: Banking Bailout Ends as Inflation and, Hardship Ri
     </item>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 17.04.26</title>
-      <description>Bulgaria&apos;s Government Collapses Amid Mass Protests Over Austerity Budget</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e65-bulgaria-slovenia-romania-croatia.mp3" length="22067520" type="audio/mpeg"/>
+      <description>Bulgaria's Government Collapses Amid Mass Protests Over Austerity Budget</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e65-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-lxi7x5p</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-lxi7x5p</link>
@@ -747,8 +740,8 @@ Ireland at Fiscal Crossroads: Banking Bailout Ends as Inflation and, Hardship Ri
     <item>
       <title>Portugal, Spain, Italy, Greece - 16.04.26</title>
       <description>Spain Unveils €5B Emergency Package Amid Middle East Crisis and, Political Collapse
-Italy&apos;s Economic Renaissance Under Meloni Faces Credibility Crisis, Amid EU and OECD Warnings</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e64-portugal-spain-italy-greece.mp3" length="21737314" type="audio/mpeg"/>
+Italy's Economic Renaissance Under Meloni Faces Credibility Crisis, Amid EU and OECD Warnings</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e64-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-jw9zgrk</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-jw9zgrk</link>
@@ -761,7 +754,7 @@ Italy&apos;s Economic Renaissance Under Meloni Faces Credibility Crisis, Amid EU
     <item>
       <title>Germany, France, Belgium, Netherlands - 15.04.26</title>
       <description>Episode covering Germany, France, Belgium, Netherlands</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e63-germany-france-belgium-netherlands.mp3" length="21518742" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e63-germany-france-belgium-netherlands.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-9bnbhbq</guid>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-9bnbhbq</link>
@@ -773,10 +766,10 @@ Italy&apos;s Economic Renaissance Under Meloni Faces Credibility Crisis, Amid EU
     </item>
     <item>
       <title>Poland, Latvia, Lithuania, Estonia - 14.04.26</title>
-      <description>Poland&apos;s $1 Trillion GDP Milestone Masks Fiscal Paradox as Moody&apos;s, Warns of Downgrade
+      <description>Poland's $1 Trillion GDP Milestone Masks Fiscal Paradox as Moody's, Warns of Downgrade
 **Latvia Commits to 5% GDP Defense Spending Amid Austerity and, Russian Hybrid Threats**
-Lithuanian Government Collapses Amid PM&apos;s Financial Scandal and Resignation</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e62-poland-latvia-lithuania-estonia.mp3" length="23045538" type="audio/mpeg"/>
+Lithuanian Government Collapses Amid PM's Financial Scandal and Resignation</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e62-poland-latvia-lithuania-estonia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-13i7q35</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-13i7q35</link>
@@ -788,10 +781,10 @@ Lithuanian Government Collapses Amid PM&apos;s Financial Scandal and Resignation
     </item>
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 13.04.26</title>
-      <description>Sweden&apos;s Economy Exits Stagnation with 1.5% Growth, but Structural, Vulnerabilities Remain Ahead of 2026 Elections
-Denmark&apos;s Political Paralysis: The Collapse of Centrist Coalition, Politics in Scandinavia
-Ireland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions and EU &apos;Existential Moment&apos;</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e61-sweden-denmark-finland-ireland.mp3" length="21505356" type="audio/mpeg"/>
+      <description>Sweden's Economy Exits Stagnation with 1.5% Growth, but Structural, Vulnerabilities Remain Ahead of 2026 Elections
+Denmark's Political Paralysis: The Collapse of Centrist Coalition, Politics in Scandinavia
+Ireland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions and EU 'Existential Moment'</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e61-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-6lssror</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-6lssror</link>
@@ -805,7 +798,7 @@ Ireland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions 
       <title>Austria, Czechia, Hungary, Slovakia - 11.04.26</title>
       <description>**Andrej Babiš Returns to Power in Czech Republic, Ushering in, Eurosceptic Shift**
 **Slovakia Enacts €2.7B Fiscal Consolidation Amid Mass Protests and, EU Tensions**</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e60-austria-czechia-hungary-slovakia.mp3" length="21287084" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e60-austria-czechia-hungary-slovakia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-zkm2bbn</guid>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-zkm2bbn</link>
@@ -817,9 +810,9 @@ Ireland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions 
     </item>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 10.04.26</title>
-      <description>Slovenia&apos;s 2026 Elections: Golob&apos;s Government Faces Corruption Leaks, and Foreign Interference Claims Amid Coalition Chaos
-**Croatia&apos;s Political Standoff and Economic Resilience Amid Crises**</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e59-bulgaria-slovenia-romania-croatia.mp3" length="22482971" type="audio/mpeg"/>
+      <description>Slovenia's 2026 Elections: Golob's Government Faces Corruption Leaks, and Foreign Interference Claims Amid Coalition Chaos
+**Croatia's Political Standoff and Economic Resilience Amid Crises**</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e59-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-wiqt4jn</guid>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-wiqt4jn</link>
@@ -831,9 +824,9 @@ Ireland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions 
     </item>
     <item>
       <title>Portugal, Spain, Italy, Greece - 09.04.26</title>
-      <description>Portugal&apos;s Budget Surplus Collapses 95% Amid Expansionary Policies, and Far-Right Rise
-Italy&apos;s Political Stability Plummets as Economic Woes Mount</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e58-portugal-spain-italy-greece.mp3" length="22014839" type="audio/mpeg"/>
+      <description>Portugal's Budget Surplus Collapses 95% Amid Expansionary Policies, and Far-Right Rise
+Italy's Political Stability Plummets as Economic Woes Mount</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e58-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-8vpuf10</guid>
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-8vpuf10</link>
@@ -845,10 +838,10 @@ Italy&apos;s Political Stability Plummets as Economic Woes Mount</description>
     </item>
     <item>
       <title>Germany, France, Belgium, Netherlands - 08.04.26</title>
-      <description>Germany&apos;s Dual Crisis: Energy Shock and Economic Stagnation Reshape, Europe&apos;s Largest Economy
+      <description>Germany's Dual Crisis: Energy Shock and Economic Stagnation Reshape, Europe's Largest Economy
 **Belgium Faces Dual Crisis: Energy Shocks and Fiscal Deficits, Threaten Stability**
-The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parliamentary Majority?</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e57-germany-france-belgium-netherlands.mp3" length="21821763" type="audio/mpeg"/>
+The Netherlands' Minority Government: Can Rob Jetten Govern Without a, Parliamentary Majority?</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e57-germany-france-belgium-netherlands.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-iv5uia5</guid>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-iv5uia5</link>
@@ -861,7 +854,7 @@ The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parl
     <item>
       <title>Poland, Latvia, Lithuania, Estonia - 07.04.26</title>
       <description>Episode covering Poland, Latvia, Lithuania, Estonia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e56-poland-latvia-lithuania-estonia.mp3" length="22048288" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e56-poland-latvia-lithuania-estonia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-jz2dovy</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-jz2dovy</link>
@@ -874,7 +867,7 @@ The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parl
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 06.04.26</title>
       <description>Episode covering Sweden, Denmark, Finland, Ireland</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e54-sweden-denmark-finland-ireland.mp3" length="21689676" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e54-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-658rxib</guid>
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-658rxib</link>
@@ -887,7 +880,7 @@ The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parl
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 04.04.26</title>
       <description>Episode covering Czechia, Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e52-czechia-slovakia-hungary-austria.mp3" length="22706994" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e52-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-b0q6yom</guid>
       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-b0q6yom</link>
@@ -900,7 +893,7 @@ The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parl
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 03.04.26</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e50-bulgaria-slovenia-romania-croatia.mp3" length="22848267" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e50-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-q4tt9vh</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-q4tt9vh</link>
@@ -913,7 +906,7 @@ The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parl
     <item>
       <title>Portugal, Spain, Italy, Greece - 02.04.26</title>
       <description>Episode covering Portugal, Spain, Italy, Greece</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e48-portugal-spain-italy-greece.mp3" length="22482953" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e48-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-rpbcn4a</guid>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-rpbcn4a</link>
@@ -926,7 +919,7 @@ The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parl
     <item>
       <title>Germany, France, Belgium, Netherlands - 01.04.26</title>
       <description>Episode covering Germany, France, Belgium, Netherlands</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e47-germany-france-belgium-netherlands.mp3" length="22263545" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e47-germany-france-belgium-netherlands.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-6bgvnqy</guid>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-6bgvnqy</link>
@@ -940,7 +933,7 @@ The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parl
       <title>Poland, Latvia, Lithuania, Estonia - 31.03.26</title>
       <description>Latvia Mandates Manual Vote Counting for 2026 Elections Amid Russian, Disinformation Threats
 Estonia Confronts Internal Fractures as Russian Influence Operations, Target Ethnic Divisions</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e46-poland-latvia-lithuania-estonia.mp3" length="21332741" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e46-poland-latvia-lithuania-estonia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-7rr3ie7</guid>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-7rr3ie7</link>
@@ -953,7 +946,7 @@ Estonia Confronts Internal Fractures as Russian Influence Operations, Target Eth
     <item>
       <title>Sweden, Denmark, Finland, Ireland - 30.03.26</title>
       <description>Sweden Faces Dual Crises: Iran Executes Dual National Amid Russian, Military Intercepts as New NATO Member</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e45-sweden-denmark-finland-ireland.mp3" length="22582436" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e45-sweden-denmark-finland-ireland.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-urte8fz</guid>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-urte8fz</link>
@@ -965,8 +958,8 @@ Estonia Confronts Internal Fractures as Russian Influence Operations, Target Eth
     </item>
     <item>
       <title> - 29.03.26</title>
-      <description>Episode covering</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e44-.mp3" length="27153388" type="audio/mpeg"/>
+      <description>Episode covering </description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e44-.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-4grkx2f</guid>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-4grkx2f</link>
@@ -979,8 +972,8 @@ Estonia Confronts Internal Fractures as Russian Influence Operations, Target Eth
     <item>
       <title>Czechia, Slovakia, Hungary, Austria - 28.03.26</title>
       <description>Czech Republic at Democratic Crossroads as 200,000+ Protest Babiš Government
-Hungary&apos;s April Election: Democracy Under Pressure Amid Russian, Interference Allegations and Energy Crisis</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e42-czechia-slovakia-hungary-austria.mp3" length="22625074" type="audio/mpeg"/>
+Hungary's April Election: Democracy Under Pressure Amid Russian, Interference Allegations and Energy Crisis</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e42-czechia-slovakia-hungary-austria.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-2wbpg92</guid>
       <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-2wbpg92</link>
@@ -992,8 +985,8 @@ Hungary&apos;s April Election: Democracy Under Pressure Amid Russian, Interferen
     </item>
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 27.03.26</title>
-      <description>Bulgaria, Slovenia, Romania, Croatia - 27.03.26</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e41-bulgaria-slovenia-romania-croatia.mp3" length="21813099" type="audio/mpeg"/>
+      <description></description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e41-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-5jqq9ed</guid>
       <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-5jqq9ed</link>
@@ -1006,8 +999,8 @@ Hungary&apos;s April Election: Democracy Under Pressure Amid Russian, Interferen
     <item>
       <title>Portugal, Spain, Italy, Greece - 26.03.26</title>
       <description>**, António José Seguro Wins Portuguese Presidential Runoff in, Landslide, Defeating Far-Right Challenger Amid Political Fractures
-Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setback</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e39-portugal-spain-italy-greece.mp3" length="32980785" type="audio/mpeg"/>
+Italy Rejects Meloni's Judicial Reforms in Constitutional Referendum Setback</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e39-portugal-spain-italy-greece.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-aw17m3h</guid>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-aw17m3h</link>
@@ -1020,7 +1013,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Germany, France, Belgium, Netherlands – EU Daily Update</title>
       <description>Episode covering Germany, France, Belgium, Netherlands</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e38-germany-france-belgium-netherlands.mp3" length="33815240" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e38-germany-france-belgium-netherlands.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-3bohpfn</guid>
       <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-3bohpfn</link>
@@ -1033,7 +1026,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Poland, Latvia, Lithuania, Estonia – EU Daily Update</title>
       <description>Tuesday episode covering Poland, Latvia, Lithuania, and Estonia. All 4 countries completed successfully.</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e36-poland-latvia-lithuania-estonia.mp3" length="60656370" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e36-poland-latvia-lithuania-estonia.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-zxvht8w</guid>
       <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-zxvht8w</link>
@@ -1046,7 +1039,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Sweden, Denmark, Finland, Ireland – EU Daily Update</title>
       <description>Monday episode covering Nordics: Sweden, Denmark, Finland, and Ireland.</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e35-swed-denm-fin-ire.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e35-swed-denm-fin-ire.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-bee6ggg</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-bee6ggg</link>
@@ -1059,7 +1052,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Czechia, Slovakia, Hungary, Austria – EU Daily Update</title>
       <description>Episode covering Czechia, Hungary</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e2-czech-hung.mp3" length="15879149" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e2-czech-hung.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-ok8sdrd</guid>
       <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-ok8sdrd</link>
@@ -1072,7 +1065,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia – EU Daily Update</title>
       <description>Episode covering Bulgaria, Slovenia, Romania, Croatia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e3-bulg-slov-rom-cro.mp3" length="21394532" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e3-bulg-slov-rom-cro.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-wox5f3w</guid>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-wox5f3w</link>
@@ -1085,7 +1078,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Portugal, Spain, Italy – EU Daily Update</title>
       <description>Episode covering Portugal, Spain, Italy</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e3-port-spain-italy.mp3" length="24463822" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e3-port-spain-italy.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-s5ptgty</guid>
       <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-s5ptgty</link>
@@ -1098,7 +1091,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Germany, France, Belgium, Netherlands – EU Daily Update</title>
       <description>Episode covering Germany, France, Belgium, Netherlands</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e4-germ-fran.mp3" length="30792769" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e4-germ-fran.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-sf8jqod</guid>
       <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-sf8jqod</link>
@@ -1111,7 +1104,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Poland, Latvia, Lithuania, Estonia – EU Daily Update</title>
       <description>Episode covering Poland, Latvia, Lithuania, Estonia</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e17-pola-latv.mp3" length="31990222" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e17-pola-latv.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-axrc1cf</guid>
       <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-axrc1cf</link>
@@ -1124,7 +1117,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Sweden, Denmark, Finland, Ireland – EU Daily Update</title>
       <description>Episode covering Sweden, Denmark, Finland, Ireland</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e16-swed-denm.mp3" length="32660419" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e16-swed-denm.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-u6q7vje</guid>
       <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-u6q7vje</link>
@@ -1137,7 +1130,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia – EU Daily Update</title>
       <description>Friday episode covering Southeast Europe: Bulgaria, Slovenia, Romania, and Croatia.</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e27-bulg-slro-cro.mp3" length="31528795" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e27-bulg-slro-cro.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-4dlzlsp</guid>
       <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-4dlzlsp</link>
@@ -1150,11 +1143,11 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
     <item>
       <title>Slovakia, Hungary, Austria – EU Daily Update</title>
       <description>Episode covering Slovakia, Hungary, Austria</description>
-      <enclosure url="https://audio.europe-weekly.eu/europe-weekly-s2e3-slov-hung.mp3" length="8402277" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e3-slov-hung.mp3" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-791r3qr</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-791r3qr</link>
-      <itunes:duration>5:50</itunes:duration>
+      <itunes:duration>05:50</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>26</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
