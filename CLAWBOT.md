@@ -1087,7 +1087,7 @@ If Cloudflare shows "The repository cannot be accessed" and auto-deployment is n
 
 ```bash
 # Bash — run from /tmp/europe-weekly
-CLOUDFLARE_API_TOKEN=9FGsooPcN-9_6IywigC9gYR-Z_MJJcH8jL37Ea_2 \
+CLOUDFLARE_API_TOKEN=<CLOUDFLARE_API_TOKEN_ROTATE_ME> \
 CLOUDFLARE_ACCOUNT_ID=346420fbb345201f091a6daf86735346 \
 npx wrangler pages deploy . --project-name=europe-weekly
 ```
@@ -1097,7 +1097,7 @@ npx wrangler pages deploy . --project-name=europe-weekly
 import subprocess, sys, os
 
 env = os.environ.copy()
-env["CLOUDFLARE_API_TOKEN"]  = "9FGsooPcN-9_6IywigC9gYR-Z_MJJcH8jL37Ea_2"
+env["CLOUDFLARE_API_TOKEN"]  = "<CLOUDFLARE_API_TOKEN_ROTATE_ME>"
 env["CLOUDFLARE_ACCOUNT_ID"] = "346420fbb345201f091a6daf86735346"
 
 result = subprocess.run(
