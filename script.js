@@ -118,69 +118,59 @@ function getGHToken() { return sessionStorage.getItem(GH_TOKEN_KEY) || ''; }
 function setGHToken(t) { t ? sessionStorage.setItem(GH_TOKEN_KEY, t) : sessionStorage.removeItem(GH_TOKEN_KEY); }
 
 async function fetchFromGitHub(token) {
+  // Read the RAW file. The default JSON media type returns an EMPTY content field
+  // once a file passes 1MB, so the old base64 read silently broke as content.json
+  // grew past 1MB (it is ~3.5MB). The raw media type works up to 100MB.
   const res = await fetch(`${GH_API_URL}?ref=${GH_BRANCH}&t=${Date.now()}`, {
-    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.raw' }
   });
   if (!res.ok) throw Object.assign(new Error('GH fetch ' + res.status), { status: res.status });
-  const { content, sha } = await res.json();
-  const data = JSON.parse(atob(content.replace(/\s/g, '')));
-  return { data, sha };
+  const data = JSON.parse(await res.text());
+  return { data };
 }
 
-async function pushToGitHub(token, data, sha, message) {
-  const json    = JSON.stringify(data, null, 2) + '\n';
-  const content = btoa(unescape(encodeURIComponent(json)));
-  const res = await fetch(GH_API_URL, {
-    method: 'PUT',
-    headers: {
-      Authorization:  `token ${token}`,
-      Accept:         'application/vnd.github.v3+json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ message, content, sha, branch: GH_BRANCH })
-  });
-  if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    throw Object.assign(new Error('GH push ' + res.status), { status: res.status, ghErr: err });
-  }
-  return (await res.json()).content.sha;
-}
+function _b64utf8(str) { return btoa(unescape(encodeURIComponent(str))); }
 
-async function pushRSSToGitHub(token, data) {
-  // Generate the RSS XML from current data
-  const xml = generateRSSFeed(data);
-  const content = btoa(unescape(encodeURIComponent(xml)));
+// Commit one or more files in a SINGLE commit via the Git Data API. Unlike the
+// Contents API (which caps at 1MB and returns/accepts nothing above it), blobs
+// and trees have no practical size limit — this is what lets the ~3.5MB
+// content.json be saved from the browser at all. Retries once if the branch
+// advanced under us (e.g. a concurrent publish).
+async function commitFilesViaGitData(token, files, message) {
+  const h = {
+    Authorization:  `token ${token}`,
+    Accept:         'application/vnd.github+json',
+    'Content-Type': 'application/json'
+  };
+  const gitApi = `https://api.github.com/repos/${GH_REPO}/git`;
+  const jget  = async (u)     => { const r = await fetch(u, { headers: h }); if (!r.ok) throw Object.assign(new Error('GH ' + r.status), { status: r.status }); return r.json(); };
+  const jpost = async (u, b)  => { const r = await fetch(u, { method: 'POST', headers: h, body: JSON.stringify(b) }); if (!r.ok) throw Object.assign(new Error('GH ' + r.status), { status: r.status }); return r.json(); };
 
-  // We need the current file SHA — fetch it if not cached
-  let sha = sessionStorage.getItem(GH_RSS_SHA_KEY);
-  if (!sha) {
-    const res = await fetch(`${GH_RSS_API_URL}?ref=${GH_BRANCH}&t=${Date.now()}`, {
-      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
-    });
-    if (res.ok) {
-      sha = (await res.json()).sha;
-      sessionStorage.setItem(GH_RSS_SHA_KEY, sha);
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const ref        = await jget(`${gitApi}/ref/heads/${GH_BRANCH}`);
+    const parentSha  = ref.object.sha;
+    const baseCommit = await jget(`${gitApi}/commits/${parentSha}`);
+
+    const tree = [];
+    for (const f of files) {
+      const blob = await jpost(`${gitApi}/blobs`, { content: _b64utf8(f.text), encoding: 'base64' });
+      tree.push({ path: f.path, mode: '100644', type: 'blob', sha: blob.sha });
     }
-  }
+    const newTree = await jpost(`${gitApi}/trees`,   { base_tree: baseCommit.tree.sha, tree });
+    const commit  = await jpost(`${gitApi}/commits`, { message, tree: newTree.sha, parents: [parentSha] });
 
-  const body = { message: 'cms: regenerate podcast-feed.xml', content, branch: GH_BRANCH };
-  if (sha) body.sha = sha;
-
-  const res = await fetch(GH_RSS_API_URL, {
-    method: 'PUT',
-    headers: {
-      Authorization:  `token ${token}`,
-      Accept:         'application/vnd.github.v3+json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(body)
-  });
-  if (res.ok) {
-    sessionStorage.setItem(GH_RSS_SHA_KEY, (await res.json()).content.sha);
+    const upd = await fetch(`${gitApi}/refs/heads/${GH_BRANCH}`, {
+      method: 'PATCH', headers: h, body: JSON.stringify({ sha: commit.sha, force: false })
+    });
+    if (upd.ok) return commit.sha;
+    if (upd.status === 422 && attempt === 0) continue;  // branch moved — rebuild on the new head
+    throw Object.assign(new Error('GH ref update ' + upd.status), { status: upd.status });
   }
-  // RSS push failure is non-fatal — log but don't throw
-  else { console.warn('RSS feed push failed:', res.status); }
 }
+
+// (podcast-feed.xml is now committed together with content.json in the single
+// Git Data API commit — see pushDataToGitHub. The regen-rss GitHub Action still
+// runs on the content.json change as a backstop.)
 
 // Merge any protected settings the local cache has but the incoming object lacks.
 // This prevents a stale publish commit (which always has empty settings) from
@@ -215,8 +205,7 @@ async function getData() {
   // overwritten by an older published content.json.
   if (token && isAdmin) {
     try {
-      const { data, sha } = await fetchFromGitHub(token);
-      sessionStorage.setItem(GH_SHA_KEY, sha);
+      const { data } = await fetchFromGitHub(token);
       // If GitHub has empty protected fields but localStorage has values the user
       // previously entered, keep the local values so the form is not blanked out.
       const localRaw = localStorage.getItem(CMS_KEY);
@@ -1145,47 +1134,43 @@ function generateSitemap(data) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlNodes}\n</urlset>`;
 }
 
+// Returns true only when the data actually reached GitHub. Callers must not
+// report "Saved" unless this resolves truthy.
 async function pushDataToGitHub(message) {
   const token = getGHToken();
-  if (!token) return;               // No token — localStorage is authoritative
+  if (!token) {
+    // No token → the change only lives in THIS browser's localStorage and will
+    // vanish the next time the admin reloads fresh data from GitHub. This silent
+    // no-op is exactly what lost the tracking prefix / AI-podcast page / YouTube
+    // URL (they never reached the repo). Fail loudly instead of pretending.
+    showGHStatus('NOT saved to server — enter your GitHub token in the Settings tab, then Save again.', 'error');
+    return false;
+  }
 
   const raw = localStorage.getItem(CMS_KEY);
-  if (!raw) return;
+  if (!raw) return false;
   const data = JSON.parse(raw);
 
   showGHStatus('Pushing to GitHub…', 'pending');
 
-  let sha = sessionStorage.getItem(GH_SHA_KEY);
+  // Commit content.json + podcast-feed.xml together in one Git Data API commit
+  // (handles the >1MB content.json, which the Contents API cannot).
+  const files = [{ path: GH_FILE, text: JSON.stringify(data, null, 2) + '\n' }];
   try {
-    if (!sha) {
-      // No SHA cached yet — fetch it first (e.g. token was just entered this session)
-      const fetched = await fetchFromGitHub(token);
-      sha = fetched.sha;
-      sessionStorage.setItem(GH_SHA_KEY, sha);
-    }
-    const newSha = await pushToGitHub(token, data, sha, message);
-    sessionStorage.setItem(GH_SHA_KEY, newSha);
-    // Also regenerate podcast-feed.xml on every save (non-fatal if it fails)
-    await pushRSSToGitHub(token, data);
-    showGHStatus('Pushed to GitHub ✓', 'success');
+    files.push({ path: GH_RSS_FILE, text: generateRSSFeed(data) });
   } catch (e) {
-    // 409 / 422 = conflict (file changed on GitHub since last fetch) — retry with fresh SHA
-    if (e.status === 409 || e.status === 422) {
-      try {
-        const { sha: freshSha } = await fetchFromGitHub(token);
-        sessionStorage.setItem(GH_SHA_KEY, freshSha);
-        const newSha = await pushToGitHub(token, data, freshSha, message + ' (retry)');
-        sessionStorage.setItem(GH_SHA_KEY, newSha);
-        await pushRSSToGitHub(token, data);
-        showGHStatus('Pushed to GitHub ✓', 'success');
-      } catch (e2) {
-        showGHStatus('GitHub push failed — check token / network.', 'error');
-        console.error('GitHub push failed (retry):', e2);
-      }
-    } else {
-      showGHStatus('GitHub push failed — check token / network.', 'error');
-      console.error('GitHub push failed:', e);
-    }
+    console.warn('RSS generation failed — pushing content.json only:', e);
+  }
+
+  try {
+    await commitFilesViaGitData(token, files, message);
+    showGHStatus('Pushed to GitHub ✓', 'success');
+    return true;
+  } catch (e) {
+    console.error('GitHub push failed:', e);
+    const detail = e.status ? `HTTP ${e.status}` : 'check token / network';
+    showGHStatus(`GitHub push failed — ${detail}.`, 'error');
+    return false;
   }
 }
 
@@ -1225,7 +1210,8 @@ async function initAdmin() {
     };
   }
 
-  function save(msg) { syncSettingsFromForm(); setData(data); pushDataToGitHub(msg || 'cms: update'); }
+  // Returns the push promise so callers can await real success before showing "Saved ✓".
+  function save(msg) { syncSettingsFromForm(); setData(data); return pushDataToGitHub(msg || 'cms: update'); }
 
   function showSaved(btn) {
     const orig = btn.textContent;
@@ -1275,11 +1261,16 @@ async function initAdmin() {
   });
   bgUrl.addEventListener('input', () => { bgPrev.src = bgUrl.value; bgPrev.style.display = bgUrl.value ? '' : 'none'; });
 
-  document.getElementById('settings-save-btn').addEventListener('click', function () {
+  document.getElementById('settings-save-btn').addEventListener('click', async function () {
     const tokenVal = (document.getElementById('settings-gh-token')?.value ?? '').trim();
     setGHToken(tokenVal);
-    save('cms: update settings');
-    showSaved(this);
+    if (!tokenVal) {
+      showGHStatus('Enter your GitHub token above before saving — settings must be pushed to the server to persist.', 'error');
+      document.getElementById('settings-gh-token')?.focus();
+      return;
+    }
+    const ok = await save('cms: update settings');
+    if (ok) showSaved(this);   // only confirm when the push actually landed
   });
 
   // ── Categories ──────────────────────────────
