@@ -1,5 +1,5 @@
 {
-  "version": 1785847946097,
+  "version": 1785848118025,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7ae49b4",
+      "title": "Sweden's Fragile Recovery: Better Numbers, But Many Households Still Feel Left Behind",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "Sweden's economy is showing tentative signs of stabilisation, with inflation falling sharply and interest rate cuts beginning to filter through to consumers. Yet unemployment remains high by Nordic standards and household confidence is still below normal, raising serious questions about whether the government's optimistic narrative matches lived experience. The gap between official statistics and public mood is fast becoming a defining political fault line.",
+      "body": "<h3>Inflation Falls, But the Recovery Story Remains Contested</h3><p>Sweden&#x27;s consumer price index inflation fell to approximately 1.0 percent in Eurostat&#x27;s latest release, with a national flash estimate showing just 0.7 percent in June. The CPIF measure, closely watched by the Riksbank, came in around 1.3 percent. After years of punishing price increases that eroded household purchasing power, these figures represent a genuine and significant shift in the economic environment.</p><p>Finance Minister Elisabeth Svantesson has argued that momentum is building and that the downturn is easing rather than deepening, pointing to lower interest rates, rising real wages, and improving consumer spending as evidence that Sweden is turning a corner. The government&#x27;s position is that the structural conditions for a sustained recovery are now in place.</p><p>Critics, however, argue that the recovery narrative is premature. Opposition voices contend that government optimism is running well ahead of lived reality, particularly after a prolonged period of squeezed purchasing power that left many families with little financial cushion. The evidence, on balance, supports a qualified recovery rather than a full economic rebound, and the distinction matters considerably for millions of Swedish households still navigating tight budgets.</p><h3>An Unemployment Rate Near 9 Percent Keeps Confidence Fragile</h3><p>Sweden&#x27;s seasonally adjusted unemployment rate stood at 8.7 percent in June 2026, according to official statistics. While that figure suggests the labour market has not deteriorated sharply in recent months, it remains elevated by Nordic standards, where rates well below 7 percent have historically been the norm. Youth unemployment and long-term unemployment are both described as significant ongoing problems, adding texture to a headline number that can obscure deeper structural strains.</p><p>Trade unions and opposition parties have argued that weak job security is the missing variable in the government&#x27;s recovery equation. When workers feel uncertain about their employment prospects, they tend to hold back spending, delay major purchases, and prioritise debt repayment over consumption. That behaviour, they argue, explains why household confidence indicators remain below normal even as inflation falls and rate cuts accumulate.</p><p>The government counters that lower inflation and successive Riksbank rate reductions should gradually improve household finances and restore spending confidence over time. That argument is not without merit, but the transmission from central bank policy to kitchen-table economics takes time, and patience among voters is not unlimited. The data supports both sides partially: the labour market has not collapsed, but neither is it generating the kind of broad-based optimism that typically accompanies a genuine economic recovery.</p><h3>A Nation in Wait-and-See Mode, With Political Stakes Rising</h3><p>The clearest characterisation of Sweden&#x27;s current national mood is resigned caution, with a thin layer of emerging optimism that has not yet solidified into confidence. Inflation is measurably down, borrowing costs are falling, and some forward-looking indicators are improving. Yet a substantial share of households report that they have not felt the recovery in their daily lives, whether at the supermarket, on their mortgage statements, or in their sense of job security.</p><p>This disconnect between official statistics and public experience carries real political consequences. Governments that declare victory over economic hardship before citizens feel it tend to pay an electoral price. Sweden&#x27;s ruling coalition faces the challenge of managing expectations carefully, communicating genuine progress without appearing out of touch with the significant minority of households for whom the recovery remains abstract rather than tangible.</p><p>The coming months will be telling. If rate cuts continue to reduce mortgage costs, if real wages sustain their upward trend, and if unemployment edges downward, the government&#x27;s narrative could gain credibility with voters. If, however, unemployment proves sticky, confidence remains subdued, or any external shock disrupts the fragile improvement underway, the opposition&#x27;s argument that the recovery was always more statistical than real will find a ready audience. Sweden is not yet out of the woods, and both policymakers and citizens appear to know it.</p>",
+      "keywords": "Sweden economy, Swedish inflation, Swedish unemployment, Riksbank, Elisabeth Svantesson, cost of living, household confidence, Nordic economy, economic recovery, labour market, CPIF, consumer prices, Swedish politics",
+      "sources": "Eurostat, latest CPI release for Sweden; Statistics Sweden (SCB), June 2026 labour market data; Reuters, CPIF coverage citing Riksbank data; Swedish Ministry of Finance, statements by Finance Minister Elisabeth Svantesson; Riksbank household confidence and economic outlook assessments",
+      "pubDate": "2026-08-03",
+      "chartData": {
+        "values": [
+          0.7,
+          1.3,
+          8.7
+        ],
+        "labels": [
+          "CPI Inflation June Flash (%)",
+          "CPIF Inflation (%)",
+          "Unemployment Rate Seasonally Adjusted (%)"
+        ]
+      }
+    },
     {
       "id": "article-058cec3",
       "title": "Finland Caught Between Fiscal Discipline and a Recovery That Has Yet to Reach Its Workers",
@@ -11737,6 +11761,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260803-sweden",
+      "title": "Sweden - 2026.08.03",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "8:27",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_03/Sweden_Episode_2026_08_03.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 121,
+      "keywords": "Sweden",
+      "notes": "Sweden's economy is showing tentative signs of stabilisation, with inflation falling sharply and interest rate cuts beginning to filter through to consumers. Yet unemployment remains high by Nordic standards and household confidence is still below normal, raising serious questions about whether the government's optimistic narrative matches lived experience. The gap between official statistics and public mood is fast becoming a defining political fault line.",
+      "pubDate": "2026-08-03"
+    },
     {
       "id": "episode-20260803-finland",
       "title": "Finland - 2026.08.03",
