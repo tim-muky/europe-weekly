@@ -1,5 +1,5 @@
 {
-  "version": 1785949138933,
+  "version": 1785949148511,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,18 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-d3b5298",
+      "title": "Scandal and Migration Put Spain's Sánchez Government Under Mounting Pressure",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "A cluster of corruption investigations targeting people close to Prime Minister Pedro Sánchez, combined with a deepening national argument over migration policy, has pushed Spanish politics into one of its most turbulent periods in recent memory. While Sánchez himself has not been formally implicated in any of the probes, the political damage is accumulating around his inner circle. The dual pressure is testing institutional trust and reshaping the country's political landscape ahead of potential electoral reckoning.",
+      "body": "<h3>A Circle Under Legal Scrutiny</h3><p>The most immediate threat to Sánchez&#x27;s political standing is not a single scandal but a widening cluster of judicial proceedings targeting figures close to the prime minister. His wife, Begoña Gómez, has faced judicial scrutiny over alleged influence-peddling, while his brother David Sánchez has been investigated over a public-sector appointment in the Extremadura region that critics say was politically motivated. Former senior figures within the ruling Socialist Party have also faced separate probes.</p><p>Sánchez has consistently maintained that he bears no personal responsibility for the actions of family members or former associates, and no court has formally implicated the prime minister himself. He has framed the investigations as a coordinated political strategy by the right and far right to destabilise his minority government rather than as evidence of systemic wrongdoing at the top of Spanish public life. His allies argue that judicial processes are being selectively amplified to serve opposition ends.</p><p>That argument has found limited traction outside the Socialist base. The cumulative weight of the cases, even without a direct line to Sánchez, has created what analysts describe as a credibility deficit. Each new headline renews a narrative of impunity and insider dealing that the opposition has worked to cement in the public mind, making it harder for the government to project the clean-governance image it once claimed as a point of distinction.</p><h3>Migration Becomes a Fault Line</h3><p>Running in parallel to the corruption debate is a sharper confrontation over migration policy, which has emerged as arguably the most ideologically charged issue in Spanish domestic politics. The Sánchez government has pursued a broadly permissive approach, emphasising regularisation pathways for undocumented migrants already living and working in Spain, expanded labour-market integration, and cooperation with sending countries rather than hard border enforcement.</p><p>The opposition, led by the conservative Partido Popular and amplified by the far-right Vox, has framed this stance as dangerously out of step with both Spanish public opinion and the broader European trend toward tighter border controls. They argue that permissive policies erode social cohesion, strain public services in receiving communities, and reward illegal entry, pointing to rising arrivals via the Canary Islands route as evidence that the current framework is failing.</p><p>The government counters that Spain&#x27;s ageing population and labour shortages make managed migration an economic necessity, not a concession to disorder. Officials have cited employer demand in agriculture, construction, and the care sector as evidence that regularisation serves practical national interests. The policy disagreement is genuine and reflects a broader European argument, but in Spain it carries additional voltage because it intersects with the government&#x27;s fragile parliamentary arithmetic and its reliance on regional and left-wing partners who hold divergent views.</p><h3>Outlook: Survival Politics and Structural Strain</h3><p>For Sánchez, the immediate political calculus is one of endurance. His government has already survived several confidence tests and has demonstrated a capacity to hold together a coalition of partners with competing interests. But the combination of scandal fatigue, a hostile media environment, and a migration debate that plays to opposition strengths creates sustained drag that is difficult to absorb without policy concessions or a change in political weather.</p><p>Institutional trust is a broader concern. Repeated judicial proceedings involving figures connected to the ruling party, regardless of their ultimate legal outcome, contribute to a climate of generalised suspicion toward political institutions. Polling has consistently shown that Spanish voters rank corruption among their top concerns, and the current cycle of allegations does little to address that underlying anxiety.</p><p>On migration, the outlook depends partly on what happens at the European level. If the EU&#x27;s new migration and asylum pact produces a more coordinated and visibly managed framework, it may give the Spanish government political cover to maintain its domestic approach while pointing to Brussels as the locus of control. If arrivals increase sharply, however, pressure from within the government&#x27;s own coalition, as well as from the opposition, is likely to intensify.</p><p>The next stress tests are likely to come through the budget process and any further judicial developments in the cases involving Sánchez&#x27;s family. A failure to pass a national budget, which the government has struggled to achieve throughout its current term, would raise questions about the coalition&#x27;s viability in a way that even sustained scandal has not yet managed to do. The prime minister has shown considerable political resilience, but the margin for further turbulence is narrowing.</p>",
+      "keywords": "Spain, Pedro Sánchez, corruption, migration, Spanish politics, PSOE, Partido Popular, Vox, Begoña Gómez, David Sánchez, judicial investigations, European migration policy, coalition government, political scandal, institutional trust",
+      "sources": "Spanish government statements and official communications; Partido Popular public positions and press releases; Vox party communications; Spanish judicial reporting on investigations involving Begoña Gómez and David Sánchez; European Union migration and asylum policy documentation; Spanish media reporting on coalition arithmetic and budget negotiations",
+      "pubDate": "2026-08-04"
+    },
     {
       "id": "article-0ea09f1",
       "title": "Portugal at a Crossroads: Labor Unrest and a Rightward Political Shift Test the Country's Stability",
@@ -11811,6 +11823,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260804-spain",
+      "title": "Spain - 2026.08.04",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "9:08",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_04/Spain_Episode_2026_08_04.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 124,
+      "keywords": "Spain",
+      "notes": "A cluster of corruption investigations targeting people close to Prime Minister Pedro Sánchez, combined with a deepening national argument over migration policy, has pushed Spanish politics into one of its most turbulent periods in recent memory. While Sánchez himself has not been formally implicated in any of the probes, the political damage is accumulating around his inner circle. The dual pressure is testing institutional trust and reshaping the country's political landscape ahead of potential electoral reckoning.",
+      "pubDate": "2026-08-04"
+    },
     {
       "id": "episode-20260804-portugal",
       "title": "Portugal - 2026.08.04",
