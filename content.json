@@ -1,5 +1,5 @@
 {
-  "version": 1785949156836,
+  "version": 1785949166333,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-483cb49",
+      "title": "Greece Caught Between Macro Recovery and a Crisis of Trust",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "Greece's economy is posting its strongest indicators in years, with unemployment falling and the trade deficit narrowing. Yet public dissatisfaction remains entrenched, and a series of accountability disputes involving EU funds, wiretapping, and a rail disaster are testing the limits of institutional oversight. The two fault lines — economic credibility and rule-of-law integrity — are now converging into a single political challenge for Prime Minister Kyriakos Mitsotakis.",
+      "body": "<h3>A Government Under Scrutiny as EU Fund Probes Intensify</h3><p>The most pressing political story in Athens is not the economy. It is whether the Greek government is using its parliamentary majority to shield ministers and narrow the scope of official investigations into alleged misconduct involving European Union funds, recycling contracts, surveillance operations, and the aftermath of the 2023 Tempi rail disaster, which killed 57 people.</p><p>Reports from POLITICO indicate that Prime Minister Mitsotakis has moved to block a parliamentary probe into ministers suspected of involvement in EU farm-funds fraud. Separately, the European Public Prosecutor&#x27;s Office, known as EPPO, has come into friction with Greek authorities in what analysts at MacroPolis describe as a direct test of judicial independence and the outer limits of executive control. The government&#x27;s position is that investigations must proceed through proper legal channels and that political interference in the other direction — premature judgment driven by opposition pressure — would itself be destabilising.</p><p>Critics argue the opposite: that the government&#x27;s majority is functioning as a procedural shield. Opposition parties have accused the ruling New Democracy party of deliberately slowing parliamentary debate to avoid scrutiny of connected figures. Taken together, the pattern of overlapping disputes — wiretapping allegations, farm-fund irregularities, and the delayed political reckoning over Tempi — has created what observers describe as a chaotic rather than merely polarised political environment.</p><h3>Economic Indicators Improve, but Citizens Remain Unconvinced</h3><p>On paper, the Greek economy is moving in the right direction. Unemployment has fallen to 8.1 percent, a figure that would have seemed optimistic during the depths of the debt crisis a decade ago. The trade deficit has narrowed, hiring has strengthened, and the government has begun modest tax relief measures it says are financed by higher revenues and improved anti-evasion enforcement. Mitsotakis has made fiscal credibility the centrepiece of his political identity, and on the narrow macroeconomic indicators, the data largely support that framing.</p><p>The problem is that headline figures are not translating into household confidence. Polling cited by Ekathimerini shows broad public dissatisfaction with the government and a deepening crisis of political representation. Prices remain high relative to wages for many workers, and surveys suggest a large share of Greeks view the government&#x27;s economic narrative with scepticism. MacroPolis describes the public mood as resigned rather than hostile — a sense that some progress is occurring, but that it is not reaching daily life in any tangible way.</p><p>This gap between macroeconomic improvement and lived experience is not unique to Greece; it has defined politics across much of Europe since the post-pandemic inflation surge. But in Greece the dynamic is sharpened by a legacy of austerity, weak institutional trust, and a public that has spent more than a decade being told that sacrifice would eventually produce stability. For many citizens, the threshold for believing the good-news story remains high.</p><h3>Converging Pressures and the Road Ahead</h3><p>The deeper risk for the Mitsotakis government is that the two fault lines — accountability and economic credibility — are beginning to reinforce each other. When citizens are already sceptical that macroeconomic gains are reaching them, evidence or even the perception that the government is protecting politically connected figures compounds that distrust. Conversely, a government that might otherwise benefit from improving economic data finds its narrative undercut by sustained legal and parliamentary controversy.</p><p>For the European Union, the stakes are also concrete. Greece&#x27;s management of EU structural and agricultural funds is not a peripheral concern. EPPO&#x27;s mandate covers the protection of the EU&#x27;s financial interests across member states, and any perception that national governments are obstructing its work carries implications well beyond Athens — touching on rule-of-law conditionality debates that have already consumed years of EU-level politics in the cases of Hungary and Poland.</p><p>In the near term, the government faces several pressure points: further EPPO investigative activity, ongoing parliamentary skirmishes over the scope of ministerial accountability, and the continued challenge of persuading a sceptical public that fiscal improvement is real and durable. Opposition parties, meanwhile, face their own challenge — converting widespread dissatisfaction into a coherent electoral alternative rather than a protest mood. With no immediate election on the horizon, both sides are engaged in a slow-burn contest over credibility, institutional legitimacy, and who ultimately defines what recovery means for ordinary Greeks.</p>",
+      "keywords": "Greece, Kyriakos Mitsotakis, EU funds fraud, EPPO, rule of law, Greek economy, unemployment, public trust, Tempi rail disaster, New Democracy, accountability, European Union, MacroPolis, Greek politics, cost of living",
+      "sources": "POLITICO, reporting on Greek parliamentary probe into EU farm-funds fraud; MacroPolis, analysis of EPPO-government clash and judicial independence; MacroPolis, macroeconomic indicators including trade deficit and unemployment data; Ekathimerini, polling on public dissatisfaction and crisis of political representation",
+      "pubDate": "2026-08-04",
+      "chartData": {
+        "values": [
+          8.1,
+          11.0,
+          27.5
+        ],
+        "labels": [
+          "Unemployment 2024 (%)",
+          "Unemployment 2015 Peak Approx (%)",
+          "Unemployment Crisis Peak 2013 (%)"
+        ]
+      }
+    },
     {
       "id": "article-a1d7f28",
       "title": "Italy's Economy Beats Forecasts, but Structural Debt and Weak Growth Cast Long Shadow",
@@ -11849,6 +11873,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260804-greece",
+      "title": "Greece - 2026.08.04",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "6:30",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_04/Greece_Episode_2026_08_04.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 126,
+      "keywords": "Greece",
+      "notes": "Greece's economy is posting its strongest indicators in years, with unemployment falling and the trade deficit narrowing. Yet public dissatisfaction remains entrenched, and a series of accountability disputes involving EU funds, wiretapping, and a rail disaster are testing the limits of institutional oversight. The two fault lines — economic credibility and rule-of-law integrity — are now converging into a single political challenge for Prime Minister Kyriakos Mitsotakis.",
+      "pubDate": "2026-08-04"
+    },
     {
       "id": "episode-20260804-italy",
       "title": "Italy - 2026.08.04",
