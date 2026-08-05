@@ -1,5 +1,5 @@
 {
-  "version": 1785949185717,
+  "version": 1785949194812,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-98e15da",
+      "title": "Belgium's Austerity Showdown: A €9.2 Billion Budget Deal Triggers Nationwide Strike Wave",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Belgium's new federal coalition has struck a sweeping budget deal aimed at cutting the country's deficit by €9.2 billion by 2029, but the package has immediately collided with fierce public resistance. A three-day nationwide strike brought transport, schools, and public services to a standstill, exposing deep divisions over who will bear the cost of fiscal repair. The confrontation marks one of the sharpest tests of social cohesion in Belgium in years, with implications for both domestic politics and the country's standing within EU fiscal rules.",
+      "body": "<h3>A Coalition Bets on Fiscal Discipline</h3><p>Belgium&#x27;s federal government has presented what it describes as an unavoidable corrective budget, a package of spending cuts, tax changes, and structural reforms designed to reduce the country&#x27;s deficit by approximately €9.2 billion by 2029. The deal, struck by the ruling coalition after weeks of intensive negotiations, combines restraint on public expenditure with a series of revenue measures and reforms to wages, pensions, and sickness benefits.</p><p>Officials argue the package is essential to stabilise public finances, restore investor confidence, and bring Belgium into compliance with European Union fiscal constraints. Belgium has long run one of the eurozone&#x27;s more persistent structural deficits, and the government said the reform agenda reflects the scale of the challenge rather than an ideological preference for austerity. The fiscal pressure is real and widely documented, giving the coalition&#x27;s core argument a firm factual foundation even if the full €9.2 billion savings target remains to be proven in practice.</p><p>Among the most contentious individual measures are new or higher taxes on gas, airline tickets, hotel stays, and takeaway food, alongside tighter rules on wage indexation and stricter eligibility conditions for sickness benefits. These details have provided critics with concrete ammunition, since the burden appears to fall most heavily on household consumption and lower-to-middle income earners rather than on capital or higher-income brackets.</p><h3>Unions Take to the Streets as Social Anger Boils Over</h3><p>The government&#x27;s announcement triggered an immediate and forceful response from organised labour. A three-day nationwide strike disrupted transport networks, closed schools, and curtailed public services across the country, making the labour backlash the most visible and disruptive social consequence of the budget fight so far. The scale of the walkout underscored how broadly the reform package has been perceived, outside government circles, as a direct attack on living standards.</p><p>Trade unions argued that the measures amount to a one-sided austerity programme in which workers and welfare recipients absorb the costs while wealthier households and corporations face comparatively lighter demands. Union leaders pointed specifically to the weakening of wage indexation, the tightening of sickness-benefit rules, and the cumulative effect of higher indirect taxes on everyday goods and services. These objections are grounded in the policy details themselves, not merely in political rhetoric, lending the labour movement&#x27;s critique a degree of factual credibility that the government has struggled to rebut on purely technical terms.</p><p>Opposition parties aligned closely with the unions&#x27; framing, describing the package as socially unjust and arguing that the government has chosen an inequitable path to fiscal consolidation. They contend that a fairer revenue mix, one that draws more heavily on wealth, financial transactions, or corporate profit, could have achieved comparable savings without placing the heaviest burden on ordinary households. The government has rejected that reading, insisting that the reform choices reflect the limits of coalition arithmetic as much as economic philosophy.</p><h3>What Comes Next: EU Pressure, Political Fragility, and a Country on Edge</h3><p>Belgium now faces a period of acute tension between the imperative of fiscal correction and the political cost of delivering it. The EU&#x27;s reinforced fiscal surveillance framework leaves the government with limited room to soften the package without risking censure from Brussels, a constraint that ministers have cited repeatedly to justify the reform&#x27;s pace and depth. That external pressure may ultimately prove more durable than the domestic political will to hold the coalition together.</p><p>The nationwide strike has demonstrated that public tolerance for austerity is not unlimited, and union leaders have signalled that further industrial action remains possible if the government presses ahead without modification. The mood across much of the country has been described as resigned but heated, a combination that is historically unstable: citizens may accept that tightening is coming while remaining angry enough to punish the government electorally for how it arrives. That dynamic could complicate the coalition&#x27;s longevity well before the 2029 savings target is reached.</p><p>The coming weeks will be critical. Parliamentary scrutiny of the budget measures will offer opposition parties a formal arena to contest the details, while unions may use that window to maintain pressure through further action or public mobilisation. Whether the government can hold its coalition intact, manage EU expectations, and prevent the strike wave from hardening into sustained political opposition will determine not only the fate of this budget but the broader trajectory of Belgian reform politics for the rest of the decade.</p>",
+      "keywords": "Belgium, austerity, budget deficit, fiscal reform, nationwide strike, trade unions, EU fiscal rules, wage indexation, sickness benefits, coalition government, Belgian politics, European affairs, labor unrest, public finances",
+      "sources": "Belgian federal government budget documentation; EU fiscal surveillance framework reporting; Trade union statements on strike action and reform objections; Opposition party responses to the coalition budget deal; News reporting on nationwide strike disruption to transport, schools, and public services",
+      "pubDate": "2026-08-05",
+      "chartData": {
+        "values": [
+          9.2,
+          3.0
+        ],
+        "labels": [
+          "Deficit Reduction Target by 2029 (€ billion)",
+          "Duration of Nationwide Strike (days)"
+        ]
+      }
+    },
     {
       "id": "article-858c804",
       "title": "France's Fiscal Credibility Fractures as Austerity Fuels Street Anger",
@@ -11925,6 +11947,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260805-belgium",
+      "title": "Belgium - 2026.08.05",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "8:14",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_05/Belgium_Episode_2026_08_05.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 129,
+      "keywords": "Belgium",
+      "notes": "Belgium's new federal coalition has struck a sweeping budget deal aimed at cutting the country's deficit by €9.2 billion by 2029, but the package has immediately collided with fierce public resistance. A three-day nationwide strike brought transport, schools, and public services to a standstill, exposing deep divisions over who will bear the cost of fiscal repair. The confrontation marks one of the sharpest tests of social cohesion in Belgium in years, with implications for both domestic politics and the country's standing within EU fiscal rules.",
+      "pubDate": "2026-08-05"
+    },
     {
       "id": "episode-20260805-france",
       "title": "France - 2026.08.05",
