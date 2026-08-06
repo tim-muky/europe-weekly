@@ -1,5 +1,5 @@
 {
-  "version": 1786015529639,
+  "version": 1786015537470,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7e4a4cc",
+      "title": "Slovenia's New Government Steers Hard Right on Israel While Economy Loses Momentum",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "excerpt": "Janez Janša's freshly installed government in Ljubljana is executing one of the sharpest foreign-policy reversals in Slovenia's recent history, abandoning the country's recognition of Palestinian statehood and moving toward close alignment with Israel. The pivot has triggered fierce domestic opposition and raised questions about Slovenia's credibility on international law. Meanwhile, the country's economy continues to grow, but at a pace that offers little comfort to households still squeezed by persistent inflation.",
+      "body": "<h3>A Flag Comes Down, a Policy Era Ends</h3><p>Within weeks of returning to power, Prime Minister Janez Janša has moved to dismantle the foreign-policy legacy of his predecessor with unusual speed and symbolic force. The removal of the Palestinian flag from government buildings, the lifting of restrictions on Israel-related trade and defence exports, and public statements freezing or reconsidering Slovenia&#x27;s formal recognition of Palestinian statehood have collectively signalled a wholesale reorientation of the country&#x27;s diplomatic posture.</p><p>Janša has framed the shift as a return to responsible governance, arguing that Slovenia must rebuild its transatlantic credentials and base its foreign policy on law and verifiable facts rather than on what he characterises as ideological gestures. The previous government&#x27;s recognition of Palestine, he stated, was carried out improperly and lacked a firm legal foundation.</p><p>That legal claim is contested. Slovenia&#x27;s president has publicly disputed the notion that recognition can simply be reversed by executive action, suggesting the matter sits in genuinely unresolved constitutional and international-law territory rather than being the settled question the government implies. What the evidence does support unambiguously is the fact and pace of the pivot itself, not the government&#x27;s specific legal framing of it.</p><h3>Opposition Warns of Credibility Damage as Polarisation Deepens</h3><p>Critics at home and observers abroad have reacted with alarm to both the substance and the manner of the reversal. Opposition politicians argue that abandoning support for Palestinian statehood does not constitute a principled recalibration but rather an ideologically driven rollback that weakens Slovenia&#x27;s standing on human rights and international humanitarian law at precisely the moment when those norms are under global scrutiny.</p><p>The possibility that Ljubljana could relocate its Israeli embassy to Jerusalem, raised in public statements by senior government figures, has drawn particular attention. Such a move would place Slovenia at odds with the formal position of the European Union, which does not recognise Jerusalem as Israel&#x27;s capital and has consistently called for a negotiated two-state solution. The prospect of a small EU member state breaking ranks on one of the bloc&#x27;s most sensitive foreign-policy alignments is being watched closely in Brussels.</p><p>The political atmosphere in Ljubljana over the issue has been described by observers as chaotic, characterised by abrupt reversals, sharp parliamentary confrontations, and an unusually rapid succession of symbolic acts designed to signal the new government&#x27;s direction before institutional or legal obstacles can consolidate. Whether the momentum can be sustained, or whether presidential and parliamentary resistance will impose limits, remains an open question.</p><h3>Economy Offers Resilience Narrative, but Data Tell a Quieter Story</h3><p>Set against the foreign-policy turbulence, Slovenia&#x27;s economic picture presents a different kind of challenge: not crisis, but stagnation of ambition. GDP growth stood at 1.1 percent in 2025, according to European Commission data, placing the country below the EU average and reflecting the broader weakness in European export demand that has weighed on smaller, trade-exposed economies throughout the continent.</p><p>Government officials and EU institutions have sought to emphasise the country&#x27;s resilience. Employment remains tight, real wages improved as inflation gradually eased from its earlier peaks, and implementation of European recovery-fund projects continues to support investment. Fiscal discipline, officials said, provides a foundation for medium-term stability even in a slower-growth environment.</p><p>The counter-argument, supported by OECD analysis and European Commission assessments, is that resilience can obscure fragility. Services inflation has proved stubborn, continuing to erode household purchasing power even as energy prices have stabilised. Export momentum remains weak, and Slovenia faces long-term fiscal pressure from pension obligations and ageing-related public spending that will require difficult choices regardless of which party holds power. The prevailing mood among households and policymakers alike appears closer to resigned acceptance of reduced expectations than to confidence in an imminent recovery.</p>",
+      "keywords": "Slovenia, Janez Janša, Israel, Palestine, foreign policy, Palestinian recognition, Jerusalem embassy, EU foreign policy, Slovenia economy, GDP growth, inflation, services inflation, real wages, European Commission, OECD, recovery fund, European Union",
+      "sources": "European Commission economic forecast materials (2025); OECD coverage of Slovenia macroeconomic conditions; Slovenian government public statements on foreign policy reorientation; Slovenian presidential office statements on Palestinian recognition dispute; Reuters and international newswire reporting on Janša government foreign-policy moves",
+      "pubDate": "2026-08-06",
+      "chartData": {
+        "values": [
+          1.1,
+          1.5
+        ],
+        "labels": [
+          "Slovenia GDP Growth 2025 (%)",
+          "EU Average GDP Growth 2025 (%)"
+        ]
+      }
+    },
     {
       "id": "article-cfa9f56",
       "title": "Bulgaria's Budget Gamble: A 5.7% Deficit, Rising Debt, and a Euro-Era Squeeze on Households",
@@ -11995,6 +12017,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260806-slovenia",
+      "title": "Slovenia - 2026.08.06",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "duration": "8:41",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_06/Slovenia_Episode_2026_08_06.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 132,
+      "keywords": "Slovenia",
+      "notes": "Janez Janša's freshly installed government in Ljubljana is executing one of the sharpest foreign-policy reversals in Slovenia's recent history, abandoning the country's recognition of Palestinian statehood and moving toward close alignment with Israel. The pivot has triggered fierce domestic opposition and raised questions about Slovenia's credibility on international law. Meanwhile, the country's economy continues to grow, but at a pace that offers little comfort to households still squeezed by persistent inflation.",
+      "pubDate": "2026-08-06"
+    },
     {
       "id": "episode-20260806-bulgaria",
       "title": "Bulgaria - 2026.08.06",
