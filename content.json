@@ -1,5 +1,5 @@
 {
-  "version": 1786017117102,
+  "version": 1786017123959,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-9b1d9ef",
+      "title": "Belgium Faces Twin Crisis as Budget Cuts Spark Strikes and Brussels Shootings Alarm Citizens",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Belgium's new coalition government is pushing through a sweeping austerity package worth €9.2 billion in savings by 2029, triggering strike action and accusations of social unfairness from trade unions. Simultaneously, a surge in gun violence on the streets of Brussels is elevating public safety to the top of the political agenda. Together, the two crises are testing public confidence in institutions and placing Belgium's political class under acute pressure.",
+      "body": "<h3>A Government Under Fiscal Pressure Battles for Credibility</h3><p>Belgium&#x27;s federal government has made deficit reduction its central economic mission, framing a package of tax changes and spending restraints as unavoidable rather than ideological. The plan targets cumulative savings of approximately €9.2 billion by 2029, a figure consistent with assessments from the National Bank of Belgium and reporting by Reuters and Bloomberg, which all point to a deficit and debt level that remain well above European Union limits.</p><p>Officials argue that without sustained consolidation, Belgium risks losing credibility with EU fiscal authorities and faces a longer-term spiral of rising debt servicing costs that would crowd out public investment. The government has presented the measures as a multi-year programme of gradual adjustment, not a single harsh shock, designed to preserve the country&#x27;s overall social model while stabilising its finances.</p><p>The fiscal case is, by most external measures, sound. Belgium&#x27;s deficit has persisted at elevated levels despite repeated promises of reform by successive coalitions, and EU fiscal rules create a binding external pressure that the current government has chosen to treat as a deadline rather than a guideline.</p><h3>Unions Push Back as Workers Fear the Cost of Consolidation</h3><p>Trade unions have responded to the budget package with coordinated strike action, arguing that the burden of adjustment falls disproportionately on wage earners, pensioners, and welfare recipients rather than on wealth, capital, or corporate contributors. Their mobilisation signals not just tactical opposition but deep public frustration with a sense that austerity, once again, is being distributed unequally.</p><p>Critics point out that Belgian households are already under strain from elevated price levels and sluggish economic growth, making additional pressure on wages and social protections particularly hard to absorb. The union critique is substantively grounded: the measures are explicitly unpopular, and independent analyses suggest Belgium&#x27;s deficit will remain well above a stable level even after the planned savings are fully implemented, raising questions about whether the sacrifice is proportionate to the outcome.</p><p>The strike wave has transformed a technical fiscal debate into a proxy battle over fairness, and the government&#x27;s ability to maintain its coalition while facing organised labour opposition will determine whether the package survives intact or is renegotiated before key legislative votes later this year.</p><h3>Gun Violence in Brussels Adds a Second Front to Belgium&#x27;s Political Crisis</h3><p>While the budget fight plays out in parliament and on picket lines, a separate and visceral crisis is unfolding on the streets of Brussels. According to reporting by POLITICO, seven shootings occurred in the Belgian capital in the first week of August alone, bringing the total to 57 incidents recorded so far this year. The frequency and visibility of the violence has pushed urban security from a background concern to a frontline political issue.</p><p>Law-and-order advocates, including voices within the government coalition, are calling for stronger policing, greater enforcement resources, and more visible state authority in the capital. They argue that the shooting figures represent a basic failure of public governance that demands an immediate and unambiguous response, framing safety as a prerequisite for urban life rather than a secondary policy consideration.</p><p>Critics of a purely enforcement-led response argue that the root causes of Brussels&#x27; violence, among them organised crime networks, social exclusion, and a fragmented urban governance structure, cannot be addressed by policing alone. The debate over causes and solutions remains unresolved, but the data are sufficient to establish that the problem is real, ongoing, and increasingly difficult for elected officials to dismiss or defer. The mood among many Brussels residents, according to available reporting, is one of unease and diminishing confidence in state capacity.</p>",
+      "keywords": "Belgium, austerity, budget deficit, trade unions, strikes, Brussels, gun violence, public safety, EU fiscal rules, coalition government, social protection, organised crime, Belgian politics",
+      "sources": "Reuters, Belgium federal budget reporting, 2025; Bloomberg, Belgian fiscal deficit analysis, 2025; National Bank of Belgium, deficit and debt assessments, 2025; POLITICO, Brussels shootings reporting, August 2025; EU fiscal rules framework documentation",
+      "pubDate": "2026-08-05",
+      "chartData": {
+        "values": [
+          9.2,
+          57.0,
+          7.0
+        ],
+        "labels": [
+          "Savings Target by 2029 (€ billion)",
+          "Brussels Shootings Year-to-Date",
+          "Brussels Shootings in First Week of August"
+        ]
+      }
+    },
     {
       "id": "article-1de9445",
       "title": "France's Debt Crisis and Political Deadlock Put Fiscal Reform on a Knife's Edge",
@@ -275,28 +299,6 @@
           "Labour-Green Alliance (GL-PvdA)",
           "People's Party for Freedom and Democracy (VVD)",
           "New Social Contract (NSC)"
-        ]
-      }
-    },
-    {
-      "id": "article-98e15da",
-      "title": "Belgium's Austerity Showdown: A €9.2 Billion Budget Deal Triggers Nationwide Strike Wave",
-      "categories": [
-        "cat-d7jygr4"
-      ],
-      "excerpt": "Belgium's new federal coalition has struck a sweeping budget deal aimed at cutting the country's deficit by €9.2 billion by 2029, but the package has immediately collided with fierce public resistance. A three-day nationwide strike brought transport, schools, and public services to a standstill, exposing deep divisions over who will bear the cost of fiscal repair. The confrontation marks one of the sharpest tests of social cohesion in Belgium in years, with implications for both domestic politics and the country's standing within EU fiscal rules.",
-      "body": "<h3>A Coalition Bets on Fiscal Discipline</h3><p>Belgium&#x27;s federal government has presented what it describes as an unavoidable corrective budget, a package of spending cuts, tax changes, and structural reforms designed to reduce the country&#x27;s deficit by approximately €9.2 billion by 2029. The deal, struck by the ruling coalition after weeks of intensive negotiations, combines restraint on public expenditure with a series of revenue measures and reforms to wages, pensions, and sickness benefits.</p><p>Officials argue the package is essential to stabilise public finances, restore investor confidence, and bring Belgium into compliance with European Union fiscal constraints. Belgium has long run one of the eurozone&#x27;s more persistent structural deficits, and the government said the reform agenda reflects the scale of the challenge rather than an ideological preference for austerity. The fiscal pressure is real and widely documented, giving the coalition&#x27;s core argument a firm factual foundation even if the full €9.2 billion savings target remains to be proven in practice.</p><p>Among the most contentious individual measures are new or higher taxes on gas, airline tickets, hotel stays, and takeaway food, alongside tighter rules on wage indexation and stricter eligibility conditions for sickness benefits. These details have provided critics with concrete ammunition, since the burden appears to fall most heavily on household consumption and lower-to-middle income earners rather than on capital or higher-income brackets.</p><h3>Unions Take to the Streets as Social Anger Boils Over</h3><p>The government&#x27;s announcement triggered an immediate and forceful response from organised labour. A three-day nationwide strike disrupted transport networks, closed schools, and curtailed public services across the country, making the labour backlash the most visible and disruptive social consequence of the budget fight so far. The scale of the walkout underscored how broadly the reform package has been perceived, outside government circles, as a direct attack on living standards.</p><p>Trade unions argued that the measures amount to a one-sided austerity programme in which workers and welfare recipients absorb the costs while wealthier households and corporations face comparatively lighter demands. Union leaders pointed specifically to the weakening of wage indexation, the tightening of sickness-benefit rules, and the cumulative effect of higher indirect taxes on everyday goods and services. These objections are grounded in the policy details themselves, not merely in political rhetoric, lending the labour movement&#x27;s critique a degree of factual credibility that the government has struggled to rebut on purely technical terms.</p><p>Opposition parties aligned closely with the unions&#x27; framing, describing the package as socially unjust and arguing that the government has chosen an inequitable path to fiscal consolidation. They contend that a fairer revenue mix, one that draws more heavily on wealth, financial transactions, or corporate profit, could have achieved comparable savings without placing the heaviest burden on ordinary households. The government has rejected that reading, insisting that the reform choices reflect the limits of coalition arithmetic as much as economic philosophy.</p><h3>What Comes Next: EU Pressure, Political Fragility, and a Country on Edge</h3><p>Belgium now faces a period of acute tension between the imperative of fiscal correction and the political cost of delivering it. The EU&#x27;s reinforced fiscal surveillance framework leaves the government with limited room to soften the package without risking censure from Brussels, a constraint that ministers have cited repeatedly to justify the reform&#x27;s pace and depth. That external pressure may ultimately prove more durable than the domestic political will to hold the coalition together.</p><p>The nationwide strike has demonstrated that public tolerance for austerity is not unlimited, and union leaders have signalled that further industrial action remains possible if the government presses ahead without modification. The mood across much of the country has been described as resigned but heated, a combination that is historically unstable: citizens may accept that tightening is coming while remaining angry enough to punish the government electorally for how it arrives. That dynamic could complicate the coalition&#x27;s longevity well before the 2029 savings target is reached.</p><p>The coming weeks will be critical. Parliamentary scrutiny of the budget measures will offer opposition parties a formal arena to contest the details, while unions may use that window to maintain pressure through further action or public mobilisation. Whether the government can hold its coalition intact, manage EU expectations, and prevent the strike wave from hardening into sustained political opposition will determine not only the fate of this budget but the broader trajectory of Belgian reform politics for the rest of the decade.</p>",
-      "keywords": "Belgium, austerity, budget deficit, fiscal reform, nationwide strike, trade unions, EU fiscal rules, wage indexation, sickness benefits, coalition government, Belgian politics, European affairs, labor unrest, public finances",
-      "sources": "Belgian federal government budget documentation; EU fiscal surveillance framework reporting; Trade union statements on strike action and reform objections; Opposition party responses to the coalition budget deal; News reporting on nationwide strike disruption to transport, schools, and public services",
-      "pubDate": "2026-08-05",
-      "chartData": {
-        "values": [
-          9.2,
-          3.0
-        ],
-        "labels": [
-          "Deficit Reduction Target by 2029 (€ billion)",
-          "Duration of Nationwide Strike (days)"
         ]
       }
     },
@@ -12052,6 +12054,21 @@
   ],
   "episodes": [
     {
+      "id": "episode-20260805-belgium",
+      "title": "Belgium - 2026.08.05",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "7:46",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_05/Belgium_Episode_2026_08_05.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 129,
+      "keywords": "Belgium",
+      "notes": "Belgium's new coalition government is pushing through a sweeping austerity package worth €9.2 billion in savings by 2029, triggering strike action and accusations of social unfairness from trade unions. Simultaneously, a surge in gun violence on the streets of Brussels is elevating public safety to the top of the political agenda. Together, the two crises are testing public confidence in institutions and placing Belgium's political class under acute pressure.",
+      "pubDate": "2026-08-05"
+    },
+    {
       "id": "episode-20260805-france",
       "title": "France - 2026.08.05",
       "categories": [
@@ -12154,21 +12171,6 @@
       "episodeNumber": 130,
       "keywords": "Netherlands",
       "notes": "The Netherlands is navigating a deepening governance crisis after its coalition collapsed over migration policy, leaving a caretaker cabinet with limited authority to address urgent national issues. The resignation of Foreign Minister Caspar Veldkamp has added to mounting signs that the caretaker arrangement is not merely constrained but actively deteriorating. Immigration and asylum policy remain the central political cleavage driving both the coalition's collapse and the country's fragile path forward.",
-      "pubDate": "2026-08-05"
-    },
-    {
-      "id": "episode-20260805-belgium",
-      "title": "Belgium - 2026.08.05",
-      "categories": [
-        "cat-d7jygr4"
-      ],
-      "duration": "8:14",
-      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_05/Belgium_Episode_2026_08_05.mp3",
-      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
-      "season": 2,
-      "episodeNumber": 129,
-      "keywords": "Belgium",
-      "notes": "Belgium's new federal coalition has struck a sweeping budget deal aimed at cutting the country's deficit by €9.2 billion by 2029, but the package has immediately collided with fierce public resistance. A three-day nationwide strike brought transport, schools, and public services to a standstill, exposing deep divisions over who will bear the cost of fiscal repair. The confrontation marks one of the sharpest tests of social cohesion in Belgium in years, with implications for both domestic politics and the country's standing within EU fiscal rules.",
       "pubDate": "2026-08-05"
     },
     {
