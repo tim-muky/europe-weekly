@@ -1,5 +1,5 @@
 {
-  "version": 1786015544718,
+  "version": 1786015552097,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-fe6e2c2",
+      "title": "Croatia Faces Broad Economic Slowdown as Inflation Keeps Household Budgets Under Strain",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "excerpt": "Croatia's economy is still expanding, but growth is losing momentum across multiple fronts as the European Commission projects a steady deceleration through 2027. At the same time, inflation remains above the euro-area norm, leaving households squeezed even as the government insists the worst of the price shock has passed. Together, the two trends are testing the credibility of the ruling coalition ahead of a period of tighter fiscal conditions.",
+      "body": "<h3>A Cooling Economy, Not a Collapse — but the Distinction Is Narrowing</h3><p>Croatia&#x27;s post-pandemic growth story is entering a more difficult chapter. The Croatian National Bank has reported that economic activity stagnated in the early months of 2026, a marked shift from the momentum that carried the country through a strong 2025. The European Commission, in its latest forecasts, expects GDP growth to moderate from 3.4 percent in 2025 to 2.7 percent in 2026, declining further to 2.5 percent in 2027.</p><p>Government officials have been quick to frame the numbers as a soft landing rather than a warning sign. Croatia, they argue, is still projected to outpace the European Union average, and a gradual deceleration after years of above-trend growth is a sign of normalisation rather than structural failure. The narrative, broadly speaking, is one of managed cooling.</p><p>The opposition, however, has pointed to what it describes as a more troubling pattern. The slowdown is not confined to a single sector or indicator — it is visible across investment, government consumption, exports, and household demand simultaneously. When all the main engines of growth lose power at once, critics argue, the risks of a harder landing rise considerably. The Croatian National Bank&#x27;s own assessment of stagnation in early 2026 gives that argument empirical grounding.</p><h3>Inflation Is Down From Its Peak, but Far From Resolved</h3><p>Croatia&#x27;s inflation rate has retreated from the acute highs of 2023, and the government has been eager to present that trajectory as evidence of stabilisation. In political terms, the message is clear: the crisis moment has passed, and the economy is adjusting. There is some basis for that claim. Monthly price growth has shown signs of easing in recent data, and the overall rate is no longer at the emergency levels that dominated public debate two years ago.</p><p>But the European Commission&#x27;s own projections complicate that picture significantly. According to its latest estimates, Croatian inflation is expected to rise to 4.6 percent in 2026 before easing to 2.7 percent in 2027. The Commission has also flagged that services inflation and wage-driven price pressures remain sticky, meaning the relief that households are waiting for is likely to arrive more slowly than official optimism suggests. Croatia&#x27;s inflation, the Commission notes, continues to run above the euro-area norm — a comparison that matters for a country that joined the eurozone in 2023 and no longer has an exchange rate to absorb shocks.</p><p>For ordinary Croatians, the distinction between &quot;inflation is falling&quot; and &quot;prices are affordable&quot; is a lived experience, not a statistical one. Groceries, services, and housing costs remain elevated in absolute terms even as the rate of increase slows. That gap between the government&#x27;s framing and the reality at the checkout till is, according to political analysts, one of the more persistent sources of voter frustration — not a crisis mood, but a sustained, low-level anger that can quietly erode political support.</p><h3>The Outlook: Credibility at Stake as the Easy Years Recede</h3><p>Taken together, the economic slowdown and the stickiness of inflation present the Croatian government with a narrowing set of options. Fiscal space is not unlimited, particularly within the eurozone&#x27;s budgetary framework. Stimulus measures that might shore up household incomes risk stoking the very price pressures the government says it is bringing under control. Restraint, on the other hand, leaves it exposed to the opposition charge that it is presiding over a deliberate squeeze on living standards.</p><p>The broader European context adds to the difficulty. Growth across the EU is itself under pressure from weak external demand, elevated borrowing costs, and geopolitical uncertainty. Croatia, as a relatively small and open economy, is not insulated from those headwinds. The Commission&#x27;s forecast that growth will continue to decelerate through 2027 suggests the next two years will require more active economic management than the recovery period demanded.</p><p>The immediate test will come in how the government responds to the data in its upcoming budgetary planning cycle. If inflation climbs toward the Commission&#x27;s projected 4.6 percent in 2026 while growth continues to moderate, the political arithmetic becomes increasingly uncomfortable. Public mood, for now, is characterised less by panic than by a resigned acceptance that the post-pandemic boom has run its course. Whether that resignation tips into something sharper will depend on whether wages keep pace with prices — and on whether the government can offer a credible account of what comes next.</p>",
+      "keywords": "Croatia economy, Croatian GDP, economic slowdown, Croatia inflation, cost of living, European Commission forecast, Croatian National Bank, eurozone, household budgets, fiscal policy, services inflation, wage pressure",
+      "sources": "Croatian National Bank economic activity assessment, early 2026; European Commission Spring Economic Forecast, Croatia GDP projections 2025–2027; European Commission inflation forecast for Croatia 2026–2027; Eurostat euro-area inflation comparison data",
+      "pubDate": "2026-08-06",
+      "chartData": {
+        "values": [
+          3.4,
+          2.7,
+          2.5
+        ],
+        "labels": [
+          "GDP Growth 2025",
+          "GDP Growth 2026",
+          "GDP Growth 2027"
+        ]
+      }
+    },
     {
       "id": "article-91f4c30",
       "title": "Romania's Coalition Crisis Deepens as Deficit Pressure Mounts and Public Patience Wears Thin",
@@ -12029,6 +12053,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260806-croatia",
+      "title": "Croatia - 2026.08.06",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "duration": "8:04",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_06/Croatia_Episode_2026_08_06.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 134,
+      "keywords": "Croatia",
+      "notes": "Croatia's economy is still expanding, but growth is losing momentum across multiple fronts as the European Commission projects a steady deceleration through 2027. At the same time, inflation remains above the euro-area norm, leaving households squeezed even as the government insists the worst of the price shock has passed. Together, the two trends are testing the credibility of the ruling coalition ahead of a period of tighter fiscal conditions.",
+      "pubDate": "2026-08-06"
+    },
     {
       "id": "episode-20260806-romania",
       "title": "Romania - 2026.08.06",
