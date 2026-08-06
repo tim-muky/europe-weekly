@@ -1,5 +1,5 @@
 {
-  "version": 1785949202142,
+  "version": 1786015529639,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-cfa9f56",
+      "title": "Bulgaria's Budget Gamble: A 5.7% Deficit, Rising Debt, and a Euro-Era Squeeze on Households",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "excerpt": "Bulgaria's government has approved a 2026 budget built around a deficit of 5.7% of GDP and fresh borrowing of up to 10.1 billion euros, drawing sharp criticism from the country's central bank and fiscal watchdog. The plan arrives as Bulgarian households continue to absorb significant price pressure, with the country recording the European Union's highest annual increase in industrial producer prices. The combination of fiscal loosening and inflationary stress is raising serious questions about Bulgaria's standing inside the euro area and its capacity to comply with EU fiscal rules.",
+      "body": "<h3>A Budget Under Fire: Deficit Politics Reach a Tipping Point</h3><p>Sofia&#x27;s approval of the 2026 budget has set off one of the sharpest institutional disagreements in Bulgaria&#x27;s recent fiscal history. The government&#x27;s plan centres on a deficit equivalent to 5.7% of gross domestic product, a figure that sits well above the EU&#x27;s standard 3% ceiling and signals continued deviation from the consolidation path that euro-area membership demands. Alongside the deficit, authorities have authorised fresh borrowing of up to 10.1 billion euros, a level that analysts and opposition figures say reflects a structural drift rather than a temporary adjustment.</p><p>Officials have defended the budget on practical grounds, arguing it is a necessary instrument for keeping state functions operational, securing EU co-financing flows, and covering pre-existing expenditure commitments. They have pointed to modest consolidation gestures embedded in the plan, including lower administrative spending and higher expected revenues from tobacco and gambling taxes, as evidence that the government is not entirely abandoning fiscal discipline. For supporters, the budget represents a holding position that preserves stability while the country navigates a demanding transition environment.</p><p>That reading, however, has found little traction among independent institutions. The governor of the Bulgarian National Bank stated publicly that the draft budget deepens, rather than corrects, the country&#x27;s negative fiscal trend. The national Fiscal Council echoed that assessment, warning of worsening deficit dynamics and questioned whether the revenue assumptions underpinning the plan were sufficiently robust. EU institutions have also moved, with disciplinary pressure building over Bulgaria&#x27;s fiscal trajectory, a development that carries tangible consequences for the country&#x27;s access to structural funds and its broader credibility inside the bloc.</p><h3>Prices, Producers, and a Public Running Out of Patience</h3><p>The fiscal debate does not exist in isolation. Bulgarian households are simultaneously managing a cost environment that has shown little sign of easing. In early July, Radio Bulgaria reported that the country recorded the European Union&#x27;s highest annual increase in industrial producer prices, a leading indicator that tends to feed through into consumer costs over subsequent months. The figure is significant not merely as a statistical data point but as a signal that upstream inflationary pressure continues to move through the economy, even as the government frames its fiscal measures partly as tools for macroeconomic stabilisation.</p><p>The government and its allies have argued that completing the euro-transition adjustment requires a degree of short-term pain and that disrupting market confidence through erratic policy would ultimately make price conditions worse. That argument has a certain macroeconomic logic. Countries that have passed through euro-area entry have typically experienced a period of price adjustment as local markets align to new monetary and regulatory frameworks. Bulgarian officials have urged patience and pointed to the structural benefits of euro membership, including lower borrowing costs and greater trade predictability, as the medium-term payoff for near-term discomfort.</p><p>The counter-argument, voiced by opposition politicians and civil society groups, is that official assurances are failing to connect with lived experience. Wages in many sectors have not kept pace with price increases, and public trust in the political system&#x27;s ability to manage the transition equitably remains low. The rise in producer prices compounds existing anxiety about grocery costs, energy bills, and housing, areas where Bulgarian consumers were already under pressure before the euro conversion took effect. The mood among much of the population is less one of acute crisis than of weary resignation, a sense that the promised benefits of euro membership remain distant while the costs are immediate and visible.</p><h3>What Comes Next: EU Deadlines, Political Risks, and the Credibility Test</h3><p>The immediate horizon is shaped by the EU&#x27;s response to Bulgaria&#x27;s fiscal position. Disciplinary procedures under the bloc&#x27;s excessive deficit framework are not merely symbolic. They can trigger enhanced monitoring requirements, conditions attached to EU fund disbursements, and reputational damage that affects sovereign borrowing costs. For a government already facing a 10.1 billion euro borrowing requirement, any upward pressure on bond yields translates directly into higher debt servicing costs, tightening the fiscal room it is trying to defend.</p><p>Bulgaria&#x27;s political landscape adds another layer of uncertainty. The country has cycled through multiple governments and inconclusive elections in recent years, leaving fiscal policy vulnerable to short-term political calculations. The 2026 budget&#x27;s passage does not guarantee its implementation, and any mid-year revenue shortfall or expenditure overrun could force a revision that further strains relations with Brussels. Opposition parties have already signalled that the deficit figures will be a central line of attack ahead of any future electoral contest, making bold corrective action politically costly even when it may be economically necessary.</p><p>The outlook for households will depend heavily on whether the inflationary pipeline suggested by producer price data translates into further consumer price increases over the coming quarters. If it does, the government will face pressure to respond with relief measures that are difficult to fund within an already stretched budget. If inflation eases, the fiscal arithmetic becomes somewhat more manageable but the structural deficit challenge remains. What is clear is that Bulgaria faces a narrow and demanding path: it must demonstrate fiscal credibility to EU institutions, contain inflation expectations, and maintain enough public legitimacy to govern effectively, all simultaneously and without much margin for error.</p>",
+      "keywords": "Bulgaria, 2026 budget, fiscal deficit, euro area, EU fiscal rules, inflation, industrial producer prices, Bulgarian National Bank, Fiscal Council, sovereign debt, euro transition, European Commission, excessive deficit procedure, household costs, Sofia",
+      "sources": "Reuters, reporting on Bulgaria's 2026 budget deficit and borrowing figures; Radio Bulgaria, report dated July 6 on EU industrial producer price data; Bulgarian National Bank, public statement by the BNB Governor on the 2026 draft budget; Bulgarian Fiscal Council, assessment of deficit dynamics and budget projections; European Commission, disciplinary framework documentation on Bulgaria's fiscal position",
+      "pubDate": "2026-08-06",
+      "chartData": {
+        "values": [
+          5.7,
+          3.0
+        ],
+        "labels": [
+          "Bulgaria 2026 Deficit (% GDP)",
+          "EU Fiscal Ceiling (% GDP)"
+        ]
+      }
+    },
     {
       "id": "article-fa6f84e",
       "title": "Dutch Political Crisis Deepens as Caretaker Government Frays Over Migration Fault Lines",
@@ -11973,6 +11995,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260806-bulgaria",
+      "title": "Bulgaria - 2026.08.06",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "duration": "8:13",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_06/Bulgaria_Episode_2026_08_06.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 131,
+      "keywords": "Bulgaria",
+      "notes": "Bulgaria's government has approved a 2026 budget built around a deficit of 5.7% of GDP and fresh borrowing of up to 10.1 billion euros, drawing sharp criticism from the country's central bank and fiscal watchdog. The plan arrives as Bulgarian households continue to absorb significant price pressure, with the country recording the European Union's highest annual increase in industrial producer prices. The combination of fiscal loosening and inflationary stress is raising serious questions about Bulgaria's standing inside the euro area and its capacity to comply with EU fiscal rules.",
+      "pubDate": "2026-08-06"
+    },
     {
       "id": "episode-20260805-netherlands",
       "title": "Netherlands - 2026.08.05",
