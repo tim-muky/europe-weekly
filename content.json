@@ -1,5 +1,5 @@
 {
-  "version": 1786015552097,
+  "version": 1786017107993,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-fe93e99",
+      "title": "Merz Coalition Fights Itself as Germany Seeks Path Out of Low-Growth Trap",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "excerpt": "Germany's governing coalition under Friedrich Merz is struggling to push through a sweeping reform package amid persistent internal divisions between the CDU and SPD over taxes, pensions, and welfare spending. Meanwhile, the broader economy shows tentative signs of stabilisation, with modest second-quarter growth and improved business confidence in July, though analysts warn structural weaknesses remain unresolved. The tension between political gridlock and economic necessity is fast becoming the defining challenge of the Merz government.",
+      "body": "<h3>A Coalition at War With Its Own Agenda</h3><p>Berlin is in the grip of a familiar paradox: a government that agrees on the need for reform but cannot agree on what reform should look like. The coalition between the CDU and SPD, already an arrangement of political necessity rather than ideological alignment, has become visibly strained over the details of a broad growth-and-reform package that touches nearly every corner of German economic life, from income tax and corporate levies to pension contribution rates, healthcare financing, and labour-market flexibility.</p><p>The Merz government argues that structural reform is no longer optional. Decades of delayed modernisation, compounded by the energy shock of 2022 and slowing export demand, have left Germany&#x27;s economic model under serious pressure. The government has framed its package as a necessary correction, one designed to cut bureaucracy, restore business competitiveness, and ease the burden on workers and firms alike.</p><p>But the internal disputes are difficult to conceal. According to Reuters, the CDU and SPD have clashed repeatedly over tax rates, welfare entitlements, and the shape of pension reform, with key questions over retirement age and contribution levels still unresolved. Le Monde has described the economic wing of the cabinet as locked in conflict over how to respond to what it characterises as a structural crisis. The dominant mood in Berlin, according to observers across multiple outlets, is less one of reformist ambition than of stop-start policymaking under visible coalition strain.</p><h3>Economy Stabilises, But Structural Questions Linger</h3><p>Against this fractious political backdrop, Germany&#x27;s economic data has offered a cautious degree of reassurance. Reuters reports that second-quarter growth is likely to come in modestly positive, a meaningful improvement over the contraction recorded in earlier periods. Consumer spending has held up with greater resilience than many had anticipated, and business morale registered a notable uptick in July, suggesting that firms have not entirely abandoned confidence in a domestic recovery.</p><p>Industrial activity, long the bellwether of German economic health, has also shown signs of stabilisation rather than continued deterioration. For citizens and businesses, this matters: a stabilising economy reduces the immediate pressure on household budgets and corporate investment decisions, even if the longer-term structural picture remains uncomfortable.</p><p>Sceptics, however, caution against reading too much into these signals. Le Monde has characterised Germany&#x27;s underlying condition as a structural economic crisis, a diagnosis that modest quarterly growth does little to refute. Reuters also notes that external risks remain acute, with geopolitical uncertainty and tensions in the Middle East capable of rapidly reversing any improvement in business sentiment. The more accurate description of Germany&#x27;s current condition may be stabilisation at a low level rather than genuine recovery, a distinction with significant consequences for the government&#x27;s political timeline.</p><h3>Reform Deadline Looms as Public Patience Thins</h3><p>The convergence of coalition dysfunction and economic fragility places the Merz government in an increasingly difficult position. If the reform package is delayed further or emerges in a diluted form, the government risks cementing a narrative of ineffective governance at precisely the moment when Germany&#x27;s economic credibility is already under question in European and global markets. Coalition arithmetic gives neither the CDU nor the SPD the leverage to force through its preferred version of reform unilaterally, which means continued negotiation, continued friction, and continued uncertainty for firms and households trying to plan ahead.</p><p>For the European Union, a Germany stuck in low growth and political indecision is not a peripheral concern. Germany remains the bloc&#x27;s largest economy, and its fiscal choices and reform trajectory carry significant weight in debates over EU competitiveness, state-aid rules, and the broader direction of European economic policy. A prolonged German stagnation would complicate Brussels&#x27; ambitions for a more dynamic single market and reduce the fiscal headroom that has historically given Berlin political influence within EU institutions.</p><p>The coming months will be critical. If the Merz coalition can resolve its internal disputes and present a credible, costed reform plan, it may yet capitalise on the economic stabilisation now visible in the data. If the divisions persist and the package fragments further, Germany risks entering a prolonged holding pattern, one where reform is perpetually promised and perpetually delayed, and where modest resilience slowly erodes into something more serious. The clock, as much as the coalition, is now working against the government.</p>",
+      "keywords": "Germany, Friedrich Merz, CDU, SPD, coalition, economic reform, GDP growth, business confidence, pensions, labour market, European Union, Berlin politics, structural reform, taxation, welfare",
+      "sources": "Reuters, reporting on Germany's second-quarter growth outlook, coalition reform disputes, and business morale data; Le Monde, analysis of Germany's structural economic crisis and cabinet divisions; Coalition government statements and policy positions as reported by international wire services",
+      "pubDate": "2026-08-05",
+      "chartData": {
+        "values": [
+          2.1,
+          1.4,
+          0.8,
+          0.3
+        ],
+        "labels": [
+          "Business Morale (Jul)",
+          "Consumer Spending Index",
+          "Industrial Activity Index",
+          "Q2 GDP Growth Estimate"
+        ]
+      }
+    },
     {
       "id": "article-fe6e2c2",
       "title": "Croatia Faces Broad Economic Slowdown as Inflation Keeps Household Budgets Under Strain",
@@ -273,32 +299,6 @@
           "France 10Y Spread Pre-Crisis",
           "France 10Y Spread Post-Downgrade",
           "Italy 10Y Spread"
-        ]
-      }
-    },
-    {
-      "id": "article-99952f2",
-      "title": "Merz's Reform Gamble: Can Germany Govern Its Way to Recovery?",
-      "categories": [
-        "cat-q3xena4"
-      ],
-      "excerpt": "Germany's new CDU/CSU-SPD coalition under Friedrich Merz has staked its credibility on a sweeping reform agenda designed to reverse years of economic stagnation. But coalition tensions, diluted policy compromises, and only modest improvements in actual output are raising serious questions about whether Berlin can translate political ambition into durable economic results. The stakes extend well beyond Germany's borders, with the EU's largest economy serving as a bellwether for the bloc's broader competitiveness.",
-      "body": "<h3>A Coalition With a Plan, and a Fragility Problem</h3><p>When Friedrich Merz assembled his CDU/CSU-SPD government earlier this year, he framed it as a moment of structural reset for an economy that had endured two years of contraction and a decade of deferred decisions on labor, energy, and competitiveness. The coalition&#x27;s reform package promises reduced bureaucracy, targeted tax relief for businesses and households, greater labor-market flexibility, and renewed industrial support — a policy platform designed to signal a clean break from the drift of the Scholz years.</p><p>Officials close to the government argue that Germany&#x27;s structural challenges leave no room for short-term stimulus fixes. The case for the reform agenda, they say, rests on restoring investor confidence and improving the country&#x27;s underlying capacity to grow. Reuters reporting and coalition briefing documents confirm that the government is pursuing reform-oriented measures on multiple fronts simultaneously.</p><p>Yet the political arithmetic is proving difficult. Internal disputes over tax policy, welfare reform, pension commitments, and labor market rules have already surfaced within the coalition, with SPD voices pushing back against elements of the agenda they see as tilted toward business interests at the expense of working households. Critics argue that Merz is consuming political capital faster than he is building legislative momentum, and that key promises are being diluted through compromise before they reach a parliamentary vote.</p><h3>Sentiment Up, Output Less Convincing</h3><p>The economic backdrop against which Merz is attempting this reform push is, at best, ambiguous. Business morale has improved more than many forecasters expected, with sentiment indicators pointing to stabilization after a prolonged downturn. The Bundesbank has indicated that gross domestic product likely rose modestly in the second quarter, and German equity markets have rallied on a combination of reform expectations, reduced geopolitical risk, and global enthusiasm around artificial intelligence investment.</p><p>Proponents of the recovery narrative argue that Germany is finally finding a floor. On this reading, improving confidence is itself an economic signal — businesses that feel more optimistic invest more, hire more, and take risks they would otherwise defer. The government has been quick to point to market performance and sentiment data as evidence that its agenda is already producing results.</p><p>The counterargument, however, is harder to dismiss. Actual output remains weak, structural problems in manufacturing and energy costs have not been resolved, and much of the market rally appears to reflect investor expectations of future reform rather than current economic strength. Independent analysts and opposition figures argue that stabilization at a low level is not the same as recovery, and that treating confidence indicators as proof of a turnaround risks setting the public up for disappointment.</p><h3>Outlook: Real Deadlines, Real Consequences</h3><p>The coming months will test whether the coalition&#x27;s ambitions survive contact with legislative reality. Several key reform elements — including labor market adjustments and fiscal relief measures — are expected to face parliamentary votes before the end of the year. Any visible fracture between the CDU/CSU and SPD on high-profile legislation would immediately amplify opposition narratives that the government is already losing coherence.</p><p>Public mood adds an additional layer of pressure. Available evidence points to political fatigue and declining approval rather than active panic, but voter patience with governing coalitions in Germany has historically been finite, particularly when economic delivery lags behind campaign promises. The opposition, led by a resurgent AfD and a repositioning FDP, is watching for any sign of overreach or internal breakdown.</p><p>For the wider European Union, the stakes are also significant. A Germany that can stabilize its politics and genuinely accelerate structural reform would provide a much-needed anchor for EU competitiveness policy and fiscal discussions. A Germany mired in coalition disputes and low-growth stagnation would instead become a drag on the bloc&#x27;s capacity to respond to American industrial policy and Chinese competition. The diagnosis of Germany&#x27;s problems, according to both government sources and independent analysts, is broadly agreed upon. What remains deeply uncertain is whether the political conditions exist to act on it.</p>",
-      "keywords": "Germany, Friedrich Merz, CDU/CSU, SPD, coalition, economic reform, Bundesbank, GDP, business sentiment, EU competitiveness, labor market, fiscal policy, European economy",
-      "sources": "Reuters, Germany coalition government briefing documents; Bundesbank GDP and economic outlook reporting; Independent economic analysis on German structural competitiveness, 2025",
-      "pubDate": "2026-08-05",
-      "chartData": {
-        "values": [
-          2.1,
-          1.8,
-          3.4,
-          2.7
-        ],
-        "labels": [
-          "Business Sentiment Index Q3",
-          "GDP Growth Q2 (est.)",
-          "DAX Rally YTD (%)",
-          "Approval Rating Decline (pts)"
         ]
       }
     },
@@ -12054,6 +12054,21 @@
   ],
   "episodes": [
     {
+      "id": "episode-20260805-germany",
+      "title": "Germany - 2026.08.05",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "duration": "8:50",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_05/Germany_Episode_2026_08_05.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 127,
+      "keywords": "Germany",
+      "notes": "Germany's governing coalition under Friedrich Merz is struggling to push through a sweeping reform package amid persistent internal divisions between the CDU and SPD over taxes, pensions, and welfare spending. Meanwhile, the broader economy shows tentative signs of stabilisation, with modest second-quarter growth and improved business confidence in July, though analysts warn structural weaknesses remain unresolved. The tension between political gridlock and economic necessity is fast becoming the defining challenge of the Merz government.",
+      "pubDate": "2026-08-05"
+    },
+    {
       "id": "episode-20260806-croatia",
       "title": "Croatia - 2026.08.06",
       "categories": [
@@ -12156,21 +12171,6 @@
       "episodeNumber": 128,
       "keywords": "France",
       "notes": "France is caught in a deepening loop of political paralysis and fiscal strain, with repeated government collapses making it harder to pass a credible budget and restore investor confidence. The country's debt risks are rising just as public anger over spending cuts spills onto the streets, posing a dual threat to stability that neither the government nor its opponents appear equipped to resolve quickly.",
-      "pubDate": "2026-08-05"
-    },
-    {
-      "id": "episode-20260805-germany",
-      "title": "Germany - 2026.08.05",
-      "categories": [
-        "cat-q3xena4"
-      ],
-      "duration": "8:11",
-      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_05/Germany_Episode_2026_08_05.mp3",
-      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
-      "season": 2,
-      "episodeNumber": 127,
-      "keywords": "Germany",
-      "notes": "Germany's new CDU/CSU-SPD coalition under Friedrich Merz has staked its credibility on a sweeping reform agenda designed to reverse years of economic stagnation. But coalition tensions, diluted policy compromises, and only modest improvements in actual output are raising serious questions about whether Berlin can translate political ambition into durable economic results. The stakes extend well beyond Germany's borders, with the EU's largest economy serving as a bellwether for the bloc's broader competitiveness.",
       "pubDate": "2026-08-05"
     },
     {
