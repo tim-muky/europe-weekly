@@ -30,9 +30,22 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Czechia - 2026.08.07</title>
+      <description>Czechia is navigating two overlapping crises: a central bank caught between persistent inflation and a fragile recovery, and a newly elected coalition government that critics say is testing the limits of democratic norms. The Czech National Bank raised interest rates in June, citing stubborn price pressures, even as households continue to feel the strain of elevated housing and energy costs. Meanwhile, the ANO-led coalition, formed after October 2025 elections, is reshaping the country&apos;s institutional landscape in ways that have triggered protests, a broadcaster strike, and a deepening polarisation in public life.</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_07/Czechia_Episode_2026_08_07.mp3" length="4807728" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260807-czechia</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260807-czechia</link>
+      <itunes:duration>7:19</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>135</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Netherlands - 2026.08.05</title>
       <description>The Netherlands has entered a prolonged period of caretaker governance after a cascade of coalition collapses driven by irreconcilable splits over asylum policy and the country&apos;s stance on the war in Gaza. The resignation of Foreign Minister Caspar Veldkamp over Israel policy has compounded an already fragile institutional situation. With no durable governing majority in sight, the country faces mounting questions about its capacity to make consequential decisions at home and abroad.</description>
-      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_05/Netherlands_Episode_2026_08_05.mp3" length="5676187" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_05/Netherlands_Episode_2026_08_05.mp3" length="5507921" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260805-netherlands</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260805-netherlands</link>
@@ -45,7 +58,7 @@
     <item>
       <title>Belgium - 2026.08.05</title>
       <description>Belgium&apos;s new coalition government is pushing through a sweeping austerity package worth €9.2 billion in savings by 2029, triggering strike action and accusations of social unfairness from trade unions. Simultaneously, a surge in gun violence on the streets of Brussels is elevating public safety to the top of the political agenda. Together, the two crises are testing public confidence in institutions and placing Belgium&apos;s political class under acute pressure.</description>
-      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_05/Belgium_Episode_2026_08_05.mp3" length="5423485" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_05/Belgium_Episode_2026_08_05.mp3" length="5107843" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260805-belgium</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260805-belgium</link>
@@ -58,7 +71,7 @@
     <item>
       <title>France - 2026.08.05</title>
       <description>France faces a compounding challenge: a deficit running at roughly twice the European Union&apos;s legal ceiling and a parliament too fragmented to agree on how to fix it. Debt has climbed above 115 percent of GDP, interest costs are rising, and the government has so far failed to secure a stable majority for a durable budget. The result is an anxious standoff that carries real consequences for markets, public services, and France&apos;s standing with its EU partners.</description>
-      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_05/France_Episode_2026_08_05.mp3" length="5673768" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_05/France_Episode_2026_08_05.mp3" length="5675667" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260805-france</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260805-france</link>
@@ -71,7 +84,7 @@
     <item>
       <title>Germany - 2026.08.05</title>
       <description>Germany&apos;s governing coalition under Friedrich Merz is struggling to push through a sweeping reform package amid persistent internal divisions between the CDU and SPD over taxes, pensions, and welfare spending. Meanwhile, the broader economy shows tentative signs of stabilisation, with modest second-quarter growth and improved business confidence in July, though analysts warn structural weaknesses remain unresolved. The tension between political gridlock and economic necessity is fast becoming the defining challenge of the Merz government.</description>
-      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_05/Germany_Episode_2026_08_05.mp3" length="5352947" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_05/Germany_Episode_2026_08_05.mp3" length="5727493" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260805-germany</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260805-germany</link>
@@ -266,7 +279,7 @@
     <item>
       <title>Denmark - 2026.06.29</title>
       <description>Daily episode for Denmark</description>
-      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_29/Denmark_Episode_2026_06_29.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_06_29/Denmark_Episode_2026_06_29.mp3" length="5501498" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-20260630-denmark</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-20260630-denmark</link>
