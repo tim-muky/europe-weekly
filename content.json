@@ -1,5 +1,5 @@
 {
-  "version": 1786017131465,
+  "version": 1786078905933,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-79a3f55",
+      "title": "Czech Republic at a Crossroads: Inflation Anxiety and Political Turbulence Define a Nation in Transition",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "excerpt": "Czechia is navigating two overlapping crises: a central bank caught between persistent inflation and a fragile recovery, and a newly elected coalition government that critics say is testing the limits of democratic norms. The Czech National Bank raised interest rates in June, citing stubborn price pressures, even as households continue to feel the strain of elevated housing and energy costs. Meanwhile, the ANO-led coalition, formed after October 2025 elections, is reshaping the country's institutional landscape in ways that have triggered protests, a broadcaster strike, and a deepening polarisation in public life.",
+      "body": "<h3>A Central Bank Walking a Tightrope</h3><p>The Czech National Bank moved to raise its benchmark interest rate in June, a decision that surprised some observers but reflected the institution&#x27;s reading of an economy where inflation has not been fully tamed. According to Reuters, policymakers cited three interlocking pressures: persistent consumer price inflation, expanding credit, and wage growth that continues to run ahead of productivity gains. The message from the CNB&#x27;s governing board was unambiguous — it is not yet prepared to declare victory over inflation.</p><p>Services prices in particular remain stubbornly elevated, a pattern familiar across much of Central Europe where post-pandemic demand shifts and labour market tightness have kept price growth alive even as headline figures have moderated. Policymakers are now openly debating whether to pause the tightening cycle or push rates higher still, a deliberation that carries real consequences for mortgage holders, small businesses, and exporters navigating a difficult European demand environment.</p><p>The counterargument is gaining traction in economic circles. Critics of the CNB&#x27;s restrictive stance argue that the Czech economy is not operating from a position of strength. Growth has only recently recovered from a weak base, and households are already under pressure from elevated housing costs and energy bills. Keeping borrowing costs high in that environment risks suppressing the investment and consumption needed to sustain any durable recovery. The debate is genuinely balanced on growth risks, but on the core inflation question, the data tilts toward the central bank&#x27;s caution.</p><h3>A New Coalition, a Contested Mandate</h3><p>Czechia&#x27;s political map looks markedly different after the October 2025 parliamentary elections. Andrej Babis&#x27;s ANO party secured 34.5 percent of the vote and subsequently formed a governing coalition with the far-right SPD and the Motorists movement, marking the first time a coalition with explicit far-right participation has taken office in the country&#x27;s post-communist history. Supporters of the new government argue that the result delivered a clear democratic mandate — that voters, frustrated with the previous centre-right administration, chose a different direction and deserve to see it implemented.</p><p>The opposition and civil society groups read the same result through a sharply different lens. For them, the coalition&#x27;s composition and early policy moves represent a worrying drift toward Eurosceptic populism, with potential consequences for fiscal discipline, media independence, and the integrity of democratic institutions. That concern has not remained abstract. A proposed reform to replace the existing television and radio licence fee system with direct state-budget funding for public broadcasters triggered a warning strike by journalists and prompted street protests in several cities. Critics, including press-freedom organisations, argue that routing broadcaster finances through the government budget would give the executive unacceptable leverage over editorial decision-making.</p><p>The government&#x27;s defenders counter that the current funding model is outdated and that reform does not automatically mean editorial interference. What is clear from the available evidence is that both sides are arguing from real, documented positions: the electoral mandate is genuine, having been produced by a free and competitive election, and the institutional dispute over public media is equally real, having generated organised professional resistance and public mobilisation. Czechia is not facing a manufactured controversy — it is facing a legitimately contested argument about where democratic boundaries lie.</p><h3>What Comes Next: Deadlines, Pressures, and European Dimensions</h3><p>The two storylines — monetary policy and political realignment — are not entirely separate. The CNB operates as an independent institution, but its credibility and effectiveness depend partly on the stability of the broader governing environment. A government that clashes openly with regulatory or oversight bodies, or that weakens institutional norms in one domain, can erode the confidence framework that underpins central bank policy transmission. That linkage is not hypothetical; it has been observed repeatedly in other Central and Eastern European states that moved in a populist direction over the past decade.</p><p>On the economic front, the CNB&#x27;s next rate decision will be closely watched by financial markets and by a business community already uncertain about the investment climate. If inflationary pressures ease materially in the coming months, policymakers may find room to pause without losing credibility. If wage growth and services inflation remain elevated, further tightening cannot be ruled out, and the political cost of that — in a country where household budgets are already stretched — could feed directly into public sentiment toward both the government and the central bank.</p><p>For Czechia&#x27;s position inside the European Union, the new coalition&#x27;s Eurosceptic instincts introduce a layer of diplomatic uncertainty. Prague has historically played a constructive if occasionally awkward role in EU affairs, and a government with stronger Eurosceptic reflexes may complicate cooperation on issues ranging from defence spending commitments to the bloc&#x27;s green transition agenda. How far the coalition is willing to push that posture, and how Brussels responds, will be among the defining questions of the coming legislative term. For ordinary Czechs, the near-term calculus is more immediate: whether prices will fall fast enough, whether wages will keep pace, and whether the institutions they rely on will remain trustworthy and independent.</p>",
+      "keywords": "Czech National Bank, CNB interest rates, Czech inflation, ANO coalition, Andrej Babis, Czech election 2025, SPD Czech Republic, public broadcaster reform, Czech media independence, Euroscepticism, Central European politics, Czech economic recovery, Prague protests, EU political realignment",
+      "sources": "Reuters, June 2025 CNB rate decision coverage; Academic analysis of Czech October 2025 election results, including ANO vote share of 34.5%; Reporting on Czech public broadcaster funding reform and journalist warning strike; Economic commentary on Czech services inflation, wage growth, and household cost pressures; Coverage of SPD and Motorists coalition participation and protest activity",
+      "pubDate": "2026-08-07",
+      "chartData": {
+        "values": [
+          34.5,
+          65.5
+        ],
+        "labels": [
+          "ANO and Coalition Partners",
+          "All Other Parties"
+        ]
+      }
+    },
     {
       "id": "article-a594fc2",
       "title": "Dutch Political Crisis Deepens as Migration and Gaza Disputes Fracture Caretaker Government",
@@ -12039,6 +12061,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260807-czechia",
+      "title": "Czechia - 2026.08.07",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "duration": "7:19",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_07/Czechia_Episode_2026_08_07.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 135,
+      "keywords": "Czechia",
+      "notes": "Czechia is navigating two overlapping crises: a central bank caught between persistent inflation and a fragile recovery, and a newly elected coalition government that critics say is testing the limits of democratic norms. The Czech National Bank raised interest rates in June, citing stubborn price pressures, even as households continue to feel the strain of elevated housing and energy costs. Meanwhile, the ANO-led coalition, formed after October 2025 elections, is reshaping the country's institutional landscape in ways that have triggered protests, a broadcaster strike, and a deepening polarisation in public life.",
+      "pubDate": "2026-08-07"
+    },
     {
       "id": "episode-20260805-netherlands",
       "title": "Netherlands - 2026.08.05",
