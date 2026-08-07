@@ -1,5 +1,5 @@
 {
-  "version": 1786078905933,
+  "version": 1786079006985,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-1808111",
+      "title": "Slovakia's Fiscal Squeeze: Austerity Without Recovery Fuels Political and Social Strain",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "Slovakia is caught in a painful bind: the government is pressing ahead with successive rounds of fiscal consolidation to tame a stubbornly high deficit, yet weak economic growth is making the medicine increasingly hard to swallow. With real GDP growth forecast at just 0.8 percent for 2026 and household purchasing power under sustained pressure, public frustration is rising. The political and economic stakes extend well beyond Bratislava, touching on one of the European Union's most contested debates about whether fiscal discipline and growth can coexist.",
+      "body": "<h3>Consolidation Drive Hits Political Turbulence</h3><p>Slovakia&#x27;s government has made reducing its budget deficit the centrepiece of its economic programme, enacting a series of consolidation packages that include higher taxes and restraint on public spending. The official rationale is straightforward: without fiscal adjustment, public debt will continue to climb and Slovakia risks falling foul of EU fiscal rules. Multiple independent assessments, including reviews by the European Commission and the International Monetary Fund, confirm that the underlying fiscal position remains strained and that corrective action is genuinely necessary.</p><p>Yet the political costs are accumulating. Critics in the opposition argue that households and businesses are bearing the brunt of an adjustment that is not delivering the promised results. The deficit is still projected to remain in the range of the mid-4 to 5 percent of GDP in near-term forecasts, meaning repeated rounds of austerity have not yet produced a durable fiscal turnaround. Credit rating analysts at Scope have warned that &quot;fiscal fatigue&quot; is rising, a signal that public and political tolerance for further belt-tightening is wearing thin. Allianz Trade has similarly noted that expenditure pressures continue to dominate despite new revenue-raising measures, undermining the government&#x27;s ability to claim a clean consolidation story.</p><p>The tension is feeding directly into coalition discipline and questions about the government&#x27;s broader legitimacy on economic management. What began as a technical fiscal debate has become a live political fault line, with the opposition able to point to both the ongoing deficit and the squeeze on living standards as evidence that the strategy is not working.</p><h3>Slow Growth Compounds the Household Squeeze</h3><p>The fiscal challenge is made significantly harder by the state of the Slovak economy. Growth has slowed sharply, and the European Commission projects real GDP expansion of only 0.8 percent in 2026, a figure that is effectively stagnation by any practical measure. The IMF links the deceleration to a combination of fiscal consolidation itself, subdued external demand, and broader uncertainty. In other words, the cure is partly worsening the underlying condition.</p><p>For ordinary Slovak households, the consequences are tangible. Weak growth translates into limited wage gains, reduced tax buoyancy for the state, and continued pressure on public services at precisely the moment those services are being cut or frozen. The combination of slow income growth and persistent inflation pressure, even as headline inflation moderates, means that real purchasing power has stagnated for many families. The public mood, according to analysts tracking the situation, is best described as anxious and resigned rather than openly explosive, a quieter but durable form of discontent that carries its own political risks.</p><p>The government&#x27;s defenders argue that slower growth is an unavoidable cost of repairing public finances in a difficult external environment, pointing to stabilisation as the eventual reward for discipline. However, the available data does not yet support a strong recovery narrative. Both Scope and Allianz Trade warn that fiscal drag is actively weighing on investment and consumer confidence, creating a feedback loop in which consolidation suppresses the growth that would otherwise make deficit reduction more manageable.</p><h3>A Wider European Debate Plays Out in Bratislava</h3><p>Slovakia&#x27;s predicament is not unique, but it is an unusually clear illustration of a tension running through European economic policymaking. The EU&#x27;s reformed fiscal rules are designed to bring deficits and debt under control across member states, yet the same rules, applied in a low-growth environment, risk entrenching the weakness they are meant to address. The Commission&#x27;s forecast of sub-one-percent growth for Slovakia in 2026 sits uncomfortably alongside expectations of fiscal improvement, since meaningful deficit reduction typically requires a more robust economic expansion to lift revenues and reduce demand for social transfers.</p><p>For Slovakia, the immediate next steps involve maintaining enough coalition cohesion to pass further consolidation measures while managing a public that is increasingly sceptical of the payoff. Any slippage in fiscal targets would attract scrutiny from Brussels and could affect the country&#x27;s standing in sovereign debt markets, raising borrowing costs at a time when the fiscal position is already fragile. Conversely, doubling down on austerity without a credible growth strategy risks deepening the household squeeze and handing the opposition a sharper political weapon ahead of future electoral tests.</p><p>The path out of this bind likely requires structural reforms that can improve the quality of public spending rather than simply its quantity, alongside measures to stimulate investment and diversify an economy that remains heavily exposed to external demand cycles. Until growth recovers to a level that makes fiscal adjustment politically tolerable, Slovak policymakers will face the same hard choice that has defined economic governance across much of the EU&#x27;s eastern flank: how much consolidation is enough, and who bears the cost when growth fails to materialise on schedule.</p>",
+      "keywords": "Slovakia, fiscal consolidation, budget deficit, economic slowdown, austerity, EU fiscal rules, GDP growth, household purchasing power, Bratislava, European Commission, IMF, Scope Ratings, Allianz Trade, wage stagnation, public finances",
+      "sources": "European Commission economic forecasts (Slovakia); International Monetary Fund country assessment; Scope Ratings fiscal analysis; Allianz Trade economic outlook; unnamed fiscal and macroeconomic research cited as sources [1][2][4][5][6][7][8][9][11][14]",
+      "pubDate": "2026-08-07",
+      "chartData": {
+        "values": [
+          5.0,
+          4.5,
+          0.8
+        ],
+        "labels": [
+          "Deficit Forecast Near-Term High (%GDP)",
+          "Deficit Forecast Near-Term Low (%GDP)",
+          "Real GDP Growth 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-79a3f55",
       "title": "Czech Republic at a Crossroads: Inflation Anxiety and Political Turbulence Define a Nation in Transition",
@@ -12061,6 +12085,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260807-slovakia",
+      "title": "Slovakia - 2026.08.07",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "8:42",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_07/Slovakia_Episode_2026_08_07.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 136,
+      "keywords": "Slovakia",
+      "notes": "Slovakia is caught in a painful bind: the government is pressing ahead with successive rounds of fiscal consolidation to tame a stubbornly high deficit, yet weak economic growth is making the medicine increasingly hard to swallow. With real GDP growth forecast at just 0.8 percent for 2026 and household purchasing power under sustained pressure, public frustration is rising. The political and economic stakes extend well beyond Bratislava, touching on one of the European Union's most contested debates about whether fiscal discipline and growth can coexist.",
+      "pubDate": "2026-08-07"
+    },
     {
       "id": "episode-20260807-czechia",
       "title": "Czechia - 2026.08.07",
