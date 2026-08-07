@@ -1,5 +1,5 @@
 {
-  "version": 1786079006985,
+  "version": 1786079102759,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8342da3",
+      "title": "Hungary's Economy Stuck in Low Gear as Inflation Fatigue and Stagnation Fears Weigh on Households",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary is navigating a prolonged economic soft patch that combines stubbornly persistent price pressures with weak industrial output and fragile public finances. While the government points to improving headline figures, international institutions and opposition voices argue the country has effectively stagnated for three years. The gap between official optimism and lived reality is shaping into one of Europe's more politically charged economic debates.",
+      "body": "<h3>Inflation Eases on Paper, but Households Are Not Feeling It</h3><p>Hungary&#x27;s headline inflation rate has retreated significantly from the extreme peaks of 2023, when it ranked among the highest in the European Union, briefly surpassing 25 percent. The government has cited this trajectory as evidence that its economic management is working, pointing to forecasts from domestic institutions suggesting further moderation through 2025 and into 2026.</p><p>The picture looks considerably less reassuring when examined beneath the surface. Services inflation remains sticky, and everyday costs for food, utilities, and household goods continue to bite, according to assessments by the International Monetary Fund and Allianz Trade. The European Commission, in its most recent projections, still places Hungary&#x27;s inflation above target well into 2026, a timeline that offers little comfort to families already stretched by two years of elevated prices.</p><p>The dominant public mood, according to analysts tracking Hungarian consumer sentiment, is one of resigned fatigue rather than relief. People register that the macro numbers have improved; they do not, however, experience their daily budgets as having recovered. That divergence between statistical improvement and lived reality is politically significant, and opposition parties have begun to exploit it with some effectiveness.</p><h3>Three Years of Stagnation Leave Industry and Investment Trailing</h3><p>Beyond inflation, Hungary faces a more structural problem. The IMF has stated that the country&#x27;s economic output has effectively stagnated for three consecutive years, a damaging characterisation for a government that built much of its political identity around delivering growth superior to the European mainstream. Industrial production, which forms a critical pillar of the Hungarian export model, remains subdued. Investment, both domestic and foreign, has failed to provide the compensating momentum that officials had anticipated.</p><p>The government&#x27;s position is that the economy is stabilising and that a moderate recovery is now underway, citing European Commission forecasts for GDP growth of around 2 percent in 2026 and 2027. Officials have argued that the industrial slowdown, heavily influenced by weakness in Germany and broader European demand for manufactured goods, is bottoming out and that structural fundamentals remain intact.</p><p>Critics, including opposition economists and independent analysts, argue that this framing mistakes a fragile plateau for genuine recovery. Budget deficit pressures remain elevated, and Hungary continues to operate under the EU&#x27;s Excessive Deficit Procedure, constraining the fiscal space available to stimulate demand. Debt dynamics, while not yet at crisis levels, add another layer of vulnerability if external conditions deteriorate. The overall picture, as multiple international institutions describe it, is of an economy waiting for a breakthrough that has not arrived.</p><h3>Political Stakes Rise as the EU Watches Closely</h3><p>The convergence of persistent inflation and economic stagnation carries consequences that extend well beyond household budgets. Hungary&#x27;s prolonged underperformance relative to regional peers, including Poland and the Czech Republic, is increasingly difficult for the government to attribute solely to external shocks. Warsaw and Prague have faced similar headwinds from German industrial weakness and elevated energy costs, yet both economies have demonstrated greater resilience in investment and domestic demand.</p><p>For the European Union, Hungary&#x27;s fiscal position remains a live concern. Continued operation under the Excessive Deficit Procedure limits Budapest&#x27;s ability to deploy counter-cyclical spending, while separately, disputes over the disbursement of EU cohesion funds have reduced an important source of investment financing. The two pressures are mutually reinforcing: less EU money flowing in means weaker investment; weaker investment prolongs stagnation; stagnation makes deficit reduction harder.</p><p>The next meaningful test will come in the autumn budget cycle, when the government must demonstrate credible fiscal consolidation to satisfy Brussels while simultaneously managing domestic political pressure ahead of elections expected in 2026. Whether officials can square that circle, by tightening public finances without further depressing a already-weak economy, will determine whether Hungary&#x27;s current stagnation transitions into a genuine recovery or hardens into a more serious structural problem. For now, the evidence tilts toward caution.</p>",
+      "keywords": "Hungary, inflation, economic stagnation, EU Excessive Deficit Procedure, Hungarian economy, cost of living, industrial output, fiscal policy, Central Europe, European Commission",
+      "sources": "International Monetary Fund, Hungary Article IV Assessment; European Commission, Spring 2025 Economic Forecast; Allianz Trade, Central and Eastern Europe Economic Outlook; IMF World Economic Outlook 2025",
+      "pubDate": "2026-08-07",
+      "chartData": {
+        "values": [
+          25.7,
+          17.6,
+          5.5,
+          3.8
+        ],
+        "labels": [
+          "Hungary Peak 2023",
+          "Hungary 2024",
+          "EU Average 2024",
+          "ECB Target"
+        ]
+      }
+    },
     {
       "id": "article-1808111",
       "title": "Slovakia's Fiscal Squeeze: Austerity Without Recovery Fuels Political and Social Strain",
@@ -12085,6 +12111,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260807-hungary",
+      "title": "Hungary - 2026.08.07",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:42",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_07/Hungary_Episode_2026_08_07.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 137,
+      "keywords": "Hungary",
+      "notes": "Hungary is navigating a prolonged economic soft patch that combines stubbornly persistent price pressures with weak industrial output and fragile public finances. While the government points to improving headline figures, international institutions and opposition voices argue the country has effectively stagnated for three years. The gap between official optimism and lived reality is shaping into one of Europe's more politically charged economic debates.",
+      "pubDate": "2026-08-07"
+    },
     {
       "id": "episode-20260807-slovakia",
       "title": "Slovakia - 2026.08.07",
