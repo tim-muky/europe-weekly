@@ -1,5 +1,5 @@
 {
-  "version": 1786079102759,
+  "version": 1786079199425,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-2944b5c",
+      "title": "Austria's Coalition Deadlock and Budget Squeeze Leave Households in Limbo",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "excerpt": "Austria remains politically rudderless as rival parties clash over deficit reduction, far-right representation, and the pace of economic recovery. With the budget deficit projected to exceed four percent of GDP and two consecutive years of economic contraction behind it, the country faces a rare combination of political and economic fragility. The outcome of coalition talks will determine the severity of spending cuts and the prospects for millions of households already worn down by prolonged economic weakness.",
+      "body": "<h3>A Country Still Searching for Stable Government</h3><p>Austria has now spent months in a state of political uncertainty that few of its European peers would recognise as normal. The parliamentary election produced no clear governing mandate, leaving established centrist parties to negotiate a workable coalition while simultaneously trying to exclude or contain the far-right Freedom Party, the FPÖ, which emerged as the single largest party in the vote.</p><p>The centrist coalition camp argues that forming a government quickly is not merely a matter of political preference but a fiscal necessity. Austria risks triggering an EU excessive-deficit procedure if its public finances are not brought under control, according to reporting by Reuters. With the deficit forecast to surpass four percent of GDP, the pressure to present Brussels with a credible consolidation plan is immediate and real.</p><p>FPÖ leaders and other opposition voices counter that the effort to sideline the election&#x27;s winner amounts to a democratic anomaly. They argue that establishment parties are using the language of budget discipline to justify unpopular tax increases and spending cuts while obscuring their own role in producing the fiscal shortfall. That argument carries political weight with a significant share of the electorate, even if the underlying deficit figures are not in dispute.</p><h3>Two Years of Contraction Cloud the Recovery Narrative</h3><p>Beneath the coalition arithmetic lies an economic picture that officials have struggled to present with confidence. Austria&#x27;s economy contracted for two consecutive years, a sustained downturn that is unusual by the standards of a wealthy eurozone member and that has left both households and businesses in a cautious, wait-and-see posture.</p><p>Government-aligned voices have sought to frame the current moment as the beginning of a stabilisation phase, pointing to easing inflation and modest projections for a return to positive growth. The messaging bears some resemblance to a structured recovery agenda, emphasising lower price pressures, incremental growth, and fiscal repair as interconnected goals. Yet the data available does not yet confirm a decisive turning point. Analysts and independent observers describe the situation as fragile bottoming-out rather than genuine recovery, and warn that austerity-style consolidation measures could suppress domestic demand precisely when it needs room to breathe.</p><p>The practical consequences for citizens are direct. Any coalition agreement will need to reconcile fiscal consolidation targets with the political cost of cutting public services or raising taxes on households that have already absorbed two years of economic contraction. The balance struck in those negotiations will shape the lived experience of Austrians well beyond the next budget cycle.</p><h3>What Comes Next and Why It Matters Beyond Austria</h3><p>The immediate pressure point is the formation of a coalition capable of passing a credible medium-term budget framework before EU monitoring procedures advance further. Failure to do so would not only carry financial penalties and reputational damage in Brussels but could also deepen investor uncertainty about Austrian sovereign finances at a moment when eurozone borrowing costs remain elevated.</p><p>Should a centrist coalition finally take shape, its durability will depend heavily on whether it can sell a programme of fiscal restraint to a public that is exhausted rather than energised. Polling and the broader political atmosphere suggest the electorate&#x27;s mood is closer to resignation than enthusiasm, a condition that tends to reward opposition forces who promise disruption over incumbents who promise discipline.</p><p>Austria&#x27;s predicament also carries lessons for the wider European Union. Several member states are navigating the same tension between post-pandemic fiscal consolidation commitments and electorates that have grown impatient with austerity framing. If Vienna manages to form a stable government and thread the needle between credible deficit reduction and sustained public investment, it could offer a template. If it fails, or if the coalition collapses under the weight of competing demands, it will add another data point to a growing European pattern of governance instability in the face of economic stress. The next few weeks of negotiation are unlikely to resolve all of these questions, but they will set the terms on which Austria enters what its government hopes will be a year of cautious recovery.</p>",
+      "keywords": "Austria, coalition talks, FPÖ, budget deficit, fiscal consolidation, economic contraction, eurozone, EU excessive-deficit procedure, Austrian politics, recovery, inflation, public spending",
+      "sources": "Reuters, reporting on Austria's deficit projection and economic contraction; general coverage of Austrian coalition negotiations and FPÖ election performance; EU excessive-deficit procedure framework documentation",
+      "pubDate": "2026-08-07",
+      "chartData": {
+        "values": [
+          4.0,
+          -0.5,
+          -0.3
+        ],
+        "labels": [
+          "Deficit % of GDP (projected)",
+          "GDP growth year 1",
+          "GDP growth year 2"
+        ]
+      }
+    },
     {
       "id": "article-8342da3",
       "title": "Hungary's Economy Stuck in Low Gear as Inflation Fatigue and Stagnation Fears Weigh on Households",
@@ -12111,6 +12135,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260807-austria",
+      "title": "Austria - 2026.08.07",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "duration": "8:34",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_07/Austria_Episode_2026_08_07.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 138,
+      "keywords": "Austria",
+      "notes": "Austria remains politically rudderless as rival parties clash over deficit reduction, far-right representation, and the pace of economic recovery. With the budget deficit projected to exceed four percent of GDP and two consecutive years of economic contraction behind it, the country faces a rare combination of political and economic fragility. The outcome of coalition talks will determine the severity of spending cuts and the prospects for millions of households already worn down by prolonged economic weakness.",
+      "pubDate": "2026-08-07"
+    },
     {
       "id": "episode-20260807-hungary",
       "title": "Hungary - 2026.08.07",
