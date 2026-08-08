@@ -1,5 +1,5 @@
 {
-  "version": 1786165390143,
+  "version": 1786165485461,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-47c148b",
+      "title": "Lithuania Torn Between Cabinet Crisis and Defence Build-Up as Regional Pressures Mount",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "excerpt": "Lithuania is navigating simultaneous political turbulence and intensifying security pressures, with its newly formed Social Democrat-led government facing constitutional questions over the cabinet's completeness while pushing ahead with major defence procurement. The twin crises are straining institutional credibility and forcing difficult choices about spending priorities. For a Baltic state sitting on NATO's eastern flank, the timing could hardly be more consequential.",
+      "body": "<h3>A Government Under Legal Cloud</h3><p>Lithuania&#x27;s Social Democrat-led coalition is struggling to establish itself on firm legal ground after a series of resignations, ministerial reshuffles, and a disputed cabinet approval process that critics argue violated constitutional norms. At the centre of the controversy is whether the government was formally approved and its programme submitted to parliament before the full cabinet was in place — a procedural gap that opposition lawmakers say is not a minor technicality but a fundamental question of executive legitimacy.</p><p>The governing camp has pushed back, arguing that the Social Democrats retain a clear parliamentary mandate to form and lead the government, and that outstanding ministerial appointments represent administrative details rather than constitutional defects. Prime Minister Gintauté Skaistė&#x27;s office has framed the process as one of managed transition rather than institutional failure, urging parliament to focus on policy delivery rather than procedural disputes.</p><p>However, the opposition&#x27;s case appears better supported by the available record. Multiple reports confirm that the cabinet was discussed and approved in an incomplete state, and that formal constitutional complaints are either being prepared or are already under consideration. Legal scholars and opposition figures have described the situation as unusually messy by Lithuanian standards, raising questions about whether the president and the governing coalition applied sufficient scrutiny to the process or prioritised speed over legality.</p><h3>Procurement Drives and the Cost of Deterrence</h3><p>Running in parallel to the political turbulence is an accelerating defence agenda driven by Lithuania&#x27;s sustained concern over Russian military posture and continued Belarusian alignment with Moscow. The government and defence establishment have been advancing procurement plans that include surveillance aircraft acquisitions and expanded defence-industrial cooperation, framing the investment as a necessary down payment on long-term deterrence rather than a response to any immediate threat.</p><p>Defence officials have argued publicly that the cost of vulnerability outweighs the cost of preparation, a calculation that has broad political support across party lines in Vilnius. Lithuania has consistently exceeded NATO&#x27;s two-percent-of-GDP spending target in recent years and has signalled its intention to push that figure higher as regional threat assessments harden. The country&#x27;s geography — sharing borders with both the Russian exclave of Kaliningrad and Belarus — lends particular urgency to these commitments.</p><p>Critics, however, have begun to question whether the relentless escalation in defence rhetoric and procurement is producing proportionate security gains, or whether it risks locking Lithuania into a permanently elevated emergency posture that crowds out social spending and economic investment. With a government already under institutional strain, the argument that security priorities are absorbing political bandwidth at the expense of domestic governance has gained some traction in public debate, even if it remains a minority position.</p><h3>Outlook: Institutional Repair Meets Strategic Urgency</h3><p>Lithuania now faces the difficult task of resolving its domestic institutional questions while sustaining momentum on defence commitments that its allies — and its own security planners — regard as non-negotiable. The constitutional complaints being prepared against the cabinet formation process could, if pursued through the courts or through parliamentary channels, force a further reshuffle or create additional delays in delivering the government&#x27;s legislative programme. That would deepen the sense of political instability that has already characterised the opening weeks of the new administration.</p><p>For ordinary Lithuanians, the practical consequences cut across two distinct registers. On governance, an administration under legal challenge finds it harder to negotiate budget priorities, pass legislation, or project authority in European Union forums where Lithuania has been an increasingly vocal actor on issues ranging from migration to energy diversification. On security, the spending commitments already made will translate into higher defence levies and potential trade-offs against healthcare, education, and infrastructure investment in coming budget cycles.</p><p>The broader regional picture offers little respite. The Baltic states collectively are engaged in an unprecedented period of defence build-up, underpinned by the recognition that NATO&#x27;s eastern flank requires sustained credibility rather than cyclical attention. Lithuania&#x27;s ability to contribute meaningfully to that effort depends in part on having a functioning, legitimate government capable of making and honouring long-term commitments. Whether the current coalition can stabilise itself quickly enough to meet that standard is the central question hanging over Vilnius as the autumn political season accelerates.</p>",
+      "keywords": "Lithuania, coalition government, cabinet formation, constitutional crisis, Social Democrats, Baltic security, defence procurement, NATO, Russia, Belarus, Kaliningrad, deterrence spending, political instability, Vilnius",
+      "sources": "Lithuanian parliamentary session reports on cabinet formation and constitutional disputes; Baltic defence procurement briefings and regional security assessments; opposition statements on cabinet legitimacy and constitutional procedure; government communications from the Social Democrat-led coalition; NATO eastern flank spending and deterrence policy documentation",
+      "pubDate": "2026-08-08",
+      "chartData": {
+        "values": [
+          2.52,
+          2.37,
+          2.15,
+          2.0
+        ],
+        "labels": [
+          "Lithuania",
+          "Estonia",
+          "Latvia",
+          "NATO Target"
+        ]
+      }
+    },
     {
       "id": "article-bdb5434",
       "title": "Latvia Faces Twin Pressures of Drone Threats and Fiscal Tightening as Security Costs Mount",
@@ -12179,6 +12205,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260808-lithuania",
+      "title": "Lithuania - 2026.08.08",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "8:40",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_08/Lithuania_Episode_2026_08_08.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 141,
+      "keywords": "Lithuania",
+      "notes": "Lithuania is navigating simultaneous political turbulence and intensifying security pressures, with its newly formed Social Democrat-led government facing constitutional questions over the cabinet's completeness while pushing ahead with major defence procurement. The twin crises are straining institutional credibility and forcing difficult choices about spending priorities. For a Baltic state sitting on NATO's eastern flank, the timing could hardly be more consequential.",
+      "pubDate": "2026-08-08"
+    },
     {
       "id": "episode-20260808-latvia",
       "title": "Latvia - 2026.08.08",
