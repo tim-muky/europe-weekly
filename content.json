@@ -1,5 +1,5 @@
 {
-  "version": 1786165485461,
+  "version": 1786165574986,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3978531",
+      "title": "Estonia's Inflation Eases but Household Squeeze Persists as Parliament Rejects Food VAT Cut",
+      "categories": [
+        "cat-nbf1ay4"
+      ],
+      "excerpt": "Estonia's headline inflation rate has fallen to 2.2% in July 2026, offering macroeconomic relief after years of elevated price pressure. Yet parliament's rejection of a proposed VAT reduction on basic food has sharpened a political divide over whether the recovery is reaching ordinary households. The gap between improving statistics and lived experience is becoming the defining tension in Estonian domestic politics.",
+      "body": "<h3>Headline Numbers Improve, but the Relief Feels Uneven</h3><p>Estonia&#x27;s annual inflation rate eased to 2.2% in July 2026, a significant decline from the sharper price surges of recent years and a development that both the government and international institutions have welcomed as evidence that the worst of the inflation shock is passing. Eesti Pank and the European Commission have both pointed to fading effects from tax and administrative cost adjustments as key drivers of the moderation, reinforcing the view that the broader price trend is moving in the right direction.</p><p>The government has paired this narrative with a positive second-quarter GDP print, arguing that Estonia is entering a genuine, if cautious, recovery phase. For policymakers, the combination of lower inflation and returning growth represents a vindication of the fiscal discipline approach maintained through a difficult two-year period of elevated prices and subdued demand.</p><p>However, critics and consumer advocates argue that a falling headline rate does not automatically translate into relief at the checkout or the fuel pump. Services inflation has remained elevated, transport and telecoms costs continue to bite, and food prices have shown stubborn resistance in recent forecasting rounds. Since much of Estonia&#x27;s inflation was originally driven by taxes and administered prices rather than pure demand, the downward movement in the index does not mean prices are reversing — only that they are rising more slowly than before.</p><h3>Parliament Closes the Door on a Food VAT Reduction</h3><p>Against this backdrop of cautious macro recovery and persistent household pressure, Estonia&#x27;s parliament voted to reject a proposal that would have reduced the value-added tax on basic food items from the standard rate to 9%. The decision has reignited a debate that many European governments have faced: whether targeted tax relief on essentials is sound policy or an expensive gesture that delivers uncertain benefits to consumers.</p><p>Supporters of the rejection argued that cutting VAT on food would weaken government revenues at a time when the budget is already navigating competing pressures, and warned that it could trigger a chain reaction of demands for further concessions in other sensitive categories. There is also a structural concern that runs across several European markets, namely that VAT reductions do not reliably translate into proportional price reductions at the retail level, meaning the fiscal cost can be real while the consumer benefit remains diffuse or absorbed by retailers as margin.</p><p>Opponents framed the vote differently. With inflation easing enough to generate positive political headlines, they argued there was both the fiscal space and the political logic to extend some of that improvement directly to households through a concrete reduction in grocery costs. For the opposition, the rejection is evidence of a government that is quicker to cite improving statistics than to act on the day-to-day affordability concerns of lower- and middle-income families still adjusting to price levels that are, in absolute terms, significantly higher than they were three years ago.</p><h3>A Recovery That Has Yet to Be Felt, and a Political Cost That Is Already Accumulating</h3><p>The broader outlook for Estonia is one of gradual stabilisation, but the pace and distribution of that stabilisation will determine whether the current government narrative holds politically. If services inflation and food costs continue to moderate through the second half of 2026, the macro story becomes easier to defend and public frustration may ease naturally. If those categories remain sticky while wages and household budgets struggle to absorb the cumulative price increases of the past several years, the political cost of rejecting relief measures could compound.</p><p>Estonia is not alone in this dynamic. Across the European Union, governments that weathered the inflation spike by emphasising fiscal prudence are now facing electorates that are comparing promised recoveries with their own bank statements. The political debate has shifted from crisis management to distribution: who benefits first from stabilisation, and how quickly does that reach households rather than staying at the level of aggregate indicators.</p><p>The rejection of the food VAT cut will likely remain a live political issue heading into the autumn budget cycle, with opposition parties expected to return to the affordability argument as long as services and food costs remain above pre-shock levels. For now, the government holds a defensible fiscal position and a supportive macro trend, but the gap between the headline recovery and the lived experience of Estonian households is the fault line that both sides will continue to contest.</p>",
+      "keywords": "Estonia, inflation, VAT, food prices, cost of living, Estonian parliament, fiscal policy, Eesti Pank, European Commission, household finances, Baltic economy, tax reform",
+      "sources": "Eesti Pank monetary and inflation data; European Commission economic forecasts for Estonia; Estonian parliamentary proceedings on VAT reform proposal; Estonian Statistics Office consumer price index data",
+      "pubDate": "2026-08-08",
+      "chartData": {
+        "values": [
+          2.2,
+          9.0,
+          20.0
+        ],
+        "labels": [
+          "Estonia Inflation July 2026 (%)",
+          "Proposed Food VAT Rate (%)",
+          "Standard VAT Rate (%)"
+        ]
+      }
+    },
     {
       "id": "article-47c148b",
       "title": "Lithuania Torn Between Cabinet Crisis and Defence Build-Up as Regional Pressures Mount",
@@ -12205,6 +12229,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260808-estonia",
+      "title": "Estonia - 2026.08.08",
+      "categories": [
+        "cat-nbf1ay4"
+      ],
+      "duration": "7:57",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_08/Estonia_Episode_2026_08_08.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 142,
+      "keywords": "Estonia",
+      "notes": "Estonia's headline inflation rate has fallen to 2.2% in July 2026, offering macroeconomic relief after years of elevated price pressure. Yet parliament's rejection of a proposed VAT reduction on basic food has sharpened a political divide over whether the recovery is reaching ordinary households. The gap between improving statistics and lived experience is becoming the defining tension in Estonian domestic politics.",
+      "pubDate": "2026-08-08"
+    },
     {
       "id": "episode-20260808-lithuania",
       "title": "Lithuania - 2026.08.08",
