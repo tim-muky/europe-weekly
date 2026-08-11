@@ -1,5 +1,5 @@
 {
-  "version": 1786165574986,
+  "version": 1786434215392,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3123e29",
+      "title": "Sweden at a Crossroads: Falling Inflation and a Fractured Political Landscape Cloud the Path Forward",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "Sweden's inflation has dropped to its lowest levels in years, offering households a measure of relief after a prolonged cost-of-living squeeze. Yet the government's own admission that the country remains in a \"protracted recession\" tempers any optimism. Meanwhile, a combustible election-season battle over coalition power, immigration, and crime is reshaping the political terrain, with opinion polls showing the opposition bloc pulling ahead.",
+      "body": "<h3>Disinflation Arrives, But Recovery Remains Unfinished</h3><p>Sweden&#x27;s headline inflation rate fell to 0.7 percent in June, as measured by the Consumer Price Index, while the Riksbank&#x27;s preferred gauge, the CPIF, dropped to 1.3 percent in the same month before falling further to 0.7 percent in July, according to Statistics Sweden. For a country that endured a sharp cost-of-living shock over the preceding two years, the numbers represent a meaningful turning point in the price cycle.</p><p>The government has been careful to frame the data as encouraging without overstating the case. Official messaging acknowledges that the economy is still in a fragile state, but argues that easing inflation pressure should allow monetary conditions to loosen and provide a platform for a stronger recovery later in 2025. Falling real interest rate burdens and improving real wages are cited as the early fruits of that process.</p><p>Opposition parties, however, argue that lower inflation is not the same as restored prosperity. With unemployment still a concern and household balance sheets not yet repaired from years of price erosion, centre-left critics contend the governing bloc is presenting a selective reading of the data. The government itself has described the situation as a &quot;protracted recession,&quot; a characterisation that sits uneasily alongside more optimistic political messaging and leaves many Swedish families watching the macro numbers without yet feeling them in their daily finances.</p><h3>A Coalition Under Pressure as Election Politics Turn Combative</h3><p>Beyond the economic debate, Sweden is entering a sharper and more combative political phase. The governing right-wing bloc, which depends on the parliamentary support of the Sweden Democrats to maintain its majority, is facing mounting questions about the terms and durability of that arrangement. The Sweden Democrats have stated openly that they expect a direct share of executive power should the right win the next election, a demand that is testing the cohesion of the broader conservative alliance.</p><p>The governing camp argues it has acted decisively on the issues that matter most to its voters, pointing to justice reforms, tougher measures on migration-related crime, and a sustained focus on law and order. Senior figures on the right have argued they have won the battle of ideas on security and immigration and therefore deserve a stronger electoral mandate. That claim, however, is being challenged by the polls. According to survey data cited in Swedish political reporting, the opposition bloc currently leads ahead of the election, putting the government&#x27;s position under measurable pressure.</p><p>Centre-left and Social Democrat-aligned parties are seeking to redirect the debate toward welfare, labour-market conditions, and citizenship policy, areas where they believe the governing bloc is exposed. They also argue that the government&#x27;s structural dependence on the Sweden Democrats risks normalising a polarising style of politics while leaving deeper social and economic problems unaddressed. The result is a political environment that analysts describe as increasingly election-driven, with crime, immigration, and coalition legitimacy all colliding in a single contested space.</p><h3>What Comes Next: Rates, Votes, and the Risk of a Prolonged Standoff</h3><p>The interaction between Sweden&#x27;s economic trajectory and its political calendar is likely to define the coming months. If disinflation continues and the Riksbank sees room to ease monetary policy further, some of the pressure on households could begin to lift in a tangible way before votes are cast. That would give the governing camp its strongest possible argument: that the pain was real, but the strategy worked. The window for that narrative to take hold, however, is narrow.</p><p>Conversely, if growth remains anaemic and unemployment does not improve materially, the opposition&#x27;s framing of a government that is overselling recovery while ordinary Swedes remain stretched is likely to gain traction. Public mood, currently characterised by cautious relief rather than genuine optimism, could shift in either direction depending on how quickly economic conditions translate into felt improvements for middle-income households.</p><p>On the political side, the central unknown is whether the Sweden Democrats&#x27; demand for cabinet seats will fracture the right bloc before or after the election, and whether the opposition can hold its polling lead through what is expected to be an intensely negative campaign on crime and immigration. The stakes extend beyond Sweden&#x27;s borders: how one of northern Europe&#x27;s largest economies navigates the combination of incomplete disinflation, fragile growth, and a polarised political contest will be watched closely by partners and investors across the continent. The next several months will test whether Sweden&#x27;s institutions can manage all three pressures at once.</p>",
+      "keywords": "Sweden economy, Swedish inflation, CPIF, disinflation, Riksbank, Sweden Democrats, Swedish election, coalition politics, immigration Sweden, cost of living Sweden, Swedish recession, opposition polls Sweden, European politics",
+      "sources": "Statistics Sweden, CPI and CPIF data for June and July; Swedish government official economic communications, 2025; Reuters political polling coverage, Sweden opposition bloc lead; Sweden Democrats coalition power-sharing statements; Swedish parliamentary reporting on justice and migration reform",
+      "pubDate": "2026-08-10",
+      "chartData": {
+        "values": [
+          0.7,
+          1.3
+        ],
+        "labels": [
+          "CPI June",
+          "CPIF June"
+        ]
+      }
+    },
     {
       "id": "article-3978531",
       "title": "Estonia's Inflation Eases but Household Squeeze Persists as Parliament Rejects Food VAT Cut",
@@ -12229,6 +12251,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260810-sweden",
+      "title": "Sweden - 2026.08.10",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "7:59",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_10/Sweden_Episode_2026_08_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 143,
+      "keywords": "Sweden",
+      "notes": "Sweden's inflation has dropped to its lowest levels in years, offering households a measure of relief after a prolonged cost-of-living squeeze. Yet the government's own admission that the country remains in a \"protracted recession\" tempers any optimism. Meanwhile, a combustible election-season battle over coalition power, immigration, and crime is reshaping the political terrain, with opinion polls showing the opposition bloc pulling ahead.",
+      "pubDate": "2026-08-10"
+    },
     {
       "id": "episode-20260808-estonia",
       "title": "Estonia - 2026.08.08",
