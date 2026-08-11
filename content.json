@@ -1,5 +1,5 @@
 {
-  "version": 1786434237515,
+  "version": 1786434244803,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,18 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-0816766",
+      "title": "Portugal at a Crossroads: Labour Unrest and Far-Right Surge Reshape a Nation",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "excerpt": "Portugal is grappling with two simultaneous and intersecting crises: a bitter dispute over government-backed labour market reforms that has driven workers into the streets, and a dramatic political realignment that has elevated the far-right Chega party to the centre of national life. Together, these developments signal a country under significant social and institutional strain. The consequences extend beyond Lisbon, carrying implications for the European Union's southern flank and for the future of labour standards across the bloc.",
+      "body": "<h3>A Labour Reform Package Ignites Public Anger</h3><p>Portugal&#x27;s centre-right government has put forward a package of labour market reforms designed to make hiring more flexible, simplify contract renewals, and ease labour mobility across sectors. Officials argue that the country&#x27;s rigid employment framework is holding back growth, discouraging foreign investment, and leaving businesses unable to respond quickly to labour shortages. The reform, according to government statements, is intended to make Portugal more competitive within the European single market at a time when firms are struggling to fill vacancies.</p><p>Unions have responded with sharp opposition, culminating in a general strike that demonstrated the depth of public frustration. Critics argue that the proposals would make it significantly easier for employers to extend temporary contracts and would dilute dismissal protections that workers have spent decades securing. For many in Portugal&#x27;s labour movement, the reforms are not a modernisation but a rollback — a shift of power away from employees at a moment when the cost of living remains a pressing concern for ordinary households.</p><p>The evidence supports a genuine and serious conflict. The strike and the intensity of parliamentary debate confirm that this is not a technocratic disagreement but a politically charged battle over what kind of economy Portugal wants to build. Whether the reforms will deliver the competitiveness gains the government promises remains, for now, an open question that neither the data nor the current political moment can answer definitively.</p><h3>Chega Consolidates as Portugal&#x27;s Political Landscape Tilts Right</h3><p>Running in parallel with the labour dispute is a transformation in Portugal&#x27;s political architecture that would have seemed improbable a decade ago. Chega, the far-right party founded in 2019, has cemented its position as one of the country&#x27;s most consequential political forces, now holding more than a quarter of seats in parliament. Multiple sources describe the party as the main opposition force, a status that reflects both its own organisational strength and the significant weakening of the centre-left Socialist Party, which dominated Portuguese politics for much of the post-dictatorship era.</p><p>Supporters of the rightward shift argue it reflects genuine voter demand for firmer policies on immigration, law and order, and institutional accountability. The mainstream right has itself moved in this direction, with debate intensifying over tighter entry rules for migrants and restrictions on access to public services, including the national health system. Proponents contend that established parties failed to address these concerns for too long, creating the space Chega now occupies.</p><p>Critics see a more troubling picture. Political analysts have described the current moment as one of democratic stress rather than renewal, pointing to increased polarisation, recurring coalition instability, and an agenda increasingly shaped by the far-right&#x27;s priorities. The fragmentation of the political centre means that governing coalitions are harder to build and that extremes exert disproportionate influence over public debate. For Portugal&#x27;s partners in Brussels, the trajectory raises questions about the durability of the country&#x27;s traditionally pro-European consensus.</p><h3>Outlook: Volatility Ahead as Two Crises Converge</h3><p>The intersection of these two crises — a contested labour reform and a fragmented, rightward-shifting political system — creates a particularly difficult environment for stable governance. The government must now navigate a labour dispute that has already produced a general strike while simultaneously managing a parliamentary arithmetic in which Chega&#x27;s votes can be decisive. That dynamic risks either pushing legislation further to the right or producing deadlock that satisfies neither business interests nor workers.</p><p>For ordinary Portuguese citizens, the stakes are tangible. Labour reforms, if passed in their current form, could affect the terms under which millions of people are employed. The political realignment, meanwhile, is already reshaping policy debates on immigration and public services that touch daily life. The vibe across the country, as captured in reporting on both the strike and the electoral landscape, is one of frustration and volatility rather than confidence in the direction of travel.</p><p>The coming months will be a stress test for Portugal&#x27;s institutions. Key legislative votes on the labour package are expected to sharpen battle lines in parliament, while Chega&#x27;s continued momentum will pressure both the government and what remains of the centre-left to define their positions more clearly. The European Commission, which monitors member states&#x27; structural reform agendas and social dialogue requirements, will be watching closely. Portugal has long been seen as a model of democratic resilience in Southern Europe; how it navigates this period will help determine whether that reputation holds.</p>",
+      "keywords": "Portugal, Chega, far-right, labour reform, worker protection, general strike, Portuguese politics, political realignment, immigration policy, European Union, Southern Europe, Socialist Party, trade unions, coalition politics, labour market flexibility",
+      "sources": "Portuguese government statements on labour market reform competitiveness rationale [1][12]; Union and opposition reporting on general strike and dismissal protection concerns [7][15]; Analysis of Chega parliamentary seat share and Socialist Party decline [4][9][14]; Reporting on immigration policy debate and public health access restrictions [1][4][9]; Broader political conflict and coalition instability analysis [14][19]",
+      "pubDate": "2026-08-11"
+    },
     {
       "id": "article-ac68eae",
       "title": "Ireland at a Crossroads: Cabinet Reshuffle Raises Stability Questions as Households Feel the Squeeze",
@@ -12329,6 +12341,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260811-portugal",
+      "title": "Portugal - 2026.08.11",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "duration": "7:56",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_11/Portugal_Episode_2026_08_11.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 147,
+      "keywords": "Portugal",
+      "notes": "Portugal is grappling with two simultaneous and intersecting crises: a bitter dispute over government-backed labour market reforms that has driven workers into the streets, and a dramatic political realignment that has elevated the far-right Chega party to the centre of national life. Together, these developments signal a country under significant social and institutional strain. The consequences extend beyond Lisbon, carrying implications for the European Union's southern flank and for the future of labour standards across the bloc.",
+      "pubDate": "2026-08-11"
+    },
     {
       "id": "episode-20260810-ireland",
       "title": "Ireland - 2026.08.10",
