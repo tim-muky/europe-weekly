@@ -1,5 +1,5 @@
 {
-  "version": 1786434259247,
+  "version": 1786434266322,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,18 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-da9ad71",
+      "title": "Greece Under Pressure: Farm-Fund Scandal and Cost-of-Living Crisis Test Public Trust",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "A widening corruption investigation into Greek agricultural subsidies and a persistent squeeze on household incomes are together reshaping the political landscape in Athens. The two crises, though distinct in nature, share a common thread: a growing gap between official reassurances and the lived experience of Greek citizens. For a government that has staked its reputation on institutional reform and economic competence, both fronts now demand urgent answers.",
+      "body": "<h3>Corruption Probe Puts Farm-Fund Agency in the Crosshairs</h3><p>At the centre of Greece&#x27;s most damaging political crisis in recent months is OPEKEPE, the state agency responsible for distributing EU agricultural subsidies. A broadening investigation has uncovered allegations of fraudulent claims, systematically weak oversight, and what critics describe as political protection for those implicated. The probe has attracted the attention of European prosecutors and has already triggered financial penalties from Brussels, lending the affair a weight that goes well beyond domestic politics.</p><p>The government&#x27;s official position is that it inherited a deeply flawed system and is now cleaning it up. Officials point to reforms including the MyAgro digital platform and active cooperation with EU investigators as evidence of good faith. Prime Minister Kyriakos Mitsotakis&#x27;s administration argues the controls now being put in place represent a structural improvement on years of mismanagement that predate its tenure.</p><p>The opposition is unconvinced. Opposition parties argue that the scandal is not merely an administrative inheritance but reflects active political responsibility at the highest levels of the current government. They point to delays in holding officials accountable and to allegations that figures within the ruling party&#x27;s orbit have been shielded from scrutiny. Independent reporting has lent credibility to these claims, documenting a pattern of resisted accountability that sits uncomfortably with the government&#x27;s reform narrative. The overall picture, as one assessment concluded, is chaotic: the kind of scandal that erodes public trust far beyond partisan lines and continues to generate fresh revelations.</p><h3>Growth Figures Offer Little Comfort to Struggling Households</h3><p>Away from the political drama surrounding OPEKEPE, a quieter but equally corrosive crisis is unfolding at kitchen tables across Greece. Despite headline economic data that would, on paper, warrant optimism, many households say they are not feeling the benefits of recovery. Wages continue to lag behind prices, housing costs have risen sharply in urban centres, and pensioners face sustained pressure on fixed incomes. A wave of industrial action by trade unions has made visible what surveys and anecdotal reports have long suggested: that the macro story and the lived experience are running on separate tracks.</p><p>The government argues, with some justification, that the fundamentals remain sound. Greece&#x27;s economy has continued to expand, public debt is on a declining trajectory, and the country&#x27;s fiscal position has improved markedly compared with the crisis years of the previous decade. Finance ministry officials say the country is on a stable path and that the discomfort of elevated prices is a transient feature of a broader European inflationary cycle rather than evidence of structural failure.</p><p>Official forecasts, however, complicate that argument. Data point to slower growth ahead, with inflation remaining elevated and real income pressure continuing into the near term. That means both sides are partially right: the government&#x27;s macro stability credentials hold, but critics from the unions and opposition benches are also correct that the recovery, such as it is, has not arrived evenly or quickly enough in people&#x27;s wallets. The prevailing public mood, according to analysts tracking sentiment, is one of resignation punctuated by flashes of anger rather than outright despair.</p><h3>Two Crises, One Question: Can Institutions Be Trusted to Deliver?</h3><p>Taken together, the OPEKEPE scandal and the cost-of-living squeeze pose a compound challenge for Athens that is more than the sum of its parts. The agricultural subsidies affair strikes at institutional credibility and Greece&#x27;s standing as a reliable steward of EU funds. The economic strain question strikes at the social contract between a government and the citizens it governs. Both, ultimately, ask the same thing: can the state be trusted, and is growth actually translating into better lives?</p><p>For the European Commission, the farm-funds investigation carries particular significance. Greece remains a major recipient of EU cohesion and agricultural financing, and any finding that structural fraud persisted under the watch of the current administration would have implications not only for Athens but for how Brussels calibrates oversight of member states more broadly. EU prosecutors are understood to be examining the full scope of misuse, and further disclosures cannot be ruled out.</p><p>The months ahead will be telling. On the corruption front, judicial proceedings and potential further revelations will determine whether the scandal deepens into a full-blown government crisis or is successfully contained through the reform measures already announced. On the economic front, the trajectory of real wages, housing costs, and consumer prices will either validate the government&#x27;s stability narrative or fuel further industrial unrest and political discontent. With parliamentary dynamics already tense and European scrutiny intensifying, the Greek government faces a dual test of competence and credibility that will define its political fortunes well into the coming year.</p>",
+      "keywords": "Greece, OPEKEPE, EU farm funds, agricultural subsidies, corruption, cost of living, wages, inflation, Greek economy, European Commission, institutional trust, Greek politics",
+      "sources": "Greek government statements on MyAgro platform and OPEKEPE reforms; European Public Prosecutor's Office reporting on EU subsidy oversight; Greek opposition party statements on ministerial accountability; Greek trade union strike communications and wage data reporting; Greek Finance Ministry fiscal and growth forecasts; Independent investigative reporting on OPEKEPE subsidy misuse and political accountability",
+      "pubDate": "2026-08-11"
+    },
     {
       "id": "article-60b9f44",
       "title": "Italy's Economy: Stable on the Surface, Structurally Stuck Underneath",
@@ -12389,6 +12401,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260811-greece",
+      "title": "Greece - 2026.08.11",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "9:09",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_11/Greece_Episode_2026_08_11.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 150,
+      "keywords": "Greece",
+      "notes": "A widening corruption investigation into Greek agricultural subsidies and a persistent squeeze on household incomes are together reshaping the political landscape in Athens. The two crises, though distinct in nature, share a common thread: a growing gap between official reassurances and the lived experience of Greek citizens. For a government that has staked its reputation on institutional reform and economic competence, both fronts now demand urgent answers.",
+      "pubDate": "2026-08-11"
+    },
     {
       "id": "episode-20260811-italy",
       "title": "Italy - 2026.08.11",
