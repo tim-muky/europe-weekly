@@ -1,5 +1,5 @@
 {
-  "version": 1786434244803,
+  "version": 1786434251862,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7c44d4d",
+      "title": "Spain Caught Between Migration Crisis and Economic Crosswinds as EU Tensions Mount",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "A sudden surge of tens of thousands of migrants into the Spanish enclave of Ceuta has triggered a sharp diplomatic confrontation between Madrid and its European partners, exposing deep divisions over border policy. At the same time, Spain's economy continues to outpace much of the eurozone, yet rising inflation and worsening trade balances are tempering the optimism that stronger growth might otherwise inspire.",
+      "body": "<h3>A Border Emergency That Became a Political Crisis</h3><p>The crisis arrived fast and with considerable force. Roughly 50,000 to 72,000 migrants crossed into Ceuta in a surge that Spanish authorities described as an attack on the country&#x27;s territorial integrity. The Spanish government moved quickly to return the majority of those who had crossed, framing its response as a necessary defence of both national sovereignty and the broader integrity of the European Union&#x27;s external border.</p><p>Prime Minister Pedro Sánchez&#x27;s administration argued that Madrid had acted appropriately under enormous pressure, and that some of the criticism emerging from European capitals was politically motivated rather than grounded in a fair assessment of events on the ground. Officials pointed to the complex diplomatic backdrop, including sustained tensions with Morocco, as a contributing factor that no single policy choice could have neutralised.</p><p>The scale of the crossings was not in dispute. What remained deeply contested was the question of responsibility. Spanish opposition parties, along with a number of right-leaning EU governments, argued that the Sánchez administration&#x27;s broadly accommodating approach to migration had sent the wrong signal and left the border exposed. That framing gained traction in parts of Brussels, adding a European dimension to what was already a bruising domestic debate.</p><h3>Diplomatic Friction and the Limits of EU Solidarity</h3><p>The Ceuta episode has widened an existing fault line inside the European Union over how member states should manage migration at the bloc&#x27;s external frontiers. Spain&#x27;s experience illustrated once again that the political costs of a border crisis fall almost entirely on the country directly affected, even when the underlying causes are regional and systemic rather than the product of any single government&#x27;s choices.</p><p>Critics of the Sánchez government argued that Spain&#x27;s posture on migration policy had undermined its credibility when seeking EU support during the emergency. That argument, however, sits uncomfortably with the available evidence. Reporting from multiple outlets suggests the surge was driven by a combination of geographic vulnerability, shifting Moroccan border enforcement, and broader migratory pressures rather than by a simple cause-and-effect relationship with Spanish domestic policy. The opposition&#x27;s narrative was politically effective but analytically incomplete.</p><p>For the EU institutions, the episode renewed pressure to accelerate progress on the bloc&#x27;s Migration and Asylum Pact, the reform package agreed in principle but still incomplete in its practical implementation. Whether Ceuta will serve as a catalyst for faster action or simply harden existing divisions between member states remains to be seen, but the political atmosphere in Brussels following the crisis was notably less cohesive than European leaders&#x27; public statements suggested.</p><h3>Growth That Feels Distant to Many Households</h3><p>Separate from the political turbulence, Spain&#x27;s economy continued to post figures that other eurozone governments would welcome. Gross domestic product expanded by 0.7 percent in the second quarter, above market expectations and comfortably ahead of the eurozone average. Government officials cited resilient domestic demand and a labour market that has held up better than forecast as evidence that Spain&#x27;s recovery has real foundations, not merely statistical momentum.</p><p>Yet the aggregate numbers tell only part of the story. Inflation climbed to around 3.5 percent in July, a rate that continues to erode the purchasing power of ordinary households even as headline growth remains solid. Trade and current-account data pointed in a similarly cautious direction, with deficits widening and the external surplus that Spain had previously used as a buffer showing signs of narrowing. For many citizens, the sense that the economy was performing well existed at some remove from their actual experience of rising prices and squeezed household budgets.</p><p>The political implications of that gap between macroeconomic performance and lived experience are not trivial. Governments that point to GDP figures while inflation continues to bite tend to lose the argument with voters whose shopping bills tell a different story. The Sánchez administration faces the challenge of translating credible growth statistics into a narrative that resonates with a public whose mood, by most accounts, remains cautious and somewhat resigned rather than optimistic.</p>",
+      "keywords": "Spain, Ceuta, migration crisis, Pedro Sánchez, European Union, border security, Morocco, inflation, GDP growth, eurozone, current account, trade deficit, EU migration pact, Schengen",
+      "sources": "Reuters reporting on Ceuta migration surge; Trading Economics Spain macroeconomic data; European Council Migration and Asylum Pact documentation; Spanish government official statements on border security; Opposition party statements on migration policy",
+      "pubDate": "2026-08-11",
+      "chartData": {
+        "values": [
+          0.7,
+          3.5
+        ],
+        "labels": [
+          "GDP Growth Q2 (%)",
+          "Inflation July (%)"
+        ]
+      }
+    },
     {
       "id": "article-0816766",
       "title": "Portugal at a Crossroads: Labour Unrest and Far-Right Surge Reshape a Nation",
@@ -12341,6 +12363,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260811-spain",
+      "title": "Spain - 2026.08.11",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:53",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_11/Spain_Episode_2026_08_11.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 148,
+      "keywords": "Spain",
+      "notes": "A sudden surge of tens of thousands of migrants into the Spanish enclave of Ceuta has triggered a sharp diplomatic confrontation between Madrid and its European partners, exposing deep divisions over border policy. At the same time, Spain's economy continues to outpace much of the eurozone, yet rising inflation and worsening trade balances are tempering the optimism that stronger growth might otherwise inspire.",
+      "pubDate": "2026-08-11"
+    },
     {
       "id": "episode-20260811-portugal",
       "title": "Portugal - 2026.08.11",
