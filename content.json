@@ -1,5 +1,5 @@
 {
-  "version": 1786434215392,
+  "version": 1786434223209,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8d26f75",
+      "title": "Denmark at a Crossroads: Coalition Deadlock and Cost-of-Living Pressure Test Political Resilience",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "excerpt": "Denmark is navigating a period of political turbulence as fragmented coalition arithmetic complicates government formation and households continue to feel the strain of elevated living costs. While headline inflation has eased to around 1.9 percent, the political consequences of prolonged price pressure are proving far more durable than the macroeconomic data alone would suggest. Together, these two forces are reshaping party strategy, voter sentiment, and Denmark's broader standing within EU policy debates.",
+      "body": "<h3>Coalition Arithmetic Produces Drift, Not Direction</h3><p>Denmark&#x27;s multiparty system has long demanded coalition-building as a basic condition of governance, but the current political landscape is testing the limits of that pragmatic tradition. Following the most recent election cycle, Reuters reported persistent deadlock in coalition talks, with bloc politics remaining tightly balanced and no single grouping able to assemble a commanding majority. The result, according to analysts tracking the process, is a government defined more by what it can avoid than what it can deliver.</p><p>Supporters of Denmark&#x27;s centrist coalition model argue that compromise is a structural feature of Danish democracy, not a sign of weakness. With Greenland tensions adding an external dimension to domestic politics, and EU security and reform debates demanding coherent national positions, proponents say pragmatic deal-making is the only viable path to keeping the country governable. The government has framed its incremental approach as responsible stewardship in an uncertain environment.</p><p>Critics push back hard on that framing. Opposition voices argue that the current model has produced blurred accountability, policy deadlock, and growing voter frustration with elite bargaining that feels disconnected from daily concerns. Election coverage shows that the electorate has repeatedly signaled fatigue with the centrist consensus, particularly on welfare, migration, and taxation. The overall political vibe, as one assessment put it, is chaotic — not crisis-level, but marked by visible drift and a lack of clear answers about who can actually govern with purpose.</p><h3>Inflation Eases on Paper, but Voters Are Still Feeling the Squeeze</h3><p>Denmark&#x27;s headline inflation rate has fallen to approximately 1.9 percent, a figure the government has pointed to as evidence that price pressures are largely contained. The left-leaning administration has sought to reinforce that message with a package of targeted measures, including reductions in food value-added tax, public transport subsidies, and relief for pensioners facing higher living costs. Officials have argued that these steps represent a practical and proportionate response rather than a sign of economic emergency.</p><p>However, the gap between macroeconomic indicators and lived experience is where the political danger lies. Food, housing, and fuel costs remain elevated in absolute terms, and voters appear to be judging the government not on the direction of the inflation curve but on whether prices feel affordable day to day. Reuters coverage and domestic election analysis both indicate that cost-of-living concerns remain among the top issues driving voter behaviour, suggesting the political half-life of inflation outlasts its statistical one.</p><p>Opposition parties have been quick to exploit that gap. Their argument is not that the economy is in freefall but that the government moved too slowly, reacting only after households had already absorbed months of real strain. The prevailing public mood, according to available assessments, is one of resignation punctuated by pockets of genuine anger — not panic, but a sustained skepticism that relief is arriving at the pace or scale that ordinary Danes actually need.</p><h3>Outlook: Stability Is the Prize, But the Path Remains Unclear</h3><p>The intersection of coalition instability and cost-of-living fatigue creates a compounding risk for Denmark&#x27;s political class. A government struggling to project coherence on the domestic front is also less well-positioned to engage decisively on external pressures, including the EU&#x27;s evolving security architecture, trade policy debates, and the ongoing question of Greenland&#x27;s geopolitical status. Institutional credibility at home and abroad tends to move together.</p><p>For markets and businesses, the immediate consequences of political drift are modest but real. Prolonged uncertainty over coalition stability can delay policy decisions on taxation, public investment, and regulatory frameworks, particularly in areas such as energy transition and welfare reform where legislative follow-through matters. Investors and employers watching Denmark&#x27;s political calendar will be alert to whether a stable governing arrangement emerges in the near term or whether the country enters a more protracted period of minority governance and parliamentary improvisation.</p><p>The next critical test will be whether the parties currently engaged in coalition negotiations can produce a durable agreement that commands enough parliamentary support to legislate meaningfully. Failing that, Denmark faces the prospect of either fresh elections or continued minority government, both of which would deepen the sense of political drift that already defines the current moment. For citizens still waiting for tangible relief on living costs, the urgency of that resolution is not abstract — it is the difference between a government that can act and one that can only manage.</p>",
+      "keywords": "Denmark, coalition politics, government formation, cost of living, inflation, Danish election, EU politics, Greenland, welfare policy, voter sentiment, European affairs",
+      "sources": "Reuters, coalition talks and election coverage, Denmark 2024; domestic Danish election analysis and voter sentiment reporting, 2024; European Central Bank inflation reference data, 2022–2024; research dossier summary with attributed fact-check assessments, 2024",
+      "pubDate": "2026-08-10",
+      "chartData": {
+        "values": [
+          1.9,
+          2.4,
+          3.1,
+          6.8
+        ],
+        "labels": [
+          "Denmark inflation 2024",
+          "Euro area avg 2024",
+          "Euro area avg 2023",
+          "Euro area avg 2022"
+        ]
+      }
+    },
     {
       "id": "article-3123e29",
       "title": "Sweden at a Crossroads: Falling Inflation and a Fractured Political Landscape Cloud the Path Forward",
@@ -12251,6 +12277,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260810-denmark",
+      "title": "Denmark - 2026.08.10",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "duration": "8:37",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_10/Denmark_Episode_2026_08_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 144,
+      "keywords": "Denmark",
+      "notes": "Denmark is navigating a period of political turbulence as fragmented coalition arithmetic complicates government formation and households continue to feel the strain of elevated living costs. While headline inflation has eased to around 1.9 percent, the political consequences of prolonged price pressure are proving far more durable than the macroeconomic data alone would suggest. Together, these two forces are reshaping party strategy, voter sentiment, and Denmark's broader standing within EU policy debates.",
+      "pubDate": "2026-08-10"
+    },
     {
       "id": "episode-20260810-sweden",
       "title": "Sweden - 2026.08.10",
