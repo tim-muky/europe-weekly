@@ -10,6 +10,16 @@ on:
 permissions:
   contents: write        # needed to push the regenerated RSS commit
 
+# A batch publish pushes content.json several times in quick succession, which
+# started one run per push. They then raced each other pushing the regenerated
+# feed and all but one failed with "failed to push some refs" (noisy red emails,
+# even though the final feed was correct). Serialise instead: keep only the
+# newest queued run, since regenerating from the latest content.json subsumes
+# any earlier one. Do NOT cancel a run already in progress — it may be mid-push.
+concurrency:
+  group: regen-rss
+  cancel-in-progress: false
+
 jobs:
   regen:
     runs-on: ubuntu-latest

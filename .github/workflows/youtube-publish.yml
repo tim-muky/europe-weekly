@@ -7,6 +7,12 @@ on:
       - content.json   # only runs when episode/article data changes
   workflow_dispatch:     # manual trigger from GitHub Actions tab
 
+# Serialise runs: a batch publish pushes content.json several times and would
+# otherwise start overlapping runs that race each other.
+concurrency:
+  group: youtube-publish
+  cancel-in-progress: false
+
 jobs:
   # ── Job 1: detect whether any NEW episodes were added ─────────────────────
   check:

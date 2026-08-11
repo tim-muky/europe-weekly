@@ -17,6 +17,12 @@ on:
 permissions:
   contents: write
 
+# Serialise runs: a batch publish pushes content.json several times and would
+# otherwise start overlapping runs that race each other.
+concurrency:
+  group: guard-settings
+  cancel-in-progress: false
+
 jobs:
   guard:
     runs-on: ubuntu-latest
