@@ -1,5 +1,5 @@
 {
-  "version": 1786434251862,
+  "version": 1786434259247,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-60b9f44",
+      "title": "Italy's Economy: Stable on the Surface, Structurally Stuck Underneath",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "excerpt": "Italy's economy is forecast to grow by just 0.5 percent in 2026, a figure that the government frames as proof of resilience but that critics describe as stagnation with better branding. Meanwhile, inflation has retreated from its crisis peak yet remains persistent enough to keep household budgets under strain. The gap between the official narrative and the lived experience of Italian citizens is increasingly the central battleground in the country's economic debate.",
+      "body": "<h3>Growth That Barely Moves the Needle</h3><p>The headline number is not alarming, but it is not encouraging either. Italy&#x27;s GDP is expected to expand by approximately 0.5 percent in 2026, according to projections from the European Commission, the International Monetary Fund, and the Bank of Italy. That convergence of official forecasts removes much of the statistical ambiguity: the Italian economy is growing, but only just.</p><p>The government of Prime Minister Giorgia Meloni has sought to frame the figures as evidence of solid economic management. Public investment tied to Italy&#x27;s allocation under the EU&#x27;s post-pandemic recovery fund, known as the National Recovery and Resilience Plan, has provided some support to activity, and officials argue that avoiding recession in a difficult global environment is itself a meaningful achievement.</p><p>Critics, however, argue that 0.5 percent growth is not a success story but a structural condition that Italian policymakers have failed to break for decades. Italy&#x27;s trend growth rate has lagged behind its European peers for the better part of thirty years, weighed down by weak productivity, an ageing workforce, a fragmented business landscape, and one of the highest public debt loads in the euro area. The current forecast, they contend, confirms the persistence of those problems rather than their resolution.</p><h3>Inflation Eases, but Households Are Not Celebrating</h3><p>Italy&#x27;s inflation picture is more complicated than either side of the political debate tends to admit. Broader euro-area inflation has returned to approximately 2 percent, in line with the European Central Bank&#x27;s target, and Italian consumer price growth has followed a broadly similar downward path from the highs recorded during the 2022 energy crisis. The government argues that this represents a return to price stability and a vindication of the ECB&#x27;s tightening cycle.</p><p>Yet Italy&#x27;s own official projections point to inflation climbing back toward a range of 2.6 to 3.2 percent in 2026 before easing again, a trajectory that complicates the narrative of a clean return to calm. Food prices and services costs, which affect household budgets more immediately than energy indices, have remained stubborn. For many Italian families, the experience of the past three years has been cumulative: prices rose sharply, then rose more slowly, but did not fall. The cost of a weekly shop or a restaurant meal remains substantially higher than it was before 2021.</p><p>The political consequence of that gap between macroeconomic improvement and household reality is significant. Economists refer to it as the difference between the rate of inflation and the price level, but voters experience it as a persistent sense that their purchasing power has not recovered even when officials declare that the crisis has passed. Opposition parties have been quick to exploit that frustration, arguing that wage growth has not kept pace with the accumulated price increases of the past several years.</p><h3>Why the Stakes Extend Well Beyond Italy</h3><p>Italy&#x27;s economic trajectory carries consequences that reach far beyond its own borders. As the third-largest economy in the euro area, Italy&#x27;s fiscal position and growth outlook influence ECB policy deliberations, the confidence of sovereign bond markets, and the broader credibility of European economic governance. A prolonged period of near-zero growth combined with a public debt ratio that remains among the highest in the developed world leaves Italy with very limited room to absorb external shocks, whether from a slowdown in global trade, renewed energy price volatility, or a tightening in financial conditions.</p><p>European Commission officials have noted repeatedly that Italy&#x27;s full and timely implementation of its recovery plan reforms is essential not only for unlocking remaining disbursements but for demonstrating that the EU&#x27;s post-pandemic investment architecture can deliver structural change rather than simply temporary stimulus. Progress on that front has been uneven, and the clock is running: the deadline for completing the plan&#x27;s milestones and targets falls in 2026, the same year in which growth is forecast to be weakest.</p><p>The outlook for Italian citizens in the near term is therefore one of continued pressure without obvious relief. Growth is too weak to generate the kind of job creation and wage improvement that would ease cost-of-living anxiety. Inflation is too persistent to allow households to feel that the worst is genuinely over. And the structural reforms that economists across the political spectrum regard as essential for lifting Italy&#x27;s long-run growth potential remain contested and incomplete. The question for 2026 is not whether Italy will fall into recession, but whether stable-but-stuck is a sustainable condition, or simply the quiet precursor to a larger reckoning.</p>",
+      "keywords": "Italy economy, GDP growth, Italian inflation, cost of living, structural reform, euro area, European Commission, recovery plan, public debt, ECB, stagnation, household prices",
+      "sources": "European Commission economic forecasts, spring 2025; International Monetary Fund World Economic Outlook, 2025; Bank of Italy economic bulletin, 2025; Italian government National Recovery and Resilience Plan documentation; European Central Bank monetary policy statements, 2024–2025",
+      "pubDate": "2026-08-11",
+      "chartData": {
+        "values": [
+          0.5,
+          2.6,
+          105.7,
+          1.8
+        ],
+        "labels": [
+          "GDP Growth Forecast 2026 (%)",
+          "Italian Inflation Forecast 2026 (%)",
+          "Italy Debt-to-GDP Ratio (%)",
+          "Euro-Area Inflation Target (%)"
+        ]
+      }
+    },
     {
       "id": "article-7c44d4d",
       "title": "Spain Caught Between Migration Crisis and Economic Crosswinds as EU Tensions Mount",
@@ -12363,6 +12389,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260811-italy",
+      "title": "Italy - 2026.08.11",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "duration": "8:32",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_11/Italy_Episode_2026_08_11.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 149,
+      "keywords": "Italy",
+      "notes": "Italy's economy is forecast to grow by just 0.5 percent in 2026, a figure that the government frames as proof of resilience but that critics describe as stagnation with better branding. Meanwhile, inflation has retreated from its crisis peak yet remains persistent enough to keep household budgets under strain. The gap between the official narrative and the lived experience of Italian citizens is increasingly the central battleground in the country's economic debate.",
+      "pubDate": "2026-08-11"
+    },
     {
       "id": "episode-20260811-spain",
       "title": "Spain - 2026.08.11",
