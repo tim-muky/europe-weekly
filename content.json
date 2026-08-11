@@ -1,5 +1,5 @@
 {
-  "version": 1786434223209,
+  "version": 1786434230607,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3fac768",
+      "title": "Finland's Governing Coalition Faces Twin Pressures of Falling Polls and Fragile Recovery",
+      "categories": [
+        "cat-qoz3hlo"
+      ],
+      "excerpt": "Prime Minister Petteri Orpo's center-right government is navigating a period of acute political and economic vulnerability, with the National Coalition Party at a five-year polling low and the country's economic recovery described by analysts as real but limited. The Social Democrats have opened a clear lead in opinion surveys, raising questions about whether the current coalition can maintain its grip on power ahead of the 2027 general election. Meanwhile, unemployment remains elevated and the public finances continue to run a substantial deficit, complicating the government's efforts to present a convincing growth narrative.",
+      "body": "<h3>A Government Under Pressure as Polls Swing Against the Coalition</h3><p>Finland&#x27;s political landscape is shifting in ways that present a serious challenge to Orpo&#x27;s administration. Multiple recent surveys place the opposition Social Democratic Party, or SDP, ahead of the National Coalition Party, which has fallen to its weakest level of support in five years. More significantly, trend polling suggests the governing bloc as a whole would fall short of a parliamentary majority if an election were held today.</p><p>Government supporters argue the situation is manageable. Coalition officials have noted that mid-term polling downturns are common for parties that must take unpopular fiscal decisions during a weak economic cycle, and that the NCP, still polling in the high teens, remains the anchor of any realistic center-right governing arrangement. Yet that defence carries limited political weight when the polling direction is so clearly unfavourable.</p><p>The opposition&#x27;s reading of the data is, by most analytical assessments, better supported. SDP and other opposition voices argue that voters are responding to tangible grievances: cost-of-living pressure, a stagnant sense of economic direction, and what critics describe as the coalition&#x27;s failure to produce a credible growth story. With over two years remaining before the next scheduled election, the window for recovery exists, but the trend lines are not currently in the government&#x27;s favour.</p><h3>Economic Recovery Is Real, but Too Modest to Quiet the Critics</h3><p>On the economic front, Finland presents a picture of cautious improvement shadowed by persistent structural problems. The Bank of Finland and the European Commission both project modest GDP growth in the near term, inflation has retreated toward more normal levels, and trade performance has shown measurable gains. Government officials have pointed to these indicators as evidence that the economy is turning a corner after a prolonged difficult period.</p><p>The sceptics, however, have data of their own. The European Commission projects unemployment of approximately 10.1 percent in 2026, a figure that remains high by Finnish historical standards and reflects an labour market that has yet to fully heal. GDP growth forecasts of around 0.8 percent offer little room for error, and the Finance Ministry&#x27;s proposed 2027 budget is still expected to carry a very large deficit, indicating that fiscal consolidation remains a work in progress rather than an accomplished fact.</p><p>The overall economic mood inside Finland is one analysts describe as resigned. Citizens and businesses may acknowledge that conditions are incrementally better than a year ago, but the dominant sentiment is caution rather than confidence. For a government seeking a political narrative around recovery, that psychological reality is as significant as any statistical indicator.</p><h3>Outlook: A Long Road to 2027 With Little Margin for Error</h3><p>The intersection of political and economic pressure creates a compounding problem for the Orpo administration. Governments that cannot demonstrate economic competence tend to lose support; governments that have already lost support find it harder to push through the difficult economic decisions that might restore their credibility. Finland is at risk of becoming trapped in exactly that dynamic.</p><p>The 2027 election is not imminent, and much can change. If growth accelerates beyond current forecasts and unemployment begins to fall more decisively, the government&#x27;s position could stabilise. A recovery in the NCP&#x27;s poll numbers is not implausible if the economic picture brightens materially in 2025 and 2026. But the Commission&#x27;s current projections offer limited basis for that optimism, and the Finance Ministry&#x27;s budget plans suggest the government itself is not banking on a rapid improvement in public finances.</p><p>For Finnish citizens, the immediate consequences are felt in continued fiscal restraint, a labour market that remains soft, and a political debate that has grown more competitive and less predictable. For European observers, Finland&#x27;s situation is a case study in the difficulties facing centre-right governments across the continent that staked their credibility on fiscal discipline during a period when voters are primarily focused on purchasing power and economic security. The next meaningful test will come in the form of budget negotiations and the autumn economic forecasts, both of which will either reinforce or begin to reverse the current political narrative.</p>",
+      "keywords": "Finland, Petteri Orpo, National Coalition Party, SDP, Social Democrats, Finnish politics, Finnish economy, polling, coalition government, GDP growth, unemployment, budget deficit, European Commission, 2027 election, fiscal policy",
+      "sources": "Bank of Finland economic forecasts; European Commission economic projections 2025–2026; Finnish Finance Ministry draft budget 2027; Recent Finnish opinion polling aggregates; Research dossier provided to correspondent",
+      "pubDate": "2026-08-10",
+      "chartData": {
+        "values": [
+          18.0,
+          24.0,
+          10.1,
+          0.8
+        ],
+        "labels": [
+          "NCP Poll Share (%)",
+          "SDP Poll Share (%)",
+          "Unemployment 2026 Forecast (%)",
+          "GDP Growth Forecast (%)"
+        ]
+      }
+    },
     {
       "id": "article-8d26f75",
       "title": "Denmark at a Crossroads: Coalition Deadlock and Cost-of-Living Pressure Test Political Resilience",
@@ -12277,6 +12303,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260810-finland",
+      "title": "Finland - 2026.08.10",
+      "categories": [
+        "cat-qoz3hlo"
+      ],
+      "duration": "8:29",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_10/Finland_Episode_2026_08_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 145,
+      "keywords": "Finland",
+      "notes": "Prime Minister Petteri Orpo's center-right government is navigating a period of acute political and economic vulnerability, with the National Coalition Party at a five-year polling low and the country's economic recovery described by analysts as real but limited. The Social Democrats have opened a clear lead in opinion surveys, raising questions about whether the current coalition can maintain its grip on power ahead of the 2027 general election. Meanwhile, unemployment remains elevated and the public finances continue to run a substantial deficit, complicating the government's efforts to present a convincing growth narrative.",
+      "pubDate": "2026-08-10"
+    },
     {
       "id": "episode-20260810-denmark",
       "title": "Denmark - 2026.08.10",
