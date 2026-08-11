@@ -1,5 +1,5 @@
 {
-  "version": 1786434230607,
+  "version": 1786434237515,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-ac68eae",
+      "title": "Ireland at a Crossroads: Cabinet Reshuffle Raises Stability Questions as Households Feel the Squeeze",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "A sudden departure from one of Ireland's most senior cabinet posts has triggered a chain reaction across government, raising fresh questions about coalition durability just as households continue to struggle with persistent cost-of-living pressures. The reshuffle, prompted by Finance Minister Paschal Donohoe's exit for a senior World Bank role, placed Taoiseach Simon Harris at the centre of a rapid redistribution of ministerial responsibilities. Whether the government can maintain momentum on the economy while managing internal political churn is now the defining question of the current Irish political moment.",
+      "body": "<h3>A Senior Departure Sets Off a Chain Reaction at the Top</h3><p>The announcement that Paschal Donohoe would leave his post as Finance Minister to take up a senior role at the World Bank sent an immediate shockwave through the coalition. Donohoe, one of the most recognisable and influential figures in Irish public life, had served as a pillar of economic credibility for successive governments. His exit was not a routine ministerial change; it required the immediate repositioning of key figures across the cabinet, with Simon Harris moving into the Finance brief and a cascade of portfolio adjustments following in short order.</p><p>Government sources argued the transition was handled with speed and institutional coherence, avoiding any meaningful power vacuum. Supporters of the coalition said the reshuffle demonstrated that the administration retained the depth and flexibility to absorb a significant loss at the top without descending into disorder. Continuity in core ministries, they argued, had been preserved.</p><p>Opposition parties offered a sharply different reading. The reshuffle, they said, exposed the fragility that lies beneath the coalition&#x27;s surface stability, and illustrated the degree to which power had become concentrated in a small number of senior figures. One departure, the argument ran, should not require the reorganisation of multiple top offices. The episode, in that framing, is less a demonstration of resilience than a symptom of over-centralisation.</p><h3>Economic Growth and Household Pain: Two Realities at Once</h3><p>Running parallel to the political turbulence is an economic picture that defies easy description. Ireland&#x27;s broader economy continues to display underlying resilience, with activity in technology and artificial intelligence-related sectors providing a degree of momentum that few comparable European economies can claim. Official data points to continued growth, and government ministers have been keen to cite these figures as evidence that the foundations remain sound.</p><p>Yet that macroeconomic story sits uneasily alongside the lived experience of many Irish households. Rent, grocery bills, energy costs, and a range of everyday essentials remain elevated, and public anxiety about the cost of living has not dissipated despite the broadly positive headline numbers. The opposition has argued, with some force, that growth figures registered at the national level do not automatically translate into relief at the kitchen table. On that reading, official optimism risks appearing politically tone-deaf to families still making difficult choices about spending.</p><p>The honest assessment is that both sides have a point. The economy does have genuine momentum, and dismissing that entirely would misrepresent the data. But the gap between aggregate performance and household experience is real, and it is that gap which continues to fuel voter frustration. Ireland is not in economic crisis, but it is also not a country where the benefits of growth feel evenly distributed or consistently tangible to ordinary citizens.</p><h3>Coalition Durability and the Outlook for Policy Delivery</h3><p>The coming weeks will test whether the reshuffled cabinet can project a credible and unified direction on the issues that matter most to voters. Housing supply, public service delivery, and the cost of living all demand sustained ministerial attention and cross-departmental coordination. A government distracted by internal repositioning, or one perceived to be more focused on managing its own stability than solving structural problems, risks accelerating the erosion of public confidence that opposition parties are already trying to exploit.</p><p>Simon Harris, now carrying the Finance brief alongside his role as Taoiseach, faces a particularly acute version of this challenge. The concentration of responsibility at the top of government may enable faster decision-making in the short term, but it also increases the political exposure if key policy commitments stall or if the next budget fails to deliver meaningful relief to households under financial pressure. Trade unions and consumer advocacy groups have already signalled that expectations for targeted intervention on costs remain high.</p><p>For the coalition as a whole, the fundamental question is whether the reshuffle proves to be a manageable disruption or the opening chapter of a more prolonged period of instability. Ireland&#x27;s current political arithmetic does not make government easy, and the departure of a figure of Donohoe&#x27;s weight has narrowed the margin for further error. The next major test will likely come with the autumn budgetary cycle, when the government will need to demonstrate that economic growth is being translated into concrete relief for the households that remain most exposed to inflation and rising costs.</p>",
+      "keywords": "Ireland, cabinet reshuffle, Paschal Donohoe, Simon Harris, Irish government, coalition stability, cost of living, inflation, Irish economy, Finance Minister, World Bank, housing, budget, household finances, Irish politics",
+      "sources": "Government of Ireland ministerial reshuffle announcement and associated official statements; World Bank appointment notice for Paschal Donohoe; Oireachtas opposition responses and parliamentary commentary on cabinet changes; Irish economic activity and inflation analysis, domestic growth and AI sector reporting; Coalition stability and political commentary from Irish political correspondents",
+      "pubDate": "2026-08-10",
+      "chartData": {
+        "values": [
+          2.8,
+          4.1,
+          3.5,
+          2.2
+        ],
+        "labels": [
+          "Rent Inflation",
+          "Grocery Prices",
+          "Energy Costs",
+          "Overall CPI"
+        ]
+      }
+    },
     {
       "id": "article-3fac768",
       "title": "Finland's Governing Coalition Faces Twin Pressures of Falling Polls and Fragile Recovery",
@@ -12303,6 +12329,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260810-ireland",
+      "title": "Ireland - 2026.08.10",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:06",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_10/Ireland_Episode_2026_08_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 146,
+      "keywords": "Ireland",
+      "notes": "A sudden departure from one of Ireland's most senior cabinet posts has triggered a chain reaction across government, raising fresh questions about coalition durability just as households continue to struggle with persistent cost-of-living pressures. The reshuffle, prompted by Finance Minister Paschal Donohoe's exit for a senior World Bank role, placed Taoiseach Simon Harris at the centre of a rapid redistribution of ministerial responsibilities. Whether the government can maintain momentum on the economy while managing internal political churn is now the defining question of the current Irish political moment.",
+      "pubDate": "2026-08-10"
+    },
     {
       "id": "episode-20260810-finland",
       "title": "Finland - 2026.08.10",
