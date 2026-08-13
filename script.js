@@ -1042,7 +1042,7 @@ function generateRSSFeed(data) {
       <link>${siteUrl}/episode.html?id=${encodeURIComponent(ep.id)}</link>
       <itunes:duration>${fmtDur(ep.duration || 0)}</itunes:duration>
       <itunes:season>${ep.season || 1}</itunes:season>
-      <itunes:episode>${ep.episodeNumber || 1}</itunes:episode>${epImg ? `\n      <itunes:image href="${escXml(epImg)}"/>` : ''}
+      <itunes:episode>${ep.episodeNumber || 1}</itunes:episode>${epImg ? `\n      <itunes:image href="${escXml(epImg)}"/>` : ''}${ep.keywords ? `\n      <itunes:keywords>${escXml(ep.keywords)}</itunes:keywords>` : ''}${ep.transcriptUrl ? `\n      <podcast:transcript url="${escXml(ep.transcriptUrl)}" type="text/plain" language="en"/>` : ''}
       <itunes:explicit>false</itunes:explicit>
     </item>`;
   }).join('\n');

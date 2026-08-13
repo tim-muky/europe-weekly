@@ -164,6 +164,10 @@ def generate_rss(data: dict) -> str:
             f'      <itunes:image href="{ep_cover}"/>',
             *( [f"      <itunes:keywords>{escape_xml(ep['keywords'])}</itunes:keywords>"]
                if ep.get("keywords") else [] ),
+            # Apple and Spotify fetch and index transcripts for in-app search.
+            *( [f'      <podcast:transcript url="{escape_xml(ep["transcriptUrl"])}"'
+                f' type="text/plain" language="en"/>']
+               if ep.get("transcriptUrl") else [] ),
             "      <itunes:explicit>false</itunes:explicit>",
             "    </item>",
         ]
