@@ -1,5 +1,5 @@
 {
-  "version": 1786597303998,
+  "version": 1786597409612,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,18 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-98ef557",
+      "title": "Slovenia Tests EU Solidarity With Hard Line on Gaza and NATO Referendum Debate",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "excerpt": "Slovenia has emerged as one of the European Union's most assertive voices on the Israel-Palestine conflict while simultaneously grappling with a fractious domestic debate over NATO commitments and defense spending. The twin crises are straining coalition unity, dividing public opinion, and raising questions about the small Alpine nation's strategic direction. For a country of just over two million people, the stakes — both at home and in Brussels — are unusually high.",
+      "body": "<h3>A Sharp Diplomatic Break Over Gaza</h3><p>In 2024, Slovenia formally recognized Palestine as a sovereign state, joining a small group of EU members willing to defy the bloc&#x27;s fragmented consensus on the conflict. Since then, Ljubljana has pressed further, signaling support for restrictive measures against Israel and aligning itself vocally with international law arguments advanced by Palestinian advocates and their supporters at the United Nations.</p><p>The government of Prime Minister Robert Golob has framed the stance as a principled response to documented violations in Gaza, arguing that Slovenia is using its limited but real diplomatic weight to apply pressure where larger powers have been reluctant to act. Supporters of the approach point to broad international legal frameworks, including proceedings at the International Court of Justice, as justification for what they describe as a calibrated and legally grounded position.</p><p>Critics, however, argue that the government has crossed from principled diplomacy into ideological signaling. Right-leaning opposition figures and voices sympathetic to Israel contend that Ljubljana is breaking sharply from the more pragmatic foreign policy traditions of previous governments, and risking bilateral relationships with partners who view Slovenia&#x27;s posture as disproportionate and politically driven. Whether this translates into measurable diplomatic damage remains contested — no evidence directly confirms that Slovenia has suffered concrete consequences — but the argument has become a central flashpoint in domestic political debate.</p><h3>NATO Referendum Talk Deepens Coalition Fractures</h3><p>If the Gaza debate has exposed divisions over values and identity, a parallel argument over NATO has laid bare the structural fragility of Slovenia&#x27;s governing coalition. Calls from certain political quarters for a referendum on NATO commitments and elevated defense spending have injected fresh turbulence into an already strained parliamentary environment. Protest movements demanding a reassessment of alliance obligations have added street-level pressure to the institutional uncertainty.</p><p>Proponents of a referendum argue that citizens deserve a direct voice on whether Slovenia should align with NATO&#x27;s push for member states to meet or exceed the two-percent-of-GDP defense spending benchmark. They frame the question as one of democratic legitimacy: decisions of this magnitude, they argue, should not be left solely to coalition arithmetic or alliance discipline imposed from outside.</p><p>Opponents counter that subjecting strategic commitments to referendum politics is both reckless and potentially destabilizing. Senior analysts and opposition politicians have warned that signaling ambiguity about alliance obligations — even through the language of popular consultation — risks undermining NATO cohesion at a moment when the alliance is under sustained pressure following Russia&#x27;s invasion of Ukraine. The available evidence suggests this remains a live political struggle rather than an imminent policy shift: parliamentary debates have produced proposals and fractures, but no credible exit pathway from NATO has materialized.</p><h3>Outlook: Polarization, EU Scrutiny, and a Country at a Crossroads</h3><p>The two debates are not entirely separate. Taken together, they reflect a broader contest over Slovenia&#x27;s identity and place in the international order — whether as a rule-following, alliance-disciplined EU member state, or as a more assertive, values-driven actor willing to break from consensus when its government judges that consensus to be insufficient or unjust. That contest is playing out in a charged domestic atmosphere, with coalition partners pulling in competing directions and public opinion sharply divided.</p><p>For the European Union, Slovenia&#x27;s trajectory presents a modest but illustrative challenge. The bloc has struggled to speak with one voice on the Israel-Palestine conflict, and Ljubljana&#x27;s forceful stance adds pressure on EU foreign policy coordination. Other member states watching Slovenia will note that a small country can, if it chooses, shape the terms of debate disproportionate to its size — for better or worse depending on one&#x27;s vantage point.</p><p>In the near term, the most consequential deadlines involve NATO&#x27;s ongoing discussions about burden-sharing and the Golob government&#x27;s ability to hold its coalition together in the face of competing pressures. If the coalition fractures further, early elections could reset both debates. If it holds, Slovenia&#x27;s government will likely continue pressing its positions on Gaza while managing — but not resolving — the underlying tensions over security policy. Either way, Ljubljana has ensured it will remain a subject of close attention in European capitals for months to come.</p>",
+      "keywords": "Slovenia, Israel, Palestine, Gaza, NATO, EU foreign policy, Robert Golob, defense spending, referendum, coalition politics, European Union, diplomatic recognition, Ljubljana, security policy, Central Europe",
+      "sources": "Research dossier citations [1][2][4][6][8][10][11][13][14][15][17][18]; reporting on EU foreign policy coordination on Israel-Palestine; NATO burden-sharing benchmark documentation",
+      "pubDate": "2026-08-13"
+    },
     {
       "id": "article-37df64c",
       "title": "Bulgaria's Budget Crisis Exposes Deep Fault Lines Over Taxation, Inflation, and Eurozone Ambitions",
@@ -12509,6 +12521,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260813-slovenia",
+      "title": "Slovenia - 2026.08.13",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "duration": "8:37",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_13/Slovenia_Episode_2026_08_13.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 156,
+      "keywords": "Slovenia",
+      "notes": "Slovenia has emerged as one of the European Union's most assertive voices on the Israel-Palestine conflict while simultaneously grappling with a fractious domestic debate over NATO commitments and defense spending. The twin crises are straining coalition unity, dividing public opinion, and raising questions about the small Alpine nation's strategic direction. For a country of just over two million people, the stakes — both at home and in Brussels — are unusually high.",
+      "pubDate": "2026-08-13"
+    },
     {
       "id": "episode-20260813-bulgaria",
       "title": "Bulgaria - 2026.08.13",
