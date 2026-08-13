@@ -99,12 +99,16 @@ def create_video(cover: Path, audio: Path, out: Path) -> None:
     )
 
 
+def _country_of(ep: dict) -> str:
+    """Country name from the episode id ('episode-20260813-croatia' → 'Croatia')."""
+    tail = (ep.get("id") or "").rsplit("-", 1)[-1]
+    return tail.replace("_", " ").title() if tail else "Europe"
+
+
 def build_title(ep: dict) -> str:
-    """Europe Weekly S2E29 – Poland, Latvia, Lithuania – EU Daily Update"""
-    base = (
-        f"Europe Weekly S{ep.get('season', 1)}E{ep.get('episodeNumber', 1)}"
-        f" \u2013 {ep['title']}"
-    )
+    """Short title — the hook, not the episode number. '#Shorts' tells YouTube
+    to treat it as a Short even before it inspects the aspect ratio."""
+    base = f"A fun fact about {_country_of(ep)} \U0001f1ea\U0001f1fa #Shorts"
     return base[:97] + "\u2026" if len(base) > 100 else base
 
 
@@ -112,12 +116,17 @@ def build_description(ep: dict, social: dict) -> str:
     ep_url = f"https://europe-weekly.eu/episode.html?id={ep['id']}"
     notes  = (ep.get("notes") or "").strip()
 
-    lines = []
+    lines = [f"Here is a fun fact for {_country_of(ep)}.", ""]
     if notes:
         lines.append(notes)
         lines.append("")
 
-    lines.append(f"\U0001f3a7 Listen & read more: {ep_url}")
+    lines.append(
+        "Europe Weekly is a daily briefing for curious Europeans: every weekday we "
+        "cover four European countries, so you can follow the whole continent — "
+        "not just your own corner of it.")
+    lines.append("")
+    lines.append(f"\U0001f3a7 Hear the full episode: {ep_url}")
     lines.append("")
     lines.append("\u2500" * 44)
     lines.append(
@@ -299,23 +308,20 @@ def main():
         with tempfile.TemporaryDirectory() as tmp:
             tmp = Path(tmp)
 
-            # Download audio
-            print(f"  ↓ Audio: {ep['audioUrl']}")
-            audio = tmp / "audio.mp3"
-            download(ep["audioUrl"], audio)
-
-            # Download cover art
-            cover_url = ep.get("coverArt") or fallback_cover
-            print(f"  ↓ Cover: {cover_url}")
-            cover = tmp / "cover.jpg"
-            download(cover_url, cover)
-
-            # Create video
-            print("  ⚙ Encoding video (blurred bg + centred cover)…")
-            video = tmp / "video.mp4"
-            create_video(cover, audio, video)
+            # We publish the vertical whiteboard SHORT, not an hour-long
+            # audiogram: Shorts are what YouTube actually distributes, and each
+            # one links back to the full episode. The clip is rendered on the
+            # Mac mini and uploaded to R2, so there is nothing to encode here.
+            # (YouTube also allows only ~6 uploads/day on the default quota, so
+            # one clip per episode keeps us comfortably inside it.)
+            if not ep.get("shortUrl"):
+                print("  – no shortUrl on this episode — skipping")
+                continue
+            print(f"  ↓ Short: {ep['shortUrl']}")
+            video = tmp / "short.mp4"
+            download(ep["shortUrl"], video)
             size_mb = os.path.getsize(video) / 1024 / 1024
-            print(f"  ✓ Video encoded ({size_mb:.1f} MB)")
+            print(f"  ✓ Short downloaded ({size_mb:.1f} MB)")
 
             # Build metadata
             title       = build_title(ep)
