@@ -30,6 +30,19 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Croatia - 2026.08.13</title>
+      <description>Croatia&apos;s government is navigating a period of acute institutional stress, as a long-running feud between Prime Minister Andrej Plenković and President Zoran Milanović continues to disrupt policymaking. At the same time, households are still absorbing the effects of elevated prices despite a modest easing of inflation. Together, these pressures are shaping a country that feels, to many of its citizens, perpetually in crisis.</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_13/Croatia_Episode_2026_08_13.mp3" length="5576134" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260813-croatia</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260813-croatia</link>
+      <itunes:duration>8:29</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>158</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Romania - 2026.08.13</title>
       <description>Romania is navigating one of the European Union&apos;s most precarious fiscal positions, with the government pushing to narrow a large budget deficit while inflation, though falling, continues to erode household purchasing power. Political instability is complicating both challenges, drawing warnings from major credit rating agencies and unease from Brussels. The stakes are high: failure to consolidate public finances could cost Romania its investment-grade status and jeopardise access to EU recovery funds.</description>
       <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_13/Romania_Episode_2026_08_13.mp3" length="5558851" type="audio/mpeg"/>
