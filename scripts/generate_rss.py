@@ -59,6 +59,15 @@ def pubdate_to_rfc2822(date_str: str) -> str:
         return formatdate(usegmt=True)
 
 
+
+# Podcast Index spec: the show GUID is a uuid5 (DNS namespace) of the feed URL
+# without protocol. Stable forever, so directories and analytics can match the
+# show even if the feed moves. Missing until now.
+def show_guid(feed_url: str = "europe-weekly.eu/podcast-feed.xml") -> str:
+    import uuid
+    return str(uuid.uuid5(uuid.NAMESPACE_DNS, feed_url))
+
+
 def escape_xml(text: str) -> str:
     return (
         text.replace("&", "&amp;")
@@ -93,7 +102,8 @@ def generate_rss(data: dict) -> str:
         '<rss version="2.0"',
         '     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"',
         '     xmlns:atom="http://www.w3.org/2005/Atom"',
-        '     xmlns:content="http://purl.org/rss/1.0/modules/content/">',
+        '     xmlns:content="http://purl.org/rss/1.0/modules/content/"',
+        '     xmlns:podcast="https://podcastindex.org/namespace/1.0">',
         "  <channel>",
         f"    <title>{escape_xml(title)}</title>",
         f"    <link>{site_url}</link>",
@@ -114,6 +124,7 @@ def generate_rss(data: dict) -> str:
         "    </image>",
         f"    <author>{email} ({escape_xml(title)})</author>",
         f"    <managingEditor>{email} ({escape_xml(title)})</managingEditor>",
+        f"    <podcast:guid>{show_guid()}</podcast:guid>",
         "    <itunes:type>episodic</itunes:type>",
         f'    <itunes:category text="{escape_xml(category)}">',
         '      <itunes:category text="Politics"/>',
@@ -151,6 +162,8 @@ def generate_rss(data: dict) -> str:
             f"      <itunes:season>{ep.get('season', 1)}</itunes:season>",
             f"      <itunes:episode>{ep.get('episodeNumber', 1)}</itunes:episode>",
             f'      <itunes:image href="{ep_cover}"/>',
+            *( [f"      <itunes:keywords>{escape_xml(ep['keywords'])}</itunes:keywords>"]
+               if ep.get("keywords") else [] ),
             "      <itunes:explicit>false</itunes:explicit>",
             "    </item>",
         ]

@@ -110,6 +110,10 @@ const GH_RSS_FILE    = 'podcast-feed.xml';
 const GH_BRANCH      = 'main';
 const GH_API_URL     = `https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`;
 const GH_RSS_API_URL = `https://api.github.com/repos/${GH_REPO}/contents/${GH_RSS_FILE}`;
+// Podcast Index show GUID: uuid5(DNS, 'europe-weekly.eu/podcast-feed.xml').
+// Hard-coded so the browser needs no uuid library, and MUST stay identical
+// to scripts/generate_rss.py::show_guid() or the two writers would fight.
+const EW_SHOW_GUID   = '58d89bef-658a-521f-b3a6-df13030409da';
 const GH_TOKEN_KEY   = 'ew-gh-token';
 const GH_SHA_KEY     = 'ew-gh-sha';
 const GH_RSS_SHA_KEY = 'ew-gh-rss-sha';
@@ -1056,7 +1060,8 @@ function generateRSSFeed(data) {
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>${title}</title>
     <link>${siteUrl}</link>
@@ -1069,6 +1074,7 @@ function generateRSSFeed(data) {
       <itunes:name>${author}</itunes:name>
       <itunes:email>${email}</itunes:email>
     </itunes:owner>${cover ? `\n    <itunes:image href="${cover}"/>` : ''}
+    <podcast:guid>${EW_SHOW_GUID}</podcast:guid>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="${category}">
       <itunes:category text="Politics"/>
