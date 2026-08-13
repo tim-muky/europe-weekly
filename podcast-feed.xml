@@ -30,6 +30,19 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Slovenia - 2026.08.13</title>
+      <description>Slovenia has emerged as one of the European Union&apos;s most assertive voices on the Israel-Palestine conflict while simultaneously grappling with a fractious domestic debate over NATO commitments and defense spending. The twin crises are straining coalition unity, dividing public opinion, and raising questions about the small Alpine nation&apos;s strategic direction. For a country of just over two million people, the stakes — both at home and in Brussels — are unusually high.</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_13/Slovenia_Episode_2026_08_13.mp3" length="5595344" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260813-slovenia</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260813-slovenia</link>
+      <itunes:duration>8:37</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>156</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Bulgaria - 2026.08.13</title>
       <description>A proposed 2026 budget triggered mass protests across Bulgaria, forcing the government into a humiliating retreat and laying bare a broader crisis of public trust. The episode intersects with persistent cost-of-living pressures that continue to squeeze households even as headline inflation eases. Together, the two crises cast a shadow over Bulgaria&apos;s aspirations to join the eurozone.</description>
       <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_08_13/Bulgaria_Episode_2026_08_13.mp3" length="5468062" type="audio/mpeg"/>
@@ -1215,7 +1228,7 @@ Ireland at Fiscal Crossroads: Banking Bailout Ends as Inflation and, Hardship Ri
     <item>
       <title>Bulgaria, Slovenia, Romania, Croatia - 17.04.26</title>
       <description>Bulgaria&apos;s Government Collapses Amid Mass Protests Over Austerity Budget</description>
-      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e65-bulgaria-slovenia-romania-croatia.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/europe-weekly-s2e65-bulgaria-slovenia-romania-croatia.mp3" length="22067520" type="audio/mpeg"/>
       <guid isPermaLink="false">episode-lxi7x5p</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <link>https://europe-weekly.eu/episode.html?id=episode-lxi7x5p</link>
