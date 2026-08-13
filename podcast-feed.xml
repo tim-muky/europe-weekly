@@ -3,7 +3,8 @@
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>Europe Weekly</title>
     <link>https://europe-weekly.eu</link>
@@ -24,6 +25,7 @@
     </image>
     <author>europeweekly27@gmail.com (Europe Weekly)</author>
     <managingEditor>europeweekly27@gmail.com (Europe Weekly)</managingEditor>
+    <podcast:guid>58d89bef-658a-521f-b3a6-df13030409da</podcast:guid>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News">
       <itunes:category text="Politics"/>
@@ -40,6 +42,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>158</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Croatia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -53,6 +56,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>157</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Romania</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -66,6 +70,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>156</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Slovenia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -79,6 +84,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>155</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Bulgaria</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -92,6 +98,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>154</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Netherlands</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -105,6 +112,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>153</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Belgium</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -118,6 +126,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>152</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>France</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -131,6 +140,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>151</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Germany</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -144,6 +154,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>150</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Greece</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -157,6 +168,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>149</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Italy</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -170,6 +182,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>148</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Spain</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -183,6 +196,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>147</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Portugal</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -196,6 +210,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>146</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Ireland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -209,6 +224,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>145</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Finland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -222,6 +238,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>144</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Denmark</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -235,6 +252,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>143</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Sweden</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -248,6 +266,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>142</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Estonia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -261,6 +280,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>141</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Lithuania</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -274,6 +294,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>140</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Latvia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -287,6 +308,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>139</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Poland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -300,6 +322,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>138</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Austria</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -313,6 +336,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>137</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Hungary</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -326,6 +350,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>136</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Slovakia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -339,6 +364,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>135</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Czechia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -352,6 +378,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>130</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Netherlands</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -365,6 +392,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>129</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Belgium</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -378,6 +406,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>128</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>France</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -391,6 +420,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>127</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Germany</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -404,6 +434,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>134</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Croatia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -417,6 +448,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>133</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Romania</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -430,6 +462,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>132</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Slovenia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -443,6 +476,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>131</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Bulgaria</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -456,6 +490,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>126</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Greece</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -469,6 +504,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>125</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Italy</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -482,6 +518,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>124</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Spain</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -495,6 +532,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>123</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Portugal</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -508,6 +546,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>122</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Ireland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -521,6 +560,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>121</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Sweden</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -534,6 +574,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>120</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Finland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -547,6 +588,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>119</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Denmark</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -560,6 +602,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>118</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Ireland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -573,6 +616,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>117</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Finland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -586,6 +630,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>116</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Denmark</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -599,6 +644,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>115</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Estonia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -612,6 +658,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>114</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Lithuania</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -625,6 +672,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>113</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Latvia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -638,6 +686,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>112</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Poland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -651,6 +700,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>111</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Sweden</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -664,6 +714,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>110</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Austria</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -677,6 +728,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>109</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Hungary</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -690,6 +742,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>108</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Slovakia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -703,6 +756,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>107</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Czechia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -716,6 +770,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>106</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Croatia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -729,6 +784,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>105</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Romania</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -742,6 +798,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>104</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Slovenia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -755,6 +812,7 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>103</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Bulgaria</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -952,6 +1010,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
       <itunes:season>2</itunes:season>
       <itunes:episode>88</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>German economic stagnation, Friedrich Merz fiscal reform, Constitutional debt brake, Export-driven model collapse, Energy shock Ukraine, Chinese EV competition, Defense spending Germany, EU Stability and Growth Pact, Manufacturing competitiveness, Geopolitical economic shocks; Rassemblement National, Marine Le Pen, Jordan Bardella, fiscal deficit, 6.1% GDP, business elite, Medef, CAC 40, austerity measures, hung parliament</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1019,6 +1078,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
       <itunes:season>2</itunes:season>
       <itunes:episode>83</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>German economic stagnation, Friedrich Merz fiscal reform, Constitutional debt brake, Export-driven model collapse, Energy shock Ukraine, Chinese EV competition, Defense spending Germany, EU Stability and Growth Pact, Manufacturing competitiveness, Geopolitical economic shocks; Rassemblement National, Marine Le Pen, Jordan Bardella, fiscal deficit, 6.1% GDP, business elite, Medef, CAC 40, austerity measures, hung parliament; Netherlands GDP growth, political stability index, World Bank, caretaker government, snap elections 2025, Geert Wilders Freedom Party, coalition negotiations, ING Think, European Commission, Statistics Netherlands</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1149,6 +1209,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
       <itunes:season>2</itunes:season>
       <itunes:episode>73</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Swedish budget 2026, GDP growth, fiscal deficit, household, consumption, political stability, development assistance, tax cuts,, defense spending, unemployment, economic recovery</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1203,6 +1264,7 @@ Netherlands Paradox: Strong GDP Growth Amid Political Paralysis</description>
       <itunes:season>2</itunes:season>
       <itunes:episode>69</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>German economic stagnation, Friedrich Merz fiscal reform, Constitutional debt brake, Export-driven model collapse, Energy shock Ukraine, Chinese EV competition, Defense spending Germany, EU Stability and Growth Pact, Manufacturing competitiveness, Geopolitical economic shocks; Rassemblement National, Marine Le Pen, Jordan Bardella, fiscal deficit, 6.1% GDP, business elite, Medef, CAC 40, austerity measures, hung parliament; Netherlands GDP growth, political stability index, World Bank, caretaker government, snap elections 2025, Geert Wilders Freedom Party, coalition negotiations, ING Think, European Commission, Statistics Netherlands</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1219,6 +1281,7 @@ Estonia&apos;s Economy Faces Timid 0.6% Growth in 2025 Amid Widening, Deficits a
       <itunes:season>2</itunes:season>
       <itunes:episode>68</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>G20 finance ministers, Andrzej Domański, Adam Glapiński, trillion-dollar economy, EU accession 2004, GDP per capita, EU structural funds, Tusk administration, Law and Justice party, Karol Nawrocki, budget deficit, inflation 3.5%, Monetary Policy Council, anti-Ukraine protests; airBaltic loan, Evika Siliņa, Saeima approval, Rail Baltica, New Unity, Progressives, ZZS, Transport Minister Atis Švinka, IPO 2026, Baltic leaders; Gintautas Paluckas, Lithuania Prime Minister, corruption investigations, Garnis company, ILTE bank, Special Investigation Service, Financial Crime Investigation Service, Chief Official Ethics Commission, Lithuanian National Radio and Television, Nemunas Dawn party; Estonia economy, 0.6% GDP growth, fiscal deficit, defense expenditures, NATO 2% target, European Commission forecast, Ukraine invasion, inflation moderation, unemployment rate, political stability index</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1234,6 +1297,7 @@ Ireland at Fiscal Crossroads: Banking Bailout Ends as Inflation and, Hardship Ri
       <itunes:season>2</itunes:season>
       <itunes:episode>67</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Swedish budget 2026, GDP growth, fiscal deficit, household, consumption, political stability, development assistance, tax cuts,, defense spending, unemployment, economic recovery; Finland fiscal negotiations, General Government Fiscal Plan, Public debt 90.9% GDP, Debt brake mechanism, Petteri Orpo, Riikka Purra, Fiscal multiplier, UTAK Centre, Iran conflict, Energy price volatility; Permanent TSB sale, tax receipts, grocery inflation, financial hardship, European Commission forecast, banking bailout, corporate tax rate, Middle East conflict, housing shortages, Central Bank of Ireland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1249,6 +1313,7 @@ Ireland at Fiscal Crossroads: Banking Bailout Ends as Inflation and, Hardship Ri
       <itunes:season>2</itunes:season>
       <itunes:episode>66</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Mail-in voting ban, expatriate voters, Robert Fico, Smer-Social, Democracy, Progressive Slovakia, Michal Šimečka, electoral, suppression, democratic erosion, rule of law, European Union, Ukraine, military aid, Visegrád Four, voter fraud prevention, overseas ballots,, coalition government; Péter Magyar, Tisza Party, Viktor Orbán, Fidesz, EU funds, Rule of law, Judicial reforms, Anti-corruption, Fiscal deficit, Voter turnout; Austria inflation, Strait of Hormuz blockade, Iran conflict, Fuel price brake, Bank Austria forecast, Statistik Austria, European Commission, FPÖ Manfred Haimbuchner, Energy dependency, Fiscal deficit 2025</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1262,6 +1327,7 @@ Ireland at Fiscal Crossroads: Banking Bailout Ends as Inflation and, Hardship Ri
       <itunes:season>2</itunes:season>
       <itunes:episode>65</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Bulgaria political collapse, eurozone accession, austerity budget,, mass protests, government instability, fiscal consolidation, Eastern, European governance, state capture, democratic dysfunction, euro, transition</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1276,6 +1342,7 @@ Italy&apos;s Economic Renaissance Under Meloni Faces Credibility Crisis, Amid EU
       <itunes:season>2</itunes:season>
       <itunes:episode>64</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Pedro Sánchez, five billion euro package, Middle East crisis, fuel prices, fertilizer prices, Political Stability Index, Iraq War protests, Popular Party, Eurostat, World Bank, European Commission, Next Generation EU, Valencia flooding; Giorgia Meloni, European Commission, Organisation for Economic Co-operation and Development (OECD), gross domestic product (GDP) growth, public debt, Recovery and Resilience Facility, unemployment rate, political stability index, World Bank governance indicators, judicial reforms</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1304,6 +1371,7 @@ Lithuanian Government Collapses Amid PM&apos;s Financial Scandal and Resignation
       <itunes:season>2</itunes:season>
       <itunes:episode>62</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Poland GDP, fiscal contradiction, Moody&apos;s outlook, budget deficit, EU threshold, 500+ child benefit, defense spending, Recovery and Resilience Facility, Donald Tusk, rating agencies; Latvia defense spending, 5% GDP commitment, Prime Minister Evika Siliņa, Russian hybrid warfare, Belarus border migration, NATO Enhanced Forward Presence, Public sector salary reductions, Fiscal balance 2027, Cyber sabotage, Disinformation campaigns; Gintautas Paluckas, Inga Ruginienė, Lithuanian Social Democratic, Party, financial fraud, ILTE development bank, Garnis company,, political crisis, NATO eastern flank, Baltic governance, defense, spending</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1319,6 +1387,7 @@ Ireland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions 
       <itunes:season>2</itunes:season>
       <itunes:episode>61</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Sweden GDP growth, post-pandemic recovery, household consumption,, defense procurement, export weakness, labor market dynamics, fiscal, sustainability, budget deficit, unemployment forecast, wage agreements; Danish coalition politics, parliamentary deadlock, centrist governance, collapse, Social Democrats electoral decline, Venstre party crisis,, cross-bloc pragmatism, Mette Frederiksen, Lars Løkke Rasmussen,, political fragmentation, European political realignment; Ireland economy, inflation 4.2%, Strait of Hormuz, Simon Harris, EU existential moment, Central Bank of Ireland, Micheál Martin, modified domestic demand, energy crisis, fiscal deficit</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1333,6 +1402,7 @@ Ireland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions 
       <itunes:season>2</itunes:season>
       <itunes:episode>60</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Andrej Babiš, ANO party, SPD, Motorists party, Eurosceptic coalition, Fiscal consolidation, EU austerity, Green Deal, Maastricht threshold, Visegrád allies, Viktor Orbán, Czech GDP growth, Democratic backsliding; fiscal consolidation package, value-added tax (VAT), budget deficit, Robert Fico, Ladislav Kamenický, mass demonstrations, trade unions, employers&apos; associations, IMF endorsement, Slovak Fiscal Council, European Commission forecasts, rule-of-law standards, Bertelsmann Transformation Index</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1347,6 +1417,7 @@ Ireland Faces Doubling Inflation and Sluggish Growth Amid Middle, East Tensions 
       <itunes:season>2</itunes:season>
       <itunes:episode>59</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Slovenia parliamentary elections, Robert Golob, Freedom Movement, Janez Janša, Social Democratic Party, Black Cube, corruption leaks, EU intervention, coalition negotiations, electoral interference; Andrej Plenković, Zoran Milanović, Croatian Democratic Union (HDZ), Social Democrats, constitutional standoff, Recovery and Resilience Facility, eurozone entry, Schengen integration, brain drain, foreign workers, corruption scandals, Bertelsmann Transformation Index, European Commission, GDP growth, unemployment rate</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1361,6 +1432,7 @@ Italy&apos;s Political Stability Plummets as Economic Woes Mount</description>
       <itunes:season>2</itunes:season>
       <itunes:episode>58</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Portugal fiscal surplus, budget collapse 95%, Democratic Alliance government, Luís Montenegro, Chega party, far-right politics, public debt reduction, GDP growth 1.9%, tax burden 35.7%, António José Seguro, André Ventura, presidential election 2026, EU recovery funds, immigration controls, housing crisis; Political Stability Index, World Bank, GDP growth, debt-to-GDP ratio, Giorgia Meloni, Brothers of Italy, Matteo Salvini, Mario Draghi, Mario Monti, National Recovery and Resilience Plan</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1376,6 +1448,7 @@ The Netherlands&apos; Minority Government: Can Rob Jetten Govern Without a, Parl
       <itunes:season>2</itunes:season>
       <itunes:episode>57</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Germany economic stagnation, energy crisis, natural gas dependence,, LNG infrastructure, industrial competitiveness, renewable energy, transition, Nord Stream pipeline, Iran conflict, electricity prices,, subsidies, grid stability, automotive industry, sectoral job losses,, political fragmentation, EU economic implications; Belgium crisis, Energy price shocks, Diesel prices, TTF exchange, Fiscal deficit, Bart De Wever, N-VA coalition, Nuclear phase-out, Stability and Growth Pact, Pierre Wunsch, Federal Planning Bureau, European Commission, European Central Bank, International Monetary Fund; Rob Jetten, Democrats Sixty-Six, minority government, Dutch coalition, politics, parliamentary fragmentation, Schoof cabinet, Geert Wilders,, Party for Freedom, Green Left-Labor, European political instability</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1468,6 +1541,7 @@ Estonia Confronts Internal Fractures as Russian Influence Operations, Target Eth
       <itunes:season>2</itunes:season>
       <itunes:episode>46</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>manual vote counting, Saeima elections, Central Election Commission, Russian disinformation, Baltic states, hybrid warfare, Latvia Defence Ministry, OECD anti-corruption, NATO Enhanced Forward Presence, Saeima Election Law; Russian influence operations, ethnic divisions, threat perception gap,, hybrid warfare, Estonian security, Riigikogu investigative committee,, Russian-speaking populations, disinformation campaigns, NATO, deterrence, Baltic geopolitics</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1481,6 +1555,7 @@ Estonia Confronts Internal Fractures as Russian Influence Operations, Target Eth
       <itunes:season>2</itunes:season>
       <itunes:episode>45</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Iran execution, Iranian-Swedish citizen, espionage charges, consular access, Vienna Convention, Mahsa Amini protests, Russian drone intercept, grain smuggling, NATO frontline, defense spending</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1508,6 +1583,7 @@ Hungary&apos;s April Election: Democracy Under Pressure Amid Russian, Interferen
       <itunes:season>2</itunes:season>
       <itunes:episode>42</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Andrej Babiš, parliamentary immunity, democratic backsliding, Prague, protests, NATO defense spending, Czech Republic, subsidy fraud, allegations, Stork Nest farm, public media reform, Milion chvilek pro, demokracii, rule of law, transatlantic relations, Russian hybrid, threats, Viktor Orbán comparison, EU compliance; Hungarian parliamentary election, Viktor Orbán, Péter Magyar, Tisza, Party, Fidesz-KDNP, Russian electoral interference, Druzhba pipeline,, energy security, European Union cohesion funds, democratic, institutions, constitutional reform, polling data, electoral system</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1535,6 +1611,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>39</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>**, António José Seguro, André Ventura, Chega party, Portuguese presidential election, Runoff election, Voter turnout, Center-right coalition, Marques Mendes, Economic pessimism, Carnation Revolution, Cordon sanitaire, Diesel tax reduction; constitutional referendum, judicial reform, Giorgia Meloni, Brothers of Italy, Superior Council of the Magistracy, judges prosecutors separation, voter turnout, Premierato Bill, European Court of Human Rights, Varieties of Democracy Institute</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1548,6 +1625,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>38</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Germany, France, Belgium, Netherlands</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1561,6 +1639,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>36</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Poland, Latvia, Lithuania, Estonia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1574,6 +1653,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>35</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Sweden, Denmark, Finland, Ireland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1587,6 +1667,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>34</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Czechia, Hungary</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1600,6 +1681,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>33</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Bulgaria, Slovenia, Romania, Croatia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1613,6 +1695,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>32</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Portugal, Spain, Italy</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1626,6 +1709,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>31</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Germany, France, Belgium, Netherlands</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1639,6 +1723,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>30</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Poland, Latvia, Lithuania, Estonia</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1652,6 +1737,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>29</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Sweden, Denmark, Finland, Ireland</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1665,6 +1751,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>27</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Bulgaria, Slovenia, Romania, Croatia, EU news</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -1678,6 +1765,7 @@ Italy Rejects Meloni&apos;s Judicial Reforms in Constitutional Referendum Setbac
       <itunes:season>2</itunes:season>
       <itunes:episode>26</itunes:episode>
       <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Slovakia, Hungary, Austria</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
