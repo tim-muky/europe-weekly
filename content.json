@@ -1,5 +1,5 @@
 {
-  "version": 1786597514811,
+  "version": 1786597610171,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-cbf44aa",
+      "title": "Croatia Caught Between Political Turbulence and Cost-of-Living Strain",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "excerpt": "Croatia's government is navigating a period of acute institutional stress, as a long-running feud between Prime Minister Andrej Plenković and President Zoran Milanović continues to disrupt policymaking. At the same time, households are still absorbing the effects of elevated prices despite a modest easing of inflation. Together, these pressures are shaping a country that feels, to many of its citizens, perpetually in crisis.",
+      "body": "<h3>A Coalition That Survives but Does Not Thrive</h3><p>The most immediate challenge facing Zagreb&#x27;s political class is not a single scandal but a sustained pattern of institutional dysfunction. The governing coalition led by Prime Minister Plenković has repeatedly absorbed internal shocks, most recently surrounding the so-called Dabro affair, yet it remains in office, relying on a parliamentary arithmetic that critics describe as increasingly fragile.</p><p>The confrontation between Plenković and President Milanović, which has been simmering for years, has now moved well beyond political theatre. Multiple sources indicate it is causing measurable harm to coordination in foreign, defence, and security policy — a serious concern for an EU and NATO member state operating in a volatile regional environment. The president has used his platform to amplify public frustration with the cabinet, framing himself as a counterweight to what he characterises as a governing culture of self-preservation over substance.</p><p>The government&#x27;s own position is that institutional continuity must be protected. Officials on the Plenković side argue that managing coalition friction is preferable to the instability of snap elections, and that the country&#x27;s European commitments demand a steady hand rather than performative conflict. That argument has kept the government in place, but it has done little to restore public confidence in the political class as a whole.</p><h3>Prices Are Rising More Slowly — but They Are Still Rising</h3><p>Away from the political arena, Croatian households are contending with a cost-of-living burden that remains heavy despite some statistical improvement. Annual inflation fell from 4.2 percent to 3.6 percent in the most recent reporting period, a drop that the government has cited as evidence that its economic stewardship is bearing fruit and that price pressures are beginning to ease.</p><p>The opposition and consumer advocates offer a sharply different reading. A lower inflation rate, they point out, does not mean lower prices — it means prices are rising more slowly from a level that is already uncomfortably high. Food and retail goods remain significant pressure points, and the relief many households had hoped for has not materialised in any meaningful way for family budgets. In that framing, the government is winning the statistical argument while losing the argument about lived experience.</p><p>Both interpretations contain truth. The directional shift in inflation is real and is consistent with a broader European trend of gradual disinflation. But the pace of relief remains slow relative to the accumulated price shock of recent years, and wage growth has not been sufficient across all segments of the workforce to restore the purchasing power lost during the peak inflation period. The dominant public mood, according to observers, is one of resignation rather than optimism.</p><h3>An Uncertain Horizon for Institutions and Incomes</h3><p>Looking ahead, neither of Croatia&#x27;s two defining pressure points shows signs of resolving quickly. The Plenković–Milanović feud has proved durable across multiple political cycles, and there is little structural incentive for either side to seek a genuine accommodation. With no election immediately on the horizon, the coalition is likely to continue managing crises rather than resolving them, sustaining a governing style that critics say prioritises survival over reform.</p><p>On the economic front, the trajectory of inflation will depend heavily on external factors — energy prices, European Central Bank policy, and the pace of wage growth — that lie largely outside Zagreb&#x27;s control. If disinflation continues at its current pace, households may begin to feel genuine relief in the second half of the year, but that outcome is far from guaranteed, and the political capital available to the government to cushion any further shocks is limited.</p><p>For Croatia&#x27;s European partners and institutional observers, the picture is of a country that is functioning but underperforming relative to its potential. Its EU membership provides a degree of structural anchoring, but neither the political conflict at the top nor the economic anxiety at the household level is likely to dissipate without deliberate effort from a governing class that appears, for now, largely consumed by its own internal disputes.</p>",
+      "keywords": "Croatia, Andrej Plenković, Zoran Milanović, Croatian politics, coalition government, inflation, cost of living, European Union, Balkans, political instability, consumer prices, economic pressure",
+      "sources": "Croatian political reporting on the Plenković–Milanović power struggle, coalition dynamics, and the Dabro affair [1][4][5][8][12][13][14][16]; Croatian inflation and cost-of-living data and economic analysis [2][7]",
+      "pubDate": "2026-08-13",
+      "chartData": {
+        "values": [
+          4.2,
+          3.6
+        ],
+        "labels": [
+          "Previous Inflation Rate (%)",
+          "Current Inflation Rate (%)"
+        ]
+      }
+    },
     {
       "id": "article-dd543f5",
       "title": "Romania Faces Twin Pressures as Deficit Cuts and Stubborn Inflation Test Political Resolve",
@@ -12545,6 +12567,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260813-croatia",
+      "title": "Croatia - 2026.08.13",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "duration": "8:29",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_13/Croatia_Episode_2026_08_13.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 158,
+      "keywords": "Croatia",
+      "notes": "Croatia's government is navigating a period of acute institutional stress, as a long-running feud between Prime Minister Andrej Plenković and President Zoran Milanović continues to disrupt policymaking. At the same time, households are still absorbing the effects of elevated prices despite a modest easing of inflation. Together, these pressures are shaping a country that feels, to many of its citizens, perpetually in crisis.",
+      "pubDate": "2026-08-13"
+    },
     {
       "id": "episode-20260813-romania",
       "title": "Romania - 2026.08.13",
