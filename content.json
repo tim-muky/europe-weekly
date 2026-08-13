@@ -1,5 +1,5 @@
 {
-  "version": 1786511195971,
+  "version": 1786597303998,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,18 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-37df64c",
+      "title": "Bulgaria's Budget Crisis Exposes Deep Fault Lines Over Taxation, Inflation, and Eurozone Ambitions",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "excerpt": "A proposed 2026 budget triggered mass protests across Bulgaria, forcing the government into a humiliating retreat and laying bare a broader crisis of public trust. The episode intersects with persistent cost-of-living pressures that continue to squeeze households even as headline inflation eases. Together, the two crises cast a shadow over Bulgaria's aspirations to join the eurozone.",
+      "body": "<h3>A Budget Withdrawal That Shook the Government</h3><p>Bulgaria&#x27;s government found itself on the defensive this month after its draft 2026 budget provoked some of the most significant street protests the country has seen in recent years. The plan, which proposed increases to taxes and social contributions, was framed by officials as a necessary step toward fiscal stability and compliance with the convergence criteria required for eurozone entry. That argument failed to land with the public.</p><p>Protesters, backed by opposition parties, business associations, and labor unions, rejected the budget as economically harmful and politically illegitimate. Critics argued the measures would raise payroll costs for employers and reduce take-home pay for workers, all while doing little to address what many demonstrators described as a system of entrenched interests and state capture. Under sustained pressure from the streets and from within the political class, the government withdrew or substantially rewrote the proposal, a concession that underscored just how politically toxic the original plan had become.</p><p>The episode has raised serious questions about the government&#x27;s capacity to manage fiscal policy in a period of acute public sensitivity. While officials insist that some degree of revenue adjustment was unavoidable given Bulgaria&#x27;s fiscal trajectory, the available evidence more strongly supports the view that the budget lacked both public legitimacy and political viability from the outset.</p><h3>Inflation Eases on Paper, but Households Are Not Convinced</h3><p>Compounding the government&#x27;s difficulties is the second major pressure point gripping Bulgarian society: the cost of living. Headline inflation data suggests that price growth has been slowing, and government officials and pro-reform voices have pointed to this trend as evidence that macroeconomic stabilization is underway. Their argument is that Bulgaria is moving toward euro adoption under increasingly controlled conditions, and that short-term fiscal discipline is the price of longer-term stability.</p><p>That narrative, however, sits uneasily with the lived experience of millions of Bulgarian households. Food prices, utility bills, and everyday expenses remain elevated in absolute terms, and wage growth has not fully offset the cumulative price increases of recent years. Opposition politicians and civil society groups argue that framing the situation as improving misses the point: the pain is not yet over, and asking households to simultaneously absorb the costs of euro-preparation and a new tax burden is politically untenable.</p><p>The evidence supports what amounts to a split verdict. The government is technically correct that the rate of inflation is declining, but critics are on stronger ground when they argue that price pressure remains a genuine political and economic reality. For ordinary Bulgarians, the distinction between inflation slowing and prices actually falling is a meaningful one, and that distinction is doing real damage to the government&#x27;s credibility.</p><h3>Eurozone Ambitions at Risk as Institutional Trust Frays</h3><p>Taken together, the budget crisis and the cost-of-living squeeze present Bulgarian policymakers with a compound challenge at a particularly sensitive moment. Bulgaria has long positioned eurozone membership as a transformative national goal, and meeting the fiscal and macroeconomic requirements of euro adoption requires exactly the kind of difficult budgetary decisions that have now provoked a political crisis. The government faces the uncomfortable reality that the reforms necessary for eurozone entry may be impossible to execute without broader public buy-in that it has so far failed to secure.</p><p>The protests themselves carried a meaning beyond the specific budget measures. Demonstrators and civil society observers linked the fiscal debate to wider anxieties about corruption and governance, suggesting that the anger on display was not purely about tax rates or contribution levels. When fiscal policy becomes entangled with perceptions of state capture, the political cost of reform rises sharply, regardless of whether the underlying economic logic is sound.</p><p>In the near term, the government must return to the task of constructing a workable 2026 budget while managing expectations around eurozone entry and navigating an electorate that is, by multiple accounts, in an angry and distrustful mood. The institutional credibility required to push through unpopular but necessary measures has been eroded by the handling of the crisis so far. Whether the government can rebuild that credibility, and on what timeline, will determine not only Bulgaria&#x27;s fiscal path but the viability of its eurozone aspirations in this political cycle.</p>",
+      "keywords": "Bulgaria, 2026 budget, eurozone, inflation, cost of living, protests, taxation, fiscal policy, political crisis, eurozone entry, social contributions, public trust, government retreat",
+      "sources": "Reuters reporting on Bulgarian budget protests and government retreat; European Commission convergence and eurozone accession criteria documentation; Bulgarian government fiscal framework statements; opposition party and civil society protest reporting; cost-of-living and inflation data from national and international economic monitoring sources",
+      "pubDate": "2026-08-13"
+    },
     {
       "id": "article-f35442b",
       "title": "Dutch Caretaker Government Deepens Crisis as Economy Slows and Inflation Bites",
@@ -12497,6 +12509,21 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260813-bulgaria",
+      "title": "Bulgaria - 2026.08.13",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "duration": "8:23",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_13/Bulgaria_Episode_2026_08_13.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 155,
+      "keywords": "Bulgaria",
+      "notes": "A proposed 2026 budget triggered mass protests across Bulgaria, forcing the government into a humiliating retreat and laying bare a broader crisis of public trust. The episode intersects with persistent cost-of-living pressures that continue to squeeze households even as headline inflation eases. Together, the two crises cast a shadow over Bulgaria's aspirations to join the eurozone.",
+      "pubDate": "2026-08-13"
+    },
     {
       "id": "episode-20260812-netherlands",
       "title": "Netherlands - 2026.08.12",
