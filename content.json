@@ -1,5 +1,5 @@
 {
-  "version": 1786597610171,
+  "version": 1786683717523,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-9bc1574",
+      "title": "Czechia Walks a Tightrope Between Inflation Calm and a Defense Spending Push",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "excerpt": "Czech consumer prices rose 1.7 percent year on year in July, keeping inflation near the central bank's target but leaving underlying pressures intact. At the same time, Prague has announced a 36 billion crown increase in defense spending to meet NATO's 2 percent of GDP benchmark for the first time, igniting a sharp debate over fiscal priorities and national sovereignty. The two issues together define a moment of cautious economic stabilization shadowed by political division and unresolved trade-offs.",
+      "body": "<h3>Inflation Returns to the Headlines, If Not Yet to Crisis Levels</h3><p>Czech consumer prices climbed 1.7 percent year on year in July, with a 0.6 percent month-on-month rise adding a note of caution to what is otherwise a relatively benign headline number. The Czech National Bank&#x27;s target sits close to this range, and government officials have been quick to argue that the country is not facing a renewed inflationary emergency of the kind that battered households in 2022 and 2023, when price growth surged into double digits.</p><p>The more stubborn concern, however, lies beneath that headline figure. Services inflation remains the primary pressure point, rising faster than the broader basket and proving resistant to the cooling seen in energy and goods prices. Economists and opposition lawmakers have argued that this distinction matters enormously for ordinary families, whose spending on rent, healthcare, transport, and leisure has continued to outpace wage recovery for many lower-income households.</p><p>The overall picture, according to available data, supports the government&#x27;s claim that headline inflation is controlled while also validating critics who warn that underlying price dynamics have not been resolved. The public mood reflects precisely this ambiguity: no longer in crisis mode, but still anxious, still watching supermarket receipts, and still wary of a fresh flare-up if services costs continue their upward drift.</p><h3>A 36 Billion Crown Defense Pledge Stirs a Fiercer Fight</h3><p>While the inflation debate unfolds at a relatively measured pace, the government&#x27;s defense spending announcement has landed with considerably more political force. Prague has stated it will add 36 billion Czech crowns to next year&#x27;s defense budget, with the explicit aim of reaching NATO&#x27;s 2 percent of GDP spending threshold for the first time. The move positions Czechia alongside a growing group of Central and Eastern European allies that have accelerated military investment amid the ongoing war in Ukraine and persistent uncertainty about the alliance&#x27;s collective posture.</p><p>Government ministers have framed the increase not merely as a security measure but as a statement of strategic seriousness, arguing that defense can no longer be treated as a discretionary line item subject to annual budget negotiations. The same political camp has linked the announcement to a broader narrative of fiscal sovereignty, presenting a harder line in EU budget discussions and on migration policy as part of a coherent push to reclaim national control over spending priorities.</p><p>Opposition parties and fiscal analysts have pushed back sharply. Their core challenge is straightforward: they are asking where the money comes from in a budget that already faces structural pressures, and whether a defense increase of this scale can be absorbed without cutting services or widening the deficit. Critics have also questioned whether the sovereignty framing serves a policy purpose or functions primarily as electoral signaling, noting that Czechia remains a net recipient of EU funds and that its actual fiscal leverage in Brussels is more limited than the rhetoric suggests.</p><h3>Two Debates, One Underlying Question About Czech Fiscal Room</h3><p>Taken together, the inflation outlook and the defense commitment point toward a central tension that Prague will have to navigate in the months ahead. The government is trying to hold two positions simultaneously: reassuring citizens that price stability has returned while also justifying a significant increase in public expenditure. That combination is not inherently contradictory, but it leaves little margin for error if services inflation accelerates, if EU budget negotiations turn costly, or if global energy markets deliver another shock.</p><p>For Czech institutions, the immediate practical question is sequencing. The Czech National Bank will be watching services price trends closely as it calibrates its rate path. Any sustained uptick in underlying inflation could complicate the room for the fiscal expansion the defense commitment implies. Markets, meanwhile, will be gauging whether the government&#x27;s spending plans are backed by credible revenue measures or depend on optimistic growth assumptions.</p><p>For citizens, both debates converge on the same lived experience: prices that remain higher than they were three years ago, wages that have not fully caught up for all income groups, and now the prospect of a defense-driven budget reallocation whose benefits are long-term and whose costs are immediate. The government has set a clear direction. Whether it can deliver on both the security commitment and the stability promise, without forcing households to absorb the difference, is the question that will define Czech economic policy through 2025 and beyond.</p>",
+      "keywords": "Czechia, inflation, defense spending, NATO, fiscal policy, Czech National Bank, EU budget, cost of living, services inflation, Central Europe, Prague, fiscal sovereignty",
+      "sources": "Czech Statistical Office, July 2024 consumer price data; Czech National Bank monetary policy communications; Czech government defense budget announcement, 2024; NATO burden-sharing guidelines; European Union budget contribution framework discussions",
+      "pubDate": "2026-08-14",
+      "chartData": {
+        "values": [
+          1.7,
+          2.0,
+          36.0
+        ],
+        "labels": [
+          "Czech Inflation July YoY (%)",
+          "NATO Spending Target (% GDP)",
+          "Defense Budget Increase (Billion CZK)"
+        ]
+      }
+    },
     {
       "id": "article-cbf44aa",
       "title": "Croatia Caught Between Political Turbulence and Cost-of-Living Strain",
@@ -12567,6 +12591,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260814-czechia",
+      "title": "Czechia Walks a Tightrope Between Inflation Calm and a Defense Spending Push · 14 Aug",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "duration": "8:29",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Czechia_Episode_2026_08_14.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 159,
+      "keywords": "Czechia, inflation, defense spending, NATO, fiscal policy, Czech National Bank, EU budget, cost of living, services inflation, Central Europe, Prague, fiscal sovereignty",
+      "notes": "Czech consumer prices rose 1.7 percent year on year in July, keeping inflation near the central bank's target but leaving underlying pressures intact. At the same time, Prague has announced a 36 billion crown increase in defense spending to meet NATO's 2 percent of GDP benchmark for the first time, igniting a sharp debate over fiscal priorities and national sovereignty. The two issues together define a moment of cautious economic stabilization shadowed by political division and unresolved trade-offs.",
+      "pubDate": "2026-08-14",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Czechia_Episode_2026_08_14.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Czechia_Short_2026_08_14.mp4"
+    },
     {
       "id": "episode-20260813-croatia",
       "title": "Croatia - 2026.08.13",
