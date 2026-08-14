@@ -1,5 +1,5 @@
 {
-  "version": 1786683717523,
+  "version": 1786683832940,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-2f60c99",
+      "title": "Slovakia Under Pressure: Austerity Fatigue and Russia Rift Put Bratislava on a Collision Course With Itself and Brussels",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "Slovakia is navigating two simultaneous crises that are straining its public finances, testing its democratic institutions, and complicating its relationship with the European Union. The government of Prime Minister Robert Fico is pushing through a painful fiscal consolidation package while simultaneously resisting EU pressure over Russia policy, drawing fire from citizens, employers, opposition parties, and European partners alike. Together, the two fault lines expose a government governing under mounting pressure from both within and without.",
+      "body": "<h3>A Painful Fiscal Squeeze That Satisfies No One</h3><p>Slovakia&#x27;s government is pressing ahead with a budget consolidation package aimed at reducing the public deficit toward 4.1 percent of gross domestic product, a target officials describe as essential to long-term fiscal stability. Finance ministry figures and government statements frame the package as a phased, responsible effort to avoid a deeper crisis down the road, with officials pushing back against opposition characterizations of the measures as a &quot;tax massacre.&quot;</p><p>But the package is landing badly. Opposition parties, trade unions, and employers&#x27; associations argue that the burden of adjustment has fallen disproportionately on workers, consumers, and businesses rather than on inefficient state spending. The Budgetary Responsibility Council, Slovakia&#x27;s independent fiscal watchdog, has added credibility to those concerns, noting at one stage of the process that measures worth approximately one billion euros lacked sufficient public specification, raising questions about whether the announced savings were as complete as the government suggested.</p><p>The political arithmetic is uncomfortable for Bratislava. The deficit problem is real, and credible analysts broadly accept that consolidation is necessary. What the evidence does not support, however, is the government&#x27;s claim that the economic pain is modest. The package is large, politically contentious, and bears most heavily on households already squeezed by inflation and stagnating wages, according to market commentary and watchdog assessments reviewed during the drafting of this report.</p><h3>Russia, Energy, and a Growing Rift With Brussels</h3><p>Slovakia has emerged as one of the most prominent sources of friction inside the European Union over Russia policy. Bratislava has resisted a series of tougher EU measures, particularly where sanctions or shifts in energy supply arrangements could raise costs or reduce reliability for Slovak consumers and industry. Government officials argue this constitutes pragmatic defense of national energy security rather than ideological alignment with Moscow.</p><p>Critics, including opposition figures and several EU partners, reject that framing. They argue the Fico government has used energy dependence as political cover for a broader posture that weakens EU solidarity on Ukraine and undermines the bloc&#x27;s capacity to act coherently on sanctions. Slovakia&#x27;s stance, they say, has damaged the country&#x27;s credibility in Brussels and fed a perception that Bratislava is prepared to obstruct common European action for domestic political purposes.</p><p>The evidence suggests both dimensions are present. Slovakia does face concrete economic exposure through its dependence on Russian gas, and that dependence provides a legitimate policy rationale for caution on certain energy-linked sanctions. At the same time, the pattern of obstruction has been consistent enough, and broad enough in scope, to give weight to the charge that something more than energy pragmatism is driving Bratislava&#x27;s posture. The country has become, in the assessment of multiple analysts tracking EU cohesion, a reliable outlier in debates where common European action is at stake.</p><h3>A Government Governing Under Pressure, With More to Come</h3><p>What makes the current Slovak moment significant beyond its borders is that both crises reflect and reinforce each other. The fiscal consolidation is generating street protests and broad public anger at home, with the dominant political mood described by observers as one of fatigue and irritation at a government perceived as placing the burden of adjustment on ordinary citizens rather than on the political class. That domestic pressure limits Fico&#x27;s room to make concessions or signal compromise on either front.</p><p>Meanwhile, Slovakia&#x27;s position in Brussels is increasingly isolated. EU institutions and partner governments have made clear that persistent obstruction of common Russia and sanctions policy carries reputational and potentially practical costs, even if formal mechanisms for sanctioning a member state over such disagreements remain limited. For a country that depends on EU structural funds and whose economy is deeply integrated into the single market, that isolation carries long-term risks that go beyond diplomatic discomfort.</p><p>The next several months will be consequential. On the fiscal side, the government faces pressure to produce fully specified consolidation measures that close the gap identified by the Budgetary Responsibility Council and satisfy both domestic critics and European fiscal surveillance requirements. On Russia policy, each new round of EU sanctions negotiations will test whether Bratislava&#x27;s position hardens further, moderates, or becomes a template for other member states weighing national interest against bloc-wide solidarity. Neither question has an easy answer, and on current form, Bratislava appears to have few good options on either front.</p>",
+      "keywords": "Slovakia, Robert Fico, budget consolidation, austerity, fiscal deficit, Budgetary Responsibility Council, Russia policy, EU sanctions, energy security, European Union, Slovak politics, Brussels, natural gas dependence, public protest, EU cohesion",
+      "sources": "Slovak Government Budget Documentation and Official Statements; Budgetary Responsibility Council of Slovakia (RRZ) Assessments; Reuters Reporting on Slovak Fiscal Consolidation Package; The Economist Coverage of EU Sanctions Cohesion and Member State Outliers; EU Commission Fiscal Surveillance Framework Documents; Slovak Opposition and Trade Union Public Statements",
+      "pubDate": "2026-08-14",
+      "chartData": {
+        "values": [
+          4.1,
+          1.0
+        ],
+        "labels": [
+          "Deficit Target (% of GDP)",
+          "Unspecified Savings Gap (€ billion)"
+        ]
+      }
+    },
     {
       "id": "article-9bc1574",
       "title": "Czechia Walks a Tightrope Between Inflation Calm and a Defense Spending Push",
@@ -12591,6 +12613,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260814-slovakia",
+      "title": "Slovakia Under Pressure: Austerity Fatigue and Russia Rift Put Bratislava on… · 14 Aug",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "8:29",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Slovakia_Episode_2026_08_14.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 160,
+      "keywords": "Slovakia, Robert Fico, budget consolidation, austerity, fiscal deficit, Budgetary Responsibility Council, Russia policy, EU sanctions, energy security, European Union, Slovak politics, Brussels, natural gas dependence, public protest, EU cohesion",
+      "notes": "Slovakia is navigating two simultaneous crises that are straining its public finances, testing its democratic institutions, and complicating its relationship with the European Union. The government of Prime Minister Robert Fico is pushing through a painful fiscal consolidation package while simultaneously resisting EU pressure over Russia policy, drawing fire from citizens, employers, opposition parties, and European partners alike. Together, the two fault lines expose a government governing under mounting pressure from both within and without.",
+      "pubDate": "2026-08-14",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Slovakia_Episode_2026_08_14.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Slovakia_Short_2026_08_14.mp4"
+    },
     {
       "id": "episode-20260814-czechia",
       "title": "Czechia Walks a Tightrope Between Inflation Calm and a Defense Spending Push · 14 Aug",
