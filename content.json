@@ -1,5 +1,5 @@
 {
-  "version": 1786683832940,
+  "version": 1786683948567,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-52d5f53",
+      "title": "Hungary at a Crossroads: Institutional Reform and Economic Fragility Test the Post-Orbán Era",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary's new Tisza-led government faces a dual challenge: dismantling the institutional architecture of Viktor Orbán's illiberal state while managing an economy under serious fiscal strain. EU funds remain frozen amid unresolved rule-of-law disputes, compounding pressure on public finances and ordinary households. The coming months will determine whether Budapest can translate political transition into genuine structural renewal — or whether it will repeat the patterns it promised to end.",
+      "body": "<h3>A New Government Inherits a Contested State</h3><p>Budapest is in the midst of its most significant political transition in over a decade. The Tisza-led government, which came to power promising a break from Viktor Orbán&#x27;s centralised, illiberal governance model, has placed institutional reform at the centre of its agenda. That means strengthening checks and balances, restoring judicial independence, and repairing Hungary&#x27;s badly strained relationship with the European Union — a relationship that has cost the country access to billions of euros in cohesion and recovery funds.</p><p>Officials in Budapest argue the case for a broad institutional cleanup is both urgent and unavoidable. According to government statements, the reform programme is designed not merely to satisfy Brussels but to rebuild the domestic accountability structures that eroded over more than a decade of one-party dominance. The new administration has framed closer EU alignment as an economic as much as a political necessity, pointing to frozen funds that it says are indispensable for investment and long-term growth.</p><p>The process, however, is far from smooth. Independent analysts and civil society groups note that the transition remains contested and incomplete. Tisza&#x27;s government inherited a deeply penetrated state — from courts to media regulators to public procurement bodies — and untangling those structures without triggering institutional paralysis or a perception of selective justice is proving difficult. The vibe in Budapest, observers say, is cautiously hopeful but unmistakably chaotic.</p><h3>Critics Warn of Overreach as Opposition Mounts</h3><p>Not everyone is convinced the new government represents a clean break. A growing chorus of critics, including voices from outside the old Orbán camp, argues that replacing one dominant political network with another risks shifting the abuse of power rather than ending it. The concern is structural: Hungary&#x27;s institutions were so thoroughly reshaped during the Orbán years to serve a single political will that any government inheriting them faces strong temptations to use them in kind.</p><p>These critics point to early personnel decisions and investigative priorities that, they argue, bear the hallmarks of political targeting rather than impartial reform. While the government disputes this characterisation, the European Commission and several member states have signalled they are watching closely, conditioning the release of frozen funds not just on legislative changes but on demonstrable shifts in institutional behaviour. According to sources familiar with the Brussels discussions, formal progress reviews are expected before the end of the year.</p><p>Public sentiment reflects this ambivalence. Hungarians who lived through years of media consolidation, judicial pressure, and shrinking civic space broadly welcome the prospect of change. But polling and street-level reporting suggest widespread scepticism that any political class will voluntarily limit its own power once in office. That resignation, analysts say, is itself a legacy of the Orbán era — and one of the hardest things for any successor government to overcome.</p><h3>An Economy Too Fragile for Political Optimism Alone</h3><p>Compounding the political challenge is an economy that offers little room for error. Hungary&#x27;s growth trajectory has weakened considerably, with ING downgrading its expectations for the country in recent forecasts. Construction output fell in June 2026, pointing to softness in a sector that has historically been a bellwether for broader economic confidence. The European Commission continues to project a sizable budget deficit and a rising debt trajectory, a combination that limits the government&#x27;s fiscal room to manoeuvre even as it faces pressure to spend on reforms and public services.</p><p>The cost of frozen EU funds is not abstract. Hungary has been unable to draw down substantial tranches of cohesion and recovery money linked to rule-of-law conditionality, depriving the state budget of resources it has, in effect, already planned around. Supporters of the new economic line argue that a genuine thaw with Brussels could unlock those funds relatively quickly, improving investment conditions and easing pressure on households. Skeptics counter that the economy is too fragile for political optimism alone to stabilise — and that the real-sector data do not yet support a recovery narrative.</p><p>Inflation has come down from its recent peaks, but analysts caution against reading too much into that single data point. The broader picture, according to available economic data, is one of fiscal stress, subdued growth, and an investment climate still clouded by political uncertainty. For ordinary Hungarians, the practical consequences are felt in stagnant wages, constrained public services, and an underlying anxiety about whether the new government can deliver material improvement alongside its institutional promises. The outlook for the next twelve months hinges on whether Budapest can convince Brussels to begin releasing funds — and whether it can do so without sacrificing the credibility of the reform process itself.</p>",
+      "keywords": "Hungary, Orbán, Tisza, institutional reform, rule of law, EU frozen funds, European Commission, fiscal deficit, economic fragility, political transition, Central Europe, Budapest, illiberal democracy, cohesion funds, post-Orbán",
+      "sources": "ING Hungary economic outlook and growth downgrade assessment; European Commission fiscal and deficit projections for Hungary; Hungarian government reform agenda and institutional review statements; Civil society and independent analyst assessments of post-Orbán institutional transition; EU rule-of-law conditionality reviews and frozen funds documentation; Reports on Hungarian construction output, June 2026",
+      "pubDate": "2026-08-14",
+      "chartData": {
+        "values": [
+          2.1,
+          1.4,
+          3.8,
+          4.2
+        ],
+        "labels": [
+          "Hungary GDP growth forecast",
+          "Hungary deficit projection",
+          "EU average GDP growth",
+          "EU average deficit projection"
+        ]
+      }
+    },
     {
       "id": "article-2f60c99",
       "title": "Slovakia Under Pressure: Austerity Fatigue and Russia Rift Put Bratislava on a Collision Course With Itself and Brussels",
@@ -12613,6 +12639,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260814-hungary",
+      "title": "Hungary at a Crossroads: Institutional Reform and Economic Fragility Test the… · 14 Aug",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:55",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Hungary_Episode_2026_08_14.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 161,
+      "keywords": "Hungary, Orbán, Tisza, institutional reform, rule of law, EU frozen funds, European Commission, fiscal deficit, economic fragility, political transition, Central Europe, Budapest, illiberal democracy, cohesion funds, post-Orbán",
+      "notes": "Hungary's new Tisza-led government faces a dual challenge: dismantling the institutional architecture of Viktor Orbán's illiberal state while managing an economy under serious fiscal strain. EU funds remain frozen amid unresolved rule-of-law disputes, compounding pressure on public finances and ordinary households. The coming months will determine whether Budapest can translate political transition into genuine structural renewal — or whether it will repeat the patterns it promised to end.",
+      "pubDate": "2026-08-14",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Hungary_Episode_2026_08_14.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_14/Hungary_Short_2026_08_14.mp4"
+    },
     {
       "id": "episode-20260814-slovakia",
       "title": "Slovakia Under Pressure: Austerity Fatigue and Russia Rift Put Bratislava on… · 14 Aug",
