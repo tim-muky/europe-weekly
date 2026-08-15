@@ -1,5 +1,5 @@
 {
-  "version": 1786770118636,
+  "version": 1786770244989,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-1867dcd",
+      "title": "Tunnels, Turbulence, and Taxpayer Risk: Latvia's Twin Crises Test Government Resolve",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "excerpt": "Latvia is confronting two distinct but equally pressing challenges: an intensifying security standoff along its border with Belarus and a deepening financial crisis at state-controlled airline airBaltic. Both files carry significant consequences for public spending, civil liberties, and Latvia's standing within the European Union. The government's responses to each are being scrutinized by critics who question the transparency and long-term cost of its chosen remedies.",
+      "body": "<h3>A Border Under Siege: Latvia Hardens Its Frontier With Belarus</h3><p>The discovery of a tunnel beneath the Latvian-Belarusian border has sharpened an already tense security standoff, prompting Riga to deploy a multi-agency response that now includes border guards, police, armed forces units, and drone surveillance. Latvian authorities have framed the rising number of illegal crossings not as a conventional migration problem but as a coordinated hybrid threat orchestrated with political intent from Minsk. The border crossing itself has been closed, and officials have confirmed that force has been used to repel crossings.</p><p>The evidence supports the government&#x27;s core claim that pressure along the frontier is real and that extraordinary measures have been taken in response. Reuters reporting confirms both the incidents and the scale of the state response. What remains less independently verified is the broader assertion of a centrally coordinated campaign from Belarus, with public material describing individual incidents rather than quantifying a systematic operation. That gap between official rhetoric and documented evidence is where the political controversy is sharpest.</p><p>Critics argue that the government is securitizing what is fundamentally a migration challenge, militarizing a civilian border zone, and using crisis language to justify measures that raise serious civil-liberties concerns. They call for greater transparency about the true scale of the threat and warn that indefinite militarization could set a troubling precedent. The atmosphere in Latvia on this file is, by any measure, fear-driven and politically charged, feeding directly into wider European Union debates about frontier defense and migration governance.</p><h3>airBaltic&#x27;s Financial Turbulence Puts Taxpayers in the Cockpit</h3><p>Latvia&#x27;s other pressing crisis unfolds in the commercial realm. airBaltic, the state-controlled national carrier, is actively seeking new financing and a strategic investor to avert what analysts and observers describe as a default risk. The government&#x27;s position is that the airline is too strategically important to fail, citing its role in maintaining international connectivity, supporting tourism, and underpinning national competitiveness in a region where direct air links matter enormously.</p><p>The counter-argument, advanced by fiscal critics and opposition voices, is that repeated state involvement in a structurally struggling carrier transfers commercial risk onto the public balance sheet, delays the painful restructuring the airline genuinely needs, and erodes investor confidence in Latvia&#x27;s broader approach to state-owned enterprises. The concern is not abstract: Latvia&#x27;s public finances are already navigating elevated spending demands, and any fresh capital injection or guarantee would add to that burden.</p><p>Unlike the border crisis, which generates fear and urgency, the mood surrounding airBaltic is one of weary resignation. Latvian citizens and observers have watched this cycle of financial stress and state intervention before, and the fatigue is palpable. The stakes are nonetheless concrete. If airBaltic were to collapse or substantially shrink, the consequences would include job losses, reduced regional flight routes, and a chilling effect on business investment at a moment when Latvia can ill afford further uncertainty.</p><h3>Inflation Adds Pressure as Latvia Weighs Its Next Steps</h3><p>Both crises play out against an economic backdrop that offers limited comfort to ordinary households. Latvia&#x27;s inflation rate stood at approximately 3.4 percent in June 2026, according to Eurostat data, placing it above the euro-area average. While that figure represents a retreat from earlier peaks, prices are still rising faster than in most of Latvia&#x27;s currency-union partners, meaning that consumers have not yet felt meaningful relief. The combination of elevated prices, potential taxpayer exposure through airBaltic, and the economic disruption implicit in sustained border militarization represents a compound pressure on household finances and public confidence.</p><p>For the European Union, Latvia&#x27;s situation is a microcosm of tensions playing out across the bloc. The Belarus border file reinforces demands from Baltic and Polish governments for a more robust common frontier policy and feeds into ongoing debates about whether EU migration rules are adequate for hybrid-threat scenarios. The airBaltic case, meanwhile, raises questions about state-aid discipline and whether smaller member states can sustain national carriers without breaching the spirit of EU competition rules.</p><p>The immediate horizon is crowded with decision points. On the security front, the government must decide how long it can sustain a militarized border posture and whether it will seek formal EU or NATO burden-sharing mechanisms to defray the cost. On airBaltic, investor talks must produce results before the airline&#x27;s financial position deteriorates further. Latvia enters the second half of 2026 with its security credibility, fiscal discipline, and economic reputation all simultaneously on the line, leaving little margin for error on either front.</p>",
+      "keywords": "Latvia, Belarus, border security, hybrid threat, illegal migration, airBaltic, airline bailout, state-owned enterprise, Latvia inflation, Eurostat, EU migration policy, Baltic security, taxpayer risk, national carrier, frontier defense",
+      "sources": "Reuters reporting on Latvia-Belarus border incidents and state response; Eurostat inflation data for Latvia and the euro area; Latvian government statements on border security and airBaltic financing; airBaltic investor and financing coverage, including financial stress reporting",
+      "pubDate": "2026-08-15",
+      "chartData": {
+        "values": [
+          3.4,
+          2.6
+        ],
+        "labels": [
+          "Latvia Inflation (June 2026)",
+          "Euro-Area Average"
+        ]
+      }
+    },
     {
       "id": "article-27518ac",
       "title": "Poland's Inflation Uptick Tests Government Claims That the Cost-of-Living Crisis Is Over",
@@ -12687,6 +12709,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260815-latvia",
+      "title": "Latvia: Tunnels, Turbulence, and Taxpayer Risk · 15 Aug",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:35",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Latvia_Episode_2026_08_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 164,
+      "keywords": "Latvia, Belarus, border security, hybrid threat, illegal migration, airBaltic, airline bailout, state-owned enterprise, Latvia inflation, Eurostat, EU migration policy, Baltic security, taxpayer risk, national carrier, frontier defense",
+      "notes": "Latvia is confronting two distinct but equally pressing challenges: an intensifying security standoff along its border with Belarus and a deepening financial crisis at state-controlled airline airBaltic. Both files carry significant consequences for public spending, civil liberties, and Latvia's standing within the European Union. The government's responses to each are being scrutinized by critics who question the transparency and long-term cost of its chosen remedies.",
+      "pubDate": "2026-08-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Latvia_Episode_2026_08_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Latvia_Short_2026_08_15.mp4"
+    },
     {
       "id": "episode-20260815-poland",
       "title": "Poland's Inflation Uptick Tests Government Claims That the Cost-of-Living… · 15 Aug",
