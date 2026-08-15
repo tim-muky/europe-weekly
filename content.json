@@ -1,5 +1,5 @@
 {
-  "version": 1786770365469,
+  "version": 1786770472729,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-0111159",
+      "title": "Estonia's Minority Government Navigates Political Fragility Amid Uneven Economic Recovery",
+      "categories": [
+        "cat-nbf1ay4"
+      ],
+      "excerpt": "Estonia's ruling coalition has lost its parliamentary majority after two MPs defected, leaving the government to manage day-to-day affairs with exactly half of the Riigikogu's 101 seats. The political turbulence coincides with a mixed economic picture: GDP is growing again, but unemployment remains elevated and households have yet to feel a broad-based recovery. Together, the two developments pose a significant test for one of the European Union's smallest but most closely watched member states.",
+      "body": "<h3>A Majority Lost, a Government Weakened</h3><p>The immediate trigger for concern in Tallinn is arithmetical. The departure of two MPs from the governing camp has reduced the coalition&#x27;s support to exactly 50 seats in the 101-seat Riigikogu, Estonia&#x27;s unicameral parliament. That figure marks the precise boundary between a working majority and a minority government — and the coalition now sits on the wrong side of it.</p><p>Government officials have sought to play down the significance of the shift, arguing that day-to-day governance does not require a majority on every vote and that issue-by-issue support from outside the coalition remains a viable path forward. That argument is not without precedent in European parliamentary systems, where minority administrations have at times governed effectively by building ad hoc alliances.</p><p>Opposition parties are less sanguine. They argue the development exposes structural fractures within the ruling bloc and will complicate passage of the budget, major legislative reforms, and any long-term planning. With an election on the horizon in 2027, critics contend the coalition now enters a prolonged period of legislative vulnerability at precisely the moment when Estonia faces both fiscal and economic decisions of consequence. The core opposition argument is supported by the basic facts: the majority is gone, and that is a material change in governing capacity.</p><h3>Growth Returns, but Recovery Remains Incomplete</h3><p>Against this backdrop of political uncertainty, Estonia&#x27;s economic data offer a qualified form of reassurance. Gross domestic product grew 2.1 percent year-on-year in the second quarter, a meaningful improvement after a prolonged contraction that made Estonia one of the harder-hit economies in the euro area. Inflation, meanwhile, eased to 2.3 percent in June, down sharply from the double-digit levels that squeezed households in 2022 and 2023.</p><p>The government has leaned on these figures to argue that the economy has turned a corner. The return of growth and the cooling of prices are presented as evidence that the adjustment period is drawing to a close and that purchasing power should gradually recover. That framing is not inaccurate, but it is incomplete. Eurostat data show that Estonia&#x27;s inflation rate remained above the euro-area average as of June, meaning the price burden, while lighter, has not fully normalised relative to Estonia&#x27;s EU peers.</p><p>The more immediate concern for many households is the labour market. Unemployment stood at 6.6 percent, a level that, while not alarming by European standards, remains elevated for Estonia and points to a recovery that has yet to reach workers broadly. Critics of the government&#x27;s economic narrative argue that a 2.1 percent GDP reading does not automatically translate into tangible improvements in living standards when a meaningful share of the workforce remains without a job and wage gains are uneven across sectors. The honest assessment is that both the government and its critics hold part of the truth: growth has returned, but the recovery is still shallow for many Estonians.</p><h3>Implications for Estonia and the Broader EU</h3><p>The intersection of political fragility and an incomplete economic recovery creates a compounding risk. A minority government attempting to pass a credible budget while managing coalition defections is a government whose fiscal commitments carry less certainty. For Estonia, which has built a strong reputation for budgetary discipline within the EU, any perception that reform momentum is stalling could have consequences for investor confidence and its standing in Brussels policy discussions.</p><p>For EU observers, Estonia represents a familiar but instructive case study. Small member states facing simultaneous coalition instability and uneven recoveries are not rare in contemporary European politics — similar dynamics have played out in Belgium, Finland, and the Netherlands in recent years. What distinguishes Estonia&#x27;s situation is the speed at which the majority collapsed and the degree to which the economic recovery, however real in aggregate terms, has yet to filter through to households in a way that might otherwise provide a governing coalition with political insulation.</p><p>The immediate test will come with the budget process. If the minority government can secure enough issue-by-issue support to pass credible fiscal legislation, it may demonstrate that minority governance is workable in the near term. If it cannot, pressure for early elections or a reshuffled coalition is likely to intensify. On the economic side, the trajectory of unemployment in the coming quarters will be the clearest indicator of whether the 2.1 percent GDP growth figure represents a durable turning point or a fragile uptick in an otherwise still-stressed economy. For now, Estonia&#x27;s government is navigating both tests at once, with a reduced hand and limited room for error.</p>",
+      "keywords": "Estonia, Riigikogu, minority government, coalition collapse, Estonian economy, GDP growth, unemployment, inflation, European Union, fiscal policy, Baltic states, political instability, economic recovery",
+      "sources": "Estonian Riigikogu records and coalition seat-count reports [1][2]; Statistics Estonia Q2 GDP release [3]; Statistics Estonia unemployment data [4]; Statistics Estonia June inflation report [5]; Eurostat euro-area inflation comparison, June [6]",
+      "pubDate": "2026-08-15",
+      "chartData": {
+        "values": [
+          2.1,
+          6.6,
+          2.3
+        ],
+        "labels": [
+          "GDP Growth YoY (%)",
+          "Unemployment Rate (%)",
+          "Inflation Rate June (%)"
+        ]
+      }
+    },
     {
       "id": "article-61117ca",
       "title": "Lithuania Faces a Double Squeeze: Sticky Inflation and a Fragile Coalition Test the Baltic State's Resilience",
@@ -12731,6 +12755,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260815-estonia",
+      "title": "Estonia's Minority Government Navigates Political Fragility Amid Uneven… · 15 Aug",
+      "categories": [
+        "cat-nbf1ay4"
+      ],
+      "duration": "9:05",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Estonia_Episode_2026_08_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 166,
+      "keywords": "Estonia, Riigikogu, minority government, coalition collapse, Estonian economy, GDP growth, unemployment, inflation, European Union, fiscal policy, Baltic states, political instability, economic recovery",
+      "notes": "Estonia's ruling coalition has lost its parliamentary majority after two MPs defected, leaving the government to manage day-to-day affairs with exactly half of the Riigikogu's 101 seats. The political turbulence coincides with a mixed economic picture: GDP is growing again, but unemployment remains elevated and households have yet to feel a broad-based recovery. Together, the two developments pose a significant test for one of the European Union's smallest but most closely watched member states.",
+      "pubDate": "2026-08-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Estonia_Episode_2026_08_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Estonia_Short_2026_08_15.mp4"
+    },
     {
       "id": "episode-20260815-lithuania",
       "title": "Lithuania Faces a Double Squeeze: Sticky Inflation and a Fragile Coalition… · 15 Aug",
