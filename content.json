@@ -1,5 +1,5 @@
 {
-  "version": 1786684069117,
+  "version": 1786770118636,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-27518ac",
+      "title": "Poland's Inflation Uptick Tests Government Claims That the Cost-of-Living Crisis Is Over",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "excerpt": "Polish inflation accelerated to 3.0 percent in July, up from 2.5 percent in June, complicating the government's narrative that price pressures are firmly under control. Prime Minister Donald Tusk has responded by announcing a temporary fuel-price intervention for the final two weeks of August, including a reduced VAT rate and daily price caps. The measures offer short-term relief but have drawn accusations of political timing ahead of the autumn season. The episode illustrates a tension playing out across the European Union: how to balance household affordability, fiscal credibility, and electoral politics.",
+      "body": "<h3>A Modest Rebound That Carries Political Weight</h3><p>Poland&#x27;s headline consumer price index rose to 3.0 percent year on year in July, according to official data, reversing several months of gradual deceleration and reigniting debate about whether the country&#x27;s cost-of-living squeeze has genuinely eased. Fuel prices were among the primary drivers of the uptick, alongside persistent pressure on housing and transport costs.</p><p>For the government of Prime Minister Donald Tusk, the timing is awkward. Officials had been carefully cultivating a message of economic stabilisation, pointing to a strong second-quarter growth print and projections from the National Bank of Poland, known as the NBP, that place inflation near the central bank&#x27;s target zone over the medium term. The NBP forecasts CPI of 2.9 percent in 2026 alongside GDP growth of approximately 3.7 percent, figures that suggest a gradual but manageable landing rather than a crisis.</p><p>Opposition politicians, however, argue that such projections offer little comfort to families navigating higher bills at the pump and the supermarket. The July data, they said, proves that the government has been too quick to declare victory. The statistical reality falls somewhere in between: price pressure has re-accelerated modestly, but Poland is not entering a new inflationary spiral. The more accurate characterisation, analysts say, is that the disinflation story has stalled rather than reversed.</p><h3>Tusk&#x27;s Fuel Intervention: Practical Relief or Political Optics?</h3><p>Faced with rising fuel costs and their visible effect on July&#x27;s inflation reading, the government announced it would reintroduce targeted measures to lower prices at the pump between August 17 and 31. The package includes a reduced VAT rate of 8 percent on fuel and a system of daily maximum price announcements, both designed to limit how much drivers pay during the summer travel period.</p><p>Government representatives framed the move as a direct and practical response to household pressure, arguing that if fuel is a demonstrable inflation driver, temporary intervention is both justified and proportionate. The two-week window, they said, is intended to cushion the peak of summer demand before normal pricing resumes in September.</p><p>Critics were quick to challenge that framing. Opposition figures and some independent economists argued that the measure is short-term and distortionary, doing little to address the structural conditions that allow fuel prices to drive inflation in the first place. The sharper political charge is that the intervention is calibrated not to the economic calendar but to the political one, timed to soften public anger before the autumn session of parliament rather than to deliver lasting affordability. Voters, polling and anecdotal evidence suggest, hold a complicated view: many welcome cheaper fuel while simultaneously suspecting the move is tactical. That blend of relief-seeking and scepticism is a recurring feature of public sentiment in Poland on economic matters, where the dominant mood is described by observers as resigned, punctuated by flashes of irritation rather than outright alarm.</p><h3>Broader Implications for EU Monetary Policy and Fiscal Credibility</h3><p>The Polish episode is not simply a domestic political story. It reflects a dilemma that governments across the European Union have been wrestling with since inflation surged in 2022: at what point does consumer-facing price intervention shift from legitimate crisis management to a fiscal crutch that distorts markets and delays structural adjustment? Poland&#x27;s use of temporary VAT reductions on fuel echoes similar measures deployed in Germany, France, and Hungary at various points over the past three years, most of which were eventually withdrawn without resolving underlying affordability pressures.</p><p>For central bankers, the July data adds a small but meaningful complication. The NBP has been navigating a path toward policy normalisation, and a persistent or worsening inflation rebound could complicate the timing of any future rate adjustments. The bank&#x27;s own projections suggest confidence that price growth will moderate toward target by 2026, but that forecast assumes the kind of disciplined fiscal environment that critics argue is harder to maintain when governments reach for short-term interventions under electoral pressure.</p><p>The immediate test will come in September, when the fuel measures expire and their effect on the August inflation print becomes visible. If prices rebound sharply once VAT rates return to normal levels, it will strengthen the opposition&#x27;s argument that the intervention was cosmetic. If broader inflation continues to moderate in the autumn, the government will claim vindication. Either way, the episode has exposed the limits of the official narrative that Poland&#x27;s cost-of-living story is effectively closed. For millions of households, the data and the experience at the checkout suggest it is not.</p>",
+      "keywords": "Poland, inflation, cost of living, fuel prices, VAT reduction, Donald Tusk, NBP, monetary policy, EU economy, household budgets, price intervention, Polish economy, CPI, fiscal policy, European Union",
+      "sources": "Polish Central Statistical Office, July 2025 CPI release [1]; National Bank of Poland, macroeconomic projections 2025-2026 [2][4]; Polish government press release on fuel-price intervention, August 2025 [5]; Reuters economic data service, Poland inflation and growth tracking [3]",
+      "pubDate": "2026-08-15",
+      "chartData": {
+        "values": [
+          3.0,
+          2.5,
+          2.9
+        ],
+        "labels": [
+          "July 2025 CPI",
+          "June 2025 CPI",
+          "NBP 2026 CPI Forecast"
+        ]
+      }
+    },
     {
       "id": "article-71eaff2",
       "title": "Austria Walks a Fiscal Tightrope as EU Deficit Rules Clash With Economic Fragility",
@@ -12663,6 +12687,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260815-poland",
+      "title": "Poland's Inflation Uptick Tests Government Claims That the Cost-of-Living… · 15 Aug",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "duration": "8:12",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Poland_Episode_2026_08_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 163,
+      "keywords": "Poland, inflation, cost of living, fuel prices, VAT reduction, Donald Tusk, NBP, monetary policy, EU economy, household budgets, price intervention, Polish economy, CPI, fiscal policy, European Union",
+      "notes": "Polish inflation accelerated to 3.0 percent in July, up from 2.5 percent in June, complicating the government's narrative that price pressures are firmly under control. Prime Minister Donald Tusk has responded by announcing a temporary fuel-price intervention for the final two weeks of August, including a reduced VAT rate and daily price caps. The measures offer short-term relief but have drawn accusations of political timing ahead of the autumn season. The episode illustrates a tension playing out across the European Union: how to balance household affordability, fiscal credibility, and electoral politics.",
+      "pubDate": "2026-08-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Poland_Episode_2026_08_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Poland_Short_2026_08_15.mp4"
+    },
     {
       "id": "episode-20260814-austria",
       "title": "Austria Walks a Fiscal Tightrope as EU Deficit Rules Clash With Economic… · 14 Aug",
