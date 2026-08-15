@@ -1,5 +1,5 @@
 {
-  "version": 1786770244989,
+  "version": 1786770365469,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-61117ca",
+      "title": "Lithuania Faces a Double Squeeze: Sticky Inflation and a Fragile Coalition Test the Baltic State's Resilience",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "excerpt": "Lithuania's economy continues to grow, but elevated prices and a cooling labour market mean that recovery remains largely invisible to ordinary households. At the same time, the governing coalition, recently reconstituted with a 75-seat majority, is showing signs of internal strain that could complicate the country's ability to address those very pressures.",
+      "body": "<h3>Growth on Paper, Pain at the Checkout</h3><p>Lithuania entered the second half of 2026 with its economy still expanding, its export sector holding up, and unemployment well below the crisis-era peaks that scarred the country in the early 2010s. On the surface, the government&#x27;s case for resilience has some foundation. Officials have pointed to positive growth figures and continued investment in defence and industrial capacity as evidence that Lithuania is navigating a difficult European environment better than many peers.</p><p>The data, however, tell a more complicated story. Eurostat figures show Lithuania&#x27;s harmonised inflation rate stood at 5.4 percent in June 2026, placing it among the highest in the European Union. Unemployment, at 6.9 percent in June, sat above the EU average, suggesting that the labour market is softening in ways that the headline growth figures do not fully capture. For households, the practical result is that grocery bills, rents, and everyday services continue to bite harder than in most other EU member states.</p><p>Critics of the government&#x27;s framing, including opposition politicians and independent economists, argue that positive growth is a statistical abstraction when wages are failing to keep pace with prices. The fact-check verdict is uncomfortable for the administration: while the economy is genuinely expanding, the claim that the price shock has faded is not supported by mid-2026 data. Lithuania&#x27;s inflation remains one of the most persistent in the bloc, and the public mood reflects that — not panic, but a deepening, weary irritation at being told things are improving while the cost of living stays punishing.</p><h3>A Coalition Built on Shifting Ground</h3><p>If economic discontent is the slow burn threatening Lithuania&#x27;s political stability, the structure of the governing coalition itself represents a more immediate risk. The majority was only recently reconstituted, reaching 75 parliamentary seats after a series of reshuffles that forced parties in and out of government in quick succession. That history of realignment makes claims of smooth, confident governance difficult to sustain under scrutiny.</p><p>Coalition defenders argue that stability, even imperfect stability, is preferable to the uncertainty of repeated partner changes. Lithuania is a frontline NATO state operating in an acutely sensitive security environment, and the government&#x27;s supporters contend that internal discipline matters more than ideological tidiness. Replacing controversial partners, they argue, would generate more turbulence than it resolves.</p><p>Opponents see the situation differently. When a coalition depends on partners whose legitimacy is contested, they argue, policy becomes hostage to constant internal bargaining rather than reflecting a coherent electoral mandate. Ministers distracted by survival politics are ministers not focused on inflation, wages, or public services. The evidence from recent political reporting supports the opposition&#x27;s reading more than the government&#x27;s: the reshuffles have already happened, the tensions are documented, and the majority&#x27;s margin leaves little room for further defections without triggering a fresh crisis.</p><h3>What Comes Next for Lithuania and the EU</h3><p>The intersection of economic strain and political fragility creates a compounding risk. Budget planning, defence commitments, and structural reforms all require a government capable of sustained attention and reliable majorities. If coalition negotiations consume the political bandwidth that should be directed at cost-of-living measures or wage policy, the gap between what the government promises and what households experience will likely widen further.</p><p>For the European Union, Lithuania&#x27;s situation is a case study in a broader challenge facing several member states: how to maintain political cohesion and credible economic governance when inflation remains uneven across the bloc and frontline security obligations add fiscal pressure. Lithuania&#x27;s price levels contribute to the EU&#x27;s uneven inflation picture, and persistent divergence between Baltic and Western European consumer conditions raises questions about the pace and equity of economic convergence within the eurozone periphery.</p><p>The near-term tests are concrete. The government will need to present a budget that addresses household pressures without undermining the defence spending commitments that NATO partners expect from a state bordering the Kaliningrad exclave and Belarus. Doing so with a coalition that has already reshuffled once, and whose internal tensions remain unresolved, will require political management that has so far proved elusive. Whether Lithuanian voters and EU partners see stability restored or further manoeuvring ahead may well depend on decisions taken before the year is out.</p>",
+      "keywords": "Lithuania, inflation, coalition politics, Baltic states, EU economy, unemployment, cost of living, eurozone, NATO, political stability, governance",
+      "sources": "Eurostat harmonised inflation data, June 2026; Eurostat unemployment statistics, June 2026; Lithuanian parliamentary coalition records and political reporting, 2025–2026",
+      "pubDate": "2026-08-15",
+      "chartData": {
+        "values": [
+          5.4,
+          6.9
+        ],
+        "labels": [
+          "Harmonised Inflation Rate June 2026 (%)",
+          "Unemployment Rate June 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-1867dcd",
       "title": "Tunnels, Turbulence, and Taxpayer Risk: Latvia's Twin Crises Test Government Resolve",
@@ -12709,6 +12731,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260815-lithuania",
+      "title": "Lithuania Faces a Double Squeeze: Sticky Inflation and a Fragile Coalition… · 15 Aug",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "8:42",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Lithuania_Episode_2026_08_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 165,
+      "keywords": "Lithuania, inflation, coalition politics, Baltic states, EU economy, unemployment, cost of living, eurozone, NATO, political stability, governance",
+      "notes": "Lithuania's economy continues to grow, but elevated prices and a cooling labour market mean that recovery remains largely invisible to ordinary households. At the same time, the governing coalition, recently reconstituted with a 75-seat majority, is showing signs of internal strain that could complicate the country's ability to address those very pressures.",
+      "pubDate": "2026-08-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Lithuania_Episode_2026_08_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_15/Lithuania_Short_2026_08_15.mp4"
+    },
     {
       "id": "episode-20260815-latvia",
       "title": "Latvia: Tunnels, Turbulence, and Taxpayer Risk · 15 Aug",
