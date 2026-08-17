@@ -1,5 +1,5 @@
 {
-  "version": 1786942914651,
+  "version": 1786943034154,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-08da816",
+      "title": "Denmark Rearms and Rebalances: Security Shift and Economic Caution Define a Nation in Transition",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "excerpt": "Denmark is extending military service to eleven months and broadening conscription, marking one of the most significant shifts in its domestic social contract in decades. At the same time, the country's economy presents a study in contradictions: inflation has cooled to 1.8 percent, yet many households report little sense of relief. Together, these twin pressures are reshaping what it means to be Danish in an era of geopolitical anxiety and uneven prosperity.",
+      "body": "<h3>A New Deal Between State and Youth: Denmark&#x27;s Defence Build-Up</h3><p>Denmark is lengthening compulsory military service to eleven months and expanding the pool of conscripts, in one of the most concrete examples yet of a European welfare state pivoting toward hard security. The reform, already underway, is explicitly tied to Russia&#x27;s war in Ukraine, longstanding concerns about Arctic vulnerability, and the broader pressure on NATO members to demonstrate credible deterrence.</p><p>The government has argued that the security environment has changed so fundamentally that incremental adjustments are no longer sufficient. Gender-neutral conscription is part of the package, widening the reach of the policy and signalling that the burden of national defence is to be shared more broadly across society. Officials have stated that meeting NATO-era demands requires not just more money, but more people trained and ready over a longer period.</p><p>Critics, however, have questioned whether the pace and scale are sustainable. Opposition voices have argued that the cost of rapid rearmament is being borne disproportionately by young people, at a moment when housing affordability, wage pressures, and public service quality remain live concerns for much of the population. The public mood, according to observers, is one of resigned acceptance rather than enthusiasm — Danes appear to understand the security logic without celebrating the consequences.</p><h3>Inflation Is Down, But Relief Remains Elusive</h3><p>On the economic front, Denmark presents a picture that looks reassuring in aggregate but feels more complicated at street level. Eurostat data shows Danish inflation at approximately 1.8 percent, and the country&#x27;s National Bank has forecast roughly stable, low inflation ahead. Unemployment remains low by European standards, and Novo Nordisk — the pharmaceutical giant whose weight-loss and diabetes drugs have made it one of the most valuable companies in Europe — continues to deliver strong profits that cushion the broader national accounts.</p><p>Yet the government&#x27;s pro-stability narrative has attracted pointed pushback. The core counter-argument is that falling inflation does not erase the cumulative price increases of previous years. Households that absorbed sharp rises in energy, food, and housing costs during the 2022 and 2023 inflation surge have not seen those levels reverse; they have simply stopped rising as fast. For many Danes, that distinction matters enormously when measuring monthly budgets against wages that have only partially kept pace.</p><p>There is also a structural question about the economy&#x27;s dependence on a single corporate giant. Novo Nordisk&#x27;s dominance is so pronounced that its performance has at times skewed Denmark&#x27;s GDP figures, creating a gap between national headline numbers and the lived experience of workers in sectors far removed from pharmaceuticals. Analysts have noted that growth is easing rather than accelerating, and that global uncertainty adds a further layer of risk to what is, by nature, a small and open economy.</p><h3>Outlook: A Country Recalibrating Its Priorities</h3><p>The twin developments — a militarised social contract and a cautiously cooling economy — point toward a Denmark in deliberate transition. In the near term, the conscription reform will move through implementation, and the government will face pressure to demonstrate that the investment in defence readiness does not come at the direct expense of domestic programmes. Budget trade-offs will become harder to obscure as the build-up accelerates and fiscal space narrows.</p><p>On the economic side, the key question over the coming months is whether wage growth proves durable enough to convert low inflation into genuine purchasing-power gains for ordinary households. If Novo Nordisk&#x27;s growth trajectory moderates — as some analysts expect, given increasing global competition in the weight-loss drug market — Denmark&#x27;s headline economic resilience could be tested more severely than current forecasts suggest.</p><p>For the European Union, Denmark offers a telling case study in what the post-2022 security consensus looks like in practice: a country that built its post-war identity around social democracy and welfare-state provision is now recalibrating toward deterrence and defence spending, while managing public expectations on the economy with data that looks better on paper than it feels on the ground. How Copenhagen navigates that balance in 2025 and beyond will be watched closely in Brussels and in other capitals facing similar pressures.</p>",
+      "keywords": "Denmark, conscription, defence, NATO, Arctic security, Novo Nordisk, inflation, Danish economy, European security, military reform, cost of living, Ukraine war",
+      "sources": "Eurostat inflation data, latest available reading; Danmarks Nationalbank economic forecasts; Danish government defence reform announcements; NATO burden-sharing framework documentation",
+      "pubDate": "2026-08-17",
+      "chartData": {
+        "values": [
+          1.8,
+          2.4,
+          2.6,
+          2.3
+        ],
+        "labels": [
+          "Denmark",
+          "Euro Area",
+          "Germany",
+          "Sweden"
+        ]
+      }
+    },
     {
       "id": "article-7f28c87",
       "title": "Sweden's Election Race Tightens as Inflation Falls and Growth Outlook Improves",
@@ -12781,6 +12807,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260817-denmark",
+      "title": "Denmark Rearms and Rebalances: Security Shift and Economic Caution Define a… · 17 Aug",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "duration": "8:34",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_17/Denmark_Episode_2026_08_17.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 168,
+      "keywords": "Denmark, conscription, defence, NATO, Arctic security, Novo Nordisk, inflation, Danish economy, European security, military reform, cost of living, Ukraine war",
+      "notes": "Denmark is extending military service to eleven months and broadening conscription, marking one of the most significant shifts in its domestic social contract in decades. At the same time, the country's economy presents a study in contradictions: inflation has cooled to 1.8 percent, yet many households report little sense of relief. Together, these twin pressures are reshaping what it means to be Danish in an era of geopolitical anxiety and uneven prosperity.",
+      "pubDate": "2026-08-17",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_17/Denmark_Episode_2026_08_17.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_17/Denmark_Short_2026_08_17.mp4"
+    },
     {
       "id": "episode-20260817-sweden",
       "title": "Sweden's Election Race Tightens as Inflation Falls and Growth Outlook Improves · 17 Aug",
