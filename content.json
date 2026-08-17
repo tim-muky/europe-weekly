@@ -1,5 +1,5 @@
 {
-  "version": 1786943153849,
+  "version": 1786943264017,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-f4ea4a3",
+      "title": "Ireland's Budget Battle: Can a Wealthy State Spend Its Way Out of a Cost-of-Living Crisis?",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "Dublin is preparing an €8.5 billion budgetary package for 2027, triggering an intensifying political fight over whether robust tax revenues should fund expanded public services or provide relief to households squeezed by rising fuel costs and persistent inflation. With Ireland's HICP inflation holding at 3.1% in July 2026 and energy prices up 6.5% year on year, the gap between strong state finances and strained household budgets has become the defining tension of Irish domestic politics. The debate also carries wider relevance, reflecting a dilemma facing governments across the European Union as they try to balance fiscal responsibility with cost-of-living pressures that have yet to meaningfully ease.",
+      "body": "<h3>A €125.5 Billion Ceiling and the Fight Over What Comes Next</h3><p>Ireland&#x27;s government has set an expenditure ceiling of €125.5 billion for 2027, anchoring a budgetary package that includes €7 billion in additional spending and €1.5 billion in tax measures. The announcement has effectively opened the formal season of Budget 2027 negotiations, forcing a public reckoning with one of the most consequential questions in Irish economic policy: how long can a windfall-supported fiscal position sustain ambitious expenditure growth?</p><p>Finance ministry officials argue the answer is reassuring. July tax receipts were strong, and revenue streams from income tax, VAT, and corporate tax are all described as holding up well, according to government statements. That resilience, officials said, justifies the scale of the package and supports continued investment in public services, infrastructure, and social needs alongside modest tax relief.</p><p>Opposition voices have pushed back sharply. The package, critics argue, is too expansionary at a moment when the economy shows signs of running hot, and treats what may be a temporary revenue surge as a permanent structural gain. Spending growth dwarfing the tax-cut component of the package, they said, leaves dangerously little room to absorb future shocks, whether from global trade disruption, a softening in corporate tax inflows, or renewed inflationary pressure.</p><h3>Fuel Prices Reopen a Raw Wound on Household Budgets</h3><p>Running alongside the budget debate is a sharper and more viscerally felt argument over fuel costs and the government&#x27;s decision to phase out temporary excise-duty cuts introduced as emergency inflation measures. Petrol and diesel prices have risen sharply, and the planned restoration of normal excise levels promises additional pressure on household budgets in the months ahead, even if the most recent price spikes have been driven by market conditions rather than any new tax measure applied in August.</p><p>The government&#x27;s position is that the excise reductions were always intended as a short-term response to an exceptional inflationary episode and that restoring standard tax levels is both fiscally responsible and consistent with the original policy design. Officials stated the phase-out would be managed gradually, with broader inflation and public finance dynamics taken into account.</p><p>That argument has found limited sympathy among cost-of-living advocates, trade union voices, and opposition politicians, who contend the government is effectively choosing revenue protection over household relief. Their case is strengthened by the data. Ireland&#x27;s Harmonised Index of Consumer Prices inflation stood at 3.1% in July 2026, unchanged from June, with energy prices still running 6.5% higher than a year earlier, according to available price statistics. For commuters, rural households dependent on private transport, and small businesses with fuel-heavy operating costs, the numbers translate into a monthly squeeze that aggregate fiscal health does nothing to ease.</p><h3>A Structural Tension With European Echoes</h3><p>Taken together, the budget package and the fuel-price controversy expose a structural contradiction at the heart of Ireland&#x27;s current economic position. The state&#x27;s finances look strong by almost any conventional measure. Yet a substantial portion of the population reports feeling financially worse off, a perception grounded not in misunderstanding but in the stubborn persistence of elevated prices across energy, housing, and essential goods.</p><p>That gap between aggregate fiscal health and household-level stress is not unique to Ireland. Across the European Union, governments that accumulated fiscal space during years of recovery are now confronting the same dilemma: how to allocate resources in a period when inflation has moderated but not disappeared, when voters expect tangible relief, and when the rules-based fiscal framework in Brussels continues to reward restraint over redistribution. Ireland&#x27;s debate is, in this sense, a concentrated version of a continent-wide argument.</p><p>The immediate pressure points are clear. The excise restoration timeline will determine how much additional fuel-cost pain lands on households before the end of the year, while the full contours of Budget 2027 will be settled in the autumn, providing the clearest indication yet of whether the government prioritises spending expansion, tax reduction, or balance-sheet caution. With opposition parties already framing the choices in explicitly electoral terms, the coming months are likely to intensify rather than resolve the core question this budget season has raised: whether a fiscally strong Ireland is translating its revenues into outcomes that ordinary citizens can actually feel.</p>",
+      "keywords": "Ireland budget 2027, Irish fiscal policy, cost of living Ireland, fuel prices Ireland, excise duty, HICP inflation, Irish public spending, European fiscal policy, Irish tax receipts, energy prices Ireland",
+      "sources": "Irish Department of Finance budget framework documents; Irish government July 2026 tax receipt statements; Eurostat HICP inflation data, July 2026; Irish excise duty policy announcements; Budget 2027 expenditure ceiling documentation",
+      "pubDate": "2026-08-17",
+      "chartData": {
+        "values": [
+          8.5,
+          7.0,
+          1.5
+        ],
+        "labels": [
+          "Total Package (€bn)",
+          "Spending Measures (€bn)",
+          "Tax Measures (€bn)"
+        ]
+      }
+    },
     {
       "id": "article-2150563",
       "title": "Finland Caught Between Austerity and a Recovery Too Fragile to Bear It",
@@ -12831,6 +12855,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260817-ireland",
+      "title": "Ireland's Budget Battle: Can a Wealthy State Spend Its Way Out of a… · 17 Aug",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:45",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_17/Ireland_Episode_2026_08_17.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 170,
+      "keywords": "Ireland budget 2027, Irish fiscal policy, cost of living Ireland, fuel prices Ireland, excise duty, HICP inflation, Irish public spending, European fiscal policy, Irish tax receipts, energy prices Ireland",
+      "notes": "Dublin is preparing an €8.5 billion budgetary package for 2027, triggering an intensifying political fight over whether robust tax revenues should fund expanded public services or provide relief to households squeezed by rising fuel costs and persistent inflation. With Ireland's HICP inflation holding at 3.1% in July 2026 and energy prices up 6.5% year on year, the gap between strong state finances and strained household budgets has become the defining tension of Irish domestic politics. The debate also carries wider relevance, reflecting a dilemma facing governments across the European Union as they try to balance fiscal responsibility with cost-of-living pressures that have yet to meaningfully ease.",
+      "pubDate": "2026-08-17",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_17/Ireland_Episode_2026_08_17.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_17/Ireland_Short_2026_08_17.mp4"
+    },
     {
       "id": "episode-20260817-finland",
       "title": "Finland Caught Between Austerity and a Recovery Too Fragile to Bear It · 17 Aug",
