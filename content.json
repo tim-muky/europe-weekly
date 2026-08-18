@@ -1,5 +1,5 @@
 {
-  "version": 1787029440504,
+  "version": 1787029557954,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7c7d7d1",
+      "title": "Italy Stuck Between Fragile Industry and Explosive Budget Politics",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "excerpt": "Italy's industrial output fell 1.0% in June, reinforcing concerns that the country's economic recovery remains brittle even as the government insists its cautious fiscal strategy is working. A parallel coalition fight over taxing banks to fund public priorities has added instability to an already uncertain outlook. For the eurozone's third-largest economy, the stakes extend well beyond Rome.",
+      "body": "<h3>A Recovery Built on Uneven Ground</h3><p>Italy&#x27;s industrial production dropped 1.0% month-on-month in June and contracted 0.6% compared with the same period a year earlier, according to the latest available data. The figures have renewed doubts about the durability of an economic recovery that the government in Rome has repeatedly described as steady and well-managed.</p><p>The picture is not entirely bleak. The second quarter as a whole still registered a 0.4% rise in industrial output compared with the first quarter, suggesting that the June reading reflects weakness inside a still-growing economy rather than outright contraction. Services have also remained comparatively resilient, providing the government with some grounds to argue that the broader economic structure is holding.</p><p>But critics, including opposition lawmakers and trade unions, argue the headline numbers mask deeper problems. Wages remain under pressure and household confidence has not meaningfully recovered, they said. For ordinary workers, the distinction between a technical quarterly gain and a monthly decline can feel academic when purchasing power is still being squeezed.</p><h3>Coalition Fault Lines Over Who Foots the Bill</h3><p>Alongside the industrial data, a sharper political dispute has emerged inside Italy&#x27;s governing coalition over how to finance the country&#x27;s spending priorities, from energy security and defense commitments to social support and tax relief. The debate has focused on whether a levy on banks can serve as a reliable funding mechanism, a proposition that has exposed significant internal disagreements.</p><p>Supporters of the approach, including factions within the coalition, argue that Italy must remain fiscally disciplined while using only part of the flexibility offered under EU fiscal rules, and that the financial sector should contribute more given its recent profitability. The argument carries political appeal in a country where public skepticism toward banks runs deep.</p><p>Opponents, however, describe the bank levy as ad hoc taxation driven more by coalition bargaining than by sound economic logic. Investors have been unsettled, they argued, and the debate risks politicizing banking regulation without resolving the underlying questions about growth, wages, and productivity that make Italy&#x27;s fiscal position structurally difficult. The evidence, according to analysts tracking the budget negotiations, supports the view that no single levy can substitute for a coherent long-term fiscal strategy.</p><h3>What the Deadlock Means for Italy and the Eurozone</h3><p>The convergence of weak industrial data and fractious budget politics places the Italian government in a difficult position as it prepares its annual budget plan. Every fiscal choice carries outsized political weight in a coalition held together by competing priorities, and the uneven economic performance makes durable revenue projections harder to defend.</p><p>The implications extend beyond Italy&#x27;s borders. As the eurozone&#x27;s third-largest economy, Italy&#x27;s fiscal and industrial trajectory feeds directly into broader euro-area sentiment. A prolonged period of low confidence, even without a full recession, can weigh on investment flows and complicate the European Central Bank&#x27;s task of calibrating monetary policy across a heterogeneous bloc.</p><p>The path forward will depend on whether Rome can move from reactive coalition management to a more coherent set of policy commitments. Upcoming budget negotiations, which must produce a credible medium-term fiscal plan acceptable to EU institutions, will serve as the immediate test. For now, Italy is neither in freefall nor on firm footing, a condition that suits no one and resolves nothing.</p>",
+      "keywords": "Italy economy, Italian industrial production, Italy budget, bank levy, eurozone fiscal policy, Italian coalition, EU fiscal rules, Italy recession risk, Italian wages, euro area economy",
+      "sources": "Italian National Institute of Statistics (ISTAT), industrial production data, June and Q2 readings; European Commission fiscal framework guidelines; coalition budget negotiation reporting; trade union statements on wage conditions and household confidence",
+      "pubDate": "2026-08-18",
+      "chartData": {
+        "values": [
+          -1.0,
+          -0.6,
+          0.4
+        ],
+        "labels": [
+          "June MoM Change (%)",
+          "June YoY Change (%)",
+          "Q2 vs Q1 Change (%)"
+        ]
+      }
+    },
     {
       "id": "article-d2a524f",
       "title": "Spain's Economy Caught Between Strong Growth and a Cost-of-Living Squeeze",
@@ -12901,6 +12925,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260818-italy",
+      "title": "Italy Stuck Between Fragile Industry and Explosive Budget Politics · 18 Aug",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "duration": "8:03",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Italy_Episode_2026_08_18.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 173,
+      "keywords": "Italy economy, Italian industrial production, Italy budget, bank levy, eurozone fiscal policy, Italian coalition, EU fiscal rules, Italy recession risk, Italian wages, euro area economy",
+      "notes": "Italy's industrial output fell 1.0% in June, reinforcing concerns that the country's economic recovery remains brittle even as the government insists its cautious fiscal strategy is working. A parallel coalition fight over taxing banks to fund public priorities has added instability to an already uncertain outlook. For the eurozone's third-largest economy, the stakes extend well beyond Rome.",
+      "pubDate": "2026-08-18",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Italy_Episode_2026_08_18.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Italy_Short_2026_08_18.mp4"
+    },
     {
       "id": "episode-20260818-spain",
       "title": "Spain's Economy Caught Between Strong Growth and a Cost-of-Living Squeeze · 18 Aug",
