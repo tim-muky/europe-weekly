@@ -1,5 +1,5 @@
 {
-  "version": 1787029557954,
+  "version": 1787029684747,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-d835fc8",
+      "title": "Wildfires and Stubborn Inflation Put Greece's Recovery Narrative Under Pressure",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "Greece is confronting two overlapping crises that are testing both its public finances and its political credibility: an escalating wildfire season that officials now describe as a medium- and long-term fiscal risk, and a cost-of-living squeeze that official statistics have not fully resolved. The government argues it is managing both with discipline and foresight, but critics and households tell a more complicated story. For the European Union, Greece's predicament is a preview of pressures other frontline climate states may soon face.",
+      "body": "<h3>Wildfires Move From Emergency to Fiscal Liability</h3><p>Greece&#x27;s wildfire season has shifted from a recurring humanitarian crisis into something more structurally damaging: a sustained drag on public finances, regional tourism, and state credibility. A senior government adviser told Reuters that wildfires and heatwaves now pose a medium- and long-term fiscal risk to a country whose economy depends heavily on a single warm-weather industry. That framing signals a policy shift, from reactive emergency spending toward sustained investment in climate adaptation and fire prevention.</p><p>The government&#x27;s case is that Greece must treat extreme weather as a permanent budget variable, not an exceptional line item. Officials point to increased investment in civil protection infrastructure and tourism-resilience programmes as evidence that Athens is adjusting its fiscal planning to match the new climate reality. For a country where tourism accounts for a substantial share of gross domestic product, disrupted summer seasons are not merely inconvenient — they are a direct threat to growth projections and sovereign revenue.</p><p>Critics, however, argue that the government is reframing a governance failure as a climate-policy story. Opposition voices point to years of underfunded forest management, chronically stretched civil protection services, and a persistent over-reliance on emergency response after fires have already taken hold. Residents in fire-prone areas who have faced repeated evacuations and property losses are, in this reading, absorbing the costs of institutional underinvestment. The chaotic and recurring nature of the crisis — fatalities, mass evacuations, and near-constant summer alerts — has made it feel less like a seasonal emergency and more like a structural condition.</p><h3>Inflation Is Easing, But Household Relief Remains Elusive</h3><p>Greece&#x27;s inflation picture is improving on paper, though the distance between official statistics and lived experience remains politically significant. Eurostat data show annual inflation in Greece fell to 2.7 percent in July 2026, down sharply from 4.9 percent in May, giving the government a genuine data point in its argument that its fiscal discipline and anti-evasion enforcement are beginning to stabilise the economic environment. The directional trend, the government argues, vindicates its approach of broadening the tax base before announcing targeted relief measures.</p><p>The Bank of Greece complicates that narrative. Its assessments earlier in 2026 indicated that inflation remained uncomfortably elevated and projected it to stay above comfortable target-pressure levels through the year, driven by persistent cost pressures in energy, food, wages, rents, and tourism-linked demand. For ordinary households, a decline from 4.9 percent to 2.7 percent does not translate automatically into cheaper groceries, lower rents, or reduced utility bills. The government is technically correct that inflation has fallen; the opposition is also correct that this does not yet feel like meaningful relief to many families.</p><p>The political contest over economic messaging has therefore become a debate about what falling inflation actually means at street level. The government&#x27;s anti-tax-evasion drive, which it says is expanding the revenue base and creating fiscal room, has not yet produced the household tax relief that officials have signalled is coming. Until that relief materialises in tangible form, critics will continue to argue that the administration is using directional improvement in headline numbers as political cover for conditions that remain stubbornly difficult for middle- and lower-income households.</p><h3>Overlapping Pressures Carry Implications Beyond Greece&#x27;s Borders</h3><p>Greece&#x27;s dual challenge is not simply a domestic political argument. As a frontline European Union state for climate shocks, how Athens manages the interaction between wildfire risk and fiscal capacity will be watched closely in Brussels and other Mediterranean capitals. The European Union&#x27;s broader adaptation agenda depends in part on whether member states can demonstrate that proactive climate investment is financially viable without sacrificing growth or worsening inequality — a balance Greece has not yet clearly struck.</p><p>Tourism adds a cross-border dimension. Greece&#x27;s summer economy generates employment and investment flows that extend well beyond its own borders, affecting supply chains, regional labour markets, and investor confidence across southern Europe. A sustained pattern of fire-disrupted seasons would not remain a Greek problem for long. The question of how to fund adaptation without distorting competition or imposing new burdens on already-stretched households is also a live debate at the EU level, where member states are simultaneously under fiscal pressure and climate obligation.</p><p>The immediate calendar will be telling. Whether the government can present a credible autumn budget that allocates meaningful resources to fire prevention and adaptation while delivering on promised tax relief will determine whether its resilience narrative survives the parliamentary season. The Bank of Greece&#x27;s next inflation assessment will provide either a further tailwind or an inconvenient counter-argument. And for the communities that have spent another summer under evacuation orders, the political patience for governance-as-usual is wearing measurably thin.</p>",
+      "keywords": "Greece, wildfires, inflation, fiscal policy, climate adaptation, tourism, cost of living, tax evasion, Bank of Greece, Eurostat, European Union, Mediterranean, civil protection, household finances",
+      "sources": "Reuters, senior government adviser on wildfire fiscal risk; Eurostat, Greece annual inflation data, May and July 2026; Bank of Greece, inflation assessments and projections for 2026",
+      "pubDate": "2026-08-18",
+      "chartData": {
+        "values": [
+          4.9,
+          2.7
+        ],
+        "labels": [
+          "Greece Inflation May 2026",
+          "Greece Inflation July 2026"
+        ]
+      }
+    },
     {
       "id": "article-7c7d7d1",
       "title": "Italy Stuck Between Fragile Industry and Explosive Budget Politics",
@@ -12925,6 +12947,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260818-greece",
+      "title": "Wildfires and Stubborn Inflation Put Greece's Recovery Narrative Under… · 18 Aug",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "8:58",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Greece_Episode_2026_08_18.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 174,
+      "keywords": "Greece, wildfires, inflation, fiscal policy, climate adaptation, tourism, cost of living, tax evasion, Bank of Greece, Eurostat, European Union, Mediterranean, civil protection, household finances",
+      "notes": "Greece is confronting two overlapping crises that are testing both its public finances and its political credibility: an escalating wildfire season that officials now describe as a medium- and long-term fiscal risk, and a cost-of-living squeeze that official statistics have not fully resolved. The government argues it is managing both with discipline and foresight, but critics and households tell a more complicated story. For the European Union, Greece's predicament is a preview of pressures other frontline climate states may soon face.",
+      "pubDate": "2026-08-18",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Greece_Episode_2026_08_18.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Greece_Short_2026_08_18.mp4"
+    },
     {
       "id": "episode-20260818-italy",
       "title": "Italy Stuck Between Fragile Industry and Explosive Budget Politics · 18 Aug",
