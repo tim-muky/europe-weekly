@@ -1,5 +1,5 @@
 {
-  "version": 1787029320347,
+  "version": 1787029440504,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-d2a524f",
+      "title": "Spain's Economy Caught Between Strong Growth and a Cost-of-Living Squeeze",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "Spain's headline economic figures remain among the most resilient in the euro area, but a jump in inflation to 3.6% in July and soaring housing costs are undermining household confidence. The gap between macroeconomic performance and lived experience is sharpening a political fight over who benefits from growth. For policymakers in Madrid and Brussels alike, the tension between solid GDP numbers and mounting affordability pressures represents a test of economic credibility.",
+      "body": "<h3>A Growth Story With an Uncomfortable Asterisk</h3><p>Spain recorded quarterly GDP growth of 0.7% in the second quarter of this year and expanded 2.7% year-on-year, figures that comfortably outpace many of its euro-area peers. The Bank of Spain has maintained a positive outlook for 2026, citing employment gains, migration-driven labour supply, and continued public investment supported by European recovery funds. For the government of Prime Minister Pedro Sánchez, these numbers constitute the central pillar of its economic argument ahead of an increasingly difficult political period.</p><p>Yet the headline figures are doing less political work than the government might hope. Economists and opposition parties argue that strong aggregate growth is masking a distributional reality in which wage gains and job creation are not keeping pace with rising prices, tighter mortgage conditions, and surging rents. The debate is no longer simply about whether Spain is growing, but about who is actually feeling it.</p><h3>Inflation Returns as a Political Flashpoint</h3><p>Spain&#x27;s inflation rate rose to 3.6% in July, driven primarily by energy and fuel costs, reopening a debate that many in government had hoped was winding down. The figure is a reversal from earlier in the year, when core inflation had shown signs of easing, and it arrives at a moment when households are already under pressure from housing costs. The Housing Price Index rose 12.9% year-on-year in early 2026, compounding the sense among many families that the cost of basic necessities is moving beyond reach.</p><p>The government&#x27;s response has been to frame the July spike as a temporary, energy-driven anomaly rather than evidence of a structural problem, pointing to Spain&#x27;s comparatively strong growth performance as proof the broader economy remains sound. Housing supply initiatives and the ongoing execution of recovery-plan investments are presented as the appropriate long-term remedy. Critics, however, argue that the &quot;inflation is easing&quot; message has lost credibility with ordinary voters, because prices in energy, rent, and food remain sharply elevated relative to incomes, regardless of technical improvements in underlying measures earlier in the year. The data support the more cautionary reading: inflation is not falling in any sense that translates into relief at the checkout or on the monthly rent statement.</p><p>The public mood is less one of panic than of accumulated frustration. Employment remains relatively strong, which prevents outright economic despair, but the persistence of high bills alongside stagnant real incomes is generating what analysts describe as a quiet but durable irritation with political assurances that conditions are improving.</p><h3>Wider Stakes for Brussels and the Euro Area</h3><p>The tension playing out in Spain carries implications well beyond domestic politics. As one of the European Union&#x27;s larger economies and one of its more dynamic growth engines in recent years, Spain&#x27;s experience serves as a leading indicator for broader debates about the euro area&#x27;s post-pandemic recovery. If energy-driven inflation proves stickier than anticipated and housing pressures continue to intensify, it will feed directly into discussions at the European Central Bank about the pace and depth of any further monetary easing, and into political arguments across the bloc about whether recovery-fund investments are delivering for households rather than simply for headline statistics.</p><p>For the Sánchez government, the stakes are simultaneously domestic and European. Its standing with Brussels depends partly on demonstrating fiscal discipline and reform delivery, while its standing with Spanish voters depends on something harder to engineer: making a strong macroeconomic story feel real to families whose monthly budgets are under pressure. Those two imperatives are not yet in direct conflict, but the narrowing space between them is becoming visible.</p><p>The immediate test will come in the autumn, when energy costs traditionally rise with the heating season and any renewed upward pressure on inflation would arrive just as budget negotiations intensify. If the July reading proves to be the beginning of a renewed upward trend rather than a one-month anomaly, the government&#x27;s ability to sustain its twin argument — that Spain is a European success story and that living standards are on a positive trajectory — will face its most difficult examination yet.</p>",
+      "keywords": "Spain economy, inflation, cost of living, GDP growth, housing prices, euro area, Pedro Sánchez, Bank of Spain, energy prices, European recovery fund",
+      "sources": "Reuters, Spain GDP and inflation reporting, Q2 data; Bank of Spain, 2026 economic outlook statements; Spain National Statistics Institute (INE), Housing Price Index, early 2026; European Commission, euro-area recovery and inflation monitoring",
+      "pubDate": "2026-08-18",
+      "chartData": {
+        "values": [
+          3.6,
+          2.7,
+          12.9
+        ],
+        "labels": [
+          "Inflation Rate July %",
+          "GDP Growth Year-on-Year %",
+          "Housing Price Index YoY %"
+        ]
+      }
+    },
     {
       "id": "article-b10d43e",
       "title": "Portugal's Growth Rebound Masks Deeper Tensions Over Inflation, Housing, and Immigration",
@@ -12877,6 +12901,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260818-spain",
+      "title": "Spain's Economy Caught Between Strong Growth and a Cost-of-Living Squeeze · 18 Aug",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:15",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Spain_Episode_2026_08_18.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 172,
+      "keywords": "Spain economy, inflation, cost of living, GDP growth, housing prices, euro area, Pedro Sánchez, Bank of Spain, energy prices, European recovery fund",
+      "notes": "Spain's headline economic figures remain among the most resilient in the euro area, but a jump in inflation to 3.6% in July and soaring housing costs are undermining household confidence. The gap between macroeconomic performance and lived experience is sharpening a political fight over who benefits from growth. For policymakers in Madrid and Brussels alike, the tension between solid GDP numbers and mounting affordability pressures represents a test of economic credibility.",
+      "pubDate": "2026-08-18",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Spain_Episode_2026_08_18.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_18/Spain_Short_2026_08_18.mp4"
+    },
     {
       "id": "episode-20260818-portugal",
       "title": "Portugal's Growth Rebound Masks Deeper Tensions Over Inflation, Housing · 18 Aug",
