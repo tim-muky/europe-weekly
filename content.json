@@ -1,5 +1,5 @@
 {
-  "version": 1787115960841,
+  "version": 1787116082416,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-e1c4c53",
+      "title": "Dutch Economy Walks a Tightrope Between Resilience and Household Strain",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "excerpt": "The Netherlands is navigating a delicate balancing act: official data points to a still-expanding economy, yet households continue to feel the weight of elevated prices and weakening purchasing power. Two parallel policy debates — over cost-of-living pressures and new cyber-resilience legislation — are reshaping the domestic political landscape and testing public confidence in the government's management of compounding crises.",
+      "body": "<h3>Inflation Eases, but Relief Remains Out of Reach for Many</h3><p>Dutch inflation fell to 2.9 percent in July 2026, down from 3.4 percent in June, according to Eurostat figures, and De Nederlandsche Bank expects the annual average to settle at around 2.7 percent for the full year. For the government of Prime Minister Dick Schoof, these numbers represent a vindication of a broadly steady hand on economic policy. Officials have argued consistently that the economy has proven resilient in the face of repeated external shocks, from energy market turbulence to geopolitical instability, and that the downward trajectory of inflation is evidence that the worst is passing.</p><p>That argument, however, only captures part of the picture. Even as the rate of price increases slows, prices themselves remain substantially higher than they were before the inflationary surge of recent years. The Central Planning Bureau has signalled that household purchasing power is set to weaken further in the coming year, meaning that wage growth — while positive in nominal terms — may not be sufficient to restore the real living standards many Dutch families enjoyed before the cycle of price shocks began. Energy-related costs remain a particular strain, disproportionately affecting lower- and middle-income households whose budgets leave little room for absorption.</p><p>The political opposition has been quick to press this distinction. Reducing the inflation rate, critics argue, is not the same as reducing the cost of living. Prices at the pump, in the supermarket, and on utility bills are not retreating — they are simply rising more slowly. That framing resonates on the street. Public sentiment, according to analysts tracking consumer confidence, is best described as resigned rather than relieved: most Dutch citizens accept that the economy is not in freefall, but they do not feel that the squeeze on their daily spending has meaningfully eased.</p><h3>New Cyber Laws Trigger Debate Over Mandates and Means</h3><p>Running alongside the cost-of-living debate is a separate but equally consequential policy development. The Netherlands has moved to activate new legislation designed to harden cyber defences and protect critical infrastructure — covering energy grids, transport networks, water systems, and essential public services — against cyberattacks and cascading operational failures. The move follows a broader European push to align national resilience frameworks with the EU&#x27;s Network and Information Security directives, and reflects growing alarm among security planners about the vulnerability of interconnected digital systems.</p><p>The government has framed the legislation as straightforward national preparedness, arguing that modern societies cannot afford to leave critical services exposed to disruption whether from hostile state actors, criminal networks, or accidental failures. Security officials have noted that the Netherlands, as a densely networked economy with major port, logistics, and financial infrastructure, is a particularly attractive target and therefore has an elevated obligation to invest in resilience. In that framing, the new laws represent a necessary and overdue upgrade rather than a political choice.</p><p>Industry groups, trade unions, and local government associations have responded with a more cautious welcome. Their concern is not with the principle of the legislation, but with its execution. Compliance requirements impose real costs on operators — many of them municipalities or mid-sized companies with limited cybersecurity capacity — and critics warn that security mandates risk becoming unfunded obligations unless the government provides commensurate funding, trained personnel, and practical implementation guidance. The debate reflects a tension familiar from other regulatory domains: the state can legislate for resilience, but legislation alone does not deliver it.</p><h3>Two Pressure Points, One Political Moment</h3><p>Taken together, the inflation debate and the cyber-resilience legislation define the central challenge facing Dutch policymakers heading into the latter half of 2026. The government must simultaneously manage the near-term expectations of households still absorbing the cumulative effects of years of elevated prices, while also making long-horizon investments in the security and stability of systems that most citizens rarely think about until something goes wrong. Neither task is straightforward, and the political cost of failing at either is high.</p><p>On purchasing power, the most consequential near-term signal will come from wage negotiations in the autumn, when collective labour agreements across several major sectors are due for renewal. If settlement figures track above the DNB&#x27;s projected inflation average, the government will have a credible argument that real incomes are recovering. If they do not, opposition parties will have data to sharpen their attacks ahead of any electoral test. The European Central Bank&#x27;s rate trajectory also matters: a faster easing of borrowing costs in the eurozone would reduce mortgage pressure on Dutch households, a significant population of whom hold variable-rate or recently renegotiated fixed-rate loans.</p><p>On cyber resilience, the real test will come not in parliamentary debate but in the event of an actual disruption. If a significant cyberattack or infrastructure failure occurs and the new legislative framework demonstrably limits the damage, the government will claim vindication. If the attack exposes implementation gaps — undertrained operators, underfunded municipalities, or unclear lines of responsibility — the laws will face a harsher verdict. For now, the dominant public mood is one of cautious concern rather than alarm: a country that believes it is broadly prepared, but is not entirely confident that preparation has kept pace with the threat.</p>",
+      "keywords": "Netherlands, Dutch economy, inflation, purchasing power, cost of living, De Nederlandsche Bank, Eurostat, cyber resilience, critical infrastructure, NIS2, Dutch politics, eurozone, energy prices, household finances, economic outlook",
+      "sources": "Eurostat, July 2026 inflation data for the Netherlands; De Nederlandsche Bank (DNB), 2026 inflation and purchasing power forecasts; Centraal Planbureau (CPB), household purchasing power projections; EU Network and Information Security (NIS2) Directive framework documentation",
+      "pubDate": "2026-08-19",
+      "chartData": {
+        "values": [
+          2.9,
+          3.4,
+          2.7
+        ],
+        "labels": [
+          "Inflation July 2026 (%)",
+          "Inflation June 2026 (%)",
+          "DNB Annual Forecast 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-a124787",
       "title": "Belgium Tightens Its Borders and Its Belt as Migration and Debt Costs Reshape Daily Life",
@@ -13005,6 +13029,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260819-netherlands",
+      "title": "Netherlands: Dutch Economy Walks a Tightrope Between Resilience and Household Strain · 19 Aug",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "duration": "8:33",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/Netherlands_Episode_2026_08_19.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 178,
+      "keywords": "Netherlands, Dutch economy, inflation, purchasing power, cost of living, De Nederlandsche Bank, Eurostat, cyber resilience, critical infrastructure, NIS2, Dutch politics, eurozone, energy prices, household finances, economic outlook",
+      "notes": "The Netherlands is navigating a delicate balancing act: official data points to a still-expanding economy, yet households continue to feel the weight of elevated prices and weakening purchasing power. Two parallel policy debates — over cost-of-living pressures and new cyber-resilience legislation — are reshaping the domestic political landscape and testing public confidence in the government's management of compounding crises.",
+      "pubDate": "2026-08-19",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/Netherlands_Episode_2026_08_19.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/Netherlands_Short_2026_08_19.mp4"
+    },
     {
       "id": "episode-20260819-belgium",
       "title": "Belgium Tightens Its Borders and Its Belt · 19 Aug",
