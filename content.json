@@ -1,5 +1,5 @@
 {
-  "version": 1787115726208,
+  "version": 1787115846152,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,18 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3547935",
+      "title": "France Faces a Double Squeeze: Rising Debt and Stubborn Inflation Cloud the Economic Outlook",
+      "categories": [
+        "cat-8azgfhe"
+      ],
+      "excerpt": "France is confronting a deepening fiscal crisis as public debt surpasses 3.5 trillion euros and debt-servicing costs climb sharply, while households remain under pressure from inflation that has eased but not disappeared. The government is betting on gradual adjustment, but opposition voices and independent analysts warn the strategy may be too cautious for the scale of the problem. With the 2027 budget already emerging as a political battleground, the stakes extend well beyond France's borders, touching eurozone stability and EU fiscal credibility.",
+      "body": "<h3>A Debt Burden That Is No Longer Easy to Dismiss</h3><p>France&#x27;s public debt has crossed 3.5 trillion euros, a figure that would have seemed abstract not long ago but is now translating into hard, daily costs for the state. Debt-servicing expenditure is rising sharply as the interest rate environment has shifted from the ultra-low era of the 2010s, forcing the government to spend more just to stand still. Official and market-facing forecasts offer little reassurance: without significant adjustment, the trajectory points toward continued deterioration rather than stabilisation.</p><p>The government of Prime Minister Gabriel Attal has defended a strategy of gradual deficit reduction, arguing that aggressive austerity would be both politically explosive and economically counterproductive. Officials contend that France can still demonstrate fiscal discipline without resorting to the kind of shock therapy that would destabilise growth and trigger social unrest. That case has a certain logic in a country with a long history of street-level opposition to public-spending cuts.</p><p>The opposition and fiscal hawks are unconvinced. They argue the government is delaying a reckoning rather than managing it, pointing out that modest adjustments carry diminishing returns when interest costs are compounding and the deficit remains stubbornly high. The fiscal arithmetic, they say, does not forgive gradualism at this level of debt. Independent analysts broadly agree that the direction of travel is worrying, even if they stop short of predicting an imminent crisis.</p><h3>Inflation Is Lower, but Households Are Not Celebrating</h3><p>Alongside the debt problem sits a second, more visible squeeze: France is trapped in a combination of weak growth and inflation that, while no longer at crisis levels, has not faded enough to offer meaningful relief to ordinary households. Forecasts from the Banque de France and the European Commission place inflation at roughly 2.4 to 2.5 percent in 2026, following a lower reading of around 0.9 percent in 2025. That trajectory suggests price growth is easing from the 2022 to 2023 peak, but it is not disappearing, and it is not painless.</p><p>Growth compounds the difficulty. The Banque de France projected expansion of around 0.9 percent for 2026, with only sluggish quarterly momentum expected through the year. At that pace, the economy is barely advancing, leaving little room for wages to recover lost ground or for consumer confidence to rebuild. Critics of the government&#x27;s framing argue that describing inflation as &quot;down&quot; is technically accurate but misleading in practice: prices are still rising, just more slowly, while bills, taxes, and living costs remain elevated relative to where they were three or four years ago.</p><p>The political consequences of this squeeze are significant. French households are not experiencing a recovery in any meaningful sense, and the gap between official messaging and lived experience is wide enough to feed frustration. Trade unions and left-wing parties have been quick to exploit that gap, arguing that any budget tightening will fall hardest on those least able to absorb it. The government, caught between fiscal pressure from above and social pressure from below, has limited room to satisfy either side.</p><h3>The 2027 Budget and the Broader European Stakes</h3><p>The immediate political test is the 2027 budget, which is already shaping up as a defining confrontation. France&#x27;s deficit has remained persistently above European Union limits, and Brussels is watching closely. As one of the eurozone&#x27;s two largest economies, France&#x27;s fiscal credibility carries weight well beyond its own borders. A loss of market confidence in French debt would ripple through euro-area bond markets and complicate the European Central Bank&#x27;s ability to manage broader monetary conditions.</p><p>The EU&#x27;s Stability and Growth Pact, reinforced by the revised fiscal rules that came into force in 2024, requires member states with excessive deficits to present credible medium-term adjustment plans. France is subject to that pressure, and the tension between meeting Brussels&#x27; expectations and maintaining domestic political peace is likely to intensify as the budget season approaches. Neither the government nor the opposition has presented a fully costed plan that resolves the arithmetic while surviving a parliamentary vote.</p><p>The outlook, in short, is one of managed uncertainty rather than resolved crisis. France has the institutional depth and market standing to avoid an acute blow-up in the near term, and the ECB&#x27;s backstop mechanisms provide some insulation. But the structural problems, a debt stock that requires ever-larger servicing payments, growth too weak to generate the revenues needed for adjustment, and inflation too persistent to relieve household pressure, are not self-correcting. The next twelve months, culminating in the 2027 budget debate, will test whether France&#x27;s political system can reconcile fiscal responsibility with social tolerance before the margin for manoeuvre narrows further.</p>",
+      "keywords": "France, public debt, budget deficit, inflation, economic growth, fiscal policy, eurozone, EU fiscal rules, Banque de France, European Commission, austerity, cost of living, 2027 budget, euro area, bond markets",
+      "sources": "Banque de France growth and inflation projections, 2025 and 2026; European Commission economic forecasts, Spring 2025; French government budget documentation and deficit reduction strategy statements; European Commission Stability and Growth Pact monitoring reports; Market and institutional debt sustainability analyses, 2024 to 2025",
+      "pubDate": "2026-08-19"
+    },
     {
       "id": "article-b01bfd0",
       "title": "Germany's Economy Shows Tentative Signs of Life, but Inflation and Trade Risks Cloud the Recovery",
@@ -12971,6 +12983,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260819-france",
+      "title": "France Faces a Double Squeeze: Rising Debt and Stubborn Inflation Cloud the… · 19 Aug",
+      "categories": [
+        "cat-8azgfhe"
+      ],
+      "duration": "8:31",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/France_Episode_2026_08_19.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 176,
+      "keywords": "France, public debt, budget deficit, inflation, economic growth, fiscal policy, eurozone, EU fiscal rules, Banque de France, European Commission, austerity, cost of living, 2027 budget, euro area, bond markets",
+      "notes": "France is confronting a deepening fiscal crisis as public debt surpasses 3.5 trillion euros and debt-servicing costs climb sharply, while households remain under pressure from inflation that has eased but not disappeared. The government is betting on gradual adjustment, but opposition voices and independent analysts warn the strategy may be too cautious for the scale of the problem. With the 2027 budget already emerging as a political battleground, the stakes extend well beyond France's borders, touching eurozone stability and EU fiscal credibility.",
+      "pubDate": "2026-08-19",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/France_Episode_2026_08_19.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/France_Short_2026_08_19.mp4"
+    },
     {
       "id": "episode-20260819-germany",
       "title": "Germany's Economy Shows Tentative Signs of Life · 19 Aug",
