@@ -1,5 +1,5 @@
 {
-  "version": 1787029684747,
+  "version": 1787115726208,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-b01bfd0",
+      "title": "Germany's Economy Shows Tentative Signs of Life, but Inflation and Trade Risks Cloud the Recovery",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "excerpt": "Germany posted modest growth in the second quarter of 2026, but a fresh rise in inflation and persistent vulnerabilities in its industrial trade model are undermining confidence in any durable rebound. Headline inflation climbed to 2.8 percent in July, erasing the relief many households had hoped to feel. The divergence between improving official data and the lived experience of citizens and firms is sharpening the political debate in Berlin.",
+      "body": "<h3>A Recovery That Does Not Feel Like One</h3><p>Germany&#x27;s economy grew by 0.2 percent in the second quarter of 2026, a figure that averted another technical contraction but did little to dispel the sense of fragility that has settled over Europe&#x27;s largest economy. For a country that spent much of 2024 and 2025 in or near recession, even modest positive growth represents a turning point of sorts. Investor sentiment improved in the same period, and core inflation, which strips out volatile energy and food prices, eased to 2.4 percent, suggesting the underlying price trend was not as alarming as the headline number implied.</p><p>Yet the headline number was alarming enough. Germany&#x27;s inflation rate rose to 2.8 percent in July 2026, up from 2.3 percent in June, driven primarily by renewed pressure on energy prices. For households still managing budgets stretched by years of elevated costs, the July reading landed as a setback rather than a footnote. Government officials argued that energy-driven spikes of this kind are inherently transitory and that the stabilisation in core inflation reflected a more durable improvement in underlying demand conditions. Critics were less sanguine.</p><p>Opposition voices in the Bundestag pushed back on what they described as selective optimism. Growth of 0.2 percent quarter-on-quarter, they argued, is not a recovery in any meaningful sense that ordinary Germans would recognise. Real purchasing power, already compressed by years of above-target inflation, remains under pressure when energy bills rise again. The fact that core inflation is lower than headline inflation offers analytical comfort but not relief at the checkout or the utility meter.</p><h3>Industry and Trade: Gains That Are Narrow and Exposed</h3><p>Beyond the domestic inflation debate, a second and arguably deeper tension is emerging around Germany&#x27;s trade and industrial model. June data showed exports and industrial production both edging upward, a development the government cited as evidence that German manufacturing retains its global competitive edge even in a difficult external environment. For an economy whose prosperity has long been built on selling capital goods and precision engineering to the world, the stabilisation in export volumes was welcomed as a meaningful signal.</p><p>The structural picture, however, tells a less reassuring story. Exports to the United States fell sharply over the period, reflecting both weaker American demand and the lingering effects of transatlantic trade friction. Meanwhile, Germany&#x27;s trade deficit with China widened, exposing the asymmetry at the heart of a relationship that Berlin has spent years trying to reframe as one of managed interdependence rather than strategic dependency. Germany imports heavily from China in inputs critical to its industrial supply chains while finding it harder to sell into a Chinese market increasingly supplied by domestic manufacturers.</p><p>Analysts and opposition politicians alike argue that this combination, falling receipts from key export markets and rising import exposure to a single strategic partner, represents a structural vulnerability that short-term production figures cannot resolve. High domestic energy costs, slow progress on supply-chain diversification, and uneven investment in new industrial capacity were cited as compounding risks. The government&#x27;s position, that the short-term trend is positive and that Germany remains fundamentally competitive, is not wrong on its own terms. But its critics are stronger on the longer-term structural argument, and that argument is growing harder to dismiss.</p><h3>What Comes Next: Deadlines, Decisions, and the European Dimension</h3><p>The convergence of these two debates, sticky inflation alongside fragile and externally exposed growth, is placing real pressure on German policymakers heading into the autumn legislative and budgetary cycle. The government faces competing demands: households want relief from sustained cost-of-living pressure, while firms and trade associations are calling for structural reforms to energy pricing, regulatory burden, and supply-chain resilience. Satisfying both simultaneously, within the constraints of Germany&#x27;s constitutional debt brake and a fragile governing coalition, will require political choices that have so far been deferred.</p><p>For the European Union more broadly, Germany&#x27;s trajectory carries significant weight. As the bloc&#x27;s largest economy and its biggest net contributor, Germany&#x27;s domestic performance shapes fiscal space, demand conditions, and political bandwidth across the single market. A Germany that remains stuck in low-growth, high-anxiety mode is less able to act as an anchor of stability for the eurozone and less willing to take on the fiscal commitments that European partners, particularly in southern and eastern Europe, have been pressing for. The European Central Bank, which sets monetary policy for the whole eurozone, will be watching German inflation data closely as it calibrates its own rate decisions in the coming months.</p><p>The most honest summary of Germany&#x27;s current situation may be this: the worst fears of 2024 have not materialised, but neither has the clean recovery that both the government and its critics, in different ways, were hoping for. Inflation has not been tamed. Growth has not accelerated. Trade exposure has not been reduced. The mood is not crisis, but it is not relief either. The next set of quarterly data, expected in October, will be watched for signs that the 0.2 percent growth figure was the beginning of a trend rather than a single quarter&#x27;s statistical noise.</p>",
+      "keywords": "Germany, GDP growth, inflation, energy prices, industrial output, exports, China trade deficit, eurozone, purchasing power, economic recovery, Bundestag, European Central Bank, supply chain, trade dependence",
+      "sources": "Federal Statistical Office of Germany (Destatis), GDP Q2 2026 release; German Federal Statistical Office, Consumer Price Index July 2026; Bundesbank monthly report, July 2026; German Federal Ministry for Economic Affairs and Climate Action, trade and industrial output data June 2026; ifo Institute for Economic Research, investor sentiment survey Q2 2026",
+      "pubDate": "2026-08-19",
+      "chartData": {
+        "values": [
+          0.2,
+          2.8,
+          2.4
+        ],
+        "labels": [
+          "GDP Growth Q2 2026 (%)",
+          "Headline Inflation July 2026 (%)",
+          "Core Inflation July 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-d835fc8",
       "title": "Wildfires and Stubborn Inflation Put Greece's Recovery Narrative Under Pressure",
@@ -12947,6 +12971,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260819-germany",
+      "title": "Germany's Economy Shows Tentative Signs of Life · 19 Aug",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "duration": "8:11",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/Germany_Episode_2026_08_19.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 175,
+      "keywords": "Germany, GDP growth, inflation, energy prices, industrial output, exports, China trade deficit, eurozone, purchasing power, economic recovery, Bundestag, European Central Bank, supply chain, trade dependence",
+      "notes": "Germany posted modest growth in the second quarter of 2026, but a fresh rise in inflation and persistent vulnerabilities in its industrial trade model are undermining confidence in any durable rebound. Headline inflation climbed to 2.8 percent in July, erasing the relief many households had hoped to feel. The divergence between improving official data and the lived experience of citizens and firms is sharpening the political debate in Berlin.",
+      "pubDate": "2026-08-19",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/Germany_Episode_2026_08_19.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_19/Germany_Short_2026_08_19.mp4"
+    },
     {
       "id": "episode-20260818-greece",
       "title": "Wildfires and Stubborn Inflation Put Greece's Recovery Narrative Under… · 18 Aug",
