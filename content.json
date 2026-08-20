@@ -1,5 +1,5 @@
 {
-  "version": 1787116082416,
+  "version": 1787202145158,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-65ade8c",
+      "title": "Bulgaria Faces Twin Crisis of Fiscal Credibility and Cyber Insecurity Ahead of 2026 Budget Fight",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "excerpt": "Bulgaria is confronting two serious governance challenges simultaneously: a contested 2026 budget plan that envisions record borrowing of up to 10.1 billion euros, and a long-running cyber breach that authorities say may have compromised government networks for years. Together, the two crises raise fundamental questions about whether Sofia can manage public finances responsibly while also securing the basic infrastructure of the state. With European Commission forecasts already diverging from government projections, and public trust in digital institutions shaken, the political stakes heading into the next budget cycle are unusually high.",
+      "body": "<h3>A Budget Built on Optimism, Challenged by the Numbers</h3><p>Bulgaria&#x27;s government has put forward a 2026 budget that its ministers describe as a measured and necessary response to mounting pressures: security commitments, social spending obligations, public-sector wage increases, and the need to accelerate EU co-financed infrastructure investment. Officials argue the country can sustain growth while keeping its overall debt trajectory manageable, pointing to recent easing in inflation as evidence that the macroeconomic environment supports an expansionary stance.</p><p>Critics, however, are not persuaded. The plan authorises a deficit of 5.7 percent of gross domestic product and up to 10.1 billion euros in new borrowing, figures that opposition politicians and independent economists argue are built on assumptions that are too optimistic to survive contact with reality. European Commission forecasts, which carry significant weight given Bulgaria&#x27;s obligations under the EU fiscal framework, project the 2026 deficit at 4.1 percent of GDP, a figure that itself remains well above the bloc&#x27;s three-percent reference value and suggests Brussels views Sofia&#x27;s fiscal trajectory with concern.</p><p>On inflation, the government&#x27;s reassuring tone is only partially supported by the data. Eurostat recorded Bulgaria&#x27;s harmonised index of consumer prices at 4.4 percent on an annual basis in July, down from earlier peaks but still among the higher readings in the European Union and well above the euro-area average. At that level, inflation continues to erode household purchasing power, complicating the political argument that conditions are benign enough to justify a significant spending expansion.</p><h3>Years of Unauthorized Access Expose a Deeper Institutional Wound</h3><p>Alongside the budget dispute, Bulgaria is grappling with the fallout from a cybersecurity incident that authorities themselves have described in terms that go well beyond a routine technical failure. Investigators looking into unauthorized access to administrative networks have indicated that the intrusion may have continued for years before it was detected, a timeline that points to a structural weakness in state digital infrastructure rather than an isolated or opportunistic attack.</p><p>Government officials have responded by framing the incident as a catalyst for overdue modernization. The message from Sofia is that investigators are now mapping the full extent of the damage, that reforms to digital security architecture are being accelerated, and that the breach demonstrates precisely why investment in state capacity is justified. In that reading, the scandal becomes an argument for, rather than against, the government&#x27;s broader reform agenda.</p><p>Opposition voices reject that framing with force. For them, the central fact is not what the government plans to do next, but what failed to happen over the preceding years. Systems that were meant to protect citizen data and sensitive administrative records were apparently accessible to unauthorized parties for an extended period, they argue, which means that repeated government claims about digital transformation and modernisation were not matched by the administrative competence required to back them up. The breach, in this view, is a governance failure first and a technical problem second, and it undermines confidence in the state&#x27;s ability to manage any complex reform, including the very budget expansion now under debate.</p><h3>Two Crises, One Political Question, and a Calendar That Does Not Wait</h3><p>Taken individually, either the budget dispute or the cybersecurity scandal would represent a significant political challenge for any government. Taken together, they crystallise the central question facing Bulgaria&#x27;s political class: whether the state is capable of expanding public spending, delivering structural reform, and securing its own digital infrastructure at the same time, without sacrificing credibility on any of the three fronts.</p><p>The practical consequences for citizens are direct. If the 2026 borrowing plan proceeds as designed and the Commission&#x27;s more conservative deficit projections prove accurate, the gap will eventually have to be closed through some combination of tax increases, spending cuts, or slower public investment, all of which carry political costs that will fall on households already squeezed by inflation running above four percent. At the same time, if the cyber breach has compromised personal data held by government agencies, citizens face risks that are harder to quantify but no less real, ranging from identity fraud to the erosion of confidence in digital public services that the government has been trying to expand.</p><p>For Bulgaria&#x27;s standing within EU institutions, the dual crisis also matters. The country remains outside the euro area and continues to work toward the conditions required for membership, a process that demands demonstrated fiscal discipline and institutional reliability. A deficit trajectory that diverges from Commission projections, combined with a cybersecurity failure of uncertain scale, is unlikely to strengthen Sofia&#x27;s case in Brussels. The next formal assessment of Bulgaria&#x27;s fiscal position and the ongoing parliamentary debate over the 2026 budget will both unfold in the coming months, giving the government a narrow window to stabilise the narrative before the political cost of inaction compounds.</p>",
+      "keywords": "Bulgaria, budget 2026, fiscal deficit, borrowing, European Commission, Eurostat, inflation, HICP, cybersecurity, cyber breach, state capacity, EU fiscal framework, euro area accession, governance, public spending",
+      "sources": "Eurostat, Harmonised Index of Consumer Prices, July release; European Commission, spring fiscal forecasts 2025; Bulgarian government, 2026 budget framework documentation; Bulgarian investigative and cybersecurity authorities, statements on unauthorized network access",
+      "pubDate": "2026-08-20",
+      "chartData": {
+        "values": [
+          5.7,
+          4.1,
+          3.0,
+          4.4
+        ],
+        "labels": [
+          "Bulgaria Gov Deficit Forecast 2026 (%GDP)",
+          "EC Deficit Forecast 2026 (%GDP)",
+          "EU Reference Value (%GDP)",
+          "Bulgaria HICP Inflation July (%)"
+        ]
+      }
+    },
     {
       "id": "article-e1c4c53",
       "title": "Dutch Economy Walks a Tightrope Between Resilience and Household Strain",
@@ -13029,6 +13055,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260820-bulgaria",
+      "title": "Bulgaria Faces Twin Crisis of Fiscal Credibility and Cyber Insecurity Ahead… · 20 Aug",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "duration": "8:49",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_20/Bulgaria_Episode_2026_08_20.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 179,
+      "keywords": "Bulgaria, budget 2026, fiscal deficit, borrowing, European Commission, Eurostat, inflation, HICP, cybersecurity, cyber breach, state capacity, EU fiscal framework, euro area accession, governance, public spending",
+      "notes": "Bulgaria is confronting two serious governance challenges simultaneously: a contested 2026 budget plan that envisions record borrowing of up to 10.1 billion euros, and a long-running cyber breach that authorities say may have compromised government networks for years. Together, the two crises raise fundamental questions about whether Sofia can manage public finances responsibly while also securing the basic infrastructure of the state. With European Commission forecasts already diverging from government projections, and public trust in digital institutions shaken, the political stakes heading into the next budget cycle are unusually high.",
+      "pubDate": "2026-08-20",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_20/Bulgaria_Episode_2026_08_20.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_20/Bulgaria_Short_2026_08_20.mp4"
+    },
     {
       "id": "episode-20260819-netherlands",
       "title": "Netherlands: Dutch Economy Walks a Tightrope Between Resilience and Household Strain · 19 Aug",
