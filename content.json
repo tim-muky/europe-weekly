@@ -1,5 +1,5 @@
 {
-  "version": 1787202273631,
+  "version": 1787202401987,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7501930",
+      "title": "Romania's Twin Crisis: Energy Shocks and Fiscal Drift Test Bucharest's Credibility",
+      "categories": [
+        "cat-x5njuro"
+      ],
+      "excerpt": "A severe drought has pushed Romania's power grid to the edge, threatening to shut down the country's last operating nuclear reactor while low Danube water levels trigger emergency rationing measures. At the same time, political fragmentation is undermining the government's ability to repair a strained public budget, drawing warnings from credit rating agencies and raising doubts in Brussels about Bucharest's economic governance.",
+      "body": "<h3>Climate Stress Exposes Grid Fragility</h3><p>Romania declared a state of energy emergency throughout August as an exceptional drought reduced the Danube to critically low levels, threatening the cooling capacity of the Cernavodă nuclear plant — the country&#x27;s sole operational reactor. According to Reuters, authorities warned that a forced shutdown of the reactor could not be ruled out, a prospect that sent alarm through the energy sector and prompted emergency consultations between the government and grid operators.</p><p>The government&#x27;s position is that the crisis is the product of an extraordinary convergence of climate stress and infrastructure pressure, requiring temporary industrial output curbs, rationing appeals to households, and the activation of backup generation capacity to preserve grid stability. Officials have framed the measures as proportionate and necessary, arguing that decisive emergency management is preventing a wider blackout.</p><p>Critics, however, argue the crisis is less a surprise than the predictable result of years of underinvestment in water management, energy infrastructure, and climate resilience planning. Opposition politicians said Bucharest reacted too slowly and is now improvising in ways that expose structural weaknesses the state has long chosen to ignore. For ordinary citizens, the consequences are immediate: elevated electricity bills, uncertainty over supply reliability, and mounting pressure on businesses already operating under tight margins.</p><h3>Fiscal Repair Stalls as Political Instability Bites</h3><p>Romania&#x27;s budget consolidation effort is being complicated by a fragile political environment following a government collapse, with the resulting policy uncertainty drawing a pointed warning from Fitch Ratings. The agency has maintained a negative outlook on Romania&#x27;s sovereign credit rating, acknowledging some narrowing of the fiscal deficit while noting that political fragmentation is reducing policy visibility beyond 2026 and that public debt is expected to continue rising.</p><p>The fiscal picture is further clouded by persistent inflation. Eurostat data shows Romania remained the European Union&#x27;s highest-inflation country in both June and July 2026, recording rates of 9.7 percent and 9.2 percent respectively. The National Bank of Romania revised its end-2026 inflation forecast upward to 5.5 percent in May and again to 6.1 percent in August, undermining any government claim that the price squeeze facing households is nearing resolution. For workers and pensioners, high inflation effectively erodes any nominal income gains and makes fiscal tightening — through higher taxes or reduced public services — doubly painful.</p><p>The opposition argues that political fragmentation is not merely a governance inconvenience but a direct saboteur of the reform agenda, producing uneven austerity and signalling to financial markets that Bucharest lacks the political cohesion needed to deliver credible, sustained consolidation. That concern is shared, at least implicitly, by Fitch, whose negative outlook reflects doubts about whether the current political configuration can maintain the pace of deficit repair the EU&#x27;s fiscal rules require.</p><h3>A Compounding Risk for Markets, Citizens, and Brussels</h3><p>Taken together, Romania&#x27;s energy emergency and fiscal credibility problem represent a compounding risk that extends well beyond Bucharest. For the European Union, the situation is a live illustration of how climate shocks can rapidly become energy-security crises inside a member state, and how political instability can corrode the economic governance framework the bloc depends on. Romania&#x27;s case arrives as the EU is already managing a difficult balance between green transition targets, energy affordability, and fiscal discipline across member states.</p><p>For investors, the combination of a negative sovereign outlook, rising debt, EU-high inflation, and an unpredictable policy environment is likely to sustain elevated borrowing costs for Romania at a moment when the government needs fiscal space to manage both the energy emergency and longer-term infrastructure investment. Any further deterioration in the political situation — including early elections or a prolonged period of caretaker government — would further erode the policy visibility that rating agencies and bond markets are already questioning.</p><p>The immediate test for Bucharest will be whether it can navigate the remainder of the energy emergency without a reactor shutdown and without the crisis spilling into a wider economic confidence shock. Beyond that, the government must present a credible medium-term fiscal path that satisfies both EU deficit rules and the demands of a population under sustained price pressure. With inflation still running near double digits, political capital for painful reform is in short supply — and the margin for further missteps is narrowing fast.</p>",
+      "keywords": "Romania, energy crisis, Danube drought, nuclear reactor, Cernavodă, fiscal deficit, inflation, Fitch Ratings, EU economic governance, political instability, energy security, budget consolidation, sovereign debt, Eastern Europe",
+      "sources": "Reuters, reporting on Romania's state of energy emergency and Danube water levels and nuclear reactor risk; Fitch Ratings, sovereign credit assessment of Romania with negative outlook; Eurostat, EU harmonised inflation data for June and July 2026; National Bank of Romania, inflation forecast revisions of May 2026 and August 2026",
+      "pubDate": "2026-08-20",
+      "chartData": {
+        "values": [
+          9.7,
+          9.2,
+          6.1,
+          5.5
+        ],
+        "labels": [
+          "Romania Inflation June 2026 (%)",
+          "Romania Inflation July 2026 (%)",
+          "NBR Forecast Aug 2026 (%)",
+          "NBR Forecast May 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-09e5604",
       "title": "Slovenia's Economy Surges, but Households Still Feel the Pinch as EU Reform Drive Accelerates",
@@ -13081,6 +13107,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260820-romania",
+      "title": "Romania's Twin Crisis: Energy Shocks and Fiscal Drift Test Bucharest's… · 20 Aug",
+      "categories": [
+        "cat-x5njuro"
+      ],
+      "duration": "8:40",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_20/Romania_Episode_2026_08_20.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 181,
+      "keywords": "Romania, energy crisis, Danube drought, nuclear reactor, Cernavodă, fiscal deficit, inflation, Fitch Ratings, EU economic governance, political instability, energy security, budget consolidation, sovereign debt, Eastern Europe",
+      "notes": "A severe drought has pushed Romania's power grid to the edge, threatening to shut down the country's last operating nuclear reactor while low Danube water levels trigger emergency rationing measures. At the same time, political fragmentation is undermining the government's ability to repair a strained public budget, drawing warnings from credit rating agencies and raising doubts in Brussels about Bucharest's economic governance.",
+      "pubDate": "2026-08-20",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_20/Romania_Episode_2026_08_20.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_20/Romania_Short_2026_08_20.mp4"
+    },
     {
       "id": "episode-20260820-slovenia",
       "title": "Slovenia's Economy Surges, but Households Still Feel the Pinch · 20 Aug",
