@@ -1,5 +1,5 @@
 {
-  "version": 1787288823299,
+  "version": 1787288959302,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-86c6b60",
+      "title": "Austria Caught Between Austerity and Stagnation as Budget Battle Defines Coalition's Future",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "excerpt": "Austria's new coalition government is pushing a fiscal consolidation drive it calls a gateway to future tax relief, but the country's economy stagnated in the second quarter of 2026 and inflation continues to squeeze household budgets. The so-called \"reform dividend\" debate has become the defining political fault line of the year, pitting fiscal hawks against critics who warn that austerity risks deepening an already fragile recovery. With the EU deficit forecast still elevated and public patience wearing thin, the stakes extend well beyond Vienna.",
+      "body": "<h3>A Budget Under Pressure and a Government on the Line</h3><p>Austria&#x27;s governing coalition has staked much of its credibility on a promise that fiscal discipline today will create the conditions for meaningful tax relief tomorrow. Officials argue that any budget outperformance relative to forecasts should be split between reducing the national debt and returning money to taxpayers, a concept they have branded the &quot;reform dividend.&quot; The message is deliberate: restraint now, reward later.</p><p>The numbers behind that argument are sobering. European Commission forecasts place Austria&#x27;s deficit at around 4.1 percent of GDP in 2026, a level that keeps the country well outside the eurozone&#x27;s preferred fiscal boundaries and limits the government&#x27;s room for manoeuvre. Regional budgets are also under strain, and demand for weather-related disaster relief has added unexpected pressure to public finances in recent months.</p><p>Opposition parties and social partners have been quick to challenge the coalition&#x27;s framing. Critics argue that the &quot;reform dividend&quot; is a political slogan dressed up as an economic plan, pointing out that promised tax relief remains entirely hypothetical while cuts to public services and regional transfers are already taking effect. For many Austrians, they say, austerity is arriving now while the benefits remain abstract and distant.</p><h3>Inflation Eases, but the Relief Remains Hard to Feel</h3><p>On the economic front, the Austrian government has pointed to a drop in headline inflation as evidence that the worst of the cost-of-living crisis is passing. Statistics Austria&#x27;s flash estimate put the annual inflation rate at 2.7 percent in July 2026, down from the peaks seen in previous years and a figure that officials argue gives households and policymakers some much-needed breathing room.</p><p>That reading, however, tells only part of the story. Bank Austria and the Oesterreichische Nationalbank, the country&#x27;s central bank, still forecast average inflation of around 3.2 percent for the full year 2026, a figure echoed broadly by the European Commission&#x27;s 3.0 percent projection. That means price levels remain above the European Central Bank&#x27;s 2 percent target and above what most wage agreements were designed to absorb, leaving real purchasing power under continued pressure for many working households.</p><p>The growth picture compounds the difficulty. WIFO, Austria&#x27;s leading economic research institute, published a flash estimate showing zero quarterly growth in the second quarter of 2026, with year-on-year expansion of just 0.8 percent. Positive annual growth technically remains on the books for 2026, but economists describe the trajectory as fragile rather than broad-based, with consumer confidence still subdued and private investment hesitant. The public mood, analysts say, is shaped less by the statistics than by the lived experience of prices that are falling slowly while wages have not fully caught up.</p><h3>What Comes Next, and Why It Matters Beyond Austria</h3><p>The coming months will test whether the coalition can hold its fiscal course without triggering a broader political backlash. Key budget decisions are expected in the autumn, when the government will need to present a medium-term fiscal plan that satisfies both EU requirements and domestic political constituencies. Any sign of slippage on the deficit could invite formal scrutiny from Brussels under the bloc&#x27;s revised fiscal rules, while an overly aggressive consolidation path risks accelerating the economic slowdown the government is trying to avoid.</p><p>For ordinary Austrians, the immediate consequences are tangible. Tighter public finances affect the quality and availability of social services, regional infrastructure investment, and the capacity of local governments to respond to shocks such as flooding or energy price spikes. On the household level, the interaction of sticky inflation and flat growth means that mortgage holders, renters, and lower-income consumers continue to navigate a high-cost environment without the cushion of a strong labour market recovery.</p><p>Austria&#x27;s predicament also carries lessons for the wider European Union. As a mid-sized, export-oriented eurozone economy with significant exposure to German industrial weakness, Austria illustrates the difficulty of pursuing fiscal consolidation during a period of anaemic growth. A prolonged stagnation in Vienna weighs on euro-area demand at a moment when the ECB is carefully calibrating the pace of monetary easing. The Austrian government&#x27;s bet that discipline will ultimately unlock credibility and growth is one that several of its EU counterparts are watching closely, aware that the answer will say something important about the bloc&#x27;s broader economic direction.</p>",
+      "keywords": "Austria economy, Austrian budget, fiscal consolidation, inflation Austria 2026, WIFO GDP, reform dividend, eurozone fiscal rules, EU deficit, austerity, Austrian coalition, OeNB, cost of living Austria",
+      "sources": "Statistics Austria flash inflation estimate, July 2026; WIFO flash GDP estimate Q2 2026; European Commission economic forecast 2026; Oesterreichische Nationalbank (OeNB) inflation outlook 2026; Bank Austria economic research 2026",
+      "pubDate": "2026-08-21",
+      "chartData": {
+        "values": [
+          4.1,
+          3.2,
+          3.0,
+          0.8
+        ],
+        "labels": [
+          "Austria Deficit % GDP (2026 forecast)",
+          "OeNB Inflation Forecast 2026",
+          "EU Commission Inflation Forecast 2026",
+          "Austria GDP Growth YoY Q2 2026"
+        ]
+      }
+    },
     {
       "id": "article-6c40397",
       "title": "Hungary at a Crossroads: Nuclear Plant Stress and Cronyism Audit Test New Government's Credibility",
@@ -13207,6 +13233,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260821-austria",
+      "title": "Austria Caught Between Austerity and Stagnation · 21 Aug",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "duration": "8:38",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Austria_Episode_2026_08_21.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 186,
+      "keywords": "Austria economy, Austrian budget, fiscal consolidation, inflation Austria 2026, WIFO GDP, reform dividend, eurozone fiscal rules, EU deficit, austerity, Austrian coalition, OeNB, cost of living Austria",
+      "notes": "Austria's new coalition government is pushing a fiscal consolidation drive it calls a gateway to future tax relief, but the country's economy stagnated in the second quarter of 2026 and inflation continues to squeeze household budgets. The so-called \"reform dividend\" debate has become the defining political fault line of the year, pitting fiscal hawks against critics who warn that austerity risks deepening an already fragile recovery. With the EU deficit forecast still elevated and public patience wearing thin, the stakes extend well beyond Vienna.",
+      "pubDate": "2026-08-21",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Austria_Episode_2026_08_21.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Austria_Short_2026_08_21.mp4"
+    },
     {
       "id": "episode-20260821-hungary",
       "title": "Hungary at a Crossroads: Nuclear Plant Stress and Cronyism Audit Test New… · 21 Aug",
