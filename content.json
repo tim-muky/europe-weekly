@@ -1,5 +1,5 @@
 {
-  "version": 1787202529847,
+  "version": 1787288553657,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8ea25f3",
+      "title": "Czechia Caught Between Inflation Relief and Growth Anxiety as Babiš Case Clouds Political Horizon",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "excerpt": "Czechia's economy is expanding, but only just, as the finance ministry has cut its 2026 GDP growth forecast to 1.9% even as inflation approaches the central bank's target. The combination of subdued growth, persistent borrowing costs, and a long-running EU subsidy investigation linked to opposition leader Andrej Babiš is creating a mood of cautious resignation rather than recovery. For ordinary Czechs, calmer prices have not yet translated into a tangible sense of improvement.",
+      "body": "<h3>Soft Landing or Stagnation Trap?</h3><p>The headline numbers from Prague look, on the surface, broadly reassuring. Inflation in July fell to 1.7% year-on-year, placing Czechia close to the Czech National Bank&#x27;s 2% target. The CNB has held its benchmark interest rate at 3.75%, describing the current stance as appropriate given that price stability appears largely intact. The finance ministry has framed its downward revision of the 2026 GDP growth forecast, from an earlier estimate to 1.9%, as an exercise in realism rather than alarm.</p><p>Yet the relief is narrower than the headline figures suggest. Critics and independent analysts argue that lower inflation is not the same as a recovering standard of living. Core inflation and services prices remain elevated, meaning the cost pressures that matter most to household budgets have not fully unwound. At the same time, the CNB&#x27;s own summer forecasts caution that inflation could temporarily rise toward 3% next year, leaving little room for complacency. The central bank&#x27;s cautious policy stance, while defensible on price stability grounds, continues to weigh on mortgage borrowing, business investment, and consumer confidence.</p><p>The practical consequence for Czech households is a kind of economic limbo. Wages are no longer being eroded as rapidly by inflation, but higher interest rates have made credit expensive, and the economy is not growing fast enough to generate the kind of broad-based improvement that would lift sentiment. Economists describe the situation less as a soft landing and more as a prolonged plateau, one that carries real risks of entrenchment if external demand, particularly from Germany, does not recover.</p><h3>The Babiš Investigation: A Persistent Shadow Over Institutions</h3><p>Alongside the economic uncertainty, Czech politics continues to be shaped by a case that refuses to resolve itself cleanly. The European Public Prosecutor&#x27;s Office investigation linked to EU subsidy arrangements involving companies formerly associated with Andrej Babiš, the leader of the ANO movement and a dominant figure in Czech opposition politics, remains active and unresolved. No dramatic new development has emerged in recent weeks, but the case&#x27;s persistence is itself politically significant.</p><p>Supporters of rigorous scrutiny argue that the investigation demonstrates that European and Czech institutions are capable of holding powerful figures accountable. For Brussels, the case touches directly on the integrity of EU cohesion and agricultural subsidy flows, which depend on member states enforcing conflict-of-interest rules with credibility. From this perspective, continued prosecutorial attention is not only legally warranted but essential for Czechia&#x27;s standing within the bloc.</p><p>Babiš and his allies contest that framing with force. They argue the investigation has become a political instrument, sustained in part to damage a major opposition figure in the run-up to future electoral cycles rather than to adjudicate a narrow legal question. That counter-narrative has traction among a segment of the Czech public that views established institutions with suspicion, and it contributes to a background level of distrust that makes governing harder for whoever holds office. The net effect is a political environment defined less by acute crisis than by chronic fatigue and low-grade cynicism.</p><h3>Outlook: A Stress Test for Normalization</h3><p>The interaction between Czechia&#x27;s economic slowdown and its political overhang creates a challenge that extends beyond Prague. For the European Union, smaller member states managing the transition from high inflation back toward stability without slipping into stagnation represent a genuine test of how well the bloc&#x27;s institutional architecture supports recovery. Czechia&#x27;s experience, cautious monetary policy, modest growth, and contested governance standards, is not unique, but it is instructive.</p><p>The immediate calendar offers few obvious catalysts for change. The CNB&#x27;s next rate decisions will be closely watched for any signal that the bank is prepared to ease policy further as inflation consolidates near target, though policymakers have been explicit that domestic services inflation still warrants caution. Any acceleration in German industrial output would feed through to Czech exporters relatively quickly, given the depth of supply-chain integration, but forecasters are not counting on a rapid German rebound.</p><p>On the political side, the Babiš investigation is unlikely to reach a definitive conclusion in the short term, meaning its role as a background disruptant to institutional trust will persist. With Czech elections on the horizon, the case will inevitably be drawn into partisan arguments about rule of law, elite accountability, and the independence of prosecutors and courts. How Czech voters and institutions navigate that pressure will matter not only domestically but as a signal to Brussels about the durability of anti-corruption norms across Central Europe. For now, the dominant mood in Czechia is one of resigned patience, a country waiting to feel better without yet having strong grounds for confidence that it will.</p>",
+      "keywords": "Czechia, Czech economy, inflation, GDP growth, Czech National Bank, interest rates, Andrej Babiš, EU subsidies, European Public Prosecutor, Central Europe, economic outlook, rule of law, CNB monetary policy",
+      "sources": "Czech National Bank summer macroeconomic forecast; Czech Finance Ministry 2026 GDP forecast revision; European Public Prosecutor's Office case documentation on Babiš-linked subsidy arrangements; Czech Statistical Office July 2025 inflation data",
+      "pubDate": "2026-08-21",
+      "chartData": {
+        "values": [
+          1.7,
+          1.9,
+          3.75,
+          3.0
+        ],
+        "labels": [
+          "Inflation July 2025 (%)",
+          "GDP Forecast 2026 (%)",
+          "CNB Rate (%)",
+          "Projected Inflation 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-2cb37a1",
       "title": "Croatia's Inflation Falls but Households Remain Under Pressure as Government Defends Fuel Intervention",
@@ -13131,6 +13157,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260821-czechia",
+      "title": "Czechia Caught Between Inflation Relief and Growth Anxiety · 21 Aug",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "duration": "9:10",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Czechia_Episode_2026_08_21.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 183,
+      "keywords": "Czechia, Czech economy, inflation, GDP growth, Czech National Bank, interest rates, Andrej Babiš, EU subsidies, European Public Prosecutor, Central Europe, economic outlook, rule of law, CNB monetary policy",
+      "notes": "Czechia's economy is expanding, but only just, as the finance ministry has cut its 2026 GDP growth forecast to 1.9% even as inflation approaches the central bank's target. The combination of subdued growth, persistent borrowing costs, and a long-running EU subsidy investigation linked to opposition leader Andrej Babiš is creating a mood of cautious resignation rather than recovery. For ordinary Czechs, calmer prices have not yet translated into a tangible sense of improvement.",
+      "pubDate": "2026-08-21",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Czechia_Episode_2026_08_21.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Czechia_Short_2026_08_21.mp4"
+    },
     {
       "id": "episode-20260820-croatia",
       "title": "Croatia's Inflation Falls but Households Remain Under Pressure · 20 Aug",
