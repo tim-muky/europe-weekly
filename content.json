@@ -1,5 +1,5 @@
 {
-  "version": 1787288684324,
+  "version": 1787288823299,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-6c40397",
+      "title": "Hungary at a Crossroads: Nuclear Plant Stress and Cronyism Audit Test New Government's Credibility",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary is facing two simultaneous crises that strike at the heart of its economic stability and democratic credibility. A Danube drought has forced output cuts at the country's only nuclear power plant, while a new government audit of a telecommunications giant's state contracts worth over 1.3 trillion forints has rattled investors. Together, the two developments are defining the early character of the post-Orbán political era.",
+      "body": "<h3>Drought Exposes Hungary&#x27;s Energy Fragility</h3><p>Record-low water levels on the Danube have forced Hungary&#x27;s Paks nuclear power plant, the country&#x27;s sole nuclear facility and its most important single source of electricity, to significantly reduce output this summer. The plant relies on river water for cooling, and the combination of prolonged heat and drought conditions has pushed water temperatures and reduced flow to a point where sustained full-capacity operation has become unsafe. According to reports from Reuters and the Associated Press, operators were compelled to draw up contingency plans including a temporary shutdown to avoid damage to reactor systems.</p><p>For ordinary Hungarians, the immediate consequence is the risk of supply shortfalls during peak summer demand, when air conditioning loads are highest. The government has described the situation as a national security matter and said emergency measures are justified to protect grid stability and prevent a broader blackout. Energy officials argued the episode underscores why the planned expansion of Paks under the Paks II project, being built with Russian state financing and Rosatom technology, remains a strategic priority.</p><p>Critics are drawing a sharply different lesson. Opposition voices and independent energy analysts argue that the crisis is the predictable result of decades of underinvestment in climate adaptation and the refusal to diversify Hungary&#x27;s energy mix. With Paks supplying roughly half of domestic electricity generation, a single climatic event can expose the entire grid to stress. The episode, they argue, is a warning about the systemic risks of concentrating so much generating capacity in one thermally vulnerable asset, not a vindication of doubling down on it.</p><h3>The 4iG Audit: Anti-Corruption Reform or Political Reckoning?</h3><p>Simultaneously, Hungary&#x27;s new government has launched a sweeping review of state contracts awarded to 4iG, a Budapest-listed telecommunications and technology conglomerate that expanded rapidly under the Orbán administration into one of the country&#x27;s most strategically connected companies. The most contentious element under scrutiny is a framework agreement reportedly worth more than 1.3 trillion forints, signed in the final stretch before the change of government. According to Reuters, the announcement of the audit triggered a significant selloff in 4iG shares, reflecting investor concern about the stability of the company&#x27;s revenue base and the broader signal being sent to markets about contract certainty in Hungary.</p><p>The government&#x27;s position is that the review is a necessary corrective to a procurement culture that allowed politically connected firms to accumulate outsized public contracts without adequate competitive tendering. Ministers have framed the process as restoring rule-of-law norms and reasserting the principle that state resources should be allocated on merit. The implicit message to Brussels, with whom Hungary has had prolonged disputes over access to European Union cohesion funds linked to governance concerns, is that a genuine institutional reset is underway.</p><p>Opponents of the audit, including allies of the previous administration and some market participants, argue that the process carries the hallmarks of selective justice rather than systemic reform. Their concern is that revisiting contracts after the fact, without a clear and consistent legal framework applied across all procurement, risks becoming a tool of political score-settling rather than a durable fix. What the available evidence does support is that the contracts warranted scrutiny; what it does not establish, as independent observers note, is that all of them were necessarily improper.</p><h3>Broader Implications for Investors, the EU, and Democratic Transition</h3><p>Taken together, the two crises present a significant stress test for Hungary&#x27;s new political leadership. On the energy front, the immediate pressure from Paks is compounded by the fact that Hungary&#x27;s macroeconomic environment, while not in acute crisis, remains sensitive. Inflation has eased considerably, with the Hungarian National Bank recording consumer price growth at 1.7 percent in June and Eurostat-linked data placing the rate at approximately 2.1 percent in July, down from the double-digit spikes of recent years. That relative stability gives the government some room to manage the energy disruption without an immediate inflationary spiral, but a prolonged output reduction at Paks would eventually feed into industrial costs and household energy bills.</p><p>For European partners and institutional investors, the 4iG review is the more structurally consequential story. Hungary&#x27;s relationship with the European Union has been heavily conditioned by rule-of-law concerns, and billions of euros in frozen cohesion funds remain contingent on demonstrable progress in procurement transparency and judicial independence. A credible and legally rigorous audit process could help unlock those funds and restore Budapest&#x27;s standing in Brussels. A process that appears arbitrary or politically driven would likely harden skepticism and delay financial normalization.</p><p>The coming weeks will be telling on both fronts. On energy, grid operators and government officials face an uncertain autumn if Danube levels do not recover and Paks cannot return to full capacity before winter demand peaks. On the 4iG review, the government will need to demonstrate that its audit mechanism operates according to transparent and consistently applied legal standards if it wants the process to be seen as reform rather than retribution. For Hungary&#x27;s citizens, investors, and European partners alike, the credibility of the post-Orbán transition may well be measured by how both tests are resolved.</p>",
+      "keywords": "Hungary, Paks nuclear plant, Danube drought, energy security, 4iG, state contracts, anti-corruption, procurement review, post-Orbán, European Union, rule of law, investor confidence, Hungarian economy, energy transition, climate adaptation",
+      "sources": "Reuters, reporting on Paks output reduction and 4iG contract audit; Associated Press, reporting on Danube drought and nuclear plant shutdown risk; Hungarian National Bank (MNB), inflation data June 2024; Eurostat, consumer price index data July 2024",
+      "pubDate": "2026-08-21",
+      "chartData": {
+        "values": [
+          50.0,
+          25.0,
+          15.0,
+          10.0
+        ],
+        "labels": [
+          "Paks Nuclear",
+          "Natural Gas",
+          "Renewables",
+          "Other"
+        ]
+      }
+    },
     {
       "id": "article-d0ac5e4",
       "title": "Slovakia Faces Twin Pressures of Stalling Growth and Mounting Debt as EU Scrutiny Grows",
@@ -13181,6 +13207,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260821-hungary",
+      "title": "Hungary at a Crossroads: Nuclear Plant Stress and Cronyism Audit Test New… · 21 Aug",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:27",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Hungary_Episode_2026_08_21.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 185,
+      "keywords": "Hungary, Paks nuclear plant, Danube drought, energy security, 4iG, state contracts, anti-corruption, procurement review, post-Orbán, European Union, rule of law, investor confidence, Hungarian economy, energy transition, climate adaptation",
+      "notes": "Hungary is facing two simultaneous crises that strike at the heart of its economic stability and democratic credibility. A Danube drought has forced output cuts at the country's only nuclear power plant, while a new government audit of a telecommunications giant's state contracts worth over 1.3 trillion forints has rattled investors. Together, the two developments are defining the early character of the post-Orbán political era.",
+      "pubDate": "2026-08-21",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Hungary_Episode_2026_08_21.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Hungary_Short_2026_08_21.mp4"
+    },
     {
       "id": "episode-20260821-slovakia",
       "title": "Slovakia Faces Twin Pressures of Stalling Growth and Mounting Debt · 21 Aug",
