@@ -1,5 +1,5 @@
 {
-  "version": 1787288553657,
+  "version": 1787288684324,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-d0ac5e4",
+      "title": "Slovakia Faces Twin Pressures of Stalling Growth and Mounting Debt as EU Scrutiny Grows",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "Slovakia's economy expanded by just 0.7 percent year-on-year in the second quarter of 2026, its weakest performance in four quarters, while public debt is projected to approach 75 percent of GDP by the end of the decade. The combination of fragile growth and narrowing fiscal space is leaving households with little tangible relief despite government assurances of stability. Brussels is expected to watch Bratislava's deficit and reform commitments more closely as a result.",
+      "body": "<h3>An Economy Growing in Name, But Not in Feel</h3><p>Slovakia&#x27;s gross domestic product grew 0.7 percent year-on-year in the second quarter of 2026, the slowest rate recorded in four consecutive quarters, according to official data. While the government has pointed to a modest 0.2 percent quarterly expansion as evidence that the country is not in recession, independent analysts and opposition voices argue that such figures offer cold comfort to households still grappling with elevated prices, stagnant real wages, and an industrial sector losing ground against European competitors.</p><p>The government&#x27;s case rests largely on the absence of contraction. Officials have argued that growth remains positive, that consumer prices have shown some moderation in recent readings, and that fiscal consolidation is proceeding as planned. But Slovak and EU forecasts alike suggest inflation will remain elevated through 2026, rather than retreating sharply toward pre-crisis levels, undermining the narrative of a clean economic recovery.</p><p>For ordinary citizens, the practical consequence of sub-one-percent growth is limited. Wage gains slow, public investment thins, and the state&#x27;s capacity to cushion the cost of energy, food, and housing diminishes. Labor costs in Slovakia are rising faster than the EU average, placing additional pressure on manufacturers already competing with lower-cost producers elsewhere, a dynamic that carries implications well beyond Bratislava&#x27;s policymaking rooms.</p><h3>Debt Ceiling Approaches as Fiscal Space Runs Dry</h3><p>Slovakia&#x27;s public debt has already surpassed 60 percent of GDP. More troublingly, the country&#x27;s independent Budgetary Responsibility Council has warned that without new consolidation measures, the debt ratio could climb toward 75 percent by the end of the decade. That trajectory places Slovakia in a category of member states where the European Commission is likely to apply closer oversight under the bloc&#x27;s reformed fiscal rules.</p><p>The government has argued that spending discipline is both necessary and underway, framing current consolidation efforts as a responsible response to years of crisis-driven expenditure. Coalition officials said protecting the country from future economic shocks requires accepting short-term constraints now. Critics, however, contend that the pace of adjustment is too slow and too lopsided, with ordinary people absorbing higher taxes and reduced public services while structural reforms that might improve long-run competitiveness remain incomplete.</p><p>The credibility of the debt-warning case is reinforced by independent fiscal data, making it more than a rhetorical opposition argument. Slovakia&#x27;s budget is simultaneously under pressure from multiple directions: drought relief demands, increased defence and security commitments consistent with NATO targets, and calls to prop up an industrial base that is beginning to show cracks. With limited headroom, each of these competes for the same constrained pool of public resources, creating what one analyst described as a chaotic priority environment with no clean solution.</p><h3>Outlook: Brussels Watches as Reform Window Narrows</h3><p>For the European Union, Slovakia&#x27;s fiscal and growth difficulties are not merely a domestic concern. A smaller eurozone economy carrying rising debt and weak productivity growth adds complexity to the bloc&#x27;s broader debate about industrial competitiveness, particularly as Central Europe&#x27;s manufacturing base faces structural headwinds from shifting supply chains and higher input costs. Slovakia&#x27;s trajectory intersects directly with EU-level discussions about how to sustain investment while enforcing deficit discipline.</p><p>The coming quarters will be critical. If Slovakia cannot demonstrate a credible medium-term fiscal path, it risks entering formal EU deficit procedures, which would constrain its budget flexibility further and require structural adjustments under external oversight. Equally, without a recovery in industrial output and productivity, the government will find it harder to generate the revenue growth needed to stabilise the debt ratio without deeper cuts to public services.</p><p>The political dimension adds further uncertainty. Coalition stability in Bratislava has at times been fragile, and the combination of austerity pressures and weak economic sentiment creates difficult conditions for sustaining reform momentum ahead of any electoral cycle. For Slovak households, the most immediate question is whether the coming months will bring any perceptible improvement in living standards, or whether the gap between official assurances of stability and daily economic reality will continue to widen.</p>",
+      "keywords": "Slovakia, GDP growth, public debt, fiscal policy, eurozone, EU deficit rules, Central Europe, industrial competitiveness, Budgetary Responsibility Council, inflation, economic outlook",
+      "sources": "Slovak Statistical Office, Q2 2026 GDP data; Slovak Budgetary Responsibility Council, debt trajectory estimates; European Commission economic forecasts, 2026; EU fiscal rules framework documentation",
+      "pubDate": "2026-08-21",
+      "chartData": {
+        "values": [
+          0.7,
+          60.0,
+          75.0
+        ],
+        "labels": [
+          "GDP Growth Q2 2026 (%)",
+          "Current Debt (% GDP)",
+          "Projected Debt End of Decade (% GDP)"
+        ]
+      }
+    },
     {
       "id": "article-8ea25f3",
       "title": "Czechia Caught Between Inflation Relief and Growth Anxiety as Babiš Case Clouds Political Horizon",
@@ -13157,6 +13181,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260821-slovakia",
+      "title": "Slovakia Faces Twin Pressures of Stalling Growth and Mounting Debt · 21 Aug",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "8:05",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Slovakia_Episode_2026_08_21.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 184,
+      "keywords": "Slovakia, GDP growth, public debt, fiscal policy, eurozone, EU deficit rules, Central Europe, industrial competitiveness, Budgetary Responsibility Council, inflation, economic outlook",
+      "notes": "Slovakia's economy expanded by just 0.7 percent year-on-year in the second quarter of 2026, its weakest performance in four quarters, while public debt is projected to approach 75 percent of GDP by the end of the decade. The combination of fragile growth and narrowing fiscal space is leaving households with little tangible relief despite government assurances of stability. Brussels is expected to watch Bratislava's deficit and reform commitments more closely as a result.",
+      "pubDate": "2026-08-21",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Slovakia_Episode_2026_08_21.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_21/Slovakia_Short_2026_08_21.mp4"
+    },
     {
       "id": "episode-20260821-czechia",
       "title": "Czechia Caught Between Inflation Relief and Growth Anxiety · 21 Aug",
