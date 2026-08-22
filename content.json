@@ -1,5 +1,5 @@
 {
-  "version": 1787374933738,
+  "version": 1787375066815,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-78ba3b1",
+      "title": "Latvia's Double Squeeze: Border Hardening and Defense Costs Test a Small State's Limits",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "excerpt": "Latvia is simultaneously tightening its eastern frontier against hybrid pressure from Belarus and Russia and pouring an exceptional share of national income into defense, while also preparing a financial rescue for its flagship airline. The twin pressures are reshaping budget priorities and raising a question that resonates well beyond Riga: how much security can a frontline EU state absorb before it begins crowding out everything else? With inflation still above the eurozone average and fiscal room narrowing, the burden is landing squarely on households and public services.",
+      "body": "<h3>Operation VILKATIS and the Securitization of Latvia&#x27;s Eastern Border</h3><p>The discovery of a smuggling tunnel near Latvia&#x27;s border with Belarus triggered an immediate escalation in Riga&#x27;s security posture. Latvian authorities launched Operation VILKATIS, deploying additional drone surveillance, expanding inter-agency coordination, and signaling a clear shift in how the government intends to treat migration-smuggling: not as a humanitarian challenge requiring managed processing, but as a component of hybrid pressure organized or tolerated by hostile neighboring states.</p><p>The government&#x27;s core argument is straightforward. Latvia shares a land border with both Belarus and Russia, two states that Western governments and the European Union have formally identified as sources of destabilizing activity, including the deliberate instrumentalization of migration flows. Official Latvian statements describe the new operation and tougher enforcement posture as proportionate and necessary responses to documented threats, a claim that is supported by Reuters reporting on the tunnel discovery and by the operational facts on the ground.</p><p>Critics, however, argue that the response is becoming dangerously one-dimensional. Opposition voices contend that the government is leaning into border drama to project toughness while deferring harder conversations about long-term migration policy, civil liberties at the frontier, and whether Latvia is receiving adequate EU solidarity for the disproportionate burden it carries as a small frontline member state. For ordinary Latvian citizens, the consequences are concrete: policing resources are being redirected, public spending on border infrastructure is rising, and the security atmosphere in border communities has shifted perceptibly toward vigilance and unease.</p><h3>Defense at 4.9 Percent of GDP and the airBaltic Complication</h3><p>Latvia&#x27;s fiscal position is being shaped by two simultaneous commitments that together leave very little room for maneuver. Defense spending in official Latvian planning stands at approximately 4.9 percent of GDP, a figure that places Latvia among the highest spenders in NATO relative to the size of its economy. The government frames this as non-negotiable, arguing that the security environment on NATO&#x27;s eastern flank leaves no realistic alternative and that Latvian deterrence credibility depends on sustained investment rather than cyclical pledges.</p><p>Layered on top of this is the state&#x27;s move to stabilize airBaltic, the national carrier that has faced persistent financial turbulence. Authorities are actively preparing a support package for the airline, which the government defends on connectivity and strategic grounds: for a small Baltic state with limited surface transport links to Western Europe, a functioning national airline is not simply a commercial asset but an infrastructure question with security and economic implications. Critics are less charitable. Opposition figures argue that the rescue risks socializing private losses, setting a precedent for state intervention that the budget can ill afford, and that the combined weight of defense outlays and airline support is compressing the fiscal space available for social spending, healthcare, and household-facing services.</p><p>The inflation picture reinforces the concern. Eurostat data shows Latvia&#x27;s HICP inflation was estimated at 2.5 percent in July 2026, down from 3.3 percent in June, but still above the eurozone average. That trajectory offers some relief but no reassurance: cost pressures have not disappeared, and Latvian households are navigating elevated prices at the same moment public finances are under exceptional strain. The government is technically correct that the fiscal environment is tight. So are the critics who argue that tightness translates into real trade-offs for people who depend on public services.</p><h3>A Question of Solidarity: Can Small Frontline States Sustain the Cost Alone?</h3><p>Beneath both the border story and the fiscal story runs a single structural argument that Latvian officials are pressing with increasing urgency in Brussels. Latvia, they say, is bearing costs that are in part collective European costs. Decoupling from Russian energy and economic networks, enforcing sanctions, hardening a frontier that is also the EU&#x27;s external border, and maintaining deterrence in a region that NATO has designated as a zone of elevated risk: each of these imposes fiscal demands that a state of under two million people and a relatively modest GDP cannot absorb indefinitely without either external support or internal sacrifice.</p><p>The EU has mechanisms for solidarity, including border management funds channeled through the European Border and Coast Guard Agency, Frontex, and various cohesion instruments. Latvian officials argue these are insufficient relative to the actual operational burden and that frontline states need a more explicit fiscal compact with the broader union if they are to sustain both security commitments and functioning welfare states. That argument has not yet produced a concrete response from Brussels, but it is gaining traction in a European policy debate increasingly shaped by the recognition that eastern member states are carrying asymmetric security costs.</p><p>The outlook for Latvia in the near term is one of managed pressure rather than crisis. Defense spending is locked in. The airBaltic stabilization process will move forward regardless of opposition objections, at least in the short term. Inflation is edging downward but remains above the common currency average. The border operation will continue and is likely to intensify if smuggling networks adapt to increased enforcement. The deeper question, whether Latvia can sustain this dual burden without eventually forcing a politically painful rebalancing of priorities, will depend heavily on whether EU-level fiscal solidarity keeps pace with EU-level security ambitions. That question has no scheduled answer.</p>",
+      "keywords": "Latvia, border security, Operation VILKATIS, Belarus, Russia, hybrid threats, defense spending, NATO, airBaltic, fiscal policy, EU solidarity, inflation, Eurostat, migration, frontline states, Baltic region",
+      "sources": "Reuters, tunnel discovery and border escalation reporting; Latvian government official statements on Operation VILKATIS and defense planning; Eurostat, Latvia HICP inflation estimate July 2026 and eurozone average data; European Border and Coast Guard Agency (Frontex), operational mandate documentation; NATO defense spending benchmarks and member-state reporting",
+      "pubDate": "2026-08-22",
+      "chartData": {
+        "values": [
+          4.9,
+          2.5,
+          2.0
+        ],
+        "labels": [
+          "Latvia Defense Spending % GDP",
+          "Latvia HICP Inflation % July 2026",
+          "Eurozone Average HICP % July 2026"
+        ]
+      }
+    },
     {
       "id": "article-6979206",
       "title": "Poland's Twin Fiscal Battles: Tax Reform and Fuel Relief Test Government's Balancing Act",
@@ -13255,6 +13279,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260822-latvia",
+      "title": "Latvia's Double Squeeze: Border Hardening and Defense Costs Test a Small… · 22 Aug",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:25",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_22/Latvia_Episode_2026_08_22.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 188,
+      "keywords": "Latvia, border security, Operation VILKATIS, Belarus, Russia, hybrid threats, defense spending, NATO, airBaltic, fiscal policy, EU solidarity, inflation, Eurostat, migration, frontline states, Baltic region",
+      "notes": "Latvia is simultaneously tightening its eastern frontier against hybrid pressure from Belarus and Russia and pouring an exceptional share of national income into defense, while also preparing a financial rescue for its flagship airline. The twin pressures are reshaping budget priorities and raising a question that resonates well beyond Riga: how much security can a frontline EU state absorb before it begins crowding out everything else? With inflation still above the eurozone average and fiscal room narrowing, the burden is landing squarely on households and public services.",
+      "pubDate": "2026-08-22",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_22/Latvia_Episode_2026_08_22.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_22/Latvia_Short_2026_08_22.mp4"
+    },
     {
       "id": "episode-20260822-poland",
       "title": "Poland's Twin Fiscal Battles: Tax Reform and Fuel Relief Test Government's… · 22 Aug",
