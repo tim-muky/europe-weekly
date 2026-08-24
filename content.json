@@ -1,5 +1,5 @@
 {
-  "version": 1787548248362,
+  "version": 1787548382807,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-77f55d3",
+      "title": "Ireland's Economy Looks Strong on Paper, but Voters Are Still Feeling the Squeeze",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "Ireland's headline economic indicators remain robust, with strong tax receipts and resilient employment, yet consumers continue to face a cost-of-living squeeze that official data cannot fully capture. Inflation held at 3.4% in July 2026 for the second consecutive month, keeping purchasing power under pressure. A government decision to delay planned fuel excise increases has sharpened the political debate, raising questions about whether short-term relief can substitute for structural reform.",
+      "body": "<h3>A Tale of Two Economies: Strong Receipts, Stubborn Prices</h3><p>Ireland&#x27;s public finances tell one story. Tax receipts have remained elevated through mid-2026, with VAT returns and income tax growth both pointing to an economy where employment and consumer spending have held up. The government has pointed to those figures as evidence that fiscal management is working, and that the Summer Economic Statement leaves room to support households without destabilising the broader budget framework.</p><p>But the macroeconomic headline sits alongside a less comfortable reality at the household level. Consumer price inflation came in at 3.4% in July 2026, identical to the June reading, meaning that price pressures have not eased in any meaningful sense. Housing-related costs, energy, transport, and food remain among the principal drivers, according to available data. For the average worker, wages may be rising, but the purchasing power those wages represent continues to be quietly eroded.</p><p>The distinction matters politically and analytically. Government ministers are not wrong to cite strong public finances, and opposition parties are not wrong to point to persistent affordability strain. Both things are simultaneously true, which makes this a harder debate to resolve than a simple dispute over numbers.</p><h3>Fuel Excise Delay Turns Pump Prices into a Political Flashpoint</h3><p>The political temperature rose sharply in August when petrol and diesel prices climbed, prompting the government to postpone planned fuel excise increases that had been scheduled as part of a phased approach to transport taxation. Ministers argued the pause was a pragmatic response to market conditions, shielding motorists from a further cost increase at a moment when pump prices were already elevated.</p><p>Critics were unconvinced. Opposition parties argued the reversal amounted to a political retreat, pointing out that the government had ample notice of the planned increases and chose to delay only after prices moved in a direction that made the policy untenable to defend publicly. Trade unions and consumer groups went further, arguing that a temporary pause on excise hikes does little to address the structural pressures weighing on household budgets, particularly for rural communities and low-income workers who depend heavily on private transport.</p><p>The episode also carries implications beyond Ireland&#x27;s borders. Across the European Union, governments have struggled to reconcile climate-aligned tax policy, which typically involves gradually higher fuel levies, with inflation sensitivity among voters already battered by years of elevated prices. Ireland&#x27;s decision to blink at a politically inconvenient moment is unlikely to be the last of its kind in the bloc, and it signals that the political bandwidth for green fiscal measures remains constrained even where governments are broadly supportive of the direction.</p><h3>Outlook: Budget Season Will Test Whether Relief Is Structural or Cosmetic</h3><p>The immediate question is whether the fuel excise pause represents a one-off adjustment or the beginning of a broader softening of fiscal discipline ahead of the autumn budget. The government has maintained that its overall budget framework remains intact, but the decision will be watched closely by fiscal monitors and markets for signs that political pressure is beginning to shape spending choices in ways that could complicate medium-term planning.</p><p>For households, the coming months will be defined less by the excise debate and more by whether inflation begins a genuine downward trend. At 3.4%, Ireland&#x27;s rate remains above the European Central Bank&#x27;s target zone and above the comfort level for most wage earners. If energy prices stabilise globally and housing cost pressures ease, there is a credible path to gradual relief. If either of those conditions does not hold, the gap between official economic confidence and lived experience will continue to widen, creating fertile ground for political discontent.</p><p>The broader EU context adds another layer of complexity. Ireland is not alone in navigating the tension between aggregate economic strength and distributional strain. However, with a general election cycle in view and voter sentiment described by analysts as resigned but increasingly frustrated, the government faces a narrowing window to demonstrate that strong public finances translate into tangible improvements for ordinary households. Budget day will be the clearest test of whether it can make that case credibly.</p>",
+      "keywords": "Ireland, inflation, cost of living, fuel excise, budget 2026, consumer prices, Irish economy, EU fiscal policy, energy costs, housing costs, transport costs, purchasing power, European Central Bank",
+      "sources": "Central Statistics Office Ireland, Consumer Price Index July 2026; Department of Finance, Summer Economic Statement 2026; Irish government statements on fuel excise postponement; Trade union and consumer group commentary on transport costs and affordability; European Central Bank inflation monitoring data",
+      "pubDate": "2026-08-24",
+      "chartData": {
+        "values": [
+          3.4,
+          3.4
+        ],
+        "labels": [
+          "June 2026 CPI",
+          "July 2026 CPI"
+        ]
+      }
+    },
     {
       "id": "article-ad0b7e4",
       "title": "Finland Walks a Fiscal Tightrope as Austerity Bites and Recovery Remains Fragile",
@@ -13347,6 +13369,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260824-ireland",
+      "title": "Ireland's Economy Looks Strong on Paper · 24 Aug",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:31",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Ireland_Episode_2026_08_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 192,
+      "keywords": "Ireland, inflation, cost of living, fuel excise, budget 2026, consumer prices, Irish economy, EU fiscal policy, energy costs, housing costs, transport costs, purchasing power, European Central Bank",
+      "notes": "Ireland's headline economic indicators remain robust, with strong tax receipts and resilient employment, yet consumers continue to face a cost-of-living squeeze that official data cannot fully capture. Inflation held at 3.4% in July 2026 for the second consecutive month, keeping purchasing power under pressure. A government decision to delay planned fuel excise increases has sharpened the political debate, raising questions about whether short-term relief can substitute for structural reform.",
+      "pubDate": "2026-08-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Ireland_Episode_2026_08_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Ireland_Short_2026_08_24.mp4"
+    },
     {
       "id": "episode-20260824-finland",
       "title": "Finland Walks a Fiscal Tightrope as Austerity Bites and Recovery Remains… · 24 Aug",
