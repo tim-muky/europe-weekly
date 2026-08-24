@@ -1,5 +1,5 @@
 {
-  "version": 1787375066815,
+  "version": 1787547834653,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-801b9c7",
+      "title": "Sweden Heads Toward Autumn Vote With Economy and Interest Rates Dominating the Debate",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "Sweden's September election is shaping up as a referendum on economic management, with a centre-left opposition holding a commanding poll lead over the incumbent right-wing coalition. Meanwhile, the Riksbank has kept its policy rate unchanged at 1.75 percent, warning that inflation risks have not fully disappeared despite a sharp drop in headline price growth. The combination of political uncertainty and cautious monetary policy is keeping households and markets on edge.",
+      "body": "<h3>Opposition Builds a Double-Digit Lead as Living Costs Drive Voter Mood</h3><p>With Sweden&#x27;s general election approaching in September, the contest has narrowed to a single dominant question: which bloc can better manage household finances, growth, and purchasing power. According to Reuters, the centre-left opposition holds a lead of approximately ten percentage points over the governing right-wing coalition, making a change of government the most probable outcome based on current polling.</p><p>The opposition has sought to frame the incumbent administration as having failed to deliver adequate relief to households squeezed by elevated borrowing costs and sluggish wage growth. Centre-left leaders have argued that voters are tired of weak purchasing power and that a new government is needed to restore economic credibility. The governing coalition, for its part, has countered that it maintained policy stability during a difficult period and that the economy is stabilising rather than deteriorating.</p><p>Analysts caution that a double-digit poll lead does not guarantee an election result. Voter turnout patterns, late-breaking economic data, and campaign dynamics in the final weeks could still narrow the gap. Nevertheless, the political momentum clearly favours the opposition, and the prospect of a government transition is now being priced into discussions about Sweden&#x27;s post-election fiscal direction.</p><h3>Riksbank Holds Rates but Keeps Door Open to Further Tightening</h3><p>Sweden&#x27;s central bank, the Riksbank, opted to hold its policy rate at 1.75 percent at its most recent meeting, a decision that carries significant weight for millions of households with variable-rate mortgages. The bank stated that while inflation has come down considerably, the path back to the target remains uncertain, and an additional rate increase later in the year has not been ruled out.</p><p>The headline inflation picture has improved markedly. Eurostat&#x27;s latest flash estimate puts Sweden&#x27;s annual inflation rate at 0.3 percent in July, down sharply from 1.0 percent in June. However, the Riksbank&#x27;s own preferred measure, the CPIF index, recorded a somewhat higher reading of 0.7 percent for the same month. The bank explicitly warned that underlying inflation could rise again if supply-side pressures reassert themselves, providing a data-backed justification for its cautious stance.</p><p>For ordinary Swedes, the rate hold translates into continued pressure on monthly mortgage payments and consumer confidence. Critics, including some economists and household advocacy groups, have argued that the Riksbank is keeping borrowing costs restrictively high for too long, particularly given that growth remains fragile. The central bank&#x27;s position is that moving too early risks undoing the progress already achieved on price stability, a trade-off that policymakers across Europe are navigating with varying degrees of conviction.</p><h3>Two Overlapping Uncertainties Shape Sweden&#x27;s Near-Term Outlook</h3><p>The convergence of a contested election and an unresolved monetary policy question creates a layered uncertainty that is unusual even by recent European standards. If the centre-left wins and moves to implement its economic programme, it will do so in an environment where the Riksbank may still be considering rate adjustments, limiting the fiscal space available for new spending commitments without stoking renewed inflationary concern.</p><p>Sweden&#x27;s situation is being watched closely within the European Union as a test case for a specific combination of conditions: falling headline inflation, weak growth, politically mobilised households, and a central bank that is reluctant to declare victory. Several other EU member states face analogous dynamics, and the Swedish experience over the coming months may offer practical lessons about the interaction between monetary restraint and electoral politics in a post-shock environment.</p><p>The immediate next steps are clear: the Riksbank&#x27;s next scheduled policy meeting will determine whether rates are held again or raised for the first time since the current cycle reached 1.75 percent, and September&#x27;s vote will decide whether the governing coalition is given another term to implement its stabilisation strategy or replaced by a centre-left administration with a different set of economic priorities. Both outcomes carry real consequences for mortgages, public spending, and Sweden&#x27;s longer-term growth trajectory.</p>",
+      "keywords": "Sweden election, Riksbank, interest rates, inflation, centre-left opposition, Swedish economy, monetary policy, European Union, household finances, CPIF, Eurostat, rate hold, political polling, economic management",
+      "sources": "Reuters, election polling coverage on Swedish centre-left opposition lead; Riksbank monetary policy statement, rate hold at 1.75 percent with warning on inflation outlook; Eurostat flash inflation estimate, July data showing Sweden annual rate at 0.3 percent; Riksbank CPIF measure for July at 0.7 percent; Riksbank commentary on underlying inflation and supply shock risks",
+      "pubDate": "2026-08-24",
+      "chartData": {
+        "values": [
+          0.3,
+          0.7,
+          1.0
+        ],
+        "labels": [
+          "Sweden HICP Inflation July",
+          "Sweden CPIF Inflation July",
+          "Sweden HICP Inflation June"
+        ]
+      }
+    },
     {
       "id": "article-78ba3b1",
       "title": "Latvia's Double Squeeze: Border Hardening and Defense Costs Test a Small State's Limits",
@@ -13279,6 +13303,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260824-sweden",
+      "title": "Sweden Heads Toward Autumn Vote With Economy and Interest Rates Dominating… · 24 Aug",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "8:29",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Sweden_Episode_2026_08_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 189,
+      "keywords": "Sweden election, Riksbank, interest rates, inflation, centre-left opposition, Swedish economy, monetary policy, European Union, household finances, CPIF, Eurostat, rate hold, political polling, economic management",
+      "notes": "Sweden's September election is shaping up as a referendum on economic management, with a centre-left opposition holding a commanding poll lead over the incumbent right-wing coalition. Meanwhile, the Riksbank has kept its policy rate unchanged at 1.75 percent, warning that inflation risks have not fully disappeared despite a sharp drop in headline price growth. The combination of political uncertainty and cautious monetary policy is keeping households and markets on edge.",
+      "pubDate": "2026-08-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Sweden_Episode_2026_08_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Sweden_Short_2026_08_24.mp4"
+    },
     {
       "id": "episode-20260822-latvia",
       "title": "Latvia's Double Squeeze: Border Hardening and Defense Costs Test a Small… · 22 Aug",
