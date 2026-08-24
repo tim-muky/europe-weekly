@@ -1,5 +1,5 @@
 {
-  "version": 1787547834653,
+  "version": 1787548131570,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-f17b279",
+      "title": "Denmark Faces Post-Pharma Slowdown as Government Bets on Defence to Drive Agenda",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "excerpt": "Denmark's economy decelerated sharply in the second quarter of 2026, exposing the risks of growth built on a single sector, as pharmaceutical output loses its earlier momentum. At the same time, the government in Copenhagen is pivoting toward a security-first agenda, ramping up defence procurement and anti-drone capabilities amid rising regional tensions. The two shifts are forcing a debate about national priorities that will define Danish politics heading into the autumn budget season.",
+      "body": "<h3>A Pharma-Fuelled Boom Runs Out of Steam</h3><p>For much of the past year, Denmark stood out among European economies as a rare growth story, propelled by a surge in pharmaceutical exports that pushed output well above EU averages. That advantage is now fading. Data from Statistics Denmark show GDP growth slowed to 0.3 percent in the second quarter of 2026, a steep drop from the 1.5 percent recorded in the first quarter. The reversal has renewed questions about how resilient the Danish economy truly is once its star sector steps back.</p><p>The government has sought to reassure citizens that the fundamentals remain sound. Unemployment is still comparatively solid, and with core inflation running at 2.3 percent in July 2026 and headline inflation at roughly 1.7 to 1.8 percent, there is no sign of a price emergency. Officials argue that policy should focus on maintaining household purchasing power and protecting the country&#x27;s competitive position, rather than treating a quarterly dip as a structural crisis.</p><p>Critics, however, say the slowdown reveals a deeper vulnerability. Opposition voices argue that an economy so dependent on one export champion is more fragile than aggregate figures suggest. They are pushing for broader productivity reforms rather than short-term consumer relief, warning that without structural diversification, Denmark risks being caught off guard the next time a single sector falters.</p><h3>Security Spending Rises, Crowding Out Debate on Cost of Living</h3><p>While the economic mood turns cautious, Denmark&#x27;s government has moved decisively on a separate front: defence. Copenhagen is expanding its anti-drone capabilities and deepening security cooperation with Nordic partners, with procurement decisions increasingly favouring domestic and regional suppliers. Danish defence firm Terma is among those positioned to benefit from a stepped-up acquisition programme aimed at protecting critical infrastructure and improving national readiness.</p><p>The government frames this as a proportionate and necessary response to genuine threats. Nordic coordination on security has intensified across the region, and officials in Copenhagen argue that Denmark must pull its weight as a credible partner. Investing in domestic defence capacity, they say, simultaneously addresses security gaps and supports high-skilled industrial employment.</p><p>The political opposition, however, is beginning to question the sequencing. With growth slowing and households feeling more cautious about their finances, critics argue the government is moving faster on military hardware than on everyday cost-of-living pressures. The concern is less that the security spending is unjustified and more that, if it grows unchecked, it will crowd out investment in areas — from housing to skills programmes — that more directly affect ordinary Danes day to day.</p><h3>Outlook: A Budget Season That Will Test Priorities</h3><p>The combination of a cooling economy and rising security ambitions sets up a consequential autumn in Danish politics. The government will need to present a budget that addresses both the demand for continued defence investment and the need to shore up household confidence after the post-pharma normalisation. With fiscal space limited, trade-offs will be visible and contested.</p><p>For the European Union, Denmark offers a telling case study. An economy that rode a single export wave — in this instance, pharmaceutical giants — and is now recalibrating illustrates both the rewards and the risks of sectoral concentration. Brussels will be watching whether Copenhagen responds with structural reform or simply waits for the next export upswing to restore headline growth figures.</p><p>On security, Denmark&#x27;s trajectory aligns with a broader Nordic and European shift toward greater readiness, driven by regional tensions that show little sign of easing. Whether that alignment translates into a coherent EU-level security architecture, or remains a patchwork of bilateral and Nordic arrangements, is a question that Copenhagen&#x27;s choices will help answer. For now, the country appears alert rather than alarmed — a posture that may prove harder to sustain if the economic slowdown deepens and budget choices become more painful.</p>",
+      "keywords": "Denmark economy, GDP slowdown, pharmaceutical exports, defence spending, anti-drone, Nordic security, Danish inflation, Terma, EU security cooperation, Danish budget 2026",
+      "sources": "Statistics Denmark, GDP and national accounts data, Q1–Q2 2026; Statistics Denmark, Consumer Price Index, July 2026; Danish Ministry of Defence, procurement and Nordic security cooperation statements, 2026; Terma A/S, company and sector reporting, 2026",
+      "pubDate": "2026-08-24",
+      "chartData": {
+        "values": [
+          1.5,
+          0.3
+        ],
+        "labels": [
+          "Q1 2026 GDP Growth (%)",
+          "Q2 2026 GDP Growth (%)"
+        ]
+      }
+    },
     {
       "id": "article-801b9c7",
       "title": "Sweden Heads Toward Autumn Vote With Economy and Interest Rates Dominating the Debate",
@@ -13303,6 +13325,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260824-denmark",
+      "title": "Denmark Faces Post-Pharma Slowdown as Government Bets on Defence to Drive… · 24 Aug",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "duration": "8:23",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Denmark_Episode_2026_08_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 190,
+      "keywords": "Denmark economy, GDP slowdown, pharmaceutical exports, defence spending, anti-drone, Nordic security, Danish inflation, Terma, EU security cooperation, Danish budget 2026",
+      "notes": "Denmark's economy decelerated sharply in the second quarter of 2026, exposing the risks of growth built on a single sector, as pharmaceutical output loses its earlier momentum. At the same time, the government in Copenhagen is pivoting toward a security-first agenda, ramping up defence procurement and anti-drone capabilities amid rising regional tensions. The two shifts are forcing a debate about national priorities that will define Danish politics heading into the autumn budget season.",
+      "pubDate": "2026-08-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Denmark_Episode_2026_08_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_24/Denmark_Short_2026_08_24.mp4"
+    },
     {
       "id": "episode-20260824-sweden",
       "title": "Sweden Heads Toward Autumn Vote With Economy and Interest Rates Dominating… · 24 Aug",
