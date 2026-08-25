@@ -1,5 +1,5 @@
 {
-  "version": 1787634419341,
+  "version": 1787634553467,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-09e420c",
+      "title": "Greece Faces Twin Test: Climate Shocks Strain Budgets as Debt Falls but Living Costs Bite",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "Greece is confronting a paradox at the heart of its recovery story: public debt is falling faster than expected, yet repeated wildfires and stubborn cost-of-living pressures are eroding public confidence in that progress. Senior advisers now regard climate-driven disruption as a medium- to long-term fiscal risk, complicating Athens' efforts to turn economic improvement into political capital. The country is increasingly seen across the European Union as a test case for whether a heavily indebted member state can absorb climate shocks and maintain fiscal discipline while still delivering tangible relief to ordinary households.",
+      "body": "<h3>Wildfires Move From Emergency Story to Fiscal Threat</h3><p>Each summer, Greece&#x27;s wildfire season arrives with the same grim rhythm: evacuation orders, burned pine forests, scorched tourist resorts, and an emergency budget line that grows heavier. What has changed, according to senior government advisers, is the recognition that these events are no longer isolated crises to be managed and forgotten. Reuters has reported that policymakers now view wildfires and extreme heat as a medium- to long-term fiscal risk, one capable of disrupting tourism revenues, raising insurance costs, damaging infrastructure, and placing sustained pressure on the state budget.</p><p>The government has responded by framing climate adaptation as a strategic investment rather than reactive spending, pointing to resilience programmes and civil protection upgrades as evidence of a more structured approach. Critics, however, argue that each new fire season exposes the same structural failures: inadequate forest management, slow prevention measures, and a civil protection system that remains under-resourced relative to the scale of the threat. Opposition politicians say the cost of that unpreparedness falls disproportionately on local communities, small tourism operators, and homeowners who lack the resources to rebuild quickly.</p><p>The public mood, by most assessments, can be described as chaotic. Even in years when the broader macroeconomic data hold steady, the cumulative experience of recurring summer disruption, air quality alerts, and property loss shapes a social anxiety that statistics alone cannot capture. For a country whose economy depends heavily on tourism, the reputational and financial damage from repeated fire emergencies carries consequences well beyond the immediate disaster response.</p><h3>Debt Falls, but the Recovery Has Not Reached Every Checkout</h3><p>Against this backdrop of climate stress, Athens has been advancing a fiscal narrative it regards as genuinely transformative. The Bank of Greece reports that public debt has continued its downward trajectory, falling to 146.1 percent of GDP in 2025, with a further decline estimated for 2026. The government argues that ahead-of-schedule debt repayments demonstrate restored market credibility and signal that Greece has moved decisively beyond the prolonged crisis era that defined the previous decade. A tax-relief package is also in preparation, intended to translate fiscal headroom into visible household benefit before the next electoral cycle.</p><p>The debt-reduction claim is supported by the data. The more contested ground concerns whether that macroeconomic progress has been felt by average households. Eurostat figures show Greek inflation fell to 2.7 percent in July 2026, down from 3.9 percent in June, a meaningful deceleration. Yet prices are still rising, and the Bank of Greece has noted that services inflation and tourism-related price pressures remain significant contributors to the overall picture. For families managing food, energy, and housing costs, a lower headline rate does not erase the cumulative price increases of recent years.</p><p>Opposition parties and trade unions argue that debt progress and tax cuts, however welcome in principle, risk functioning as political messaging rather than structural relief. They contend that wage growth in key sectors continues to lag price levels, that housing affordability has worsened in urban centres, and that the government&#x27;s fiscal success story is being deployed to obscure persistent strain. The government disputes this characterisation, pointing to employment gains and the trajectory of real incomes as evidence that the benefits of recovery are broadening.</p><h3>A Test Case for the European Union&#x27;s Stressed Periphery</h3><p>The convergence of these two pressures, climate disruption and uneven recovery, gives Greece an importance beyond its own borders. Within EU policy circles, Athens is increasingly regarded as a live experiment in whether a highly indebted peripheral economy can simultaneously maintain fiscal discipline, absorb the financial shock of climate events, and deliver enough tangible household relief to sustain political stability. The answer has implications for how the bloc designs future cohesion funding, climate adaptation support, and debt sustainability frameworks.</p><p>The immediate deadlines are clear. Another wildfire season will test the government&#x27;s claimed shift toward strategic resilience. The planned tax-relief package will face scrutiny over whether its benefits reach middle- and lower-income households or are concentrated among higher earners. And the Bank of Greece&#x27;s projected continued decline in the debt-to-GDP ratio for 2026 will need to materialise without the kind of emergency spending that climate shocks can rapidly generate.</p><p>If Greece manages to hold these pressures in balance, it strengthens the case that fiscal discipline and climate adaptation can coexist, and that recovery-era credibility can be sustained even under environmental stress. If the summer fire season proves severe, or if cost-of-living frustration hardens into political backlash, the narrative of a country that turned the corner will face a more demanding test than any bond market assessment can capture.</p>",
+      "keywords": "Greece, wildfires, heatwaves, climate risk, fiscal policy, public debt, inflation, cost of living, European Union, tax cuts, tourism, Bank of Greece, Eurostat, debt reduction, economic recovery",
+      "sources": "Reuters, reporting on Greek government advisers and climate fiscal risk assessment; Bank of Greece, public debt and inflation data, 2025–2026 estimates; Eurostat, Greek inflation statistics, June–July 2026",
+      "pubDate": "2026-08-25",
+      "chartData": {
+        "values": [
+          146.1,
+          2.7,
+          3.9
+        ],
+        "labels": [
+          "Greek Public Debt % GDP (2025)",
+          "Inflation July 2026 (%)",
+          "Inflation June 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-4aeac93",
       "title": "Italy Walks a Fiscal Tightrope as Industrial Weakness Clouds Modest Recovery",
@@ -13445,6 +13469,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260825-greece",
+      "title": "Greece Faces Twin Test: Climate Shocks Strain Budgets · 25 Aug",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "8:48",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Greece_Episode_2026_08_25.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 196,
+      "keywords": "Greece, wildfires, heatwaves, climate risk, fiscal policy, public debt, inflation, cost of living, European Union, tax cuts, tourism, Bank of Greece, Eurostat, debt reduction, economic recovery",
+      "notes": "Greece is confronting a paradox at the heart of its recovery story: public debt is falling faster than expected, yet repeated wildfires and stubborn cost-of-living pressures are eroding public confidence in that progress. Senior advisers now regard climate-driven disruption as a medium- to long-term fiscal risk, complicating Athens' efforts to turn economic improvement into political capital. The country is increasingly seen across the European Union as a test case for whether a heavily indebted member state can absorb climate shocks and maintain fiscal discipline while still delivering tangible relief to ordinary households.",
+      "pubDate": "2026-08-25",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Greece_Episode_2026_08_25.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Greece_Short_2026_08_25.mp4"
+    },
     {
       "id": "episode-20260825-italy",
       "title": "Italy Walks a Fiscal Tightrope as Industrial Weakness Clouds Modest Recovery · 25 Aug",
