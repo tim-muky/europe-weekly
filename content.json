@@ -1,5 +1,5 @@
 {
-  "version": 1787634281639,
+  "version": 1787634419341,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-4aeac93",
+      "title": "Italy Walks a Fiscal Tightrope as Industrial Weakness Clouds Modest Recovery",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "excerpt": "Italy's government is seeking budgetary flexibility within EU rules to fund energy security and defence priorities, even as public debt sits at record levels and critics warn of short-term political fixes over structural reform. Meanwhile, the country's economic recovery remains uneven: services are holding up, but industrial output fell in June and inflation, though easing, continues to weigh on household budgets. The combination of fiscal pressure and fragile growth puts Rome under scrutiny both at home and in Brussels ahead of the next budget cycle.",
+      "body": "<h3>A Budget Under Pressure: Spending Ambitions Meet Debt Reality</h3><p>With Italy&#x27;s next budget cycle approaching, the government of Prime Minister Giorgia Meloni is pushing for additional room within European Union fiscal rules to finance what it describes as strategic priorities: energy security and defence. Officials argue that the bloc&#x27;s existing flexibility provisions should accommodate these needs without derailing Italy&#x27;s broader commitment to deficit reduction, framing the spending push as both necessary and responsible.</p><p>Critics are unconvinced. Opposition lawmakers and independent economists argue that the government is applying fiscal discipline selectively, expanding spending when it serves political purposes while sidestepping the structural reforms that would put Italy&#x27;s finances on a more durable footing. Particular scrutiny has fallen on proposals to levy a windfall tax on banks, a measure that analysts describe as politically expedient rather than a reliable or sustainable financing mechanism.</p><p>The backdrop makes the debate more than academic. Italy&#x27;s public debt remains at record levels, leaving the country exposed to shifts in market confidence and borrowing costs. For eurozone partners, the stakes are significant: Italy&#x27;s size means that any credible deterioration in Rome&#x27;s fiscal standing can send ripples through broader European debt markets, complicating the work of both the European Central Bank and EU fiscal overseers.</p><h3>Growth Numbers Mask a Fragile and Uneven Recovery</h3><p>The Italian economy did record positive quarterly GDP growth, and the government has been quick to highlight this alongside stronger performance in the services sector as evidence of resilience. On inflation, official statistics from ISTAT show the consumer price index eased to 2.9 percent in July, down from 3.0 percent in June, a direction the government has presented as progress toward price stability.</p><p>The industrial picture, however, tells a different story. Manufacturing output fell 1.0 percent month on month and 0.6 percent year on year in June, according to available data, pointing to genuine weakness in the productive core of the economy. Opponents of the government argue that a one-tenth-of-a-percentage-point drop in the inflation rate offers little practical comfort to families still absorbing elevated costs at supermarkets and utility providers. Describing the situation as an inflation victory, they say, is accurate only in the narrowest technical sense.</p><p>The divergence between a services sector that is holding and an industrial base that is softening reflects a structural fault line in the Italian economy that predates the current government. For the wider eurozone, weak Italian manufacturing adds to a broader picture of sluggish European industrial output, potentially complicating ECB deliberations over the pace and depth of any future monetary easing.</p><h3>Outlook: Budget Deadlines and the Limits of Optimism</h3><p>In the near term, attention will focus on Italy&#x27;s autumn budget process, when the government must translate its spending intentions into concrete numbers acceptable to European Commission monitors. The dual challenge of funding new priorities and satisfying debt-reduction commitments will require either credible financing mechanisms or difficult trade-offs that could prove politically costly within the ruling coalition.</p><p>The public mood, according to observers tracking sentiment, is best described as resigned rather than alarmed. Italians appear broadly accustomed to the rhythms of annual budget drama and do not widely anticipate an acute crisis. Yet fatigue with permanent fiscal uncertainty is real, and any perception that the government is prioritising short-term coalition management over long-term stability could erode confidence at a moment when the economic recovery remains genuinely fragile.</p><p>For policymakers and markets alike, the core question is whether Italy can sustain the appearance of fiscal credibility long enough for its modest growth to consolidate. If industrial output does not recover in coming months and inflation remains sticky, the government&#x27;s room for manoeuvre — both politically and arithmetically — will narrow further, making the autumn budget negotiation one of the more consequential tests Rome has faced since the post-pandemic recovery began.</p>",
+      "keywords": "Italy economy, Italian budget, fiscal policy, public debt, industrial output, inflation, eurozone, ECB, EU fiscal rules, Giorgia Meloni, bank levy, energy security, defence spending, GDP growth, Italian manufacturing",
+      "sources": "ISTAT consumer price index release, July 2024; Italian GDP quarterly growth data; Italian industrial production data, June 2024; European Commission fiscal monitoring framework; Eurozone debt market analysis",
+      "pubDate": "2026-08-25",
+      "chartData": {
+        "values": [
+          2.9,
+          1.0,
+          0.6
+        ],
+        "labels": [
+          "Italy CPI July (%)",
+          "Industrial Output MoM Fall (%)",
+          "Industrial Output YoY Fall (%)"
+        ]
+      }
+    },
     {
       "id": "article-d5991a6",
       "title": "Spain's Budget Defeat Exposes Governing Fragility as Uneven Recovery Tests Households",
@@ -13421,6 +13445,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260825-italy",
+      "title": "Italy Walks a Fiscal Tightrope as Industrial Weakness Clouds Modest Recovery · 25 Aug",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "duration": "8:33",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Italy_Episode_2026_08_25.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 195,
+      "keywords": "Italy economy, Italian budget, fiscal policy, public debt, industrial output, inflation, eurozone, ECB, EU fiscal rules, Giorgia Meloni, bank levy, energy security, defence spending, GDP growth, Italian manufacturing",
+      "notes": "Italy's government is seeking budgetary flexibility within EU rules to fund energy security and defence priorities, even as public debt sits at record levels and critics warn of short-term political fixes over structural reform. Meanwhile, the country's economic recovery remains uneven: services are holding up, but industrial output fell in June and inflation, though easing, continues to weigh on household budgets. The combination of fiscal pressure and fragile growth puts Rome under scrutiny both at home and in Brussels ahead of the next budget cycle.",
+      "pubDate": "2026-08-25",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Italy_Episode_2026_08_25.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Italy_Short_2026_08_25.mp4"
+    },
     {
       "id": "episode-20260825-spain",
       "title": "Spain's Budget Defeat Exposes Governing Fragility · 25 Aug",
