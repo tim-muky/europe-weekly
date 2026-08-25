@@ -1,5 +1,5 @@
 {
-  "version": 1787634146073,
+  "version": 1787634281639,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-d5991a6",
+      "title": "Spain's Budget Defeat Exposes Governing Fragility as Uneven Recovery Tests Households",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "Spain's lower house has rejected the government's 2027 spending framework by a clear margin, delivering a significant legislative blow to Prime Minister Pedro Sánchez's coalition and raising doubts about its ability to pass a full state budget. The defeat comes as Spain's economy shows genuine momentum, with services activity at a 40-month high and growth forecasts revised upward, yet inflation running well above the euro area average continues to squeeze ordinary households. The two developments together capture a deepening fault line in one of the eurozone's largest economies: strong macro numbers, fragile political arithmetic.",
+      "body": "<h3>A Clear Legislative Defeat Lays Bare Coalition Weakness</h3><p>Spain&#x27;s parliament voted 176 to 166 to reject the government&#x27;s proposed 2027 spending framework, blocking a critical step toward adopting a full state budget and exposing just how precarious the Sánchez government&#x27;s legislative position has become. The margin was not close. It was a decisive rebuff that opposition parties were quick to frame as evidence of institutional drift and a coalition incapable of commanding a stable majority.</p><p>The government had sought to lock in a record spending ceiling of 226 billion euros, arguing the framework was essential to protect social programmes and maintain fiscal credibility. But the parliamentary arithmetic did not hold. Coalition partners and regional allies whose support Sánchez has depended on since taking office failed to coalesce around the measure, handing the opposition a clean victory on the floor of the lower house.</p><p>For citizens, the consequences of prolonged budget paralysis are practical and immediate. Decisions on housing investment, regional transfers, infrastructure, health and education spending can all stall when a government operates without a formally approved budgetary mandate. For Brussels, the episode raises a pointed question about whether Spain, a major eurozone economy with significant exposure to EU structural funds and fiscal surveillance rules, can deliver the kind of predictable fiscal planning that European partners expect.</p><h3>Growth Headlines Mask an Uneven and Inflationary Recovery</h3><p>Set against the political turbulence, Spain&#x27;s economic data present a more optimistic picture, though one that requires careful reading. The services sector recorded its strongest activity in 40 months, with new business accelerating and business confidence moving higher. The government&#x27;s 2026 growth forecast has been revised upward to 2.6 percent, a figure that would see Spain comfortably outpacing the broader eurozone average.</p><p>Manufacturing has returned to marginal growth after a prolonged period of contraction, which analysts have welcomed as a tentative sign of broader industrial stabilisation. Input-cost inflation in the services sector also showed signs of easing, according to data cited by Reuters, suggesting that some of the price pressures that built up through the post-pandemic period may be gradually unwinding at the producer level.</p><p>However, the inflation picture for consumers is considerably less reassuring. Eurostat data show Spain&#x27;s annual inflation rate running at 3.9 percent in the latest update, a figure that sits well above the euro area average and one that complicates any straightforward government claim that price pressures are already under control. Employment in industry continues to decline, and the recovery remains heavily concentrated in services, raising questions about whether growth is translating into broadly shared wage gains or primarily benefiting sectors where working conditions and pay levels vary widely.</p><h3>Political and Economic Pressures Set to Converge</h3><p>The combination of a weakened parliamentary position and an uneven domestic recovery creates a compounding challenge for the Sánchez administration in the months ahead. Without a functioning budget framework, the government&#x27;s ability to introduce new fiscal measures, respond to economic shocks, or direct targeted relief toward households still struggling with elevated prices is structurally constrained. The opposition will be well-positioned to argue, with evidence, that the government has neither a mandate nor a mechanism to act decisively.</p><p>For European partners and financial markets, Spain&#x27;s situation is a reminder that strong growth figures do not automatically translate into political stability or policy coherence. A large eurozone member that cannot pass a spending framework introduces an element of uncertainty into EU-level fiscal discussions at a moment when the bloc is already navigating debates over defence expenditure, competitiveness investment, and the future of its fiscal rules.</p><p>The next test will come quickly. The government must either find a path to rebuild its parliamentary coalition, seek new alliances, or face the prospect of operating in continued fiscal limbo as Spain&#x27;s inflation gap with its eurozone peers persists. Households watching prices remain elevated while political gridlock delays spending decisions are unlikely to register the macro growth story as a personal improvement. Whether the Sánchez government can translate economic momentum into renewed legislative authority is the central question Spain enters the coming months attempting to answer.</p>",
+      "keywords": "Spain, budget paralysis, Pedro Sánchez, coalition government, Spanish parliament, eurozone, inflation, economic growth, services sector, manufacturing, fiscal policy, EU, spending framework",
+      "sources": "Eurostat inflation data, latest update; Reuters, services sector input-cost inflation report; Spanish lower house parliamentary vote record, 2027 spending framework; Government of Spain, revised 2026 GDP growth forecast",
+      "pubDate": "2026-08-25",
+      "chartData": {
+        "values": [
+          3.9,
+          2.6,
+          176.0,
+          166.0
+        ],
+        "labels": [
+          "Spain Inflation Rate (%)",
+          "Spain 2026 Growth Forecast (%)",
+          "Votes Against Budget Framework",
+          "Votes For Budget Framework"
+        ]
+      }
+    },
     {
       "id": "article-5513cc4",
       "title": "Portugal Faces Twin Squeeze as Purchasing Power Falls and Public Debt Climbs",
@@ -13395,6 +13421,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260825-spain",
+      "title": "Spain's Budget Defeat Exposes Governing Fragility · 25 Aug",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:16",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Spain_Episode_2026_08_25.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 194,
+      "keywords": "Spain, budget paralysis, Pedro Sánchez, coalition government, Spanish parliament, eurozone, inflation, economic growth, services sector, manufacturing, fiscal policy, EU, spending framework",
+      "notes": "Spain's lower house has rejected the government's 2027 spending framework by a clear margin, delivering a significant legislative blow to Prime Minister Pedro Sánchez's coalition and raising doubts about its ability to pass a full state budget. The defeat comes as Spain's economy shows genuine momentum, with services activity at a 40-month high and growth forecasts revised upward, yet inflation running well above the euro area average continues to squeeze ordinary households. The two developments together capture a deepening fault line in one of the eurozone's largest economies: strong macro numbers, fragile political arithmetic.",
+      "pubDate": "2026-08-25",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Spain_Episode_2026_08_25.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Spain_Short_2026_08_25.mp4"
+    },
     {
       "id": "episode-20260825-portugal",
       "title": "Portugal Faces Twin Squeeze as Purchasing Power Falls and Public Debt Climbs · 25 Aug",
