@@ -1,5 +1,5 @@
 {
-  "version": 1787548382807,
+  "version": 1787634146073,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-5513cc4",
+      "title": "Portugal Faces Twin Squeeze as Purchasing Power Falls and Public Debt Climbs",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "excerpt": "Portuguese households are enduring their worst purchasing power in three years even as headline inflation moderates, creating a politically charged gap between official optimism and everyday financial reality. Meanwhile, public debt has risen to 92.9 percent of GDP in the second quarter of 2026, reviving a sharp debate over whether the government can maintain fiscal credibility while meeting citizens' expectations. The two pressures are closely linked: a state borrowing more than it planned has less room to cushion the very households already feeling squeezed.",
+      "body": "<h3>Cooling Inflation Offers Little Relief to Strained Households</h3><p>Portugal&#x27;s annual harmonised inflation rate eased to 3.0 percent in July 2026, down from 3.1 percent in May, data shows. The government has pointed to those figures as evidence that price pressures are moderating and that its macro-economic strategy is working. Prime Minister Luis Montenegro&#x27;s administration argues the economy is moving in the right direction, and that stabilising prices will eventually translate into improved living standards.</p><p>Opposition parties and trade unions reject that framing. Slower inflation, they argue, does not mean life is becoming more affordable. Prices are still rising, just less quickly than before, and wages have not kept pace with the cumulative price gains of recent years. The result, according to data included in parliamentary briefings this year, is that purchasing power has fallen to its lowest level in three years, a measure that captures real take-home value rather than simply the pace of price increases.</p><p>The distinction matters enormously at the household level. Grocery bills, rental costs, and public-transport fares all remain elevated relative to earnings, and many families report drawing on savings or cutting discretionary spending to cover essentials. For economists watching the broader eurozone periphery, Portugal has become one of the clearest examples of a dislocation that is increasingly common across Europe: headline macro-stability coexisting with genuine and persistent everyday financial strain.</p><h3>Debt Ratio Drifts Higher, Sharpening Political Confrontation</h3><p>Portugal&#x27;s public debt reached 92.9 percent of GDP in the second quarter of 2026, up from 91 percent in the first quarter, according to Bank of Portugal data. The government was quick to note that the level remains far below the crisis-era peaks that once threatened sovereign solvency, and finance ministry officials argued the increase was manageable within existing fiscal targets.</p><p>Critics, including opposition Socialist and Left Bloc lawmakers, countered that the direction of travel is what should concern analysts and voters alike. Debt is rising, not falling, and the pace of the increase in the first half of 2026 suggests borrowing is again growing faster than economic output. The opposition argued that repeated reassurances about debt sustainability are politically convenient but do not address the structural question of whether the upward drift will gradually erode Portugal&#x27;s credibility with both European institutions and bond markets.</p><p>The practical consequences extend beyond financial markets. Higher debt servicing costs absorb funds that would otherwise be available for public wages, health infrastructure, and the kind of targeted cost-of-living support that unions have been demanding. In that sense, the fiscal debate and the purchasing-power debate are not separate arguments: they share a common constraint. A government borrowing more than planned has, by definition, a narrower margin for the spending measures that could ease household pressure.</p><h3>Outlook: Political Pressure Builds as Brussels Watches Closely</h3><p>The convergence of a declining purchasing-power trend and a rising debt ratio sets up a difficult second half of 2026 for the minority government in Lisbon. Autumn budget negotiations will force ministers to make choices that satisfy neither the European Commission&#x27;s preference for fiscal consolidation nor the domestic demand for wage support and public investment. With no parliamentary majority, the government will need to assemble support from smaller parties whose priorities frequently diverge from its own.</p><p>Portugal&#x27;s standing within the European Union&#x27;s fiscal surveillance framework adds a further layer of pressure. The country exited the excessive deficit procedure years ago and has worked to rebuild credibility with Brussels and the European Central Bank. A sustained rise in the debt ratio risks inviting renewed scrutiny at a moment when the Commission is reasserting oversight of member-state finances across the bloc. Markets have so far shown limited alarm, but analysts warned that investor patience is not unconditional, particularly if political gridlock delays credible medium-term consolidation plans.</p><p>For ordinary Portuguese households, the near-term outlook depends on whether wage agreements negotiated for late 2026 can close the gap that has opened between earnings and cumulative price increases. Union federations have indicated they will press for above-inflation settlements in public and private sector rounds alike. Whether fiscal constraints leave room for that outcome remains the central, unresolved question heading into what promises to be a contentious budget season.</p>",
+      "keywords": "Portugal, cost of living, purchasing power, public debt, inflation, fiscal policy, eurozone, European Union, budget, wages, Bank of Portugal, GDP, sovereign debt, European Commission",
+      "sources": "Bank of Portugal, public debt and fiscal data, Q1–Q2 2026; Eurostat harmonised inflation (HICP) data for Portugal, May and July 2026; Portuguese parliamentary budget briefings, 2026; European Commission fiscal surveillance framework documentation",
+      "pubDate": "2026-08-25",
+      "chartData": {
+        "values": [
+          3.1,
+          3.0,
+          91.0,
+          92.9
+        ],
+        "labels": [
+          "HICP May 2026 (%)",
+          "HICP July 2026 (%)",
+          "Debt Q1 2026 (% GDP)",
+          "Debt Q2 2026 (% GDP)"
+        ]
+      }
+    },
     {
       "id": "article-77f55d3",
       "title": "Ireland's Economy Looks Strong on Paper, but Voters Are Still Feeling the Squeeze",
@@ -13369,6 +13395,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260825-portugal",
+      "title": "Portugal Faces Twin Squeeze as Purchasing Power Falls and Public Debt Climbs · 25 Aug",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "duration": "8:30",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Portugal_Episode_2026_08_25.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 193,
+      "keywords": "Portugal, cost of living, purchasing power, public debt, inflation, fiscal policy, eurozone, European Union, budget, wages, Bank of Portugal, GDP, sovereign debt, European Commission",
+      "notes": "Portuguese households are enduring their worst purchasing power in three years even as headline inflation moderates, creating a politically charged gap between official optimism and everyday financial reality. Meanwhile, public debt has risen to 92.9 percent of GDP in the second quarter of 2026, reviving a sharp debate over whether the government can maintain fiscal credibility while meeting citizens' expectations. The two pressures are closely linked: a state borrowing more than it planned has less room to cushion the very households already feeling squeezed.",
+      "pubDate": "2026-08-25",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Portugal_Episode_2026_08_25.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_25/Portugal_Short_2026_08_25.mp4"
+    },
     {
       "id": "episode-20260824-ireland",
       "title": "Ireland's Economy Looks Strong on Paper · 24 Aug",
