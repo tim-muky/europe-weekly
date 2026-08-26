@@ -1,5 +1,5 @@
 {
-  "version": 1787720664145,
+  "version": 1787720798991,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-f1c3e13",
+      "title": "Belgium Tests Europe's Limits: Wildfire Crisis and Stubborn Inflation Strain Public Trust",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Belgium's largest recorded wildfire has exposed significant gaps in the country's civil protection and climate-resilience infrastructure, forcing the government to promise a national action plan after emergency services required Dutch helicopters and EU aircraft to contain the blaze. Meanwhile, Belgian households are growing more cautious as inflation remains elevated at 3.6 percent, well above levels that would signal a genuine end to the cost-of-living squeeze. Together, the two crises present a pointed test of whether European governments can maintain citizen trust on both physical security and economic stability. The answer, for now, appears uncertain.",
+      "body": "<h3>A Record Blaze Reveals the Gaps in Belgium&#x27;s Emergency Readiness</h3><p>Belgium faced its largest wildfire on record in recent weeks, an event that rapidly escalated beyond the capacity of domestic emergency services and required assistance from Dutch helicopters and EU civil protection aircraft to bring under control. Evacuations were ordered as the blaze spread, and the scale of the response laid bare what critics describe as a structural shortfall in the country&#x27;s firefighting infrastructure and climate-adaptation planning.</p><p>The government has since announced plans for a national action plan, framing the fire as a catalyst for increased funding in civil protection and stronger resilience frameworks. Federal officials argued the disaster has created the political momentum needed to accelerate planning that was already underway, positioning the event as a warning shot that will now translate into concrete policy.</p><p>Opposition parties and emergency management experts have pushed back on that framing. A record-breaking wildfire, they argued, should not be treated primarily as a launching pad for future promises. Belgium, they said, should already have had stronger prevention strategies, faster aerial deployment capacity, and clearer cross-border coordination protocols in place before a crisis of this magnitude arrived. The fact that foreign aircraft were required points to a domestic gap that pre-dates the fire itself.</p><h3>Households Feel the Squeeze as Inflation Proves Difficult to Shake</h3><p>On the economic front, Belgian consumers are entering the second half of 2026 in a cautious mood. According to Eurostat data, Belgian inflation stood at 3.6 percent in the latest mid-August reading, following earlier 2026 estimates in the 3.3 to 3.5 percent range. While that represents a decline from peaks recorded earlier in the year, it remains well above the levels households or policymakers would describe as a resolved crisis. The National Bank of Belgium&#x27;s consumer-confidence series reflects that reality, pointing to a weak underlying mood that aligns with wider survey data showing declining sentiment.</p><p>Government officials have emphasized the progress made, stating that inflation has eased from its highs and that the economy is stabilizing. They argued the focus should now be on protecting purchasing power and supporting a gradual return of consumer confidence. That message, however, has struggled to gain traction at the household level, where the cumulative effect of elevated prices over multiple years means that even a moderation in the rate of inflation does not translate into relief at the checkout or the fuel pump.</p><p>The opposition&#x27;s counter-argument is that declining confidence is itself the news. Even if the headline rate has moved lower, prices in Belgium remain elevated in absolute terms, and families are not feeling the benefit of official stabilization narratives. The mood among consumers, according to Reuters reporting on sentiment data, is less one of anger than of exhaustion: people are cutting back on discretionary spending, skeptical of upbeat political messaging, and not yet seeing a credible reason for optimism.</p><h3>Two Crises, One Larger Question About Institutional Trust</h3><p>Taken separately, Belgium&#x27;s wildfire emergency and its inflation fatigue are significant domestic stories. Taken together, they speak to a broader European challenge. Both episodes place citizens in the position of being asked to trust institutions — to believe that government will protect them from accelerating climate risk and from prolonged economic pressure — at a moment when the evidence for that trust is thin.</p><p>Belgium&#x27;s situation carries relevance beyond its borders. As a mid-sized euro-area economy and host to major EU institutions, Belgian consumer sentiment functions as a useful barometer for broader household mood across the bloc. If inflation continues to weigh on families in Belgium despite repeated signals of stabilization, that dynamic is likely replicated in other member states, feeding into the wider concern about sluggish euro-area domestic demand and growth.</p><p>The wildfire episode similarly resonates at the EU level. The need for cross-border aerial firefighting support illustrates that individual member states — including relatively wealthy ones — may be underequipped to manage the scale of climate-driven disasters now arriving with greater frequency. European Commission officials have pushed for stronger collective climate-resilience frameworks, but the pace of national adaptation has consistently lagged behind the accelerating risk profile. Belgium&#x27;s fire season, once considered a marginal concern, now looks like a front-line issue. The coming months will test whether the government&#x27;s promised action plan moves from announcement to implementation, and whether economic data can shift enough before the end of the year to give households a genuine reason to spend again.</p>",
+      "keywords": "Belgium, wildfire, civil protection, climate resilience, consumer confidence, inflation, Eurostat, euro area, EU climate policy, household finances, emergency response, cost of living, Belgium economy, extreme weather, European Union",
+      "sources": "Eurostat inflation data for Belgium, mid-August 2026 reading; National Bank of Belgium consumer-confidence series; Reuters report on Belgian consumer sentiment decline; European Union Civil Protection Mechanism deployment records; Belgian federal government statement on national wildfire action plan",
+      "pubDate": "2026-08-26",
+      "chartData": {
+        "values": [
+          3.3,
+          3.5,
+          3.6
+        ],
+        "labels": [
+          "Belgium Inflation Early 2026 Est.",
+          "Belgium Inflation Mid-2026 Est.",
+          "Belgium Inflation Aug 2026"
+        ]
+      }
+    },
     {
       "id": "article-13728bd",
       "title": "France Faces Twin Pressures of Fiscal Strain and Rising Unemployment Ahead of 2027 Election",
@@ -13519,6 +13543,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260826-belgium",
+      "title": "Belgium Tests Europe's Limits: Wildfire Crisis and Stubborn Inflation Strain… · 26 Aug",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "8:49",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Belgium_Episode_2026_08_26.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 199,
+      "keywords": "Belgium, wildfire, civil protection, climate resilience, consumer confidence, inflation, Eurostat, euro area, EU climate policy, household finances, emergency response, cost of living, Belgium economy, extreme weather, European Union",
+      "notes": "Belgium's largest recorded wildfire has exposed significant gaps in the country's civil protection and climate-resilience infrastructure, forcing the government to promise a national action plan after emergency services required Dutch helicopters and EU aircraft to contain the blaze. Meanwhile, Belgian households are growing more cautious as inflation remains elevated at 3.6 percent, well above levels that would signal a genuine end to the cost-of-living squeeze. Together, the two crises present a pointed test of whether European governments can maintain citizen trust on both physical security and economic stability. The answer, for now, appears uncertain.",
+      "pubDate": "2026-08-26",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Belgium_Episode_2026_08_26.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Belgium_Short_2026_08_26.mp4"
+    },
     {
       "id": "episode-20260826-france",
       "title": "France Faces Twin Pressures of Fiscal Strain and Rising Unemployment Ahead of… · 26 Aug",
