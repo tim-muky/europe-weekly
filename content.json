@@ -1,5 +1,5 @@
 {
-  "version": 1787634553467,
+  "version": 1787720535200,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-797b5c7",
+      "title": "Germany's Fragile Recovery Tests Merz's Pro-Growth Agenda",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "excerpt": "Germany's economy grew 0.3% in the second quarter of 2026, lifting business and investor sentiment and prompting the government to argue that a durable recovery is underway. But critics warn that modest growth, persistent inflation, and deep structural weaknesses mean the country is not yet out of the woods. Chancellor Friedrich Merz is pressing ahead with a reform agenda aimed at restoring competitiveness, even as opponents question whether ordinary Germans will feel the benefits soon enough.",
+      "body": "<h3>A Tentative Upturn Breaks Two Years of Stagnation</h3><p>For the first time in several quarters, Germany&#x27;s headline economic data are pointing in the same direction. Gross domestic product expanded by 0.3% in the second quarter of 2026, a modest but symbolically important figure for an economy that has spent much of the past two years flirting with recession. The Ifo Institute&#x27;s business climate index climbed to 88.8 in August, while the ZEW survey of financial analysts also registered stronger expectations, suggesting that both corporate managers and market participants see a degree of stabilization ahead.</p><p>German government officials have been quick to frame the numbers as evidence that policy is working. Finance ministry representatives said the data confirm that the foundations for a sustained recovery are being laid, pointing to the combination of improved sentiment, stable employment, and easing supply-chain pressures as signs of genuine momentum. For ordinary German households, the stakes are immediate: wages, job security, mortgage affordability, and day-to-day prices all track closely with the broader economic cycle.</p><p>Yet the optimism is heavily qualified. Inflation remained at 2.8% in July, still above the European Central Bank&#x27;s 2% target, keeping pressure on household budgets and limiting the ECB&#x27;s room to ease monetary policy aggressively. Analysts at several research institutes cautioned that the data support the word &quot;improving&quot; far more clearly than the word &quot;recovered,&quot; and that high energy costs, weak external demand, and persistent structural bottlenecks have not disappeared.</p><h3>Merz Pushes Reform Agenda Amid Political Resistance</h3><p>Against this backdrop of cautious optimism, Chancellor Friedrich Merz is advancing what his government describes as a comprehensive pro-growth reform package. The programme includes tax relief targeted at middle-income households, more flexible labour market rules, adjustments to the pension system, and a broad push to cut administrative red tape for businesses. Government officials argued that Germany&#x27;s trend growth rate has been declining for years and that without structural reform, even a cyclical upturn will fade.</p><p>The political arithmetic, however, is complicated. Opposition parties and trade unions have pushed back sharply, arguing that the reform drive risks transferring costs onto workers and retirees while delivering benefits primarily to corporations and higher earners. With inflation still above target and public finances constrained by Germany&#x27;s constitutional debt brake, critics said that households are in no position to absorb additional adjustment burdens in the near term. Some economists also noted that business-friendly deregulation tends to improve competitiveness over a horizon of years, not months, leaving a meaningful gap between the promise of reform and its tangible effects on living standards.</p><p>The debate carries implications well beyond Germany&#x27;s borders. As the eurozone&#x27;s largest economy, Germany&#x27;s domestic demand outlook shapes export conditions and investment flows across the single market. A credible German recovery, underpinned by structural reform, could provide a meaningful growth impulse to partners in central and eastern Europe that depend heavily on German supply chains. Conversely, a politically contested reform agenda that stalls in parliament or triggers social unrest could deepen existing EU-level divisions over fiscal discipline and social protection.</p><h3>Outlook: Reform Credibility Will Determine Whether Upturn Lasts</h3><p>The central question for the months ahead is whether the current uptick represents a genuine turning point or a temporary bounce before deeper structural problems reassert themselves. Most independent forecasters sit somewhere between the government&#x27;s optimism and the opposition&#x27;s scepticism, projecting continued but unspectacular growth through the rest of 2026, conditional on stable global trade conditions and a gradual easing of financing costs.</p><p>The Merz government faces a series of near-term tests. Key reform bills are expected to move through the Bundestag before the end of the year, and their passage or failure will signal how much political capital the chancellor retains following a narrow election victory. Labour market data for the autumn will be watched closely for signs that business confidence is translating into hiring decisions rather than simply into improved survey scores.</p><p>For European partners and financial markets, the clearest indicator to watch will be whether Germany&#x27;s domestic demand picks up in the fourth quarter. A country that has acted as a drag on eurozone growth for the better part of two years returning to form as a net contributor would materially improve the European Commission&#x27;s 2027 growth projections and ease pressure on the ECB to maintain a restrictive stance. The mood across Germany, according to analysts and polling data, is best described as resigned with pockets of optimism: citizens broadly welcome a plan, but most are waiting for results in their paychecks and pension statements before concluding that the corner has genuinely been turned.</p>",
+      "keywords": "Germany, economy, GDP, recovery, Friedrich Merz, reform, inflation, Ifo index, ZEW, eurozone, labour market, fiscal policy, competitiveness, structural reform, European Union",
+      "sources": "Ifo Institute Business Climate Survey, August 2026; ZEW Indicator of Economic Sentiment, August 2026; German Federal Statistical Office, Q2 2026 GDP release; European Central Bank monetary policy communications; German Federal Finance Ministry statements",
+      "pubDate": "2026-08-26",
+      "chartData": {
+        "values": [
+          0.3,
+          2.8,
+          88.8
+        ],
+        "labels": [
+          "GDP Growth Q2 2026 (%)",
+          "Inflation July 2026 (%)",
+          "Ifo Business Climate Index (August 2026)"
+        ]
+      }
+    },
     {
       "id": "article-09e420c",
       "title": "Greece Faces Twin Test: Climate Shocks Strain Budgets as Debt Falls but Living Costs Bite",
@@ -13469,6 +13493,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260826-germany",
+      "title": "Germany's Fragile Recovery Tests Merz's Pro-Growth Agenda · 26 Aug",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "duration": "8:14",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Germany_Episode_2026_08_26.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 197,
+      "keywords": "Germany, economy, GDP, recovery, Friedrich Merz, reform, inflation, Ifo index, ZEW, eurozone, labour market, fiscal policy, competitiveness, structural reform, European Union",
+      "notes": "Germany's economy grew 0.3% in the second quarter of 2026, lifting business and investor sentiment and prompting the government to argue that a durable recovery is underway. But critics warn that modest growth, persistent inflation, and deep structural weaknesses mean the country is not yet out of the woods. Chancellor Friedrich Merz is pressing ahead with a reform agenda aimed at restoring competitiveness, even as opponents question whether ordinary Germans will feel the benefits soon enough.",
+      "pubDate": "2026-08-26",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Germany_Episode_2026_08_26.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Germany_Short_2026_08_26.mp4"
+    },
     {
       "id": "episode-20260825-greece",
       "title": "Greece Faces Twin Test: Climate Shocks Strain Budgets · 25 Aug",
