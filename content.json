@@ -1,5 +1,5 @@
 {
-  "version": 1787720798991,
+  "version": 1787720923826,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-24f4441",
+      "title": "Dutch Government Faces Growing Pressure Over Defence Costs and Household Squeeze",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "excerpt": "The Netherlands is grappling with a deepening fiscal dilemma as the cabinet pushes to raise defence spending toward 3.5% of GDP by 2035, even as households continue to feel the strain of elevated inflation. Critics say the government has yet to identify a credible funding path for its security ambitions, raising the prospect of hard trade-offs in the 2027 budget cycle. The outcome will matter beyond Dutch borders, as the Netherlands is widely watched as a test case for how European states fund defence without losing public consent.",
+      "body": "<h3>A Security Commitment Without a Financing Blueprint</h3><p>The Dutch cabinet has staked out an ambitious target: defence expenditure equivalent to 3.5% of gross domestic product by 2035, well above the current NATO benchmark of 2% and among the most aggressive pledges made by any Western European government. Ministers argue the strategic rationale is clear. Europe&#x27;s security environment has deteriorated, NATO commitments must carry credibility, and the cost of delayed investment is higher than the cost of acting now.</p><p>That argument has found a sympathetic audience among some security analysts and within the NATO alliance, which has been pressing member states for years to close the gap between political pledges and actual military capability. From the government&#x27;s perspective, this is not a choice but a necessity shaped by forces beyond the Netherlands&#x27; control.</p><p>Yet the financing model underpinning that ambition is already encountering resistance from financial institutions, and the plan has not yet produced a fully credible answer to the basic question of where the money will come from. That gap between strategic intent and fiscal reality is emerging as one of the most consequential political fault lines in The Hague.</p><h3>Critics Warn of Crowding Out as Budget Pressures Mount</h3><p>Opposition parties and independent fiscal voices are not disputing the need for stronger defence, but they are disputing the honesty of the current plan. Their argument is that announcing a spending target is politically straightforward, while specifying the offset, whether through borrowing, tax rises, or cuts elsewhere, is where the difficulty lies. Without that clarity, they argue, the defence pledge risks crowding out spending on housing construction, welfare programmes, and climate transition measures that also carry political and social weight.</p><p>The concern is compounded by the backdrop of the 2027 budget cycle, which the government must navigate while Dutch households are still absorbing elevated prices. Official data show inflation running at approximately 3.0% in July 2026, still above the European Central Bank&#x27;s target. De Nederlandsche Bank, the country&#x27;s central bank, projects full-year 2026 inflation at around 2.7%, with energy costs remaining a significant driver of that figure.</p><p>The government&#x27;s position is that the trend is moving in the right direction and that the Dutch economy remains more resilient than many of its European peers. That is broadly supported by the data. But critics point out that &quot;inflation is easing&quot; and &quot;prices are falling&quot; are not the same statement, and that the distinction matters greatly to households managing rent, food bills, and energy contracts month to month. Wages, in many sectors, have not kept full pace with cumulative price increases over the past two years.</p><h3>A Defining Test for European Fiscal Credibility</h3><p>The Dutch dilemma has a significance that extends beyond national politics. As one of the European Union&#x27;s more fiscally disciplined and economically influential member states, the Netherlands has historically been a voice for budgetary rigour in Brussels. The country&#x27;s approach to funding its own defence increase will be watched closely by EU partners navigating the same tension between security spending and social stability.</p><p>If the Netherlands proceeds without a transparent funding path and begins to show strain in its public finances or social services, it risks undermining the broader European argument that defence investment and fiscal responsibility can be pursued simultaneously. Conversely, if it finds a credible model, it could offer a template for others. Either way, the 2027 budget will serve as the first real test of whether the cabinet&#x27;s security ambitions are backed by economic substance.</p><p>The political atmosphere in the Netherlands is described by observers as tense and unsettled, though not in crisis. Coalition partners are yet to translate the public pressure over living costs and defence trade-offs into an open rupture, but the conditions for a wider dispute are present. The government will need to move from strategic declaration to concrete financing before the next budget round, or face the kind of credibility challenge that can reframe an entire political term.</p>",
+      "keywords": "Netherlands, defence spending, NATO, Dutch budget, inflation, fiscal policy, De Nederlandsche Bank, European defence, cost of living, 2027 budget, Dutch politics, coalition government, EU fiscal policy",
+      "sources": "De Nederlandsche Bank (DNB) 2026 inflation projections; Dutch government defence spending target (publicly stated cabinet position); NATO 2% GDP benchmark (NATO official communications); Research dossier on Dutch fiscal and political developments, July 2026",
+      "pubDate": "2026-08-26",
+      "chartData": {
+        "values": [
+          3.5,
+          2.7,
+          3.0
+        ],
+        "labels": [
+          "Defence Spending Target (% GDP by 2035)",
+          "DNB Projected Inflation 2026 (%)",
+          "Dutch Inflation July 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-f1c3e13",
       "title": "Belgium Tests Europe's Limits: Wildfire Crisis and Stubborn Inflation Strain Public Trust",
@@ -13543,6 +13567,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260826-netherlands",
+      "title": "Netherlands: Dutch Government Faces Growing Pressure Over Defence Costs and Household… · 26 Aug",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "duration": "8:13",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Netherlands_Episode_2026_08_26.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 200,
+      "keywords": "Netherlands, defence spending, NATO, Dutch budget, inflation, fiscal policy, De Nederlandsche Bank, European defence, cost of living, 2027 budget, Dutch politics, coalition government, EU fiscal policy",
+      "notes": "The Netherlands is grappling with a deepening fiscal dilemma as the cabinet pushes to raise defence spending toward 3.5% of GDP by 2035, even as households continue to feel the strain of elevated inflation. Critics say the government has yet to identify a credible funding path for its security ambitions, raising the prospect of hard trade-offs in the 2027 budget cycle. The outcome will matter beyond Dutch borders, as the Netherlands is widely watched as a test case for how European states fund defence without losing public consent.",
+      "pubDate": "2026-08-26",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Netherlands_Episode_2026_08_26.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_26/Netherlands_Short_2026_08_26.mp4"
+    },
     {
       "id": "episode-20260826-belgium",
       "title": "Belgium Tests Europe's Limits: Wildfire Crisis and Stubborn Inflation Strain… · 26 Aug",
