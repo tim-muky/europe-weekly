@@ -1,5 +1,5 @@
 {
-  "version": 1787806942498,
+  "version": 1787807064607,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a41f175",
+      "title": "Slovenia's Economy Surges but Public Broadcaster Crisis Exposes Institutional Fault Lines",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "excerpt": "Slovenia recorded unexpectedly strong economic growth of 5 percent in the second quarter of 2026, yet the country faces a parallel crisis over the funding and independence of its national public broadcaster, RTV Slovenia. The two developments together reveal a nation caught between headline success and underlying institutional strain. For citizens, the question is whether prosperity on paper translates into stability in both living costs and democratic governance.",
+      "body": "<h3>A GDP Surprise That Comes With an Asterisk</h3><p>Slovenia&#x27;s Statistical Office confirmed that the economy expanded 5 percent year-on-year in the second quarter of 2026, a result that the Bank of Slovenia acknowledged had exceeded its own expectations. The figure places Slovenia among the stronger performers in the eurozone for the period and offers the government a welcome data point after months of cautious forecasting.</p><p>Government officials have argued the result reflects the resilience of the Slovenian model, pointing to sustained domestic demand, rising investment, and solid trade performance as the drivers of growth. For a small, open economy of just over two million people, those numbers carry genuine weight and suggest that the post-pandemic recovery has found durable footing.</p><p>Yet the optimism is partial at best. The Bank of Slovenia projected overall inflation at 3.6 percent for 2026, while the Institute of Macroeconomic Analysis and Development reported July inflation at 2.9 percent, with energy prices remaining notably elevated. Critics and independent economists have pointed out that headline GDP growth does not automatically improve household balance sheets when the cost of services and utilities continues to outpace wage growth for many workers. The data supports a narrative of strong growth alongside only partial inflation relief, not the clean recovery story that official messaging sometimes implies.</p><h3>RTV Slovenia: A Funding Dispute Becomes a Political Battle</h3><p>Running concurrently with the economic debate is a sharper and more politically charged crisis at RTV Slovenia, the country&#x27;s public broadcaster. The institution is experiencing a documented cash-flow squeeze, and the government&#x27;s refusal to provide emergency short-term support has transformed what began as a financing problem into a broader confrontation over the independence of public media in Slovenia.</p><p>The government&#x27;s position is that fiscal constraints leave no room for an exceptional intervention and that RTV Slovenia must operate within its established funding framework rather than seek recurring state assistance. Officials have stopped short of proposing structural reforms that might address the underlying tension between the broadcaster&#x27;s obligations and its revenue base.</p><p>RTV leadership, journalists&#x27; associations, and opposition politicians have pushed back hard, arguing that the state is failing to honour its obligations under the broadcaster&#x27;s existing funding model. They have stopped short of claiming outright sabotage, but the language used in public statements has been pointed: critics argue that allowing the liquidity crisis to deepen has the practical effect of pressuring editorial decisions, regardless of whether that pressure is intentional. Fact-checkers have confirmed the liquidity problem is real and documented, but have found no evidence to support the stronger accusation that the government is deliberately engineering the broadcaster&#x27;s collapse. What is clear is that institutional trust is deteriorating, and the dispute has taken on a life beyond the balance sheet.</p><h3>A Stress Test for Slovenia&#x27;s Democratic Institutions</h3><p>Taken together, the GDP result and the RTV Slovenia crisis present a portrait of a country that is economically resilient but institutionally under pressure. For the European Union, Slovenia offers a useful, if uncomfortable, case study: economic strength and political tension can coexist, and growth figures alone do not guarantee that democratic norms and public institutions are in good health.</p><p>The RTV dispute is unlikely to resolve quickly. Without a negotiated solution between the government and the broadcaster that addresses the structural funding gap, the liquidity crisis will continue to generate political heat and risk practical disruption to programming and staffing. Slovenian journalists&#x27; groups have signalled they are prepared to escalate their response if the situation is not addressed, and opposition parties have indicated they will use the issue aggressively ahead of any forthcoming electoral or parliamentary moment.</p><p>On the economic side, the trajectory for the remainder of 2026 will depend heavily on whether inflation continues to ease toward the Bank of Slovenia&#x27;s projections. If energy prices stabilise and services inflation moderates, the growth numbers could begin to feel tangible to households by the end of the year. If price pressures persist, the government&#x27;s strong GDP headline risks becoming a political liability rather than an asset. For now, Slovenia enters the second half of 2026 stronger on paper than it feels on the ground, with two very different battles — one over budgets, one over editorial independence — defining the political mood.</p>",
+      "keywords": "Slovenia, RTV Slovenia, public broadcasting, media independence, GDP growth, inflation, Bank of Slovenia, IMAD, Slovenian economy, eurozone, fiscal policy, Q2 2026, institutional crisis, public media funding",
+      "sources": "Slovenia Statistical Office, Q2 2026 GDP release; Bank of Slovenia, macroeconomic projections 2026; Institute of Macroeconomic Analysis and Development (IMAD), July 2026 inflation report; RTV Slovenia public statements and government responses on broadcaster funding crisis",
+      "pubDate": "2026-08-27",
+      "chartData": {
+        "values": [
+          5.0,
+          3.6,
+          2.9
+        ],
+        "labels": [
+          "Q2 2026 GDP Growth (%)",
+          "Bank of Slovenia Inflation Forecast 2026 (%)",
+          "IMAD July 2026 Inflation (%)"
+        ]
+      }
+    },
     {
       "id": "article-7572237",
       "title": "Bulgaria's Budget Gamble: Record Borrowing Meets Stubborn Inflation in a Test of Fiscal Credibility",
@@ -13593,6 +13617,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260827-slovenia",
+      "title": "Slovenia's Economy Surges but Public Broadcaster Crisis Exposes Institutional… · 27 Aug",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "duration": "8:03",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Slovenia_Episode_2026_08_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 202,
+      "keywords": "Slovenia, RTV Slovenia, public broadcasting, media independence, GDP growth, inflation, Bank of Slovenia, IMAD, Slovenian economy, eurozone, fiscal policy, Q2 2026, institutional crisis, public media funding",
+      "notes": "Slovenia recorded unexpectedly strong economic growth of 5 percent in the second quarter of 2026, yet the country faces a parallel crisis over the funding and independence of its national public broadcaster, RTV Slovenia. The two developments together reveal a nation caught between headline success and underlying institutional strain. For citizens, the question is whether prosperity on paper translates into stability in both living costs and democratic governance.",
+      "pubDate": "2026-08-27",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Slovenia_Episode_2026_08_27.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Slovenia_Short_2026_08_27.mp4"
+    },
     {
       "id": "episode-20260827-bulgaria",
       "title": "Bulgaria's Budget Gamble: Record Borrowing Meets Stubborn Inflation in a Test… · 27 Aug",
