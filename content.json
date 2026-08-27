@@ -1,5 +1,5 @@
 {
-  "version": 1787720923826,
+  "version": 1787806942498,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7572237",
+      "title": "Bulgaria's Budget Gamble: Record Borrowing Meets Stubborn Inflation in a Test of Fiscal Credibility",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "excerpt": "Bulgaria's parliament has approved a 2026 budget with a 5.7% deficit and up to 10.1 billion euros in new borrowing, triggering a fierce domestic political debate about fiscal discipline and the cost of living. The move comes as the European Commission has already flagged Sofia over excessive-deficit concerns, raising questions about the country's credibility on its path toward euro-area membership. Solid GDP growth of 2.7% in the second quarter of 2026 offers some reassurance, but persistent inflation and weak export performance mean the headline figures tell only part of the story for ordinary Bulgarians.",
+      "body": "<h3>A Budget Unlike Any Before It</h3><p>Bulgaria&#x27;s National Assembly approved the country&#x27;s 2026 budget package earlier this year, setting a deficit target of 5.7% of gross domestic product and authorising the government to raise up to 10.1 billion euros in fresh debt. By Bulgarian standards, both figures are extraordinary. Public debt, while still moderate relative to the European Union average, is now projected to reach 30.1% of GDP, a level that would have been considered alarmingly high by Sofia&#x27;s historically conservative fiscal standards just a few years ago.</p><p>The government has argued that the borrowing is necessary to fulfil social commitments, sustain state operations, and fund growing defence-related expenditure, including through the EU&#x27;s SAFE instrument designed to support collective security financing. Prime Minister&#x27;s officials have described the package as a responsible financing plan for a period of heightened geopolitical and economic uncertainty, rather than a departure from fiscal prudence.</p><p>That framing has not convinced the opposition. Critics have argued that the budget represents a dangerous loosening of fiscal discipline, one that risks entrenching higher debt levels, undermining confidence in public finances, and leaving future governments with less room to manoeuvre. The political temperature around the budget has been amplified by the fact that the European Commission had already opened an excessive-deficit procedure against Bulgaria earlier in the year, lending weight to the opposition&#x27;s warnings that Brussels is watching Sofia&#x27;s fiscal trajectory with growing unease.</p><h3>Growth Is Real, but the Shopping Basket Tells a Different Story</h3><p>Against the backdrop of fiscal turbulence, Bulgaria&#x27;s macroeconomic data for the second quarter of 2026 offered a more encouraging headline. The economy expanded by 2.7% year on year, with quarter-on-quarter growth of 0.6%, according to national statistics. Government officials were quick to cite the figures as evidence of resilience and of a domestic economy that continues to move forward despite external headwinds.</p><p>The detail beneath the headline, however, is less comfortable. Growth has been driven predominantly by private consumption rather than by exports or investment, a pattern that economists typically associate with demand-led expansion rather than productivity gains. Imports have outpaced exports, meaning the trade balance has not improved in a way that would point to a more competitive or structurally balanced economy. For the government&#x27;s critics, this distinction matters enormously: consumption-led growth can sustain activity in the short term, but it does not automatically generate better wages, stronger industries, or greater economic security.</p><p>On prices, the picture is equally mixed. Annual inflation stood at 3.3% in February 2026, according to data from Bulgaria&#x27;s National Statistical Institute. That figure is lower than the peaks recorded in recent years, and officials have pointed to declining inflation as a sign that the worst of the cost-of-living pressure is easing. Independent analysts and opposition politicians, however, argue that 3.3% annual inflation is not low enough to relieve household budgets that have been under sustained pressure for several years. The government&#x27;s own willingness to intervene in price dynamics, including signalling action against what officials described as unjustified price increases, suggests that Sofia itself recognises the political potency of the inflation issue, whatever the official narrative may say.</p><h3>What Comes Next, and Why It Matters Beyond Sofia</h3><p>The immediate challenge for the Bulgarian government is managing two parallel credibility tests at once. The first is domestic: persuading citizens who are frustrated by prices and sceptical of elite promises that a high-borrowing budget will ultimately deliver tangible benefits rather than simply loading future costs onto households. Public mood, by most indicators, can be characterised as anxious and resigned, with flashes of sharper anger when price and wage debates intensify. That is not a comfortable political environment in which to defend an expansionary fiscal stance.</p><p>The second test is European. Bulgaria remains on a formal path toward euro-area accession, a process that requires demonstrating sustained fiscal and economic convergence with the bloc&#x27;s standards. An excessive-deficit procedure running alongside a 5.7% deficit target creates an obvious tension with that ambition. EU officials and markets will be watching whether Sofia moves to credibly consolidate its public finances over the coming budget cycles, or whether the 2026 package sets a precedent for continued expansion. The government&#x27;s use of EU defence financing instruments like SAFE may provide some political cover, given that defence spending is now treated with greater flexibility across the bloc, but it is unlikely to fully neutralise Commission concerns.</p><p>For the wider European Union, Bulgaria&#x27;s situation is a compressed version of dilemmas being played out in several member states simultaneously: how to reconcile defence spending obligations, social commitments, recovery-fund conditionality, and fiscal rules that were designed for a different era. If Sofia manages the combination successfully, it will have demonstrated that a smaller, lower-income member state can navigate those pressures without losing market confidence or derailing its convergence path. If it cannot, the consequences will extend well beyond the country&#x27;s borders, offering a cautionary example to Brussels at a moment when fiscal credibility across the bloc is already being tested.</p>",
+      "keywords": "Bulgaria, budget 2026, fiscal deficit, public debt, GDP growth, inflation, European Commission, euro accession, SAFE instrument, cost of living, excessive deficit procedure, Bulgarian economy",
+      "sources": "Bulgarian National Assembly budget documentation, 2026; European Commission excessive-deficit procedure reporting; Reuters coverage of Bulgaria fiscal developments; Bulgarian National Statistical Institute inflation data, February 2026; Bulgarian National Statistical Institute GDP data, Q2 2026",
+      "pubDate": "2026-08-27",
+      "chartData": {
+        "values": [
+          5.7,
+          30.1,
+          2.7,
+          3.3
+        ],
+        "labels": [
+          "Deficit % of GDP",
+          "Public Debt % of GDP",
+          "GDP Growth YoY %",
+          "Annual Inflation %"
+        ]
+      }
+    },
     {
       "id": "article-24f4441",
       "title": "Dutch Government Faces Growing Pressure Over Defence Costs and Household Squeeze",
@@ -13567,6 +13593,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260827-bulgaria",
+      "title": "Bulgaria's Budget Gamble: Record Borrowing Meets Stubborn Inflation in a Test… · 27 Aug",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "duration": "8:32",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Bulgaria_Episode_2026_08_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 201,
+      "keywords": "Bulgaria, budget 2026, fiscal deficit, public debt, GDP growth, inflation, European Commission, euro accession, SAFE instrument, cost of living, excessive deficit procedure, Bulgarian economy",
+      "notes": "Bulgaria's parliament has approved a 2026 budget with a 5.7% deficit and up to 10.1 billion euros in new borrowing, triggering a fierce domestic political debate about fiscal discipline and the cost of living. The move comes as the European Commission has already flagged Sofia over excessive-deficit concerns, raising questions about the country's credibility on its path toward euro-area membership. Solid GDP growth of 2.7% in the second quarter of 2026 offers some reassurance, but persistent inflation and weak export performance mean the headline figures tell only part of the story for ordinary Bulgarians.",
+      "pubDate": "2026-08-27",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Bulgaria_Episode_2026_08_27.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Bulgaria_Short_2026_08_27.mp4"
+    },
     {
       "id": "episode-20260826-netherlands",
       "title": "Netherlands: Dutch Government Faces Growing Pressure Over Defence Costs and Household… · 26 Aug",
