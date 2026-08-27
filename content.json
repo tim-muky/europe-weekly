@@ -1,5 +1,5 @@
 {
-  "version": 1787807188928,
+  "version": 1787807316875,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-aebf8ad",
+      "title": "Croatia's Cost-of-Living Squeeze: Fuel Caps and Falling Inflation Figures Mask a Deeper Affordability Crisis",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "excerpt": "Croatia's government has repeatedly intervened to cap retail fuel prices while pointing to easing inflation data as evidence of economic stabilisation. But critics argue that weekly price resets and declining annual rates obscure a more uncomfortable truth: that households are not yet feeling meaningful relief. The gap between official optimism and lived experience is becoming a defining political fault line in Zagreb.",
+      "body": "<h3>A State That Cannot Stop Adjusting the Pump</h3><p>Every few days this August, Croatia&#x27;s government issued a fresh set of official maximum prices for petrol, diesel, blue diesel, and LPG. Petrol was pegged at around 1.56 euros per litre in one adjustment round, with diesel at approximately 1.71 euros, before further revisions followed later in the month. The frequency alone tells a story: this is not a one-off emergency measure but a standing intervention regime, now so embedded in energy policy that retailers and distributors have come to depend on weekly guidance from Zagreb rather than signals from the market.</p><p>The government&#x27;s stated rationale is straightforward. Temporary price regulation, officials argue, shields households, farmers, and transport operators from the volatility of international oil markets and imported energy shocks. In a country where fuel costs feed directly into food transport, agricultural inputs, and tourism logistics, the political logic is hard to dismiss. Protecting consumers from sudden spikes is a defensible goal, particularly for a government that must balance eurozone membership constraints with domestic affordability pressures.</p><p>Opposition politicians and market analysts offer a sharper critique. Repeated intervention, they argue, is a mechanism for managing headlines rather than the energy market itself. Weekly price resets create uncertainty for distributors and investors, while doing nothing to address the structural factors that make Croatia vulnerable to external energy shocks in the first place. The stopgap, critics say, has quietly become the policy.</p><h3>Inflation Is Falling. Prices Are Not.</h3><p>The macroeconomic data offers the government a more comfortable narrative on the broader inflation front. According to Eurostat, Croatia&#x27;s annual HICP inflation rate stood at 3.6 percent in August, down from 4.2 percent in July and 4.9 percent in June. That is a meaningful and consistent deceleration over a three-month period, and the government has not been shy about citing it as evidence that its economic management is working. The direction of travel is clearly downward.</p><p>Yet the distinction between falling inflation and falling prices is one that official communications have tended to blur. A lower annual inflation rate means prices are rising more slowly than they were before, not that they have returned to earlier levels. Households that absorbed months of elevated costs on fuel, services, and food are still living with a higher price level, even as the rate at which that level climbs begins to slow. Croatia&#x27;s inflation, while easing, also remains above the euro-area average, which limits the scope for unqualified optimism.</p><p>Tourism data adds another layer of complexity. Revenue from the sector has continued to grow, but reporting suggests the gains have come primarily from higher prices per visitor rather than from a significant increase in visitor numbers. That pattern, if it holds, points to an economy generating income through pricing power rather than through volume growth, a distinction that matters for workers and small businesses that do not capture the upside of tourism windfalls. The macro picture is improving on paper, but the lived reality for many Croatians remains one of persistent, if slowly easing, financial pressure.</p><h3>A Wider European Dilemma Playing Out in Zagreb</h3><p>Croatia&#x27;s predicament is not unique. Across the European Union, governments have wrestled with the same fundamental tension: how to cushion households from inflation and energy volatility without permanently distorting price signals, discouraging investment, or creating fiscal liabilities that outlast the crisis they were designed to address. Croatia&#x27;s fuel cap regime is a local expression of a continent-wide policy debate that has also played out in France, Spain, and Hungary, each with different instruments and different political consequences.</p><p>What makes Croatia&#x27;s case instructive is the combination of factors converging at once. Eurozone membership removes the option of exchange-rate adjustment, making direct price intervention more tempting as a substitute tool. A tourism-heavy economy means that seasonal revenue surges can mask underlying affordability weaknesses. And a population that has only recently adjusted to euro-denominated prices is acutely sensitive to any perception that the common currency has made everyday life more expensive, regardless of what the headline inflation index shows.</p><p>The immediate question facing Zagreb is whether the fuel cap framework can be wound down without triggering a visible price shock, and whether the current inflation trajectory will continue downward fast enough to ease household budgets before political patience runs out. With inflation still above the euro-area average and no structural reform of energy market exposure in sight, the risk is that Croatia remains locked in a cycle of short-term interventions that defer rather than resolve the underlying vulnerabilities. The next set of price adjustments, whenever they come, will be watched not just at the petrol station but in Brussels and in the bond market too.</p>",
+      "keywords": "Croatia, inflation, fuel prices, cost of living, price caps, Eurostat, HICP, energy policy, eurozone, EU economics, household budgets, tourism, market intervention",
+      "sources": "Eurostat HICP inflation data for Croatia, August 2024; Croatian government official maximum retail fuel price announcements, August 2024; European Commission energy market monitoring reports",
+      "pubDate": "2026-08-27",
+      "chartData": {
+        "values": [
+          4.9,
+          4.2,
+          3.6
+        ],
+        "labels": [
+          "June",
+          "July",
+          "August"
+        ]
+      }
+    },
     {
       "id": "article-ffaeadc",
       "title": "Romania's Twin Crisis: Fiscal Instability and Stubborn Inflation Squeeze Europe's Eastern Flank",
@@ -13643,6 +13667,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260827-croatia",
+      "title": "Croatia's Cost-of-Living Squeeze: Fuel Caps and Falling Inflation Figures… · 27 Aug",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "duration": "8:06",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Croatia_Episode_2026_08_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 204,
+      "keywords": "Croatia, inflation, fuel prices, cost of living, price caps, Eurostat, HICP, energy policy, eurozone, EU economics, household budgets, tourism, market intervention",
+      "notes": "Croatia's government has repeatedly intervened to cap retail fuel prices while pointing to easing inflation data as evidence of economic stabilisation. But critics argue that weekly price resets and declining annual rates obscure a more uncomfortable truth: that households are not yet feeling meaningful relief. The gap between official optimism and lived experience is becoming a defining political fault line in Zagreb.",
+      "pubDate": "2026-08-27",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Croatia_Episode_2026_08_27.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_27/Croatia_Short_2026_08_27.mp4"
+    },
     {
       "id": "episode-20260827-romania",
       "title": "Romania's Twin Crisis: Fiscal Instability and Stubborn Inflation Squeeze… · 27 Aug",
