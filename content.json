@@ -1,5 +1,5 @@
 {
-  "version": 1787807316875,
+  "version": 1787893334613,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-1bfe131",
+      "title": "Czechia Tears Up Its Fiscal Rulebook, Triggering a Battle Over the Country's Economic Future",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "excerpt": "Czech lawmakers have overridden a presidential veto to pass legislation loosening the country's budget rules, clearing the way for larger state deficits and debt-financed investment in infrastructure, energy, and defence. The move has split the political establishment and drawn sharp criticism from President Petr Pavel, who warned that the changes threaten long-term fiscal sustainability. The debate places Czechia at the centre of a wider European argument over whether governments can responsibly loosen fiscal constraints to fund growth without eroding hard-won credibility.",
+      "body": "<h3>Parliament Forces Through a Loosening of Budget Constraints</h3><p>In a move that has sharpened the fault lines of Czech politics, parliament voted to override a presidential veto and enact legislation that relaxes the country&#x27;s fiscal rules. The new law widens the permissible deficit and exempts a range of selected investment projects from standard deficit calculations, making it structurally easier for the state to borrow and spend at levels previously constrained by statute.</p><p>President Petr Pavel had blocked the bill, arguing it sets a dangerous precedent and compromises the long-term sustainability of public finances. His veto, ultimately unsuccessful, reflected a broader alarm among fiscal conservatives that the changes open a door that will be difficult to close. Opposition politicians echoed those concerns, framing the parliamentary override as an act of institutional bad faith that weakens the checks designed to keep public debt in check.</p><p>For the governing coalition, the calculus is different. Ministers argue that existing rules had become an obstacle to delivering on programme commitments that require substantial upfront capital, including road and rail upgrades, energy transition investments, nuclear power development, and rising defence expenditure. Without a loosened framework, they contend, politically and economically necessary projects would face indefinite delays.</p><h3>A Deliberate Shift Toward Debt-Financed Investment</h3><p>Beneath the parliamentary drama lies a more fundamental strategic choice: the Czech government is consciously pivoting toward a model in which borrowing finances long-term investment rather than being treated as a measure of last resort. This is not an emergency response to a specific economic shock but a declared policy direction, and it represents a significant philosophical departure from the fiscal conservatism that characterised Czech economic management for much of the post-accession period.</p><p>Proponents within the cabinet argue the approach is rational and well-targeted. They point out that inflation, while elevated in recent years, is returning toward manageable levels. According to the Czech National Bank&#x27;s Summer 2026 forecast, inflation is projected at 2.0 percent for the year, with the August reading coming in at 1.9 percent, close to the central bank&#x27;s target. That data, the government suggests, undermines the most alarmist warnings and creates space for strategic borrowing without stoking a renewed price spiral.</p><p>Critics are not persuaded. The risk they identify is not immediate inflation but structural: higher debt servicing costs over time, reduced budgetary flexibility in future downturns, and the political difficulty of reversing permissive fiscal settings once they become entrenched. Opponents argue the government is, in effect, shifting today&#x27;s costs onto future taxpayers and future administrations, with no guarantee that the investments themselves will generate sufficient returns to justify the borrowing.</p><h3>What It Means for Households, Markets, and the EU</h3><p>The practical consequences for Czech citizens are real, if not immediately visible. Mortgage rates and the cost of consumer credit are sensitive to sovereign borrowing conditions. If markets begin to price in a sustained increase in Czech debt issuance, the knock-on effect on household borrowing costs could partially offset any gains from improved infrastructure or public services. At the same time, if the investment delivers, citizens could see measurable improvements in transport connectivity, energy security, and the quality of state-provided services over the medium term.</p><p>The political atmosphere surrounding the debate is notably strained. Institutional trust has taken a knock from the override of the presidential veto, and the episode has deepened a sense among some observers that Czech fiscal governance is entering a more permissive era, one that may be difficult to exit cleanly. The tone in parliament and in public commentary has been confrontational, with both sides accusing the other of misrepresenting the trade-offs involved.</p><p>For the European Union, Czechia&#x27;s choices carry wider resonance. Prague is not alone in wrestling with how to reconcile fiscal credibility with the demands of the green transition, defence spending, and infrastructure modernisation. The reformed EU fiscal framework already attempts to balance these pressures, but member state behaviour will ultimately test its coherence. If Czechia is seen to be exploiting new flexibilities aggressively, it could embolden others and complicate the Commission&#x27;s ability to enforce meaningful discipline across the bloc. Conversely, if the investment proves productive and debt remains manageable, it could offer a template others choose to follow. The outcome of that test will take years to become clear, but the political decisions shaping it are being made now.</p>",
+      "keywords": "Czechia, Czech fiscal rules, Czech parliament, budget deficit, debt-financed investment, Petr Pavel, Czech National Bank, EU fiscal framework, infrastructure spending, defence spending, European fiscal policy, Czech politics, sovereign debt",
+      "sources": "Reuters, reporting on the parliamentary override and presidential veto of Czech fiscal legislation; Czech National Bank Summer 2026 Forecast, projecting inflation at 2.0 percent for 2026 and 1.9 percent in August",
+      "pubDate": "2026-08-28",
+      "chartData": {
+        "values": [
+          2.0,
+          1.9
+        ],
+        "labels": [
+          "CNB Inflation Forecast 2026",
+          "August 2026 Reading"
+        ]
+      }
+    },
     {
       "id": "article-aebf8ad",
       "title": "Croatia's Cost-of-Living Squeeze: Fuel Caps and Falling Inflation Figures Mask a Deeper Affordability Crisis",
@@ -13667,6 +13689,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260828-czechia",
+      "title": "Czechia Tears Up Its Fiscal Rulebook · 28 Aug",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "duration": "8:38",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Czechia_Episode_2026_08_28.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 205,
+      "keywords": "Czechia, Czech fiscal rules, Czech parliament, budget deficit, debt-financed investment, Petr Pavel, Czech National Bank, EU fiscal framework, infrastructure spending, defence spending, European fiscal policy, Czech politics, sovereign debt",
+      "notes": "Czech lawmakers have overridden a presidential veto to pass legislation loosening the country's budget rules, clearing the way for larger state deficits and debt-financed investment in infrastructure, energy, and defence. The move has split the political establishment and drawn sharp criticism from President Petr Pavel, who warned that the changes threaten long-term fiscal sustainability. The debate places Czechia at the centre of a wider European argument over whether governments can responsibly loosen fiscal constraints to fund growth without eroding hard-won credibility.",
+      "pubDate": "2026-08-28",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Czechia_Episode_2026_08_28.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Czechia_Short_2026_08_28.mp4"
+    },
     {
       "id": "episode-20260827-croatia",
       "title": "Croatia's Cost-of-Living Squeeze: Fuel Caps and Falling Inflation Figures… · 27 Aug",
