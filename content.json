@@ -1,5 +1,5 @@
 {
-  "version": 1787893464154,
+  "version": 1787893597803,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7ced51e",
+      "title": "Hungary Walks a Tightrope Between Fiscal Strain and Energy Fragility",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary is confronting twin pressures that expose the limits of its economic stabilization story: a near-shutdown at its only nuclear plant triggered by record-low Danube water levels, and a revised budget deficit target of 7.5 percent of GDP that is testing investor confidence in the new government's finances. Together, the two crises reveal a country attempting to manage a narrow path between physical infrastructure shocks and fiscal credibility. The coming months will determine whether Budapest can hold that line.",
+      "body": "<h3>A River Crisis Puts Hungary&#x27;s Only Nuclear Plant on the Edge</h3><p>Hungary&#x27;s Paks nuclear power plant, which provides roughly half of the country&#x27;s electricity, was pushed to the brink of a partial shutdown this summer after the Danube fell to record-low levels, threatening the river water supply required to cool its reactors. According to Reuters reporting, the plant operated at reduced capacity and required emergency engineering measures, including the deployment of barges to maintain sufficient water intake, before the risk of a full shutdown was averted.</p><p>The government has argued it acted decisively, pointing to the fact that no blackouts occurred and that the plant continued generating power throughout the episode. Officials stated that emergency protocols performed as designed, framing the outcome as evidence of operational resilience. Critics, however, have drawn the opposite conclusion: that a country which depends on a single aging nuclear facility fed by a single river has left itself dangerously exposed to the accelerating effects of climate change.</p><p>The opposition and independent energy analysts have argued that the crisis was not simply a natural shock but a foreseeable consequence of insufficient diversification. Hungary has made only limited investment in renewable energy relative to its European neighbours, leaving Paks bearing a disproportionate share of the national electricity load. The episode, they said, was a warning rather than a resolution, and that crisis management at the last minute is not a substitute for structural reform of the energy mix.</p><h3>A 7.5 Percent Deficit Target Strains Fiscal Credibility</h3><p>Simultaneously, Hungary&#x27;s new government is navigating a separate but connected credibility test in its public finances. The finance ministry has revised the country&#x27;s 2026 budget deficit target upward to 7.5 percent of GDP, a figure that sits far above the European Union&#x27;s 3 percent reference threshold and marks one of the largest shortfalls among EU member states. The revision was presented by officials as a realistic response to a deteriorating economic backdrop, citing the energy disruption, weaker growth forecasts, and the costs of managing infrastructure stress.</p><p>There are real signs of macroeconomic improvement elsewhere in the Hungarian economy. Eurostat data shows inflation has fallen sharply to 1.6 percent in the latest available reading, a dramatic retreat from the double-digit rates that squeezed households in 2022 and 2023. The Magyar Nemzeti Bank, Hungary&#x27;s central bank, has cut its base interest rate to 5.50 percent, reflecting growing confidence that the inflation emergency has passed. For ordinary Hungarians, the easing of price pressures represents tangible relief after years of cost-of-living strain.</p><p>But the disinflation story does not resolve the fiscal problem. Opposition parties have argued that a deficit above 7 percent, sustained after a period when austerity-adjacent measures were promised, signals that fiscal discipline is failing to take root. The concern extends beyond domestic politics: elevated deficits raise Hungary&#x27;s borrowing costs, reduce the government&#x27;s room to respond to future shocks, and complicate Budapest&#x27;s relationship with EU institutions at a time when access to cohesion funds already remains partially blocked over rule-of-law disputes.</p><h3>A Narrow Path With Little Margin for Error</h3><p>What makes Hungary&#x27;s situation particularly delicate is the interaction between these two pressures. An energy shock that forces output cuts at Paks affects industrial production, which in turn compresses tax revenues and widens the deficit. A wider deficit increases borrowing costs and limits the state&#x27;s capacity to invest in the infrastructure upgrades that could reduce energy vulnerability in the first place. The two crises are not parallel problems; they feed each other.</p><p>Markets and EU institutions will be watching closely over the coming months. The European Commission is expected to assess Hungary&#x27;s fiscal trajectory as part of the EU&#x27;s excess deficit procedure, and any further slippage in the 2026 target could trigger additional scrutiny or corrective measures. For foreign investors, the combination of a large deficit, energy supply uncertainty, and ongoing governance tensions creates a risk profile that demands a premium, making capital more expensive at precisely the moment Hungary needs investment in modernisation.</p><p>For citizens, the practical consequences are tangible even if the mechanisms are abstract. If borrowing costs rise, public services face harder constraints. If energy supply remains vulnerable to drought, industrial firms face disruption and households face potential price spikes in future periods of stress. The inflation relief of the past year could prove fragile if energy costs rebound. Hungary&#x27;s government has bought time with crisis management and revised targets, but the window for more durable solutions is narrowing as the next budget cycle and the next dry season both approach.</p>",
+      "keywords": "Hungary, Paks nuclear plant, Danube, energy security, budget deficit, fiscal policy, Magyar Nemzeti Bank, inflation, EU, climate resilience, energy diversification, European Commission",
+      "sources": "Reuters, reporting on Paks nuclear plant cooling crisis and Danube water levels; Eurostat, Hungarian inflation data; Magyar Nemzeti Bank, base rate decision and monetary policy communications; Hungarian finance ministry, 2026 budget deficit target revision; European Commission, excess deficit procedure documentation",
+      "pubDate": "2026-08-28",
+      "chartData": {
+        "values": [
+          50.0,
+          7.5,
+          1.6,
+          5.5
+        ],
+        "labels": [
+          "Paks Share of Electricity (%)",
+          "Budget Deficit Target (% GDP)",
+          "Inflation Rate (%)",
+          "MNB Base Rate (%)"
+        ]
+      }
+    },
     {
       "id": "article-3b4c7ba",
       "title": "Slovakia Weighs Tax Reversal as Households Endure Stubborn Inflation",
@@ -13711,6 +13737,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260828-hungary",
+      "title": "Hungary Walks a Tightrope Between Fiscal Strain and Energy Fragility · 28 Aug",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:51",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Hungary_Episode_2026_08_28.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 207,
+      "keywords": "Hungary, Paks nuclear plant, Danube, energy security, budget deficit, fiscal policy, Magyar Nemzeti Bank, inflation, EU, climate resilience, energy diversification, European Commission",
+      "notes": "Hungary is confronting twin pressures that expose the limits of its economic stabilization story: a near-shutdown at its only nuclear plant triggered by record-low Danube water levels, and a revised budget deficit target of 7.5 percent of GDP that is testing investor confidence in the new government's finances. Together, the two crises reveal a country attempting to manage a narrow path between physical infrastructure shocks and fiscal credibility. The coming months will determine whether Budapest can hold that line.",
+      "pubDate": "2026-08-28",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Hungary_Episode_2026_08_28.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Hungary_Short_2026_08_28.mp4"
+    },
     {
       "id": "episode-20260828-slovakia",
       "title": "Slovakia Weighs Tax Reversal as Households Endure Stubborn Inflation · 28 Aug",
