@@ -1,5 +1,5 @@
 {
-  "version": 1787893597803,
+  "version": 1787893731104,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-c7ee693",
+      "title": "Austria Caught Between Stagnation and Austerity as Coalition Battles Over Who Pays",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "excerpt": "Austria's economy flatlined in the second quarter of 2026 while inflation remains stubbornly elevated, squeezing households and exposing deep fault lines within the governing coalition. A clash over farm aid, tax policy, and budget discipline is testing the limits of fiscal restraint at a time when voters have little patience for further pain. The combined pressures place Austria among the clearest examples of a broader eurozone dilemma: how to protect citizens without breaking the rules that bind them.",
+      "body": "<h3>Growth Stalls as Price Pressures Refuse to Ease</h3><p>Austria&#x27;s economy delivered an uncomfortable verdict in the second quarter of 2026. According to data from WIFO, the Austrian Institute of Economic Research, real gross domestic product grew at 0.0 percent quarter-on-quarter and just 0.8 percent year-on-year, confirming that the country&#x27;s post-pandemic recovery has all but lost momentum. For a mid-sized open economy heavily reliant on industrial exports and tourism, stagnation at this stage of the cycle is more than a statistical footnote — it is a warning signal.</p><p>Making matters worse, inflation has not retreated fast enough to offset the growth shortfall. Austria&#x27;s official consumer price index showed inflation running at 2.8 percent in July 2026, according to national statistics. The Oesterreichische Nationalbank, Austria&#x27;s central bank, had forecast the full-year 2026 inflation rate between 2.7 and 3.2 percent depending on energy assumptions, a range that still sits uncomfortably above levels that would provide meaningful household relief. The upshot is that wages are rising in nominal terms but purchasing power remains under persistent pressure.</p><p>For ordinary Austrians, the arithmetic is straightforward and unwelcome. Mortgage repayments, rents, and food bills are absorbing a larger share of take-home pay than in the years before 2022. Consumer confidence has struggled to recover. Analysts describe the prevailing public mood as resigned rather than panicked — a population that has adjusted its expectations downward without quite accepting that the adjustment is permanent.</p><h3>Coalition Fractures Over Budget, Taxes, and Farm Aid</h3><p>Against that economic backdrop, Austria&#x27;s governing coalition is locked in a politically bruising argument about how to fund relief without breaking fiscal discipline. The immediate flashpoint is a drought aid package for farmers, who have faced mounting losses from increasingly severe summer dry spells linked to climate change. The government has framed the support as targeted and fiscally responsible, arguing that redirecting existing funds rather than adding new spending is the appropriate response when budget room is limited.</p><p>Critics are not persuaded. Opposition voices have pointed to visible tensions between the finance and economy ministries over tax policy as evidence that the coalition lacks a coherent strategy. A renewed debate over whether Austria should back an EU-level profit tax on large corporations has sharpened those internal divisions further, with ministers offering conflicting public signals. To opponents, the repeated resort to ad hoc packages reveals not responsible governance but structural vulnerability — a government improvising at the margins because it cannot agree on first principles.</p><p>The dispute carries implications well beyond farm subsidies. Households are pressing for broader cost-of-living relief, public sector unions are watching budget allocations closely, and businesses are seeking clarity on the tax environment before committing to investment. Each new emergency measure forces a renegotiation of internal coalition priorities, and the cumulative effect is a government that appears reactive rather than strategic. The term used most often by political observers in Vienna is chaotic — not in the sense of dysfunction, but of relentless, exhausting bargaining under pressure.</p><h3>A Narrowing Path and an EU Mirror</h3><p>The road ahead for Austria is constrained on multiple sides. Fiscal rules anchored in EU frameworks limit how far Vienna can expand borrowing to fund social cushioning or industrial support. Yet stagnant growth means tax revenues are not growing fast enough to create natural budgetary space, and the political cost of inaction — with voters already stretched — is rising. The government is expected to face further pressure in the autumn budget cycle, where competing demands from farmers, households, and public services will need to be reconciled under tight arithmetic.</p><p>On inflation, the OeNB&#x27;s own forecasts suggest that the path back to the European Central Bank&#x27;s 2 percent target will be slower and less linear than earlier projections assumed, particularly if energy markets remain volatile. That means the relief households are waiting for — the point at which real wages convincingly outpace prices — could be delayed further into 2027, complicating the political calculus for any party seeking to claim credit for an economic recovery.</p><p>Austria&#x27;s predicament is, in important respects, a compressed version of a wider European challenge. Across the eurozone, governments are navigating the same triangle: citizens who want protection from climate shocks and high costs, fiscal rules that cap the available response, and growth rates too weak to generate the revenue that might resolve the tension. How Vienna manages that triangle over the coming budget season will be watched in Brussels and in other capitals where the same pressures are building, quietly and without easy resolution.</p>",
+      "keywords": "Austria, economy, inflation, GDP, stagnation, coalition, budget, fiscal policy, farm aid, tax policy, eurozone, cost of living, OeNB, WIFO, European Union",
+      "sources": "WIFO, Austrian Institute of Economic Research, Q2 2026 GDP data; Oesterreichische Nationalbank (OeNB), 2026 inflation forecasts; Austrian national statistics office, CPI July 2026",
+      "pubDate": "2026-08-28",
+      "chartData": {
+        "values": [
+          0.0,
+          0.8,
+          2.8,
+          3.2
+        ],
+        "labels": [
+          "GDP QoQ Growth (%)",
+          "GDP YoY Growth (%)",
+          "CPI July 2026 (%)",
+          "OeNB Inflation Forecast High (%)"
+        ]
+      }
+    },
     {
       "id": "article-7ced51e",
       "title": "Hungary Walks a Tightrope Between Fiscal Strain and Energy Fragility",
@@ -13737,6 +13763,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260828-austria",
+      "title": "Austria Caught Between Stagnation and Austerity · 28 Aug",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "duration": "8:42",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Austria_Episode_2026_08_28.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 208,
+      "keywords": "Austria, economy, inflation, GDP, stagnation, coalition, budget, fiscal policy, farm aid, tax policy, eurozone, cost of living, OeNB, WIFO, European Union",
+      "notes": "Austria's economy flatlined in the second quarter of 2026 while inflation remains stubbornly elevated, squeezing households and exposing deep fault lines within the governing coalition. A clash over farm aid, tax policy, and budget discipline is testing the limits of fiscal restraint at a time when voters have little patience for further pain. The combined pressures place Austria among the clearest examples of a broader eurozone dilemma: how to protect citizens without breaking the rules that bind them.",
+      "pubDate": "2026-08-28",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Austria_Episode_2026_08_28.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Austria_Short_2026_08_28.mp4"
+    },
     {
       "id": "episode-20260828-hungary",
       "title": "Hungary Walks a Tightrope Between Fiscal Strain and Energy Fragility · 28 Aug",
