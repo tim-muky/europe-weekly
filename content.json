@@ -1,5 +1,5 @@
 {
-  "version": 1787893334613,
+  "version": 1787893464154,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3b4c7ba",
+      "title": "Slovakia Weighs Tax Reversal as Households Endure Stubborn Inflation",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "The Slovak government is signalling it may scrap its controversial transaction tax next year, reversing a measure that drew sharp criticism from the business community. The move comes as the country grapples with inflation that, while easing from earlier peaks, remains above the euro-area average and continues to squeeze household budgets. Together, the two developments present a defining test of the government's economic credibility heading into the next political cycle.",
+      "body": "<h3>A U-Turn on the Transaction Tax</h3><p>Bratislava is preparing what would amount to one of its most significant fiscal reversals in recent years. Government officials are signalling their intention to abolish the transaction tax, a levy on financial transactions that was introduced as a revenue-raising measure but quickly became a focal point for business discontent. If confirmed, the repeal would take effect next year, removing a charge that firms have argued distorts their cash flow and raises the day-to-day cost of doing business.</p><p>Proponents of scrapping the tax argue the case is straightforward. The levy creates friction for small and medium-sized enterprises in particular, raising transaction costs at every stage of business operations and, in the government&#x27;s framing, discouraging both domestic investment and foreign capital. Officials have described the potential abolition as a necessary correction and a signal that Slovakia is serious about remaining competitive within the single market.</p><p>The opposition has drawn a sharper conclusion. By moving to dismantle the tax, critics argue, the government is effectively admitting the measure was poorly designed from the outset. More pressing, they say, is the question of what replaces the lost revenue. No credible fiscal substitute has been publicly identified, leaving analysts to flag the risk that removal of the tax could widen the budget deficit at a moment when European fiscal rules are already imposing constraints on member states.</p><h3>Inflation Eases, but Relief Remains Elusive for Families</h3><p>Set against the transaction tax debate is a broader and more politically charged question: whether Slovak households are actually feeling any improvement in their living standards. Official data offers a mixed picture. Slovakia&#x27;s harmonised index of consumer prices registered an annual rate of 3.2 percent in July 2026, according to Eurostat, down from higher readings earlier in the year and representing a measurable retreat from the peaks that defined the post-pandemic price surge.</p><p>The government has leaned into that narrative, presenting the moderation as evidence that its policies are working and that the worst of the inflationary episode is behind the country. Yet that interpretation is contested by both the opposition and Slovakia&#x27;s own central bank. The National Bank of Slovakia projects that inflation will remain close to 4 percent across 2026 as a whole, with energy prices continuing to act as a persistent upward driver. On that reading, a single month of lower readings does not constitute broad relief for consumers whose budgets have been compressed for the better part of three years.</p><p>Eurozone comparisons compound the political difficulty. Slovakia&#x27;s inflation rate remains above the euro-area average, meaning Slovak households are experiencing a slower erosion of purchasing power than many of their counterparts but are still losing ground in real terms. For a government seeking to demonstrate that EU membership and euro-area integration translate into tangible gains, the gap with lower-inflation peers remains an inconvenient data point.</p><h3>Fiscal Risk and Political Mood Converge</h3><p>The two issues, while distinct in their mechanics, converge on a single political question: whether the Slovak government can manage the competing pressures of business competitiveness, household welfare, and fiscal discipline without sacrificing one for the other. The transaction tax decision, if it proceeds without a replacement revenue stream, would reduce the state&#x27;s fiscal space precisely when spending pressures from energy support measures and public sector wage expectations remain elevated.</p><p>The public mood reflects the complexity of the moment. Business owners and entrepreneurs are the most acutely frustrated constituency, directing anger at the transaction tax and at what many describe as an unpredictable regulatory environment. Among the broader population, the dominant sentiment appears closer to resignation. Consumers widely acknowledge that price growth has slowed, but the cumulative effect of years of above-target inflation means that the relief many expected has not materialised in grocery bills, utility payments, or rent. Wages in some sectors have risen, but unevenly, leaving lower-income households particularly exposed.</p><p>Looking ahead, the government faces a compressed timeline. Announcing the transaction tax repeal without a credible fiscal plan risks a confrontation with EU budgetary oversight mechanisms and could unsettle bond markets already attentive to fiscal trajectories in smaller eurozone economies. On inflation, the National Bank&#x27;s projection of a rate hovering near 4 percent through the end of 2026 suggests that meaningful household relief is unlikely before year-end, limiting the government&#x27;s room to claim an economic recovery story ahead of any forthcoming electoral test. Both files will demand answers that Bratislava has not yet fully provided.</p>",
+      "keywords": "Slovakia, transaction tax, inflation, fiscal policy, cost of living, eurozone, National Bank of Slovakia, Eurostat, SME, competitiveness, EU fiscal rules, household spending, central Europe",
+      "sources": "Eurostat, harmonised index of consumer prices, July 2026 and August 2026 estimate; National Bank of Slovakia, inflation projection for 2026",
+      "pubDate": "2026-08-28",
+      "chartData": {
+        "values": [
+          3.2,
+          4.0
+        ],
+        "labels": [
+          "Slovakia HICP July 2026 (Eurostat)",
+          "Slovakia Inflation Forecast Full-Year 2026 (NBS)"
+        ]
+      }
+    },
     {
       "id": "article-1bfe131",
       "title": "Czechia Tears Up Its Fiscal Rulebook, Triggering a Battle Over the Country's Economic Future",
@@ -13689,6 +13711,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260828-slovakia",
+      "title": "Slovakia Weighs Tax Reversal as Households Endure Stubborn Inflation · 28 Aug",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "8:38",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Slovakia_Episode_2026_08_28.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 206,
+      "keywords": "Slovakia, transaction tax, inflation, fiscal policy, cost of living, eurozone, National Bank of Slovakia, Eurostat, SME, competitiveness, EU fiscal rules, household spending, central Europe",
+      "notes": "The Slovak government is signalling it may scrap its controversial transaction tax next year, reversing a measure that drew sharp criticism from the business community. The move comes as the country grapples with inflation that, while easing from earlier peaks, remains above the euro-area average and continues to squeeze household budgets. Together, the two developments present a defining test of the government's economic credibility heading into the next political cycle.",
+      "pubDate": "2026-08-28",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Slovakia_Episode_2026_08_28.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_28/Slovakia_Short_2026_08_28.mp4"
+    },
     {
       "id": "episode-20260828-czechia",
       "title": "Czechia Tears Up Its Fiscal Rulebook · 28 Aug",
