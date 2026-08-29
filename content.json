@@ -1,5 +1,5 @@
 {
-  "version": 1787979735653,
+  "version": 1787979861540,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-dc01321",
+      "title": "Latvia Faces Twin Pressures: airBaltic Rescue Costs and Eastern Border Tensions Test Riga's Resolve",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "excerpt": "Latvia is navigating two simultaneous crises that expose the vulnerabilities of a small EU member state on Europe's eastern flank. The government is scrambling to stabilize national carrier airBaltic while hardening its border against hybrid threats from Belarus and Russia. Both challenges carry significant fiscal and political consequences for Riga and resonate well beyond Latvia's borders.",
+      "body": "<h3>A National Carrier on the Edge</h3><p>Latvia&#x27;s government is engaged in active talks to prevent airBaltic from sliding into default, a development that has brought questions of public money, strategic necessity, and corporate governance sharply into focus. According to Reuters, the airline was seeking short-term financing while Riga was in parallel discussions with a potential strategic investor, with a previously reported 30 million euro government loan already outstanding.</p><p>The government has argued that airBaltic is far more than a commercial enterprise. Officials say the carrier underpins Latvia&#x27;s connectivity with the rest of Europe, supports thousands of jobs, and functions as a component of national economic resilience, particularly for a country that lacks the geographic depth and alternative transport options of larger member states. From that perspective, temporary state backing is presented as protecting a strategic asset rather than rewarding poor management.</p><p>Critics see it differently. Opposition voices have argued that taxpayers are being asked to absorb risks that should rest with the airline&#x27;s management and investors, and that further public commitment should be conditional on meaningful restructuring rather than a stabilization that simply defers harder decisions. The exact scale and final design of any rescue package remained unclear at the time of reporting, leaving both markets and citizens uncertain about the eventual bill.</p><h3>Operation Vilkatis and the Hybrid Threat on Latvia&#x27;s Eastern Frontier</h3><p>Latvia&#x27;s security services launched Operation Vilkatis, a dedicated enforcement action targeting its border with Belarus, as Riga sought to confront what officials described as an escalating hybrid threat. The operation followed the discovery of a tunnel beneath the border and a series of incidents that have kept Latvia&#x27;s security apparatus on high alert. Separately, Latvian authorities assessed a drone found in the country&#x27;s airspace as Ukrainian in origin, a finding that underscored the complex and often unpredictable nature of the risks along Europe&#x27;s eastern periphery.</p><p>The government&#x27;s position is that the current environment demands a security-first approach. Irregular migration, smuggling networks, and airspace incursions require stronger enforcement and tighter coordination with NATO allies and EU partners, officials said. Latvia, which shares a land border with both Russia and Belarus, has consistently positioned itself as a frontline state requiring sustained political and financial backing from Brussels and allied capitals.</p><p>Not all observers accept the framing at face value. Some critics have cautioned that a relentless focus on security measures risks crossing into what they describe as security theater, with tighter controls placing disproportionate burdens on border communities and raising civil liberties concerns without resolving the underlying geopolitical dynamics that drive hybrid pressure in the first place. The debate reflects a tension familiar across EU eastern member states between the imperative of border protection and the costs that enforcement imposes on ordinary life.</p><h3>Fiscal Strain, Inflation, and What Comes Next</h3><p>Underlying both crises is an economic backdrop that offers Latvia limited room for manoeuvre. Eurostat data places Latvia&#x27;s annual inflation at approximately 2.5 percent in July 2026, down from 3.3 percent in June, a trajectory that suggests some relief for households but not an end to price pressure. Latvia&#x27;s central bank has forecast inflation at roughly 3.6 percent for the full year 2026, keeping it above target and sustaining the squeeze on consumer budgets even as the headline figure edges lower.</p><p>The combination of a costly airline rescue and sustained security expenditure puts pressure on public finances that were already stretched. For EU institutions, both files carry implications that reach well beyond Latvia. The airBaltic situation will invite scrutiny under state aid rules, testing how much latitude Brussels is prepared to extend to smaller member states defending connectivity infrastructure in strategically sensitive locations. The border situation, meanwhile, is a live test case for the EU&#x27;s capacity to support frontline members against hybrid threats from state actors willing to use migration and airspace violations as instruments of geopolitical pressure.</p><p>The immediate milestones are clear. Latvia&#x27;s government will need to conclude its negotiations with a strategic investor and define the terms of any public support for airBaltic before financial markets lose patience. On the security file, Operation Vilkatis and the infrastructure investments it has revealed will require sustained funding and political will over months, not weeks. How Riga manages both simultaneously, and what level of EU solidarity it can count on, will determine whether Latvia&#x27;s twin pressures remain manageable or compound into something more serious.</p>",
+      "keywords": "airBaltic, Latvia, airline rescue, state aid, EU aviation, border security, Belarus, Russia, hybrid threats, Operation Vilkatis, Latvia inflation, Eurostat, eastern Europe, EU eastern flank, national carrier, Latvia economy",
+      "sources": "Reuters, airBaltic financing and investor talks reporting; Eurostat, Latvia inflation data July 2026 and June 2026; Latvia Central Bank, 2026 inflation forecast; Latvia border security operational reporting, Operation Vilkatis; Reuters, Latvia airspace drone assessment",
+      "pubDate": "2026-08-29",
+      "chartData": {
+        "values": [
+          2.5,
+          3.3,
+          3.6
+        ],
+        "labels": [
+          "Latvia Inflation July 2026 (%)",
+          "Latvia Inflation June 2026 (%)",
+          "Central Bank Full-Year 2026 Forecast (%)"
+        ]
+      }
+    },
     {
       "id": "article-32d2616",
       "title": "Poland Reshapes Its Tax Code and Celebrates Growth, but Households Remain Cautious",
@@ -13789,6 +13813,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260829-latvia",
+      "title": "Latvia Faces Twin Pressures: airBaltic Rescue Costs and Eastern Border… · 29 Aug",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:07",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Latvia_Episode_2026_08_29.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 210,
+      "keywords": "airBaltic, Latvia, airline rescue, state aid, EU aviation, border security, Belarus, Russia, hybrid threats, Operation Vilkatis, Latvia inflation, Eurostat, eastern Europe, EU eastern flank, national carrier, Latvia economy",
+      "notes": "Latvia is navigating two simultaneous crises that expose the vulnerabilities of a small EU member state on Europe's eastern flank. The government is scrambling to stabilize national carrier airBaltic while hardening its border against hybrid threats from Belarus and Russia. Both challenges carry significant fiscal and political consequences for Riga and resonate well beyond Latvia's borders.",
+      "pubDate": "2026-08-29",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Latvia_Episode_2026_08_29.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Latvia_Short_2026_08_29.mp4"
+    },
     {
       "id": "episode-20260829-poland",
       "title": "Poland Reshapes Its Tax Code and Celebrates Growth · 29 Aug",
