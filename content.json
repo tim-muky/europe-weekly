@@ -1,5 +1,5 @@
 {
-  "version": 1787979861540,
+  "version": 1787979988907,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-80a28ea",
+      "title": "Lithuania's Twin Stress Test: Stubborn Inflation and Security Fears Put Government on the Defensive",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "excerpt": "Lithuania is expanding at a pace that most European economies would envy, but growth alone is failing to reassure households squeezed by some of the eurozone's highest inflation. At the same time, a major storm blackout and warnings of drone provocations from the east have turned infrastructure resilience into an urgent political question. Together, the two pressures are defining what it means to govern a frontline EU state in 2026.",
+      "body": "<h3>Growth on Paper, Pain at the Checkout</h3><p>Lithuania&#x27;s economy is holding up better than many of its European peers. Industrial output rose 5.1 percent year on year over the January-to-July period of 2026, and bank forecasts still point to roughly 3 percent GDP growth for the full year, a figure the government has been quick to cite as evidence of resilience. Finance Minister officials have argued that elevated spending on defence and infrastructure represents a necessary investment, not fiscal recklessness, as the country adapts to an altered security environment on NATO&#x27;s eastern flank.</p><p>Yet the headline growth numbers are doing little to calm public frustration. According to Eurostat data, Lithuania recorded annual inflation of 5.4 percent in the most recent reading, one of the highest rates in the entire euro area. That gap between aggregate economic performance and household experience is the central political vulnerability for the ruling coalition. Critics in parliament have argued that when groceries, utilities, and services remain this expensive, nominal wage gains evaporate before they reach living standards. The vibe in Lithuanian cities, according to analysts tracking consumer sentiment, is one of resigned anxiety rather than optimism.</p><p>The fiscal dimension compounds the problem. Higher defence commitments and infrastructure outlays are compressing the room available for social spending and public-sector wage increases. Opposition voices have pointed out that a sustained deficit, combined with persistent inflation, leaves ordinary citizens exposed on two fronts simultaneously: prices rise faster than paycheques while public services face budget constraints. The government&#x27;s counter-argument, that the alternative is underinvestment in security, is politically defensible but economically uncomfortable.</p><h3>Blackouts and Border Warnings: Security Becomes a Domestic Story</h3><p>What would once have been treated as a foreign-policy discussion has migrated squarely into domestic governance. A severe storm left tens of thousands of Lithuanian households without electricity, exposing weaknesses in grid maintenance and crisis communication that critics say have been neglected while attention focused on external threats. The outage is not disputed by any party; the argument is over who bears responsibility and what it reveals about the state&#x27;s actual preparedness rather than its stated ambitions.</p><p>Separately, Lithuanian security officials issued warnings about the possibility of drone provocations linked to Russian activity in the region. The warnings reflect a genuine and widely shared concern across the Baltic states, and they align with broader NATO assessments of hybrid threat patterns. However, analysts and opposition figures have drawn a distinction between precautionary alerts, which the drone warnings represent, and confirmed imminent threats, which they are not. The risk, critics argue, is that an over-securitised public narrative allows officials to deflect accountability for concrete failures, such as the blackout, by keeping attention trained on the eastern horizon.</p><p>For citizens, the two episodes, the power outage and the drone warnings, merged into a single unsettling signal about the state&#x27;s capacity to protect and provide. Trust in public institutions, already under pressure from inflationary strain, took a further knock. EU officials monitoring the Baltic region will note that Lithuania is becoming a live case study in how climate-related infrastructure shocks, hybrid threats, and cyberspace vulnerabilities are no longer separate policy files but overlapping daily realities.</p><h3>What Comes Next: Deadlines, Trade-offs, and Political Consequences</h3><p>The immediate test for the government is whether it can articulate a coherent answer to both pressures without allowing one to crowd out the other. On inflation, Lithuania has limited tools of its own inside the eurozone, but targeted relief measures, energy price interventions, and wage agreements in the public sector remain within reach. Whether the coalition has the political capital and the fiscal headroom to deploy them simultaneously is an open question, particularly as defence commitments are unlikely to shrink given the regional threat environment.</p><p>On infrastructure resilience, the storm blackout has created a window for reform that opposition parties will seek to exploit heading into the next political cycle. Demands for an independent audit of grid maintenance, clearer crisis-communication protocols, and accountability at the utility level are already circulating in parliamentary debate. The government&#x27;s credibility on the security agenda, which is its strongest electoral ground, depends in part on demonstrating that hardening the state against external threats goes hand in hand with basic domestic reliability.</p><p>For the broader European Union, Lithuania&#x27;s situation carries a cautionary message. Eastern-flank economies can post solid growth figures, maintain NATO commitments, and still leave citizens feeling economically exposed and institutionally under-served. Brussels will be watching how Vilnius manages the trade-off, not least because the answers Lithuania finds, or fails to find, will inform the policy conversation about how the EU supports frontline member states through a prolonged period of geopolitical and inflationary strain.</p>",
+      "keywords": "Lithuania, inflation, eurozone, fiscal policy, GDP growth, defence spending, infrastructure resilience, power outage, drone threats, hybrid warfare, Baltic states, European Union, eastern flank, cost of living, energy security",
+      "sources": "Eurostat, latest available inflation reading for Lithuania and euro area comparators; Lithuanian Statistics Department, industrial production data January-July 2026; Bank of Lithuania and independent bank forecasts, GDP outlook 2026; Lithuanian government budget and defence spending statements; NATO and Lithuanian security service advisories on hybrid and drone threat warnings; National energy utility crisis communications following storm-related blackout",
+      "pubDate": "2026-08-29",
+      "chartData": {
+        "values": [
+          5.4,
+          2.4,
+          2.1,
+          3.0
+        ],
+        "labels": [
+          "Lithuania Inflation",
+          "Euro Area Average Inflation",
+          "Euro Area Average Inflation Target",
+          "Lithuania GDP Growth Forecast 2026"
+        ]
+      }
+    },
     {
       "id": "article-dc01321",
       "title": "Latvia Faces Twin Pressures: airBaltic Rescue Costs and Eastern Border Tensions Test Riga's Resolve",
@@ -13813,6 +13839,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260829-lithuania",
+      "title": "Lithuania's Twin Stress Test: Stubborn Inflation and Security Fears Put… · 29 Aug",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "8:05",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Lithuania_Episode_2026_08_29.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 211,
+      "keywords": "Lithuania, inflation, eurozone, fiscal policy, GDP growth, defence spending, infrastructure resilience, power outage, drone threats, hybrid warfare, Baltic states, European Union, eastern flank, cost of living, energy security",
+      "notes": "Lithuania is expanding at a pace that most European economies would envy, but growth alone is failing to reassure households squeezed by some of the eurozone's highest inflation. At the same time, a major storm blackout and warnings of drone provocations from the east have turned infrastructure resilience into an urgent political question. Together, the two pressures are defining what it means to govern a frontline EU state in 2026.",
+      "pubDate": "2026-08-29",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Lithuania_Episode_2026_08_29.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Lithuania_Short_2026_08_29.mp4"
+    },
     {
       "id": "episode-20260829-latvia",
       "title": "Latvia Faces Twin Pressures: airBaltic Rescue Costs and Eastern Border… · 29 Aug",
