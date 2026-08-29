@@ -1,5 +1,5 @@
 {
-  "version": 1787893731104,
+  "version": 1787979735653,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-32d2616",
+      "title": "Poland Reshapes Its Tax Code and Celebrates Growth, but Households Remain Cautious",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "excerpt": "Poland is pushing through its most significant income-tax restructuring in years, raising relief thresholds for middle earners while lifting the corporate rate for large firms. At the same time, the economy expanded by 3.8 percent year-on-year in the second quarter of 2026, outpacing much of the European Union. Yet with inflation still hovering around 3 percent and core prices remaining sticky, many Polish households say the recovery does not yet feel real.",
+      "body": "<h3>A Tax Overhaul Designed to Shift the Burden</h3><p>Warsaw has unveiled a sweeping reform of its income-tax system that raises the threshold for the lower rate to 130,000 złoty, introduces a new 24 percent bracket for earnings between 130,000 and 150,000 złoty, and lifts the corporate tax rate for large firms to 22 percent. The government argues the package corrects years of bracket creep that quietly eroded middle-class purchasing power, and it places a larger share of the fiscal load on companies with the deepest pockets.</p><p>Prime Minister Donald Tusk&#x27;s coalition has framed the reform as a structural correction rather than electoral generosity, pointing to longstanding calls from labour economists and trade unions to address the compression of effective tax bands. The new 24 percent bracket, officials said, creates a smoother progression between the standard rate and the top tier, reducing sudden jumps in marginal burden for mid-to-upper earners.</p><p>Critics in the opposition and parts of the business community are less convinced. They argue the corporate rate increase will be passed on to consumers through higher prices or absorbed by reducing headcount, ultimately undermining the relief the government is promising on the household side. Some economists also warn that adding a new bracket increases administrative complexity at a moment when the tax authority is still modernising its digital infrastructure.</p><h3>Strong Growth Numbers, but Inflation Complicates the Picture</h3><p>Poland&#x27;s economy grew by 3.8 percent year-on-year and 0.9 percent quarter-on-quarter in the second quarter of 2026, according to official statistics, making it one of the stronger performers among EU member states during the period. The government has been quick to claim the figures as vindication of its fiscal and industrial strategy, pointing in particular to resilient domestic consumption and continued investment in infrastructure and defence-related manufacturing.</p><p>However, inflation data presents a more complicated narrative. Consumer price growth stood at around 3.0 percent in July, comfortably below the peaks recorded earlier in the economic cycle but still above the National Bank of Poland&#x27;s 2.5 percent target midpoint. Core inflation, which strips out volatile energy and food prices, has also remained sticky, suggesting that underlying price pressures have not fully unwound. The European Commission and the NBP both project that inflation will remain above the 2 percent zone for some time, limiting the scope for near-term interest rate cuts.</p><p>For ordinary Poles, the divergence between headline growth and lived experience is a source of frustration. Grocery bills, rents in major cities, and fuel costs remain elevated relative to pre-2022 levels, even if the rate of increase has slowed. Wage growth has outpaced inflation in nominal terms for several quarters, but economists caution that real purchasing-power gains are uneven across income groups, with lower earners still feeling disproportionate pressure from food and energy components of the price basket.</p><h3>Outlook: Credibility on the Line as Reforms and Reality Diverge</h3><p>Poland&#x27;s combination of solid GDP growth and above-target inflation is being watched closely in Brussels and among its central European peers. It represents a test of whether an eastern EU member state can sustain economic momentum without triggering a second wave of cost-of-living stress. If core inflation proves more persistent than the government&#x27;s projections suggest, the tax relief announced this week could be partly offset by continued price pressure, weakening its political impact.</p><p>The tax reform is expected to pass through the Sejm before the end of the legislative session, with implementation targeting the 2027 fiscal year. That timeline matters: any company that decides to restructure operations, relocate treasury functions, or renegotiate supply contracts in response to the higher corporate rate will likely begin doing so well in advance of the law taking effect. Business lobby groups have already indicated they will seek amendments in committee to soften the corporate provisions or introduce phase-in periods.</p><p>On the monetary side, the NBP&#x27;s next rate decision will be closely scrutinised for any signal that the bank sees the growth-inflation mix as tilting toward tightening rather than easing. A prolonged hold or, in a more adverse scenario, an unexpected rate increase would complicate the government&#x27;s messaging that Poland has turned a corner on the cost-of-living crisis. With parliamentary elections on the horizon, the gap between macroeconomic indicators and household sentiment may prove to be the most consequential political variable of the coming months.</p>",
+      "keywords": "Poland, tax reform, income tax, corporate tax, GDP growth, inflation, cost of living, National Bank of Poland, European Union, fiscal policy, bracket creep, middle class, Warsaw, economic outlook, złoty",
+      "sources": "Polish Ministry of Finance, draft tax reform announcements; Statistics Poland (GUS), Q2 2026 GDP preliminary release; National Bank of Poland, monetary policy communications; European Commission, Spring 2026 Economic Forecast; Polish Central Statistical Office, July 2026 CPI release",
+      "pubDate": "2026-08-29",
+      "chartData": {
+        "values": [
+          3.8,
+          3.0,
+          22.0,
+          24.0
+        ],
+        "labels": [
+          "Q2 GDP Growth YoY (%)",
+          "Inflation July 2026 (%)",
+          "New Corporate Tax Rate (%)",
+          "New Mid-Bracket Income Tax Rate (%)"
+        ]
+      }
+    },
     {
       "id": "article-c7ee693",
       "title": "Austria Caught Between Stagnation and Austerity as Coalition Battles Over Who Pays",
@@ -13763,6 +13789,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260829-poland",
+      "title": "Poland Reshapes Its Tax Code and Celebrates Growth · 29 Aug",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "duration": "7:42",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Poland_Episode_2026_08_29.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 209,
+      "keywords": "Poland, tax reform, income tax, corporate tax, GDP growth, inflation, cost of living, National Bank of Poland, European Union, fiscal policy, bracket creep, middle class, Warsaw, economic outlook, złoty",
+      "notes": "Poland is pushing through its most significant income-tax restructuring in years, raising relief thresholds for middle earners while lifting the corporate rate for large firms. At the same time, the economy expanded by 3.8 percent year-on-year in the second quarter of 2026, outpacing much of the European Union. Yet with inflation still hovering around 3 percent and core prices remaining sticky, many Polish households say the recovery does not yet feel real.",
+      "pubDate": "2026-08-29",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Poland_Episode_2026_08_29.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_29/Poland_Short_2026_08_29.mp4"
+    },
     {
       "id": "episode-20260828-austria",
       "title": "Austria Caught Between Stagnation and Austerity · 28 Aug",
