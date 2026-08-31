@@ -1,5 +1,5 @@
 {
-  "version": 1787980116322,
+  "version": 1788152540589,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a00c2a3",
+      "title": "Sweden's Recovery Looks Better on Paper Than in People's Wallets",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "Sweden's economy grew 1.6 percent in the second quarter of 2026, prompting the government to upgrade its full-year growth forecast to 2.5 percent. But official statistics are doing little to lift the mood of households still grappling with high unemployment and financial strain. With a general election approaching and polls favouring the opposition, the gap between macroeconomic data and lived experience has become the defining political battleground.",
+      "body": "<h3>A Rebound the Statistics Bureau Can Measure but Families Cannot Feel</h3><p>Sweden&#x27;s economy expanded at its fastest quarterly pace in several years in the April-to-June period of 2026, with Statistics Sweden, known as SCB, confirming GDP growth of 1.6 percent for the second quarter. The government seized on the figure, revising its annual growth forecast upward to 2.5 percent and arguing that the foundations for a durable recovery are now in place. Officials pointed to improving business activity and what they described as a stabilising labour market as evidence that their economic stewardship is bearing fruit.</p><p>The Riksbank, Sweden&#x27;s central bank, has provided a degree of institutional credibility to that narrative. Headline inflation remains low by its official measures, and the bank&#x27;s relatively steady policy stance has been cited by the ruling bloc as a sign of broader macroeconomic stability. For a government that has faced sustained criticism over the cost-of-living squeeze that began in 2022, the upgraded forecast represents one of its clearest opportunities to argue that the corner has been turned.</p><p>Yet the SCB data also contains a less comfortable story. Unemployment remains elevated, and household sentiment surveys suggest that lower-income families in particular are yet to feel any meaningful improvement in their day-to-day finances. The Riksbank itself has flagged that while measured inflation is contained, underlying price pressures have not fully dissipated and could reassert themselves if growth accelerates unevenly. In short, the statistics support the government&#x27;s growth claim, but they do not support the broader assertion that normal conditions have returned.</p><h3>Opposition Leads in Polls as Economic Messaging Becomes the Election&#x27;s Central Fault Line</h3><p>Sweden&#x27;s next general election is fast approaching, and polling data consistently shows the opposition in a stronger position than the ruling bloc. The gap has narrowed in recent weeks as the government has leaned into its upgraded economic forecasts, but the opposition has been effective at redirecting the debate away from GDP figures and toward the question of whether ordinary voters have actually felt relief. That framing appears to be resonating.</p><p>Opposition leaders have argued that families are still managing strained household budgets, that mortgage costs remain a burden for many homeowners following the rate cycle of recent years, and that job insecurity has not meaningfully eased. They have characterised the government&#x27;s optimism as premature at best and politically convenient at worst, pointing out that a statistical rebound registered in a national accounts table does not translate automatically into wage growth, affordable rent, or secure employment for voters who will decide the outcome.</p><p>The government&#x27;s counter-argument is that credible economic management takes time to filter through to household balance sheets, and that abandoning a course that is now demonstrably producing growth would be counterproductive. The ruling bloc has sought to portray the opposition&#x27;s economic platform as vague on the specifics of how it would sustain the recovery while also addressing household pressures. Whether that message is gaining traction is unclear; the polling gap, while narrowed, has not closed, and the political atmosphere is widely described by analysts as volatile.</p><h3>A Test Case for Small Open Economies Heading Into Uncertain Political Territory</h3><p>For observers beyond Sweden&#x27;s borders, the country&#x27;s current predicament carries broader significance. Sweden is being watched across the European Union as a live experiment in whether a small, trade-dependent economy can engineer a return to growth without reigniting inflationary pressures, and can do so in time for the political cycle to reward the incumbents rather than punish them. So far, the answer on the first question is tentatively positive; the answer on the second remains unresolved.</p><p>The Riksbank&#x27;s cautious optimism about the inflation outlook will be tested in the coming quarters, particularly if the growth forecast of 2.5 percent is realised and begins to feed through into labour market tightening. A rise in underlying inflation at that point would complicate both the central bank&#x27;s communications and the government&#x27;s electoral pitch. Markets will be watching the bank&#x27;s next policy signals closely, as any shift in tone could have immediate consequences for Swedish mortgage rates and, by extension, for the household sentiment that is already fragile.</p><p>The election result itself will matter for Swedish policymaking well beyond the immediate term. If the opposition wins on a platform built around the inadequacy of the current recovery for working households, it will face immediate pressure to deliver tangible improvements in living standards without undermining the macroeconomic stability that produced the growth rebound in the first place. If the government survives, it will need to demonstrate quickly that 2.5 percent growth translates into something voters can recognise in their monthly budgets. Either way, the coming months will determine whether Sweden&#x27;s recovery is remembered as a genuine turning point or as a statistical interlude between periods of economic difficulty.</p>",
+      "keywords": "Sweden, Swedish economy, GDP growth, Riksbank, inflation, cost of living, household finances, unemployment, Swedish election, economic recovery, economic messaging, EU small economies, polling, opposition, government",
+      "sources": "Statistics Sweden (SCB), Q2 2026 GDP release; Riksbank monetary policy communications and inflation outlook statements; Swedish government budget and growth forecast documents; National opinion polling data on voting intention and economic confidence",
+      "pubDate": "2026-08-31",
+      "chartData": {
+        "values": [
+          1.6,
+          2.5
+        ],
+        "labels": [
+          "Q2 2026 GDP Growth (%)",
+          "Full-Year Forecast (%)"
+        ]
+      }
+    },
     {
       "id": "article-fb20a49",
       "title": "Estonia's Fragile Coalition Faces a Dual Crisis of Governance and Fiscal Discipline",
@@ -13865,6 +13887,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260831-sweden",
+      "title": "Sweden's Recovery Looks Better on Paper Than in People's Wallets · 31 Aug",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "8:01",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Sweden_Episode_2026_08_31.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 213,
+      "keywords": "Sweden, Swedish economy, GDP growth, Riksbank, inflation, cost of living, household finances, unemployment, Swedish election, economic recovery, economic messaging, EU small economies, polling, opposition, government",
+      "notes": "Sweden's economy grew 1.6 percent in the second quarter of 2026, prompting the government to upgrade its full-year growth forecast to 2.5 percent. But official statistics are doing little to lift the mood of households still grappling with high unemployment and financial strain. With a general election approaching and polls favouring the opposition, the gap between macroeconomic data and lived experience has become the defining political battleground.",
+      "pubDate": "2026-08-31",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Sweden_Episode_2026_08_31.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Sweden_Short_2026_08_31.mp4"
+    },
     {
       "id": "episode-20260829-estonia",
       "title": "Estonia's Fragile Coalition Faces a Dual Crisis of Governance and Fiscal… · 29 Aug",
