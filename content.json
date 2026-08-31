@@ -1,5 +1,5 @@
 {
-  "version": 1788152807234,
+  "version": 1788152939133,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-f11332f",
+      "title": "Ireland's Fuel Tax Reversal Exposes the Gap Between Economic Headlines and Household Reality",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "Ireland's government has delayed a planned increase in petrol and diesel excise duties, citing persistent pressure on household budgets as inflation remains stubbornly above the euro-area average. The move has drawn sharp criticism from opposition parties, who argue it represents short-term patchwork rather than a structural fix. The episode lays bare a tension that is reshaping Irish politics and echoing across the European Union: strong macroeconomic data and real household hardship can coexist, and governments are struggling to bridge the gap.",
+      "body": "<h3>A Tax Delay That Buys Relief but Not Solutions</h3><p>Ireland&#x27;s coalition government has confirmed it will delay a scheduled increase in excise duties on petrol and diesel, a decision framed by ministers as a targeted, temporary response to renewed pressure on family budgets. With energy markets remaining volatile and fuel costs climbing again, the government argued the pause was a pragmatic adjustment rather than a permanent abandonment of fiscal policy.</p><p>The political context makes the timing difficult to dismiss as routine. Ireland&#x27;s Harmonised Index of Consumer Prices stood at 3.1 percent in July 2026, fractionally below the 3.2 percent recorded in June but still above the euro-area average of 2.9 percent for the same period. For households filling up at the forecourt or paying utility bills, the practical message is the same: prices are still rising, and the relief promised by successive government announcements has not yet translated into a perceptible easing of day-to-day costs.</p><p>The government&#x27;s core argument is therefore supported by the data. Inflation has not disappeared, and the excise delay does provide some marginal buffer. But critics are quick to note what the measure does not do: it does not alter the supply-side dynamics, the energy market structures, or the broader drivers of elevated consumer prices that have persisted well beyond the initial post-pandemic shock.</p><h3>Opposition and the Fiscal Credibility Question</h3><p>Opposition parties have mounted a pointed challenge not just to the substance of the excise decision but to the pattern it represents. Repeated delays and temporary reliefs, they argued, amount to governing by emergency patchwork — a reactive posture that defers difficult choices while accumulating implicit fiscal commitments that are hard to unwind.</p><p>The criticism carries weight in part because this is not the first such measure. Each successive delay normalises the idea that excise duties are a lever to be pulled whenever prices spike, rather than a stable component of the revenue base. That, opposition figures said, undermines fiscal credibility and makes medium-term budget planning harder for both government and markets.</p><p>The government pushed back, stating that the labour market remains exceptionally strong and that tax receipts are healthy enough to absorb the short-term cost of the excise delay without endangering the public finances. That argument is substantively defensible: employment growth has continued, and revenue performance has been solid. The dispute, then, is less about whether Ireland can afford the measure and more about whether it should keep reaching for the same tool, and what signal that sends about long-term policy discipline.</p><h3>Strong Economy, Squeezed Households: A Tension That Will Not Resolve Itself</h3><p>Underlying the fuel excise row is a more fundamental political and economic problem: the gap between what aggregate indicators show and what citizens experience. Ministers have been consistent in highlighting Ireland&#x27;s employment figures and revenue strength as evidence of economic resilience. The Central Bank, however, revised its 2026 inflation outlook upward, citing higher energy costs as the primary driver — a revision that sits awkwardly alongside official optimism about household conditions improving.</p><p>Ireland&#x27;s inflation rate running above the euro-area average compounds the difficulty. When prices rise faster in Dublin than in Berlin or Madrid, the &quot;inflation is coming down&quot; narrative — accurate in the narrow sense of comparing current readings to earlier peaks — risks sounding hollow to families whose essential costs, particularly energy and transport, have not returned to pre-crisis levels. The economy can be strong and households can still feel worse off simultaneously. That paradox is not unique to Ireland: it is one of the defining political pressures across the European Union as governments try to manage the legacy of the energy shock while maintaining fiscal credibility ahead of potential future turbulence.</p><p>The immediate question is whether the excise delay will be extended again when it is due to expire, or whether the government will use any softening in energy markets as political cover to restore the duty. Each extension makes the next one more likely and raises the cost of eventual normalisation. For Irish households, the more consequential question is whether any administration — this one or a future one — is prepared to address the structural factors behind high transport and energy costs, rather than returning repeatedly to the same short-term relief mechanisms. Until that question is answered, the gap between government optimism and kitchen-table reality is unlikely to narrow in any politically meaningful way.</p>",
+      "keywords": "Ireland, fuel excise, cost of living, inflation, HICP, energy prices, fiscal policy, Central Bank of Ireland, euro area, household budgets, opposition politics, tax relief, economic outlook",
+      "sources": "Eurostat Harmonised Index of Consumer Prices, July 2026; Central Bank of Ireland 2026 inflation outlook revision; Irish government budget and excise duty statements; Euro area aggregate inflation data, June–July 2026",
+      "pubDate": "2026-08-31",
+      "chartData": {
+        "values": [
+          3.1,
+          2.9
+        ],
+        "labels": [
+          "Ireland HICP Inflation July 2026",
+          "Euro Area HICP Inflation July 2026"
+        ]
+      }
+    },
     {
       "id": "article-6081acc",
       "title": "Finland Heads Toward Election Season With a Weakened Government and a Recovery That Feels Distant to Many",
@@ -13933,6 +13955,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260831-ireland",
+      "title": "Ireland's Fuel Tax Reversal Exposes the Gap Between Economic Headlines and… · 31 Aug",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:40",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Ireland_Episode_2026_08_31.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 216,
+      "keywords": "Ireland, fuel excise, cost of living, inflation, HICP, energy prices, fiscal policy, Central Bank of Ireland, euro area, household budgets, opposition politics, tax relief, economic outlook",
+      "notes": "Ireland's government has delayed a planned increase in petrol and diesel excise duties, citing persistent pressure on household budgets as inflation remains stubbornly above the euro-area average. The move has drawn sharp criticism from opposition parties, who argue it represents short-term patchwork rather than a structural fix. The episode lays bare a tension that is reshaping Irish politics and echoing across the European Union: strong macroeconomic data and real household hardship can coexist, and governments are struggling to bridge the gap.",
+      "pubDate": "2026-08-31",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Ireland_Episode_2026_08_31.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Ireland_Short_2026_08_31.mp4"
+    },
     {
       "id": "episode-20260831-finland",
       "title": "Finland Heads Toward Election Season With a Weakened Government and a… · 31 Aug",
