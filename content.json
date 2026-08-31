@@ -1,5 +1,5 @@
 {
-  "version": 1788152540589,
+  "version": 1788152671638,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8d70c63",
+      "title": "Denmark's Dual Challenge: Economic Momentum Fades as Security Spending Surges",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "excerpt": "Denmark is navigating a delicate moment, balancing a slowing but still-expanding economy against a rapid acceleration in defense and internal security spending. Quarterly growth has cooled sharply, even as the government raised its full-year outlook, while new anti-drone systems and expanded conscription signal a decisive shift in national priorities. The tension between welfare continuity and a hardening security posture is reshaping Danish politics and carries lessons for the broader European Union.",
+      "body": "<h3>A Growth Story With a Catch</h3><p>Denmark&#x27;s government has reason to project confidence. Officials raised the country&#x27;s full-year growth forecast to 3.7 percent for 2026, pointing to an economy that, by European standards, remains resilient. Eurostat&#x27;s latest flash reading puts Danish inflation at 1.6 percent, well below the recent peaks that have strained households across the continent, and Nationalbanken, the central bank, expects price pressures to remain contained, with energy costs rather than broad-based demand the main upside risk.</p><p>Yet the quarterly data tells a more cautious story. Growth slowed to 0.3 percent in the second quarter, down sharply from 1.5 percent in the first, and household consumption softened alongside it. Critics argue that the government&#x27;s headline numbers obscure a clear loss of momentum, and that the apparent inflation relief owes more to energy and tax effects than to a durable improvement in purchasing power. The economy, in other words, is neither in crisis nor in the clear.</p><p>For ordinary Danish households, the practical consequences turn on wages, mortgage sentiment, and the sustainability of the country&#x27;s generous public services. If the slowdown deepens, the government will face harder choices about whether to maintain spending commitments without adjusting the tax base. For European observers, Denmark functions as a useful early indicator: a high-income, well-managed economy that is still expanding but already showing the fatigue that may eventually reach its neighbors.</p><h3>Drones, Conscripts, and a State Hardening Quickly</h3><p>Alongside the economic debate, Denmark is accelerating a transformation of its security posture at a pace that has surprised even some supporters. The government has committed to new anti-drone command-and-control systems and announced an expansion of its conscription scheme, both framed as responses to the elevated threat environment following Russia&#x27;s full-scale invasion of Ukraine. Reuters has confirmed both policy moves as concrete procurement and legislative steps, not rhetorical positioning.</p><p>Government officials argue the measures represent overdue modernization rather than overreach. Denmark carries NATO obligations, and the threats to critical infrastructure, borders, and airspace have grown demonstrably more acute. Anti-drone capability, in particular, has moved from a niche military requirement to a mainstream security priority across alliance members, and Copenhagen&#x27;s investment reflects that shift. Expanded conscription, meanwhile, is presented as a way to broaden the base of defense readiness without relying solely on a professional military.</p><p>The political friction, however, is real. Trade unions and parts of the opposition have questioned whether such a significant reorientation of state priorities is being pushed through quickly enough for proper democratic deliberation over costs, staffing implications, and long-term social trade-offs. Defense spending that grows faster than the economy must, by arithmetic, come from somewhere, and the competition with welfare budgets is a tension Denmark has not yet resolved publicly or politically.</p><h3>What Comes Next: Budgets, Ballots, and the EU Context</h3><p>The intersection of these two pressures, a decelerating economy and rising security expenditure, creates a structural dilemma that Danish policymakers will have to address in the near term. Maintaining a credible welfare state while scaling up defense is achievable when growth is robust, but becomes politically and fiscally harder as quarterly momentum fades. Any further softening in consumer activity or a negative energy-price shock could quickly narrow the government&#x27;s room for maneuver.</p><p>Denmark is far from alone in confronting this bind. Across the European Union, the defense turn is reshaping domestic politics in ways that existing fiscal frameworks were not designed to accommodate. The bloc&#x27;s loosened deficit rules for defense investment offer some breathing room, but they do not resolve the underlying trade-off between social spending and security spending that electorates will eventually force governments to answer.</p><p>In the months ahead, the key indicators to watch are whether Danish growth stabilizes in the third quarter, how conscription expansion is absorbed by a labor market that is already relatively tight, and whether the anti-drone procurement timeline holds without cost overruns that amplify the fiscal pressure. The government&#x27;s optimistic framing may prove well-founded if external conditions cooperate, but the margin for error is narrowing, and the political mood, outwardly calm but carrying a distinct undercurrent of anxiety, suggests that Danes themselves are not entirely persuaded that the balance has been struck correctly.</p>",
+      "keywords": "Denmark, Danish economy, GDP growth, inflation, Nationalbanken, Eurostat, defense spending, conscription, anti-drone, NATO, European Union, fiscal policy, welfare state, security policy, European defense",
+      "sources": "Eurostat flash inflation estimates, euro area and EU, June 2025; Nationalbanken monetary and economic outlook, 2025; Danish government budget and growth projections, 2025–2026; Reuters reporting on Denmark anti-drone procurement and conscription expansion, 2025",
+      "pubDate": "2026-08-31",
+      "chartData": {
+        "values": [
+          1.5,
+          0.3
+        ],
+        "labels": [
+          "Q1 Growth",
+          "Q2 Growth"
+        ]
+      }
+    },
     {
       "id": "article-a00c2a3",
       "title": "Sweden's Recovery Looks Better on Paper Than in People's Wallets",
@@ -13887,6 +13909,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260831-denmark",
+      "title": "Denmark's Dual Challenge: Economic Momentum Fades as Security Spending Surges · 31 Aug",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "duration": "8:18",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Denmark_Episode_2026_08_31.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 214,
+      "keywords": "Denmark, Danish economy, GDP growth, inflation, Nationalbanken, Eurostat, defense spending, conscription, anti-drone, NATO, European Union, fiscal policy, welfare state, security policy, European defense",
+      "notes": "Denmark is navigating a delicate moment, balancing a slowing but still-expanding economy against a rapid acceleration in defense and internal security spending. Quarterly growth has cooled sharply, even as the government raised its full-year outlook, while new anti-drone systems and expanded conscription signal a decisive shift in national priorities. The tension between welfare continuity and a hardening security posture is reshaping Danish politics and carries lessons for the broader European Union.",
+      "pubDate": "2026-08-31",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Denmark_Episode_2026_08_31.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Denmark_Short_2026_08_31.mp4"
+    },
     {
       "id": "episode-20260831-sweden",
       "title": "Sweden's Recovery Looks Better on Paper Than in People's Wallets · 31 Aug",
