@@ -1,5 +1,5 @@
 {
-  "version": 1788152671638,
+  "version": 1788152807234,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-6081acc",
+      "title": "Finland Heads Toward Election Season With a Weakened Government and a Recovery That Feels Distant to Many",
+      "categories": [
+        "cat-qoz3hlo"
+      ],
+      "excerpt": "Finland's ruling coalition is facing a mounting legitimacy crisis as opposition parties widen their polling lead ahead of the next election cycle. At the same time, the economy is growing again, but only modestly, and many households say they have yet to feel meaningful relief from years of elevated prices. Together, the political and economic strains are shaping a public mood that analysts describe as frustrated and increasingly impatient with the status quo.",
+      "body": "<h3>A Government Running Low on Public Trust</h3><p>Prime Minister Petteri Orpo&#x27;s coalition entered office with a mandate to stabilize Finland&#x27;s public finances and push through a programme of structural reforms. More than a year into government, the coalition retains its fiscal course, but it has paid a significant political price. Recent polling shows the centre-left Social Democrats widening their lead over the governing National Coalition Party, and surveys suggest that only a small fraction of Finnish voters want the current coalition to continue in its present form after the next election.</p><p>Government officials argue that the unpopularity of their reforms is a predictable consequence of doing difficult but necessary work. Fiscal discipline, they said, is the only credible path to long-term competitiveness and to securing Finland&#x27;s standing in NATO and the European Union. Critics inside parliament and in the broader opposition have rejected that framing, arguing instead that the coalition has exhausted public goodwill and that austerity fatigue is now translating into genuine household hardship.</p><p>The practical consequence of the government&#x27;s weakened standing extends beyond domestic politics. A coalition that cannot command broad public confidence has less room to push through contested legislation, less leverage in EU budget negotiations, and a reduced capacity to respond decisively to external shocks, whether economic or security-related. Finland&#x27;s political uncertainty arrives at a moment when coherent governance is at a premium across the bloc.</p><h3>An Economy Recovering, But Not Fast Enough to Be Felt</h3><p>Finland&#x27;s economic picture offers just enough data to allow both optimism and pessimism, depending on which numbers one chooses to emphasise. Gross domestic product returned to modest positive growth in the second quarter of 2025, and headline inflation has been on a gradual downward path. Eurostat data show Finnish inflation at 2.8 percent in May, easing to 2.7 percent in June and 2.6 percent in July 2026, a trajectory that suggests price pressures are cooling rather than accelerating.</p><p>Yet economists and opposition politicians have been quick to qualify that picture. A slow descent in inflation does not mean prices are falling; it means they are still rising, only less quickly than before. For mortgage holders navigating variable-rate loans, renters in tight urban markets, and workers in sectors where wage agreements have lagged behind the cost-of-living increases of recent years, the distinction between &quot;inflation is lower&quot; and &quot;life is more affordable&quot; remains wide. Consumer confidence data reflect that gap, with many Finns describing their financial situation as strained even as official indicators point toward stabilisation.</p><p>The government has pointed to the broader European context to argue that Finland is performing reasonably well relative to its peers. That comparison has limited political traction domestically, where voters tend to measure economic wellbeing against their own recent experience rather than against EU averages. The result is a disconnect between what the data show and what the public feels, a gap that the opposition has moved quickly to exploit as the electoral cycle approaches.</p><h3>What Comes Next, and Why It Matters Beyond Finland</h3><p>The coming months will test whether the Orpo government can rebuild enough credibility to enter the next election from a position of strength, or whether it will be forced into defensive politics, trimming ambitions and managing decline. Key decisions on public spending, social services, and labour market rules are expected before the electoral window closes, and each carries the risk of deepening the coalition&#x27;s unpopularity if it is seen to favour fiscal targets over household relief.</p><p>Finland&#x27;s experience also carries lessons for the wider European Union. Several member states are managing a similar combination of cooling inflation, sluggish growth, and governing coalitions under pressure from electorates that expected a faster return to normality after the cost-of-living crisis. If voters in Finland, a country long associated with institutional stability and policy consensus, are expressing this level of frustration, it signals a broader pattern of political risk that Brussels and other European capitals would be unwise to ignore.</p><p>The next electoral test will effectively be a referendum on whether Finns believe the government&#x27;s reforms were worth their cost. If polling holds and the Social Democrats convert their lead into seats, Finland could see a significant shift in its domestic policy direction, with implications for its approach to EU fiscal rules, social spending, and its posture within the broader northern European bloc of fiscally conservative member states. For now, the government is governing, but the margin for error is narrow and narrowing.</p>",
+      "keywords": "Finland, Orpo government, Finnish election, SDP, National Coalition Party, inflation, GDP growth, eurozone, fiscal policy, political legitimacy, EU politics, Nordic economies, austerity, cost of living",
+      "sources": "Eurostat inflation data for Finland, May–July 2026; Finnish polling data on party support and coalition approval; Q2 GDP growth reporting for Finland; European Union comparative economic indicators",
+      "pubDate": "2026-08-31",
+      "chartData": {
+        "values": [
+          2.8,
+          2.7,
+          2.6
+        ],
+        "labels": [
+          "May 2026",
+          "June 2026",
+          "July 2026"
+        ]
+      }
+    },
     {
       "id": "article-8d70c63",
       "title": "Denmark's Dual Challenge: Economic Momentum Fades as Security Spending Surges",
@@ -13909,6 +13933,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260831-finland",
+      "title": "Finland Heads Toward Election Season With a Weakened Government and a… · 31 Aug",
+      "categories": [
+        "cat-qoz3hlo"
+      ],
+      "duration": "9:06",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Finland_Episode_2026_08_31.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 215,
+      "keywords": "Finland, Orpo government, Finnish election, SDP, National Coalition Party, inflation, GDP growth, eurozone, fiscal policy, political legitimacy, EU politics, Nordic economies, austerity, cost of living",
+      "notes": "Finland's ruling coalition is facing a mounting legitimacy crisis as opposition parties widen their polling lead ahead of the next election cycle. At the same time, the economy is growing again, but only modestly, and many households say they have yet to feel meaningful relief from years of elevated prices. Together, the political and economic strains are shaping a public mood that analysts describe as frustrated and increasingly impatient with the status quo.",
+      "pubDate": "2026-08-31",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Finland_Episode_2026_08_31.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_08_31/Finland_Short_2026_08_31.mp4"
+    },
     {
       "id": "episode-20260831-denmark",
       "title": "Denmark's Dual Challenge: Economic Momentum Fades as Security Spending Surges · 31 Aug",
