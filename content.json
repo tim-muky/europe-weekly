@@ -1,5 +1,5 @@
 {
-  "version": 1788238934902,
+  "version": 1788239064099,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3bad603",
+      "title": "Spain at a Crossroads: Migration Crisis in Ceuta Tests EU Solidarity as Uneven Recovery Raises Doubts",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "Spain is simultaneously managing a humanitarian bottleneck at its Ceuta border and navigating an economic recovery that looks stronger on paper than it feels on the ground. Madrid has formally requested reinforcement from EU agencies including Frontex and Europol to prevent the city's reception system from collapsing under sustained migration pressure. At the same time, GDP figures that outpace the eurozone average mask persistent industrial weakness and inflation that has yet to fully retreat for Spanish households.",
+      "body": "<h3>Ceuta&#x27;s Border Crisis Becomes a Test of European Solidarity</h3><p>Spain formally requested operational support from Frontex, Europol, and EU asylum authorities to help manage thousands of migrants still awaiting screening in Ceuta, the Spanish enclave on the northern coast of Africa. The move transformed what began as a local capacity problem into a debate about how the European Union shares responsibility for its external borders, and how quickly it can mobilise when a member state declares a humanitarian emergency.</p><p>The Spanish government argued that the situation in Ceuta represents both an operational breakdown and a protection challenge, particularly for unaccompanied minors. Officials said the enclave&#x27;s reception infrastructure cannot sustain current arrivals without immediate external reinforcement, framing the request to Brussels as a pragmatic necessity rather than an admission of failure.</p><p>Critics, including opposition parties and the far right, pushed back hard. They argued the government had responded too slowly, was effectively offloading its responsibilities to European institutions, and had allowed a recurring crisis to fester without building a durable management system. Prime Minister Pedro Sanchez publicly challenged what his office described as misinformation circulating about the scale and nature of the arrivals, a sign that the political temperature around the issue had risen well beyond the immediate logistical challenge.</p><h3>GDP Growth Masks Fragility in Industry and Household Budgets</h3><p>Spain&#x27;s headline economic data for the second quarter of 2026 offered the government a strong talking point. The economy expanded 0.7 percent quarter-on-quarter and 2.7 percent year-on-year, comfortably above the euro-area average and enough to sustain Spain&#x27;s position as one of the bloc&#x27;s stronger-performing large economies. Services activity continued to drive momentum, and business sentiment indicators pointed to incremental improvement.</p><p>Yet the data contained enough caveats to sustain a credible counter-narrative. Manufacturing only barely returned to expansion territory after a prolonged contraction, and industrial employment fell for an eleventh consecutive month, according to the latest available figures. That means the recovery, however real in aggregate terms, has not translated into broad-based job creation across the productive sectors of the economy that typically anchor working-class wages and regional growth.</p><p>On prices, the picture is similarly mixed. Euro-area inflation stood at 2.9 percent in July, reflecting a broader cooling trend across the bloc. Spain&#x27;s own inflation reading reached 3.6 percent in the most recent August data cited in official reporting, meaning price pressures remain above both the eurozone average and the European Central Bank&#x27;s 2 percent target. For households, particularly those outside the services-heavy urban centres benefiting most from the expansion, the gap between headline growth and lived experience remains a source of political vulnerability for the government.</p><h3>A Dual Stress Test With Implications Beyond Spain&#x27;s Borders</h3><p>Taken together, the two developments place Spain at the centre of two of the European Union&#x27;s most consequential ongoing debates: how to manage irregular migration at external borders without fracturing political consensus, and whether the post-pandemic recovery has produced the kind of durable, inclusive growth that can withstand the next external shock.</p><p>On migration, the Ceuta situation is a reminder that EU border and asylum frameworks continue to be tested at the operational level, even as member states negotiate broader reform packages in Brussels. Spain&#x27;s request for agency support will be watched closely by other frontier states, including Greece and Italy, as a precedent for how quickly and generously the EU responds when a member government formally declares it cannot cope alone. A slow or partial response risks emboldening nationalist voices who argue that European solidarity is a rhetorical commitment rather than a practical one.</p><p>On the economy, investors and policymakers will be monitoring whether Spain&#x27;s industrial employment trough has passed, and whether falling euro-area inflation translates into ECB rate relief that could stimulate the manufacturing and construction sectors most exposed to borrowing costs. If services growth continues without a recovery in industrial output, Spain&#x27;s expansion could become self-limiting, concentrated in tourism and professional services while leaving significant portions of the workforce behind. The government faces a narrow window to convert strong GDP figures into a political narrative that resonates beyond the headline number, particularly as regional elections keep domestic pressure elevated and opposition parties seek every available wedge issue ahead of future national contests.</p>",
+      "keywords": "Spain, Ceuta, migration, Frontex, Europol, EU border management, asylum, GDP growth, inflation, eurozone, manufacturing, industrial employment, Pedro Sanchez, European Union, economic recovery",
+      "sources": "Spanish government official statements on Ceuta EU agency request; Frontex and Europol operational briefings; Eurostat Q2 2026 GDP flash estimates; Euro-area inflation data, July 2026; Spain national inflation index, August 2026; EU manufacturing PMI reports, 2026; European Central Bank monetary policy communications",
+      "pubDate": "2026-09-01",
+      "chartData": {
+        "values": [
+          2.7,
+          2.9,
+          3.6
+        ],
+        "labels": [
+          "Spain GDP Growth YoY Q2 2026 (%)",
+          "Eurozone Inflation July 2026 (%)",
+          "Spain Inflation August 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-d66ea07",
       "title": "Portugal Unlocks €16.3 Billion in EU Recovery Funds as Inflation Ticks Back Up",
@@ -13979,6 +14003,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260901-spain",
+      "title": "Spain at a Crossroads: Migration Crisis in Ceuta Tests EU Solidarity · 01 Sep",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:15",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_01/Spain_Episode_2026_09_01.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 218,
+      "keywords": "Spain, Ceuta, migration, Frontex, Europol, EU border management, asylum, GDP growth, inflation, eurozone, manufacturing, industrial employment, Pedro Sanchez, European Union, economic recovery",
+      "notes": "Spain is simultaneously managing a humanitarian bottleneck at its Ceuta border and navigating an economic recovery that looks stronger on paper than it feels on the ground. Madrid has formally requested reinforcement from EU agencies including Frontex and Europol to prevent the city's reception system from collapsing under sustained migration pressure. At the same time, GDP figures that outpace the eurozone average mask persistent industrial weakness and inflation that has yet to fully retreat for Spanish households.",
+      "pubDate": "2026-09-01",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_01/Spain_Episode_2026_09_01.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_01/Spain_Short_2026_09_01.mp4"
+    },
     {
       "id": "episode-20260901-portugal",
       "title": "Portugal Unlocks €16.3 Billion in EU Recovery Funds as Inflation Ticks Back Up · 01 Sep",
