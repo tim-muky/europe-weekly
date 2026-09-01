@@ -32,6 +32,21 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Italy Torn Between Fiscal Ambition and Economic Fragility · 01 Sep</title>
+      <description>Italy&apos;s Deputy Prime Minister Matteo Salvini is pressing for at least 20 billion euros in additional deficit space for the 2027 budget, setting up a sharp conflict within the governing coalition and with European fiscal watchdogs. The push comes at a moment when official data paint a complex picture: consumer and business confidence ticked upward in August 2026, yet inflation remains above two percent and underlying growth stays weak. The gap between political messaging and economic reality is widening, and markets are watching closely.</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_09_01/Italy_Episode_2026_09_01.mp3" length="5641893" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260901-italy</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260901-italy</link>
+      <itunes:duration>8:42</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>219</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Italy, Matteo Salvini, Italian budget 2027, deficit, fiscal policy, ISTAT, consumer confidence, business confidence, inflation, eurozone, European Commission, coalition politics, public debt, economic outlook</itunes:keywords>
+      <podcast:transcript url="https://audio.europe-weekly.eu/episodes/v3/2026_09_01/Italy_Episode_2026_09_01.txt" type="text/plain" language="en"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Spain at a Crossroads: Migration Crisis in Ceuta Tests EU Solidarity · 01 Sep</title>
       <description>Spain is simultaneously managing a humanitarian bottleneck at its Ceuta border and navigating an economic recovery that looks stronger on paper than it feels on the ground. Madrid has formally requested reinforcement from EU agencies including Frontex and Europol to prevent the city&apos;s reception system from collapsing under sustained migration pressure. At the same time, GDP figures that outpace the eurozone average mask persistent industrial weakness and inflation that has yet to fully retreat for Spanish households.</description>
       <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_09_01/Spain_Episode_2026_09_01.mp3" length="5434216" type="audio/mpeg"/>
