@@ -1,5 +1,5 @@
 {
-  "version": 1788325476182,
+  "version": 1788325600242,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-339cdc5",
+      "title": "Belgium Caught Between Stagnation and Austerity as Inflation Squeezes Households",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Belgium's economy flatlined in the second quarter of 2026 while inflation climbed to 4.2 percent in August, well above the eurozone average of 3.3 percent. The federal government is pressing ahead with a plan to cut roughly ten billion euros in spending by 2029, arguing that fiscal discipline is unavoidable. Critics warn that imposing austerity on an already stagnant economy risks making a difficult situation significantly worse for ordinary Belgians.",
+      "body": "<h3>A Stalled Economy and Stubborn Prices</h3><p>Belgium entered the autumn of 2026 facing a troubling combination: zero economic growth and inflation running well ahead of its European peers. Gross domestic product was flat in the second quarter, according to data confirmed by the National Bank of Belgium, offering no buffer against the cost pressures already eroding household finances. Meanwhile, the country&#x27;s Harmonised Index of Consumer Prices rose to 4.2 percent in August, up from 3.3 percent in June and nearly a full percentage point above the eurozone average for the same period.</p><p>For Belgian households, these are not abstract statistics. Wages and pensions that fail to keep pace with a 4.2 percent inflation rate represent a real and measurable decline in purchasing power, even before any government spending cuts take effect. Labor market momentum, which might otherwise offset some of that squeeze, is absent in a quarter where the broader economy produced no growth at all. The combination has produced what analysts and union representatives describe as a prevailing mood of resignation shading into anxiety among working families.</p><p>Belgium&#x27;s situation also carries wider significance for the European Union. The divergence between Belgium&#x27;s 4.2 percent inflation rate and the eurozone average illustrates how unevenly price pressures continue to bite across member states, complicating the European Central Bank&#x27;s task and raising questions about whether a single monetary policy can adequately serve such varied national conditions.</p><h3>The Ten Billion Euro Question</h3><p>Against this backdrop, the federal government is pursuing one of the most ambitious fiscal consolidation programmes in recent Belgian history. Ministers have agreed on a plan to achieve roughly ten billion euros in cumulative savings by 2029, framing the effort as essential budget repair and a prerequisite for restoring long-term competitiveness. Earlier internal estimates had placed the minimum required adjustment at 7.7 billion euros, suggesting the final target represents a deliberate decision to go further rather than do the minimum.</p><p>Government officials and fiscal hawks argue that weak growth and persistent inflation make restraint more necessary, not less. Adding stimulus spending to an economy already running above its inflation comfort zone, they contend, would risk undermining Belgium&#x27;s fiscal credibility and could add fuel to price pressures that are already damaging household budgets. The government&#x27;s position is that targeted support for the most vulnerable is preferable to broad spending increases that would worsen the deficit without fixing the underlying structural problems.</p><p>Opposition parties and labour unions reject that framing with considerable force. They argue that stagnation is precisely the condition under which households most need relief, and that cutting public services, restraining wage indexation, and reducing benefits will suppress domestic demand at exactly the wrong moment. Critics describe the programme as austerity repackaged as responsibility, and warn that workers and pensioners will bear a disproportionate share of a fiscal burden that was not of their making. At the political level the argument is fierce, though observers note that the social mood is currently more weary than openly explosive.</p><h3>What Comes Next and Who Pays</h3><p>The practical stakes of this debate are immediate and personal. Decisions about wage indexation mechanisms, pension adjustments, public sector staffing, and benefit levels will feed directly into Belgian household budgets over the next three to four years. If the government proceeds with its consolidation plan on schedule, families already squeezed by above-average inflation will face the additional pressure of reduced public services and tighter labour market conditions, at least in the near term.</p><p>The data currently available gives critics a strong platform. The combination of confirmed GDP stagnation and accelerating inflation means that the economy is not generating the growth that would normally make fiscal adjustment more manageable. There is, as yet, no evidence that conditions are improving enough to validate the government&#x27;s implicit assumption that the economy can absorb ten billion euros in savings without tipping into a more serious slowdown. The coming months will test whether that confidence is warranted.</p><p>For the European Union more broadly, Belgium&#x27;s choices in the months ahead will serve as a closely watched indicator of how far fiscal consolidation can be pushed when growth is fragile and inflation remains above target. Brussels has consistently encouraged member states to repair public finances, but the Belgian case will probe the limits of that prescription in real time. With the 2029 savings deadline now locked in, the immediate next steps involve negotiations over exactly where cuts will fall, talks that are likely to define the domestic political landscape well into 2027 and beyond.</p>",
+      "keywords": "Belgium economy, Belgian inflation, austerity Belgium, Belgian budget 2029, eurozone inflation, GDP stagnation, Belgian fiscal policy, household purchasing power, wage indexation, European Union fiscal consolidation",
+      "sources": "National Bank of Belgium, GDP Q2 2026 data; Eurostat, Harmonised Index of Consumer Prices, August 2026; Belgian federal government budget documentation, savings plan to 2029; European Commission economic outlook and eurozone inflation data",
+      "pubDate": "2026-09-02",
+      "chartData": {
+        "values": [
+          4.2,
+          3.3
+        ],
+        "labels": [
+          "Belgium HICP Inflation August 2026",
+          "Eurozone HICP Inflation August 2026"
+        ]
+      }
+    },
     {
       "id": "article-a68f564",
       "title": "France's Confidence Vote Crisis Collides With a Stagnant Economy, Threatening EU Stability",
@@ -14097,6 +14119,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260902-belgium",
+      "title": "Belgium Caught Between Stagnation and Austerity · 02 Sep",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Belgium_Episode_2026_09_02.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 223,
+      "keywords": "Belgium economy, Belgian inflation, austerity Belgium, Belgian budget 2029, eurozone inflation, GDP stagnation, Belgian fiscal policy, household purchasing power, wage indexation, European Union fiscal consolidation",
+      "notes": "Belgium's economy flatlined in the second quarter of 2026 while inflation climbed to 4.2 percent in August, well above the eurozone average of 3.3 percent. The federal government is pressing ahead with a plan to cut roughly ten billion euros in spending by 2029, arguing that fiscal discipline is unavoidable. Critics warn that imposing austerity on an already stagnant economy risks making a difficult situation significantly worse for ordinary Belgians.",
+      "pubDate": "2026-09-02",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Belgium_Episode_2026_09_02.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Belgium_Short_2026_09_02.mp4"
+    },
     {
       "id": "episode-20260902-france",
       "title": "France's Confidence Vote Crisis Collides With a Stagnant Economy · 02 Sep",
