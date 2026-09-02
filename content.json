@@ -1,5 +1,5 @@
 {
-  "version": 1788239348445,
+  "version": 1788325347580,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-b7e485c",
+      "title": "Germany Faces Twin Pressures as Russia Drone Blame and Economic Stagnation Test Government Resolve",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "excerpt": "Berlin has publicly linked a suspected drone incident at Leipzig/Halle airport to Russia, raising the spectre of hybrid warfare on German soil while the government simultaneously struggles to convince voters that an economic recovery is underway. The two crises, one rooted in national security and the other in household finances, are converging at a politically sensitive moment. Together they are testing whether the German government can project stability at home and credibility abroad.",
+      "body": "<h3>A Drone Incident Sharpens Germany&#x27;s Hybrid Warfare Alarm</h3><p>German officials publicly attributed a suspected drone incident at Leipzig/Halle airport to Russia, a claim that prompted diplomatic retaliation and renewed warnings about the vulnerability of critical infrastructure. The incident, which has not yet been adjudicated through a fully public evidentiary process, was nonetheless treated by Berlin as a serious escalation, with intelligence assessments cited as the basis for the attribution. Russian representatives rejected the allegation outright.</p><p>The government argued that Germany is now facing active hybrid warfare and that a robust response is necessary to deter further attacks. Officials pointed to tighter security checks, increased diplomatic pressure, and a more defensive security posture as proportionate and justified measures. The broader framing of a deteriorating hybrid threat environment carries real weight: security analysts have long warned that Russian intelligence operations in Europe have intensified since the full-scale invasion of Ukraine in 2022.</p><p>Critics, however, cautioned that the government is moving quickly on the basis of intelligence claims rather than publicly verified facts. Some opposition voices warned that escalating confrontation without a fully transparent evidentiary record risks deepening tensions without guaranteeing deterrence. There was also an implicit concern that the focus on external threats could crowd out urgent domestic issues, notably prices, wages, and the condition of public services.</p><h3>An Economy Still Searching for Momentum</h3><p>Alongside the security alarm, Germany&#x27;s economic picture remains fragile. Growth is weak, business sentiment is cautious, and households are not yet feeling meaningful relief from a cost-of-living squeeze that has persisted for several years. Germany&#x27;s harmonised index of consumer prices stood at 2.9 percent in August 2026 and 2.8 percent in July, according to available data, meaning prices are still rising even if the rate has fallen significantly from earlier peaks.</p><p>The government&#x27;s position is that the economy is stabilising from a difficult base and that a combination of public investment, modernisation spending, and budget discipline will lay the groundwork for a durable recovery. Officials also cited slightly improving sentiment indicators and argued that easing inflation should gradually restore real incomes. The message is one of cautious optimism built on structural reform rather than immediate relief.</p><p>Opposition parties and unions pushed back, arguing the recovery narrative is premature. Industrial momentum remains soft, they said, and workers do not yet feel a broad-based improvement in wages or job security. The distinction between inflation falling and prices actually falling is, in practical terms, decisive for public mood: a household that saw its shopping bill rise sharply between 2021 and 2024 does not feel vindicated simply because the rate of increase has slowed. The dominant public sentiment, according to observers, is less optimism than a kind of resigned exhaustion, with relief that the worst of the price surge appears over but little confidence that the economy has turned a corner.</p><h3>Why the Combination of Crises Matters Beyond Germany</h3><p>The convergence of a security escalation and an economic malaise is more than a domestic political problem. Germany remains the European Union&#x27;s largest economy and one of its most consequential security actors. How Berlin responds to the Leipzig/Halle incident will influence the broader European debate on hybrid warfare, critical infrastructure protection, and the appropriate level of confrontation with Moscow. A credible and measured German response could reinforce EU-wide resolve; an overstated one could fracture consensus in capitals more wary of direct confrontation.</p><p>On the economic side, Germany&#x27;s stagnation has ripple effects across the single market. A Germany that cannot generate internal demand or sustain industrial competitiveness weakens growth prospects for its trading partners, complicates the European Central Bank&#x27;s calibration of monetary policy, and reduces Berlin&#x27;s fiscal room to contribute to shared EU investment priorities. The reform debate inside Germany is therefore not purely a national conversation.</p><p>In the near term, the government faces a dual credibility test. On security, it must demonstrate that its hybrid warfare response is proportionate, evidence-based, and effective enough to deter without triggering unintended escalation. On the economy, it must show that its investment-led reform agenda will produce tangible improvements for ordinary households before patience runs out. With inflation still above target, growth still subdued, and a newly sharpened security threat feeding public anxiety, the margin for political error is narrow. The next set of economic indicators and any further developments in the drone investigation will be watched closely both in Berlin and in Brussels.</p>",
+      "keywords": "Germany, Russia, hybrid warfare, drone incident, Leipzig/Halle, German economy, inflation, HICP, economic reform, critical infrastructure, European security, EU economy, Berlin, diplomatic retaliation, cost of living",
+      "sources": "Reuters reporting on Germany-Russia drone incident attribution; German government statements on hybrid warfare and infrastructure security; Russian government denial of involvement in Leipzig/Halle incident; Eurostat and national statistics on Germany HICP inflation August and July 2026; Analysis of German business sentiment and economic outlook indicators; EU economic and defence policy context reporting",
+      "pubDate": "2026-09-02",
+      "chartData": {
+        "values": [
+          2.9,
+          2.8
+        ],
+        "labels": [
+          "Germany HICP August 2026",
+          "Germany HICP July 2026"
+        ]
+      }
+    },
     {
       "id": "article-f16d188",
       "title": "Greece Between Recovery and Reality: Inflation Relief Rings Hollow as Climate Bills Mount",
@@ -14051,6 +14073,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260902-germany",
+      "title": "Germany Faces Twin Pressures as Russia Drone Blame and Economic Stagnation… · 02 Sep",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "duration": "8:33",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Germany_Episode_2026_09_02.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 221,
+      "keywords": "Germany, Russia, hybrid warfare, drone incident, Leipzig/Halle, German economy, inflation, HICP, economic reform, critical infrastructure, European security, EU economy, Berlin, diplomatic retaliation, cost of living",
+      "notes": "Berlin has publicly linked a suspected drone incident at Leipzig/Halle airport to Russia, raising the spectre of hybrid warfare on German soil while the government simultaneously struggles to convince voters that an economic recovery is underway. The two crises, one rooted in national security and the other in household finances, are converging at a politically sensitive moment. Together they are testing whether the German government can project stability at home and credibility abroad.",
+      "pubDate": "2026-09-02",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Germany_Episode_2026_09_02.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Germany_Short_2026_09_02.mp4"
+    },
     {
       "id": "episode-20260901-greece",
       "title": "Greece Between Recovery and Reality: Inflation Relief Rings Hollow · 01 Sep",
