@@ -32,6 +32,21 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Belgium Caught Between Stagnation and Austerity · 02 Sep</title>
+      <description>Belgium&apos;s economy flatlined in the second quarter of 2026 while inflation climbed to 4.2 percent in August, well above the eurozone average of 3.3 percent. The federal government is pressing ahead with a plan to cut roughly ten billion euros in spending by 2029, arguing that fiscal discipline is unavoidable. Critics warn that imposing austerity on an already stagnant economy risks making a difficult situation significantly worse for ordinary Belgians.</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_09_02/Belgium_Episode_2026_09_02.mp3" length="5271537" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260902-belgium</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260902-belgium</link>
+      <itunes:duration>8:00</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>223</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Belgium economy, Belgian inflation, austerity Belgium, Belgian budget 2029, eurozone inflation, GDP stagnation, Belgian fiscal policy, household purchasing power, wage indexation, European Union fiscal consolidation</itunes:keywords>
+      <podcast:transcript url="https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Belgium_Episode_2026_09_02.txt" type="text/plain" language="en"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>France&apos;s Confidence Vote Crisis Collides With a Stagnant Economy · 02 Sep</title>
       <description>France is navigating a dangerous convergence of political paralysis and economic fragility, as a minority government faces a confidence vote that could topple it before a contested budget is passed. With second-quarter growth revised to zero and inflation still above comfort levels, the stakes extend well beyond Paris, touching the broader eurozone and Europe&apos;s capacity to enforce fiscal discipline. The crisis is testing whether a major European democracy can make hard economic choices while retaining public consent.</description>
       <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_09_02/France_Episode_2026_09_02.mp3" length="5402521" type="audio/mpeg"/>
