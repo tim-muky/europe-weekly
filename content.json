@@ -1,5 +1,5 @@
 {
-  "version": 1788325600242,
+  "version": 1788325735322,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8d80c02",
+      "title": "Dutch Cabinet Survives Budget Crisis but Fragility Lingers as Inflation Bites",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "excerpt": "A last-minute budget agreement has kept the Dutch minority cabinet alive, but the deal has laid bare the government's dependence on opposition support and its vulnerability to future political shocks. Meanwhile, Dutch inflation rose to 3.3 percent in August, adding to persistent household pressure on energy, rent, and groceries. Together, the two developments paint a picture of a government navigating both parliamentary brinkmanship and an unresolved cost-of-living squeeze.",
+      "body": "<h3>A Deal That Reveals More Than It Resolves</h3><p>The Dutch coalition government secured a budget agreement this week, averting what could have become an immediate government crisis. But the circumstances of the deal — reached only after a prolonged deadlock and intensive last-minute negotiations — have raised serious questions about the cabinet&#x27;s long-term viability and its capacity to govern beyond the next deadline.</p><p>As a minority cabinet, the government depends on support from opposition parties to pass key legislation and fiscal plans. That structural weakness was on full display during the budget talks, where the coalition was forced to seek cross-party backing rather than rely on its own majority. Supporters of the government argued the outcome demonstrated fiscal responsibility and a pragmatic willingness to work across parliamentary lines. Prime Minister&#x27;s allies said the deal showed the cabinet could still deliver basic continuity even under difficult conditions.</p><p>Critics were less generous. Opposition figures argued the agreement was a patchwork compromise that exposed how the cabinet is governing from one crisis to the next, without a durable mandate or coherent programme. The brinkmanship that preceded the deal, they said, was not a sign of competence but of systemic weakness. For ordinary Dutch citizens, the practical consequences of budget instability are real: decisions on taxes, housing policy, public services, and welfare benefits can all be delayed or distorted when a government is focused on its own political survival rather than long-term planning.</p><h3>Inflation Edges Up, Households Feel the Strain</h3><p>Compounding the political uncertainty is a cost-of-living picture that offers little comfort to Dutch households. Statistics Netherlands, known as CBS, reported that Dutch inflation rose to 3.3 percent in August, up from 3.2 percent in July. Energy and fuel costs were among the key drivers of the increase, according to the data, pushing up bills for consumers already stretched by elevated prices across rent, food, and transport.</p><p>Eurostat&#x27;s flash estimate placed Dutch HICP inflation — the harmonised measure used for EU-wide comparisons — at 2.8 percent, still above the European Central Bank&#x27;s 2 percent target and a signal that price pressures in the Netherlands have not meaningfully subsided. Government officials have pointed out that inflation is well below the peaks seen during the 2022 energy crisis, arguing that the broader economy remains functional and that the trajectory is one of gradual easing. That framing, however, has met with scepticism.</p><p>For households managing monthly budgets, the statistical comparison to worse years provides limited relief. Prices continue to rise in absolute terms, and energy costs in particular have re-emerged as a pressure point. Opposition parties and consumer advocates have argued that characterising the current situation as inflation &quot;coming down&quot; risks appearing disconnected from the daily experience of working families. The mood among Dutch households, analysts suggest, is less one of acute panic than of accumulated fatigue — a resignation to persistent financial pressure that has now stretched across several years.</p><h3>What Comes Next: Stability Tests and the EU Dimension</h3><p>The immediate budget crisis may have passed, but the structural conditions that produced it have not changed. The Dutch government still lacks a parliamentary majority of its own, meaning each significant legislative vote carries the risk of defeat, defection, or the need for fresh negotiations with opposition parties. Political observers in The Hague have noted that the cabinet&#x27;s position could become increasingly untenable if it faces multiple such confrontations in the months ahead, particularly as the budget begins to be implemented and trade-offs become concrete rather than theoretical.</p><p>The Netherlands&#x27; political situation also carries implications beyond its own borders. As one of the eurozone&#x27;s fiscally significant economies — historically a proponent of budget discipline within the EU — domestic instability in The Hague can ripple outward. Dutch uncertainty affects the country&#x27;s positioning in EU-level negotiations over energy policy, the reform of fiscal rules, and broader economic governance debates where Dutch support or opposition can shift outcomes. Market confidence in the Netherlands&#x27; fiscal trajectory may also be tested if the perception grows that the cabinet cannot sustain a coherent multi-year spending plan.</p><p>On inflation, the ECB&#x27;s monetary policy path remains closely watched. If Dutch and broader eurozone price pressures persist through the autumn, the case for interest rate cuts becomes harder to sustain, keeping borrowing costs elevated for households with variable-rate mortgages and businesses dependent on credit. The next Dutch inflation reading and any further political turbulence in parliament are now the two near-term indicators that will define whether the cabinet&#x27;s fragile equilibrium holds — or whether the crisis that was averted this week simply arrives in a different form.</p>",
+      "keywords": "Netherlands, Dutch coalition, minority government, budget deal, inflation, cost of living, CBS, Eurostat, HICP, energy costs, Dutch politics, EU fiscal policy, eurozone, The Hague",
+      "sources": "CBS (Statistics Netherlands), Dutch CPI and HICP inflation data, August 2024; Eurostat flash inflation estimate, August 2024; Dutch parliamentary reporting on coalition budget negotiations",
+      "pubDate": "2026-09-02",
+      "chartData": {
+        "values": [
+          3.3,
+          2.8,
+          3.2
+        ],
+        "labels": [
+          "Dutch CPI Aug (CBS)",
+          "Dutch HICP Aug (Eurostat)",
+          "Dutch CPI Jul (CBS)"
+        ]
+      }
+    },
     {
       "id": "article-339cdc5",
       "title": "Belgium Caught Between Stagnation and Austerity as Inflation Squeezes Households",
@@ -14119,6 +14143,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260902-netherlands",
+      "title": "Netherlands: Dutch Cabinet Survives Budget Crisis but Fragility Lingers as Inflation Bites · 02 Sep",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "duration": "8:53",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Netherlands_Episode_2026_09_02.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 224,
+      "keywords": "Netherlands, Dutch coalition, minority government, budget deal, inflation, cost of living, CBS, Eurostat, HICP, energy costs, Dutch politics, EU fiscal policy, eurozone, The Hague",
+      "notes": "A last-minute budget agreement has kept the Dutch minority cabinet alive, but the deal has laid bare the government's dependence on opposition support and its vulnerability to future political shocks. Meanwhile, Dutch inflation rose to 3.3 percent in August, adding to persistent household pressure on energy, rent, and groceries. Together, the two developments paint a picture of a government navigating both parliamentary brinkmanship and an unresolved cost-of-living squeeze.",
+      "pubDate": "2026-09-02",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Netherlands_Episode_2026_09_02.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_02/Netherlands_Short_2026_09_02.mp4"
+    },
     {
       "id": "episode-20260902-belgium",
       "title": "Belgium Caught Between Stagnation and Austerity · 02 Sep",
