@@ -1,5 +1,5 @@
 {
-  "version": 1788411735182,
+  "version": 1788411870998,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-f40d4af",
+      "title": "Slovenia Caught Between Fiscal Strain and Foreign-Policy Controversy",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "excerpt": "Slovenia is grappling simultaneously with an economy that has yet to fully normalize after years of inflationary pressure and a foreign policy stance on the Israeli-Palestinian conflict that is drawing both admiration and sharp criticism at home and in Brussels. With the government's deficit edging toward the EU's 3% ceiling and two Israeli ministers declared persona non grata in an unprecedented move, Ljubljana finds itself navigating unusually turbulent waters. The twin pressures are testing public patience and raising questions about the government's priorities.",
+      "body": "<h3>An Economy Under Pressure, Not in Crisis</h3><p>Slovenia&#x27;s economy continues to grow, but not fast enough, and not cleanly enough, to quiet its critics. The European Commission and the Bank of Slovenia both forecast growth of around 1.9% for 2026, a figure the government has cited as evidence of resilience. Yet the same forecasts project inflation remaining elevated at approximately 3.5% to 3.6% next year, and a fiscal deficit of around 3.3% of GDP, a level that would breach the EU&#x27;s headline ceiling of 3%.</p><p>For ordinary Slovenians, these numbers translate into continued pressure at the checkout and uncertainty about mortgage costs, wages, and public services. The government argues it is managing competing demands responsibly, pointing to ongoing investment in pensions, a long-term care framework, and public sector wage reform. Officials have stated these are sustainable policy choices, not reckless spending.</p><p>Opposition parties, employer associations, and parts of the trade union movement disagree. They argue the deficit trajectory shows a government spending beyond its means while inflation has not been tamed. The data, on balance, support the more cautious reading: claims that Slovenia&#x27;s inflation challenge is largely resolved are not backed by the current forecasts, and the country risks entering EU excessive deficit proceedings if trends do not improve.</p><h3>The Israel Move: Principled Stand or Diplomatic Gamble?</h3><p>On the foreign-policy front, Slovenia&#x27;s government has taken a markedly assertive position on the conflict in Gaza. In a step described by analysts as unprecedented for a European Union member state, Ljubljana declared two Israeli government ministers persona non grata, a punitive diplomatic measure that goes considerably further than the critical statements issued by most EU partners.</p><p>The government and its supporters argue Slovenia is acting on principle. They frame the move as consistent with the country&#x27;s earlier recognition of Palestinian statehood and with the broader, if unevenly applied, EU criticism of Israeli military conduct in Gaza. Supporters said Slovenia is demonstrating that small member states can and should act on international law, even when larger partners hesitate.</p><p>Critics, including opposition politicians and media commentators, contend the measure is more performative than strategic. They argued it risks diplomatic isolation, complicates Slovenia&#x27;s standing in Brussels, and may not yield any practical benefit for people in Gaza. A parallel controversy has emerged around public broadcaster RTV Slovenija and its editorial choices related to the Eurovision Song Contest and Palestinian coverage, with opponents accusing the institution of allowing partisan political signals to shape cultural programming. The government has rejected that characterisation, but the debate has deepened existing tensions over media independence.</p><h3>Outlook: Tight Budgets, Tense Alliances, and a Credibility Test</h3><p>The coming months will test whether Ljubljana can hold its fiscal position without triggering formal EU scrutiny. The European Commission&#x27;s next round of fiscal assessments is expected to focus closely on member states where deficits are approaching or exceeding the 3% threshold. For Slovenia, the window to make credible corrective moves is narrowing, and any significant new spending commitments would attract immediate attention from Brussels.</p><p>On foreign policy, the situation is unlikely to stabilise quickly. The persona non grata declarations have no obvious off-ramp and will continue to shape bilateral diplomatic channels. How Slovenia&#x27;s EU partners respond, whether with quiet disapproval or more open engagement with Ljubljana&#x27;s arguments, will partly determine whether the government&#x27;s approach is seen as courageous leadership or costly overreach.</p><p>Taken together, the two pressures create a credibility test for Prime Minister Robert Golob&#x27;s administration. Voters appear neither panicked nor fully reassured, according to the general picture emerging from public commentary, a mood of resigned impatience rather than acute alarm. Whether the government can deliver on wage promises, contain the deficit, and manage a charged foreign policy agenda without losing the political centre will define Slovenia&#x27;s domestic and European story for the remainder of the parliamentary term.</p>",
+      "keywords": "Slovenia, economy, inflation, fiscal deficit, EU fiscal rules, Israel, Palestine, foreign policy, persona non grata, RTV Slovenija, Eurovision, Robert Golob, European Commission, Bank of Slovenia, Gaza",
+      "sources": "European Commission economic forecasts, spring 2025; Bank of Slovenia macroeconomic projections; RTV Slovenija reporting on diplomatic measures; Slovenian government public statements on Israel-Palestine policy",
+      "pubDate": "2026-09-03",
+      "chartData": {
+        "values": [
+          1.9,
+          3.6,
+          3.3
+        ],
+        "labels": [
+          "GDP Growth Forecast 2026 (%)",
+          "Inflation Forecast 2026 (%)",
+          "Deficit Forecast 2026 (% of GDP)"
+        ]
+      }
+    },
     {
       "id": "article-40fb9ee",
       "title": "Bulgaria's Budget Crisis and Corruption Protests Test the Promise of Eurozone Membership",
@@ -14169,6 +14193,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260903-slovenia",
+      "title": "Slovenia Caught Between Fiscal Strain and Foreign-Policy Controversy · 03 Sep",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "duration": "8:58",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_03/Slovenia_Episode_2026_09_03.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 226,
+      "keywords": "Slovenia, economy, inflation, fiscal deficit, EU fiscal rules, Israel, Palestine, foreign policy, persona non grata, RTV Slovenija, Eurovision, Robert Golob, European Commission, Bank of Slovenia, Gaza",
+      "notes": "Slovenia is grappling simultaneously with an economy that has yet to fully normalize after years of inflationary pressure and a foreign policy stance on the Israeli-Palestinian conflict that is drawing both admiration and sharp criticism at home and in Brussels. With the government's deficit edging toward the EU's 3% ceiling and two Israeli ministers declared persona non grata in an unprecedented move, Ljubljana finds itself navigating unusually turbulent waters. The twin pressures are testing public patience and raising questions about the government's priorities.",
+      "pubDate": "2026-09-03",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_03/Slovenia_Episode_2026_09_03.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_03/Slovenia_Short_2026_09_03.mp4"
+    },
     {
       "id": "episode-20260903-bulgaria",
       "title": "Bulgaria's Budget Crisis and Corruption Protests Test the Promise of Eurozone… · 03 Sep",
