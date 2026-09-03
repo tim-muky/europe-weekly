@@ -1,5 +1,5 @@
 {
-  "version": 1788412009057,
+  "version": 1788412142209,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-cb74594",
+      "title": "Croatia Walks a Tightrope Between Resilience and Reform as Inflation Lingers",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "excerpt": "Croatia's economy continues to grow, but slowing momentum and persistent price pressures are testing the government's claim that households are being protected. With inflation projected at 4.6 percent for 2026 and GDP growth forecast to ease to 2.7 percent, Zagreb faces a delicate balancing act between fiscal discipline and public discontent. The country is emerging as a telling case study for the European Union of whether smaller euro-area economies on the periphery can manage growth, disinflation, and budget stability simultaneously.",
+      "body": "<h3>Prices Keep Rising, Even as the Government Claims Victory</h3><p>Croatia&#x27;s government has spent much of the past year pointing to easing inflation as evidence that its economic management is working. The argument has some grounding in fact. The country&#x27;s Harmonised Index of Consumer Prices registered 3.6 percent in July 2026 on a monthly reading, down from the sharper peaks of recent years. Officials have accompanied this with pledges that wage increases, pension uplifts, and targeted social transfers are cushioning households from the worst of the price squeeze.</p><p>The fuller picture, however, is less comfortable. The European Commission projects Croatia&#x27;s overall HICP inflation at 4.6 percent for 2026 as a whole, a figure that the Croatian National Bank&#x27;s own earlier forecasts had also flagged as likely to remain elevated before any meaningful easing. That means prices are not falling; they are rising more slowly. For families navigating supermarket aisles, energy bills, and rental markets, the distinction carries little relief. Food, services, and housing costs remain stubbornly high, and the cumulative effect of two years of above-average inflation has left real purchasing power visibly compressed.</p><p>Opposition parties and consumer advocacy groups have seized on this gap between government messaging and household experience. The charge is not that inflation data is fabricated, but that a month-to-month deceleration is being presented as a comfort story it does not yet deserve to be. The public mood, according to analysts tracking Croatian consumer sentiment, is less panic than exhaustion: a grinding frustration that relief, when it comes, arrives unevenly and slowly.</p><h3>Growth Slows but Holds, While Structural Questions Go Unanswered</h3><p>Beyond inflation, Croatia&#x27;s broader economic trajectory is drawing scrutiny. The European Commission forecasts GDP growth of 2.7 percent for 2026, a meaningful step down from the stronger expansion rates the country recorded in the post-pandemic rebound years. The government frames this as a controlled moderation: growth is positive, the deficit stands at approximately 2.9 percent of GDP, and public debt at around 55.9 percent of GDP remains well within limits that Brussels considers manageable for a euro-area member of Croatia&#x27;s size and profile.</p><p>Critics, including opposition lawmakers and several independent economists, argue that the headline numbers obscure a more troubling reality. Croatia&#x27;s growth model, they contend, rests too heavily on private consumption, public expenditure, and the absorption of European Union structural funds rather than on productivity gains, export diversification, or private investment. The OECD has noted that while growth should remain robust in the near term, fiscal policy ought to be calibrated to support disinflation and that policymakers should be preparing for longer-term spending pressures, including those from an ageing population and infrastructure investment needs. In this reading, stability and structural weakness are coexisting rather than contradicting each other.</p><p>The government is not without a credible counter-argument. EU fund absorption has improved and wage growth in both the public and private sectors has outpaced several regional peers. But the opposition&#x27;s critique lands in a specific way with younger Croatians and skilled workers, a demographic that has continued to emigrate in search of higher wages and better opportunities elsewhere in the EU. Brain drain remains a slow-burning structural risk that quarterly growth figures alone cannot resolve.</p><h3>Croatia as a Test Case for Euro-Area Peripheral Economies</h3><p>What happens in Croatia matters beyond its borders for at least one significant reason. As a relatively recent addition to the euro area, Zagreb provides a live experiment in whether a smaller, peripheral EU economy can sustain growth, keep deficits in check, and bring inflation down without a hard landing or severe social disruption. The European Commission and the European Central Bank are both watching such cases closely as the broader euro-area disinflation process plays out at different speeds across member states.</p><p>The near-term political calendar will sharpen these pressures. Budget negotiations for 2027 are expected to begin in earnest in the autumn, and the government will face simultaneous demands: to maintain social spending to ease cost-of-living pressures, to keep the deficit within agreed EU fiscal framework boundaries, and to accelerate structural reforms that have repeatedly been flagged as overdue. Any one of those objectives would be manageable in isolation. Pursuing all three in a slower-growth, still-elevated inflation environment will test Zagreb&#x27;s political arithmetic considerably.</p><p>For ordinary Croatian households, the practical stakes are straightforward. If wage gains continue to outpace inflation through 2026 and into 2027, real incomes can recover gradually and political pressure on the government will ease. If inflation proves stickier than current projections suggest, or if growth disappoints, the combination of higher prices and tighter budgets could translate into sharper public discontent. The government&#x27;s room to manoeuvre is real but finite, and the margin for error is narrowing with each quarter that inflation remains above the European average.</p>",
+      "keywords": "Croatia, inflation, GDP growth, European Commission, euro area, fiscal policy, cost of living, HICP, Croatian National Bank, OECD, public debt, deficit, economic reform, EU funds",
+      "sources": "European Commission economic forecast for Croatia 2026; Croatian National Bank inflation projections; OECD economic analysis on Croatia and euro-area peripheral economies",
+      "pubDate": "2026-09-03",
+      "chartData": {
+        "values": [
+          4.6,
+          2.7,
+          2.9,
+          55.9
+        ],
+        "labels": [
+          "Inflation HICP 2026 (%)",
+          "GDP Growth 2026 (%)",
+          "Deficit % of GDP",
+          "Public Debt % of GDP"
+        ]
+      }
+    },
     {
       "id": "article-266dcf7",
       "title": "Romania Faces Twin Crises as Political Deadlock Threatens Fiscal Fix and EU Funding Lifeline",
@@ -14217,6 +14243,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260903-croatia",
+      "title": "Croatia Walks a Tightrope Between Resilience and Reform as Inflation Lingers · 03 Sep",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "duration": "8:18",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_03/Croatia_Episode_2026_09_03.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 228,
+      "keywords": "Croatia, inflation, GDP growth, European Commission, euro area, fiscal policy, cost of living, HICP, Croatian National Bank, OECD, public debt, deficit, economic reform, EU funds",
+      "notes": "Croatia's economy continues to grow, but slowing momentum and persistent price pressures are testing the government's claim that households are being protected. With inflation projected at 4.6 percent for 2026 and GDP growth forecast to ease to 2.7 percent, Zagreb faces a delicate balancing act between fiscal discipline and public discontent. The country is emerging as a telling case study for the European Union of whether smaller euro-area economies on the periphery can manage growth, disinflation, and budget stability simultaneously.",
+      "pubDate": "2026-09-03",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_03/Croatia_Episode_2026_09_03.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_03/Croatia_Short_2026_09_03.mp4"
+    },
     {
       "id": "episode-20260903-romania",
       "title": "Romania Faces Twin Crises as Political Deadlock Threatens Fiscal Fix and EU… · 03 Sep",
