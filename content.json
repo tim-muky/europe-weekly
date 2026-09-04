@@ -1,5 +1,5 @@
 {
-  "version": 1788498146307,
+  "version": 1788498285943,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-117860d",
+      "title": "Slovakia Caught Between Austerity Demands and a Cost-of-Living Squeeze",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "Slovakia faces a deepening tension between the need to consolidate its public finances and the strain that rising prices and a softening labour market are placing on ordinary households. With the country's long-term fiscal sustainability rated as high-risk by European indicators, the government insists that spending restraint is unavoidable. Critics argue the burden is falling disproportionately on citizens rather than on structural reform.",
+      "body": "<h3>A Fiscal Warning Sign That Cannot Be Ignored</h3><p>Of all the economic fault lines running through Central Europe, Slovakia&#x27;s fiscal position has become one of the most politically charged. Eurostat data and European Commission sustainability indicators place the country in a high-risk category for long-term public finance stability, a classification that has given the government in Bratislava both a justification for austerity and a political liability it cannot easily shed.</p><p>The government&#x27;s position is that the arithmetic of public borrowing leaves little room for manoeuvre. Officials argue that tighter budgets and spending restraint are not ideological choices but necessary steps to avoid a debt spiral that would ultimately cost Slovaks far more than the current consolidation measures. Prime Minister Robert Fico&#x27;s administration has framed fiscal discipline as a form of responsible stewardship, pointing to the eurozone&#x27;s shared rules and the risks of prolonged deficit overruns.</p><p>The opposition disputes that framing with force. Critics argue that the government is using the language of fiscal responsibility to obscure weak economic governance, effectively socialising the cost of adjustment onto households and public services while failing to produce the growth that would make consolidation more bearable. The fault line, in other words, is not over whether deficits matter but over who pays to close them and how fast.</p><h3>Inflation Still Biting, Unemployment Edging Higher</h3><p>The second pressure reinforcing the first is the cost of living. Slovakia&#x27;s harmonised index of consumer prices stood at 3.2 percent in July 2026, according to Eurostat, a figure that represents a decline from earlier peaks but remains above the euro area average. For policymakers, the direction of travel is encouraging. For many Slovak households, the absolute level of prices is still the lived reality, and the distinction between inflation falling and prices being affordable is one that political messaging has struggled to bridge.</p><p>Wage growth has continued, and the government points to this as evidence that the labour market has not broken down. The broader picture, however, is less reassuring. Eurostat figures show Slovakia&#x27;s unemployment rate at approximately 5.7 percent in July 2026, with the trend line pointing modestly upward rather than stabilising. When inflation stays above the euro area norm while joblessness rises simultaneously, the combination tends to produce political discontent even in the absence of an acute economic crisis.</p><p>The opposition has been direct in exploiting this gap between statistical improvement and household experience. Arguing that &quot;inflation is down&quot; is only partially true in political terms, critics have pointed out that prices remain elevated enough to erode purchasing power for lower and middle-income workers, precisely those groups least able to absorb both higher costs and the threat of job insecurity at the same time.</p><h3>A Test Case for the Eurozone&#x27;s Political Limits</h3><p>Slovakia&#x27;s predicament is not unique within the eurozone, but it is a particularly clear illustration of a broader dilemma facing smaller member states. The single currency removes the option of exchange rate adjustment, leaving governments with a narrower set of tools when growth weakens and fiscal rules demand consolidation simultaneously. How Bratislava navigates that constraint over the coming months will be watched closely in Brussels and in peer economies facing similar pressures.</p><p>For the European Union, the stakes extend beyond Slovakia&#x27;s own balance sheet. The bloc is in the process of applying its revised fiscal framework, and member states in high-risk sustainability categories face closer scrutiny and potentially binding corrective recommendations. Any perception that fiscal consolidation is generating social instability rather than durable adjustment could complicate the political case for the rules-based approach across the currency union.</p><p>The immediate outlook depends on whether inflation continues to ease and whether the labour market stabilises before public frustration hardens into sustained opposition. If price pressures moderate and unemployment plateaus, the government may be able to argue that the worst of the adjustment is behind Slovakia. If unemployment continues to drift upward while cost-of-living relief remains incremental, the politics are likely to turn more hostile, not less, regardless of what the headline deficit figures show. The next set of Eurostat releases and any European Commission assessment of Slovakia&#x27;s fiscal path will serve as the clearest markers of which scenario is taking shape.</p>",
+      "keywords": "Slovakia, fiscal consolidation, public finances, austerity, inflation, cost of living, unemployment, eurozone, Bratislava, Eurostat, European Commission, labour market, deficit, debt sustainability",
+      "sources": "Eurostat, harmonised index of consumer prices, July 2026; Eurostat, unemployment statistics, July 2026; European Commission, long-term fiscal sustainability indicators; European Commission, Stability and Growth Pact revised framework",
+      "pubDate": "2026-09-04",
+      "chartData": {
+        "values": [
+          3.2,
+          5.7
+        ],
+        "labels": [
+          "HICP Inflation July 2026 (%)",
+          "Unemployment Rate July 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-fe5b236",
       "title": "Czech Budget Battle: Looser Fiscal Rules and NATO Spending Put Prague's Finances in the Spotlight",
@@ -14269,6 +14291,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260904-slovakia",
+      "title": "Slovakia Caught Between Austerity Demands and a Cost-of-Living Squeeze · 04 Sep",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "8:05",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Slovakia_Episode_2026_09_04.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 230,
+      "keywords": "Slovakia, fiscal consolidation, public finances, austerity, inflation, cost of living, unemployment, eurozone, Bratislava, Eurostat, European Commission, labour market, deficit, debt sustainability",
+      "notes": "Slovakia faces a deepening tension between the need to consolidate its public finances and the strain that rising prices and a softening labour market are placing on ordinary households. With the country's long-term fiscal sustainability rated as high-risk by European indicators, the government insists that spending restraint is unavoidable. Critics argue the burden is falling disproportionately on citizens rather than on structural reform.",
+      "pubDate": "2026-09-04",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Slovakia_Episode_2026_09_04.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Slovakia_Short_2026_09_04.mp4"
+    },
     {
       "id": "episode-20260904-czechia",
       "title": "Czechia: Czech Budget Battle: Looser Fiscal Rules and NATO Spending Put Prague's… · 04 Sep",
