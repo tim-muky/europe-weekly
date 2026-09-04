@@ -1,5 +1,5 @@
 {
-  "version": 1788498285943,
+  "version": 1788498415033,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-06f75f8",
+      "title": "Hungary at a Crossroads: Corruption Probes and a Fragile Recovery Test the New Government",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary's new government is pursuing a criminal investigation into alleged abuses at the state-owned Eximbank, while the broader economy posts modest growth against a backdrop of lingering household pressure. The twin challenges of institutional accountability and an uneven economic recovery are defining the early character of the post-Orbán political era. How Budapest navigates both will have consequences not only for Hungarian citizens but for the country's standing with the European Union.",
+      "body": "<h3>A State Bank Under Scrutiny: The Eximbank Probe and What It Signals</h3><p>At the centre of Hungary&#x27;s political transition sits a criminal investigation into suspected misuse of public funds at Eximbank, the state-owned export credit institution that became a key instrument of economic statecraft under the previous administration. According to Reuters, the probe — triggered by an economy ministry audit — includes scrutiny of a large loan extended to North Macedonia, raising questions about the criteria and oversight applied to politically sensitive lending decisions made under the Orbán government.</p><p>The current government has framed the investigation as a necessary condition for genuine change, arguing that a credible break with the past requires pursuing suspected misconduct wherever public money was involved, including inside state banks and ministry-linked contracts. Officials said the probe is part of a wider accountability drive intended to restore trust in institutions that critics had long argued were captured by politically connected networks.</p><p>Not everyone is persuaded. Opposition voices and independent analysts have warned that a sweeping purge risks becoming selective justice — targeting rivals while shielding allies — and that the spectacle of rolling investigations could unsettle investors and blur the line between lawful legal review and political retribution. The existence of the probe is confirmed; its ultimate scope and motivation remain an open question that neither the government nor its critics can yet resolve with available evidence.</p><h3>GDP Is Positive, but Hungary&#x27;s Recovery Remains Uneven and Vulnerable</h3><p>Hungary recorded year-on-year GDP growth of 1.7 percent in the second quarter of 2026, a figure that confirms the economy is moving forward but falls well short of the kind of expansion that translates into broad improvements in living standards. Analysts noted that growth was partially constrained by drought conditions, which weighed on agricultural output and dealt a specific blow to rural communities and farm incomes already under strain from years of price pressures.</p><p>On inflation, the headline numbers have improved markedly. Eurostat data shows Hungary&#x27;s harmonised index of consumer prices rising at an annual rate of 1.6 percent in July 2026, while Hungary&#x27;s own statistical office reported consumer price inflation of 1.2 percent year on year for the same month — a sharp retreat from the double-digit peaks that battered household budgets in previous years. The government has pointed to this disinflation as evidence that its economic management is bearing fruit.</p><p>The counter-argument, advanced by opposition economists and labour advocates, is that lower inflation does not mean lower prices. After the surge of recent years, the overall price level remains substantially higher than it was before the inflationary episode began, meaning that food, housing, and services continue to stretch household budgets even as the pace of price increases slows. The official data supports the claim that inflation is down; it does not support the conclusion that the cost-of-living crisis is resolved.</p><h3>Outlook: Institutional Trust and Economic Credibility Are Both on the Line</h3><p>For the European Union, the two stories are linked by a common thread: credibility. Hungary&#x27;s strained relationship with Brussels over rule-of-law standards has already affected the flow of EU cohesion and recovery funds, and European institutions will be watching closely to see whether the Eximbank investigation proceeds through transparent, due-process channels or becomes a vehicle for politically motivated appointments and selective accountability. The standard Brussels will apply is not whether investigations are launched, but whether they result in fair legal outcomes governed by independent institutions.</p><p>On the economic side, Hungary&#x27;s modest recovery and its return to low inflation place it within a broadly manageable position relative to its regional peers, but the fragility is real. A second drought year, a deterioration in eurozone demand — Hungary&#x27;s dominant export market — or renewed energy price shocks could easily tip the balance back toward stagnation. The European Central Bank&#x27;s rate trajectory and the health of German industrial output, both outside Budapest&#x27;s control, will shape Hungary&#x27;s economic room for manoeuvre in the months ahead.</p><p>The coming months will determine whether Hungary&#x27;s new political leadership can convert institutional drama into durable reform. Citizens and markets are watching for the same signal: that investigations lead to convictions or acquittals rather than indefinite limbo, and that GDP growth eventually translates into wages and purchasing power that people can feel. Both tests remain unresolved, and the window for establishing credibility — with voters, with Brussels, and with investors — is narrowing.</p>",
+      "keywords": "Hungary, Eximbank, corruption probe, anti-corruption, Orbán, GDP growth, inflation, HICP, economic recovery, European Union, rule of law, EU funds, Hungarian politics, cost of living, disinflation",
+      "sources": "Reuters, criminal probe into Eximbank and economy ministry audit; Eurostat, HICP inflation data for Hungary, July 2026; Hungarian Central Statistical Office (KSH), consumer price index, July 2026; Hungarian GDP flash estimate, Q2 2026",
+      "pubDate": "2026-09-04",
+      "chartData": {
+        "values": [
+          1.7,
+          1.6,
+          1.2
+        ],
+        "labels": [
+          "GDP Growth Q2 2026 (%)",
+          "HICP Inflation July 2026 (%)",
+          "CPI Inflation July 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-117860d",
       "title": "Slovakia Caught Between Austerity Demands and a Cost-of-Living Squeeze",
@@ -14291,6 +14315,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260904-hungary",
+      "title": "Hungary at a Crossroads: Corruption Probes and a Fragile Recovery Test the… · 04 Sep",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:01",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Hungary_Episode_2026_09_04.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 231,
+      "keywords": "Hungary, Eximbank, corruption probe, anti-corruption, Orbán, GDP growth, inflation, HICP, economic recovery, European Union, rule of law, EU funds, Hungarian politics, cost of living, disinflation",
+      "notes": "Hungary's new government is pursuing a criminal investigation into alleged abuses at the state-owned Eximbank, while the broader economy posts modest growth against a backdrop of lingering household pressure. The twin challenges of institutional accountability and an uneven economic recovery are defining the early character of the post-Orbán political era. How Budapest navigates both will have consequences not only for Hungarian citizens but for the country's standing with the European Union.",
+      "pubDate": "2026-09-04",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Hungary_Episode_2026_09_04.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Hungary_Short_2026_09_04.mp4"
+    },
     {
       "id": "episode-20260904-slovakia",
       "title": "Slovakia Caught Between Austerity Demands and a Cost-of-Living Squeeze · 04 Sep",
