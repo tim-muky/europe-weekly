@@ -1,5 +1,5 @@
 {
-  "version": 1788498415033,
+  "version": 1788498554563,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-50f8aa4",
+      "title": "Austria Caught Between Inflation Fatigue and Reform Promises as Coalition Credibility Faces Test",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "excerpt": "Austria's governing coalition is navigating a dual pressure test: persistent inflation that continues to squeeze households and businesses, and an ambitious but so far unproven agenda to modernise and streamline the state. With August 2026 consumer price growth still running above the European Central Bank's two percent target, the gap between government messaging and lived experience is widening. The political stakes are high, and public patience is wearing thin.",
+      "body": "<h3>Inflation Eases but Relief Remains Elusive for Austrian Households</h3><p>Austria&#x27;s latest inflation figures offer the coalition a partial argument but not a comfortable one. Statistics Austria&#x27;s flash estimate for August 2026 puts the country&#x27;s consumer price index at 3.2 percent, while Eurostat&#x27;s harmonised measure comes in slightly lower at 2.9 percent. Both readings confirm a meaningful deceleration from the sharper peaks seen earlier in the decade, yet both remain well above the ECB&#x27;s two percent benchmark and above the eurozone average, leaving Austrian consumers with little sense of tangible relief.</p><p>The squeeze is felt most acutely in energy bills and grocery spending, areas where price sensitivity is highest and where political patience is shortest. The Oesterreichische Nationalbank had already forecast that inflation would remain elevated through 2026 before easing further down the line, a trajectory that offers cold comfort to households managing monthly budgets in real time. &quot;Resigned, with a lot of irritation&quot; is how the public mood can fairly be characterised: no single crisis headline dominates, but the cumulative weight of sustained high costs is eroding disposable income and consumer confidence.</p><p>The government argues it is actively working to address the structural drivers of high energy costs, pointing to investments in storage capacity, revised support frameworks for photovoltaic energy, and broader market reform measures designed to keep industry competitive. Critics, however, say the policy response has so far been heavier on communication than on delivery, and that repeated assurances of relief have not translated into lower bills for ordinary Austrians.</p><h3>Reform Agenda Is Real on Paper but Short on Proof in Practice</h3><p>Alongside its energy messaging, the coalition has staked significant political capital on a parallel agenda: modernising the Austrian state, cutting bureaucratic friction, and accelerating digitisation of public services. The initiative, promoted under the banner of a &quot;Reformpartnerschaft,&quot; is designed to project an image of a leaner, faster, and more citizen-friendly administration. The ambition is genuine, and the political logic is clear. A government that can credibly claim to have made the state work better stands to gain considerably in trust and electoral standing.</p><p>The problem, as independent observers note, is that the evidence remains largely confined to policy signalling. There are no robust independent assessments yet showing that procedures have become measurably shorter, that administrative costs for businesses or citizens have fallen, or that digital service uptake has improved significantly. For a reform agenda to move from branding exercise to political asset, it needs to produce experiences that citizens can recognise in their own interactions with the state: a faster permit, a resolved query, a form that no longer requires a physical visit to a government office.</p><p>The opposition has pressed precisely this point, arguing that reform language is a well-worn political tool and that Austrians have seen enough ambitious modernisation plans stall in implementation to treat current promises with scepticism. The public mood here is perhaps best described as cautiously optimistic but waiting for proof, a posture that gives the coalition a narrow window to demonstrate results before skepticism hardens into disillusionment.</p><h3>Coalition&#x27;s Credibility Hinges on Closing the Gap Between Words and Outcomes</h3><p>The two pressures, inflation fatigue and reform credibility, are politically linked in ways that make them doubly dangerous for the coalition if handled poorly. A government that cannot show it is reducing the cost of living risks being judged as economically incompetent. A government that cannot show tangible administrative improvements risks being judged as structurally incapable of change. Together, the two narratives feed a broader question about whether Austria&#x27;s governing partnership has the capacity to deliver on the expectations it has set for itself.</p><p>For businesses, the stakes are equally concrete. Elevated energy costs reduce industrial competitiveness at a time when European manufacturing is already under pressure from cheaper production elsewhere and slower demand growth. If inflation remains above ECB target levels for a sustained period, borrowing costs stay higher for longer, compounding difficulties for small and medium-sized enterprises that form the backbone of the Austrian economy. The digital-state agenda, if it delivers, could offset some of this friction by reducing compliance costs and speeding up licensing processes, but that outcome remains aspirational for now.</p><p>The coming months will serve as a practical test. Austria&#x27;s inflation trajectory through the final quarter of 2026 will determine whether the OeNB&#x27;s forecast of a gradual easing materialises or whether price pressures prove stickier than expected. On the reform side, the coalition will need to move beyond announcements and produce visible process improvements that citizens and businesses can point to as evidence of change. Failing on either front, or both, would hand the opposition a powerful combined argument ahead of any future electoral reckoning: that the government talked a credible game but could not play one.</p>",
+      "keywords": "Austria, inflation, energy costs, cost of living, government reform, digital state, coalition, ECB, OeNB, Reformpartnerschaft, Austrian politics, eurozone, consumer prices, public services, bureaucracy",
+      "sources": "Statistics Austria, CPI/HICP flash estimate, August 2026; Eurostat, HICP flash estimate, August 2026; Oesterreichische Nationalbank, inflation forecast 2026; European Central Bank, inflation target framework",
+      "pubDate": "2026-09-04",
+      "chartData": {
+        "values": [
+          3.2,
+          2.9,
+          2.0
+        ],
+        "labels": [
+          "Austria CPI Flash (Aug 2026)",
+          "Austria HICP Flash (Aug 2026)",
+          "ECB Target"
+        ]
+      }
+    },
     {
       "id": "article-06f75f8",
       "title": "Hungary at a Crossroads: Corruption Probes and a Fragile Recovery Test the New Government",
@@ -14315,6 +14339,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260904-austria",
+      "title": "Austria Caught Between Inflation Fatigue and Reform Promises · 04 Sep",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "duration": "8:31",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Austria_Episode_2026_09_04.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 232,
+      "keywords": "Austria, inflation, energy costs, cost of living, government reform, digital state, coalition, ECB, OeNB, Reformpartnerschaft, Austrian politics, eurozone, consumer prices, public services, bureaucracy",
+      "notes": "Austria's governing coalition is navigating a dual pressure test: persistent inflation that continues to squeeze households and businesses, and an ambitious but so far unproven agenda to modernise and streamline the state. With August 2026 consumer price growth still running above the European Central Bank's two percent target, the gap between government messaging and lived experience is widening. The political stakes are high, and public patience is wearing thin.",
+      "pubDate": "2026-09-04",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Austria_Episode_2026_09_04.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_04/Austria_Short_2026_09_04.mp4"
+    },
     {
       "id": "episode-20260904-hungary",
       "title": "Hungary at a Crossroads: Corruption Probes and a Fragile Recovery Test the… · 04 Sep",
