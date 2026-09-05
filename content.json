@@ -1,5 +1,5 @@
 {
-  "version": 1788584787392,
+  "version": 1788584912461,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-fea0157",
+      "title": "Lithuania Faces Twin Pressures of Persistent Inflation and Security Anxiety as Brussels Demands Reform",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "excerpt": "Lithuania is navigating a difficult convergence of elevated inflation, EU demands for tax reform, and an intensifying security threat environment on NATO's eastern flank. With annual inflation running at 5.4 percent in July 2026, among the highest in the eurozone, the government faces resistance to Brussels-backed fiscal changes that critics say will squeeze households already under financial pressure. At the same time, espionage cases and concerns over Russian drone activity are keeping the national mood tense and the defence budget under strain. The two pressures together define a central challenge for Vilnius: how to fund resilience without exhausting public trust.",
+      "body": "<h3>Brussels Pushes Tax Reform Into an Inflationary Storm</h3><p>The European Commission has urged Lithuania to raise property and environmental taxes, reduce tax exemptions, and phase out fossil-fuel subsidies as part of broader efforts to strengthen the country&#x27;s public finances and align with EU fiscal expectations. The timing is politically sensitive. According to Eurostat data, Lithuania recorded annual inflation of 5.4 percent in July 2026, up from 5.1 percent in June and 4.4 percent in March, placing it among the eurozone&#x27;s worst-performing economies on price stability.</p><p>Government officials and pro-reform economists argue that shifting the tax burden away from labour income and toward property and environmental levies is structurally sound. They say such changes would produce more stable revenues, support the energy transition, and help fund social and defence priorities without adding to wage costs. Finance ministry officials have framed the Commission&#x27;s recommendations as an opportunity rather than an imposition.</p><p>Opponents push back hard. Opposition politicians and business representatives argue that layering new taxes onto households and small firms while inflation remains elevated is both economically damaging and politically reckless. They characterise the Commission&#x27;s approach as technocratic overreach, warning that households already stretched by two years of price pressure will view additional tax burdens as a signal that the government is out of touch. The argument that the inflationary environment has normalised is not supported by the available data, lending weight to the critics&#x27; concerns about timing even if not about the direction of reform itself.</p><h3>Russia Threat Keeps Security at the Top of the Political Agenda</h3><p>Lithuania&#x27;s political debate is increasingly shaped by warnings from the government and security establishment about Russian efforts to destabilise the Baltic region through drones, espionage, and pressure on critical infrastructure. Reuters reported concerns about Russian provocations involving drone activity near Lithuanian territory, and a Lithuanian citizen was jailed for espionage, providing concrete evidence that the threat environment is real rather than hypothetical.</p><p>Security officials argue that the country&#x27;s geographic position — sharing borders with the Russian exclave of Kaliningrad and Belarus — makes a high state of alert not only justified but necessary. They contend that investment in surveillance, energy security, and transport resilience now will prevent far more costly disruptions later, and they point to NATO commitments as both a shield and an obligation requiring sustained domestic spending.</p><p>Critics, however, question whether the government is allowing security rhetoric to crowd out urgent domestic priorities including wage growth, public services, and infrastructure repair outside the defence sector. Some opposition figures argue that a permanent emergency mindset, while politically convenient, risks normalising extraordinary spending levels and suppressing debate about trade-offs. The evidence does support the conclusion that vigilance is warranted, but the precise scale and immediacy of specific threats remain difficult to independently verify, leaving room for legitimate questions about where deterrence ends and political framing begins.</p><h3>A Stress Test for Governance: Paying for Resilience Without Losing the Public</h3><p>Taken together, the inflation-and-tax debate and the security anxiety define what is arguably Lithuania&#x27;s central governing challenge heading into the second half of the decade. The country must simultaneously satisfy EU fiscal requirements, fund an elevated defence posture, and manage household economic pain, all while maintaining enough public confidence to sustain democratic buy-in for difficult decisions. The national mood, according to analysts familiar with Baltic public opinion, is best described as resigned with flashes of anger on economic matters, and tense and watchful on security ones.</p><p>The practical consequences are visible across multiple domains. Consumers face continued price pressure with no clear near-term relief from inflation data. Small businesses are weighing whether reforms will raise their operating costs before demand recovers. Meanwhile, infrastructure operators and local governments are being asked to absorb new security requirements and investment mandates without commensurate budget increases.</p><p>The broader European significance should not be understated. Lithuania&#x27;s experience illustrates how EU fiscal governance translates into household-level consequences, particularly when the macro environment remains inflationary. Its security choices, given its position on the alliance&#x27;s eastern frontier, carry direct implications for NATO posture and for how the Baltic states as a group signal resolve toward Moscow. Vilnius faces a deadline-driven autumn: the Commission&#x27;s next country-specific recommendations and the government&#x27;s budget cycle will force concrete decisions on tax policy within months, while any further security incidents could rapidly elevate defence spending pressure. How Lithuania manages this convergence will be watched closely in Brussels, Riga, Tallinn, and Warsaw alike.</p>",
+      "keywords": "Lithuania, inflation, European Commission, tax reform, property tax, environmental tax, fossil fuel subsidies, eurozone, Russia, security, NATO, Baltic states, espionage, drones, fiscal policy, EU governance, Kaliningrad, defence spending",
+      "sources": "Eurostat inflation data for Lithuania, July 2026; Eurostat inflation data for Lithuania, June 2026; Eurostat inflation data for Lithuania, March 2026; Reuters reporting on Russian drone provocations and Baltic security; Reuters reporting on Lithuanian espionage conviction; European Commission country-specific fiscal recommendations for Lithuania",
+      "pubDate": "2026-09-05",
+      "chartData": {
+        "values": [
+          4.4,
+          5.1,
+          5.4
+        ],
+        "labels": [
+          "March 2026",
+          "June 2026",
+          "July 2026"
+        ]
+      }
+    },
     {
       "id": "article-f9d9219",
       "title": "Latvia Tightens Eastern Border and Bans Russian Goods in Twin Security Push",
@@ -14387,6 +14411,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260905-lithuania",
+      "title": "Lithuania Faces Twin Pressures of Persistent Inflation and Security Anxiety… · 05 Sep",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "7:49",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Lithuania_Episode_2026_09_05.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 235,
+      "keywords": "Lithuania, inflation, European Commission, tax reform, property tax, environmental tax, fossil fuel subsidies, eurozone, Russia, security, NATO, Baltic states, espionage, drones, fiscal policy, EU governance, Kaliningrad, defence spending",
+      "notes": "Lithuania is navigating a difficult convergence of elevated inflation, EU demands for tax reform, and an intensifying security threat environment on NATO's eastern flank. With annual inflation running at 5.4 percent in July 2026, among the highest in the eurozone, the government faces resistance to Brussels-backed fiscal changes that critics say will squeeze households already under financial pressure. At the same time, espionage cases and concerns over Russian drone activity are keeping the national mood tense and the defence budget under strain. The two pressures together define a central challenge for Vilnius: how to fund resilience without exhausting public trust.",
+      "pubDate": "2026-09-05",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Lithuania_Episode_2026_09_05.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Lithuania_Short_2026_09_05.mp4"
+    },
     {
       "id": "episode-20260905-latvia",
       "title": "Latvia Tightens Eastern Border and Bans Russian Goods in Twin Security Push · 05 Sep",
