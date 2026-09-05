@@ -1,5 +1,5 @@
 {
-  "version": 1788584532396,
+  "version": 1788584787392,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-f9d9219",
+      "title": "Latvia Tightens Eastern Border and Bans Russian Goods in Twin Security Push",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "excerpt": "Latvia has extended its eastern-border enforcement operation for another month and imposed a sweeping ban on industrial imports from Russia and Belarus, effective September 2026. The twin moves reflect Riga's deepening security anxiety and accelerating economic decoupling from its eastern neighbors. Together, they position Latvia as one of the European Union's most assertive frontline states in confronting hybrid threats and Russian economic influence.",
+      "body": "<h3>Border Operation Extended Amid Persistent Pressure</h3><p>Latvian authorities have prolonged Operation VILKATIS, a heightened enforcement initiative along the country&#x27;s eastern frontier, for at least one additional month. The government cited sustained border pressure as justification, arguing that the state must remain ahead of illegal migration, smuggling, and the kind of hybrid threats that Baltic officials have long associated with Belarusian and Russian state actors.</p><p>Officials stated that the extension was a necessary and proportionate response to conditions that have not meaningfully eased. The operation involves reinforced patrols, surveillance, and coordinated activity between border guards and other security services. Authorities have not signaled when they expect to wind it down, suggesting the measures could become a semi-permanent feature of Latvia&#x27;s eastern perimeter management.</p><p>Critics, including opposition lawmakers, argued that the government is normalizing emergency-style policing under the cover of security messaging. They contended that repeated short-term extensions substitute for the deeper structural reforms to border management and asylum processing that Latvia&#x27;s eastern frontier genuinely requires. The government&#x27;s core claim that border pressure remains high is supported by the official decision to extend the operation; whether enforcement alone can resolve underlying migration dynamics is a separate question, and one the available evidence does not answer.</p><h3>Import Ban Takes Aim at Russian and Belarusian Goods</h3><p>Separately, Latvia moved on September 1, 2026, to prohibit a broad range of industrial imports originating in Russia and Belarus. The banned categories include printed materials, clothing, footwear, toys, and sports equipment. Crucially, the restrictions apply on the basis of origin, meaning goods routed through third countries remain subject to the controls, closing a loophole that has complicated similar measures elsewhere in the EU.</p><p>The government framed the ban as a national-security and values-based decision: reducing revenue flows to Moscow and Minsk, blocking materials that authorities view as potentially propaganda-linked, and accelerating an economic decoupling that Riga has been pursuing since Russia&#x27;s full-scale invasion of Ukraine in 2022. The policy is also a political signal, reinforcing Latvia&#x27;s position as one of the EU member states most willing to act unilaterally where Brussels-level consensus has moved slowly.</p><p>Business groups and opposition voices pushed back, arguing that the measure is symbolically potent but economically limited. Their skepticism has some grounding in the data. Latvia&#x27;s combined imports from Russia and Belarus fell sharply from approximately 2.13 billion euros in 2022 to around 193 million euros in 2025, according to reported figures. The dramatic compression of that trade relationship means the September ban lands on terrain that is already largely cleared, limiting the immediate shock for retailers and logistics firms, even as it entrenches the legal architecture of decoupling for the longer term.</p><h3>Inflation Uptick Complicates the Economic Picture</h3><p>Neither measure is occurring in a benign economic environment. Latvia&#x27;s annual inflation rate, as measured by Eurostat&#x27;s flash estimate, rose to 2.9 percent in August 2026, up from 2.5 percent in July. The figure represents a meaningful deceleration from the acute price surges of the immediate post-invasion period, but the month-on-month uptick cautions against any straightforward claim that Latvian prices are clearly falling. For consumers already navigating the residual costs of energy and supply-chain disruption, the direction of travel matters as much as the level.</p><p>The import ban&#x27;s contribution to near-term price movements is likely to be modest, given how little trade in the affected categories still flows from Russia and Belarus. Structural inflation drivers, including energy prices and wage pressures in a tight labor market, remain the dominant forces. Nonetheless, politicians on both sides of the debate will be watching consumer prices closely, since any retail disruption, however marginal, can translate quickly into political friction.</p><p>Latvia&#x27;s dual actions on border security and import restrictions carry implications well beyond Riga. As a frontline EU state bordering both Russia and Belarus, Latvia functions as a testing ground for the Union&#x27;s broader approach to hybrid migration threats and economic warfare. If Operation VILKATIS holds and the import regime proves enforceable, other member states may face pressure to follow. Conversely, if enforcement strains resources or business complaints mount, the measures will invite scrutiny of whether symbolism is being confused with strategy. The next formal review point for the border operation is expected within weeks, making the coming month a critical window for the government to demonstrate measurable results.</p>",
+      "keywords": "Latvia, border security, Operation VILKATIS, Russia, Belarus, import ban, economic decoupling, hybrid threats, Baltic states, EU frontline, inflation, migration, sanctions",
+      "sources": "Latvian government official decision on Operation VILKATIS extension, October deadline documentation [5][14]; Latvia import ban announcement and origin-based controls framework [4][6][8][13]; Reported Latvia-Russia-Belarus trade figures, 2022 and 2025 [7]; Eurostat flash inflation estimate for Latvia, August 2026 [2][12]",
+      "pubDate": "2026-09-05",
+      "chartData": {
+        "values": [
+          2130.0,
+          193.0
+        ],
+        "labels": [
+          "Latvia Imports from Russia and Belarus 2022 (EUR million)",
+          "Latvia Imports from Russia and Belarus 2025 (EUR million)"
+        ]
+      }
+    },
     {
       "id": "article-c1fc4d6",
       "title": "Poland's Defense Surge and Fiscal Squeeze Put Europe's Eastern Frontier to the Test",
@@ -14365,6 +14387,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260905-latvia",
+      "title": "Latvia Tightens Eastern Border and Bans Russian Goods in Twin Security Push · 05 Sep",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:36",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Latvia_Episode_2026_09_05.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 234,
+      "keywords": "Latvia, border security, Operation VILKATIS, Russia, Belarus, import ban, economic decoupling, hybrid threats, Baltic states, EU frontline, inflation, migration, sanctions",
+      "notes": "Latvia has extended its eastern-border enforcement operation for another month and imposed a sweeping ban on industrial imports from Russia and Belarus, effective September 2026. The twin moves reflect Riga's deepening security anxiety and accelerating economic decoupling from its eastern neighbors. Together, they position Latvia as one of the European Union's most assertive frontline states in confronting hybrid threats and Russian economic influence.",
+      "pubDate": "2026-09-05",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Latvia_Episode_2026_09_05.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Latvia_Short_2026_09_05.mp4"
+    },
     {
       "id": "episode-20260905-poland",
       "title": "Poland's Defense Surge and Fiscal Squeeze Put Europe's Eastern Frontier to… · 05 Sep",
