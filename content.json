@@ -1,5 +1,5 @@
 {
-  "version": 1788498554563,
+  "version": 1788584532396,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-c1fc4d6",
+      "title": "Poland's Defense Surge and Fiscal Squeeze Put Europe's Eastern Frontier to the Test",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "excerpt": "Poland is spending nearly 5% of its economic output on defense, making it the most militarized economy in NATO by that measure, while simultaneously managing sticky inflation and a widening budget deficit. The twin pressures of rearmament and economic management are reshaping daily life for Polish citizens and setting a precedent for how European Union members navigate the post-Ukraine security era. Warsaw's choices in the months ahead will carry consequences well beyond its own borders.",
+      "body": "<h3>Europe&#x27;s Biggest Military Spender Doubles Down on Deterrence</h3><p>Poland&#x27;s defense budget has reached approximately 4.7% of gross domestic product this year, translating into roughly 53 billion euros in annual military outlays, according to NATO-linked figures. That places Warsaw ahead of every other alliance member on the share-of-GDP measure and reflects a deliberate political choice by Prime Minister Donald Tusk&#x27;s government to treat rearmament as the organizing principle of state policy. The scale of the commitment has few modern peacetime precedents among European democracies.</p><p>Government ministers argue that Russia&#x27;s ongoing war in Ukraine, combined with what officials describe as a deteriorating hybrid-threat environment along Poland&#x27;s eastern and northern flanks, leaves no credible alternative. The strategy includes not only procurement of foreign platforms but a concerted push to expand domestic defense manufacturing, shortening supply chains and building industrial capacity that officials say would prove critical in a prolonged conflict scenario.</p><p>Critics, including opposition parliamentarians and independent economists, argue that the pace and scale of spending carries its own risks. They contend that defense outlays are crowding out investment in health, education, and infrastructure, while creating a political culture in which emergency logic becomes a permanent governing mode rather than a temporary response. The harder-edged security allegations cited by some government voices, including specific sabotage attributions, remain disputed and unconfirmed by independent assessments.</p><h3>Growth Holds but Inflation and Deficits Keep the Pressure On</h3><p>Poland&#x27;s underlying economy retains genuine momentum. Statistics Poland reported year-on-year GDP growth of 3.9% for the second quarter of 2026, supported by strong investment activity and resilient industrial output. The government has pointed to these figures as evidence that rearmament and growth can coexist, and that easing labor-market pressures open the door to further interest-rate reductions by the National Bank of Poland.</p><p>The inflation picture, however, offers less comfort. Annual price growth stood at 3.4% in August, according to official data, a reading that sits above the central bank&#x27;s 2.5% target and near the upper boundary of its tolerance band. For Polish households, that gap between the headline narrative of cooling prices and the lived experience of shopping bills and mortgage costs remains politically and economically significant. Wage growth has helped cushion the squeeze for some workers, but the relief is uneven across income levels and sectors.</p><p>The fiscal outlook adds a further layer of fragility. Projections place the general government deficit at 7.1% of GDP by 2027, a figure that reflects the combined weight of defense commitments, politically sensitive tax adjustments, and limited room to maneuver. Opposition economists argue this trajectory is unsustainable without either tax rises, spending cuts elsewhere, or both. The government has not yet set out a detailed consolidation path that would satisfy European Commission fiscal surveillance requirements, a tension that is likely to intensify as the EU&#x27;s revised fiscal rules begin to bite.</p><h3>A Test Case for Europe&#x27;s Security-Growth Dilemma</h3><p>Poland&#x27;s predicament is increasingly watched in Brussels and other European capitals as a leading indicator of a dilemma the entire continent faces. How much military spending can a democratic government sustain before growth, social cohesion, or fiscal credibility starts to erode? Warsaw, as the EU member state with the longest NATO frontier with Russia&#x27;s sphere of influence and one of the bloc&#x27;s larger economies, is the most advanced experiment in answering that question.</p><p>For EU institutions, the implications are structural. If Poland&#x27;s fiscal position continues to deteriorate under the weight of defense costs, it could become the first major test of how Brussels applies its revamped budget rules to a member state spending heavily for reasons that enjoy broad political sympathy across the union. A lenient response would set precedents; a strict one could generate political backlash at a moment when European solidarity on Ukraine-linked issues remains strategically important.</p><p>The coming months will be defining. Poland&#x27;s government faces a series of near-term decisions: whether to accelerate domestic arms procurement contracts, how to present a credible medium-term fiscal plan to the Commission, and whether rate cuts from the central bank arrive quickly enough to ease household pressures before any political cost becomes acute. The mood among Polish citizens, according to analysts tracking public sentiment, is best described as anxious and uneasily optimistic in equal measure, a combination that leaves the governing coalition with little margin for error on either the security or the economic front.</p>",
+      "keywords": "Poland, defense spending, NATO, military budget, inflation, GDP growth, fiscal deficit, EU fiscal rules, European security, rearmament, Polish economy, Donald Tusk",
+      "sources": "NATO defense expenditure figures and linked reporting on Polish military outlays; Statistics Poland, GDP flash estimate Q2 2026; Polish Central Statistical Office, consumer price index August 2026; European Commission and Polish government fiscal projections for 2027",
+      "pubDate": "2026-09-05",
+      "chartData": {
+        "values": [
+          4.7,
+          3.9,
+          3.4,
+          7.1
+        ],
+        "labels": [
+          "Defense Spending % GDP",
+          "GDP Growth % YoY Q2 2026",
+          "Inflation % August 2026",
+          "Projected Deficit % GDP 2027"
+        ]
+      }
+    },
     {
       "id": "article-50f8aa4",
       "title": "Austria Caught Between Inflation Fatigue and Reform Promises as Coalition Credibility Faces Test",
@@ -14339,6 +14365,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260905-poland",
+      "title": "Poland's Defense Surge and Fiscal Squeeze Put Europe's Eastern Frontier to… · 05 Sep",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "duration": "8:29",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Poland_Episode_2026_09_05.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 233,
+      "keywords": "Poland, defense spending, NATO, military budget, inflation, GDP growth, fiscal deficit, EU fiscal rules, European security, rearmament, Polish economy, Donald Tusk",
+      "notes": "Poland is spending nearly 5% of its economic output on defense, making it the most militarized economy in NATO by that measure, while simultaneously managing sticky inflation and a widening budget deficit. The twin pressures of rearmament and economic management are reshaping daily life for Polish citizens and setting a precedent for how European Union members navigate the post-Ukraine security era. Warsaw's choices in the months ahead will carry consequences well beyond its own borders.",
+      "pubDate": "2026-09-05",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Poland_Episode_2026_09_05.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_05/Poland_Short_2026_09_05.mp4"
+    },
     {
       "id": "episode-20260904-austria",
       "title": "Austria Caught Between Inflation Fatigue and Reform Promises · 04 Sep",
