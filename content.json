@@ -1,5 +1,5 @@
 {
-  "version": 1788585034759,
+  "version": 1788757337908,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-eb992a7",
+      "title": "Sweden's Election-Year Economy: Growth Data and a Food Tax Cut Fuel a Battle Over Who Deserves Credit",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "Sweden's governing bloc is heading into election season armed with stronger-than-expected second-quarter growth figures and falling inflation, framing both as proof that its tax-cutting agenda is working. But the opposition argues that one quarter of positive data obscures persistent pressures on wages, housing, and public services. At the centre of the dispute is a temporary cut to food value-added tax, which ministers say is already relieving household costs — a claim the numbers support only in part.",
+      "body": "<h3>A Recovery on Paper, but How Deep Does It Run?</h3><p>Sweden&#x27;s economy grew 1.6 percent quarter on quarter in the second quarter of 2026, a figure that surpassed many forecasters&#x27; expectations and gave the governing bloc its most confident talking point of the political season. Combined with inflation falling to just 0.2 percent on the consumer price index and 0.3 percent on the EU-harmonised measure in July 2026, the headline numbers present a compelling narrative of an economy pulling out of stagnation.</p><p>Prime Minister Ulf Kristersson&#x27;s centre-right coalition has seized on the data to argue that its pro-growth, tax-reducing platform is delivering results. Ministers have pointed to revised upward growth expectations for 2026 and to easing price pressures as evidence that the strategy is working, framing the moment as a turning point ahead of the next general election.</p><p>Independent economists and opposition politicians are considerably more cautious. A single quarter of above-trend growth, they note, does not confirm a durable recovery. Underlying domestic demand remains soft, the housing market has yet to fully stabilise, and real wage growth is only beginning to outpace the inflation of recent years. The government, critics argue, is selectively amplifying positive signals to shape voter sentiment rather than presenting a complete economic picture.</p><h3>The Food VAT Cut: Relief for Shoppers or a Political Sleight of Hand?</h3><p>Among the most contentious policy instruments of the current term is the government&#x27;s temporary reduction in the value-added tax on food. Ministers have presented the measure as a fast and visible form of household relief, arguing that it translates directly into lower prices at the checkout — a tangible benefit for families who endured two years of elevated living costs.</p><p>The broader inflation data does show that price growth has slowed sharply. July&#x27;s CPI reading of 0.2 percent is among the lowest in recent memory for Sweden, and government officials have not hesitated to link that figure to the VAT reduction. On the surface, the timing appears to support their case.</p><p>However, the available data does not isolate the VAT cut as the primary cause of lower food prices. Sweden&#x27;s disinflation trend is part of a broader European pattern driven by falling energy costs and normalising supply chains — factors entirely separate from domestic tax policy. Critics, including trade union economists and opposition Social Democrats, argue that there is no guarantee supermarkets are passing the full tax saving on to consumers rather than absorbing it into margins. They also contend that a blanket VAT reduction is a blunt instrument that disproportionately benefits higher-spending households rather than concentrating relief where it is most needed, among lower-income families.</p><h3>What the Numbers Mean for Voters and the Broader European Picture</h3><p>For Swedish households, the practical question is straightforward: does the recovery feel real? The answer, based on the data and the political mood, appears to be a cautious yes — but not an enthusiastic one. Inflation has fallen decisively, real purchasing power is no longer being actively eroded at last year&#x27;s pace, and GDP growth suggests businesses are beginning to invest and hire again. That is meaningfully better than the position Sweden was in twelve months ago.</p><p>Yet the recovery remains uneven. The housing sector, which is deeply important to Swedish household wealth, has stabilised but has not rebounded. Public services face continued budget pressure at the municipal level, where spending constraints imposed by the central government have translated into cuts to schools, elderly care, and social support. For many voters, particularly those outside the major urban centres, the macroeconomic improvement has not yet arrived in their daily lives.</p><p>Sweden&#x27;s experience carries weight beyond its own borders. Several EU member states are navigating a similar tension: headline inflation has fallen and technical growth has returned, but citizens remain sceptical that a genuine recovery is under way. The political risk for governing parties across Europe is that they claim credit for disinflation too early, only to find that voters measure recovery not by statistical releases but by whether their rent, grocery bills, and wages feel manageable. In Sweden, the government has until the next election to make that case in concrete rather than statistical terms. The second-quarter GDP figure has opened a window of opportunity; whether it becomes a durable political asset will depend on whether the data continues to improve — and whether households begin to feel it.</p>",
+      "keywords": "Sweden economy, Swedish GDP, food VAT cut, cost of living, Swedish inflation, CPI, HICP, Swedish election, Ulf Kristersson, economic recovery, EU inflation, household finances, value-added tax, disinflation, Swedish politics",
+      "sources": "Statistics Sweden (SCB), Q2 2026 GDP flash estimate; Swedish CPI release, July 2026; Eurostat HICP data, July 2026; Swedish government budget documentation on food VAT reduction; Opposition Social Democrat economic policy statements, 2026",
+      "pubDate": "2026-09-07",
+      "chartData": {
+        "values": [
+          1.6,
+          0.2,
+          0.3
+        ],
+        "labels": [
+          "GDP Growth Q2 2026 (% QoQ)",
+          "CPI Inflation July 2026 (%)",
+          "HICP Inflation July 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-0c29d40",
       "title": "Estonia Navigates Inflation Relief and Pension Pressure in Dual Economic Test",
@@ -14435,6 +14459,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260907-sweden",
+      "title": "Sweden's Election-Year Economy: Growth Data and a Food Tax Cut Fuel a Battle… · 07 Sep",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "8:24",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_07/Sweden_Episode_2026_09_07.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 237,
+      "keywords": "Sweden economy, Swedish GDP, food VAT cut, cost of living, Swedish inflation, CPI, HICP, Swedish election, Ulf Kristersson, economic recovery, EU inflation, household finances, value-added tax, disinflation, Swedish politics",
+      "notes": "Sweden's governing bloc is heading into election season armed with stronger-than-expected second-quarter growth figures and falling inflation, framing both as proof that its tax-cutting agenda is working. But the opposition argues that one quarter of positive data obscures persistent pressures on wages, housing, and public services. At the centre of the dispute is a temporary cut to food value-added tax, which ministers say is already relieving household costs — a claim the numbers support only in part.",
+      "pubDate": "2026-09-07",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_07/Sweden_Episode_2026_09_07.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_07/Sweden_Short_2026_09_07.mp4"
+    },
     {
       "id": "episode-20260905-estonia",
       "title": "Estonia Navigates Inflation Relief and Pension Pressure in Dual Economic Test · 05 Sep",
