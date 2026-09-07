@@ -1,5 +1,5 @@
 {
-  "version": 1788757588472,
+  "version": 1788757728558,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-81d9e17",
+      "title": "Ireland's Budget Windfall Meets a Cost-of-Living Crisis That Numbers Alone Cannot Fix",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "Ireland enters its 2027 budget cycle with unusually strong public finances, yet a persistent squeeze on household bills is testing the government's claim that the good times are being shared fairly. Tax receipts are running well ahead of last year, giving ministers rare fiscal room, but a near-10% rise in electricity prices and inflation still running at 3.4% are feeding public frustration. The gap between the headline figures and lived experience is fast becoming the defining political argument in Dublin.",
+      "body": "<h3>A Revenue Surge Sets the Stage for a High-Stakes Budget</h3><p>Ireland&#x27;s exchequer is in remarkably good health heading into Budget 2027. Tax receipts rose 3.4% in the first quarter of 2026 and by 6.1% in the first five months once one-off items are stripped out, with overall takings running comfortably ahead of the same period last year. For a government seeking to expand spending on housing, public services, and infrastructure, the numbers offer an unusually strong mandate.</p><p>Ministers have been quick to frame the windfall as an opportunity rather than a windfall to be saved away. The argument from the government side is straightforward: steady growth and resilient tax revenues justify ambitious investment without threatening the fiscal stability Ireland rebuilt painfully after the 2008 crash. Senior officials argue that holding back now, when the receipts are there, would mean squandering a rare window to address structural deficits in housing supply and public infrastructure.</p><p>Yet the mood around the budget table is not simply celebratory. Ireland&#x27;s fiscal watchdog has warned that spending pressures in 2027 could absorb much of the available fiscal room, and that an oversized budget package risks adding to domestic inflation at a moment when household cost pressures have not meaningfully eased. The caution is not academic: if the government locks in permanent expenditure commitments on the back of what critics call a temporary revenue surge, future administrations could face a much harder reckoning.</p><h3>Opposition and Unions Push Back on the &quot;Inflation Is Down&quot; Narrative</h3><p>The sharpest political argument in Dublin right now is not about the size of the surplus. It is about who feels its benefits. Opposition parties and trade unions have seized on a central contradiction: public finances look strong on paper, but ordinary households are not experiencing the prosperity the headline figures suggest. Central Statistics Office data showed Irish HICP inflation at 3.4% in August 2026, a figure that, while not a crisis level, is far from the kind of low inflation that allows family budgets to recover.</p><p>The electricity price increase, close to 10%, has become a focal point for that discontent. Energy bills are one of the most visible and unavoidable costs a household faces, and a rise of that magnitude cuts directly into disposable income regardless of what aggregate inflation indices show. Rents and the cost of services have added to the pressure, and unions have argued in public submissions that telling workers inflation is broadly manageable does not match what their members experience each month.</p><p>The government&#x27;s counter-argument — that it has softened planned excise increases and is shielding families from additional price pressure — carries some weight on the technical level. But the political ground is harder. When energy bills rise by double digits and rents remain at record levels, the message that inflation is not spiralling offers limited comfort to households that were already stretched before the latest round of increases. On cost-of-living pain, the opposition and labour movement have the more resonant case, even if the macroeconomic picture is more nuanced than their framing suggests.</p><h3>Consequences for Citizens, Markets, and the Wider European Debate</h3><p>The outcome of Ireland&#x27;s budget deliberations carries implications that stretch well beyond Dublin. Ireland&#x27;s capacity to sustain high levels of public investment while keeping its fiscal position credible matters for European Union partners at a moment when several member states are operating under much tighter constraints. If Dublin demonstrates that a well-managed revenue surplus can fund housing and infrastructure without stoking inflation, it offers a template. If the fiscal watchdog&#x27;s warnings prove correct and a large budget package adds to domestic price pressure, it becomes a cautionary tale.</p><p>For Irish citizens, the immediate stakes are concrete. A budget that channels the tax windfall into social housing, healthcare capacity, and public transport could meaningfully improve daily life over a three-to-five year horizon. A budget that dissipates the surplus in broad cost-of-living payments without addressing underlying supply constraints in housing and energy would likely leave the structural problem intact, regardless of how welcome the short-term relief might feel.</p><p>The broader European dimension is also worth watching. Ireland&#x27;s experience — strong public finances coexisting with significant household cost pressure — is not unique. Across the EU, governments are grappling with the same disconnect between improving aggregate economic indicators and a public mood that remains, as the evidence from Ireland suggests, resigned and irritated rather than reassured. If growth is not translating into lower bills and more affordable housing, the political pressure will continue to build, in Ireland and elsewhere, regardless of what the budget spreadsheets say. The next formal budget deadline will force the government to make choices that no amount of fiscal optimism can defer indefinitely.</p>",
+      "keywords": "Ireland, Budget 2027, tax receipts, cost of living, inflation, energy prices, HICP, exchequer, fiscal policy, European Union, housing, public spending, Irish economy",
+      "sources": "Central Statistics Office, Ireland, HICP inflation data, August 2026; Irish Exchequer tax receipt returns, Q1 and January-May 2026; Irish Fiscal Advisory Council, spending pressure and inflation warning, 2026; Government of Ireland budget planning documents, 2027 cycle",
+      "pubDate": "2026-09-07",
+      "chartData": {
+        "values": [
+          3.4,
+          6.1,
+          3.4,
+          10.0
+        ],
+        "labels": [
+          "Tax Receipt Growth Q1 2026 (%)",
+          "Tax Receipt Growth Jan-May 2026 ex One-offs (%)",
+          "HICP Inflation Aug 2026 (%)",
+          "Electricity Price Rise (%)"
+        ]
+      }
+    },
     {
       "id": "article-86a43a4",
       "title": "Finland's 2027 Budget Bets on Growth While Deficit and Joblessness Linger",
@@ -14505,6 +14531,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260907-ireland",
+      "title": "Ireland's Budget Windfall Meets a Cost-of-Living Crisis That Numbers Alone… · 07 Sep",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:36",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_07/Ireland_Episode_2026_09_07.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 240,
+      "keywords": "Ireland, Budget 2027, tax receipts, cost of living, inflation, energy prices, HICP, exchequer, fiscal policy, European Union, housing, public spending, Irish economy",
+      "notes": "Ireland enters its 2027 budget cycle with unusually strong public finances, yet a persistent squeeze on household bills is testing the government's claim that the good times are being shared fairly. Tax receipts are running well ahead of last year, giving ministers rare fiscal room, but a near-10% rise in electricity prices and inflation still running at 3.4% are feeding public frustration. The gap between the headline figures and lived experience is fast becoming the defining political argument in Dublin.",
+      "pubDate": "2026-09-07",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_07/Ireland_Episode_2026_09_07.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_07/Ireland_Short_2026_09_07.mp4"
+    },
     {
       "id": "episode-20260907-finland",
       "title": "Finland's 2027 Budget Bets on Growth While Deficit and Joblessness Linger · 07 Sep",
