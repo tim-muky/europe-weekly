@@ -1,5 +1,5 @@
 {
-  "version": 1788843754701,
+  "version": 1788843891738,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-583ef9b",
+      "title": "Ceuta Under Pressure and Inflation Still Biting: Spain Faces Twin Tests of Governance and Economic Credibility",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "Spain is confronting two overlapping crises that together define the country's political and economic moment: a renewed surge of migration into its North African enclave of Ceuta and stubborn inflation that continues to squeeze household budgets despite official optimism. Both developments carry consequences well beyond Spain's borders, touching EU border policy, fiscal solidarity, and the credibility of recovery narratives across the bloc. The government insists it is managing both with determination; critics say the responses expose deeper structural failures.",
+      "body": "<h3>Ceuta: Emergency Measures Replace Durable Strategy</h3><p>Spain has deployed emergency funding and reinforced security personnel in Ceuta following a fresh escalation of migration pressure in the Spanish enclave, which borders Morocco on the southern edge of the Mediterranean. The government in Madrid has framed its response as both a humanitarian obligation and a governance imperative, arguing that rapid state intervention was necessary to prevent local services from buckling under the strain of arrivals and to ensure orderly processing of migrants.</p><p>The opposition has pushed back hard. Critics argue that the emergency package, while real and operational, amounts to reactive crisis management that papers over persistent failures in border strategy. The central charge is that Madrid has repeatedly reached for short-term spending when confronted with surges at Ceuta rather than constructing a durable migration framework. Some voices on the right have gone further, claiming that Spain&#x27;s leverage over Morocco is dangerously weak, though those more explosive allegations about Moroccan intent remain disputed and are not supported by verified evidence.</p><p>What is not in dispute is that the pressure is real and the cost is rising. For residents of Ceuta, the crisis translates directly into strained public services, visible security deployments, and a sense that the enclave bears a disproportionate share of a challenge that is structurally European in nature. At EU level, the situation is a live test of external-border credibility and asylum-processing capacity at a moment when solidarity among member states on migration remains deeply fractured.</p><h3>The Economy Holds, But the Headline Does Not Tell the Full Story</h3><p>The Spanish government has pointed to the country&#x27;s continued economic resilience as evidence that its policy framework is working. Spain retains a current-account surplus and has maintained momentum on energy transition investment and industrial support programmes. Officials argue that the country is better positioned than many of its European peers to absorb external shocks, and the broader macroeconomic picture does support the view that Spain has outperformed expectations in recent years.</p><p>However, the data tell a more complicated story than the official messaging suggests. The current-account surplus, while still positive, has narrowed, indicating that Spain&#x27;s external strength is softening rather than consolidating. More significantly, inflation remains elevated, running at approximately 3 percent in mid-2026, with energy costs continuing to act as an upward driver. The claim that inflation is decisively down, which has featured in government communications, is only partially accurate and risks misleading households who continue to feel the squeeze at the supermarket, the petrol pump, and in their rent or mortgage payments.</p><p>The gap between macroeconomic headline and lived experience is where political vulnerability lies. Wages have recovered in some sectors, but the combination of persistent price pressure and narrowing external buffers means the recovery is not yet broad-based in the way that ordinary citizens can feel it. For the EU, Spain functions as an important test case: can a large member state sustain growth, manage the green industrial transition, and maintain social cohesion simultaneously, or do the trade-offs eventually come due?</p><h3>Outlook: Structural Questions That Emergency Measures Cannot Answer</h3><p>On migration, the immediate operational challenge in Ceuta may stabilise if the current security and logistics reinforcement holds. But the underlying structural question, whether Spain can move beyond episodic emergency responses toward a sustainable border and asylum policy framework, will not be answered by this package alone. Spain has a interest in pushing for deeper EU burden-sharing mechanisms, but progress at Brussels level on migration solidarity has been slow and politically painful. The next test may arrive before the current one is fully resolved.</p><p>On the economy, the critical inflection point will come in the second half of 2026, when new inflation data and external-account figures will either validate the government&#x27;s optimism or confirm the more cautious reading of the trends. If energy prices remain elevated and the current-account surplus continues to narrow, the political space for the government&#x27;s resilience narrative will shrink. Household confidence, already described by analysts as resigned rather than buoyant, could deteriorate further if grocery and energy bills do not ease.</p><p>Together, these two pressures illustrate a broader challenge for Spain and for the EU: the distance between crisis management and genuine strategic resolution. Emergency funds can stabilise Ceuta; they cannot fix the EU&#x27;s external-border architecture. Continued surplus figures can support a growth narrative; they cannot substitute for a credible, felt reduction in the cost of living. Spain&#x27;s ability to close that gap, in border policy and in economic policy alike, will shape both its domestic politics and its standing as a major EU member state in the months ahead.</p>",
+      "keywords": "Spain, Ceuta, migration crisis, border security, inflation, current account, EU migration policy, Spanish economy, Morocco, energy prices, asylum, European Union, economic resilience",
+      "sources": "Spanish central government budget and emergency migration package announcements; Eurostat current-account and inflation data, mid-2026; European Commission external-border and asylum policy review documents; Banco de España economic outlook reports; opposition parliamentary statements on migration and border management",
+      "pubDate": "2026-09-08",
+      "chartData": {
+        "values": [
+          3.0,
+          2.1,
+          2.8,
+          2.4
+        ],
+        "labels": [
+          "Spain Inflation",
+          "EU Average Inflation",
+          "Energy Cost Contribution",
+          "Core Inflation"
+        ]
+      }
+    },
     {
       "id": "article-2ea6501",
       "title": "TAP Sale and Stubborn Inflation Put Portugal's Economic Recovery Story to the Test",
@@ -14555,6 +14581,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260908-spain",
+      "title": "Spain: Ceuta Under Pressure and Inflation Still Biting · 08 Sep",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:49",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Spain_Episode_2026_09_08.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 242,
+      "keywords": "Spain, Ceuta, migration crisis, border security, inflation, current account, EU migration policy, Spanish economy, Morocco, energy prices, asylum, European Union, economic resilience",
+      "notes": "Spain is confronting two overlapping crises that together define the country's political and economic moment: a renewed surge of migration into its North African enclave of Ceuta and stubborn inflation that continues to squeeze household budgets despite official optimism. Both developments carry consequences well beyond Spain's borders, touching EU border policy, fiscal solidarity, and the credibility of recovery narratives across the bloc. The government insists it is managing both with determination; critics say the responses expose deeper structural failures.",
+      "pubDate": "2026-09-08",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Spain_Episode_2026_09_08.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Spain_Short_2026_09_08.mp4"
+    },
     {
       "id": "episode-20260908-portugal",
       "title": "TAP Sale and Stubborn Inflation Put Portugal's Economic Recovery Story to the… · 08 Sep",
