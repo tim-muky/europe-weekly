@@ -1,5 +1,5 @@
 {
-  "version": 1788757728558,
+  "version": 1788843754701,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-2ea6501",
+      "title": "TAP Sale and Stubborn Inflation Put Portugal's Economic Recovery Story to the Test",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "excerpt": "Portugal is navigating two defining economic challenges simultaneously: the partial privatisation of its flag carrier TAP and a household inflation rate that continues to outpace the European Central Bank's target. While Lisbon touts fiscal surpluses and falling debt as proof of sound management, many citizens remain unconvinced that macroeconomic gains are translating into daily relief. The coming months will test whether the government can sustain its credibility on both fronts.",
+      "body": "<h3>A Flag Carrier at a Crossroads</h3><p>Portugal&#x27;s government has moved into the final stages of a high-stakes sale process for TAP Air Portugal, with Air France-KLM and Lufthansa emerging as the leading candidates to acquire a minority stake in the state-owned carrier. According to Reuters, Lisbon has entered final negotiations and is pressing both bidders to submit improved offers, making the deal one of the most consequential strategic economic decisions the country has faced in years.</p><p>The government&#x27;s argument is straightforward. Transport and economy officials have stated that TAP requires a seasoned international airline partner to improve operational competitiveness, expand its global route network, and share the financial risks that the Portuguese state has been carrying largely alone since a costly bailout during the pandemic. The logic is that industrial partnership, not full state ownership, is the more sustainable path for a mid-sized carrier operating in a fiercely competitive European aviation market.</p><p>Critics, however, are unconvinced. Labour unions and opposition parties have argued that selling any share of TAP amounts to a partial surrender of a national asset, with unpredictable consequences for employment, domestic fares, and route decisions that may ultimately be driven by commercial logic rather than public service obligations. Portugal&#x27;s connectivity to its Atlantic island regions and its diaspora communities in Brazil and North America adds political weight to those concerns, since route profitability and national interest do not always align.</p><h3>Fiscal Surplus Meets Kitchen-Table Anxiety</h3><p>Separate from the TAP drama, a quieter but equally significant tension is building around Portugal&#x27;s broader economic narrative. The government has invested considerable political capital in presenting its fiscal discipline as a success story: public borrowing is falling, the budget is in surplus, and Lisbon&#x27;s credibility in European bond markets has improved markedly. Officials have argued that this discipline creates the headroom for targeted tax relief and provides a stable foundation for investment and growth.</p><p>Yet the figures tell a more complicated story at the household level. Data from Eurostat show that Portugal&#x27;s annual inflation rate stood at 3.1 percent in July 2026, with preliminary August figures pointing to a further rise to 3.3 percent. Energy inflation remains particularly elevated, compounding pressure on lower- and middle-income families who spend a disproportionate share of their budgets on utilities, transport, and food. The ECB&#x27;s 2 percent target, which many policymakers treat as a benchmark for normalcy, remains out of reach for Portugal.</p><p>Opposition voices have seized on this gap, arguing that a government surplus is not the same as household relief and that the distinction matters enormously in political terms. &quot;Macro success,&quot; critics contend, has not translated into lived experience for families still absorbing the cumulative impact of two years of elevated price pressures. That argument carries practical force: when wages, energy bills, mortgage repayments, and grocery costs dominate daily life, an improving sovereign credit rating offers little immediate comfort.</p><h3>What Comes Next and What Is at Stake</h3><p>The two issues are linked by a common thread: government credibility. On TAP, the final deal terms will determine whether the privatisation is judged a pragmatic modernisation or a strategic blunder. The scope of any binding commitments on employment levels, route preservation, and Portuguese management influence will be scrutinised closely by unions, regional governments, and opposition parties. A deal that lacks transparent safeguards risks fuelling a backlash that could haunt the government well beyond the signing ceremony.</p><p>On inflation, the trajectory over the next two to three quarters will be critical. If the recent uptick in August proves transitory and price pressures ease into late 2026, the government&#x27;s narrative of fiscal competence delivering eventual household stability may gain traction. If inflation remains stubbornly above three percent while energy bills stay elevated, the political cost of the surplus story will grow, particularly ahead of any future electoral cycle.</p><p>For European institutions and markets, Portugal presents a dual signal: a peripheral eurozone economy that has demonstrably repaired its public finances since the debt crisis of the early 2010s, but one where the social transmission of that repair remains uneven. How Lisbon manages the TAP sale and communicates its inflation response in the coming months will shape not only domestic politics but also its standing as a model of cautious fiscal rehabilitation within the EU. The credibility it has built is real, but it is not yet unconditional.</p>",
+      "keywords": "TAP privatisation, Portugal economy, Air France-KLM, Lufthansa, Portugal inflation, Eurostat, fiscal surplus, household cost of living, Portugal aviation, ECB inflation target, eurozone periphery, Portugal politics, public finances, energy inflation",
+      "sources": "Reuters, TAP privatisation final round reporting; Eurostat, Portugal inflation data July and August 2026; European Central Bank, inflation target framework; Portuguese government budget and fiscal communications; TAP Air Portugal labour and union statements",
+      "pubDate": "2026-09-08",
+      "chartData": {
+        "values": [
+          3.1,
+          3.3,
+          2.0
+        ],
+        "labels": [
+          "Portugal Inflation July 2026 (%)",
+          "Portugal Inflation August 2026 - Preliminary (%)",
+          "ECB Target (%)"
+        ]
+      }
+    },
     {
       "id": "article-81d9e17",
       "title": "Ireland's Budget Windfall Meets a Cost-of-Living Crisis That Numbers Alone Cannot Fix",
@@ -14531,6 +14555,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260908-portugal",
+      "title": "TAP Sale and Stubborn Inflation Put Portugal's Economic Recovery Story to the… · 08 Sep",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "duration": "8:36",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Portugal_Episode_2026_09_08.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 241,
+      "keywords": "TAP privatisation, Portugal economy, Air France-KLM, Lufthansa, Portugal inflation, Eurostat, fiscal surplus, household cost of living, Portugal aviation, ECB inflation target, eurozone periphery, Portugal politics, public finances, energy inflation",
+      "notes": "Portugal is navigating two defining economic challenges simultaneously: the partial privatisation of its flag carrier TAP and a household inflation rate that continues to outpace the European Central Bank's target. While Lisbon touts fiscal surpluses and falling debt as proof of sound management, many citizens remain unconvinced that macroeconomic gains are translating into daily relief. The coming months will test whether the government can sustain its credibility on both fronts.",
+      "pubDate": "2026-09-08",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Portugal_Episode_2026_09_08.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Portugal_Short_2026_09_08.mp4"
+    },
     {
       "id": "episode-20260907-ireland",
       "title": "Ireland's Budget Windfall Meets a Cost-of-Living Crisis That Numbers Alone… · 07 Sep",
