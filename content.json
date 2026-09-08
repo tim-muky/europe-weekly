@@ -1,5 +1,5 @@
 {
-  "version": 1788844022504,
+  "version": 1788844152206,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-6092c47",
+      "title": "Greece's Pre-Election Relief Package Meets Inflation Fatigue Ahead of 2027 Vote",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "The Greek government has unveiled a four-year income-support package worth between 2.2 and 3.5 billion euros, combining tax cuts, wage increases, and pension rises aimed at lower- and middle-income households. The announcement comes as inflation remains elevated and street protests signal a growing disconnect between official optimism and the daily pressures facing ordinary citizens. With elections due in 2027, Athens faces mounting pressure to prove that macroeconomic stability can translate into tangible relief for voters.",
+      "body": "<h3>Athens Unveils Sweeping Relief Package, Citing Stronger Fiscal Position</h3><p>The Greek government has put forward its most ambitious household support programme in years, a four-year bundle of measures encompassing income tax reductions, increases to the minimum wage and pensions, and targeted relief for families, farmers, and the self-employed. The total cost is estimated at between 2.2 and 3.5 billion euros, a range that reflects the phased nature of the rollout and uncertainty around final take-up.</p><p>Government officials argue the package is both affordable and timely, pointing to a projected primary surplus of around 4 percent of GDP and growth running at approximately 2 percent. Analysis backed by the National Bank of Greece supports the view that Athens has genuine fiscal space to ease policy without destabilising public finances, a claim that distinguishes Greece&#x27;s current position sharply from its debt-crisis era a decade ago.</p><p>Ministers have framed the measures as a direct answer to household stress, particularly for groups squeezed hardest by three years of elevated prices. The government, said senior officials, is not spending beyond its means but rather returning a share of better-than-expected revenues to citizens who absorbed the cost of fiscal consolidation.</p><h3>Opposition and Protesters Push Back, Calling the Package Pre-Election Calculation</h3><p>Critics from opposition parties and trade unions have been quick to challenge that narrative. They argue the relief programme arrives too late, is too selective in its targeting, and is designed primarily to repair polling damage ahead of the 2027 general election rather than to address structural weaknesses in the Greek economy. Persistent problems, including low real wages, a tightening housing market, and weak purchasing power, are unlikely to be resolved by time-limited tax relief, they contend.</p><p>The inflation picture adds weight to that skepticism. Eurostat data show Greek consumer price inflation stood at 2.7 percent in July 2026, down from 3.9 percent in June, before a flash estimate placed August at 3.7 percent. The government has cited the July reading as evidence that price pressures are easing. Opponents counter, with some justification, that a fall in the rate of inflation does not mean prices are returning to earlier levels. Food, energy, and housing costs remain elevated in absolute terms, and many households report feeling no meaningful improvement in their financial position.</p><p>Protests in Thessaloniki have given visible form to that frustration. Demonstrators argue that official optimism is disconnected from lived experience, that the statistics governments cite and the conditions families navigate day to day describe two different realities. Trade union voices have been particularly pointed, stating that a package of tax cuts cannot compensate for years of stagnating incomes when rents continue to rise and grocery bills remain persistently high.</p><h3>A Familiar European Dilemma: Fiscal Stability Without Felt Improvement</h3><p>The political stakes are significant. For Greek households, the income-support package and the inflation debate are not two separate policy questions but one: whether wages, pensions, and tax relief can keep pace with the real cost of everyday life. Public mood, described by observers as resigned at best and angry at worst, suggests that most citizens welcome the additional money while remaining unconvinced that the government has diagnosed or treated the underlying problem.</p><p>For European institutions and markets, Greece presents a recognisable test case. Several eurozone governments now find themselves in a structurally similar position, enjoying improved public finances relative to the post-pandemic period, yet struggling to convert macroeconomic indicators into tangible gains for voters. When inflation eases but living standards do not recover at a pace people can feel, that gap tends to become politically corrosive, and not only in Athens.</p><p>The coming months will be critical. If inflation continues its uneven trajectory and household confidence does not recover, the government&#x27;s relief package risks being judged not on its fiscal soundness but on its political timing. With the 2027 election horizon now firmly in view, the pressure on the ruling party to demonstrate real rather than statistical improvement is set to intensify. Any further spike in food or energy prices could rapidly erase whatever goodwill the package generates, leaving Athens in the uncomfortable position of having spent political capital and fiscal resources without silencing the protests.</p>",
+      "keywords": "Greece, cost of living, inflation, income support, tax cuts, wages, pensions, pre-election, fiscal policy, Eurostat, Thessaloniki protests, eurozone, primary surplus, Greek economy, 2027 elections",
+      "sources": "Reuters; National Bank of Greece analysis; Eurostat consumer price data, July–August 2026; Greek government budget documentation; Thessaloniki protest reporting",
+      "pubDate": "2026-09-08",
+      "chartData": {
+        "values": [
+          2.7,
+          3.9,
+          3.7
+        ],
+        "labels": [
+          "July 2026 Inflation",
+          "June 2026 Inflation",
+          "August 2026 Flash Estimate"
+        ]
+      }
+    },
     {
       "id": "article-c887a0f",
       "title": "Italy Squeezes Banks and Energy Firms as Growth Falters and Confidence Fades",
@@ -14605,6 +14629,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260908-greece",
+      "title": "Greece's Pre-Election Relief Package Meets Inflation Fatigue Ahead of 2027… · 08 Sep",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "8:37",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Greece_Episode_2026_09_08.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 244,
+      "keywords": "Greece, cost of living, inflation, income support, tax cuts, wages, pensions, pre-election, fiscal policy, Eurostat, Thessaloniki protests, eurozone, primary surplus, Greek economy, 2027 elections",
+      "notes": "The Greek government has unveiled a four-year income-support package worth between 2.2 and 3.5 billion euros, combining tax cuts, wage increases, and pension rises aimed at lower- and middle-income households. The announcement comes as inflation remains elevated and street protests signal a growing disconnect between official optimism and the daily pressures facing ordinary citizens. With elections due in 2027, Athens faces mounting pressure to prove that macroeconomic stability can translate into tangible relief for voters.",
+      "pubDate": "2026-09-08",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Greece_Episode_2026_09_08.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_08/Greece_Short_2026_09_08.mp4"
+    },
     {
       "id": "episode-20260908-italy",
       "title": "Italy Squeezes Banks and Energy Firms as Growth Falters and Confidence Fades · 08 Sep",
