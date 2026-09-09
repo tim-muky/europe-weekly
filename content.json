@@ -1,5 +1,5 @@
 {
-  "version": 1788930306987,
+  "version": 1788930446760,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-988236a",
+      "title": "Belgium at the Crossroads: Frozen Russian Assets and a Missed Climate Deadline Test Brussels' Credibility",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Belgium finds itself at the centre of two of the European Union's most consequential policy debates simultaneously. The country holds effective veto power over nearly €185 billion in frozen Russian central bank assets while also failing to meet an EU nature-restoration deadline, raising uncomfortable questions about Belgium's willingness and capacity to deliver on its European commitments.",
+      "body": "<h3>Euroclear, Frozen Assets, and the Weight of Belgian Hesitation</h3><p>Of all the places where the war in Ukraine is being fought by financial means, a sleek office complex in Brussels may be among the most consequential. Euroclear, the Belgian-based financial infrastructure giant, holds approximately €185 billion in immobilised Russian central bank assets, making Belgium the de facto gatekeeper of the EU&#x27;s most powerful economic lever against Moscow.</p><p>The Belgian federal government has so far resisted mounting pressure from EU partners to deploy those assets more decisively, either as direct funding for Ukraine or as collateral for reconstruction financing. The official position rests on a cluster of legal, financial, and geopolitical concerns. Brussels argues that moving too quickly risks setting a dangerous precedent that could undermine confidence in European financial markets, expose Belgium to retaliatory measures, and trigger prolonged international litigation. Given that the bulk of the assets are held on Belgian soil through Euroclear, the government contends it cannot be treated as a peripheral player in this debate.</p><p>Critics, however, see calculated inertia dressed up as legal caution. Opposition voices and several EU partners argue that Belgium is effectively blocking a coordinated European response at a moment when Ukraine&#x27;s funding needs are acute and political will elsewhere in the bloc is hardening. They say the legal risks, while real, are being used as a shield to delay a decision that carries domestic political costs. The fact-check on this dispute is partial: the scale of Belgium&#x27;s position is beyond dispute, with the €185 billion figure confirming the country&#x27;s outsized role. Whether inaction is the wisest policy, however, remains genuinely contested among international legal scholars and EU officials alike.</p><h3>A Climate Deadline Missed, and a Federal System Under Scrutiny</h3><p>On a separate but equally revealing front, Belgium has failed to submit its draft national nature-restoration plan by the 1 September 2026 deadline set under EU Regulation 2024/1991. The Nature Restoration Law, one of the flagship pieces of European Green Deal legislation, requires member states to outline concrete plans for restoring degraded ecosystems, from wetlands and river corridors to urban green spaces and agricultural land.</p><p>Belgian authorities have pointed to the country&#x27;s famously complex governance architecture as a mitigating factor. With environmental competences split across the federal government and three regional entities — Flanders, Wallonia, and the Brussels Capital Region — coordinating a unified national plan requires layers of negotiation that take time. Federal and Flemish draft plans are said to be in an advanced state of preparation, awaiting validation, but a complete Belgian submission is not expected before summer 2027, nearly a year behind schedule.</p><p>Environmental advocates and opposition politicians have little patience for that explanation. For them, the missed deadline is symptomatic of a broader pattern: Belgium sets ambitious climate targets in Brussels negotiating rooms and then struggles to translate them into binding domestic action. The consequences are tangible. Nature-restoration policy directly affects flood-risk management, biodiversity corridors, agricultural zoning, and construction permits — issues that touch the daily lives of citizens from the Ardennes to the Antwerp port hinterland. For the EU as an institution, Belgium&#x27;s delay reinforces a troubling pattern in which the implementation gap, not the ambition gap, is where European climate governance breaks down.</p><h3>Two Tests, One Question: Can Belgium Lead and Deliver?</h3><p>Taken together, the two episodes paint a coherent and somewhat uncomfortable portrait of Belgium&#x27;s current European posture. The country is simultaneously one of the EU&#x27;s most institutionally central members — hosting the bulk of its institutions and a vast share of frozen Russian sovereign wealth — and one of its most administratively fragmented, with a federal structure that can slow policy execution to a crawl.</p><p>On the Russian assets file, the stakes extend well beyond Belgian borders. If the EU is to use financial pressure as a long-term instrument of its foreign policy toolkit, the legal and institutional framework for doing so must be established now, while the assets remain frozen. Delay risks leaving the question unresolved until political conditions shift, potentially robbing European policymakers of their most potent non-military lever. Markets, too, are watching: any perception that sovereign assets held in European financial infrastructure could be seized or redirected carries implications for the euro&#x27;s role as a reserve currency and for Euroclear&#x27;s standing as a trusted neutral custodian.</p><p>On climate delivery, the nature-restoration miss adds to a growing inventory of EU environmental commitments that have been agreed in principle but faltered in practice. With the European Commission capable of launching infringement proceedings against member states that fail to comply with EU environmental law, Belgium could find itself facing legal pressure from Brussels even as it hosts the very institutions that would apply it. The coming months will test whether the federal and regional governments can close the coordination gap before that scenario materialises. For Belgian citizens and EU observers alike, both files will serve as an early indicator of whether the country&#x27;s new government, navigating a complex coalition, can project credibility in European affairs rather than simply proximity to them.</p>",
+      "keywords": "Belgium, Euroclear, frozen Russian assets, Ukraine funding, EU nature restoration law, climate governance, Belgian federal government, EU foreign policy, nature restoration plan, implementation gap, European Green Deal, Russian central bank assets",
+      "sources": "Belgian federal government position on Euroclear and frozen Russian assets, as reported in EU governance analysis [10]; EU Nature Restoration Law, Regulation (EU) 2024/1991; Belgian national nature-restoration plan timeline and deadline reporting [14]; Euroclear institutional data on immobilised Russian sovereign assets [10]",
+      "pubDate": "2026-09-09",
+      "chartData": {
+        "values": [
+          185.0,
+          15.0
+        ],
+        "labels": [
+          "Russian assets held at Euroclear Brussels (€ billion)",
+          "Remaining Russian assets held elsewhere in EU (€ billion estimated)"
+        ]
+      }
+    },
     {
       "id": "article-82654a5",
       "title": "France Faces Twin Threats of Fiscal Strain and Sluggish Growth as Budget Battle Looms",
@@ -14677,6 +14699,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260909-belgium",
+      "title": "Belgium at the Crossroads: Frozen Russian Assets and a Missed Climate… · 09 Sep",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "8:53",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_09/Belgium_Episode_2026_09_09.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 247,
+      "keywords": "Belgium, Euroclear, frozen Russian assets, Ukraine funding, EU nature restoration law, climate governance, Belgian federal government, EU foreign policy, nature restoration plan, implementation gap, European Green Deal, Russian central bank assets",
+      "notes": "Belgium finds itself at the centre of two of the European Union's most consequential policy debates simultaneously. The country holds effective veto power over nearly €185 billion in frozen Russian central bank assets while also failing to meet an EU nature-restoration deadline, raising uncomfortable questions about Belgium's willingness and capacity to deliver on its European commitments.",
+      "pubDate": "2026-09-09",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_09/Belgium_Episode_2026_09_09.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_09/Belgium_Short_2026_09_09.mp4"
+    },
     {
       "id": "episode-20260909-france",
       "title": "France Faces Twin Threats of Fiscal Strain and Sluggish Growth · 09 Sep",
