@@ -1,5 +1,5 @@
 {
-  "version": 1789016806430,
+  "version": 1789016945701,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-e8712a8",
+      "title": "Croatia Under Pressure: Toxic Waste Scandal and Stubborn Inflation Test Public Trust in Zagreb",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "excerpt": "Tens of thousands of Croatians took to the streets of Zagreb to demand action over an illegal hazardous-waste dump exceeding 30,000 tons, as the government faces simultaneous criticism over inflation that remains above the euro-area average. The twin crises are straining public confidence in state institutions and raising questions about Croatia's environmental and economic governance within the European Union. Together, they tell a single story: citizens are questioning whether their government can protect both their environment and their wallets.",
+      "body": "<h3>Mass Protest Forces Toxic Waste Crisis Into Political Spotlight</h3><p>The immediate trigger for Zagreb&#x27;s largest environmental demonstration in years was an illegal hazardous-waste dump in central Croatia, a site that environmental experts and independent reports say holds more than 30,000 tons of toxic material. Protesters argued that the state had been too slow to act, too passive in enforcement, and too tolerant of illegal dumping practices that now pose direct risks to drinking water and public health. The scale of public anger caught officials off guard, with demonstrators framing the issue not as a localised environmental incident but as a systemic failure of Croatian governance.</p><p>The government responded by insisting that formal remediation procedures and legal investigations are under way, and that moving too quickly risks compromising both technical and judicial processes. Officials also said they were wary of stoking public panic before the full facts could be established. Critics, including environmental groups that helped organise the rally, rejected that framing, arguing that procedural caution has become a pretext for inaction and that the absence of clear deadlines or visible cleanup operations is itself an indictment of state competence.</p><p>Fact-checkers and independent journalists have found that the criticism is well supported by the evidence. The dump&#x27;s scale has been confirmed across multiple credible reports, and the gap between the known severity of the contamination and the pace of official response has been hard for the government to explain away. While final legal responsibility remains under determination, the political and administrative failure is already visible, and the protest has ensured it cannot be managed quietly.</p><h3>Inflation Stays Above Euro-Area Average as Subsidy Safety Net Frays</h3><p>Compounding the political strain is an inflation picture that official messaging has struggled to square with daily household experience. Croatia&#x27;s consumer price index rose 4.1 percent year on year in August 2026, while Eurostat&#x27;s harmonised measure placed the country at 3.7 percent for the same month, above the euro-area average of 3.3 percent. Energy costs remain a significant driver, and the prospect of expiring electricity and gas subsidies has added a layer of anxiety to what the government prefers to describe as a story of moderation and convergence.</p><p>Ministers have argued that Croatia&#x27;s inflation trajectory is moving in the right direction, pointing to the distance already travelled from crisis-era peaks and noting that the economy continues to expand. That message has not landed convincingly with many households. Opposition parties and independent economists argue that &quot;inflation is falling&quot; obscures the more uncomfortable truth that prices are still rising faster than the European average, and that real wages for many workers have not kept pace with the cumulative cost increases of recent years.</p><p>The data supports a nuanced verdict: the government is correct that the worst of the inflation surge has passed, but opponents are equally correct that the cost-of-living problem is unresolved. Grocery bills, utility costs, and rents remain elevated in absolute terms, and the looming withdrawal of energy support measures could reignite household pressure precisely when public patience is already thin from the waste scandal. For EU policymakers watching member-state performance, Croatia serves as a reminder that headline inflation figures can improve while underlying affordability stress persists.</p><h3>A Government Credibility Test With EU Dimensions</h3><p>Taken together, the two crises illuminate a broader political challenge for Zagreb. The toxic waste scandal strikes at the state&#x27;s ability to enforce basic environmental law, a capability that EU membership requires and that Brussels monitors through its rule-of-law and environmental governance frameworks. An illegal dump of this magnitude, left unresolved for long enough to generate mass street protest, is the kind of episode that draws uncomfortable scrutiny from European institutions and can complicate Croatia&#x27;s standing in discussions about waste management and cross-border pollution standards.</p><p>On the economic side, Croatia&#x27;s above-average inflation rate places it in a category of member states where the transition to the euro has yet to deliver a fully stabilising effect on price dynamics. The currency switch was widely supported and is still broadly seen as positive, but the persistence of elevated prices gives ammunition to those who argue that EU membership has not yet translated into tangible gains for ordinary families. The government will need to show either that subsidies can be wound down without triggering a new surge or that alternative relief measures are ready to deploy.</p><p>The immediate outlook hinges on two pressure points. On the environmental front, protesters and opposition parties are likely to sustain demands for specific cleanup deadlines and named accountability, making it difficult for the government to revert to procedural language without further political cost. On the economic front, the trajectory of energy prices and the timing of any subsidy phase-out will determine whether inflation continues its gradual decline or resurges into the winter months. Both files will be watched closely in Brussels, and both will test whether Croatian institutions can respond to pressure with credible action rather than reassuring statements.</p>",
+      "keywords": "Croatia, toxic waste, Zagreb protest, inflation, energy prices, environmental governance, EU, Croatian government, cost of living, hazardous waste, eurozone, public trust, rule of law",
+      "sources": "Eurostat harmonised inflation data, August 2026; Croatian Bureau of Statistics, CPI release August 2026; Croatian environmental and investigative reporting on the hazardous-waste dump; Independent fact-check assessments of government cleanup statements; EU rule-of-law and environmental governance framework documentation",
+      "pubDate": "2026-09-10",
+      "chartData": {
+        "values": [
+          4.1,
+          3.7,
+          3.3
+        ],
+        "labels": [
+          "Croatia CPI (Aug 2026)",
+          "Croatia HICP (Aug 2026)",
+          "Euro-Area HICP (Aug 2026)"
+        ]
+      }
+    },
     {
       "id": "article-8598d9a",
       "title": "Romania's Twin Crisis: Political Paralysis and Economic Strain Test Public Confidence",
@@ -14775,6 +14799,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260910-croatia",
+      "title": "Croatia Under Pressure: Toxic Waste Scandal and Stubborn Inflation Test… · 10 Sep",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "duration": "8:34",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_10/Croatia_Episode_2026_09_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 251,
+      "keywords": "Croatia, toxic waste, Zagreb protest, inflation, energy prices, environmental governance, EU, Croatian government, cost of living, hazardous waste, eurozone, public trust, rule of law",
+      "notes": "Tens of thousands of Croatians took to the streets of Zagreb to demand action over an illegal hazardous-waste dump exceeding 30,000 tons, as the government faces simultaneous criticism over inflation that remains above the euro-area average. The twin crises are straining public confidence in state institutions and raising questions about Croatia's environmental and economic governance within the European Union. Together, they tell a single story: citizens are questioning whether their government can protect both their environment and their wallets.",
+      "pubDate": "2026-09-10",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_10/Croatia_Episode_2026_09_10.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_10/Croatia_Short_2026_09_10.mp4"
+    },
     {
       "id": "episode-20260910-romania",
       "title": "Romania's Twin Crisis: Political Paralysis and Economic Strain Test Public… · 10 Sep",
