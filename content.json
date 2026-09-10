@@ -1,5 +1,5 @@
 {
-  "version": 1788930595227,
+  "version": 1789016546516,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,34 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-9b1f0be",
+      "title": "Bulgaria Faces Twin Tests of State Capacity as Budget Stress and Road Deaths Fuel Public Frustration",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "excerpt": "Bulgaria's government is leaning heavily on EU recovery funds to stabilize strained public finances, even as inflation remains well above comfortable levels and pressure mounts over a persistent road safety crisis. The two issues together have become a referendum on whether Sofia can deliver basic state functions. For citizens and Brussels alike, the stakes extend well beyond technocratic debate.",
+      "body": "<h3>EU Recovery Money Becomes a Fiscal Lifeline — and a Political Lightning Rod</h3><p>Bulgaria&#x27;s government has made securing the final tranches of EU recovery and resilience payments a central plank of its fiscal strategy, framing compliance with Brussels as both a financial necessity and a signal of democratic seriousness. With the national budget under sustained pressure, officials argue that without those transfers, public finances face the risk of a visible deterioration — one that could affect wages, pensions, and municipal services for millions of ordinary Bulgarians.</p><p>Opposition figures and independent analysts offer a sharper diagnosis. They argue the cabinet is obscuring years of weak domestic fiscal management by treating EU transfers as a substitute for structural reform. If revenues were effectively pre-committed before they arrived, critics say, the underlying problem is not Brussels bureaucracy but chronic political improvisation at home. The dependency, in their framing, is a symptom rather than a solution.</p><p>The inflation picture complicates the government&#x27;s narrative further. Eurostat data shows Bulgaria&#x27;s harmonised inflation rate stood at 6.2 percent in April 2026, edged up to 6.3 percent in June, then eased to 5.2 percent in July and 4.4 percent in August, with an estimate of 5.1 percent for September. The National Bank of Bulgaria&#x27;s own 2026 forecast projects average annual inflation of around 3.7 percent and approximately 4.0 percent at year-end — figures that suggest price pressures remain material rather than resolved. Claims that inflation is &quot;easing&quot; are accurate only relative to the summer peak, not in any broader sense of normalisation.</p><h3>Road Safety Reform Triggers Anger, but Centralisation Remains Unproven</h3><p>In parallel, the government has moved to tighten central control over road-safety enforcement and transport oversight, citing persistent concern about road deaths and what officials describe as fragmented and ineffective policing. The proposal would consolidate responsibility within a single executive structure, which proponents say is the only way to impose consistent standards and reduce violations at scale.</p><p>Skeptics are unconvinced. Critics argue that reorganising administrative lines does not address the deeper failures — deteriorating infrastructure, uneven enforcement, and a culture of impunity that has survived multiple rounds of institutional tinkering. There is also a political risk embedded in the reform logic: centralisation can make accountability easier to dilute, shifting blame upward without ensuring that anyone at the centre is actually held responsible when fatalities continue.</p><p>What the available evidence does support is that public pressure is real and intensifying. Road safety is not an abstract policy category for Bulgarian families; it is a daily exposure to risk on commutes, freight routes, and rural roads that are among the most dangerous in the European Union. The emotional temperature around the issue is high enough that government inaction — or the appearance of it — carries direct political cost. Whether the proposed reform will reduce deaths in practice remains, as yet, undemonstrated.</p><h3>A Dual Test of Credibility With Citizens and Brussels</h3><p>Taken together, the two issues frame a broader question about Bulgarian state capacity that neither Brussels nor Sofia can easily sidestep. For the European Commission, Bulgaria&#x27;s ability to deliver on reform commitments tied to recovery fund disbursements affects not just one member state&#x27;s finances but the credibility of the broader conditionality framework that underpins EU recovery spending across the bloc. If Sofia is seen to absorb transfers without substantive change, the political cost extends well beyond the Balkans.</p><p>For citizens, the connection between the two debates is intuitive even if rarely stated in policy terms. Whether the state can manage its budget and whether it can enforce basic road safety are both expressions of the same underlying question: does the government have the competence and the will to protect ordinary people? The public mood, according to analysts tracking Bulgarian opinion, is best characterised as resigned rather than mobilised — a population accustomed to fiscal stress and institutional disappointment, but not yet convinced that either problem is on a path to resolution.</p><p>The immediate calendar will provide early indicators. Final recovery-plan payment assessments are expected to proceed against the backdrop of inflation data that remains elevated by eurozone standards, and the road safety legislation must move from announcement to implementation before scepticism hardens into opposition. Both timelines are short. Bulgaria&#x27;s credibility on both fronts will be tested not by the reform proposals it publishes but by the measurable outcomes it can point to by the time the next round of EU scrutiny arrives.</p>",
+      "keywords": "Bulgaria, EU recovery funds, fiscal policy, inflation, road safety, governance reform, Eurostat, National Bank of Bulgaria, public finances, European Commission, state capacity, Balkans",
+      "sources": "Eurostat HICP inflation data for Bulgaria, 2026; National Bank of Bulgaria 2026 inflation forecast; European Commission Recovery and Resilience Facility documentation; Bulgarian government budget communications, 2026; Road safety enforcement reform proposals, Bulgarian Ministry of Transport, 2026",
+      "pubDate": "2026-09-10",
+      "chartData": {
+        "values": [
+          6.2,
+          6.3,
+          5.2,
+          4.4,
+          5.1
+        ],
+        "labels": [
+          "April 2026",
+          "June 2026",
+          "July 2026",
+          "August 2026",
+          "September 2026 (est.)"
+        ]
+      }
+    },
     {
       "id": "article-05995d6",
       "title": "Dutch Budget Politics and EU Recovery Funds Reveal a Tale of Two Realities",
@@ -14721,6 +14749,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260910-bulgaria",
+      "title": "Bulgaria Faces Twin Tests of State Capacity · 10 Sep",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "duration": "7:50",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_10/Bulgaria_Episode_2026_09_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 249,
+      "keywords": "Bulgaria, EU recovery funds, fiscal policy, inflation, road safety, governance reform, Eurostat, National Bank of Bulgaria, public finances, European Commission, state capacity, Balkans",
+      "notes": "Bulgaria's government is leaning heavily on EU recovery funds to stabilize strained public finances, even as inflation remains well above comfortable levels and pressure mounts over a persistent road safety crisis. The two issues together have become a referendum on whether Sofia can deliver basic state functions. For citizens and Brussels alike, the stakes extend well beyond technocratic debate.",
+      "pubDate": "2026-09-10",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_10/Bulgaria_Episode_2026_09_10.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_10/Bulgaria_Short_2026_09_10.mp4"
+    },
     {
       "id": "episode-20260909-netherlands",
       "title": "Netherlands: Dutch Budget Politics and EU Recovery Funds Reveal a Tale of Two Realities · 09 Sep",
