@@ -1,5 +1,5 @@
 {
-  "version": 1789103085173,
+  "version": 1789103221499,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,31 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-923ed0a",
+      "title": "Hungary Faces Twin Tests: Fiscal Strains and a State Bank Corruption Probe Put New Leadership Under Scrutiny",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary is navigating a widening budget deficit and a contested inflation picture at the same moment that criminal investigators are examining alleged mismanagement at state-owned export bank Eximbank, including a loan linked to North Macedonia worth around one billion euros. The two developments together raise a pointed question: can Budapest stabilize its public finances while credibly dismantling what critics describe as a culture of institutional abuse? The answer will shape Hungary's standing in Brussels, its access to EU funds, and the daily economic reality for millions of citizens.",
+      "body": "<h3>A Budget Under Strain as Inflation Relief Remains Uneven</h3><p>Hungary&#x27;s public finances are tightening in ways that are drawing scrutiny both at home and in European institutions. The government&#x27;s deficit is running wider than official targets suggest is comfortable, with the National Bank of Hungary&#x27;s own forecasting materials pointing to a 2026 fiscal gap in the mid-five-percent range. That sits at a notable distance from the more optimistic figures the government has publicly defended, and the discrepancy is feeding an active debate among economists and opposition politicians about how much fiscal room Budapest truly has.</p><p>The government argues that short-term deficit pressure is the unavoidable cost of securing EU funding flows and stabilizing the country&#x27;s broader financing position. Officials point to a headline inflation figure of 1.3 percent in August 2026, the lowest reading since 2016, as evidence that the hardest years of price pressure are behind Hungarian households. Eurostat data for July 2026 places Hungary&#x27;s harmonised index of consumer prices at 1.6 percent, broadly consistent with that narrative.</p><p>Critics, however, argue the headline figure is misleading. Month-on-month price movements remain positive and core inflation, which strips out volatile food and energy components, stays elevated enough to sustain real pressure on family budgets. For pensioners and lower-income workers whose spending is concentrated in precisely the categories where prices remain sticky, the relief visible in annual comparisons has not translated into tangible breathing room. The debate matters beyond Hungary&#x27;s borders: Budapest&#x27;s fiscal credibility is directly tied to ongoing EU funding negotiations and to broader arguments about whether member states can be trusted to manage the bloc&#x27;s budget rules.</p><h3>Criminal Probe Into Eximbank Sharpens Questions About Institutional Trust</h3><p>Simultaneously, Hungarian authorities have opened a criminal investigation into alleged abuse of office and mismanagement at Eximbank, the state-owned export financing institution. Police are examining four separate cases following a formal complaint lodged by a government ministry on the basis of an external audit, according to Reuters. Among the transactions under scrutiny is a loan of approximately one billion euros connected to North Macedonia, a deal whose scale and terms have attracted attention from both investigators and public commentators.</p><p>Supporters of the current leadership have framed the probe as a sign that a genuine accountability culture is taking root. The argument runs that state-owned institutions were for years shielded from serious scrutiny, and that opening a formal criminal process demonstrates a willingness to apply the law regardless of institutional prestige or political proximity. For a government seeking to improve its standing with the European Commission on rule-of-law grounds, a visible anti-corruption investigation carries obvious strategic value.</p><p>Opponents read the situation very differently. Several political figures and analysts have suggested the investigation is selectively targeted and politically timed, serving to delegitimize figures associated with a previous era rather than reflecting a neutral and consistent application of anti-corruption law. The distinction matters enormously: if the probe is perceived as a legal tool wielded for political ends rather than an impartial process, it risks reinforcing rather than repairing Hungary&#x27;s credibility deficit with European institutions. What is firmly established at this stage is the existence of a real legal investigation. What remains entirely unproven is any finding of guilt, and the presumption of innocence applies fully to all individuals involved.</p><h3>Outlook: Credibility Is the Central Commodity at Stake</h3><p>Taken together, the fiscal squeeze and the Eximbank probe represent a defining period for Hungary&#x27;s current leadership. The underlying question binding both stories is whether the new political dispensation can demonstrate that it operates differently from what preceded it, not merely in rhetoric but in measurable outcomes visible to citizens, markets, and European partners alike.</p><p>On the economic front, the coming months will test whether inflation&#x27;s retreat proves durable or whether month-on-month price momentum and continued budget pressures combine to erode household confidence. Markets and EU officials will watch the 2026 deficit outturn closely. A figure significantly above official targets would complicate Hungary&#x27;s arguments for fiscal flexibility and could harden the Commission&#x27;s posture in funding discussions. Wage and pension data for the remainder of the year will also determine whether the low inflation headline eventually reaches families in the form of genuine purchasing power gains.</p><p>On the rule-of-law front, the pace and transparency of the Eximbank investigation will be scrutinized in Brussels, where Hungary&#x27;s anti-corruption performance remains a live condition attached to the release of cohesion and recovery funds. An investigation that produces credible, procedurally sound results could meaningfully improve Hungary&#x27;s position. One that stalls, is quietly dropped, or is perceived as narrowly partisan would likely deepen existing skepticism. Hungarian civil society and opposition parties have already signalled they will monitor proceedings closely, and European Parliament members with longstanding concerns about Budapest&#x27;s institutional standards are unlikely to look away. The next formal checkpoint in EU-Hungary funding talks is expected before the end of the year, giving both sides limited time to establish a working trust that neither has fully managed to build.</p>",
+      "keywords": "Hungary, Eximbank, corruption probe, fiscal deficit, inflation, EU funds, rule of law, Budapest, European Commission, public finances, anti-corruption, National Bank of Hungary, Eurostat, North Macedonia loan",
+      "sources": "Reuters, reporting on Hungarian police investigation into Eximbank abuse of office cases; Eurostat, harmonised index of consumer prices for Hungary, July 2026; Hungarian Central Statistical Office, consumer price index data, August 2026; National Bank of Hungary, macroeconomic forecast materials, 2026 deficit projection; European Commission, rule-of-law and cohesion fund disbursement framework documentation",
+      "pubDate": "2026-09-11",
+      "chartData": {
+        "values": [
+          1.3,
+          1.6,
+          5.0
+        ],
+        "labels": [
+          "Hungary CPI Aug 2026 (%)",
+          "Hungary HICP Jul 2026 (%)",
+          "Projected 2026 Deficit (% of GDP",
+          "NBH forecast)"
+        ]
+      }
+    },
     {
       "id": "article-19faaa5",
       "title": "Slovakia Caught Between Austerity Backlash and Persistent Inflation as Growth Stalls",
@@ -14845,6 +14870,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260911-hungary",
+      "title": "Hungary Faces Twin Tests: Fiscal Strains and a State Bank Corruption Probe… · 11 Sep",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:18",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Hungary_Episode_2026_09_11.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 254,
+      "keywords": "Hungary, Eximbank, corruption probe, fiscal deficit, inflation, EU funds, rule of law, Budapest, European Commission, public finances, anti-corruption, National Bank of Hungary, Eurostat, North Macedonia loan",
+      "notes": "Hungary is navigating a widening budget deficit and a contested inflation picture at the same moment that criminal investigators are examining alleged mismanagement at state-owned export bank Eximbank, including a loan linked to North Macedonia worth around one billion euros. The two developments together raise a pointed question: can Budapest stabilize its public finances while credibly dismantling what critics describe as a culture of institutional abuse? The answer will shape Hungary's standing in Brussels, its access to EU funds, and the daily economic reality for millions of citizens.",
+      "pubDate": "2026-09-11",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Hungary_Episode_2026_09_11.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Hungary_Short_2026_09_11.mp4"
+    },
     {
       "id": "episode-20260911-slovakia",
       "title": "Slovakia Caught Between Austerity Backlash and Persistent Inflation · 11 Sep",
