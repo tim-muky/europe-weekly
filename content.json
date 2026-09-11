@@ -1,5 +1,5 @@
 {
-  "version": 1789016945701,
+  "version": 1789102953809,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-518bdfe",
+      "title": "Czech Finances and Babiš Conflict-of-Interest Case Cast Shadow Over Prague's EU Standing",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "excerpt": "The European Commission has halted some subsidy payments to companies linked to Prime Minister Andrej Babiš, reigniting a long-running conflict-of-interest dispute that Brussels says remains unresolved. Simultaneously, the Czech government is pushing a 2027 budget with a deficit of 389 billion crowns, drawing sharp criticism from fiscal hawks who warn that public debt is becoming entrenched. Together, the two controversies are testing public trust and Czechia's credibility within the European Union.",
+      "body": "<h3>Brussels Freezes Agrofert Payments, Calling Trust Arrangement Insufficient</h3><p>The European Commission has suspended certain agricultural subsidy payments to companies belonging to the Agrofert conglomerate, the business empire built by Prime Minister Andrej Babiš before he entered politics. The Commission stated explicitly that the trust fund arrangement Babiš adopted to distance himself from the group does not sufficiently mitigate the conflict-of-interest risk under EU rules. The decision represents the strongest available institutional finding on the matter and carries significant weight precisely because it comes from an external body rather than from domestic political opponents.</p><p>Babiš and his allies have consistently argued that placing Agrofert into a trust fund satisfies both Czech law and EU requirements, framing the arrangement as a clean separation between political office and private business. Critics and opposition politicians counter that the structure is cosmetic, pointing to the Commission&#x27;s own assessment as evidence that the firewall between the prime minister and his former holdings remains porous in practice. For now, the institutional record leans toward the critics: halted payments are a concrete consequence, not merely a procedural warning.</p><p>The practical stakes extend well beyond a bilateral legal dispute. EU agricultural and structural funds represent a significant source of investment for Czech farms and businesses, and any prolonged freeze carries real economic consequences. More broadly, the case reinforces a corrosive public narrative — one that many citizens across Central Europe share — that political elites operate under different accountability standards than ordinary people. Prague&#x27;s ability to negotiate credibly in Brussels on other dossiers may also be complicated so long as the conflict-of-interest question remains open.</p><h3>A 389 Billion Crown Deficit Divides Government and Fiscal Hawks</h3><p>Separate from the Agrofert controversy, the Czech government is engaged in an increasingly sharp internal debate over the scale of the 2027 state budget. The draft under discussion projects a deficit of 389 billion crowns against a backdrop of public debt that has already reached 3.7 trillion crowns. Supporters of the spending plan argue that rising commitments in defence, infrastructure, and health care make a larger near-term deficit unavoidable, and that moderate economic growth will prevent the fiscal position from deteriorating permanently.</p><p>Opponents and independent fiscal analysts push back with force. They argue that normalising deficits of this magnitude sets a dangerous precedent, particularly when interest costs on existing debt are already a mounting burden on the state budget. The concern is less about an immediate crisis than about a gradual erosion of fiscal space — the room governments need to respond when genuine emergencies arise. At 3.7 trillion crowns and rising, the debt stock leaves limited margin for error.</p><p>The macroeconomic backdrop complicates a simple verdict. Czech GDP grew 0.4 percent quarter-on-quarter and 1.9 percent year-on-year in the second quarter, while inflation stood at 1.9 percent in August, close to the central bank&#x27;s target. These are not the indicators of an economy in distress, and they give the government some basis for arguing that the situation is manageable. Nevertheless, stability is not the same as strength, and growth at this pace is unlikely to generate the revenue needed to close a gap of nearly 400 billion crowns without other adjustments.</p><h3>Outlook: Credibility in Brussels and at Home Both Under Pressure</h3><p>For Czech citizens, the convergence of these two stories carries tangible consequences. The budget debate directly shapes the future of public services, civil servant wages, and the tax burden that households and businesses will face in coming years. A failure to bring the deficit trajectory under control could push up borrowing costs, which in turn feeds through to mortgage rates and public investment capacity. The public mood, according to observers, is less panicked than resigned — inflation anxiety has receded, but a quieter worry has taken its place about whether the state can deliver on all it promises.</p><p>On the EU dimension, Czech fiscal choices do not occur in a vacuum. Several member states are currently navigating their own difficult balance between defence commitments, social spending, and budget discipline rules under the revised Stability and Growth Pact. A Czech government seen as unwilling or unable to consolidate its finances risks losing influence in Brussels at precisely the moment when solidarity and credibility matter most. The Agrofert case adds a reputational layer to that challenge: it is harder to argue for rule-based cooperation when a member state&#x27;s own prime minister is under investigation for bending those rules.</p><p>The immediate calendar will be decisive. The European Commission is expected to provide further guidance on the Agrofert payment suspension in the months ahead, while the Czech parliament will need to finalise the 2027 budget framework before year end. Both processes will serve as tests — of institutional resilience in Brussels, of political will in Prague, and of whether accountability mechanisms in the EU can produce outcomes that citizens on the ground find credible. The answers will matter not only for Czechia but for the broader question of how the bloc manages the intersection of national politics and shared European rules.</p>",
+      "keywords": "Czech Republic, Agrofert, Andrej Babiš, European Commission, EU subsidies, conflict of interest, Czech budget deficit, public debt, EU fiscal rules, Central Europe, EU funds, Czech politics, Stability and Growth Pact",
+      "sources": "European Commission statements on Agrofert conflict-of-interest proceedings; Czech Ministry of Finance 2027 budget draft documentation; Czech Statistical Office GDP data Q2; Czech Statistical Office inflation data August; Czech National Debt figures as cited in fiscal debate reporting",
+      "pubDate": "2026-09-11",
+      "chartData": {
+        "values": [
+          389.0,
+          370.0
+        ],
+        "labels": [
+          "2027 Budget Deficit (bn CZK)",
+          "Public Debt (hundreds of bn CZK)"
+        ]
+      }
+    },
     {
       "id": "article-e8712a8",
       "title": "Croatia Under Pressure: Toxic Waste Scandal and Stubborn Inflation Test Public Trust in Zagreb",
@@ -14799,6 +14821,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260911-czechia",
+      "title": "Czechia: Czech Finances and Babiš Conflict-of-Interest Case Cast Shadow Over Prague's… · 11 Sep",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "duration": "8:41",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Czechia_Episode_2026_09_11.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 252,
+      "keywords": "Czech Republic, Agrofert, Andrej Babiš, European Commission, EU subsidies, conflict of interest, Czech budget deficit, public debt, EU fiscal rules, Central Europe, EU funds, Czech politics, Stability and Growth Pact",
+      "notes": "The European Commission has halted some subsidy payments to companies linked to Prime Minister Andrej Babiš, reigniting a long-running conflict-of-interest dispute that Brussels says remains unresolved. Simultaneously, the Czech government is pushing a 2027 budget with a deficit of 389 billion crowns, drawing sharp criticism from fiscal hawks who warn that public debt is becoming entrenched. Together, the two controversies are testing public trust and Czechia's credibility within the European Union.",
+      "pubDate": "2026-09-11",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Czechia_Episode_2026_09_11.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Czechia_Short_2026_09_11.mp4"
+    },
     {
       "id": "episode-20260910-croatia",
       "title": "Croatia Under Pressure: Toxic Waste Scandal and Stubborn Inflation Test… · 10 Sep",
