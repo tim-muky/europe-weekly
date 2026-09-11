@@ -1,5 +1,5 @@
 {
-  "version": 1789102953809,
+  "version": 1789103085173,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-19faaa5",
+      "title": "Slovakia Caught Between Austerity Backlash and Persistent Inflation as Growth Stalls",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "Slovakia is navigating one of its most difficult economic periods in recent memory, with inflation still running well above the euro-area average and GDP growth stuck below one percent for six consecutive quarters. Prime Minister Robert Fico's government is pressing ahead with fiscal consolidation to rein in a deficit that Brussels considers dangerously wide, but the measures are drawing large protests and deepening public anger. The country has become a test case for how a small eurozone economy can manage simultaneous pressures of weak growth, stubborn prices, and politically charged budget cuts.",
+      "body": "<h3>Growth Stagnates as Cost of Living Remains Elevated</h3><p>Slovakia&#x27;s economy has not collapsed, but it has lost the momentum needed to lift living standards. GDP expanded by just 0.8 percent year-on-year in the second quarter of 2026, according to official data, marking the sixth consecutive quarter in which growth has remained below one percent. The European Commission projects full-year growth of 0.8 percent for 2026, a figure that economists describe as stagnation rather than recovery.</p><p>Inflation has eased from its earlier peaks but has not retreated to comfortable levels. Eurostat estimated Slovakia&#x27;s harmonised consumer price inflation at 3.1 percent in August 2026, down from higher readings earlier in the year. However, the National Bank of Slovakia projects inflation at around 4.0 percent for 2026 as a whole, while the European Commission puts its own forecast at 4.3 percent. For many households, wages have not kept pace with accumulated price increases, leaving real purchasing power under sustained pressure.</p><p>Government officials argue that the direction of travel is encouraging: exports are providing some support, and inflation is heading downward. Critics counter that the headline improvement masks a harder reality on the ground. Workers in sectors such as retail, public administration, and social services say they are absorbing price rises that statistical averages tend to smooth over. The overall picture, according to analysts monitoring Slovak consumer sentiment, is one of resigned coping rather than any recognisable sense of recovery.</p><h3>Fiscal Consolidation Ignites Protests and a Legitimacy Crisis</h3><p>Behind the economic weakness lies a fiscal position that has put Slovakia on a collision course with EU budget rules and its own civil society. The state budget recorded a deficit of 3.675 billion euros at the end of August 2026, and the National Bank projects the general government deficit at 4.3 percent of GDP for the full year. At that level, Slovakia remains well above the EU&#x27;s three-percent reference threshold, placing it under pressure to accelerate consolidation efforts.</p><p>The Fico government has responded with a package of spending restraint and tax measures that it argues are unavoidable given the state of public finances. Officials have framed fiscal adjustment as a matter of credibility and long-term stability, noting that persistent deficits carry compounding risks for a country inside the eurozone, where it cannot adjust through currency policy. From Brussels, the expectation is that Bratislava will demonstrate a credible path toward deficit reduction.</p><p>That political logic, however, has run into fierce resistance at home. Large protests have taken place against what demonstrators describe as an austerity agenda that places the burden of adjustment on ordinary citizens while leaving other government priorities untouched. Trade unions and opposition parties have argued that the consolidation plan is socially regressive and that the government&#x27;s broader alignment with positions critical of EU solidarity, including its posture on the war in Ukraine, has undermined public trust in official explanations. According to reporting by the Associated Press, the demonstrations have blended economic grievances with wider anger at Fico&#x27;s political direction, making the fiscal debate increasingly difficult to disentangle from questions of democratic legitimacy.</p><h3>Outlook: A Narrow Path With High Stakes for Slovakia and the EU</h3><p>The months ahead will test whether the Fico government can thread a difficult needle: cutting the deficit enough to satisfy EU fiscal requirements without deepening the social fractures that the protests have exposed. A deficit still projected between 4.3 and 4.6 percent of GDP leaves limited room for manoeuvre, and European Commission officials are expected to scrutinise Slovakia&#x27;s budgetary plans closely as part of the EU&#x27;s reinforced fiscal surveillance framework.</p><p>For citizens, the immediate consequences are concrete. Social benefits, public sector wages, and investment in infrastructure are all areas where consolidation pressure could be felt directly. If inflation does not fall as fast as official forecasts project, the combination of stagnant real incomes and reduced state support could push more households into financial difficulty during the winter months.</p><p>Slovakia&#x27;s situation also carries implications beyond its borders. As a eurozone member that is simultaneously dealing with below-trend growth, above-average inflation, and a wide fiscal deficit, it represents a broader challenge that several central and eastern European economies face in varying degrees. How Bratislava manages the trade-off between fiscal discipline and social stability will be watched in Brussels and in other EU capitals as a signal of whether political systems in the region can absorb the costs of adjustment without serious institutional damage. For now, the answer remains uncertain.</p>",
+      "keywords": "Slovakia, Robert Fico, inflation, GDP growth, fiscal consolidation, austerity, eurozone, European Commission, budget deficit, cost of living, protests, National Bank of Slovakia, central Europe, EU fiscal rules",
+      "sources": "Eurostat, HICP inflation estimates July–August 2026; European Commission, European Economic Forecast 2026; National Bank of Slovakia, macroeconomic projections 2026; Slovak Finance Ministry, state budget execution data to end-August 2026; Associated Press, reporting on Slovak protests against Fico government austerity measures; Reuters, reporting on Slovak fiscal policy and debt limit tensions",
+      "pubDate": "2026-09-11",
+      "chartData": {
+        "values": [
+          0.8,
+          4.3,
+          4.3
+        ],
+        "labels": [
+          "GDP Growth 2026 (%)",
+          "Inflation Forecast 2026 (%)",
+          "General Government Deficit 2026 (% of GDP)"
+        ]
+      }
+    },
     {
       "id": "article-518bdfe",
       "title": "Czech Finances and Babiš Conflict-of-Interest Case Cast Shadow Over Prague's EU Standing",
@@ -14821,6 +14845,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260911-slovakia",
+      "title": "Slovakia Caught Between Austerity Backlash and Persistent Inflation · 11 Sep",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "7:56",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Slovakia_Episode_2026_09_11.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 253,
+      "keywords": "Slovakia, Robert Fico, inflation, GDP growth, fiscal consolidation, austerity, eurozone, European Commission, budget deficit, cost of living, protests, National Bank of Slovakia, central Europe, EU fiscal rules",
+      "notes": "Slovakia is navigating one of its most difficult economic periods in recent memory, with inflation still running well above the euro-area average and GDP growth stuck below one percent for six consecutive quarters. Prime Minister Robert Fico's government is pressing ahead with fiscal consolidation to rein in a deficit that Brussels considers dangerously wide, but the measures are drawing large protests and deepening public anger. The country has become a test case for how a small eurozone economy can manage simultaneous pressures of weak growth, stubborn prices, and politically charged budget cuts.",
+      "pubDate": "2026-09-11",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Slovakia_Episode_2026_09_11.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Slovakia_Short_2026_09_11.mp4"
+    },
     {
       "id": "episode-20260911-czechia",
       "title": "Czechia: Czech Finances and Babiš Conflict-of-Interest Case Cast Shadow Over Prague's… · 11 Sep",
