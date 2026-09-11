@@ -1,5 +1,5 @@
 {
-  "version": 1789103221499,
+  "version": 1789103367687,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3e690c9",
+      "title": "Austria Tests Its Limits: Headscarf Ban and Economic Strain Define a Nation at a Crossroads",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "excerpt": "Austria is navigating two of its most consequential domestic fault lines simultaneously: a school headscarf ban for girls under 14 that courts may yet strike down, and an economy that official data describe as stabilising but that millions of households still experience as painful. The two debates, one a charged identity question and the other a technical yet deeply personal economic argument, together reveal the tensions shaping Austrian politics heading into the autumn legislative calendar. How Vienna resolves each will carry lessons well beyond its borders.",
+      "body": "<h3>A Ban the Courts Have Seen Before</h3><p>Austria&#x27;s government has moved to enforce a headscarf ban in schools for girls under the age of 14, framing the measure as a defence of child autonomy and a protection against religious pressure in the classroom. Coalition leaders have been careful to stress that the law is not directed at religion as such, but rather at ensuring that young girls can make their own choices free from social coercion. The argument is politically coherent and has resonated with parts of the electorate that view Austria&#x27;s integration challenges through a liberal rather than an openly nativist lens.</p><p>Critics, however, have more than sentiment on their side. Muslim community groups and human rights advocates argue the law singles out Muslim girls in practice, whatever its stated neutrality in principle. More damaging for the government is the constitutional history: Austria&#x27;s Constitutional Court has previously struck down a comparable ban on the grounds that it violated the principle of religious neutrality, and legal scholars say the new measure faces a credible risk of the same fate. The opposition&#x27;s argument is, in this respect, grounded in documented legal precedent rather than mere advocacy.</p><p>The stakes extend well beyond school corridors. The case touches on family rights, state authority over religious practice, and Austria&#x27;s broader integration framework. It also arrives with EU-level resonance, since several member states have grappled with similar legislation, and a fresh Austrian constitutional ruling would inevitably inform those debates. For now, the government is governing; the courts will decide whether it is doing so constitutionally.</p><h3>Growth on Paper, Pressure at the Till</h3><p>Austria&#x27;s economic picture is more ambiguous than either its government or its critics are willing to fully concede. Statistics Austria and the WIFO economic research institute confirmed that gross domestic product contracted by 0.1 percent in the second quarter on a quarter-on-quarter basis, a figure that drew immediate opposition claims of a faltering recovery. Both institutions were quick to note, however, that the dip was largely attributable to a one-off statistical distortion, and that year-on-year GDP remained 0.4 percent above the prior period. Leading indicators, they added, have shown modest improvement, suggesting the economy is closer to a trough than to a renewed downward spiral.</p><p>That institutional nuance, though technically defensible, offers limited comfort to Austrian households. Official inflation stood at 3.2 percent in August, a rate that remains meaningfully above the euro-area average and that has kept pressure on groceries, energy bills, and mortgage repayments. Construction output has remained weak, a sector whose health feeds directly into employment and consumer confidence. Critics arguing that the government&#x27;s stabilisation narrative does not reflect lived reality have the better of the political argument even if the macroeconomic data does not fully support a recession framing.</p><p>Austria&#x27;s experience illustrates a pattern visible across much of the continent: headline growth figures and household economic experience have decoupled in ways that conventional GDP reporting struggles to capture. Consumer confidence surveys consistently lag behind official output data, and wage growth, while present in some sectors, has not uniformly outpaced cumulative inflation since 2022. For policymakers in Vienna and in Brussels, the Austrian case is a reminder that the political costs of a cost-of-living crisis do not dissolve the moment GDP stops contracting.</p><h3>Controlled Tension and the Road Ahead</h3><p>The mood across Austria might best be described as angry but contained on the identity debate, and cautiously resigned on the economy. There is no evidence of broad social rupture or political panic, but the combination of an emotionally charged legal controversy and a recovery that remains abstract for many families creates a political environment in which the government has limited margin for error. Both issues are, in different ways, tests of institutional credibility: one for the Constitutional Court, the other for economic forecasters and the ministers who cite them.</p><p>On the headscarf ban, the immediate next step is a likely constitutional challenge, and the timeline for a court ruling could place the question at the centre of political debate well into 2025. Should the court again find the measure incompatible with constitutional neutrality principles, the government will face the choice of accepting the ruling, pursuing a revised legislative approach, or allowing the issue to become a sustained mobilising grievance. Any of those outcomes carries significant consequences for coalition cohesion and for Austria&#x27;s relationship with its Muslim minority communities.</p><p>On the economy, the key variable for the coming quarters is whether disinflation accelerates fast enough to provide households with genuine relief before any growth momentum dissipates. WIFO and other institutions project a gradual improvement, but those projections are contingent on external demand, energy price stability, and the European Central Bank&#x27;s rate trajectory. Austria enters the autumn with its economic fundamentals intact but its recovery story still unproven in the places where it matters most: at the supermarket, on the energy bill, and in the construction sites that have gone quiet. The government&#x27;s credibility on both fronts will depend less on the data it cites and more on whether ordinary Austrians begin to feel that the worst is behind them.</p>",
+      "keywords": "Austria, headscarf ban, religious freedom, Constitutional Court, integration policy, GDP, inflation, WIFO, economic recovery, EU policy, Austrian politics, cost of living, Muslim community, school law, consumer confidence",
+      "sources": "Statistics Austria, Q2 GDP release; WIFO Economic Research Institute, quarterly outlook; Austrian Constitutional Court, prior ruling on headscarf legislation; Austrian government coalition statements on school headscarf ban; Muslim community and human rights advocacy groups, public submissions; Eurostat, euro-area inflation comparison data",
+      "pubDate": "2026-09-11",
+      "chartData": {
+        "values": [
+          -0.1,
+          0.4,
+          3.2
+        ],
+        "labels": [
+          "Q2 GDP (QoQ %)",
+          "GDP (YoY %)",
+          "Inflation August (%)"
+        ]
+      }
+    },
     {
       "id": "article-923ed0a",
       "title": "Hungary Faces Twin Tests: Fiscal Strains and a State Bank Corruption Probe Put New Leadership Under Scrutiny",
@@ -14870,6 +14894,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260911-austria",
+      "title": "Austria Tests Its Limits: Headscarf Ban and Economic Strain Define a Nation… · 11 Sep",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "duration": "8:41",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Austria_Episode_2026_09_11.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 255,
+      "keywords": "Austria, headscarf ban, religious freedom, Constitutional Court, integration policy, GDP, inflation, WIFO, economic recovery, EU policy, Austrian politics, cost of living, Muslim community, school law, consumer confidence",
+      "notes": "Austria is navigating two of its most consequential domestic fault lines simultaneously: a school headscarf ban for girls under 14 that courts may yet strike down, and an economy that official data describe as stabilising but that millions of households still experience as painful. The two debates, one a charged identity question and the other a technical yet deeply personal economic argument, together reveal the tensions shaping Austrian politics heading into the autumn legislative calendar. How Vienna resolves each will carry lessons well beyond its borders.",
+      "pubDate": "2026-09-11",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Austria_Episode_2026_09_11.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_11/Austria_Short_2026_09_11.mp4"
+    },
     {
       "id": "episode-20260911-hungary",
       "title": "Hungary Faces Twin Tests: Fiscal Strains and a State Bank Corruption Probe… · 11 Sep",
