@@ -1,5 +1,5 @@
 {
-  "version": 1789103367687,
+  "version": 1789189342424,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8603e09",
+      "title": "Poland Caught Between the Arms Bill and the Grocery Bill",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "excerpt": "Poland is navigating one of the sharpest fiscal dilemmas in the European Union, simultaneously running one of the continent's largest defense budgets while grappling with inflation that has drifted back above its central bank's target. The twin pressures are reshaping household finances, political debates, and Poland's broader role in European security. How Warsaw resolves this tension may offer a template — or a warning — for other member states facing similar trade-offs.",
+      "body": "<h3>Inflation Eases but the Fight Is Not Over</h3><p>For most of 2023 and into 2024, Polish households endured some of the most punishing price rises in the European Union. By early 2026, that pressure had visibly eased, and the National Bank of Poland, known by its Polish acronym NBP, signaled that consumer price inflation had returned broadly to levels consistent with its 2.5 percent target midpoint. Government officials were quick to present this as evidence that monetary tightening had worked and that the economy could absorb more accommodative conditions going forward.</p><p>The relief, however, proved short-lived. Eurostat data for August 2026 placed Polish inflation at 3.4 percent, close to the upper edge of the NBP&#x27;s tolerance band and above the target midpoint that officials had cited only months earlier. Critics of the government&#x27;s narrative, including opposition parliamentarians and independent economists, argued that describing inflation as a resolved problem was misleading. Prices are still rising faster than wages in some sectors, and food price sensitivity remains high among lower-income households, according to consumer surveys.</p><p>The practical consequence is a central bank caught between competing pressures. Rate cuts would ease the burden on mortgage holders, many of whom are on variable-rate contracts, and provide relief to small businesses facing elevated borrowing costs. But cutting prematurely risks entrenching inflation above target and undermining the NBP&#x27;s credibility. The August reading has, for now, tilted the balance toward caution, with most analysts expecting the NBP to hold rates steady through the remainder of 2026.</p><h3>A Defense Budget Without Precedent — and Without Easy Answers</h3><p>While the inflation debate plays out in central bank meeting rooms and kitchen-table conversations, a separate and even larger fiscal commitment is reshaping Poland&#x27;s public finances. Reuters reported that Poland expects to allocate approximately 53 billion euros to core defense in 2026, equivalent to roughly 4.7 percent of gross domestic product. That figure places Poland among the highest military spenders not only in the EU but across the entire NATO alliance, outpacing commitments from France, Germany, and most other member states both in absolute terms relative to the economy and in the pace of increase.</p><p>Government officials, including from the defense ministry and the prime minister&#x27;s office, have framed the expenditure as non-negotiable. Russia&#x27;s continued military pressure on Ukraine and related threats to regional infrastructure, they argued, mean that rearmament is a matter of national survival rather than discretionary policy. The spending also funds a domestic defense-industrial expansion intended to generate employment, develop local supply chains, and reduce strategic dependence on foreign suppliers — an argument that has found some support beyond traditional security hawks.</p><p>The fiscal arithmetic, however, is unforgiving. Reuters also reported that Poland&#x27;s deficit outlook remains elevated, a direct consequence of simultaneously funding defense, servicing existing debt, and financing recent social and tax commitments. The government&#x27;s tax package, which raises corporate levies on larger firms while making targeted adjustments to personal income tax, has drawn criticism from trade unions and business groups who argue it reflects improvisation rather than strategy. For ordinary taxpayers, the central question is whether the defense bill will eventually crowd out the health, education, and infrastructure spending they depend on day to day.</p><h3>A Bellwether for Europe&#x27;s Rearmament Dilemma</h3><p>Poland&#x27;s dual squeeze carries implications well beyond its borders. Within the EU, Warsaw has positioned itself as a frontline state with both the security justification and the political will to spend heavily on defense. That posture has earned Poland significant credibility in Brussels and in NATO capitals, and it has placed the country at the center of emerging debates about how the EU should collectively finance rearmament without fracturing social contracts in member states already under fiscal strain.</p><p>The inflation dimension adds another layer of complexity. If the NBP is forced to keep rates higher for longer to contain renewed price pressures, the cost of government borrowing rises alongside the cost of private mortgages and business loans. A scenario in which defense spending simultaneously drives up demand-side inflation while rate policy strangles growth would be politically toxic — and is precisely the outcome that opposition parties are already warning about heading into future electoral cycles.</p><p>The coming months will be critical. The NBP&#x27;s next monetary policy decision will signal whether August&#x27;s inflation uptick is treated as a temporary blip or the beginning of a more sustained reversal of the disinflation trend. On the fiscal side, the government faces pressure to publish a credible medium-term spending framework that shows how defense commitments can be sustained without an indefinite rise in the deficit. For a country that has spent the past two years arguing that it can rearm, reform, and stabilize prices all at once, the moment of reckoning may be arriving sooner than officials anticipated.</p>",
+      "keywords": "Poland, inflation, defense spending, NBP, NATO, EU fiscal policy, interest rates, cost of living, Polish economy, rearmament, European security, budget deficit",
+      "sources": "Eurostat, August 2026 inflation data for Poland; NBP monetary policy communications, 2026; Reuters, Poland defense spending and deficit outlook reporting, 2026; European Commission fiscal projections for Poland",
+      "pubDate": "2026-09-12",
+      "chartData": {
+        "values": [
+          3.4,
+          4.7,
+          2.5
+        ],
+        "labels": [
+          "Poland CPI Aug 2026 (%)",
+          "Defense Spend (% of GDP)",
+          "NBP Inflation Target (%)"
+        ]
+      }
+    },
     {
       "id": "article-3e690c9",
       "title": "Austria Tests Its Limits: Headscarf Ban and Economic Strain Define a Nation at a Crossroads",
@@ -14894,6 +14918,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260912-poland",
+      "title": "Poland Caught Between the Arms Bill and the Grocery Bill · 12 Sep",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "duration": "8:53",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Poland_Episode_2026_09_12.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 256,
+      "keywords": "Poland, inflation, defense spending, NBP, NATO, EU fiscal policy, interest rates, cost of living, Polish economy, rearmament, European security, budget deficit",
+      "notes": "Poland is navigating one of the sharpest fiscal dilemmas in the European Union, simultaneously running one of the continent's largest defense budgets while grappling with inflation that has drifted back above its central bank's target. The twin pressures are reshaping household finances, political debates, and Poland's broader role in European security. How Warsaw resolves this tension may offer a template — or a warning — for other member states facing similar trade-offs.",
+      "pubDate": "2026-09-12",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Poland_Episode_2026_09_12.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Poland_Short_2026_09_12.mp4"
+    },
     {
       "id": "episode-20260911-austria",
       "title": "Austria Tests Its Limits: Headscarf Ban and Economic Strain Define a Nation… · 11 Sep",
