@@ -1,5 +1,5 @@
 {
-  "version": 1789189485611,
+  "version": 1789189607921,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-5b2fc5d",
+      "title": "Lithuania Faces Twin Pressures of Surging Inflation and a Battle Over Public Media Independence",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "excerpt": "Lithuania is confronting two serious challenges simultaneously: an inflation rate nearly double the eurozone average and a politically charged dispute over the governance of its public broadcaster, LRT. Both issues are testing the government's credibility and raising broader questions about living standards and democratic standards in the Baltic state. The tensions come at a moment when public anxiety is running high and institutional trust is fragile.",
+      "body": "<h3>Inflation Climbs to a Three-Year High, Outpacing the Eurozone</h3><p>Lithuania&#x27;s consumer prices rose at their fastest pace in three years in August 2026, according to Eurostat&#x27;s flash estimate, which put the country&#x27;s Harmonised Index of Consumer Prices at 5.8 percent, up from 5.4 percent in July. The figure stands in sharp contrast to the eurozone average of 3.3 percent for the same period, placing Lithuania among the bloc&#x27;s most inflation-stressed economies and intensifying pressure on households already stretched by energy and fuel costs.</p><p>The trajectory is politically damaging for the government, which has argued that support measures should remain targeted and fiscally cautious. Officials have said that blunt interventions such as across-the-board fuel tax cuts would erode budget revenues and reduce the state&#x27;s capacity to respond to future shocks. The logic is defensible in macroeconomic terms, but it offers limited comfort to families whose purchasing power has declined for the second consecutive month.</p><p>Opposition parties have seized on the data to argue that the government is moving too slowly. Critics stated that the state should deploy utility support, targeted tax relief, or direct price-mitigation measures without waiting for conditions to become, in the words of one opponent, critical. The political mood, by most accounts, is anxious and defensive rather than optimistic, and the numbers give the government little cover heading into the autumn parliamentary season.</p><h3>The LRT Dispute: A Media Governance Row With Democratic Implications</h3><p>Running parallel to the inflation debate is a sustained and increasingly bitter dispute over the governance of LRT, Lithuania&#x27;s public broadcaster. The conflict centres on whether proposed legal and structural changes to LRT&#x27;s oversight represent legitimate accountability reform or a politically motivated attempt to weaken editorial independence. Civil society groups have maintained visible pressure on the issue, treating it as a symbolic test of democratic norms rather than a routine administrative matter.</p><p>Supporters of reform have argued that public media institutions must be transparent and answerable to clear oversight structures, and that changes to governance frameworks do not in themselves constitute censorship. Critics, however, argued that any shift in the political control of a public broadcaster risks turning it into a partisan instrument, undermining the trust that gives public media its social value. The European Union has consistently identified media independence as a core component of the rule-of-law standards it expects of member states.</p><p>The sensitivity of the issue is amplified by the broader European context. Brussels has used its Rule of Law Report framework to scrutinise public broadcaster governance in several member states in recent years. Lithuania has generally fared well in such assessments, but sustained controversy over LRT&#x27;s institutional independence could attract closer European attention, particularly as the European Commission has signalled it intends to apply rule-of-law conditionality more rigorously in the current legislative cycle.</p><h3>Outlook: Fiscal Constraints, Institutional Trust, and European Scrutiny</h3><p>The two crises share a common thread: both are fundamentally about trust. Inflation erodes trust in the government&#x27;s ability to manage the economy and protect living standards. The LRT dispute erodes trust in institutions designed to inform and hold power to account. Handled poorly, the two pressures could compound each other, feeding a broader public disillusionment that opposition movements would be well placed to exploit.</p><p>On the economic front, the immediate question is whether inflation will moderate in the final quarter of 2026 or continue its upward drift. Energy price dynamics across Europe remain volatile, and Lithuania, as a small and relatively exposed eurozone member, has limited monetary policy tools of its own. The government&#x27;s fiscal decisions in the coming budget cycle will carry significant political weight, particularly any measures targeted at lower-income households facing the steepest real-terms squeeze.</p><p>On the media governance question, the next critical junctures are likely to be any parliamentary votes on LRT&#x27;s legal framework and the publication of the European Commission&#x27;s annual Rule of Law Report, which is expected before the end of the year. If civil-society pressure sustains and European institutions take note, the government may face a harder choice between pressing ahead with its reform agenda and managing the reputational and diplomatic costs of doing so. For now, Lithuania finds itself navigating what might be described as a squeeze on two fronts: prices, power, and the politics of trust.</p>",
+      "keywords": "Lithuania, inflation, cost of living, HICP, eurozone, LRT, public broadcaster, media independence, rule of law, European Commission, Baltic states, energy prices, fiscal policy, democratic standards, governance",
+      "sources": "Eurostat HICP flash estimate, August 2026; Eurostat HICP data, July 2026; European Commission Rule of Law Report framework documentation; LRT governance dispute reporting and civil-society statements as summarised in research dossier",
+      "pubDate": "2026-09-12",
+      "chartData": {
+        "values": [
+          5.8,
+          5.4,
+          3.3
+        ],
+        "labels": [
+          "Lithuania August 2026",
+          "Lithuania July 2026",
+          "Eurozone August 2026"
+        ]
+      }
+    },
     {
       "id": "article-934d1ba",
       "title": "Latvia Targets Russian and Belarusian Trade With 300% Grain Tariff and Sweeping Import Bans",
@@ -14942,6 +14966,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260912-lithuania",
+      "title": "Lithuania Faces Twin Pressures of Surging Inflation and a Battle Over Public… · 12 Sep",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "8:22",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Lithuania_Episode_2026_09_12.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 258,
+      "keywords": "Lithuania, inflation, cost of living, HICP, eurozone, LRT, public broadcaster, media independence, rule of law, European Commission, Baltic states, energy prices, fiscal policy, democratic standards, governance",
+      "notes": "Lithuania is confronting two serious challenges simultaneously: an inflation rate nearly double the eurozone average and a politically charged dispute over the governance of its public broadcaster, LRT. Both issues are testing the government's credibility and raising broader questions about living standards and democratic standards in the Baltic state. The tensions come at a moment when public anxiety is running high and institutional trust is fragile.",
+      "pubDate": "2026-09-12",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Lithuania_Episode_2026_09_12.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Lithuania_Short_2026_09_12.mp4"
+    },
     {
       "id": "episode-20260912-latvia",
       "title": "Latvia Targets Russian and Belarusian Trade With 300% Grain Tariff and… · 12 Sep",
