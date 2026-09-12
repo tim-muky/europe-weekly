@@ -1,5 +1,5 @@
 {
-  "version": 1789189342424,
+  "version": 1789189485611,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-934d1ba",
+      "title": "Latvia Targets Russian and Belarusian Trade With 300% Grain Tariff and Sweeping Import Bans",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "excerpt": "Latvia is imposing a 300% tariff on grain imports from Russia and Belarus and expanding restrictions on a broad range of consumer goods, in what Riga frames as a security-driven decoupling from hostile states. The measures have strong political backing but raise legitimate questions about costs for businesses, logistics workers, and ordinary consumers. With inflation still running above zero and ticking upward in August 2026, the government faces pressure to show that principled trade policy does not come at the expense of household stability.",
+      "body": "<h3>A Blunt Instrument: The 300% Grain Tariff and What Drives It</h3><p>Latvia&#x27;s government is moving to impose a 300% tariff on grain imports originating from Russia and Belarus, a measure that officials describe as a sovereignty-and-security imperative rather than a conventional trade policy tool. The stated aims are threefold: to punish states whose military conduct Latvia regards as a direct threat to European security, to reduce dependency on supply chains linked to hostile governments, and to block the transit of goods that may be tied to sanctions evasion or the misappropriation of agricultural produce from occupied Ukrainian territory.</p><p>The scale of the tariff is deliberately prohibitive. At 300%, it is not designed to generate revenue or modestly tilt competitive conditions; it is designed to stop trade. Latvian officials have argued, according to government statements and Reuters reporting on the measure, that normalizing grain flows from Russia and Belarus while those states remain at war with a neighbouring country would send the wrong political signal and create practical vulnerabilities in Latvia&#x27;s supply chains.</p><p>The security rationale has broad support in the policy record and aligns with Latvia&#x27;s wider strategic posture as a frontline NATO and EU member state. However, critics caution that blunt tariff instruments can generate unintended economic friction, particularly for ports, logistics operators, and grain processors who have built business models around regional trade flows. The opposition argument is not that Russia should be accommodated, but that poorly designed measures can transfer pain from Moscow to Riga.</p><h3>Beyond Grain: A Wider Drive to Restrict Russian and Belarusian Consumer Goods</h3><p>The grain tariff sits within a broader and accelerating effort by Latvia to restrict imports from Russia and Belarus across a wide range of categories. Expanded measures cover consumer goods including books, clothing, footwear, toys, and sports equipment, tightening a sanctions regime that the government frames as the logical continuation of Latvia&#x27;s alignment with EU-level policy and its own national security doctrine.</p><p>Government officials argue that consumer-level restrictions carry a political significance that goes beyond their direct economic impact. By refusing to normalize the purchase of Russian and Belarusian manufactured goods, Latvia signals clearly that decoupling is not merely a matter of energy or defence procurement, but of the full spectrum of economic relations. The measures, officials said, reflect a deliberate choice to prioritise geopolitical alignment over short-term commercial convenience.</p><p>Opponents offer a sharper critique. Some argue that restricting books, toys, and sports equipment produces more political theatre than strategic effect, inconveniencing Latvian consumers and small retailers without materially harming Moscow or Minsk. A more pointed version of this argument holds that sweeping consumer sanctions allow the government to project toughness on external threats while deferring harder domestic conversations about competitiveness, regional inequality, and the rising cost of living. The government has not directly addressed that charge, though it maintains that comprehensive decoupling is both a moral and a practical necessity.</p><h3>Inflation Complicates the Picture as Latvia Defines European Limits</h3><p>The political and strategic logic behind Latvia&#x27;s measures is largely coherent. The economic backdrop, however, adds complexity that neither the government nor its critics can afford to ignore. Eurostat data shows Latvia&#x27;s harmonised index of consumer prices running at 2.5% in July 2026, with a flash estimate of 2.9% in August 2026, following a reading of 3.3% in earlier months this year. The trend suggests that inflation has moderated from earlier highs, but it has not disappeared and the most recent data point shows a renewed upward tick.</p><p>That picture matters for the debate over trade restrictions. The government cannot credibly claim that price pressure has resolved itself and that new trade barriers carry no inflationary risk. Equally, opposition claims that these measures are already causing a consumer cost crisis are not directly supported by the available data. What the numbers do support is a middle position: price pressure in Latvia remains real, moderately elevated by euro-area standards, and sensitive to further supply-side shocks, including those that could flow from a sustained reduction in grain and consumer goods trade with eastern neighbours.</p><p>The implications extend well beyond Latvia. As one of the EU&#x27;s smaller but most geopolitically exposed member states, Latvia is effectively testing where the outer limits of economic decoupling from Russia and Belarus should be drawn. If Riga can demonstrate that a comprehensive import restriction regime is politically sustainable and economically manageable, it will strengthen the hand of those across the EU who favour a harder line. If inflation rises, port revenues fall, or public support for the measures erodes, it will provide ammunition to those who argue that decoupling must be calibrated more carefully. The next months will determine which argument gains ground, with Latvia&#x27;s inflation trajectory, trade volume data, and public mood all serving as closely watched indicators for policymakers in Brussels and beyond.</p>",
+      "keywords": "Latvia, Russia, Belarus, grain tariff, import restrictions, sanctions, trade policy, inflation, EU decoupling, Baltic states, economic security, geopolitics",
+      "sources": "Reuters, reporting on Latvia's 300% grain tariff on Russia and Belarus; Eurostat, Harmonised Index of Consumer Prices for Latvia, June–August 2026; Latvian government official statements on expanded import restrictions and sanctions policy",
+      "pubDate": "2026-09-12",
+      "chartData": {
+        "values": [
+          2.9,
+          2.5,
+          3.3
+        ],
+        "labels": [
+          "August 2026 (flash)",
+          "July 2026",
+          "June 2026"
+        ]
+      }
+    },
     {
       "id": "article-8603e09",
       "title": "Poland Caught Between the Arms Bill and the Grocery Bill",
@@ -14918,6 +14942,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260912-latvia",
+      "title": "Latvia Targets Russian and Belarusian Trade With 300% Grain Tariff and… · 12 Sep",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:51",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Latvia_Episode_2026_09_12.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 257,
+      "keywords": "Latvia, Russia, Belarus, grain tariff, import restrictions, sanctions, trade policy, inflation, EU decoupling, Baltic states, economic security, geopolitics",
+      "notes": "Latvia is imposing a 300% tariff on grain imports from Russia and Belarus and expanding restrictions on a broad range of consumer goods, in what Riga frames as a security-driven decoupling from hostile states. The measures have strong political backing but raise legitimate questions about costs for businesses, logistics workers, and ordinary consumers. With inflation still running above zero and ticking upward in August 2026, the government faces pressure to show that principled trade policy does not come at the expense of household stability.",
+      "pubDate": "2026-09-12",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Latvia_Episode_2026_09_12.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_12/Latvia_Short_2026_09_12.mp4"
+    },
     {
       "id": "episode-20260912-poland",
       "title": "Poland Caught Between the Arms Bill and the Grocery Bill · 12 Sep",
