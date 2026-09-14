@@ -1,5 +1,5 @@
 {
-  "version": 1789189732456,
+  "version": 1789362135653,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-2b73929",
+      "title": "Sweden's Far-Right Gambit and the Inflation Gap: Two Tests Defining the Country's Political Future",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "Sweden faces a defining moment as voters and policymakers wrestle with two overlapping crises: whether the far-right Sweden Democrats will cross from parliamentary kingmakers into full governing partners, and whether falling inflation figures translate into genuine relief for households still paying elevated prices. Both questions expose a widening gap between official framing and lived experience. The outcome of each will shape Sweden's political identity and economic trajectory for years to come.",
+      "body": "<h3>A Far-Right Party at the Gates of Power</h3><p>For years, the Sweden Democrats occupied an unusual position in Swedish politics: powerful enough to determine which bloc governed, yet kept at arm&#x27;s length from cabinet tables by partners reluctant to absorb the reputational cost. That arrangement is now under direct pressure. The upcoming electoral cycle has turned into what Reuters described as a referendum on whether the party should move from outside support into direct governing power, with polls showing margins too narrow to call with confidence.</p><p>The centre-right bloc&#x27;s argument is straightforward: incorporating the Sweden Democrats creates a durable parliamentary majority, reflects voter demand for stricter migration controls and tougher crime policy, and keeps the right in office without the perpetual instability of minority governance. Ulf Kristersson&#x27;s Moderate-led government has already operated with Sweden Democrat backing, and advocates argue the next logical step is formal coalition membership.</p><p>Opponents see that logic as precisely the problem. Centre-left parties and liberal voices argue that normalizing a party with well-documented extremist roots represents a rupture in Sweden&#x27;s post-war political culture, one built on consensus, internationalism, and a broadly generous asylum tradition. They warn that full coalition status would accelerate polarization and permanently shift the country&#x27;s centre of political gravity rightward, with consequences for EU positioning, minority communities, and Sweden&#x27;s international reputation.</p><h3>When the Numbers Do Not Tell the Whole Story</h3><p>On paper, Sweden&#x27;s inflation picture looks like a government success story. Sweden&#x27;s Consumer Price Index stood at 0.3 percent in August 2026, marginally up from 0.2 percent in July, and Eurostat ranked Sweden among the lowest inflation rates in the European Union for the same period. The government has pointed to those figures alongside a central-government surplus, food VAT reductions, and a stronger growth outlook as evidence that its economic strategy is bearing fruit and that household pressure is beginning to ease.</p><p>Critics contest that framing, and not without grounds. Headline inflation being low is not the same as prices being low. The cumulative price increases from the 2022 to 2024 inflation surge have not reversed; they have simply stopped accelerating. For households managing grocery bills, energy costs, and mortgage payments recalibrated at higher interest rates, a 0.3 percent monthly CPI figure offers limited comfort when the baseline itself remains substantially higher than pre-crisis levels.</p><p>The political dimension complicates matters further. Opposition parties and independent economists argue that the government&#x27;s election-year package of tax cuts and food VAT reductions amounts to fiscal positioning rather than structural economic reform. They contend that without meaningful wage growth or welfare investment, the relief on offer is shallow, unevenly distributed, and calibrated more toward the ballot box than toward lasting improvement in household finances. The monthly tick upward in CPI from July to August, while small, also undermines the cleaner narrative of a straight-line descent in prices.</p><h3>Convergent Pressures and What Comes Next</h3><p>What makes Sweden&#x27;s current moment particularly significant is that these two storylines are not running in parallel isolation. They feed each other. Economic anxiety historically strengthens parties that promise order and control over borders and public spending, and the Sweden Democrats have benefited precisely from that dynamic over more than a decade of gradual electoral growth. A government that can credibly claim to have tamed inflation and restored household stability narrows the space for protest politics; one that cannot risks amplifying it.</p><p>For Sweden&#x27;s institutions and its relationship with the European Union, both questions carry weight beyond domestic politics. A formal Sweden Democrat entry into government would make Sweden the latest in a series of EU member states to bring nationalist-right parties into executive power, joining Italy, Hungary, and Finland in different configurations. EU partners and Brussels officials will be watching closely, particularly on issues of rule of law commitments, migration burden-sharing, and climate policy where Sweden Democrats hold divergent views from the mainstream European position.</p><p>The immediate calendar will be decisive. Election results will set the coalition arithmetic, and whichever bloc emerges with a mandate will face an early test of whether its economic narrative holds against household data that may not cooperate. If inflation edges upward or real wages stagnate through the autumn, the government&#x27;s framing will face sustained pressure. If the Sweden Democrats do enter cabinet, their performance in office, rather than in opposition, will determine whether their mainstreaming consolidates or destabilizes the Swedish right. For ordinary Swedes, the answers to both questions will arrive not in policy documents but in prices at the till and the composition of the government they wake up to.</p>",
+      "keywords": "Sweden Democrats, Swedish election, coalition government, far-right Europe, Sweden inflation, cost of living, CPI Sweden, Ulf Kristersson, Swedish politics, EU migration policy, Eurostat, household finances, centre-right coalition",
+      "sources": "Reuters election coverage on Sweden Democrats' role in government; Eurostat EU inflation comparison data, August 2026; Swedish Consumer Price Index data, July–August 2026; Swedish government fiscal and VAT policy announcements; Opposition party statements on economic and migration policy",
+      "pubDate": "2026-09-14",
+      "chartData": {
+        "values": [
+          0.2,
+          0.3
+        ],
+        "labels": [
+          "July 2026 CPI",
+          "August 2026 CPI"
+        ]
+      }
+    },
     {
       "id": "article-a0353cd",
       "title": "Estonia's Defence Scandal and Austerity Squeeze Test Government Credibility",
@@ -14990,6 +15012,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260914-sweden",
+      "title": "Sweden's Far-Right Gambit and the Inflation Gap · 14 Sep",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "8:14",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_14/Sweden_Episode_2026_09_14.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 260,
+      "keywords": "Sweden Democrats, Swedish election, coalition government, far-right Europe, Sweden inflation, cost of living, CPI Sweden, Ulf Kristersson, Swedish politics, EU migration policy, Eurostat, household finances, centre-right coalition",
+      "notes": "Sweden faces a defining moment as voters and policymakers wrestle with two overlapping crises: whether the far-right Sweden Democrats will cross from parliamentary kingmakers into full governing partners, and whether falling inflation figures translate into genuine relief for households still paying elevated prices. Both questions expose a widening gap between official framing and lived experience. The outcome of each will shape Sweden's political identity and economic trajectory for years to come.",
+      "pubDate": "2026-09-14",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_14/Sweden_Episode_2026_09_14.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_14/Sweden_Short_2026_09_14.mp4"
+    },
     {
       "id": "episode-20260912-estonia",
       "title": "Estonia's Defence Scandal and Austerity Squeeze Test Government Credibility · 12 Sep",
