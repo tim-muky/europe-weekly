@@ -1,5 +1,5 @@
 {
-  "version": 1789362408872,
+  "version": 1789362531829,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-ca72f6b",
+      "title": "Ireland's Split Economy Sets Stage for Bruising Budget Battle This Autumn",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "Ireland's headline GDP surged 10.2% in the second quarter of 2026, but the domestic economy quietly contracted, exposing a growing gap between national statistics and the daily reality faced by households and workers. With tax receipts running well ahead of expectations, the government holds real fiscal firepower heading into the autumn budget. The political fight over how to spend it is already shaping up to be one of the most contentious in years.",
+      "body": "<h3>A Tale of Two Economies: Record GDP, Shrinking Domestic Demand</h3><p>Ireland&#x27;s economy produced one of the most eye-catching growth figures in the European Union this quarter. GDP expanded by 10.2% in the second quarter of 2026, a number that would suggest a country firing on all cylinders. The reality on the ground is considerably more complicated.</p><p>According to data from the Central Statistics Office, modified domestic demand, the measure economists regard as the more reliable guide to conditions experienced by Irish households and businesses, fell by 0.8% in the same quarter. The divergence between the two figures is not a statistical quirk. It reflects the outsized weight of multinational corporations in Ireland&#x27;s national accounts, whose intellectual property transfers and goods exports can inflate GDP in ways that bear little relationship to domestic economic activity.</p><p>Construction output and consumer-facing sectors have both shown signs of softening, lending credibility to the view that the headline number flatters the underlying picture. The government has argued that the economy remains fundamentally resilient and that strong tax receipts provide fiscal space to protect households and invest in infrastructure. Opposition parties counter that a GDP surge driven by corporate activity offers cold comfort to workers and families navigating a slower real economy.</p><h3>Inflation Edges Back Up, Complicating the Government&#x27;s Narrative</h3><p>Adding a further layer of difficulty to the government&#x27;s position is the recent trajectory of Irish inflation. The narrative that price pressures are easing does not fully hold up to scrutiny. Irish consumer price index data shows that CPI stood at 2.7% in January 2026, climbed to 3.4% by July, and rose again to 3.7% in August. The Harmonised Index of Consumer Prices, the EU-comparable measure, registered 3.4% in August, according to CSO figures.</p><p>That upward drift matters politically and economically. It means that even as the state&#x27;s finances look healthy in aggregate, the squeeze on household budgets has not meaningfully eased. Wages in some sectors have risen, but stretched public services, elevated housing costs, and persistent price pressure in essential goods continue to weigh on public sentiment. Surveys and anecdotal evidence point to a mood that is cautious at best, quietly frustrated at worst.</p><p>Trade unions and opposition groups have seized on this gap between fiscal comfort at the national level and economic anxiety at the household level. Their argument, that record government revenues do not automatically translate into relief for ordinary people, has found a receptive audience among voters who feel the headline statistics do not reflect their lived experience.</p><h3>The Budget Fight: Record Tax Intake Fuels a High-Stakes Political Dispute</h3><p>The political battle lines for the autumn budget are sharpening rapidly. Tax receipts reached 66.3 billion euros in the first eight months of 2026, a year-on-year increase of 3.4%, giving the coalition government genuine fiscal headroom to work with. The question dividing parties, unions, and civil society groups is not whether money is available, but where it should go and who it should serve.</p><p>The government&#x27;s instinct, signalled in recent ministerial statements, is to channel the surplus into structural investments: housing supply, health system capacity, transport infrastructure, and long-term economic resilience. Ministers have argued that using windfall revenues for permanent tax cuts would be irresponsible given the volatility of corporate tax receipts, a warning that carries weight given Ireland&#x27;s dependence on a small number of large multinationals for a disproportionate share of its tax base.</p><p>Critics argue that this framing allows the government to defer addressing immediate household pressures under the cover of fiscal prudence. With inflation still rising and public services under visible strain, opponents say the budget must prioritise cost-of-living relief and service investment that citizens can feel now, not in five years. The outcome of that dispute will define the political atmosphere heading into the final months of 2026 and set expectations for the electoral cycle beyond it.</p>",
+      "keywords": "Ireland economy, Irish budget 2026, GDP growth, modified domestic demand, Irish inflation, HICP, CSO, cost of living, fiscal policy, multinational corporations, domestic demand, tax receipts, Irish politics, public spending, housing Ireland",
+      "sources": "Central Statistics Office Ireland, GDP and Modified Domestic Demand Q2 2026; CSO Consumer Price Index, January, July, August 2026; CSO Harmonised Index of Consumer Prices, August 2026; Irish Department of Finance, tax receipt data, August 2026",
+      "pubDate": "2026-09-14",
+      "chartData": {
+        "values": [
+          10.2,
+          -0.8,
+          3.4,
+          3.7
+        ],
+        "labels": [
+          "GDP Growth Q2 2026 (%)",
+          "Modified Domestic Demand Q2 2026 (%)",
+          "HICP August 2026 (%)",
+          "CPI August 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-dad5695",
       "title": "Finland Bets on Growth While Juggling a €12.4 Billion Deficit and an AI Energy Dilemma",
@@ -15062,6 +15088,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260914-ireland",
+      "title": "Ireland's Split Economy Sets Stage for Bruising Budget Battle This Autumn · 14 Sep",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:22",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_14/Ireland_Episode_2026_09_14.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 263,
+      "keywords": "Ireland economy, Irish budget 2026, GDP growth, modified domestic demand, Irish inflation, HICP, CSO, cost of living, fiscal policy, multinational corporations, domestic demand, tax receipts, Irish politics, public spending, housing Ireland",
+      "notes": "Ireland's headline GDP surged 10.2% in the second quarter of 2026, but the domestic economy quietly contracted, exposing a growing gap between national statistics and the daily reality faced by households and workers. With tax receipts running well ahead of expectations, the government holds real fiscal firepower heading into the autumn budget. The political fight over how to spend it is already shaping up to be one of the most contentious in years.",
+      "pubDate": "2026-09-14",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_14/Ireland_Episode_2026_09_14.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_14/Ireland_Short_2026_09_14.mp4"
+    },
     {
       "id": "episode-20260914-finland",
       "title": "Finland Bets on Growth While Juggling a €12.4 Billion Deficit and an AI… · 14 Sep",
