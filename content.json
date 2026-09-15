@@ -1,5 +1,5 @@
 {
-  "version": 1789448537246,
+  "version": 1789448668749,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-cc34c13",
+      "title": "Spain Under Pressure: Ceuta Crisis and Inflation Squeeze Test Sánchez on Two Fronts",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "A mass migration crossing into the Spanish enclave of Ceuta has triggered a political firestorm, exposing divisions over border policy and diplomatic relations with Morocco. Meanwhile, Spain's headline economic growth is being overshadowed by an acceleration in inflation, leaving households facing prices that have risen faster than wages. Together, the two crises place Prime Minister Pedro Sánchez in a position of defending both the country's security credibility and its economic record simultaneously.",
+      "body": "<h3>A Border in Crisis: Ceuta and the Question of Morocco&#x27;s Role</h3><p>A large-scale crossing of migrants from Morocco into Ceuta, Spain&#x27;s autonomous enclave on the northern tip of Africa, has rapidly escalated into one of the most politically charged episodes of Sánchez&#x27;s premiership. The scale and speed of the arrivals overwhelmed local infrastructure and prompted emergency deployment of police and accommodation facilities, triggering protests from residents and fierce criticism from opposition parties.</p><p>The Sánchez government has maintained that there is no firm evidence Morocco deliberately orchestrated the crossings, a position consistent with available reporting, and has pointed to ongoing intelligence coordination and policing operations as evidence of a measured response. The government argued the state&#x27;s reaction was proportionate and grounded in diplomatic realities, given Spain&#x27;s complex relationship with Rabat.</p><p>Opposition parties reject that framing. Critics contend the government was caught unprepared, was too reluctant to press Morocco, and failed to protect Ceuta&#x27;s residents at a moment when decisive action was required. The episode has become a focal point for questioning Sánchez&#x27;s authority and judgement, with the political debate generating more heat than light. Public frustration in Ceuta and beyond remains high, driving polarisation rather than any cross-party consensus on a path forward.</p><h3>Growth on Paper, Pain at the Checkout: Spain&#x27;s Uneven Economy</h3><p>On paper, Spain&#x27;s economic story should be a source of comfort. The government is projecting growth of 2.9 percent for the current year, a figure that positions the country as one of the eurozone&#x27;s stronger performers. Madrid has also raised its spending ceiling while pledging to keep the deficit on a downward path, presenting fiscal credibility alongside economic momentum.</p><p>The inflation data tells a more uncomfortable story. Eurostat&#x27;s August flash estimate placed Spain&#x27;s harmonised index of consumer prices at 4.5 percent, up from 3.9 percent in July. The Bank of Spain had already signalled in June that inflation would average 3.6 percent across 2026 as a whole. Those figures mean that for ordinary households, the growth headline translates poorly into daily experience. Groceries, energy, and services remain significantly more expensive than they were two years ago, and wage growth in many sectors has not kept pace.</p><p>Critics of the government&#x27;s economic messaging argue that fiscal optimism is masking the cost-of-living squeeze. Detractors point out that citing strong GDP figures while inflation accelerates risks appearing out of touch with the pressures facing working families. The political mood at the household level, analysts say, is more resigned than relieved, a disconnect that tends to erode governing parties&#x27; standing over time.</p><h3>Implications for Spain and the Broader European Picture</h3><p>The two crises, though distinct in nature, reinforce each other politically. The Ceuta situation carries implications well beyond Spain&#x27;s borders. As a European Union frontier, Ceuta is a test case for how member states manage migration pressure from North Africa, a question that remains unresolved at the EU level and one that Morocco&#x27;s geographic position makes especially delicate. Any deterioration in Spanish-Moroccan relations could complicate broader EU migration diplomacy, including existing cooperation agreements.</p><p>On the economic front, Spain&#x27;s growth contributes meaningfully to eurozone stability, and Madrid&#x27;s relatively strong performance compared with Germany or France has attracted attention from European institutions. However, a sustained inflation overshoot risks undermining consumer confidence and complicating the European Central Bank&#x27;s already delicate calibration of monetary policy across divergent member-state conditions.</p><p>For Sánchez, the immediate challenge is managing two credibility tests at once. The next weeks are likely to bring continued opposition pressure over Ceuta, demands for a clearer diplomatic statement on Morocco&#x27;s role, and fresh data on whether inflation has peaked. If prices remain elevated into the autumn and the border situation stays unresolved, the compounding effect on public opinion could become significant. Spain&#x27;s governing coalition, which relies on a narrow parliamentary majority, leaves little room for sustained weakness on either front.</p>",
+      "keywords": "Spain, Ceuta, migration crisis, Pedro Sánchez, Morocco, inflation, economic growth, eurozone, EU migration policy, cost of living, border security, HICP, Bank of Spain, Eurostat, fiscal policy",
+      "sources": "Eurostat August flash HICP estimate for Spain; Bank of Spain June 2026 inflation outlook, projecting average inflation of 3.6% for the year; Spanish government 2026 budget and growth projections, citing 2.9% GDP forecast; Reporting on the Ceuta migration crisis and government response, references [10][11][12]; Reporting on Spain's economic performance and household cost pressures, references [1][7][8][14]",
+      "pubDate": "2026-09-15",
+      "chartData": {
+        "values": [
+          3.9,
+          4.5
+        ],
+        "labels": [
+          "July HICP Inflation (%)",
+          "August HICP Inflation (%)"
+        ]
+      }
+    },
     {
       "id": "article-ccc1e40",
       "title": "Portugal Navigates TAP Sale and Housing Crisis as Test of Minority Government's Reform Agenda",
@@ -15110,6 +15132,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260915-spain",
+      "title": "Spain Under Pressure: Ceuta Crisis and Inflation Squeeze Test Sánchez on Two… · 15 Sep",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:34",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Spain_Episode_2026_09_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 265,
+      "keywords": "Spain, Ceuta, migration crisis, Pedro Sánchez, Morocco, inflation, economic growth, eurozone, EU migration policy, cost of living, border security, HICP, Bank of Spain, Eurostat, fiscal policy",
+      "notes": "A mass migration crossing into the Spanish enclave of Ceuta has triggered a political firestorm, exposing divisions over border policy and diplomatic relations with Morocco. Meanwhile, Spain's headline economic growth is being overshadowed by an acceleration in inflation, leaving households facing prices that have risen faster than wages. Together, the two crises place Prime Minister Pedro Sánchez in a position of defending both the country's security credibility and its economic record simultaneously.",
+      "pubDate": "2026-09-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Spain_Episode_2026_09_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Spain_Short_2026_09_15.mp4"
+    },
     {
       "id": "episode-20260915-portugal",
       "title": "Portugal Navigates TAP Sale and Housing Crisis · 15 Sep",
