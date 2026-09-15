@@ -32,6 +32,21 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Greece&apos;s €3.5 Billion Relief Package · 15 Sep</title>
+      <description>The Greek government is rolling out a €3.5 billion tax-and-wage relief plan it says households deserve after years of austerity and rising prices. Critics, however, see a politically timed manoeuvre ahead of the 2027 elections, and inflation data suggest the cost-of-living squeeze is far from over. The debate touches on a wider European question: how do governments translate macroeconomic success into relief that citizens actually feel?</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_09_15/Greece_Episode_2026_09_15.mp3" length="5613394" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260915-greece</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260915-greece</link>
+      <itunes:duration>8:34</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>267</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Greece, cost of living, inflation, relief package, election politics, fiscal policy, Eurostat, Bank of Greece, household income, EU economic governance, primary surplus, Athens, pensions, tax cuts</itunes:keywords>
+      <podcast:transcript url="https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Greece_Episode_2026_09_15.txt" type="text/plain" language="en"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Italy&apos;s Budget Balancing Act: Growth Hopes and Fiscal Risks Test Meloni&apos;s… · 15 Sep</title>
       <description>Italy&apos;s government is pressing ahead with a spending plan that combines tax cuts, security outlays, and energy measures while leaning on an upgraded growth forecast to justify the arithmetic. But independent data tells a more cautious story, with GDP growth projected at just 0.6% for 2026 and inflation edging back up to 3.2% in August. The stakes extend well beyond Rome, touching EU fiscal discipline, eurozone confidence, and the daily economic pressures facing ordinary Italians.</description>
       <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_09_15/Italy_Episode_2026_09_15.mp3" length="5740164" type="audio/mpeg"/>
