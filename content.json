@@ -1,5 +1,5 @@
 {
-  "version": 1789448668749,
+  "version": 1789448801744,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-26b0077",
+      "title": "Italy's Budget Balancing Act: Growth Hopes and Fiscal Risks Test Meloni's Economic Credibility",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "excerpt": "Italy's government is pressing ahead with a spending plan that combines tax cuts, security outlays, and energy measures while leaning on an upgraded growth forecast to justify the arithmetic. But independent data tells a more cautious story, with GDP growth projected at just 0.6% for 2026 and inflation edging back up to 3.2% in August. The stakes extend well beyond Rome, touching EU fiscal discipline, eurozone confidence, and the daily economic pressures facing ordinary Italians.",
+      "body": "<h3>A Budget Built on Optimism, With Numbers That Tell a Different Story</h3><p>The central tension in Italy&#x27;s current economic debate is straightforward: the Meloni government is trying to cut taxes, increase security spending, and address energy costs while simultaneously steering the deficit toward the European Union&#x27;s 3% threshold. To make that equation work, the coalition is relying heavily on a revised growth forecast of 1% for 2026, which the government argues reflects a stronger and more stable economic footing than critics are willing to acknowledge.</p><p>One of the more politically charged elements of the plan is the League party&#x27;s push to extract additional contributions from banks, framed as a fair mechanism to support households and stimulate growth without placing new burdens on workers. The coalition argues this represents a pragmatic way to generate revenue without undermining the broader fiscal strategy.</p><p>Independent analysts and opposition figures are less convinced. Critics argue that the bank levy risks constraining credit supply, cooling investment, and obscuring the absence of a structurally sound, long-term fiscal plan. More fundamentally, they warn that the government&#x27;s budget arithmetic may rest too heavily on growth assumptions that the data does not yet support.</p><h3>Inflation Creeps Back Up as Fiscal Space Proves Elusive</h3><p>The numbers present a genuine challenge to the government&#x27;s narrative. The Bank of Italy&#x27;s projections point to GDP growth of approximately 0.6% in 2026, meaningfully below the government&#x27;s own 1% estimate and modest by the standards of Italy&#x27;s larger eurozone peers. That gap between official expectations and independent forecasts matters enormously when budget calculations depend on growth-driven revenue gains to close the deficit.</p><p>Inflation adds a further complication. Eurostat data shows Italian consumer prices rising at 3.2% in August 2026, up from 2.9% in July, a trajectory that cuts against any claim that price pressures have been durably resolved. The Bank of Italy had earlier projected 2026 inflation at 2.6%, making the August reading a notable overshoot. For households, the consequence is straightforward: the cost of living is not falling at the pace the government has suggested, and real wage gains remain limited.</p><p>Opposition parties argue this is precisely the point. The government&#x27;s framing of a comfortable fiscal space, they say, depends on inflation and growth assumptions that are already being contradicted by incoming data. If those assumptions soften further, Italy could face a harder choice between deeper spending cuts, higher borrowing, or a confrontation with EU budget monitors in Brussels.</p><h3>Stability as a Selling Point, But Markets Want More Than Longevity</h3><p>Beyond the fiscal mechanics, the Meloni government has built a broader political argument: that simply staying in power is itself an economic asset. The coalition points to its relative longevity by Italian standards, arguing that continuity reassures markets, strengthens Italy&#x27;s negotiating position within EU institutions, and provides a platform for gradually improving the country&#x27;s economic standing.</p><p>There is a limited degree of truth in that claim. Political stability does tend to reduce sovereign risk premiums and can improve a government&#x27;s credibility with bond markets and European partners. Italy&#x27;s spread against German Bunds has been watched closely, and a disorderly political environment would almost certainly push borrowing costs higher for both the state and Italian businesses.</p><p>Yet stability alone cannot substitute for structural reform, and that is where the opposition&#x27;s critique carries the most weight. Wages, public service quality, and productivity growth are the variables that determine whether ordinary Italians feel a meaningful improvement in their lives. On those measures, the picture remains subdued. The government&#x27;s narrative is partly credible on confidence and market perception, but it is considerably weaker as an account of everyday economic relief. For Italy&#x27;s influence in Brussels, and for the eurozone&#x27;s broader debate about deficit discipline and industrial competitiveness, the next set of growth and inflation readings will matter far more than the government&#x27;s political staying power.</p>",
+      "keywords": "Italy, budget, Meloni, fiscal policy, EU deficit rules, inflation, GDP growth, bank levy, eurozone, League, Bank of Italy, Eurostat, European affairs, public spending, tax cuts",
+      "sources": "Bank of Italy GDP and inflation projections for 2026; Eurostat consumer price data for Italy, July and August 2026; European Union Stability and Growth Pact fiscal rules and 3% deficit threshold framework",
+      "pubDate": "2026-09-15",
+      "chartData": {
+        "values": [
+          0.6,
+          1.0,
+          3.2,
+          2.6
+        ],
+        "labels": [
+          "Bank of Italy GDP Forecast 2026 (%)",
+          "Government GDP Forecast 2026 (%)",
+          "Italy Inflation August 2026 (%)",
+          "Bank of Italy Inflation Forecast 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-cc34c13",
       "title": "Spain Under Pressure: Ceuta Crisis and Inflation Squeeze Test Sánchez on Two Fronts",
@@ -15132,6 +15158,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260915-italy",
+      "title": "Italy's Budget Balancing Act: Growth Hopes and Fiscal Risks Test Meloni's… · 15 Sep",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "duration": "8:53",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Italy_Episode_2026_09_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 266,
+      "keywords": "Italy, budget, Meloni, fiscal policy, EU deficit rules, inflation, GDP growth, bank levy, eurozone, League, Bank of Italy, Eurostat, European affairs, public spending, tax cuts",
+      "notes": "Italy's government is pressing ahead with a spending plan that combines tax cuts, security outlays, and energy measures while leaning on an upgraded growth forecast to justify the arithmetic. But independent data tells a more cautious story, with GDP growth projected at just 0.6% for 2026 and inflation edging back up to 3.2% in August. The stakes extend well beyond Rome, touching EU fiscal discipline, eurozone confidence, and the daily economic pressures facing ordinary Italians.",
+      "pubDate": "2026-09-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Italy_Episode_2026_09_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Italy_Short_2026_09_15.mp4"
+    },
     {
       "id": "episode-20260915-spain",
       "title": "Spain Under Pressure: Ceuta Crisis and Inflation Squeeze Test Sánchez on Two… · 15 Sep",
