@@ -1,5 +1,5 @@
 {
-  "version": 1789448801744,
+  "version": 1789448930457,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-1b5ce5d",
+      "title": "Greece's €3.5 Billion Relief Package: Fiscal Prudence or Pre-Election Calculation?",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "The Greek government is rolling out a €3.5 billion tax-and-wage relief plan it says households deserve after years of austerity and rising prices. Critics, however, see a politically timed manoeuvre ahead of the 2027 elections, and inflation data suggest the cost-of-living squeeze is far from over. The debate touches on a wider European question: how do governments translate macroeconomic success into relief that citizens actually feel?",
+      "body": "<h3>A Generous Package With a Contested Price Tag</h3><p>Athens unveiled a sweeping €3.5 billion relief plan this week targeting pensioners, public servants, farmers, and families, framing it as a dividend from Greece&#x27;s improved fiscal standing. The government argued it had earned the space to return gains to citizens through targeted tax cuts and direct support measures, while keeping its commitment to hold elections on schedule in spring 2027.</p><p>The fiscal underpinning is not in dispute. Greece has recorded strong economic growth in recent years alongside a sizeable primary surplus, giving the government a credible basis for its claim that the package is affordable and disciplined. Officials stated the measures were consistent with responsible budgeting rather than a departure from it.</p><p>Yet opposition parties and trade unions pushed back sharply, arguing the plan was too little, too late, and timed to defuse public anger before the next electoral cycle rather than address structural household pressure. Street protests in Thessaloniki gave physical form to that frustration, underlining that the government&#x27;s fiscal narrative and the lived experience of Greek households remain some distance apart.</p><h3>When &quot;Inflation Is Down&quot; Does Not Mean Prices Are Down</h3><p>At the heart of the political argument is a statistical one. The government has pointed to a meaningful easing in price pressures over the summer: according to Eurostat and the Bank of Greece, headline inflation fell from 3.9 percent in June 2026 to 2.7 percent in July. Officials argued this moderation demonstrated that their economic management was working and that the worst of the cost-of-living shock had passed.</p><p>Critics, however, drew a sharp distinction between a slower rate of price increases and an actual fall in prices. Even at 2.7 percent, households were still paying more than a year earlier across food, services, and rent — categories that carry significant political weight. The argument that inflation is easing offers cold comfort to a family whose grocery bill, utility costs, and rent have all risen cumulatively over the past two years.</p><p>The August flash estimate made the government&#x27;s position more difficult. Inflation rebounded to 3.7 percent, according to Eurostat data, suggesting the July dip was fragile rather than the start of a sustained downward trend. The Bank of Greece data confirmed the July improvement, but the August reversal indicated the disinflation story remained unstable. Both sides have a defensible reading of the numbers, but on the consumer-facing question — whether people feel better off — the evidence supports the more sceptical interpretation.</p><h3>Macro Credibility Meets Social Legitimacy</h3><p>Greece&#x27;s current predicament is a sharply drawn version of a broader European challenge. Several governments across the continent have restored public finances, posted surpluses, and attracted favourable commentary from Brussels and credit rating agencies, only to find that macroeconomic vindication does not automatically translate into political goodwill. For average citizens, the relevant measure is whether relief reaches wages, pensions, and everyday bills — not whether the state can satisfy the Stability and Growth Pact.</p><p>For the European Union, Greece serves as a test case. Having emerged from over a decade of bailout conditions and fiscal oversight, Athens now faces the question of whether improved state finances can be converted into tangible social legitimacy without triggering a return to the kind of deficit spending that prompted the sovereign debt crisis in the first place. The €3.5 billion package represents a bet that targeted transfers can bridge the gap between macro stability and household sentiment.</p><p>The coming months will determine whether that bet pays off. With elections scheduled for spring 2027, the government has limited time to demonstrate that its relief measures produce visible results before voters make their judgment. If August&#x27;s inflation rebound persists or accelerates, the political window for the fiscal credibility argument narrows considerably. Opposition parties and unions will continue to press the lived-experience case, and protests suggest the public mood, while not tipping into broad disorder, remains volatile enough to shape the electoral landscape.</p>",
+      "keywords": "Greece, cost of living, inflation, relief package, election politics, fiscal policy, Eurostat, Bank of Greece, household income, EU economic governance, primary surplus, Athens, pensions, tax cuts",
+      "sources": "Eurostat inflation data, June–August 2026; Bank of Greece, headline inflation commentary, July 2026; Greek government fiscal and relief package statements; Opposition and trade union responses, including Thessaloniki protest reporting",
+      "pubDate": "2026-09-15",
+      "chartData": {
+        "values": [
+          3.9,
+          2.7,
+          3.7
+        ],
+        "labels": [
+          "Inflation June 2026",
+          "Inflation July 2026",
+          "Inflation August 2026 (flash)"
+        ]
+      }
+    },
     {
       "id": "article-26b0077",
       "title": "Italy's Budget Balancing Act: Growth Hopes and Fiscal Risks Test Meloni's Economic Credibility",
@@ -15158,6 +15182,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260915-greece",
+      "title": "Greece's €3.5 Billion Relief Package · 15 Sep",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "8:34",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Greece_Episode_2026_09_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 267,
+      "keywords": "Greece, cost of living, inflation, relief package, election politics, fiscal policy, Eurostat, Bank of Greece, household income, EU economic governance, primary surplus, Athens, pensions, tax cuts",
+      "notes": "The Greek government is rolling out a €3.5 billion tax-and-wage relief plan it says households deserve after years of austerity and rising prices. Critics, however, see a politically timed manoeuvre ahead of the 2027 elections, and inflation data suggest the cost-of-living squeeze is far from over. The debate touches on a wider European question: how do governments translate macroeconomic success into relief that citizens actually feel?",
+      "pubDate": "2026-09-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Greece_Episode_2026_09_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_15/Greece_Short_2026_09_15.mp4"
+    },
     {
       "id": "episode-20260915-italy",
       "title": "Italy's Budget Balancing Act: Growth Hopes and Fiscal Risks Test Meloni's… · 15 Sep",
