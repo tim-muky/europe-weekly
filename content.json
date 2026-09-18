@@ -1,5 +1,5 @@
 {
-  "version": 1789708014257,
+  "version": 1789708142683,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a02d102",
+      "title": "Austria Faces Twin Pressures as Inflation Rebounds and Headscarf Ban Ignites Legal Battle",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "excerpt": "Austria is confronting two interlocking crises as the new political season opens: a re-acceleration of consumer price inflation to 3.2 percent in August 2026 and a fiercely contested school-year ban on headscarves for girls under 14. Both issues are exposing deep fault lines between government reassurances and public frustration. The combination is sharpening political polarisation and drawing scrutiny from EU institutions and civil-rights observers alike.",
+      "body": "<h3>Inflation Climbs Again, Squeezing Households Already at the Limit</h3><p>Austria&#x27;s inflation rate rose to 3.2 percent in August 2026, up from 2.8 percent in July, according to Statistics Austria, defying expectations that price pressures were on a steady downward path. The harmonised European Union measure also ticked upward, reaching 2.9 percent, a sign that Austria&#x27;s trajectory is diverging uncomfortably from the broader eurozone trend toward stabilisation.</p><p>Government officials and economic advisers have argued that the outlook remains cautiously positive. The Austrian National Bank trimmed its forecast for average 2026 inflation to 3.0 percent and projected a further fall to 2.3 percent in 2027, pointing to normalising supply chains and softening demand. Yet critics, including trade unions and consumer advocacy groups, have rejected that framing as inadequate comfort for families navigating rising costs in energy, services, food, and transport right now.</p><p>Growth offers little cushion. The central bank expects only very weak expansion in 2026, meaning that wage and pension gains are struggling to keep pace with essential expenditures. For many Austrian households, the practical consequence is a continuing erosion of purchasing power, a reality that no forecast, however improved, can offset in the immediate term.</p><h3>Headscarf Ban Opens a Divisive Legal and Identity Debate</h3><p>Simultaneously, Austria entered the new school year enforcing a ban on headscarves for girls under the age of 14, a measure the government has framed as a child-protection initiative promoting neutrality in public schools. Ministers and supporters argue the policy shields young girls from religious or social pressure before they are old enough to make autonomous personal choices.</p><p>That argument has been sharply rejected by Muslim community organisations, civil-rights lawyers, and a growing number of legal scholars, who argue the ban singles out one religious group, stigmatises Muslim families, and undermines constitutional guarantees of religious freedom. According to Reuters, the measure is already facing formal legal challenges, suggesting the government&#x27;s characterisation of the ban as an uncontroversial administrative school rule will be difficult to sustain in court.</p><p>The dispute carries implications well beyond Austrian borders. Across the European Union, governments are grappling with where to draw the line between state neutrality, children&#x27;s rights, and religious expression. Critics warn that if Austria&#x27;s ban survives legal scrutiny, it could embolden similar measures in other member states, while a successful court challenge could reinforce existing European human-rights frameworks protecting minority religious practice.</p><h3>A Polarised Mood and a Difficult Outlook for Vienna</h3><p>Together, the two issues are feeding a national mood that observers describe as frustrated and increasingly divided. Inflation keeps households anxious about basic costs, while the headscarf controversy adds a layer of cultural tension that makes consensus-building in parliament substantially harder. The government is facing pressure on economic and identity-politics fronts simultaneously, a combination that rarely produces clean legislative solutions.</p><p>On the economic side, the critical question for Austria and its European partners is whether the August inflation uptick represents a temporary spike or the beginning of a renewed upward trend. The answer matters for the European Central Bank, which has been calibrating interest-rate decisions across the eurozone, and for Austrian wage bargaining rounds expected later in the year. Unions have signalled they will press hard for settlements that outpace inflation, a dynamic that could in turn feed the price pressures policymakers are trying to contain.</p><p>On the social policy front, the legal timeline for the headscarf ban is the immediate variable to watch. A ruling by Austria&#x27;s Constitutional Court could come within months, and its outcome will either entrench or reverse the government&#x27;s position. If the ban is struck down, the governing coalition faces a political embarrassment at a moment when it can ill afford one. If it is upheld, expect pressure to intensify from EU-level institutions and human-rights bodies. Either way, Austria is unlikely to find political quiet on either front before the end of the year.</p>",
+      "keywords": "Austria, inflation, cost of living, headscarf ban, religious freedom, Austrian National Bank, eurozone, ECB, integration policy, constitutional court, EU politics, consumer prices, wage bargaining, Muslim community, civil rights",
+      "sources": "Statistics Austria, August 2026 inflation data; Austrian National Bank, economic outlook and inflation forecasts 2026-2027; Reuters, reporting on Austria headscarf ban and legal challenges",
+      "pubDate": "2026-09-18",
+      "chartData": {
+        "values": [
+          3.2,
+          2.8,
+          3.0,
+          2.3
+        ],
+        "labels": [
+          "August 2026 Inflation",
+          "July 2026 Inflation",
+          "Central Bank Forecast 2026",
+          "Central Bank Forecast 2027"
+        ]
+      }
+    },
     {
       "id": "article-a8e16e8",
       "title": "Hungary at a Crossroads: LGBTQ Law Repeal and Drought-Driven Inflation Test New Government's Direction",
@@ -15350,6 +15376,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260918-austria",
+      "title": "Austria Faces Twin Pressures as Inflation Rebounds and Headscarf Ban Ignites… · 18 Sep",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "duration": "8:39",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Austria_Episode_2026_09_18.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 275,
+      "keywords": "Austria, inflation, cost of living, headscarf ban, religious freedom, Austrian National Bank, eurozone, ECB, integration policy, constitutional court, EU politics, consumer prices, wage bargaining, Muslim community, civil rights",
+      "notes": "Austria is confronting two interlocking crises as the new political season opens: a re-acceleration of consumer price inflation to 3.2 percent in August 2026 and a fiercely contested school-year ban on headscarves for girls under 14. Both issues are exposing deep fault lines between government reassurances and public frustration. The combination is sharpening political polarisation and drawing scrutiny from EU institutions and civil-rights observers alike.",
+      "pubDate": "2026-09-18",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Austria_Episode_2026_09_18.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Austria_Short_2026_09_18.mp4"
+    },
     {
       "id": "episode-20260918-hungary",
       "title": "Hungary at a Crossroads: LGBTQ Law Repeal and Drought-Driven Inflation Test… · 18 Sep",
