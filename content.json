@@ -1,5 +1,5 @@
 {
-  "version": 1789707738954,
+  "version": 1789707884477,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-5c8a386",
+      "title": "Slovakia Caught Between Stubborn Inflation and Rising Security Fears",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "Slovakia's economy is growing at a pace too slow to ease household pain, while inflation remains above European Central Bank targets and sticky enough to erode purchasing power. At the same time, an alleged arson plot linked to a domestic drone factory has sharpened public anxiety about hybrid threats and foreign interference. Together, the two developments paint a picture of a country navigating economic fatigue and security unease simultaneously.",
+      "body": "<h3>Slow Growth and Persistent Prices Leave Households Treading Water</h3><p>Slovakia&#x27;s economy expanded by roughly 0.8 percent year on year in the most recent reporting period, a figure that economists and opposition politicians alike describe as insufficient to generate the kind of momentum that households might feel in their daily lives. With the Harmonised Index of Consumer Prices sitting at 3.1 percent in August, inflation has moved in the right direction compared with the peaks seen in recent years, but it remains meaningfully above the European Central Bank&#x27;s 2 percent target and continues to squeeze budgets, particularly for lower and middle-income families.</p><p>Government officials have sought to frame the data as evidence of gradual stabilisation, arguing that fiscal consolidation measures are necessary to restore long-term credibility and protect the country&#x27;s medium-term outlook. They point to positive industrial output figures and uninterrupted GDP growth, however modest, as signs of underlying resilience. The argument is not without merit: Slovakia has avoided the outright contraction that some of its regional peers experienced, and the direction of travel on inflation is downward.</p><p>Critics, however, are quick to note that a falling inflation rate is not the same as falling prices. At 3.1 percent, the cost of living is still rising faster than most wages can compensate for, with services and energy costs identified as particularly persistent pressures. The Slovak central bank has itself cautioned that risks to the inflation outlook remain tilted to the upside, undermining any claim that the problem is decisively resolved. The overall verdict from the data is mixed: progress is real, but comfort is premature.</p><h3>Alleged Drone-Factory Arson Plot Stokes Hybrid-Threat Debate</h3><p>Against that backdrop of economic frustration, a separate and politically charged story has taken hold in recent weeks. Slovak authorities are investigating an alleged arson attempt linked to a domestic drone manufacturing facility, a case that has rapidly escalated into a broader national conversation about sabotage, foreign interference, and the country&#x27;s vulnerability to so-called hybrid threats. The suspect account has been reported and a criminal case is understood to be active, though significant elements of the broader narrative surrounding the incident remain unverified by independent sources.</p><p>The government has moved quickly to frame the alleged plot as evidence that Slovakia faces tangible risks from external actors operating through indirect means, and has used the case to argue for stronger intelligence coordination and more robust security measures. The argument carries a certain inherent logic: even an unconfirmed incident, if credible enough to warrant investigation, illustrates the kind of grey-zone pressure that Central European states have increasingly warned about since Russia&#x27;s full-scale invasion of Ukraine in 2022.</p><p>Opposition voices and civil society observers have urged caution, warning that the facts of the case have not yet been fully established and that politicians risk using incomplete information to inflame public anxiety or deflect attention from domestic economic shortcomings. The concern is not hypothetical: in several Central European countries in recent years, security incidents have been amplified in ways that served political agendas before all the evidence was in. Analysts say the key distinction to maintain is between acknowledging a genuine criminal and security investigation, which the evidence supports, and drawing sweeping conclusions about a confirmed, coordinated foreign operation, which the evidence does not yet support.</p><h3>Two Stories, One Anxious Mood, and a Difficult Road Ahead</h3><p>What makes the current Slovak moment notable is less either story in isolation and more the way the two interact. Economic fatigue of the kind that 0.8 percent growth and 3.1 percent inflation produce tends to lower public tolerance for uncertainty in other domains. When security anxieties are layered on top, the result is a population that analysts might describe as resigned rather than alarmed on the economic front, and unsettled rather than panicked on the security front, but pulled in both directions at once.</p><p>The implications extend beyond Slovakia&#x27;s borders. Within the European Union, Slovakia&#x27;s weak growth and persistent inflation are part of a broader, uneven recovery pattern that continues to complicate ECB policymaking. A central bank trying to calibrate interest rates for the eurozone as a whole must contend with member states where inflation remains sticky even as growth disappoints, a combination that leaves little comfortable room to manoeuvre. Slovakia is not alone in this position, but it is a clear illustration of the challenge.</p><p>On the security dimension, the drone-factory case arrives at a moment of heightened sensitivity across Central Europe, where governments, intelligence services, and publics are actively reassessing their exposure to hybrid operations. How Slovak authorities handle the investigation, and how political leaders choose to communicate about it, will matter not just domestically but as a signal to partners in NATO and the EU about the country&#x27;s institutional steadiness under pressure. The coming weeks are likely to bring both further economic data that will test the government&#x27;s optimistic framing, and further developments in the security case that will determine whether the initial alarm was proportionate or inflated.</p>",
+      "keywords": "Slovakia, inflation, GDP growth, economic slowdown, HICP, European Central Bank, fiscal consolidation, hybrid threats, drone factory, arson, sabotage, Central Europe, EU economy, Slovak government, security",
+      "sources": "European Central Bank HICP data, August reporting cycle; Slovak Statistical Office GDP estimates; Slovak National Bank monetary policy communications; Slovak security and law enforcement reporting on alleged drone-factory arson investigation",
+      "pubDate": "2026-09-18",
+      "chartData": {
+        "values": [
+          3.1,
+          2.0,
+          0.8
+        ],
+        "labels": [
+          "Slovakia HICP Inflation (%)",
+          "ECB Target (%)",
+          "Slovakia GDP Growth (%)"
+        ]
+      }
+    },
     {
       "id": "article-57c2d22",
       "title": "Czech Coalition Fractures Over Deficit Cuts as EU Tightens Scrutiny on Agrofert Subsidies",
@@ -15302,6 +15326,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260918-slovakia",
+      "title": "Slovakia Caught Between Stubborn Inflation and Rising Security Fears · 18 Sep",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "8:46",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Slovakia_Episode_2026_09_18.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 273,
+      "keywords": "Slovakia, inflation, GDP growth, economic slowdown, HICP, European Central Bank, fiscal consolidation, hybrid threats, drone factory, arson, sabotage, Central Europe, EU economy, Slovak government, security",
+      "notes": "Slovakia's economy is growing at a pace too slow to ease household pain, while inflation remains above European Central Bank targets and sticky enough to erode purchasing power. At the same time, an alleged arson plot linked to a domestic drone factory has sharpened public anxiety about hybrid threats and foreign interference. Together, the two developments paint a picture of a country navigating economic fatigue and security unease simultaneously.",
+      "pubDate": "2026-09-18",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Slovakia_Episode_2026_09_18.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Slovakia_Short_2026_09_18.mp4"
+    },
     {
       "id": "episode-20260918-czechia",
       "title": "Czechia: Czech Coalition Fractures Over Deficit Cuts · 18 Sep",
