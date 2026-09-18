@@ -1,5 +1,5 @@
 {
-  "version": 1789707884477,
+  "version": 1789708014257,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a8e16e8",
+      "title": "Hungary at a Crossroads: LGBTQ Law Repeal and Drought-Driven Inflation Test New Government's Direction",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary's new government is moving to repeal Orbán-era restrictions on the \"promotion\" of homosexuality to minors, signaling a sharp break with its predecessor's social agenda and a potential realignment with European Union norms. Simultaneously, the country's central bank has warned that worsening drought and heatwaves could reignite food price inflation, threatening households already worn down by years of cost-of-living pressure. Together, the two developments expose the deepest fault lines in Hungarian politics: identity and affordability.",
+      "body": "<h3>A Legal U-Turn With European Consequences</h3><p>Budapest is preparing to amend or repeal legislation introduced under former Prime Minister Viktor Orbán that banned the so-called &quot;promotion&quot; of homosexuality to minors, a move that would mark one of the most significant social policy reversals in recent Hungarian history. The government has argued the change is necessary to correct discriminatory rules, bring Hungary into line with European Union standards, and reduce a mounting legal conflict with European institutions that has cost the country billions in withheld EU funds.</p><p>The legal case for repeal is substantial. The European Court of Justice ruled Hungary&#x27;s anti-LGBTQ legislation unlawful, finding it incompatible with EU law on fundamental rights and the free movement of services. That ruling left the previous administration isolated and exposed the country to sustained financial and reputational pressure from Brussels. The new government&#x27;s decision to act signals, at minimum, a pragmatic recalculation of where Hungary&#x27;s interests lie within the bloc.</p><p>Critics, however, have moved quickly to frame the repeal in the language of cultural threat. Opposition voices have characterised the legislative reversal as an ideologically driven attack on child protection and accused the government of importing Western liberal politics at the expense of everyday concerns. Legal experts and EU officials have rejected that framing, noting that no credible evidentiary basis supports the claim that the previous restrictions served a protective function distinct from political messaging.</p><h3>Drought on the Horizon, Inflation Risk Returning</h3><p>While the culture war dominates the headlines, Hungary&#x27;s central bank delivered a quieter but equally consequential warning: prolonged drought and extreme heat events could drive food prices higher next year, potentially reversing recent progress on inflation. The caution was explicit and data-driven, reflecting a growing recognition among European monetary authorities that climate shocks are no longer peripheral agricultural concerns but direct drivers of macroeconomic instability.</p><p>The recent disinflation trend in Hungary has been real. Eurostat recorded headline inflation at 1.6 percent in July 2025, and the Hungarian statistical office reported a further easing to 1.3 percent in August. Those figures offered relief to consumers after a prolonged period of some of the highest price pressures in the European Union. Yet the European Commission&#x27;s 2025 convergence report projected full-year inflation at approximately 3.2 percent, and the central bank&#x27;s drought warning makes clear that the path back to price stability remains fragile and weather-dependent.</p><p>For ordinary households, the stakes are straightforward: grocery bills, mortgage payments linked to interest rate expectations, and wage negotiations all hang on whether food price pressures re-emerge. For EU policymakers, the Hungarian case illustrates a wider challenge. Climate stress does not respect national borders, and a poor harvest in Central Europe feeds through to supply chains and price indices across the single market. The drought warning is, in that sense, as much a European problem as a Hungarian one.</p><h3>Outlook: Political Tests and Economic Uncertainty Ahead</h3><p>The LGBTQ repeal will now move through a domestic political process that is unlikely to be smooth. Identity politics in Hungary remain deeply polarised, and the Orbán camp retains a large and organised base that can be mobilised around cultural grievances. The government will need to sustain its legislative majority while managing a sustained opposition campaign that frames the issue not as legal compliance but as values under threat. How that battle plays out will be watched closely in Brussels and other EU capitals as a litmus test of whether Hungary&#x27;s political reorientation is durable or tactical.</p><p>On the economic front, the coming months will be critical. If summer drought conditions intensify into autumn and the harvest falls short of projections, the central bank may face pressure to keep interest rates higher for longer, complicating the government&#x27;s growth ambitions. Agricultural policy, energy costs, and any remaining price control mechanisms will all come under scrutiny. The European Commission is expected to reassess Hungary&#x27;s macroeconomic trajectory in its autumn forecast round, and a renewed inflation uptick would complicate Hungary&#x27;s position in any ongoing EU fiscal and cohesion discussions.</p><p>Taken together, the two stories reveal a Hungary attempting to reposition itself within Europe while managing the accumulated pressures of political polarisation, climate vulnerability, and inflation fatigue. The government has set ambitious markers on both fronts. Whether it can deliver legal alignment with the EU on rights while keeping household costs in check will define its credibility at home and its standing in Brussels for years to come.</p>",
+      "keywords": "Hungary, LGBTQ rights, Orbán, EU law, inflation, drought, food prices, Hungarian central bank, European Commission, culture war, rule of law, Central Europe, EU politics, climate and inflation, Hungarian politics 2025",
+      "sources": "Reuters coverage of Hungary LGBTQ legislation repeal; European Court of Justice ruling on Hungary anti-LGBT law; Eurostat inflation data, July 2025; Hungarian Central Statistical Office, August 2025; European Commission 2025 Convergence Report for Hungary; Magyar Nemzeti Bank (Hungarian National Bank) drought and inflation warning",
+      "pubDate": "2026-09-18",
+      "chartData": {
+        "values": [
+          1.6,
+          1.3,
+          3.2
+        ],
+        "labels": [
+          "Eurostat July 2025",
+          "Hungary StatOffice August 2025",
+          "EC 2025 Projection"
+        ]
+      }
+    },
     {
       "id": "article-5c8a386",
       "title": "Slovakia Caught Between Stubborn Inflation and Rising Security Fears",
@@ -15326,6 +15350,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20260918-hungary",
+      "title": "Hungary at a Crossroads: LGBTQ Law Repeal and Drought-Driven Inflation Test… · 18 Sep",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:38",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Hungary_Episode_2026_09_18.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 274,
+      "keywords": "Hungary, LGBTQ rights, Orbán, EU law, inflation, drought, food prices, Hungarian central bank, European Commission, culture war, rule of law, Central Europe, EU politics, climate and inflation, Hungarian politics 2025",
+      "notes": "Hungary's new government is moving to repeal Orbán-era restrictions on the \"promotion\" of homosexuality to minors, signaling a sharp break with its predecessor's social agenda and a potential realignment with European Union norms. Simultaneously, the country's central bank has warned that worsening drought and heatwaves could reignite food price inflation, threatening households already worn down by years of cost-of-living pressure. Together, the two developments expose the deepest fault lines in Hungarian politics: identity and affordability.",
+      "pubDate": "2026-09-18",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Hungary_Episode_2026_09_18.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Hungary_Short_2026_09_18.mp4"
+    },
     {
       "id": "episode-20260918-slovakia",
       "title": "Slovakia Caught Between Stubborn Inflation and Rising Security Fears · 18 Sep",
