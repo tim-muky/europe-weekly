@@ -32,6 +32,21 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Slovakia Caught Between Stubborn Inflation and Rising Security Fears · 18 Sep</title>
+      <description>Slovakia&apos;s economy is growing at a pace too slow to ease household pain, while inflation remains above European Central Bank targets and sticky enough to erode purchasing power. At the same time, an alleged arson plot linked to a domestic drone factory has sharpened public anxiety about hybrid threats and foreign interference. Together, the two developments paint a picture of a country navigating economic fatigue and security unease simultaneously.</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_09_18/Slovakia_Episode_2026_09_18.mp3" length="5739744" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20260918-slovakia</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20260918-slovakia</link>
+      <itunes:duration>8:46</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>273</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Slovakia, inflation, GDP growth, economic slowdown, HICP, European Central Bank, fiscal consolidation, hybrid threats, drone factory, arson, sabotage, Central Europe, EU economy, Slovak government, security</itunes:keywords>
+      <podcast:transcript url="https://audio.europe-weekly.eu/episodes/v3/2026_09_18/Slovakia_Episode_2026_09_18.txt" type="text/plain" language="en"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Czechia: Czech Coalition Fractures Over Deficit Cuts · 18 Sep</title>
       <description>Czechia faces a twin political stress test as a coalition dispute over the 2027 budget threatens to deepen divisions within the government, while the European Commission has withheld millions in subsidy reimbursements over unresolved conflict-of-interest concerns linked to former prime minister Andrej Babiš and his Agrofert conglomerate. Both crises reflect a country grappling with fiscal discipline and rule-of-law accountability simultaneously. Together, they are shaping public trust in institutions at a moment when Czech citizens are already fatigued by years of economic turbulence and political friction.</description>
       <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_09_18/Czechia_Episode_2026_09_18.mp3" length="5460797" type="audio/mpeg"/>
