@@ -1,5 +1,5 @@
 {
-  "version": 1789708142683,
+  "version": 1791642327752,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-d4f8386",
+      "title": "Latvia's Historic Election Victory Masks a Fragile Compact Between Security and Economic Discontent",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "excerpt": "Latvia's governing United List secured its strongest post-independence election result, winning 35.3 percent of the vote and 42 of 100 parliamentary seats, cementing Prime Minister Andris Kulbergs's pro-European, pro-NATO course. Yet the result tells only part of the story. With consumer prices still 3.2 percent higher than a year earlier and fiscal consolidation looming, the government's durability will depend on whether security credibility can translate into tangible improvements for households.",
+      "body": "<h3>A Historic Mandate Shaped by Geography and Fear</h3><p>The United List&#x27;s performance in Latvia&#x27;s parliamentary election was, by any recent measure, remarkable. A 35.3 percent vote share and 42 seats represent what analysts describe as the strongest result for a governing party since Latvia restored independence. For Prime Minister Andris Kulbergs, the outcome amounts to an unambiguous public endorsement of a firmly Western foreign-policy orientation at a moment when Russia and Belarus remain on Latvia&#x27;s borders and the war in Ukraine continues to reorder European security calculations.</p><p>The government&#x27;s campaign framing was deliberate: alignment with the European Union and NATO, sustained support for Ukraine and investment in national resilience were presented not as policy options but as strategic necessities. Voters appeared to accept that argument in large numbers. The result secures Kulbergs a strong parliamentary position and signals to Riga&#x27;s allies that Latvia&#x27;s geopolitical commitments enjoy domestic backing.</p><p>Yet the mandate carries an important asterisk. Turnout stood at 51.8 percent, meaning that the winning party&#x27;s 42 seats were drawn from a minority of all eligible voters. Security may have been the dominant frame of the election, but it did not mobilise a majority of the electorate. Opposition parties argued throughout the campaign that security concerns were being used to limit scrutiny of domestic policy, including wages, healthcare access and the affordability of housing. The evidence suggests both were true: security dominated, but economic grievances remained present and largely unresolved.</p><h3>Prices Still Rising as Government Prepares Spending Restrictions</h3><p>The economic backdrop to the election is one of persistent, if moderating, pressure on household budgets. Latvia&#x27;s annual inflation rate stood at 3.2 percent in September 2026, with prices rising a further 0.2 percent during the month alone and remaining 3.7 percent above the 2025 average. The practical implication is significant: prices are not falling. They are simply increasing more slowly than during an earlier and sharper price shock. For low- and middle-income households, the distinction offers limited comfort.</p><p>Against this backdrop, the Finance Ministry has proposed restrictions on new public contracts and delays to non-essential spending, framed as a responsible path toward a zero-deficit budget by 2030. The government&#x27;s case is that expenditure controls are necessary to preserve Latvia&#x27;s financial credibility and create fiscal room for long-term priorities, including defence. Allowing deficits and interest costs to rise, the argument runs, would ultimately constrain the government&#x27;s capacity to act in exactly the areas voters care about most.</p><p>Critics, including opposition parties and trade union representatives, contest both the sequencing and the distribution of costs. Their concern is that if spending limits fall on healthcare, education, infrastructure or local government, the immediate result will be deteriorating services and widening inequality, even as macroeconomic indicators improve. Trade unions have indicated they would accept higher defence spending in principle, but insist that public-sector workers and lower-income households should not bear the principal burden of fiscal adjustment through wage restraint or reduced staffing. Their preferred approach emphasises revenue-side measures, tax reform and indexation of wages and pensions alongside any expenditure discipline.</p><h3>A Test Case for the EU&#x27;s Eastern Flank: Security Without Prosperity Is Unsustainable</h3><p>Latvia&#x27;s election outcome is being watched beyond Riga. For the European Union, member states that border Russia present a particular policy dilemma: they face genuine and immediate security pressures that generate domestic political support for high defence expenditure and close alignment with EU and NATO structures. Latvia fits this profile precisely. But the durability of public support for a high-cost security posture depends on whether governments can simultaneously deliver improvements in living standards, and on that measure the picture is less encouraging.</p><p>The Latvian government now faces what might be called a two-front challenge. On the external front, it must maintain credible commitments to defence spending and Ukraine support in a volatile neighbourhood. On the domestic front, it must demonstrate that fiscal consolidation does not become a permanent reduction in services and real wages for citizens who, polling and election data both suggest, are still dissatisfied with everyday economic conditions despite their vote for political continuity.</p><p>The central lesson of the Latvian case for the wider EU may be this: voters in exposed member states may accept the logic of security-first politics, but that acceptance is not unconditional. If inflation persists, public services deteriorate and wages stagnate, the political compact that delivered Latvia&#x27;s historic result could erode before the next electoral cycle. The government&#x27;s strongest argument for its economic programme will be results visible at the household level, not merely in budget projections or bond markets. The 2030 deficit target gives it time, but the mood among citizens, described by analysts as resigned and increasingly frustrated, suggests that time should not be mistaken for patience.</p>",
+      "keywords": "Latvia, election, United List, Andris Kulbergs, security politics, fiscal consolidation, inflation, NATO, European Union, Ukraine, Baltic states, cost of living, public spending, defence, economic policy",
+      "sources": "Latvian parliamentary election results, post-independence vote share records [1]; United List seat allocation and geopolitical campaign framing [2]; Election coverage identifying security and cost-of-living as dual campaign themes [3]; Official turnout figure, Latvian Central Election Commission [4]; Latvian consumer price index data, September 2026 [5]",
+      "pubDate": "2026-10-10",
+      "chartData": {
+        "values": [
+          35.3,
+          51.8,
+          3.2,
+          3.7
+        ],
+        "labels": [
+          "United List Vote Share (%)",
+          "Voter Turnout (%)",
+          "Annual Inflation September 2026 (%)",
+          "Price Rise vs 2025 Average (%)"
+        ]
+      }
+    },
     {
       "id": "article-a02d102",
       "title": "Austria Faces Twin Pressures as Inflation Rebounds and Headscarf Ban Ignites Legal Battle",
@@ -15376,6 +15402,22 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261010-latvia",
+      "title": "Latvia's Historic Election Victory Masks a Fragile Compact Between Security… · 10 Oct",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:27",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_10/Latvia_Episode_2026_10_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 276,
+      "keywords": "Latvia, election, United List, Andris Kulbergs, security politics, fiscal consolidation, inflation, NATO, European Union, Ukraine, Baltic states, cost of living, public spending, defence, economic policy",
+      "notes": "Latvia's governing United List secured its strongest post-independence election result, winning 35.3 percent of the vote and 42 of 100 parliamentary seats, cementing Prime Minister Andris Kulbergs's pro-European, pro-NATO course. Yet the result tells only part of the story. With consumer prices still 3.2 percent higher than a year earlier and fiscal consolidation looming, the government's durability will depend on whether security credibility can translate into tangible improvements for households.",
+      "pubDate": "2026-10-10",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_10/Latvia_Episode_2026_10_10.txt"
+    },
     {
       "id": "episode-20260918-austria",
       "title": "Austria Faces Twin Pressures as Inflation Rebounds and Headscarf Ban Ignites… · 18 Sep",
