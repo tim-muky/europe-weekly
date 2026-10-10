@@ -1,5 +1,5 @@
 {
-  "version": 1791642327752,
+  "version": 1791644943181,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-650593b",
+      "title": "Poland Walks a Fiscal Tightrope as Fuel Relief and Rising Debt Collide",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "excerpt": "Warsaw has launched a fuel-price intervention package designed to cut pump prices and ease household costs, but the move arrives as official data confirm that Polish inflation is rising, not falling. At the same time, the government faces mounting pressure over a deficit that the European Commission projects will reach 7.3 percent of GDP in 2025. Together, the two developments expose the tension at the heart of Polish economic policy: how to provide relief today without sacrificing fiscal credibility tomorrow.",
+      "body": "<h3>Fuel Relief Offers Short-Term Comfort, but Inflation Tells a Different Story</h3><p>The Polish government has introduced a broad fuel-price intervention that combines a temporary price cap with reductions in VAT and excise duties, alongside a 60 percent windfall levy on major fuel companies. Ministers say the package will cut pump prices by roughly 1.2 złoty per litre, protecting household budgets and slowing the pass-through of transport costs into the wider economy. The windfall tax, they argue, ensures that large energy companies rather than ordinary taxpayers bear the bulk of the financial burden.</p><p>The economic backdrop, however, complicates the official narrative. Polish consumer price inflation rose from 3.4 percent in August to 4.0 percent in September, according to the latest available data, meaning that the government&#x27;s claim that inflation is already coming down is not supported by the figures. Eurostat&#x27;s harmonised measure placed Poland at 3.5 percent in its most recent comparative reading, above the euro-area average of 3.2 percent. Market analysts expected inflation to settle in a range of roughly 3.5 to 3.7 percent in October, with higher fuel and energy prices identified as the primary drivers of September&#x27;s acceleration.</p><p>Core inflation, which strips out volatile energy and food prices, was estimated to have eased to around 3.0 to 3.2 percent, suggesting that the latest price surge is concentrated in energy rather than symptomatic of an economy-wide spiral. That distinction matters for policy: it gives the government a plausible argument that targeted fuel relief could dampen inflation pressures over coming months, even if the immediate data do not yet bear that out. The government&#x27;s forecast of future disinflation remains exactly that — a forecast, not an established outcome.</p><h3>A Budget Under Fire as Deficit and Debt Move Steadily Higher</h3><p>The fuel relief package is only one front in a broader political confrontation over public finances. The opposition Law and Justice party, known by its Polish acronym PiS, has tabled a no-confidence motion against Finance Minister Andrzej Domański, accusing the governing coalition of losing control of the budget and burdening future generations with unsustainable debt. The government, for its part, argues that elevated spending on defence, healthcare, infrastructure and the energy transition reflects the security realities facing Poland rather than fiscal recklessness.</p><p>Official European data lend weight to the opposition&#x27;s concern about the direction of travel, even if its characterisation of outright fiscal turmoil remains a political judgment. The European Commission, drawing on Eurostat figures, reported that Poland&#x27;s general government deficit rose from 6.4 percent of GDP in 2024 to 7.3 percent in 2025. The Commission projects the deficit to narrow only modestly to 6.5 percent of GDP in 2026 and 6.3 percent in 2027, leaving Poland well above the EU&#x27;s 3 percent reference value for the foreseeable future. Public debt is also on a clear upward trajectory, moving from 54.8 percent of GDP at the end of 2024 to a projected 68.3 percent by the close of 2027.</p><p>The government counters that strong growth provides a degree of protection: with expansion projected at around 3.25 percent in 2026, ministers argue that a growing economy can absorb higher debt levels more comfortably, provided borrowing costs remain manageable. That argument has a basis in economic logic, but the available data do not support presenting the current fiscal trend as benign. High growth and large deficits have coexisted so far without resolving the underlying imbalance. The president-government rift, which has added an element of institutional friction to the budget process, makes coordinated fiscal adjustment harder and amplifies the sense of political instability surrounding economic decision-making.</p><h3>Relief Today, Restraint Tomorrow: What the Dual Pressures Mean for Poland and the EU</h3><p>For Polish households, the immediate stakes are straightforward: cheaper fuel at the pump would provide tangible relief at a time when food, housing and energy costs remain elevated. Yet the durability of that relief is uncertain. If the price caps and tax reductions expire without a structural improvement in energy costs or household incomes, there is a real risk of a price rebound that offsets the gains. The political scramble — with the government, the opposition and the presidency each seeking ownership of the relief narrative — adds to the sense that economic policy is being shaped as much by electoral calculation as by fiscal strategy.</p><p>For the European Union, Poland&#x27;s situation is significant on two levels. As one of the bloc&#x27;s largest economies and its most substantial defence spender among newer member states, Poland carries strategic weight that goes beyond its own borders. A country running deficits above 6 percent of GDP while simultaneously expanding its military capacity raises a question that has no easy answer across the EU: how should the costs of security be distributed and financed in an era of elevated geopolitical risk? Brussels has acknowledged the tension but has not yet articulated a collective mechanism for managing it.</p><p>The path ahead will likely be defined by two deadlines. First, the fuel relief measures are temporary, and the political and inflationary consequences of their expiry will test the government&#x27;s economic credibility in the months ahead. Second, Poland&#x27;s trajectory on debt and deficit places it firmly in the European Commission&#x27;s fiscal surveillance framework, raising the prospect of formal excessive deficit proceedings that would constrain Warsaw&#x27;s room for manoeuvre. Whether the government can deliver enough growth to manage its debt burden while sustaining public support depends on outcomes — for inflation, for security costs and for the global economy — that remain genuinely uncertain.</p>",
+      "keywords": "Poland, fiscal policy, inflation, fuel prices, cost of living, EU deficit, public debt, Andrzej Domański, PiS, European Commission, Eurostat, defence spending, VAT, windfall tax, budget confrontation",
+      "sources": "European Commission fiscal surveillance data via Eurostat, general government deficit and debt projections for Poland; Eurostat Harmonised Index of Consumer Prices, latest comparative euro-area release; Polish national CPI data, August and September readings; Market economic assessments of October inflation trajectory and core inflation estimate for Poland",
+      "pubDate": "2026-10-10",
+      "chartData": {
+        "values": [
+          6.4,
+          7.3,
+          6.5,
+          6.3
+        ],
+        "labels": [
+          "Deficit 2024",
+          "Deficit 2025",
+          "Deficit 2026 (proj.)",
+          "Deficit 2027 (proj.)"
+        ]
+      }
+    },
     {
       "id": "article-d4f8386",
       "title": "Latvia's Historic Election Victory Masks a Fragile Compact Between Security and Economic Discontent",
@@ -15402,6 +15428,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261010-poland",
+      "title": "Poland Walks a Fiscal Tightrope as Fuel Relief and Rising Debt Collide · 10 Oct",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "duration": "8:34",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_10/Poland_Episode_2026_10_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 277,
+      "keywords": "Poland, fiscal policy, inflation, fuel prices, cost of living, EU deficit, public debt, Andrzej Domański, PiS, European Commission, Eurostat, defence spending, VAT, windfall tax, budget confrontation",
+      "notes": "Warsaw has launched a fuel-price intervention package designed to cut pump prices and ease household costs, but the move arrives as official data confirm that Polish inflation is rising, not falling. At the same time, the government faces mounting pressure over a deficit that the European Commission projects will reach 7.3 percent of GDP in 2025. Together, the two developments expose the tension at the heart of Polish economic policy: how to provide relief today without sacrificing fiscal credibility tomorrow.",
+      "pubDate": "2026-10-10",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_10/Poland_Episode_2026_10_10.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_10/Poland_Short_2026_10_10.mp4"
+    },
     {
       "id": "episode-20261010-latvia",
       "title": "Latvia's Historic Election Victory Masks a Fragile Compact Between Security… · 10 Oct",
