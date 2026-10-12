@@ -1,5 +1,5 @@
 {
-  "version": 1791800174672,
+  "version": 1791800306619,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-c85c466",
+      "title": "Ireland's Budget Billions Fail to Quell Household Anxiety as Strike Threat Looms Over Public Services",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "Ireland's government has unveiled an €8.5 billion budget package designed to ease the cost-of-living burden on households, but inflation is forecast to remain above the European Central Bank's 2% target through 2027, and public-sector unions are preparing nationwide strikes that could cancel up to 150,000 medical appointments. The twin pressures of persistent price rises and threatened disruption to essential services are testing whether the country's considerable fiscal firepower is translating into meaningful security for ordinary citizens. At the heart of the debate lies a more fundamental question about the durability of Ireland's spending model.",
+      "body": "<h3>A Generous Budget That May Not Feel Like One</h3><p>When the Irish government announced its €8.5 billion Budget 2027 package, ministers presented it as a comprehensive shield against cost-of-living pressures, combining tax relief, welfare increases, childcare subsidies, transport measures and energy supports. On paper, the scale is significant. In practice, the package lands in an economy where official forecasts show average headline inflation running at 3.3% in 2026 and 3% in 2027, driven largely by fuel and household-energy costs, both stubbornly above the ECB&#x27;s 2% target.</p><p>The Government&#x27;s position is internally coherent: ministers argue the measures are targeted and fiscally responsible, and they can point to forecasts showing inflation is expected to moderate toward 2% by 2028. Opposition parties and trade unions counter that moderation is not relief. When inflation slows, prices do not fall — they simply rise more slowly. For a household already stretched by electricity and heating bills, that distinction is not academic. It means the Budget may limit further deterioration without restoring lost purchasing power.</p><p>The Irish Fiscal Advisory Council has raised a separate and pointed concern. It estimates the Government plans to allocate roughly six out of every seven euros of corporation-tax revenue to current expenditure. That approach finances relief measures that feel concrete and immediate but depends on receipts that are heavily concentrated among a small number of multinational companies and could prove volatile over time. The council has also flagged net spending growth of 6.2% in 2026, a pace it regards as expansionary rather than merely supportive.</p><h3>A Public-Sector Pay Dispute That Could Paralyse Essential Services</h3><p>Running in parallel with the budget debate is a confrontation between the Government and public-sector unions that has moved well beyond a routine pay negotiation. After talks failed to produce a new agreement, unions representing workers across healthcare, education and government administration began preparing nationwide industrial action. The potential consequences are concrete: reports have warned that strikes could result in the cancellation of as many as 150,000 medical appointments, along with disruption to schools and administrative services.</p><p>Unions argue that their members have absorbed years of real-terms wage erosion while inflation remained above target, and that recruitment and retention problems are already damaging service quality. Their political argument is pointed: if the State can assemble an €8.5 billion package of headline announcements, resistance to a pay settlement that would partially restore purchasing power looks inconsistent. Opposition parties have adopted a similar framing, presenting the dispute as evidence of a government willing to spend on visibility but not on the workers who deliver services.</p><p>The Government&#x27;s response draws on fiscal caution. Ministers argue that meeting the unions&#x27; full demands would add structural pressure to an already expansionary spending path, risk stoking inflation further and create commitments that outlast the corporation-tax revenues currently financing them. That argument has genuine merit in the long run, but it is weakened politically by the simultaneous presentation of the budget as generous relief. A government cannot credibly claim both fiscal restraint and substantial new spending without exposing the tension between those positions. The Fiscal Advisory Council&#x27;s warnings give technical support to ministerial caution, but the optics of the dispute belong to the unions.</p><h3>Structural Questions Beneath the Political Noise</h3><p>Both the cost-of-living debate and the pay dispute point toward a more durable problem. Ireland&#x27;s public finances are in a strong position by European standards, but a significant share of that strength rests on corporation-tax receipts that are concentrated, potentially transient and linked to the tax strategies of a small number of large multinationals. Using those receipts to finance permanent spending commitments — whether on welfare, services or public-sector wages — creates a structural vulnerability that survives the current economic cycle.</p><p>For citizens, the immediate stakes are straightforward. If the strike proceeds, patients face cancelled appointments, parents face disrupted school arrangements and anyone relying on government administration faces delays. If a pay settlement is reached without a credible long-term funding plan, the resolution may prove temporary, with renewed disputes likely when the next inflation cycle or the next budget arrives. Either outcome reflects poorly on the coherence of a fiscal strategy that has prioritised headline figures over sustainable design.</p><p>The European dimension matters here too. Ireland&#x27;s situation illustrates a dilemma several member states face: how to protect living standards during an inflationary period without embedding windfalls — whether from energy levies, post-pandemic transfers or concentrated corporate taxation — into permanent expenditure. The ECB&#x27;s gradual return of inflation toward its 2% target will ease some pressure over the 2027-2028 horizon, according to official forecasts, but the institutional question of how Ireland finances its public services will not resolve itself when energy prices stabilise. The coming weeks, and the outcome of union negotiations, will signal whether the Government can hold its fiscal framework together or whether the pay dispute becomes the first in a sequence of confrontations that expose the limits of the current approach.</p>",
+      "keywords": "Ireland, Budget 2027, cost of living, inflation, public sector pay, strikes, Fiscal Advisory Council, corporation tax, ECB, household energy costs, trade unions, Irish economy, public services, fiscal policy, European affairs",
+      "sources": "Irish Fiscal Advisory Council, Fiscal Assessment Report, 2025; Irish Government, Budget 2027 Documentation; Department of Finance, Economic and Fiscal Outlook 2026-2027; Central Statistics Office Ireland, Consumer Price Index data; European Central Bank, Inflation Target Framework",
+      "pubDate": "2026-10-12",
+      "chartData": {
+        "values": [
+          3.3,
+          3.0,
+          2.0
+        ],
+        "labels": [
+          "Inflation 2026",
+          "Inflation 2027",
+          "ECB Target"
+        ]
+      }
+    },
     {
       "id": "article-4e6d3ed",
       "title": "Finland's Welfare State Under Strain as Austerity Divides Coalition and Country",
@@ -15550,6 +15574,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261012-ireland",
+      "title": "Ireland's Budget Billions Fail to Quell Household Anxiety · 12 Oct",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:39",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Ireland_Episode_2026_10_12.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 283,
+      "keywords": "Ireland, Budget 2027, cost of living, inflation, public sector pay, strikes, Fiscal Advisory Council, corporation tax, ECB, household energy costs, trade unions, Irish economy, public services, fiscal policy, European affairs",
+      "notes": "Ireland's government has unveiled an €8.5 billion budget package designed to ease the cost-of-living burden on households, but inflation is forecast to remain above the European Central Bank's 2% target through 2027, and public-sector unions are preparing nationwide strikes that could cancel up to 150,000 medical appointments. The twin pressures of persistent price rises and threatened disruption to essential services are testing whether the country's considerable fiscal firepower is translating into meaningful security for ordinary citizens. At the heart of the debate lies a more fundamental question about the durability of Ireland's spending model.",
+      "pubDate": "2026-10-12",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Ireland_Episode_2026_10_12.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Ireland_Short_2026_10_12.mp4"
+    },
     {
       "id": "episode-20261012-finland",
       "title": "Finland's Welfare State Under Strain · 12 Oct",
