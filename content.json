@@ -1,5 +1,5 @@
 {
-  "version": 1791795686651,
+  "version": 1791798963718,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-995dd41",
+      "title": "Denmark Confronts a Stark Choice: Guns, Butter and the Limits of the Nordic Model",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "excerpt": "Denmark is preparing to raise defence spending to 3.5 percent of GDP by 2030, a commitment that will reshape national priorities and force difficult questions about the future of the welfare state. At the same time, a cross-party deal to invest nearly one billion Danish kroner annually in vocational training is testing whether the country can build the skilled workforce its ambitions require. Together, the two debates expose a fundamental tension at the heart of the Nordic model: how much security and economic transformation can a society purchase before the bill arrives at the welfare office.",
+      "body": "<h3>A Security Pledge With a Welfare Price Tag</h3><p>The Danish government has put forward one of the most significant reorderings of public spending in a generation. Official budget figures show defence expenditure rising to 3.41 percent of GDP in 2027 and reaching 3.5 percent by 2030, with total defence and security-related spending planned at 5 percent of GDP. The scale of the commitment reflects a government that believes the security environment has changed permanently, driven by Russia&#x27;s ongoing war in Ukraine and a documented increase in sabotage attempts, cyberattacks and other hybrid threats targeting Scandinavian infrastructure.</p><p>Government ministers argue that Denmark must invest before a crisis occurs, not after. Strengthening the armed forces, civil preparedness and critical infrastructure, they said, is a long-term obligation to NATO partners and to Danish citizens. The argument carries weight in a political climate shaped by visible instability on Europe&#x27;s eastern flank.</p><p>Yet the spending plan has sharpened a debate that goes beyond military hardware and threat assessments. Opponents, including trade unions and welfare advocates, accept the security rationale in principle while challenging the funding model and the speed of the expansion. Their central concern is whether defence can grow at this pace without weakening schools, hospitals, social security and the household finances of lower-income Danes. The political dispute is less about whether the threat is real than about who bears the cost of responding to it.</p><h3>Economic Headroom Is Real but Finite</h3><p>Defenders of the spending plan point to recent economic data. Denmark recorded real GDP growth of 0.9 percent in the second quarter of 2026, suggesting an economy with some capacity to absorb increased public expenditure. The government has argued that sustained growth, combined with careful fiscal management, can accommodate higher defence allocations without forcing deep cuts to public services.</p><p>Independent analysts are more cautious. Inflation stood at 2.0 percent in August, with core inflation at 2.2 percent, indicating that price pressures have not disappeared. A single quarter of moderate growth does not establish that a multi-year, multi-percentage-point increase in defence spending will be absorbed without consequences for taxation, public-sector budgets or benefit levels. The economic case for painless expansion remains a political projection rather than a verified conclusion.</p><p>For the European Union, Denmark&#x27;s trajectory is part of a wider pattern. Several member states are simultaneously attempting to shift from the post-Cold War peace dividend model toward sustained military and civil-defence investment. If they follow the same path at similar speed, European governments will collectively confront a question that has no comfortable answer: how much security spending can democratic welfare states absorb before the social contract begins to fray?</p><h3>Vocational Training: A Billion-Kroner Bet on the Workforce Denmark Needs</h3><p>Running alongside the defence debate is a quieter but equally consequential agreement. Danish political parties have reached a cross-party deal to increase vocational education investment by almost one billion kroner annually from 2030. The goal is to expand and modernise training for electricians, construction workers, engineers, care workers and other occupations where labour shortages are already constraining growth, housing construction, renewable energy projects and healthcare capacity.</p><p>Employers and pro-growth parties argue that Denmark&#x27;s broader ambitions, including its green transition, its ageing-population challenge and the infrastructure that underpins its security commitments, cannot be delivered without more skilled tradespeople. The economic logic is straightforward: a growing economy that relies on imported labour to fill essential vacancies is not building sustainable productive capacity. Backers of the deal said vocational investment could raise enrolment, improve teaching quality and make technical careers a more attractive option for young people currently steered toward university.</p><p>Trade unions and critics are supportive in principle but insist that money alone is insufficient. They argued that vocational education also requires qualified instructors, modern workshops, credible apprenticeship pathways and improved pay and conditions in the occupations that training feeds. If skilled work remains undervalued relative to graduate employment, additional funding may improve institutional capacity without changing the choices young people actually make. Measurable outcomes, including enrolment rates, apprenticeship availability, completion rates and vacancy levels in key sectors, will determine whether the investment delivers on its promise or merely expands a system whose deeper problems remain unaddressed.</p><h3>Two Debates, One Underlying Question</h3><p>Taken together, the defence commitment and the vocational education deal reveal the scale of what Denmark is attempting. The country is trying to rearm, decarbonise and retrain its workforce simultaneously, while maintaining a welfare state that remains central to its social identity and political legitimacy. The mood, according to observers across the political spectrum, is serious and unsettled rather than uniformly anxious or optimistic. Security concerns generate genuine public worry; the scale of the spending generates apprehension about what comes next for public services and household budgets.</p><p>The vocational deal carries more conditional optimism. It addresses a visible, practical problem with broad political support and a clear funding commitment. But citizens and unions are watching carefully to see whether new money produces better opportunities or simply funds institutions while leaving apprenticeship shortages and poor working conditions intact.</p><p>The coming years will test both commitments against reality. Defence budgets will be scrutinised for their impact on welfare programmes and tax levels. Vocational enrolment figures, dropout rates and employer recruitment data will indicate whether the skills investment is working. For Denmark, and for a European Union watching closely, the answers will matter well beyond Copenhagen.</p>",
+      "keywords": "Denmark, defence spending, NATO, welfare state, vocational education, skills shortage, GDP, inflation, green transition, Nordic model, European security, hybrid threats, public spending, labour market, apprenticeships",
+      "sources": "Danish Government 2027 Budget Plan (defence spending projections); NATO burden-sharing framework documentation; Danish Statistics Office, GDP growth Q2 2026; Danish Statistics Office, Consumer Price Index August 2026 (headline and core inflation); Cross-party vocational education agreement, reported DKK 1 billion annual investment from 2030",
+      "pubDate": "2026-10-12",
+      "chartData": {
+        "values": [
+          3.41,
+          3.5,
+          5.0
+        ],
+        "labels": [
+          "Defence Spending 2027 (% GDP)",
+          "Defence Spending 2030 (% GDP)",
+          "Total Security Spending 2030 (% GDP)"
+        ]
+      }
+    },
     {
       "id": "article-a089b50",
       "title": "Lithuania Faces Twin Pressures as Defence Ambitions Collide with Fiscal Limits and Labour Shortages",
@@ -15454,6 +15478,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261012-denmark",
+      "title": "Denmark Confronts a Stark Choice: Guns · 12 Oct",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "duration": "8:41",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Denmark_Episode_2026_10_12.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 279,
+      "keywords": "Denmark, defence spending, NATO, welfare state, vocational education, skills shortage, GDP, inflation, green transition, Nordic model, European security, hybrid threats, public spending, labour market, apprenticeships",
+      "notes": "Denmark is preparing to raise defence spending to 3.5 percent of GDP by 2030, a commitment that will reshape national priorities and force difficult questions about the future of the welfare state. At the same time, a cross-party deal to invest nearly one billion Danish kroner annually in vocational training is testing whether the country can build the skilled workforce its ambitions require. Together, the two debates expose a fundamental tension at the heart of the Nordic model: how much security and economic transformation can a society purchase before the bill arrives at the welfare office.",
+      "pubDate": "2026-10-12",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Denmark_Episode_2026_10_12.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Denmark_Short_2026_10_12.mp4"
+    },
     {
       "id": "episode-20261010-lithuania",
       "title": "Lithuania Faces Twin Pressures as Defence Ambitions Collide with Fiscal… · 10 Oct",
