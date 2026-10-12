@@ -1,5 +1,5 @@
 {
-  "version": 1791799823449,
+  "version": 1791799960212,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-e29b343",
+      "title": "Sweden Caught Between Political Deadlock and a Recovery That Households Cannot Yet Feel",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "Sweden's centre-left bloc won the most seats in the Riksdag but has so far failed to convert that advantage into a stable government, leaving Social Democratic leader Magdalena Andersson in a second attempt to assemble a workable coalition. Meanwhile, an economy expected to grow by roughly 3% in 2026 is sending mixed signals: policymakers speak of recovery, but households still face rising prices and the Riksbank has warned that inflation risks are rebuilding. The two crises are inseparable, because whoever governs must immediately choose between household relief and fiscal restraint.",
+      "body": "<h3>A Narrow Margin That Has Not Produced a Mandate</h3><p>The centre-left opposition secured 176 of the Riksdag&#x27;s 349 seats at the recent election, edging ahead of the outgoing right-wing bloc&#x27;s 173. On paper, the arithmetic favoured Social Democratic leader Magdalena Andersson. In practice, it has not been enough. Her first attempt to form a government failed, and Speaker Andreas Norlén subsequently gave her a renewed mandate to try again, judging that the parliamentary balance had not changed and that she remained the politician most likely to assemble a workable arrangement.</p><p>The obstacle is not the numbers themselves but the political distance between the parties those numbers represent. The centre-left grouping contains the socialist Left Party and the economically liberal Centre Party, two forces whose positions on taxation, welfare spending and fiscal policy are difficult to reconcile inside a single governing programme. The right-wing opposition, though trailing in seats, can credibly argue that a smaller and more disciplined bloc may prove better placed to pass legislation than a larger one whose members disagree on fundamental priorities.</p><p>For Swedish citizens, this is not a procedural abstraction. A caretaker government can manage day-to-day administration, but it cannot easily pass a budget, accelerate household-support measures, adjust defence spending or advance climate legislation. The longer negotiations continue, the wider the gap between election promises and actual policy delivery.</p><h3>Growth on Paper, Pressure at the Till</h3><p>The economic backdrop against which coalition talks are unfolding is one of genuine but uneven improvement. Sweden&#x27;s economy is projected to grow by approximately 3% in 2026, supported in part by defence-related industrial activity that has expanded as European security spending rises. The government has leaned into this narrative, presenting Sweden as an economy emerging from recession and suggesting that lower fuel and diesel taxes could deliver direct relief to households.</p><p>The Riksbank is more cautious. Sweden&#x27;s central bank has warned that high energy and commodity prices, supply disruptions and a weaker krona could push inflation materially above its 2% target. The most recent available data support that concern: annual consumer price inflation rose to 1.1% in September from 0.3% in August, while CPIF, the Riksbank&#x27;s preferred underlying measure, climbed to 1.5% from 0.7% the previous month. A single month&#x27;s increase does not confirm a new inflation crisis, but it does challenge any assertion that price pressures have simply faded.</p><p>Trade unions and household advocates point to a distinction that GDP figures tend to obscure. Growth can accelerate while families still struggle with rent, food costs, mortgage repayments and transport bills. Fuel-tax reductions may help drivers in the short term, but they reduce fiscal revenue, can conflict with Sweden&#x27;s climate commitments and risk adding demand-side pressure at a moment when the Riksbank is already alert to overheating risks. The recovery, in other words, is real in aggregate but uneven in distribution.</p><h3>The Next Government Faces a Policy Triangle With No Easy Exits</h3><p>Sweden&#x27;s political and economic situations are, in the end, a single problem. Coalition partners must agree not only on who governs but on what governing actually means in an environment of rebuilding inflation, fragile household finances and competing demands on public spending. A government that prioritises fuel-tax relief may face criticism from climate advocates and fiscal conservatives alike. One that holds the line on spending discipline may struggle to retain the support of left-leaning coalition members whose voters expect tangible economic help.</p><p>For the European Union, the stakes extend beyond Sweden&#x27;s domestic politics. Sweden is a significant northern economy and a security actor whose position influences European defence cooperation, energy policy and the broader Nordic stance on migration and fiscal rules. Swedish policymakers&#x27; choices on defence-industrial expansion, for instance, matter for the EU debate over whether military spending can be reconciled with welfare and climate priorities, or whether it simply crowds them out.</p><p>The immediate calendar will test both Andersson&#x27;s negotiating ability and Sweden&#x27;s institutional patience. If a second coalition attempt fails, the Speaker would be required to consider other options, potentially including a minority government, a cross-bloc arrangement or, in an extreme scenario, a fresh election. Markets and households would price in further delay accordingly. The more likely outcome, given the unchanged parliamentary arithmetic, is an eventual government of the centre-left, but one whose internal tensions will follow it into office and shape every budget decision it faces. Sweden has produced a result that is clear enough to name a likely prime minister but too fragile to guarantee stable governance.</p>",
+      "keywords": "Sweden, Riksdag, Magdalena Andersson, Social Democrats, coalition talks, hung parliament, Swedish economy, Riksbank, inflation, CPIF, household costs, fuel tax, defence spending, EU, Nordic politics, government formation",
+      "sources": "Riksdag election results, seat distribution data; Andreas Norlén, Speaker of the Riksdag, formal mandate statements; Riksbank monetary policy warnings on inflation and the krona; Swedish consumer price index data, September reporting period, CPI 1.1% and CPIF 1.5%; Swedish government economic projections, 2026 growth forecast of approximately 3%",
+      "pubDate": "2026-10-12",
+      "chartData": {
+        "values": [
+          176.0,
+          173.0
+        ],
+        "labels": [
+          "Centre-Left Bloc",
+          "Right-Wing Bloc"
+        ]
+      }
+    },
     {
       "id": "article-4ede458",
       "title": "Estonia's Cost-of-Living Crisis Reshapes Political Landscape Ahead of Next Election",
@@ -15504,6 +15526,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261012-sweden",
+      "title": "Sweden Caught Between Political Deadlock and a Recovery That Households… · 12 Oct",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "8:17",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Sweden_Episode_2026_10_12.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 281,
+      "keywords": "Sweden, Riksdag, Magdalena Andersson, Social Democrats, coalition talks, hung parliament, Swedish economy, Riksbank, inflation, CPIF, household costs, fuel tax, defence spending, EU, Nordic politics, government formation",
+      "notes": "Sweden's centre-left bloc won the most seats in the Riksdag but has so far failed to convert that advantage into a stable government, leaving Social Democratic leader Magdalena Andersson in a second attempt to assemble a workable coalition. Meanwhile, an economy expected to grow by roughly 3% in 2026 is sending mixed signals: policymakers speak of recovery, but households still face rising prices and the Riksbank has warned that inflation risks are rebuilding. The two crises are inseparable, because whoever governs must immediately choose between household relief and fiscal restraint.",
+      "pubDate": "2026-10-12",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Sweden_Episode_2026_10_12.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_12/Sweden_Short_2026_10_12.mp4"
+    },
     {
       "id": "episode-20261010-estonia",
       "title": "Estonia's Cost-of-Living Crisis Reshapes Political Landscape Ahead of Next… · 10 Oct",
