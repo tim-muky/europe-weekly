@@ -1,5 +1,5 @@
 {
-  "version": 1791644943181,
+  "version": 1791795686651,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a089b50",
+      "title": "Lithuania Faces Twin Pressures as Defence Ambitions Collide with Fiscal Limits and Labour Shortages",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "excerpt": "Lithuania is planning to raise defence spending to more than 5% of GDP by 2027, a move that would push its budget deficit above the European Union's reference threshold. At the same time, new restrictions on foreign workers are threatening to choke off a labour supply that businesses say has driven nearly half of the country's economic growth over the past five years. Together, the two debates expose the central dilemma facing one of NATO's most exposed member states: how to build security and regulate migration without undermining the economy that funds both.",
+      "body": "<h3>A Historic Military Build-Up and a Growing Fiscal Gap</h3><p>Lithuania&#x27;s government has set out plans to allocate roughly 4.8 billion euros to defence in 2027, equivalent to slightly more than 5% of gross domestic product. The scale of the commitment reflects the country&#x27;s exposed position on NATO&#x27;s eastern flank and the government&#x27;s argument that investment before a crisis is far less costly than investment after one. Officials also argue that social commitments, including pension increases, family support and public-sector pay, cannot be frozen while the military budget expands.</p><p>The fiscal arithmetic, however, is difficult to ignore. The government forecasts a general-government deficit of approximately 3.8% of GDP in 2027, which would exceed the European Union&#x27;s 3% reference value. That figure is significantly higher than the European Commission&#x27;s earlier projection of a 2.7% deficit for the same year, a forecast based on policies known at the time and published before the latest budget decisions were finalised. The gap between the two numbers illustrates how quickly the fiscal position has shifted as defence ambitions have grown.</p><p>Critics within Lithuania, including opposition politicians, fiscal analysts and trade unions, warn that the government is attempting to deliver too much simultaneously: a historic military build-up, rising social expenditure and higher public-sector wages. They argue that persistent deficits could increase borrowing costs over time and eventually require either tax increases or cuts to civilian services. The security rationale for high defence spending is broadly accepted across the political spectrum, but the question of who ultimately pays, and how, remains unresolved.</p><h3>Foreign-Worker Restrictions Collide with an Economy Short of Labour</h3><p>While the fiscal debate plays out in parliament and in Brussels, a separate but related controversy is building in the labour market. Lithuania is tightening access for foreign workers even as employers report persistent shortages across transport, industry, healthcare and other sectors. Business representatives, citing calculations linked to the Bank of Lithuania, estimate that foreign workers generated 45% of the country&#x27;s GDP growth between 2019 and 2024, a figure that underscores just how structurally dependent the economy has become on imported labour.</p><p>Employer groups warn that the restrictions collide directly with economic reality. They project near-term losses of around 100 million euros in GDP and between 20 and 25 million euros in tax revenue, with substantially larger figures possible in 2027 if the constraints remain in place. The European Commission has separately identified shortages in healthcare, public administration, transport and finance as structural rather than cyclical, lending weight to the business case. Those projections carry assumptions about vacancies, employer adjustment and the pace of automation, and should be read as indicative rather than certain, but the direction of risk is clear.</p><p>The government&#x27;s position is that migration must be managed and aligned with security considerations and domestic labour-market needs. Proponents of tighter rules argue that restrictions can reduce exploitation, push employers toward better wages and working conditions, and encourage investment in productivity and training. Trade unions occupy a middle ground: many support stronger enforcement against exploitative practices but insist that employers must first demonstrate genuine efforts to improve pay and conditions before relying on overseas recruitment. The practical tension is that those adjustments take years, while unfilled vacancies cost money now.</p><h3>An Ageing Economy Caught Between Security and Sustainability</h3><p>The two debates share a common foundation. Lithuania is a small, demographically ageing economy attempting to meet the security demands of a more dangerous European neighbourhood while maintaining the living standards that make those demands politically tolerable. On defence, the country is effectively testing how far an EU member state can push its deficit in the name of collective security before common fiscal rules become a source of tension rather than a framework for cooperation. Other eastern-flank countries, facing similar security pressures and similar fiscal dilemmas, are watching closely.</p><p>On inflation, the picture offers limited comfort. The European Commission forecast consumer price growth at 4.4% in 2026 before easing to 2.7% in 2027. That trajectory means inflation is expected to slow, but households will continue to face rising prices even as the rate declines. The combination of higher defence-driven taxes or borrowing, potential cost increases from labour shortages, and still-positive inflation creates compounding pressure on household budgets that does not resolve quickly.</p><p>The immediate policy questions are concrete. On defence, the critical issue is not whether the spending is necessary but whether its financing is sustainable: how much of the additional burden is permanent, how it will be funded, and whether economic growth can absorb it without damaging the public services that citizens depend on. On labour, the test is whether any restriction framework can be paired with credible investment in training, wages and productivity, or whether a rigid quota simply suppresses output and tax receipts without producing the domestic workforce adjustment that policymakers hope for. Lithuania&#x27;s answers to both questions will carry consequences well beyond its own borders.</p>",
+      "keywords": "Lithuania, defence spending, fiscal deficit, NATO, EU fiscal rules, labour shortage, foreign workers, migration policy, Baltic states, economic growth, inflation, European Commission, public finances, eastern flank",
+      "sources": "Lithuanian government budget projections, 2027 defence allocation and deficit forecast; European Commission economic forecast, 2027 deficit projection of 2.7% GDP and inflation projections; Bank of Lithuania-linked calculations on foreign worker contribution to GDP growth, 2019–2024; Business representative estimates on GDP and tax revenue impact of labour restrictions; European Commission sector-level labour shortage assessment",
+      "pubDate": "2026-10-10",
+      "chartData": {
+        "values": [
+          5.1,
+          3.8,
+          4.4,
+          2.7
+        ],
+        "labels": [
+          "Defence Spending 2027 (% GDP)",
+          "Forecast Deficit 2027 (% GDP)",
+          "Forecast Inflation 2026 (%)",
+          "Forecast Inflation 2027 (%)"
+        ]
+      }
+    },
     {
       "id": "article-650593b",
       "title": "Poland Walks a Fiscal Tightrope as Fuel Relief and Rising Debt Collide",
@@ -15428,6 +15454,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261010-lithuania",
+      "title": "Lithuania Faces Twin Pressures as Defence Ambitions Collide with Fiscal… · 10 Oct",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "8:43",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_10/Lithuania_Episode_2026_10_10.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 278,
+      "keywords": "Lithuania, defence spending, fiscal deficit, NATO, EU fiscal rules, labour shortage, foreign workers, migration policy, Baltic states, economic growth, inflation, European Commission, public finances, eastern flank",
+      "notes": "Lithuania is planning to raise defence spending to more than 5% of GDP by 2027, a move that would push its budget deficit above the European Union's reference threshold. At the same time, new restrictions on foreign workers are threatening to choke off a labour supply that businesses say has driven nearly half of the country's economic growth over the past five years. Together, the two debates expose the central dilemma facing one of NATO's most exposed member states: how to build security and regulate migration without undermining the economy that funds both.",
+      "pubDate": "2026-10-10",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_10/Lithuania_Episode_2026_10_10.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_10/Lithuania_Short_2026_10_10.mp4"
+    },
     {
       "id": "episode-20261010-poland",
       "title": "Poland Walks a Fiscal Tightrope as Fuel Relief and Rising Debt Collide · 10 Oct",
