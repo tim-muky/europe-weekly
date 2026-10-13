@@ -1,5 +1,5 @@
 {
-  "version": 1791868006382,
+  "version": 1791868232762,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8f25f19",
+      "title": "Greece's Recovery Paradox: Strong Macroeconomic Numbers, Strained Household Finances",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "Greece is posting some of its most encouraging economic indicators in years, with unemployment falling and growth holding steady, yet households and small businesses continue to absorb rising prices and mounting debt obligations. A proposed expansion of tax debt repayment installments has crystallised the tension between fiscal credibility and everyday financial pressure. The political contest is no longer about whether Greece has recovered, but about who is benefiting from that recovery and under what conditions.",
+      "body": "<h3>Inflation Bites as Debt-Relief Debate Divides Government and Opposition</h3><p>Greek headline inflation climbed to 5.1 percent in September 2026, up sharply from 3.7 percent in August, according to Bank of Greece data. For the first nine months of the year, the average stood at 3.8 percent, well above the European Central Bank&#x27;s 2 percent price-stability benchmark and the central bank&#x27;s own 2026 forecast of approximately 3.5 percent. For households already stretched by high food, energy and housing costs, the figures confirm that the price level remains substantially higher than before the most recent inflationary surge.</p><p>Against that backdrop, the government&#x27;s proposal to expand tax and social-security debt repayment from 72 to 120 monthly installments has become one of the defining political controversies of the season. Ministers argue that improved public finances and lower sovereign borrowing costs have created room for targeted debt relief without threatening fiscal discipline or triggering the uncontrolled pre-election spending that Prime Minister Kyriakos Mitsotakis has publicly cautioned against. The scheme, they contend, would allow viable households and businesses to clear arrears at a manageable pace rather than default outright.</p><p>The opposition, led in large part by PASOK, frames the proposal as insufficient. Party spokespeople argued that favourable borrowing spreads do not reduce grocery bills, cover rent or lower the energy costs facing small enterprises. PASOK has called for broader private-debt restructuring, targeted tax relief and lower operating costs for small businesses, positioning the government&#x27;s installment plan as a technocratic half-measure that addresses aggregate balance sheets while ignoring the acute pressures of daily life. Independent analysts note that both sides carry partial weight: the government&#x27;s fiscal-stability narrative is supported by data, but the opposition&#x27;s cost-of-living critique is equally grounded in lived economic reality.</p><h3>Unemployment Falls, but Rising Overtime Clouds the Picture of Work Quality</h3><p>Greece&#x27;s unemployment rate dropped to 7.4 percent in August 2026, a decline of 0.5 percentage points, according to Bank of Greece figures drawing on Eurostat data. The improvement is real and represents a continuation of a multi-year trend that has brought Greece closer to, though still above, the European Union average. The government has also pointed to the expanding rollout of the Digital Work Card, a monitoring mechanism requiring employers to log working hours electronically, as evidence of labor-market modernisation and a meaningful reduction in undeclared work.</p><p>However, figures accompanying that expansion have raised concerns among opposition parties and trade unions. Recorded overtime increased by 36.8 percent on an annual basis, a rise that supporters of the Digital Work Card attribute to better enforcement capturing hours that were previously hidden. Critics counter that formal recording does not automatically translate into fair conditions: a job that appears in official statistics is not necessarily a good job, and the dramatic increase in logged overtime raises questions about work intensity, work-life balance and the genuine ability of employees to decline additional hours without professional consequences.</p><p>The Bank of Greece has itself noted a complicating dynamic: persistent services inflation is partly attributable to rising wages and rents, alongside robust tourism demand. That connection matters because it limits the extent to which employment gains translate into improved living standards. If wage increases are absorbed by higher housing and service costs, then lower unemployment may deliver more hours of work without delivering meaningfully more disposable income. The picture is therefore mixed: employment is improving and transparency is increasing, but job quality and real purchasing power remain unresolved questions.</p><h3>A Test Case for Europe: Can Fiscal Credibility and Social Protection Coexist?</h3><p>The Bank of Greece projected real GDP growth of approximately 2 percent for 2026, lending credibility to the government&#x27;s broader economic narrative and underscoring Greece&#x27;s distance from the crisis years when output collapsed by roughly a quarter. Sovereign borrowing costs have fallen considerably since that era, and the country&#x27;s return to investment-grade status has restored a degree of market confidence that successive governments spent years rebuilding. By the standard macro indicators, Greece is a post-crisis success story.</p><p>Yet the political and social mood is best described as anxious rather than celebratory. Citizens can recognise improvements in headline figures while simultaneously feeling poorer because the prices they encounter in supermarkets, rental markets and utility bills have not retreated at anything like the pace at which institutional confidence has recovered. Among jobseekers, there is cautious optimism. Among those already in employment, a more resigned sentiment appears to prevail, shaped by the sense that recovery is being achieved through longer and more demanding working hours rather than through a broad-based improvement in living standards.</p><p>For the European Union, Greece&#x27;s situation illustrates a tension that extends well beyond its borders. Digital labor enforcement tools can improve compliance and reduce undeclared work, but they cannot substitute for stronger collective bargaining frameworks, enforceable limits on excessive working time or housing policies that prevent wage gains from being immediately eroded by rent. Similarly, fiscal credibility and social protection are not inherently incompatible, but reconciling them requires deliberate policy choices rather than the assumption that growth will distribute its benefits evenly. The coming months, and in particular the legislative fate of the 120-installment proposal and any further inflation data, will reveal how much political space the Greek government retains to bridge that gap before electoral pressures sharpen further.</p>",
+      "keywords": "Greece, inflation, cost of living, debt relief, unemployment, Digital Work Card, overtime, labor market, fiscal policy, PASOK, EU economy, Greek recovery, Bank of Greece, Eurostat, working conditions",
+      "sources": "Bank of Greece, Interim Report 2026 [1]; Eurostat labor market data, as cited by Bank of Greece [1]; Bank of Greece GDP growth projection for 2026 [3]",
+      "pubDate": "2026-10-13",
+      "chartData": {
+        "values": [
+          5.1,
+          3.7,
+          3.8,
+          3.5
+        ],
+        "labels": [
+          "Inflation Sept 2026 (%)",
+          "Inflation Aug 2026 (%)",
+          "Average Jan-Sept 2026 (%)",
+          "Bank of Greece 2026 Forecast (%)"
+        ]
+      }
+    },
     {
       "id": "article-502ba01",
       "title": "Italy's Fiscal Gamble: Debt, Energy Bills and the Limits of EU Flexibility",
@@ -15600,6 +15626,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261013-greece",
+      "title": "Greece's Recovery Paradox: Strong Macroeconomic Numbers · 13 Oct",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "8:18",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_13/Greece_Episode_2026_10_13.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 285,
+      "keywords": "Greece, inflation, cost of living, debt relief, unemployment, Digital Work Card, overtime, labor market, fiscal policy, PASOK, EU economy, Greek recovery, Bank of Greece, Eurostat, working conditions",
+      "notes": "Greece is posting some of its most encouraging economic indicators in years, with unemployment falling and growth holding steady, yet households and small businesses continue to absorb rising prices and mounting debt obligations. A proposed expansion of tax debt repayment installments has crystallised the tension between fiscal credibility and everyday financial pressure. The political contest is no longer about whether Greece has recovered, but about who is benefiting from that recovery and under what conditions.",
+      "pubDate": "2026-10-13",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_13/Greece_Episode_2026_10_13.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_13/Greece_Short_2026_10_13.mp4"
+    },
     {
       "id": "episode-20261013-italy",
       "title": "Italy's Fiscal Gamble: Debt, Energy Bills and the Limits of EU Flexibility · 13 Oct",
