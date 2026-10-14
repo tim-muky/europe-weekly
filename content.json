@@ -1,5 +1,5 @@
 {
-  "version": 1791954520973,
+  "version": 1791954736584,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-de95de6",
+      "title": "Belgium's Budget Impasse Tests Coalition Cohesion and EU Fiscal Rules",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Belgium's federal government has failed to agree on a package to close a projected budget gap of more than ten billion euros by 2029, forcing Prime Minister Bart De Wever to postpone his State of the Union address and raising questions about the coalition's durability. The deadlock arrives as Belgian inflation accelerates to 4.6 percent, intensifying a dispute over who should bear the costs of fiscal adjustment. National strikes and protests have disrupted public transport, schools, and broadcasters, signalling that the political and social stakes extend well beyond the negotiating table.",
+      "body": "<h3>A Budget Gap and a Postponed Reckoning</h3><p>Belgium&#x27;s ruling coalition entered October unable to present a credible medium-term fiscal plan, a failure that forced De Wever to delay his State of the Union and the accompanying budget announcement. The government is working against a projected shortfall of more than ten billion euros that it aims to close by 2029, a target that would require a sustained and politically difficult consolidation effort over several years.</p><p>The government has framed the situation in stark terms, arguing that without immediate action Belgium risks entering a self-reinforcing debt spiral in which rising interest costs crowd out public investment and social spending. Delaying reform, ministers have argued, would transfer a heavier burden to younger generations and could erode investor confidence in Belgian sovereign debt.</p><p>That concern is not without foundation. Rising debt-service costs represent a genuine fiscal vulnerability, and the European Commission is watching closely to see whether Belgium can submit a credible medium-term plan that meets the requirements of the EU&#x27;s revised fiscal framework. Belgium&#x27;s inability to present such a plan risks becoming a test case for whether the new rules can be enforced against large, highly indebted member states when their governments are politically fragmented.</p><h3>Inflation Complicates an Already Fractious Debate</h3><p>The government&#x27;s task is made considerably harder by the inflationary backdrop against which any tightening measures would land. Eurostat estimated Belgian harmonised inflation at 4.6 percent in September, up from 4.2 percent in August, at a time when the euro-area average rose to 3.8 percent. Belgian households are therefore facing above-average price pressures even before any tax increases, higher consumption levies, or reductions in public services take effect.</p><p>Opposition parties have seized on this context to argue that the coalition is pursuing a poorly distributed austerity agenda under the cover of fiscal urgency. They contend that cuts to public services and potential changes to VAT or income taxation would weaken household purchasing power and suppress economic activity, without any guarantee that higher earners and corporations will contribute proportionately to the adjustment.</p><p>The government has not yet published a finalised package, which means that specific claims about the fairness or otherwise of individual measures remain difficult to verify. What the evidence does support is the underlying fiscal concern and the inflationary squeeze on household budgets. The decisive political and analytical question is distribution: which taxes will rise, which services will be reduced, and whether the burden will fall symmetrically across income groups.</p><h3>Strikes Signal Wider Discontent as Outlook Remains Uncertain</h3><p>National strikes and demonstrations in October disrupted public transport networks, schools, and public broadcasters, indicating that opposition to the government&#x27;s direction extends beyond parliamentary debate. The main trade union federations, FGTB/ABVV and CSC/ACV, argued that workers and vulnerable households were being asked to pay for a fiscal imbalance they did not create. Protesters also raised concerns about education funding, overcrowded classrooms, and access to higher education, suggesting that the dispute has moved beyond wage policy into broader anxieties about public service quality.</p><p>The scale of the protests reflects genuine public unease, but it is complicated by the fact that the government&#x27;s programme is not yet final. Citizens are, in effect, protesting against a set of outcomes whose precise details remain unknown, a situation that adds a layer of uncertainty to an already tense political atmosphere. Should the coalition eventually agree on a package weighted heavily toward spending cuts or consumption taxes, opposition on the streets is likely to intensify.</p><p>The immediate deadline is the submission of Belgium&#x27;s medium-term fiscal plan to the European Commission, a requirement that cannot be deferred indefinitely without triggering a formal response from Brussels. If the coalition fails to reach an internal agreement in the coming weeks, De Wever will face the dual pressure of domestic political fracture and external institutional scrutiny. For citizens, the practical consequences will be felt in pension rules, public-sector wages, healthcare waiting times, and the cost of everyday goods, making the resolution of this deadlock one of the most consequential political episodes in Belgium in recent years.</p>",
+      "keywords": "Belgium, federal budget, fiscal policy, budget deficit, austerity, Bart De Wever, European Commission, inflation, Eurostat, trade unions, public services, EU fiscal rules, Belgian politics, debt crisis, social protection",
+      "sources": "Reuters, reporting on Belgium's budget gap and coalition negotiations, October 2024; Eurostat, harmonised index of consumer prices estimate for Belgium, September 2024; Eurostat, harmonised index of consumer prices estimate for the euro area, September 2024; FGTB/ABVV and CSC/ACV joint statements on national strike actions, October 2024",
+      "pubDate": "2026-10-14",
+      "chartData": {
+        "values": [
+          4.6,
+          4.2,
+          3.8
+        ],
+        "labels": [
+          "Belgium September",
+          "Belgium August",
+          "Euro Area September"
+        ]
+      }
+    },
     {
       "id": "article-afb3214",
       "title": "France's Budget Crisis and Education Revolt Expose Deep Fault Lines Over Austerity and Public Services",
@@ -15674,6 +15698,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261014-belgium",
+      "title": "Belgium's Budget Impasse Tests Coalition Cohesion and EU Fiscal Rules · 14 Oct",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "8:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_14/Belgium_Episode_2026_10_14.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 288,
+      "keywords": "Belgium, federal budget, fiscal policy, budget deficit, austerity, Bart De Wever, European Commission, inflation, Eurostat, trade unions, public services, EU fiscal rules, Belgian politics, debt crisis, social protection",
+      "notes": "Belgium's federal government has failed to agree on a package to close a projected budget gap of more than ten billion euros by 2029, forcing Prime Minister Bart De Wever to postpone his State of the Union address and raising questions about the coalition's durability. The deadlock arrives as Belgian inflation accelerates to 4.6 percent, intensifying a dispute over who should bear the costs of fiscal adjustment. National strikes and protests have disrupted public transport, schools, and broadcasters, signalling that the political and social stakes extend well beyond the negotiating table.",
+      "pubDate": "2026-10-14",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_14/Belgium_Episode_2026_10_14.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_14/Belgium_Short_2026_10_14.mp4"
+    },
     {
       "id": "episode-20261014-france",
       "title": "France's Budget Crisis and Education Revolt Expose Deep Fault Lines Over… · 14 Oct",
