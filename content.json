@@ -1,5 +1,5 @@
 {
-  "version": 1792040961567,
+  "version": 1792041196433,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-b9e0281",
+      "title": "Croatia Faces Twin Tests of Credibility: Rising Living Costs and a Toxic Waste Scandal",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "excerpt": "Croatia's government is simultaneously defending its economic record against accusations that price controls mask deeper affordability problems and managing the fallout from a hazardous-waste crisis in Gospić that has provoked parliamentary walkouts and criminal investigations. Together, the two disputes reveal a widening gap between the government's macroeconomic confidence and the daily insecurities felt by ordinary citizens. Both cases carry implications that extend beyond Croatia's borders, touching on EU environmental enforcement and the limits of state intervention in energy markets.",
+      "body": "<h3>Fuel Caps and Growth Figures: Who Benefits From Croatia&#x27;s Economic Story?</h3><p>Croatia&#x27;s government has positioned itself as a careful steward of a strengthening economy, pointing to a nominal GDP that has exceeded 100 billion euros, a falling public-debt ratio and projected growth as evidence that the country is on a sound footing. At the same time, it has maintained fuel-price controls as targeted relief for households and businesses navigating volatile energy markets. Petrol was capped at 1.74 euros per litre and diesel at between 1.83 and 1.84 euros per litre during the October measures, with the government arguing these interventions provide immediate protection without undermining broader fiscal discipline.</p><p>Critics, however, are not persuaded that headline macroeconomic data tells the full story for Croatian households. Opposition parties argue that fuel caps, while visible, primarily benefit motorists and leave renters, food-insecure families and those dependent on public transport largely unaffected. The modest scale of weekly price adjustments reinforces the sceptics&#x27; case: in the October 13 measure, petrol prices were unchanged, diesel fell by just one cent, and some liquefied-gas prices actually rose. That pattern suggests price management rather than a structural reduction in the cost of living.</p><p>The analytical distinction matters enormously for citizens and for the EU institutions watching Croatia&#x27;s performance. A larger economy in nominal terms does not automatically translate into rising purchasing power. Real household welfare depends on whether wages are growing faster than prices for food, housing and energy combined—data points that the government&#x27;s growth narrative does not fully address. Croatia illustrates a dilemma familiar across the eurozone: how to shield citizens from energy-price shocks while maintaining credible public finances and allowing markets to function over the long term.</p><h3>Gospić Scandal Deepens: From Environmental Crisis to Political Confrontation</h3><p>What began as a local environmental emergency in the central Croatian town of Gospić has evolved into a significant political crisis for Prime Minister Andrej Plenković&#x27;s government. Large quantities of illegally deposited hazardous waste have triggered criminal investigations, parliamentary confrontation and demands for institutional accountability. Plenković stated that the government will remove the waste, safeguard public health and strengthen the country&#x27;s waste-management framework, adding that current measurements do not indicate a threat to the local water supply. The government&#x27;s stated priority is practical remediation and prosecution of those responsible rather than what it characterises as partisan point-scoring.</p><p>Opposition lawmakers are not satisfied with that framing. They walked out during the prime minister&#x27;s annual report to parliament, accusing the government of political responsibility for a failure of oversight that, they argued, predates any recent action. Reports citing claims that authorities were aware of illegal disposal as early as 2022 and 2023 form the core of the opposition&#x27;s argument: if state bodies knew or should have known, the accountability question extends well beyond the individuals who allegedly dumped the material. Criminal investigations are said to concern organised environmental offences, and reports suggest the waste may have originated in Italy, Slovenia and Germany, making this a potentially cross-border European affair rather than a purely domestic one.</p><p>The political and legal dimensions of the case are distinct and must not be conflated. Immediate health risk requires independent environmental measurements that go beyond government assurances; criminal responsibility belongs to investigators and prosecutors; and political responsibility concerns institutional failures even where no minister is accused of a personal offence. For residents of Gospić, the priority is reliable information about water, soil and air quality, along with credible timelines for cleanup. Across the EU, the case raises questions about illegal waste trafficking, cross-border shipment controls and the capacity of newer member states to enforce environmental law. If polluters cannot ultimately be compelled to pay, Croatian taxpayers may be left to fund remediation while affected communities absorb the health and environmental risks.</p><h3>Outlook: Credibility Under Pressure as Scrutiny Grows</h3><p>The two crises, though distinct, combine to create a single overarching narrative problem for the Croatian government as it heads deeper into 2026. Its economic credibility rests on the argument that growth is real, inflation is falling and fiscal management is sound. That argument is vulnerable if households continue to feel that price relief is modest, temporary and unevenly distributed. Independent data on real wages, consumer-price inflation and household consumption from Eurostat and the Croatian National Bank will be essential benchmarks against which the government&#x27;s claims can be properly assessed in the coming months.</p><p>On Gospić, the government faces a harder political challenge. Remediation pledges and reassurances about water safety address the present but do not answer questions about the past. Parliamentary pressure is likely to intensify, and the criminal investigation will generate its own disclosures on a timeline that no government press office can control. If evidence emerges that oversight agencies received warnings and failed to act, the political damage could extend to ministers and regulatory bodies well beyond the immediate scandal. European institutions monitoring Croatia&#x27;s implementation of EU environmental directives will also be watching closely, given the reported international origins of some of the deposited material.</p><p>The broader picture that emerges from both stories is one of macroeconomic confidence at the national level coexisting with persistent insecurity in everyday life. Governments across Europe face a version of this tension, but Croatia&#x27;s case is particularly sharp: a country that joined the eurozone in 2023 and takes justified pride in its fiscal progress is simultaneously struggling to demonstrate that progress is felt where it matters most—in monthly household budgets and in the safety of local environments. The next set of inflation and wage data, and the next developments in the Gospić investigation, will determine whether the government can close that gap or whether it widens further.</p>",
+      "keywords": "Croatia, cost of living, fuel price controls, Gospić, hazardous waste, environmental scandal, Andrej Plenković, Croatian opposition, EU environmental law, eurozone, public debt, inflation, waste trafficking, household welfare, Croatian politics",
+      "sources": "Croatian Government statements on fuel-price controls, October measures [3][4][5][6]; Prime Minister Plenković parliamentary address on Gospić hazardous waste [1][10]; Opposition parliamentary proceedings and walkout reporting [1][2]; Gospić waste criminal investigation reporting [2]; Croatian GDP and public-debt ratio government data [6]",
+      "pubDate": "2026-10-15",
+      "chartData": {
+        "values": [
+          1.74,
+          1.84
+        ],
+        "labels": [
+          "Petrol Cap (EUR/litre)",
+          "Diesel Cap (EUR/litre)"
+        ]
+      }
+    },
     {
       "id": "article-30f8435",
       "title": "Romania's Double Crisis: Political Deadlock Deepens an Already Painful Economic Squeeze",
@@ -15768,6 +15790,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261015-croatia",
+      "title": "Croatia Faces Twin Tests of Credibility · 15 Oct",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "duration": "8:20",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_15/Croatia_Episode_2026_10_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 292,
+      "keywords": "Croatia, cost of living, fuel price controls, Gospić, hazardous waste, environmental scandal, Andrej Plenković, Croatian opposition, EU environmental law, eurozone, public debt, inflation, waste trafficking, household welfare, Croatian politics",
+      "notes": "Croatia's government is simultaneously defending its economic record against accusations that price controls mask deeper affordability problems and managing the fallout from a hazardous-waste crisis in Gospić that has provoked parliamentary walkouts and criminal investigations. Together, the two disputes reveal a widening gap between the government's macroeconomic confidence and the daily insecurities felt by ordinary citizens. Both cases carry implications that extend beyond Croatia's borders, touching on EU environmental enforcement and the limits of state intervention in energy markets.",
+      "pubDate": "2026-10-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_15/Croatia_Episode_2026_10_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_15/Croatia_Short_2026_10_15.mp4"
+    },
     {
       "id": "episode-20261015-romania",
       "title": "Romania's Double Crisis: Political Deadlock Deepens an Already Painful… · 15 Oct",
