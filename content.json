@@ -1,5 +1,5 @@
 {
-  "version": 1791954969232,
+  "version": 1792040733034,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-0f5495a",
+      "title": "Slovenia Walks a Fiscal Tightrope as Growth Optimism Meets EU Budget Scrutiny",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "excerpt": "Slovenia's government is pressing ahead with expansionary budgets for 2027 and 2028, framing higher public investment as a development strategy rather than fiscal recklessness. But a gap between Ljubljana's own deficit projections and the European Commission's earlier forecasts has handed critics a credible line of attack. The dispute goes beyond ideology: it raises pointed questions about whether the government's assumptions are robust enough to withstand a growth shortfall.",
+      "body": "<h3>A Deficit Below Three Percent, but Questions Remain</h3><p>The Slovenian government has set a projected deficit of 2.9 percent of gross domestic product for 2027, falling to 2.0 percent in 2028. By staying below the European Union&#x27;s 3 percent threshold, ministers led by Prime Minister Janez Janša can present the budget as simultaneously pro-growth and fiscally responsible. The plan includes higher investment spending, expanded funding for municipalities, greater use of EU structural funds, and a firm pledge of no new taxes.</p><p>The political logic is straightforward. If investment generates stronger growth, it raises economic capacity, improves infrastructure, and ultimately broadens the tax base. Supporters argue this is precisely the kind of targeted public spending that a small, open economy like Slovenia can afford when macroeconomic conditions are favourable and when growth forecasts are moving in the right direction.</p><p>Fiscal critics, however, argue that clearing the 3 percent bar is a necessary but insufficient test of sustainability. The European Council&#x27;s fiscal framework permits net expenditure growth of 4.1 percent in 2027 and 4.0 percent in 2028, limits that the proposed budgets may strain. More pointedly, the European Commission had earlier projected Slovenia&#x27;s 2027 deficit at 3.5 percent of GDP — six tenths of a percentage point above the government&#x27;s own estimate. That divergence is not merely statistical noise; it signals a substantive disagreement about the credibility of the revenue and growth assumptions underpinning the entire budget plan.</p><h3>Growth Upgraded, but Households Yet to Feel the Benefit</h3><p>On the macroeconomic front, the government has received a welcome boost from the International Monetary Fund, which raised its 2026 growth forecast for Slovenia to 3.2 percent, an upgrade of 1.2 percentage points from its previous estimate. The IMF also lifted its 2027 projection to 2.2 percent. Ministers have seized on these figures as evidence that their investment strategy is gaining traction and that Slovenia has enough economic momentum to pursue an ambitious reform agenda without resorting to new taxes.</p><p>The government has also moved to reassure consumers on energy costs. It says winter gas supplies are secure and that regulated prices for petrol, diesel, and heating oil are expected to fall marginally. The message is one of contained household costs alongside expanding public investment — a combination that, if delivered, would strengthen the government&#x27;s political standing heading into the next electoral cycle.</p><p>Opposition parties and trade unions are unconvinced. They argue that a strong GDP headline tells citizens little about wages, rents, food prices, or waiting times in understaffed hospitals. Growth may accrue primarily to business profits and aggregate tax revenues while leaving household budgets under pressure. Union leaders have also signalled wariness about the government&#x27;s plans for public-sector restructuring and administrative simplification, which they fear could serve as political cover for hiring freezes, reduced collective bargaining rights, or the quiet outsourcing of public services. A referendum on public-sector reform, if triggered, could rapidly transform a technical administrative debate into a broad popular vote on the government&#x27;s credibility.</p><h3>Reform Agenda Will Determine Whether the Numbers Deliver</h3><p>The two debates — fiscal sustainability and the growth-and-reform strategy — are structurally linked. The budget sets the outer limits of what the government can promise; the reform agenda determines whether those promises translate into durable improvements in public services, competitiveness, and living standards. If growth assumptions prove optimistic and revenues disappoint, future governments will face an uncomfortable choice between tax increases, spending cuts, or a formal excessive-deficit procedure from Brussels.</p><p>For ordinary citizens, the stakes are concrete. A spending-led budget can support construction activity, municipal services, and public-sector employment in the near term. But the Commission&#x27;s divergent forecast suggests that the benign scenario may already be priced into the government&#x27;s plans. Should inflation remain elevated, real wage growth stall, or export demand soften, the margin for error would narrow quickly. Trade unions, whose members work in healthcare, education, and local government, are acutely aware that any fiscal correction typically begins with a squeeze on public-sector pay and staffing.</p><p>For the European Union, Slovenia represents an early test of how the bloc&#x27;s reformed fiscal framework operates in practice for smaller member states that are neither in crisis nor obviously profligate, but whose expenditure trajectories warrant close monitoring. Repeated deviations from agreed expenditure paths could escalate scrutiny and, in the longer run, raise the prospect of formal disciplinary proceedings. The next milestones are clear: the Commission will publish its updated economic forecasts in the coming months, providing a fresh opportunity to measure the gap between Ljubljana&#x27;s projections and Brussels&#x27; baseline. How that gap moves — and whether the government can narrow it through credible policy choices rather than revised assumptions — will define the fiscal story of Slovenia&#x27;s legislature.</p>",
+      "keywords": "Slovenia, fiscal policy, EU budget rules, deficit, Janez Janša, IMF growth forecast, public spending, European Commission, fiscal framework, trade unions, public sector reform, inflation, cost of living, excessive deficit procedure, Slovenian economy",
+      "sources": "Slovenian Ministry of Finance budget documentation [1]; European Commission fiscal surveillance baseline projections [2]; European Council net-expenditure framework guidance [3][9]; IMF World Economic Outlook update, Slovenia country data [4][5]; Bank of Slovenia and Eurostat inflation monitoring [8]",
+      "pubDate": "2026-10-15",
+      "chartData": {
+        "values": [
+          3.5,
+          2.9,
+          2.0
+        ],
+        "labels": [
+          "EC Forecast 2027",
+          "Government Target 2027",
+          "Government Target 2028"
+        ]
+      }
+    },
     {
       "id": "article-dcc2b72",
       "title": "Netherlands Faces Twin Fiscal Crises as Welfare Gap and Wealth-Tax Overhaul Collide",
@@ -15722,6 +15746,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261015-slovenia",
+      "title": "Slovenia Walks a Fiscal Tightrope as Growth Optimism Meets EU Budget Scrutiny · 15 Oct",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "duration": "9:22",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_15/Slovenia_Episode_2026_10_15.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 290,
+      "keywords": "Slovenia, fiscal policy, EU budget rules, deficit, Janez Janša, IMF growth forecast, public spending, European Commission, fiscal framework, trade unions, public sector reform, inflation, cost of living, excessive deficit procedure, Slovenian economy",
+      "notes": "Slovenia's government is pressing ahead with expansionary budgets for 2027 and 2028, framing higher public investment as a development strategy rather than fiscal recklessness. But a gap between Ljubljana's own deficit projections and the European Commission's earlier forecasts has handed critics a credible line of attack. The dispute goes beyond ideology: it raises pointed questions about whether the government's assumptions are robust enough to withstand a growth shortfall.",
+      "pubDate": "2026-10-15",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_15/Slovenia_Episode_2026_10_15.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_15/Slovenia_Short_2026_10_15.mp4"
+    },
     {
       "id": "episode-20261014-netherlands",
       "title": "Netherlands Faces Twin Fiscal Crises · 14 Oct",
