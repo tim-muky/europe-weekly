@@ -1,5 +1,5 @@
 {
-  "version": 1792127276399,
+  "version": 1792127502532,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8a6d70c",
+      "title": "Hungary Bets on Wealth Tax and Euro Ambitions to Rebuild Fiscal Credibility",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary's new government is pursuing a sweeping fiscal overhaul, combining a proposed wealth tax on its richest households with a long-range target to adopt the euro by 2032. Both moves are designed to signal a break with the past, but analysts and critics warn the plans face formidable practical obstacles. The central test is whether Budapest can close a budget deficit projected at roughly 7.5 percent of GDP while persuading citizens and Brussels that the burden is being shared fairly.",
+      "body": "<h3>A Wealth Tax to Plug a Widening Fiscal Gap</h3><p>Hungary&#x27;s government has proposed an annual wealth tax of 1 percent on assets above one billion forints and 1.5 percent on assets above 100 billion forints, to take effect from 2027. The levy would cover property, financial investments, company holdings and assets held abroad, making it one of the more ambitious redistributive fiscal proposals in Central Europe in recent years.</p><p>The government&#x27;s case rests on the scale of the fiscal inheritance. With the deficit projected at around 7.5 percent of GDP, officials argue that extraordinary measures are unavoidable and that concentrating new revenue demands on the wealthiest households is both economically defensible and politically necessary. The proposal is also framed as a deliberate break from an economic model critics associate with concentrated wealth and opaque state-business relationships.</p><p>Estimates suggest the tax could raise between 300 billion and 600 billion forints annually, though the range reflects deep uncertainty. Legislation defining valuation methods, enforcement procedures and cross-border asset rules has not yet been finalised, leaving the effective yield unproven. The government is better supported in its diagnosis of a fiscal emergency than in its claim that the wealth tax will materially resolve it.</p><h3>Critics Warn of Evasion Risk and Political Misuse</h3><p>Opponents argue that wealth taxes are notoriously difficult to administer. Valuing private companies, trusts and overseas holdings is a technically complex and legally contested process, and disputes over asset valuations could drag through courts for years. Wealthy individuals and firms, they warn, may relocate assets or residency before the tax takes effect, eroding its revenue base before it produces a single forint.</p><p>There is a broader concern that the measure may function more as political symbolism than reliable public finance. If the tax generates substantially less revenue than projected, the government may be forced to seek savings elsewhere, pressing harder on public services or indirect taxes that affect middle- and working-class households more directly. Trade unions and social organisations that support taxing the very wealthy may quickly withdraw that support if ordinary Hungarians bear adjustment costs through wage restraint or cuts to healthcare and education.</p><p>For the European Union, the stakes extend beyond Hungary&#x27;s domestic politics. Brussels has monitored Budapest&#x27;s fiscal position closely for years, and stronger, transparent revenue collection would support Hungary&#x27;s access to EU structural funds and improve its standing with international investors. A tax that collapses under legal challenge or capital flight would set that process back considerably.</p><h3>A 2032 Euro Target Signals Ambition, but the Distance Is Vast</h3><p>Alongside the fiscal overhaul, Hungarian officials have outlined a roadmap toward euro adoption, citing a possible entry into the EU&#x27;s Exchange Rate Mechanism, known as ERM II, around 2029, a convergence assessment around 2031 and formal adoption on 1 January 2032. The sequence is described as conditional rather than guaranteed, and Hungary would need to satisfy the EU&#x27;s full set of convergence criteria: sustained low inflation, a deficit below 3 percent of GDP, controlled public debt, stable long-term interest rates and legal harmonisation with the European Central Bank framework.</p><p>Supporters of the plan argue that committing to a credible euro roadmap could itself act as a disciplining force, encouraging the fiscal consolidation and institutional reforms that convergence requires. It would also represent a significant political signal, indicating that Budapest is reorienting toward deeper engagement with the EU&#x27;s economic architecture after years of fractious relations with Brussels.</p><p>The sceptical case is powerful. A deficit at roughly 7.5 percent of GDP is more than twice the 3 percent reference value required for euro entry. Closing that gap in roughly four years while simultaneously managing a wealth tax rollout, protecting public services and keeping inflation in check would demand sustained political will and administrative capacity that has not yet been demonstrated. Critics also raise the sovereignty dimension: surrendering the forint would remove the National Bank of Hungary&#x27;s ability to adjust the exchange rate independently during a downturn, a flexibility that smaller open economies have historically valued during external shocks. Until inflation and the deficit show durable improvement, the 2032 date risks sounding more like a political horizon than a concrete economic commitment.</p>",
+      "keywords": "Hungary, wealth tax, euro adoption, fiscal deficit, ERM II, Hungarian forint, EU convergence criteria, Budapest, austerity, European Union, Hungarian National Bank, public finances, Central Europe",
+      "sources": "Hungarian government fiscal proposals and wealth tax documentation, reports on Hungary deficit projections and EU convergence criteria, official statements on ERM II and euro adoption roadmap timeline; Eurostat reference values for EU convergence criteria; Hungarian National Bank coordination framework documentation",
+      "pubDate": "2026-10-16",
+      "chartData": {
+        "values": [
+          7.5,
+          3.0
+        ],
+        "labels": [
+          "Hungary Projected Deficit (% GDP)",
+          "EU Euro-Entry Reference Value (% GDP)"
+        ]
+      }
+    },
     {
       "id": "article-15d6193",
       "title": "Slovakia's Budget Gamble: High Deficits, Rising Debt, and a Railway Workforce on Strike Alert",
@@ -15842,6 +15864,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261016-hungary",
+      "title": "Hungary Bets on Wealth Tax and Euro Ambitions to Rebuild Fiscal Credibility · 16 Oct",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:45",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Hungary_Episode_2026_10_16.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 295,
+      "keywords": "Hungary, wealth tax, euro adoption, fiscal deficit, ERM II, Hungarian forint, EU convergence criteria, Budapest, austerity, European Union, Hungarian National Bank, public finances, Central Europe",
+      "notes": "Hungary's new government is pursuing a sweeping fiscal overhaul, combining a proposed wealth tax on its richest households with a long-range target to adopt the euro by 2032. Both moves are designed to signal a break with the past, but analysts and critics warn the plans face formidable practical obstacles. The central test is whether Budapest can close a budget deficit projected at roughly 7.5 percent of GDP while persuading citizens and Brussels that the burden is being shared fairly.",
+      "pubDate": "2026-10-16",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Hungary_Episode_2026_10_16.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Hungary_Short_2026_10_16.mp4"
+    },
     {
       "id": "episode-20261016-slovakia",
       "title": "Slovakia's Budget Gamble: High Deficits, Rising Debt · 16 Oct",
