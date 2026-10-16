@@ -1,5 +1,5 @@
 {
-  "version": 1792127039655,
+  "version": 1792127276399,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-15d6193",
+      "title": "Slovakia's Budget Gamble: High Deficits, Rising Debt, and a Railway Workforce on Strike Alert",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "Slovakia's parliament has approved a 2027 budget projecting a general-government deficit of 4.94 percent of GDP, higher than the previous year's already elevated shortfall and part of a fiscal path that would push public debt toward 71.8 percent of GDP by 2029. At the same time, railway unions have declared a strike alert after wage negotiations collapsed, exposing a sharp contradiction at the heart of government policy. Together, the two developments raise a question that extends well beyond Bratislava: who bears the cost of stability when inflation has slowed but debt and living costs remain high?",
+      "body": "<h3>A Budget Built for Now, at Tomorrow&#x27;s Expense</h3><p>Slovakia&#x27;s parliament approved a 2027 budget that keeps the general-government deficit above 4 percent of GDP not just next year but through 2029. At 4.94 percent of GDP, the projected 2027 shortfall is higher than the roughly 4.4 percent deficit forecast for 2026, signaling a deliberate choice to prioritize near-term spending over rapid fiscal consolidation. Public debt, standing at 61.4 percent of GDP in 2025, is projected to rise to approximately 71.8 percent by 2029 under the plan.</p><p>The government and its parliamentary supporters argue that abrupt austerity would be counterproductive. Preserving social transfers and public-sector expenditure, they say, is essential during a period of still-elevated living costs and fragile household confidence. The budget&#x27;s parliamentary approval provides a measure of political certainty, even if it resolves little about the medium-term fiscal trajectory.</p><p>Fiscal critics and opposition parties counter that the plan abandons consolidation in favor of optimistic revenue assumptions, leaving Slovakia exposed to higher borrowing costs and with diminished capacity to respond to any future economic shock. Their central concern is intergenerational: today&#x27;s spending offers short-term political relief, but the adjustment cost is deferred to future governments, taxpayers, and the very public services the budget is ostensibly designed to protect. On the evidence available, the critics hold the stronger position on fiscal sustainability.</p><h3>Railway Workers Draw the Line on Real Wages</h3><p>Against that fiscal backdrop, unions representing workers at Železnice Slovenskej republiky declared a strike alert after negotiations over wages for 2026 and 2027 broke down. The core dispute is straightforward: management offered no increase in basic wages for 2026 and declined to commit to real-terms compensation or adequate increases for 2027. Unions argue this amounts to a deliberate real pay cut at a time when consumer prices continue to rise.</p><p>The arithmetic supports the unions&#x27; core claim. Slovakia&#x27;s annual inflation rate stood at 3.1 percent in September, unchanged from August and the lowest reading since January 2025. A nominal wage freeze in that environment represents an approximate 3.1 percent decline in purchasing power over a twelve-month period. Whether ŽSR can fully finance the unions&#x27; demands from within its existing budget is a separate question, and one the available evidence does not definitively resolve. But the narrower assertion — that zero nominal growth does not protect real incomes while prices are still rising — is arithmetically sound.</p><p>Union representatives stated that the state has failed to provide ŽSR with sufficient funding to meet basic labor needs, framing the dispute not merely as a pay negotiation but as a structural failure of public investment in rail. The government and employer side have implicitly argued that public-sector wages cannot automatically track every movement in consumer prices, particularly when the state is already running a deficit approaching 5 percent of GDP. That argument carries some fiscal logic, but it also highlights a difficult political tension: the same government that is expanding the deficit to preserve broader social stability is simultaneously asking railway workers to absorb a real income loss.</p><h3>Implications for Citizens, Markets, and European Partners</h3><p>For ordinary Slovaks, the immediate effects of the budget are modest but tangible: continued funding for social transfers, public services, and government employment. The longer-term risk is that rising debt service gradually crowds out spending on healthcare, transport, education, and infrastructure — precisely the areas the expansionary approach is meant to protect. Slovakia&#x27;s annual inflation rate of 3.1 percent in September, while the lowest in nearly a year, also serves as a reminder that prices are still rising, even if more slowly. Lower inflation is not the same as lower prices, and the cumulative cost-of-living shock of the past several years has not been reversed.</p><p>A strike or prolonged labor dispute on the railways would carry consequences well beyond the wage bill. Train reliability, maintenance schedules, and commuter links would be at risk, affecting workers, students, and businesses that depend on rail connections across the country. The dispute also carries a political signal: if public employees are required to absorb inflation while the state runs a near-5-percent deficit, unions in healthcare, education, and other labor-intensive services may draw their own conclusions about the government&#x27;s priorities.</p><p>At the European level, Slovakia&#x27;s fiscal trajectory is subject to common rules and market scrutiny that apply to all euro-area members. Persistent deficits in one member state increase pressure for stricter EU-wide enforcement and complicate the broader debate over how much flexibility governments should retain for social spending and public investment. The railway dispute, meanwhile, reflects a pattern visible across much of the continent: governments cite falling inflation as evidence that the cost-of-living crisis has passed, while workers argue that their household budgets were permanently damaged by the earlier price surge and have yet to recover. Similar confrontations are likely to emerge in public transport, healthcare, and other sectors across Europe in the months ahead. For Slovakia, the question is whether the government can navigate both the debt trajectory and the labor unrest before either forces a more abrupt adjustment.</p>",
+      "keywords": "Slovakia, budget deficit, fiscal policy, public debt, railway strike, wage dispute, inflation, ŽSR, EU fiscal rules, public sector wages, cost of living, Central Europe",
+      "sources": "Slovak parliament budget documents, 2027 fiscal framework; ŽSR wage negotiation statements and union strike alert declaration; Slovak Statistics Office, consumer price index, September 2025; Slovak government medium-term fiscal outlook; European Commission fiscal surveillance framework",
+      "pubDate": "2026-10-16",
+      "chartData": {
+        "values": [
+          61.4,
+          65.2,
+          68.5,
+          71.8
+        ],
+        "labels": [
+          "2025",
+          "2026",
+          "2027",
+          "2029"
+        ]
+      }
+    },
     {
       "id": "article-c4836e5",
       "title": "Czech Inflation Creeps Up as Prague Clashes With Brussels Over Carbon Costs",
@@ -15816,6 +15842,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261016-slovakia",
+      "title": "Slovakia's Budget Gamble: High Deficits, Rising Debt · 16 Oct",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "9:05",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Slovakia_Episode_2026_10_16.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 294,
+      "keywords": "Slovakia, budget deficit, fiscal policy, public debt, railway strike, wage dispute, inflation, ŽSR, EU fiscal rules, public sector wages, cost of living, Central Europe",
+      "notes": "Slovakia's parliament has approved a 2027 budget projecting a general-government deficit of 4.94 percent of GDP, higher than the previous year's already elevated shortfall and part of a fiscal path that would push public debt toward 71.8 percent of GDP by 2029. At the same time, railway unions have declared a strike alert after wage negotiations collapsed, exposing a sharp contradiction at the heart of government policy. Together, the two developments raise a question that extends well beyond Bratislava: who bears the cost of stability when inflation has slowed but debt and living costs remain high?",
+      "pubDate": "2026-10-16",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Slovakia_Episode_2026_10_16.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Slovakia_Short_2026_10_16.mp4"
+    },
     {
       "id": "episode-20261016-czechia",
       "title": "Czechia: Czech Inflation Creeps Up as Prague Clashes With Brussels Over Carbon Costs · 16 Oct",
