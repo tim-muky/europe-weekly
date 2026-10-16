@@ -1,5 +1,5 @@
 {
-  "version": 1792041196433,
+  "version": 1792127039655,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-c4836e5",
+      "title": "Czech Inflation Creeps Up as Prague Clashes With Brussels Over Carbon Costs",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "excerpt": "Czechia faces a twin economic pressure test as inflation returned above target in September 2026 and Prime Minister Andrej Babiš escalated his confrontation with EU climate policy. The two developments are reshaping household finances, industrial competitiveness, and the country's relationship with the European Union. Together they present the government with difficult choices between short-term relief and longer-term structural adjustment.",
+      "body": "<h3>Inflation Returns to Haunt Czech Households</h3><p>Czech inflation rose to 2.5 percent year on year in September 2026, up from 1.9 percent in August, while core inflation reached 3.1 percent, exceeding the Czech National Bank&#x27;s own forecast of 2.9 percent. The figures reignited a debate that many households had hoped was drawing to a close: whether the cost-of-living squeeze that defined much of the mid-2020s is truly over, or simply entering a new and more entrenched phase.</p><p>The CNB still forecasts average inflation of 2.0 percent for the full year 2026 and GDP growth of 2.2 percent, figures the government and pro-growth economists cite as evidence that the economy is not in a dangerous spiral. But the central bank itself has warned that inflation is expected to rise above 2 percent and breach 3 percent at the start of 2027 before gradually easing, a trajectory that gives critics grounds to argue that policymakers should not declare victory prematurely.</p><p>For ordinary citizens, the distinction between disinflation and deflation is not merely semantic. Prices in September were 2.5 percent higher than a year earlier. The cost of living has not reversed; it has simply risen more slowly than at the peak. Mortgage holders, renters, and small businesses face the prospect of higher borrowing costs if the CNB opts to tighten policy, while savers may benefit modestly. The risk, analysts said, is that waiting too long to act could force a sharper and more disruptive correction later.</p><h3>Babiš Takes Aim at EU Emissions Trading</h3><p>Simultaneously, Prime Minister Andrej Babiš has mounted an increasingly confrontational challenge to the EU emissions-trading system, arguing that carbon pricing imposes unsustainable costs on an economy whose export base remains heavily dependent on manufacturing. Babiš claimed the system cost Czech industry CZK 159 billion over three years, a figure he has used to demand changes to the existing framework and to call for delaying or revising the planned extension of carbon pricing to buildings and road transport.</p><p>The government&#x27;s argument rests on a credible economic concern: that higher carbon costs reduce competitiveness, risk pushing production outside the EU, and ultimately translate into higher energy and consumer prices at home. Industrial regions with significant employment in energy-intensive sectors have proven receptive to this message. Czechia&#x27;s position has also begun to anchor a broader Central European coalition seeking to slow or redesign EU climate measures, giving Prague an influence in Brussels that extends beyond its own borders.</p><p>Critics, however, argue that the CZK 159 billion figure lacks transparent methodology and conflates direct allowance costs with broader energy-market movements. Carbon pricing is designed, they said, to raise the cost of pollution and redirect investment toward cleaner alternatives, not to preserve existing production indefinitely. Opposition voices and EU advocates warned that using Brussels as a political target allows the government to avoid presenting a detailed domestic plan for decarbonising Czech industry, a gap that could leave firms less prepared for tightening global and EU standards in the years ahead.</p><h3>Competing Pressures Shape an Uncertain Outlook</h3><p>The two issues converge on a common question of political economy: how much short-term pain is Czechia willing to accept, and from whom, in exchange for longer-term stability. On monetary policy, the CNB faces a narrowing window. If core inflation remains above target into the first quarter of 2027, as the bank&#x27;s own projections suggest is likely, pressure to raise rates will intensify even as the government seeks to protect a fragile recovery. Higher borrowing costs would weigh on consumption, investment, and the housing market at a moment when households are already stretched.</p><p>On climate policy, the stakes extend well beyond Czechia&#x27;s borders. If Prague succeeds in building a coalition to delay or dilute the expansion of emissions trading, it would complicate the EU&#x27;s ability to maintain a unified carbon-pricing framework at a time when the bloc is competing with the United States and China for leadership in clean technology. Conversely, if Czech industry is left without adequate transitional support, the social and economic costs in manufacturing-dependent regions could be severe and politically destabilising.</p><p>The next several months will be decisive on both fronts. The CNB&#x27;s rate-setting meetings in late 2026 will test whether the bank is willing to act against rising core prices even at the cost of slower growth. At EU level, negotiations over the extension of carbon pricing to new sectors are expected to intensify through early 2027, with Czechia&#x27;s position likely to carry weight within the Central European bloc. For citizens, the practical consequences of both debates will be felt in mortgage statements, energy bills, and the price of goods on supermarket shelves long before any political resolution is reached.</p>",
+      "keywords": "Czechia, inflation, Czech National Bank, interest rates, cost of living, EU climate policy, emissions trading, ETS, Andrej Babiš, Central Europe, carbon pricing, monetary policy, EU, industrial competitiveness, household finances",
+      "sources": "Czech Statistical Office, September 2026 inflation release; Czech National Bank, quarterly forecast and monetary policy communications; Government of Czechia, statements by Prime Minister Andrej Babiš on EU emissions trading; European Commission, EU Emissions Trading System policy documentation",
+      "pubDate": "2026-10-16",
+      "chartData": {
+        "values": [
+          2.5,
+          3.1,
+          2.9,
+          2.0
+        ],
+        "labels": [
+          "Headline Inflation Sep 2026",
+          "Core Inflation Sep 2026",
+          "CNB Core Forecast",
+          "CNB Full-Year Average Forecast"
+        ]
+      }
+    },
     {
       "id": "article-b9e0281",
       "title": "Croatia Faces Twin Tests of Credibility: Rising Living Costs and a Toxic Waste Scandal",
@@ -15790,6 +15816,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261016-czechia",
+      "title": "Czechia: Czech Inflation Creeps Up as Prague Clashes With Brussels Over Carbon Costs · 16 Oct",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "duration": "8:37",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Czechia_Episode_2026_10_16.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 293,
+      "keywords": "Czechia, inflation, Czech National Bank, interest rates, cost of living, EU climate policy, emissions trading, ETS, Andrej Babiš, Central Europe, carbon pricing, monetary policy, EU, industrial competitiveness, household finances",
+      "notes": "Czechia faces a twin economic pressure test as inflation returned above target in September 2026 and Prime Minister Andrej Babiš escalated his confrontation with EU climate policy. The two developments are reshaping household finances, industrial competitiveness, and the country's relationship with the European Union. Together they present the government with difficult choices between short-term relief and longer-term structural adjustment.",
+      "pubDate": "2026-10-16",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Czechia_Episode_2026_10_16.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_16/Czechia_Short_2026_10_16.mp4"
+    },
     {
       "id": "episode-20261015-croatia",
       "title": "Croatia Faces Twin Tests of Credibility · 15 Oct",
