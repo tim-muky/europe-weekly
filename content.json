@@ -1,5 +1,5 @@
 {
-  "version": 1792386580064,
+  "version": 1792472728365,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-f00f07a",
+      "title": "Spain's Housing Crisis and Inflation Challenge Overshadow Strong Growth Ahead of Election",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "Spain faces a deepening affordability crisis as house prices surged 12.2 percent year-on-year in the second quarter of 2026, while inflation projections have risen sharply, complicating the government's economic narrative. With an election approaching, the central question is no longer simply whether Spain is growing, but whether that growth is reaching ordinary households. The contest has become a referendum on whether political instability can deliver stable public finances, lower prices, and homes that citizens can afford.",
+      "body": "<h3>A Housing Market Under Pressure, and a Policy Divide With No Easy Answer</h3><p>Spanish house prices rose 12.2 percent year-on-year in the second quarter of 2026, according to official statistics, with second-hand homes climbing even faster at 12.9 percent. In a single quarter, prices increased a further 3.4 percent, a pace that has pushed affordability to the centre of political debate and onto the doorsteps of millions of younger Spaniards who feel locked out of the property market.</p><p>The government argues that housing is a basic social right and that market forces have failed to make homes accessible. Its policy platform includes rent controls, restrictions on large corporate property purchases, and a 10 billion euro first-home financing initiative designed to help younger buyers enter the market while longer-term supply is expanded. Ministers say immediate protection for tenants is both necessary and justified given the scale of price increases.</p><p>The opposition contests that diagnosis. It argues that rent controls and restrictions on investors risk discouraging new construction and reducing the supply of available rental homes, ultimately making the problem worse. Its preferred approach centres on releasing land, streamlining planning permits, cutting regulatory burdens, and incentivising private developers. Critics of the government&#x27;s financing initiative warn that subsidising demand without substantially increasing supply could drive prices still higher, a concern that the latest price data does not easily dismiss.</p><h3>Growth Is Real, but Households Are Not Feeling It</h3><p>Spain&#x27;s broader economic picture offers the government genuine ground to stand on. The Banco de España projects GDP growth of 2.6 percent for 2026, a figure that outpaces much of the European Union and reflects resilient domestic demand, a recovering tourism sector, and relatively stable employment. The government has pointed to this performance as evidence that its approach is working and that a continued stable mandate would protect and extend those gains.</p><p>Yet the same Banco de España projections complicate that narrative significantly. Average inflation for 2026 has been revised upward to 3.9 percent, an increase of 1.2 percentage points compared with 2025, driven by energy market disruption, rising goods prices, and persistent services inflation. Instituto Nacional de Estadística data show core inflation, which strips out volatile energy and food prices, rising to 3.1 percent. That figure sits well above the European Central Bank&#x27;s 2 percent target and signals that underlying price pressures have not been brought under control.</p><p>The opposition has seized on this gap between headline growth and household experience. It argues that strong GDP figures mean little when the cost of food, energy, rent, and mortgage repayments continues to erode purchasing power. It has also raised concerns about fiscal credibility, pointing to parliamentary deadlock that has prevented the passage of a normal national budget and warning that prolonged uncertainty could affect Spain&#x27;s borrowing costs and its standing with European institutions and financial markets.</p><h3>An Election That Will Test Whether Growth Can Be Converted Into Affordability</h3><p>The political and economic pressures described above converge around a single question: can the next Spanish government translate robust macroeconomic performance into tangible improvements in living standards? For younger voters in urban centres, housing is not an abstract policy debate but a daily reality that shapes whether they can leave the family home, move for work, or build financial security. The anger is concentrated, visible, and cutting across traditional political loyalties.</p><p>Fiscal uncertainty adds a further layer of risk. Without a fully approved budget, public investment priorities remain unclear, and the government&#x27;s ability to fund housing programmes, social transfers, or infrastructure at the scale promised is open to question. Analysts have noted that prolonged budgetary ambiguity is not costless, even in a growing economy, because it creates hesitation among private investors and complicates Spain&#x27;s engagement with EU fiscal frameworks.</p><p>The evidence does not offer a clean vindication for either side of the policy debate. On housing, both targeted tenant protection and a serious expansion of supply appear necessary; the data does not support the conclusion that regulation alone or finance alone will resolve a structural shortage. On the economy, growth is robust but purchasing power remains under pressure, and inflation has not been defeated. Whoever forms the next government will inherit a genuine expansion and a genuine affordability crisis simultaneously, and the election outcome is likely to hinge on which of those realities voters feel most acutely on election day.</p>",
+      "keywords": "Spain, housing crisis, inflation, GDP growth, rent controls, housing supply, Spanish election, Banco de España, affordability, fiscal credibility, EU economy, cost of living",
+      "sources": "Banco de España 2026 macroeconomic projections; Instituto Nacional de Estadística (INE) house price and inflation data, Q2 2026; European Central Bank inflation target framework",
+      "pubDate": "2026-10-20",
+      "chartData": {
+        "values": [
+          12.2,
+          3.9,
+          2.6,
+          3.1
+        ],
+        "labels": [
+          "House Price Growth YoY (%)",
+          "Average Inflation 2026 (%)",
+          "GDP Growth 2026 (%)",
+          "Core Inflation (%)"
+        ]
+      }
+    },
     {
       "id": "article-bb00a75",
       "title": "Ireland's Fiscal Surplus Masks a Battle Over Who Benefits From the Recovery",
@@ -15940,6 +15966,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261020-spain",
+      "title": "Spain's Housing Crisis and Inflation Challenge Overshadow Strong Growth Ahead… · 20 Oct",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:28",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_20/Spain_Episode_2026_10_20.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 299,
+      "keywords": "Spain, housing crisis, inflation, GDP growth, rent controls, housing supply, Spanish election, Banco de España, affordability, fiscal credibility, EU economy, cost of living",
+      "notes": "Spain faces a deepening affordability crisis as house prices surged 12.2 percent year-on-year in the second quarter of 2026, while inflation projections have risen sharply, complicating the government's economic narrative. With an election approaching, the central question is no longer simply whether Spain is growing, but whether that growth is reaching ordinary households. The contest has become a referendum on whether political instability can deliver stable public finances, lower prices, and homes that citizens can afford.",
+      "pubDate": "2026-10-20",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_20/Spain_Episode_2026_10_20.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_20/Spain_Short_2026_10_20.mp4"
+    },
     {
       "id": "episode-20261019-ireland",
       "title": "Ireland's Fiscal Surplus Masks a Battle Over Who Benefits From the Recovery · 19 Oct",
