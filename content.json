@@ -1,5 +1,5 @@
 {
-  "version": 1792472960074,
+  "version": 1792473180126,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-5809d7a",
+      "title": "Greece Caught Between Fiscal Optimism and a Deepening Cost-of-Living Squeeze",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "Greece's government is presenting a 2027 budget built on strong growth projections and a primary surplus, while simultaneously rolling out emergency energy relief as household inflation accelerates sharply. The gap between resilient national finances and financially exposed citizens is generating political friction at home and raising broader questions in Brussels about how European governments should respond to energy shocks under tightened fiscal rules. The debate has implications well beyond Athens.",
+      "body": "<h3>A Sharp Inflation Jump Undermines Official Reassurances</h3><p>Greece&#x27;s harmonised inflation rate rose from 3.7 percent in August to 5.1 percent in September 2026, according to Eurostat data, outpacing a euro-area increase from 3.2 percent to 3.8 percent over the same period. The Bank of Greece attributes the acceleration primarily to energy and services inflation and has revised its forecast for average Greek inflation upward to 3.5 percent for 2026, from 2.9 percent in 2025. The figures make any government claim that inflation is broadly easing difficult to sustain on current evidence.</p><p>Athens has responded with a package of targeted relief measures. These include a 0.40-euro-per-litre heating-oil subsidy, a 30 percent increase in the heating allowance, and temporary reductions in diesel and petrol prices. The government states that energy-related and permanent social-support measures have reached 1.4 billion euros since April, arguing that Greece&#x27;s improved fiscal position creates room for household support without undermining market credibility.</p><p>Opposition parties and trade unions are unconvinced. Their central argument is that subsidies address symptoms rather than causes, leaving untouched the structural weaknesses of low wages, high rents and expensive electricity. Trade unions have questioned whether the relief is sufficiently broad and automatic, particularly for renters, low-income workers and households that fall outside existing eligibility criteria for heating assistance. With supermarket bills and fuel prices shaping the immediate political mood, the sharp September inflation figure gives critics a potent argument heading into the budget season.</p><h3>An Ambitious 2027 Budget Faces Credibility Tests</h3><p>The government&#x27;s draft 2027 budget projects 2.3 percent economic growth, more than double the 1.2 percent forecast for the euro area as a whole, alongside a 7.9 percent rise in investment and a 3.3 percent primary surplus. Taken together, the projections are designed to support Athens&#x27;s argument in Brussels that countries demonstrating fiscal discipline should retain meaningful flexibility to deploy temporary, targeted support when an external shock strikes.</p><p>The arithmetic of household welfare embedded in these forecasts is, however, modest. The budget projects compensation per employee rising by 3.9 percent against forecast inflation of 2.6 percent in 2027, implying real wage growth of roughly 1.4 percent under the government&#x27;s own assumptions. For households that have absorbed several years of elevated prices, that margin may feel thin, and it depends entirely on energy prices following the government&#x27;s projected downward path — a condition that carries clear downside risks given current trends.</p><p>Fiscal sceptics, including opposition parties and independent analysts, argue that the growth and surplus projections are forecasts rather than outcomes and that the budget&#x27;s internal consistency could unravel if energy prices remain elevated, European demand softens or borrowing costs rise. The Bank of Greece confirms that energy inflation will remain a significant factor through 2026, even as it projects a later moderation. The most defensible reading is that Greece has rebuilt more fiscal credibility than at any point since the debt crisis, but that its room for manoeuvre is conditional rather than secure.</p><h3>A Test Case for Europe&#x27;s Fiscal Framework</h3><p>The Greek debate has become a live illustration of a tension running through European fiscal policy more broadly. Under the revised Stability and Growth Pact, member states with stronger fiscal records can seek greater flexibility when confronting external shocks, but the criteria for what constitutes a justified, time-limited deviation remain contested. Greece is making precisely this argument in Brussels: that relief can be delivered without abandoning debt reduction, and that disciplined governments should not be penalised for acting counter-cyclically when citizens need support.</p><p>The outcome matters for other medium-sized European economies navigating similar pressures. If Athens is seen to manage the energy shock while maintaining its surplus trajectory, it strengthens the case for a more adaptive interpretation of EU fiscal rules. If the measures prove insufficient to stem household dissatisfaction, or if growth disappoints and the fiscal balance deteriorates, the episode will reinforce the sceptical view that optimistic budget assumptions create vulnerability in social policy when conditions shift.</p><p>The immediate political calendar will sharpen these questions. Greece&#x27;s inflation trajectory through the winter heating season will test both the adequacy of the subsidy package and the government&#x27;s 2026 inflation forecast of 3.5 percent. European Commission scrutiny of the draft budget is expected to focus on whether the projected primary surplus is consistent with the relief measures announced. For Greek citizens, however, the judgment will be simpler and more immediate: whether real disposable income improves visibly before the next electoral cycle.</p>",
+      "keywords": "Greece, cost of living, energy crisis, inflation, 2027 budget, fiscal policy, EU fiscal rules, household incomes, energy subsidies, euro area, Bank of Greece, primary surplus, economic growth",
+      "sources": "Eurostat, harmonised inflation data, August–September 2026; Bank of Greece, inflation forecasts and economic outlook, 2026; Greek government draft budget 2027, fiscal and macroeconomic projections; European Commission, Stability and Growth Pact framework documentation",
+      "pubDate": "2026-10-20",
+      "chartData": {
+        "values": [
+          3.7,
+          5.1,
+          3.2,
+          3.8
+        ],
+        "labels": [
+          "Greece August 2026",
+          "Greece September 2026",
+          "Euro Area August 2026",
+          "Euro Area September 2026"
+        ]
+      }
+    },
     {
       "id": "article-1189bca",
       "title": "Italy Rewrites Its Electoral Rules While Bracing for a Fiscal Reckoning",
@@ -15988,6 +16014,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261020-greece",
+      "title": "Greece Caught Between Fiscal Optimism and a Deepening Cost-of-Living Squeeze · 20 Oct",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "7:50",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_20/Greece_Episode_2026_10_20.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 301,
+      "keywords": "Greece, cost of living, energy crisis, inflation, 2027 budget, fiscal policy, EU fiscal rules, household incomes, energy subsidies, euro area, Bank of Greece, primary surplus, economic growth",
+      "notes": "Greece's government is presenting a 2027 budget built on strong growth projections and a primary surplus, while simultaneously rolling out emergency energy relief as household inflation accelerates sharply. The gap between resilient national finances and financially exposed citizens is generating political friction at home and raising broader questions in Brussels about how European governments should respond to energy shocks under tightened fiscal rules. The debate has implications well beyond Athens.",
+      "pubDate": "2026-10-20",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_20/Greece_Episode_2026_10_20.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_20/Greece_Short_2026_10_20.mp4"
+    },
     {
       "id": "episode-20261020-italy",
       "title": "Italy Rewrites Its Electoral Rules While Bracing for a Fiscal Reckoning · 20 Oct",
