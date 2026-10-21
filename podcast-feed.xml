@@ -32,6 +32,21 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Belgium&apos;s Budget Crisis Tests the Limits of Austerity Politics in Europe · 21 Oct</title>
+      <description>Belgium faces one of the European Union&apos;s most acute fiscal emergencies, with a deficit of 5.2 percent of GDP and public debt approaching 108 percent in 2025. Prime Minister Bart De Wever&apos;s government is pursuing roughly ten billion euros in savings by 2029, but nationwide strikes and street protests are widening resistance to the adjustment. The standoff is becoming a test case for whether EU member states can consolidate their finances without fracturing their social contracts.</description>
+      <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_10_21/Belgium_Episode_2026_10_21.mp3" length="5783429" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-20261021-belgium</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <link>https://europe-weekly.eu/episode.html?id=episode-20261021-belgium</link>
+      <itunes:duration>8:56</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>303</itunes:episode>
+      <itunes:image href="https://audio.europe-weekly.eu/podcast-cover.jpg"/>
+      <itunes:keywords>Belgium, fiscal deficit, public debt, austerity, Bart De Wever, European Commission, budget crisis, strikes, protests, EU fiscal rules, coalition politics, social protection, inflation, sovereign debt</itunes:keywords>
+      <podcast:transcript url="https://audio.europe-weekly.eu/episodes/v3/2026_10_21/Belgium_Episode_2026_10_21.txt" type="text/plain" language="en"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Germany&apos;s Fragile Recovery: Growth Returns · 21 Oct</title>
       <description>Germany&apos;s government has upgraded its growth forecast for 2026, citing stronger exports and public investment, but persistently high inflation and energy costs are limiting what citizens feel in their daily lives. At the same time, rising support for the far-right Alternative für Deutschland is increasingly framed not only as a political challenge but as a risk to investment and long-term economic stability. The gap between official optimism and lived experience is at the heart of both debates.</description>
       <enclosure url="https://op3.dev/e/audio.europe-weekly.eu/episodes/v3/2026_10_21/Germany_Episode_2026_10_21.mp3" length="5561802" type="audio/mpeg"/>
