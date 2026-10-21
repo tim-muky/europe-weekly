@@ -1,5 +1,5 @@
 {
-  "version": 1792559013472,
+  "version": 1792559325209,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3e61be1",
+      "title": "Belgium's Budget Crisis Tests the Limits of Austerity Politics in Europe",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Belgium faces one of the European Union's most acute fiscal emergencies, with a deficit of 5.2 percent of GDP and public debt approaching 108 percent in 2025. Prime Minister Bart De Wever's government is pursuing roughly ten billion euros in savings by 2029, but nationwide strikes and street protests are widening resistance to the adjustment. The standoff is becoming a test case for whether EU member states can consolidate their finances without fracturing their social contracts.",
+      "body": "<h3>A Debt Trajectory That Cannot Be Ignored</h3><p>Belgium&#x27;s fiscal position has deteriorated to a point where the European Commission and the National Bank of Belgium are both calling for urgent corrective action. The country&#x27;s deficit stood at 5.2 percent of GDP in 2025, and European Commission projections show debt rising from 107.9 percent of GDP this year to 110.5 percent in 2026 and 112.8 percent in 2027 under existing policies. Without intervention, interest payments risk crowding out spending on hospitals, schools and infrastructure.</p><p>Prime Minister Bart De Wever has argued that delay is not an option. His government is targeting approximately ten billion euros in savings by 2029, warning that inaction now would force a far more disruptive correction later. The National Bank has echoed that assessment, calling for a binding fiscal framework to restore long-term sustainability. Without a credible plan, analysts warn that rising yields on Belgian sovereign debt could accelerate the very debt snowball the government is trying to prevent.</p><p>The fiscal data leave little room for dispute about the scale of the problem. What remains deeply contested is how the burden should be distributed. Coalition negotiations have repeatedly stalled over whether the adjustment should come from spending cuts, new taxes, structural reforms or some combination of all three, exposing fundamental disagreements between centre-right and more socially oriented coalition partners.</p><h3>Strikes, Students and the Politics of Who Pays</h3><p>What began as union-led industrial action has evolved into a broader social movement. Nationwide strikes have partially shut down public services on multiple occasions, while demonstrations have drawn students and led to clashes with police in several cities. The protests signal that the fiscal debate has moved out of parliament and into the streets, with anger focused less on whether Belgium has a problem and more on who will be asked to solve it.</p><p>Trade unions argue that workers and pensioners are being required to absorb the cost of a fiscal imbalance they did not create. Their objections target proposed measures that could affect healthcare access, pension entitlements and social protection. Student groups have separately raised concerns about education funding, crowded classrooms and rising access costs for higher education. Opposition parties have amplified these concerns, accusing the government of presenting politically motivated choices as economic inevitabilities.</p><p>The government&#x27;s position is that the short-term pain of reform is preferable to the larger disruption of an uncontrolled fiscal crisis. But the economic backdrop offers households little comfort. Belgium&#x27;s economy is projected to grow only 0.7 percent in 2026 and 0.9 percent in 2027, while inflation, measured on the EU&#x27;s harmonised index, is forecast at 3.0 percent in 2025 and 3.4 percent in 2026. That means prices continue to rise even as growth remains sluggish, leaving families with less purchasing power and diminishing tolerance for further reductions in public services.</p><h3>A Warning Signal for the Wider European Project</h3><p>Belgium&#x27;s predicament is being watched closely in Brussels and other European capitals. As one of the EU&#x27;s founding members and the host of its principal institutions, Belgium carries symbolic as well as practical weight. Its difficulty in reconciling fiscal discipline with coalition stability and social cohesion illustrates the political constraints that face governments across the bloc as tighter EU fiscal rules come into force.</p><p>The standoff also reflects a pattern visible elsewhere in Europe. Governments in France, Italy and several central European states face similar pressure to reduce deficits while resisting public backlash against cuts to welfare systems built over decades. Belgium&#x27;s experience suggests that the sequencing and framing of fiscal adjustment matter as much as the economics: programmes perceived as socially unbalanced generate resistance that can slow or derail consolidation entirely.</p><p>The immediate deadlines remain unresolved. Belgium has yet to produce a credible medium-term fiscal plan acceptable to both the European Commission and its own coalition partners. If negotiations continue to stall, the country risks entering a prolonged period of institutional uncertainty that could affect its credit standing and its influence within EU budget discussions. For citizens, the coming months will determine whether the fiscal repair is shared broadly or concentrated among those least positioned to bear it, a question that strikes and protests alone cannot answer but that no government can afford to leave unaddressed.</p>",
+      "keywords": "Belgium, fiscal deficit, public debt, austerity, Bart De Wever, European Commission, budget crisis, strikes, protests, EU fiscal rules, coalition politics, social protection, inflation, sovereign debt",
+      "sources": "European Commission fiscal projections, spring 2025; Eurostat deficit and debt statistics; National Bank of Belgium policy statements; Belgian coalition negotiation reporting, 2025; Belgian trade union and protest documentation, 2025",
+      "pubDate": "2026-10-21",
+      "chartData": {
+        "values": [
+          107.9,
+          110.5,
+          112.8
+        ],
+        "labels": [
+          "2025",
+          "2026",
+          "2027"
+        ]
+      }
+    },
     {
       "id": "article-9a1fd8c",
       "title": "Germany's Fragile Recovery: Growth Returns, but Costs and Political Risks Cloud the Outlook",
@@ -16040,6 +16064,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261021-belgium",
+      "title": "Belgium's Budget Crisis Tests the Limits of Austerity Politics in Europe · 21 Oct",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "8:56",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_21/Belgium_Episode_2026_10_21.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 303,
+      "keywords": "Belgium, fiscal deficit, public debt, austerity, Bart De Wever, European Commission, budget crisis, strikes, protests, EU fiscal rules, coalition politics, social protection, inflation, sovereign debt",
+      "notes": "Belgium faces one of the European Union's most acute fiscal emergencies, with a deficit of 5.2 percent of GDP and public debt approaching 108 percent in 2025. Prime Minister Bart De Wever's government is pursuing roughly ten billion euros in savings by 2029, but nationwide strikes and street protests are widening resistance to the adjustment. The standoff is becoming a test case for whether EU member states can consolidate their finances without fracturing their social contracts.",
+      "pubDate": "2026-10-21",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_21/Belgium_Episode_2026_10_21.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_21/Belgium_Short_2026_10_21.mp4"
+    },
     {
       "id": "episode-20261021-germany",
       "title": "Germany's Fragile Recovery: Growth Returns · 21 Oct",
