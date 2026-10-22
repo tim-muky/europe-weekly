@@ -1,5 +1,5 @@
 {
-  "version": 1792559609401,
+  "version": 1792645424363,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-36f09b6",
+      "title": "Drones, Deficits, and Doubt: Bulgaria Confronts War's Shadow and a Cost-of-Living Squeeze",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "excerpt": "Bulgaria is simultaneously navigating a maritime security crisis in the Black Sea and a domestic economic squeeze, as drone attacks on commercial vessels raised fears of war spillover and September inflation climbed to 5.7 percent. Both crises are testing the credibility of Sofia's institutions and the resilience of ordinary households. The combination has produced a public mood oscillating between anxiety and resignation.",
+      "body": "<h3>Drone Strikes Bring the War to Bulgaria&#x27;s Waters</h3><p>In October, drones struck multiple commercial vessels operating in or near Bulgaria&#x27;s Black Sea exclusive economic zone. At least two ships sank, and eleven sailors were reported missing following one of the attacks. Sofia summoned Russia&#x27;s ambassador and initiated a formal request for NATO assistance, while officials stated that Russian responsibility was likely, though not conclusively proven.</p><p>The Bulgarian government framed the incidents not as isolated maritime accidents but as evidence of a dangerous security spillover from the war in Ukraine. Officials announced that Bulgaria expected to join a NATO anti-drone initiative by the end of October, a move intended to address acknowledged gaps in maritime surveillance and airspace monitoring. The government argued that the scale and pattern of the attacks required a collective NATO response rather than a unilateral Bulgarian one.</p><p>Opposition figures urged caution on attribution. Without a completed investigation, they argued, making politically explosive accusations against Russia risked misrepresenting events and potentially drawing Bulgaria into a wider escalation. Critics also questioned why Bulgaria&#x27;s surveillance and emergency-response capabilities had proved insufficient, and called for maritime security policy to encompass protection for shipping crews, port workers, and food and energy import routes, not only military hardware.</p><h3>Inflation Rises as IMF Cuts Growth Outlook</h3><p>The security alarm coincides with deteriorating economic conditions at home. Consumer price inflation accelerated to 5.7 percent year-on-year in September, up from 5.1 percent in August, driven by rising costs in transport, housing, utilities, and food. The International Monetary Fund revised its projections for Bulgaria in a direction that offered little comfort: it lowered its 2026 growth forecast from 2.8 percent to 2.6 percent while raising its inflation projection from 3.8 percent to 4.9 percent.</p><p>The government&#x27;s stated priority is deficit reduction and fiscal credibility. The IMF has urged Sofia to build fiscal buffers and avoid reliance on one-off revenue measures, warnings that carry weight given a current-account deficit projected at 8 percent of GDP. Authorities argued that preserving investor and EU confidence requires tighter budget management, even amid weaker growth.</p><p>Trade unions and opposition parties rejected the framing. They contended that imposing fiscal tightening while transport costs, utility bills, and food prices are all rising would shift the burden disproportionately onto lower-income households. Their preferred approach centres on stronger enforcement against tax evasion, targeted relief for vulnerable groups, and wage negotiations rather than across-the-board restraint. The available evidence does not demonstrate that deficit reduction measures would directly reduce household prices, lending weight to their concern.</p><h3>Credibility Under Pressure at Home and in Brussels</h3><p>The two crises are distinct in origin but convergent in political consequence. On security, Bulgaria is asking its citizens to trust institutions that are still investigating who was responsible for attacks that have already cost lives and vessels. On the economy, families are being asked to accept official assurances that conditions are improving while their monthly bills say otherwise. In both cases, the gap between institutional language and lived experience is generating political friction.</p><p>For the European Union, both developments carry systemic implications. A drone campaign reaching into the exclusive economic zone of an EU and NATO member state tests the credibility of the alliance&#x27;s eastern-flank deterrence and raises questions about the protection of member states&#x27; maritime economic interests. Bulgaria&#x27;s fiscal position, meanwhile, affects its trajectory toward deeper economic convergence with the eurozone and its reliability as a partner in EU budget commitments.</p><p>The coming weeks will determine whether NATO&#x27;s anti-drone engagement produces tangible capability or remains symbolic, and whether Sofia can produce a budget framework that satisfies IMF and EU interlocutors without igniting further public anger. With inflation still rising, growth forecasts being cut, and unidentified drones having sent ships to the bottom of the Black Sea, Bulgarian policymakers face a narrow path between necessary action and political overreach on both fronts.</p>",
+      "keywords": "Bulgaria, Black Sea, drone attacks, maritime security, NATO, Ukraine war spillover, inflation, cost of living, IMF, fiscal deficit, economic outlook, eastern flank, Sofia, EU, trade unions",
+      "sources": "NATO statements on anti-drone initiative and eastern-flank coordination; Bulgarian government statements on ambassador summoning and NATO assistance request; IMF World Economic Outlook projections for Bulgaria, 2026; Reports on Black Sea drone strikes and vessel losses; Bulgarian National Statistical Institute consumer price data, September; Reports on missing sailors and sunken vessels following Black Sea attacks",
+      "pubDate": "2026-10-22",
+      "chartData": {
+        "values": [
+          5.1,
+          5.7,
+          3.8,
+          4.9
+        ],
+        "labels": [
+          "Inflation Aug (actual)",
+          "Inflation Sep (actual)",
+          "IMF Inflation Forecast (prior)",
+          "IMF Inflation Forecast (revised)"
+        ]
+      }
+    },
     {
       "id": "article-6427cde",
       "title": "Growth Without Relief: Dutch Households Squeezed as Election Battle Intensifies",
@@ -16090,6 +16116,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261022-bulgaria",
+      "title": "Drones, Deficits, and Doubt: Bulgaria Confronts War's Shadow and a… · 22 Oct",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "duration": "8:13",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_22/Bulgaria_Episode_2026_10_22.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 305,
+      "keywords": "Bulgaria, Black Sea, drone attacks, maritime security, NATO, Ukraine war spillover, inflation, cost of living, IMF, fiscal deficit, economic outlook, eastern flank, Sofia, EU, trade unions",
+      "notes": "Bulgaria is simultaneously navigating a maritime security crisis in the Black Sea and a domestic economic squeeze, as drone attacks on commercial vessels raised fears of war spillover and September inflation climbed to 5.7 percent. Both crises are testing the credibility of Sofia's institutions and the resilience of ordinary households. The combination has produced a public mood oscillating between anxiety and resignation.",
+      "pubDate": "2026-10-22",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_22/Bulgaria_Episode_2026_10_22.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_22/Bulgaria_Short_2026_10_22.mp4"
+    },
     {
       "id": "episode-20261021-netherlands",
       "title": "Netherlands: Growth Without Relief: Dutch Households Squeezed · 21 Oct",
