@@ -1,5 +1,5 @@
 {
-  "version": 1792645424363,
+  "version": 1792645643389,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-c62f2aa",
+      "title": "Slovenia's Budget Balancing Act: Growth Ambitions Meet Fiscal and Inflation Pressures",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "excerpt": "Slovenia's new government is pressing ahead with a development-oriented budget for 2027–28, pledging to keep the deficit below the European Union's 3% threshold while funding infrastructure, digitalisation and municipal investment. The plan arrives as the country records stronger-than-expected economic growth but continues to wrestle with inflation running well above the European Central Bank's target. Whether Ljubljana can deliver investment without sacrificing service quality or household purchasing power is the central question shaping Slovenia's near-term political and economic debate.",
+      "body": "<h3>A Budget Built on Development, Constrained by Discipline</h3><p>Slovenia&#x27;s government has presented a 2027 budget projecting revenues of 17 billion euros against expenditure of 19.4 billion euros, producing a deficit of 2.3 billion euros, equivalent to 2.9% of gross domestic product. That figure would place the country just inside the EU&#x27;s 3% ceiling, a threshold that carries renewed significance as Brussels enforces its reformed fiscal rules with greater rigour. The government has also stated that so-called cleared expenditure will grow by 2.5%, comfortably below the EU-approved ceiling of 4.1%.</p><p>Officials argue that the budget is not simply a restraint exercise but a platform for development. Faster absorption of EU structural funds, higher allocations for municipalities and investment in digital infrastructure are presented as instruments for stimulating productive activity rather than ordinary consumption. The political calculation is that growth-enhancing spending now will broaden the tax base and reduce regional disparities over time.</p><p>Critics are less persuaded. Opposition parties have questioned whether the government&#x27;s projections are realistic and whether investment promises will survive contact with procurement delays and administrative capacity constraints. Trade unions, meanwhile, have focused on what the aggregate figures may obscure: whether healthcare workers, teachers and public administrators will see wages that keep pace with rising costs, or whether fiscal compliance on paper will translate into austerity in everyday public services.</p><h3>Growth Returns, But Prices Remain Stubbornly High</h3><p>The economic backdrop to the budget debate is more complex than either optimists or pessimists would prefer. Bank of Slovenia projections put GDP growth at 1.9% for 2026, rising to 2.2% in both 2027 and 2028, a trajectory that suggests a gradual but sustained recovery. Second-quarter data added a striking headline figure: year-on-year GDP growth of 5.0%, indicating stronger industrial and export momentum than many analysts had anticipated.</p><p>However, the growth story is only part of the picture. Inflation, according to Bank of Slovenia projections, was expected to reach 3.6% in 2026 before easing to 2.3% in 2027. Eurostat-linked data placed Slovenia&#x27;s inflation rate at 3.7% as recently as September. That is nearly double the ECB&#x27;s 2% target and means that positive GDP figures are competing with a household experience defined by rising energy bills, food costs and housing expenses. For many Slovenian families, the gap between national growth statistics and their own financial situation remains wide.</p><p>The government and business associations have framed affordable, predictable energy as both a consumer protection measure and an industrial competitiveness priority, arguing that lower energy costs would relieve pressure on manufacturers and households alike. Trade unions counter that GDP expansion does not automatically translate into real wage gains, and that without concerted action on purchasing power, growth risks becoming a statistical comfort rather than a lived improvement.</p><h3>What Comes Next: Credibility Tests at Home and in Brussels</h3><p>For Slovenia, the months ahead will test whether the government&#x27;s dual promise, fiscal compliance alongside meaningful investment, can withstand scrutiny from multiple directions simultaneously. In Brussels, the country is being watched as an early indicator of whether EU member states can use the reformed Stability and Growth Pact&#x27;s flexibility provisions to protect development spending without slipping toward wider deficits. A credible performance by Ljubljana would strengthen the case for investment-oriented fiscal policy across the bloc; a deterioration in the deficit trajectory would hand ammunition to those who argue that the pact&#x27;s rules are too elastic.</p><p>Domestically, the more immediate pressure will come from wage negotiations in the public sector and from the pace at which promised EU-funded projects actually break ground. The government&#x27;s development narrative depends heavily on visible delivery: construction starts, digital service upgrades and tangible improvements in municipal infrastructure. Delays or shortfalls would quickly erode the political credibility of a budget strategy premised on investment rather than consolidation.</p><p>On inflation, the path forward is constrained by factors largely outside Ljubljana&#x27;s direct control, including global energy markets and ECB monetary policy. If price pressures ease as the Bank of Slovenia projects, real wages could begin recovering meaningfully by 2027, easing the political tension between growth figures and household experience. If inflation proves stickier than forecast, the government will face intensifying demands from unions and opposition parties to compensate workers through direct fiscal measures, creating fresh pressure on a deficit that is, for now, only narrowly within EU limits.</p>",
+      "keywords": "Slovenia, budget 2027, fiscal policy, EU deficit rules, economic growth, inflation, cost of living, energy costs, public spending, trade unions, Stability and Growth Pact, Ljubljana, euro area, EU funds, development investment",
+      "sources": "Bank of Slovenia macroeconomic projections (2026–2028); Slovenian government draft budget documentation for 2027; Eurostat-linked national inflation data, September reading; EU fiscal framework documentation, approved expenditure ceiling for Slovenia",
+      "pubDate": "2026-10-22",
+      "chartData": {
+        "values": [
+          1.9,
+          2.2,
+          2.2,
+          3.6
+        ],
+        "labels": [
+          "GDP Growth 2026 (%)",
+          "GDP Growth 2027 (%)",
+          "GDP Growth 2028 (%)",
+          "Inflation 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-36f09b6",
       "title": "Drones, Deficits, and Doubt: Bulgaria Confronts War's Shadow and a Cost-of-Living Squeeze",
@@ -16116,6 +16142,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261022-slovenia",
+      "title": "Slovenia's Budget Balancing Act: Growth Ambitions Meet Fiscal and Inflation… · 22 Oct",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "duration": "8:27",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_22/Slovenia_Episode_2026_10_22.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 306,
+      "keywords": "Slovenia, budget 2027, fiscal policy, EU deficit rules, economic growth, inflation, cost of living, energy costs, public spending, trade unions, Stability and Growth Pact, Ljubljana, euro area, EU funds, development investment",
+      "notes": "Slovenia's new government is pressing ahead with a development-oriented budget for 2027–28, pledging to keep the deficit below the European Union's 3% threshold while funding infrastructure, digitalisation and municipal investment. The plan arrives as the country records stronger-than-expected economic growth but continues to wrestle with inflation running well above the European Central Bank's target. Whether Ljubljana can deliver investment without sacrificing service quality or household purchasing power is the central question shaping Slovenia's near-term political and economic debate.",
+      "pubDate": "2026-10-22",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_22/Slovenia_Episode_2026_10_22.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_22/Slovenia_Short_2026_10_22.mp4"
+    },
     {
       "id": "episode-20261022-bulgaria",
       "title": "Drones, Deficits, and Doubt: Bulgaria Confronts War's Shadow and a… · 22 Oct",
