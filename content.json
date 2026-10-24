@@ -1,5 +1,5 @@
 {
-  "version": 1792818241962,
+  "version": 1792818467760,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a79ec85",
+      "title": "Latvia Faces Coalition Uncertainty and Fiscal Squeeze as New Government Takes Shape",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "excerpt": "Latvia's October election produced no outright winner, leaving Prime Minister Andris Kulbergs locked in protracted coalition negotiations while the country confronts a widening budget deficit and promises of austerity without tax rises. A three-party bloc of United List, the National Alliance, and New Unity could secure a workable parliamentary majority, but the policy compromises required to hold it together remain unresolved. The fiscal outlook adds urgency: European Commission projections show Latvia's deficit potentially reaching 4.3 percent of GDP by 2027, raising doubts about whether spending restraint alone can close the gap.",
+      "body": "<h3>Coalition Arithmetic Adds Up, but Political Stability Does Not Yet Follow</h3><p>More than three weeks after Latvians went to the polls, Prime Minister Andris Kulbergs was still preparing to open formal coalition consultations, with talks not scheduled to begin until 28 October. The delay has sharpened questions about what, if anything, the election actually changed. United List emerged as the leading force, but without a single-party majority it must negotiate with the National Alliance and New Unity to secure a governing basis. If the three parties align, the bloc would command 58 of 100 parliamentary seats—a majority that is workable, though not commanding.</p><p>The exclusion of Latvia First, which finished second with 17 seats, from the initial coalition framework has drawn criticism from opposition voices, who argue that Kulbergs does not hold a blank political mandate. Delayed talks, they suggest, may reflect internal disagreements rather than careful deliberation. Supporters of the proposed arrangement counter that a stable, pro-European, pro-NATO coalition with a clear programmatic agenda is precisely what the election result invites—and that a minority government would offer less, not more, coherence. The government&#x27;s case on parliamentary viability is the stronger one, but formal coalition terms, ministerial portfolios, and shared policy commitments had not yet been settled at the time of publication.</p><h3>Austerity Without Tax Increases: A Promise That May Be Harder to Keep Than to Make</h3><p>While coalition negotiators bargain over seats and portfolios, Latvia&#x27;s finance ministry faces a separate and arguably more consequential set of arithmetic problems. The government has pledged not to raise value-added tax or personal income tax, presenting spending discipline as the route to fiscal consolidation. European Commission projections cited in EU Council material paint a sobering picture: Latvia&#x27;s deficit is forecast at 3.3 percent of GDP in 2026, rising to 4.3 percent in 2027, while public debt is expected to climb from 46.9 percent of GDP in 2025 to 53.8 percent by 2027.</p><p>Against that backdrop, the government has pointed to a planned minimum-wage increase from 780 euros to 820 euros in 2027 while signalling wage restraint and institutional restructuring across the public sector. Critics on the opposition benches and in trade unions argue that this framing obscures the reality facing nurses, teachers, civil servants, and municipalities. Wage restraint during a period of elevated prices, unions contend, amounts to a real-terms pay cut—regardless of what headline tax rates say. The fiscal-pressure argument is well-supported by the available data. Whether spending controls and pay restraint alone can close a deficit approaching 4.3 percent of GDP is a different question, and one the government has not yet answered with specific figures.</p><p>The political risk is asymmetric. Promises of no VAT increases are easy to communicate and popular to hear. The consequences of austerity—slower wage growth, reduced public services, deferred investment—arrive more quietly but cut more deeply into household budgets and public-sector workplaces. That gap between political messaging and lived experience is where the government&#x27;s credibility will ultimately be tested.</p><h3>What Comes Next and What It Means Beyond Latvia&#x27;s Borders</h3><p>The immediate deadline is the completion of coalition talks and the submission of a government programme to the Saeima. Until that programme is published, the precise contours of Latvia&#x27;s fiscal strategy—how much will be cut, from where, and on what timeline—remain officially undefined. If the United List–National Alliance–New Unity bloc holds together, Kulbergs will have the parliamentary numbers to legislate. Whether he will have the political cohesion to do so amid competing pressures from coalition partners, trade unions, and an opposition sensing an opening is less certain.</p><p>Latvia&#x27;s situation is not unique within the European Union. Several frontline member states face the same structural bind: elevated defence and security spending requirements, persistent inflationary pressures, and deteriorating fiscal headroom, all while governments seek to protect household incomes and maintain public legitimacy. Latvia&#x27;s coalition negotiations will determine who claims ownership of the difficult choices ahead; its budget trajectory will determine who bears their cost. Both questions remain open, and both carry consequences that extend well beyond Riga.</p>",
+      "keywords": "Latvia, coalition government, Andris Kulbergs, United List, National Alliance, New Unity, Latvian election, austerity, fiscal deficit, public debt, European Commission, GDP, minimum wage, public sector, EU fiscal rules, Baltic states",
+      "sources": "European Commission fiscal projections cited in EU Council material; Latvian parliamentary election results data; coalition composition reporting citing United List, National Alliance, and New Unity seat counts; Latvian Finance Ministry statements on wage and tax policy; trade union positions on public-sector compensation",
+      "pubDate": "2026-10-24",
+      "chartData": {
+        "values": [
+          3.3,
+          4.3,
+          46.9,
+          53.8
+        ],
+        "labels": [
+          "Deficit 2026 (% GDP)",
+          "Deficit 2027 (% GDP)",
+          "Debt 2025 (% GDP)",
+          "Debt 2027 (% GDP)"
+        ]
+      }
+    },
     {
       "id": "article-8fc7c22",
       "title": "Poland's Fiscal Credibility Under Pressure as Deficits Widen and Inflation Persists",
@@ -16194,6 +16220,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261024-latvia",
+      "title": "Latvia Faces Coalition Uncertainty and Fiscal Squeeze · 24 Oct",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:48",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Latvia_Episode_2026_10_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 309,
+      "keywords": "Latvia, coalition government, Andris Kulbergs, United List, National Alliance, New Unity, Latvian election, austerity, fiscal deficit, public debt, European Commission, GDP, minimum wage, public sector, EU fiscal rules, Baltic states",
+      "notes": "Latvia's October election produced no outright winner, leaving Prime Minister Andris Kulbergs locked in protracted coalition negotiations while the country confronts a widening budget deficit and promises of austerity without tax rises. A three-party bloc of United List, the National Alliance, and New Unity could secure a workable parliamentary majority, but the policy compromises required to hold it together remain unresolved. The fiscal outlook adds urgency: European Commission projections show Latvia's deficit potentially reaching 4.3 percent of GDP by 2027, raising doubts about whether spending restraint alone can close the gap.",
+      "pubDate": "2026-10-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Latvia_Episode_2026_10_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Latvia_Short_2026_10_24.mp4"
+    },
     {
       "id": "episode-20261024-poland",
       "title": "Poland's Fiscal Credibility Under Pressure · 24 Oct",
