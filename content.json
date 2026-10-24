@@ -1,5 +1,5 @@
 {
-  "version": 1792645861217,
+  "version": 1792818241962,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-8fc7c22",
+      "title": "Poland's Fiscal Credibility Under Pressure as Deficits Widen and Inflation Persists",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "excerpt": "Poland faces mounting questions over the sustainability of its public finances after Fitch Ratings assigned a negative outlook to its A- sovereign rating, citing a general-government deficit expected to reach 6.9% of GDP in 2026. The government's case rests on security imperatives and economic resilience, but critics argue that pre-election spending and political paralysis are crowding out credible fiscal reform. Meanwhile, fuel-price interventions designed to ease household pressures have failed to push inflation below 4%, complicating both the budgetary picture and the central bank's task.",
+      "body": "<h3>A Negative Outlook and a Widening Gap</h3><p>Fitch Ratings kept Poland&#x27;s long-term sovereign credit rating at A- in its most recent review but attached a negative outlook, a signal that a downgrade remains possible if fiscal trajectories do not improve. The agency projected the general-government deficit at 6.9% of GDP in 2026, falling only marginally to 6.7% in 2027, against a current peer median of roughly 3%. For one of the European Union&#x27;s largest economies, those are unusually wide gaps, and they have drawn attention from both financial markets and European institutions.</p><p>The 2027 state-budget deficit is reported at 281.2 billion złoty, up from 271.7 billion złoty in the 2026 budget law, reinforcing a directional trend that Fitch said lacks a credible consolidation path. The agency specifically cited political obstacles, including the possibility of presidential vetoes on legislation, as constraints on the government&#x27;s capacity to enact meaningful reform. That institutional friction has added a layer of uncertainty that analysts say is already visible in risk pricing on Polish sovereign debt.</p><h3>Security Spending, Election Calculus and a Government Under Fire</h3><p>Prime Minister Donald Tusk&#x27;s administration has defended its expenditure profile by pointing to Poland&#x27;s strategic position on NATO&#x27;s eastern flank and the genuine security pressures arising from Russia&#x27;s war in Ukraine. Officials argue that elevated defense commitments, public investment and EU fund absorption represent necessary outlays rather than structural profligacy, and that Poland&#x27;s large, diversified economy and credible monetary institutions provide a buffer that smaller peers do not enjoy. That argument carries some weight: Fitch itself acknowledged Poland&#x27;s economic scale and external financial soundness even as it flagged the deficit concern.</p><p>Opposition parties, however, have pressed a sharper critique. They contend that the government has offered no convincing road map back to sustainable deficits and that new pre-election commitments are taking priority over structural reform. The ongoing confrontation between the government and the presidency has deepened that argument, presenting an image of fiscal policy driven by political positioning rather than long-term discipline. For EU partners, the concern is practical as well as reputational: persistent Polish deficits could complicate compliance with the bloc&#x27;s reformed fiscal rules and reduce the country&#x27;s capacity to respond to a future economic shock.</p><p>For ordinary Polish households, the consequences of the current trajectory are unlikely to arrive as a sudden crisis. They are more likely to materialise gradually, through higher borrowing costs as risk premiums widen, through pressure on public services, or through future tax increases. That gradual quality makes the problem politically manageable in the short term but structurally more difficult to address the longer consolidation is deferred.</p><h3>Fuel Subsidies, Stubborn Inflation and the Cost of Temporary Relief</h3><p>Running alongside the fiscal debate is a separate but related controversy over the government&#x27;s use of fuel-price interventions. Tax reductions and price-support mechanisms have been deployed to limit pump prices and, in the government&#x27;s framing, to contain headline inflation. The immediate rationale is straightforward: fuel is a highly visible expense that feeds into transport, food distribution and industrial costs, and lower-income households typically spend a disproportionate share of their income on energy and transport.</p><p>The available data, however, complicate the government&#x27;s narrative. Preliminary September figures put consumer price inflation at 4.0% year on year, with energy prices up 4.9% and fuel prices rising 36.1% over the same period. The 2027 budget has been constructed on an assumption of 2.8% average inflation, a figure that analysts described as optimistic given that the September reading was 4.0% and pressure was expected to intensify in the final quarter of the year. If that assumption proves incorrect, spending projections and revenue forecasts will both require revision.</p><p>The opposition&#x27;s distributional critique adds a further dimension: fuel subsidies tend to benefit those who drive more, own larger or less fuel-efficient vehicles, and consume more energy overall, rather than the lowest-income households most exposed to cost-of-living pressures. For the National Bank of Poland, the policy mix presents a delicate challenge: if fiscal support keeps aggregate demand elevated, the central bank may find its own effort to anchor inflation expectations undermined by the very measures the government is using to claim credit for relief. Poland&#x27;s situation also illustrates a broader EU dilemma, in which governments seeking to shield voters from energy shocks risk entrenching the fiscal and inflationary conditions they are trying to resolve. The critical question, as European fiscal surveillance intensifies, is whether Poland&#x27;s interventions remain genuinely temporary and targeted, or evolve into a recurring pre-election mechanism that keeps both deficits and price pressures persistently high.</p>",
+      "keywords": "Poland, fiscal deficit, Fitch Ratings, sovereign credit rating, negative outlook, budget, defense spending, inflation, fuel prices, cost of living, EU fiscal rules, National Bank of Poland, Warsaw, European Union, public finances",
+      "sources": "Fitch Ratings sovereign review, Poland A- rating with negative outlook; Polish government 2026 budget law, deficit figure 271.7 billion złoty; Polish government 2027 draft budget, deficit figure 281.2 billion złoty and 2.8% inflation assumption; Polish Central Statistical Office preliminary September consumer price data, 4.0% CPI, 4.9% energy, 36.1% fuel",
+      "pubDate": "2026-10-24",
+      "chartData": {
+        "values": [
+          6.9,
+          6.7,
+          3.0,
+          4.0
+        ],
+        "labels": [
+          "Poland Deficit 2026 (% GDP)",
+          "Poland Deficit 2027 (% GDP)",
+          "Peer Median Deficit (% GDP)",
+          "Poland CPI Sept YoY (%)"
+        ]
+      }
+    },
     {
       "id": "article-2b6479a",
       "title": "Romania's Fragile New Government Faces Twin Crises of Deficit and Inflation",
@@ -16168,6 +16194,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261024-poland",
+      "title": "Poland's Fiscal Credibility Under Pressure · 24 Oct",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "duration": "8:33",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Poland_Episode_2026_10_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 308,
+      "keywords": "Poland, fiscal deficit, Fitch Ratings, sovereign credit rating, negative outlook, budget, defense spending, inflation, fuel prices, cost of living, EU fiscal rules, National Bank of Poland, Warsaw, European Union, public finances",
+      "notes": "Poland faces mounting questions over the sustainability of its public finances after Fitch Ratings assigned a negative outlook to its A- sovereign rating, citing a general-government deficit expected to reach 6.9% of GDP in 2026. The government's case rests on security imperatives and economic resilience, but critics argue that pre-election spending and political paralysis are crowding out credible fiscal reform. Meanwhile, fuel-price interventions designed to ease household pressures have failed to push inflation below 4%, complicating both the budgetary picture and the central bank's task.",
+      "pubDate": "2026-10-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Poland_Episode_2026_10_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Poland_Short_2026_10_24.mp4"
+    },
     {
       "id": "episode-20261022-romania",
       "title": "Romania's Fragile New Government Faces Twin Crises of Deficit and Inflation · 22 Oct",
