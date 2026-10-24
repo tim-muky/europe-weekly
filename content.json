@@ -1,5 +1,5 @@
 {
-  "version": 1792818467760,
+  "version": 1792818687201,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-748653c",
+      "title": "Lithuania Faces a Fiscal Reckoning as Defence Ambitions Collide With Social Promises",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "excerpt": "Lithuania is pushing defence spending toward 5% of GDP while simultaneously raising pensions and public wages, creating a fiscal trajectory that concerns both domestic critics and EU institutions. Independent projections suggest the budget deficit could breach the EU's 3% reference value by 2027, raising questions about long-term sustainability. The government argues its security obligations are non-negotiable and its debt levels remain well within European limits, but the political and economic costs are becoming harder to ignore.",
+      "body": "<h3>A Security Bill That Europe Is Watching</h3><p>Lithuania&#x27;s government has built its draft 2027 budget around an extraordinary security commitment: approximately 4.8 billion euros, equivalent to roughly 5% of GDP, allocated to defence. The figure reflects Lithuania&#x27;s exposed position on NATO&#x27;s eastern flank and the ongoing war in Ukraine, but it also sets in motion a fiscal calculation with consequences that extend well beyond the defence ministry.</p><p>The government&#x27;s own projections put the 2027 deficit at 3.8% of GDP, above the EU&#x27;s 3% Maastricht reference value. Independent estimates are somewhat less severe. The European Commission projects the deficit rising to 2.7% of GDP in 2027, while the OECD places it closer to 3.3%, reinforcing concerns that fiscal pressure is building even under more optimistic scenarios. Public debt, meanwhile, is expected to reach approximately 48.4% of GDP by 2027, according to EU projections.</p><p>The trajectory is already visible in the data. Eurostat figures show Lithuania&#x27;s deficit rose from 1.3% of GDP in 2024 to 1.8% in 2025, while public debt increased from 38.0% to 39.5% of GDP over the same period. The direction of travel is upward, and the pace is accelerating as defence, social transfers and interest payments all draw simultaneously on public resources.</p><h3>Wages, Pensions and the Politics of Household Pain</h3><p>The defence debate does not occur in a vacuum. The government has paired its security commitments with a set of domestic promises: higher pensions, increased public-sector wages and new labour protections targeting platform workers at companies such as Wolt and Bolt. Officials argue these measures are overdue, pointing to the cost-of-living shock that squeezed Lithuanian households in recent years and the need to maintain public support for a demanding security agenda.</p><p>Yet the economic backdrop complicates the arithmetic. The Bank of Lithuania projects average inflation at around 5.1% in 2026, easing to 3.1% in 2027. That is disinflation, not a return to low prices, meaning households may still feel poorer even as nominal wages rise. GDP growth is projected at 2.7% in 2026 and 2.4% in 2027, according to the central bank, figures that are positive but not strong enough to absorb simultaneous increases in defence costs, social spending and debt-service obligations without trade-offs elsewhere.</p><p>The government has also moved to tighten rules governing self-employed work by non-EU students, a step it frames as preventing labour-market abuse. Business groups and opposition voices warn the measure could reduce labour supply in sectors already facing shortages, raising costs for consumers in the process. The platform-economy regulations add a separate layer of complexity, potentially improving conditions for delivery and gig workers while increasing operational costs for companies that have become embedded in daily Lithuanian life.</p><h3>Credibility at Stake as Competing Demands Mount</h3><p>Opposition critics have focused much of their fire on Finance Minister Taurimas Valys, framing the fiscal outlook not merely as a policy disagreement over defence priorities but as a question of competence and budget management. Their core argument is that the government is making promises it may struggle to keep: higher defence outlays, rising pensions and wages, and sustained public investment, all funded by revenue assumptions that could prove optimistic if export demand weakens or growth disappoints.</p><p>The government&#x27;s rebuttal rests on two pillars. First, the security argument: Russia&#x27;s war against Ukraine and Lithuania&#x27;s geography make elevated defence spending a strategic necessity rather than a political choice, and that case retains broad public legitimacy. Second, the debt argument: even a debt level of 48.4% of GDP would remain well below the EU&#x27;s 60% reference threshold, suggesting Lithuania retains meaningful fiscal headroom relative to many of its peers.</p><p>Neither argument fully resolves the underlying tension. The immediate risk for citizens is not a sudden collapse in public finances but a steady narrowing of future options. Less room for tax relief, reduced capacity to fund public services, and greater vulnerability to external shocks are the practical consequences of a rising deficit and debt trajectory. If debt-service costs climb, future governments may face explicit choices between defence, social programmes and infrastructure investment that the current administration has sought to avoid. Lithuania&#x27;s ability to present itself as a fiscally credible NATO member while meeting domestic social expectations may prove the defining political challenge of the next budget cycle.</p>",
+      "keywords": "Lithuania, defence spending, fiscal deficit, NATO, EU fiscal rules, Maastricht criteria, pensions, wages, inflation, platform workers, migration, labour market, European Commission, OECD, Bank of Lithuania, Taurimas Valys, budget 2027, public debt, eastern flank",
+      "sources": "Bank of Lithuania economic projections (2026–2027); Eurostat fiscal data for Lithuania (2024–2025); European Commission fiscal sustainability projections for Lithuania (2027); OECD economic outlook projections for Lithuania (2027); Lithuanian government draft 2027 budget documentation",
+      "pubDate": "2026-10-24",
+      "chartData": {
+        "values": [
+          1.3,
+          1.8,
+          2.7,
+          3.3
+        ],
+        "labels": [
+          "Deficit 2024 (Eurostat)",
+          "Deficit 2025 (Eurostat)",
+          "Deficit 2027 (EC projection)",
+          "Deficit 2027 (OECD projection)"
+        ]
+      }
+    },
     {
       "id": "article-a79ec85",
       "title": "Latvia Faces Coalition Uncertainty and Fiscal Squeeze as New Government Takes Shape",
@@ -16220,6 +16246,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261024-lithuania",
+      "title": "Lithuania Faces a Fiscal Reckoning as Defence Ambitions Collide With Social… · 24 Oct",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "8:27",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Lithuania_Episode_2026_10_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 310,
+      "keywords": "Lithuania, defence spending, fiscal deficit, NATO, EU fiscal rules, Maastricht criteria, pensions, wages, inflation, platform workers, migration, labour market, European Commission, OECD, Bank of Lithuania, Taurimas Valys, budget 2027, public debt, eastern flank",
+      "notes": "Lithuania is pushing defence spending toward 5% of GDP while simultaneously raising pensions and public wages, creating a fiscal trajectory that concerns both domestic critics and EU institutions. Independent projections suggest the budget deficit could breach the EU's 3% reference value by 2027, raising questions about long-term sustainability. The government argues its security obligations are non-negotiable and its debt levels remain well within European limits, but the political and economic costs are becoming harder to ignore.",
+      "pubDate": "2026-10-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Lithuania_Episode_2026_10_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_24/Lithuania_Short_2026_10_24.mp4"
+    },
     {
       "id": "episode-20261024-latvia",
       "title": "Latvia Faces Coalition Uncertainty and Fiscal Squeeze · 24 Oct",
