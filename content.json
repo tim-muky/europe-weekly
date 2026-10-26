@@ -1,5 +1,5 @@
 {
-  "version": 1792994832924,
+  "version": 1792995046810,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a122292",
+      "title": "Ireland's Public-Sector Strike Exposes the Fault Lines Beneath a Prosperous Economy",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "More than 300,000 Irish public-sector workers walked off the job in a dispute that goes beyond wages, raising fundamental questions about how the state distributes its wealth. Ireland's headline budget surpluses mask a growing dependence on corporation-tax receipts from a handful of multinationals, making the government's room for manoeuvre less certain than it appears. The standoff between unions and ministers has opened a wider debate about whether Ireland's prosperity is built on durable foundations.",
+      "body": "<h3>A Strike That Stopped Schools, Hospitals and Government Offices</h3><p>In a country that has grown accustomed to surplus budgets and strong growth figures, the sight of more than 300,000 teachers, nurses, civil servants and other public employees on strike came as a jarring reminder that national wealth and household security are not the same thing. The industrial action disrupted schools and hospitals across Ireland, forcing the closure of classrooms and lengthening queues in an already strained health system.</p><p>The dispute centres on a proposed public-sector pay agreement whose terms unions say are inadequate to compensate for a cost-of-living gap they estimate at between five and seven percent relative to recent inflation. Workers argue that the government is asking them to negotiate away purchasing power they have already lost before meaningful talks have even begun. The government, for its part, has pointed to a €1.2 billion allocation in Budget 2027 as evidence of its commitment to reaching a settlement, while insisting that any deal must deliver measurable productivity gains and service improvements.</p><p>The suspension of a planned second strike and the opening of talks at the Workplace Relations Commission have created a narrow path toward compromise, but the underlying tensions remain unresolved. The scale and breadth of the walkout signal frustration that is genuine and deep, even if the political conditions for a negotiated outcome still exist.</p><h3>Two Arguments, One Budget Line</h3><p>The government and the unions are not entirely talking past each other, but they are emphasising different parts of the same problem. Ministers argue that fiscal responsibility demands that pay increases be tied to reform, and that the €1.2 billion envelope already represents a significant commitment. Unions counter that cost-of-living compensation is a prerequisite for talks, not a prize to be earned through productivity concessions that have yet to be defined.</p><p>Opposition parties have sought to reframe the dispute altogether. Their argument is that the government is presenting what is fundamentally a workforce planning and management failure as a problem of worker productivity. Public services, they contend, cannot be repaired through deals that fail to make state employment competitive enough to retain and attract staff. That critique resonates in a labour market where housing costs and private-sector wages have pushed many public employees to reconsider their career choices.</p><p>The fact-check on the competing claims yields a mixed verdict. Unions have the stronger immediate case on purchasing power: the evidence that earlier pay rises failed to keep pace with inflation is credible, even if the precise shortfall varies across different grades and sectors. The government&#x27;s affordability argument is also legitimate, but fiscal caution alone does not disprove the unions&#x27; underlying claim. The question of what a sustainable settlement looks like depends heavily on assumptions about future revenue that are themselves contested.</p><h3>The Corporation-Tax Question That Shadows Every Budget</h3><p>Behind the pay dispute lies a larger and less comfortable conversation about the foundations of Ireland&#x27;s apparent prosperity. The state&#x27;s strong budget position is in significant part a product of corporation-tax receipts that flow disproportionately from a small number of large multinational companies. Economists and opposition politicians have warned that treating this revenue stream as a reliable basis for permanent spending commitments carries meaningful risk.</p><p>The concern is not that Ireland lacks money today. It is that the gap between what the state collects and what it can durably afford to spend may be narrower than the headline surplus suggests. International tax rule changes, shifts in multinational investment patterns or a downturn in the technology and pharmaceutical sectors that dominate Ireland&#x27;s corporate tax base could all reduce receipts sharply and rapidly. If wages, services and infrastructure investment have been expanded on the assumption that current revenues will persist, the adjustment in a downward scenario would be painful.</p><p>For ordinary citizens, the stakes on both issues are closely connected. A generous pay settlement funded by today&#x27;s surpluses improves services and household incomes in the short term. But if the revenue base proves fragile, the same citizens could face spending cuts or tax increases precisely when the economy is already under pressure. Ireland&#x27;s experience is also a microcosm of a broader European dilemma: how to finance national public services in an era shaped by highly mobile corporate profits, international tax competition and rules that are still being rewritten in Brussels and at the OECD. The path between adequately funding the state and overextending it on the basis of volatile receipts is narrower than the current budget balance makes it appear, and the public-sector pay dispute has brought that tension into sharp relief.</p>",
+      "keywords": "Ireland, public sector strike, pay dispute, corporation tax, fiscal risk, multinationals, unions, Budget 2027, Workplace Relations Commission, public services, inflation, European economy",
+      "sources": "Irish government Budget 2027 documentation; Workplace Relations Commission proceedings; trade union statements on cost-of-living compensation; opposition party analysis of public workforce planning; Department of Finance fiscal statements; OECD international tax reform framework discussions",
+      "pubDate": "2026-10-26",
+      "chartData": {
+        "values": [
+          1.2,
+          5.0,
+          7.0
+        ],
+        "labels": [
+          "Government pay allocation (€bn)",
+          "Union estimated real-wage gap lower bound (%)",
+          "Union estimated real-wage gap upper bound (%)"
+        ]
+      }
+    },
     {
       "id": "article-e6e5907",
       "title": "Finland's Austerity Reckoning: A Welfare State Tests the Limits of Fiscal Discipline",
@@ -16272,6 +16296,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261026-ireland",
+      "title": "Ireland's Public-Sector Strike Exposes the Fault Lines Beneath a Prosperous… · 26 Oct",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:08",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_26/Ireland_Episode_2026_10_26.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 312,
+      "keywords": "Ireland, public sector strike, pay dispute, corporation tax, fiscal risk, multinationals, unions, Budget 2027, Workplace Relations Commission, public services, inflation, European economy",
+      "notes": "More than 300,000 Irish public-sector workers walked off the job in a dispute that goes beyond wages, raising fundamental questions about how the state distributes its wealth. Ireland's headline budget surpluses mask a growing dependence on corporation-tax receipts from a handful of multinationals, making the government's room for manoeuvre less certain than it appears. The standoff between unions and ministers has opened a wider debate about whether Ireland's prosperity is built on durable foundations.",
+      "pubDate": "2026-10-26",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_26/Ireland_Episode_2026_10_26.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_10_26/Ireland_Short_2026_10_26.mp4"
+    },
     {
       "id": "episode-20261026-finland",
       "title": "Finland's Austerity Reckoning: A Welfare State Tests the Limits of Fiscal… · 26 Oct",
