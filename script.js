@@ -207,23 +207,26 @@ function _mergeProtectedSettings(incoming, local) {
 // try/catch, so it was mistaken for "offline" and the page rendered EMPTY data.
 // Never let a cache write decide what renders, and drop the copy when it can't
 // be refreshed, so an outdated one can never be served or pushed later.
-function readCache() {
+// The public pages' per-file copies (loadDataFile) use the same two functions.
+function readCache(key = CMS_KEY) {
   try {
-    const raw = localStorage.getItem(CMS_KEY);
+    const raw = localStorage.getItem(key);
     return raw ? JSON.parse(raw) : null;
   } catch (e) { return null; }            // corrupt or storage blocked
 }
 
-function writeCache(data) {
+function writeCache(data, key = CMS_KEY) {
   try {
-    localStorage.setItem(CMS_KEY, JSON.stringify(data));
+    localStorage.setItem(key, JSON.stringify(data));
     return true;
   } catch (e) {
-    try { localStorage.removeItem(CMS_KEY); } catch (_) { /* storage blocked */ }
+    try { localStorage.removeItem(key); } catch (_) { /* storage blocked */ }
     return false;
   }
 }
 
+// Full content.json — the admin page only. Public pages read the small derived
+// files under data/ instead (see PUBLIC DATA below).
 async function getData() {
   const token   = getGHToken();
   const isAdmin = document.body?.classList.contains('admin-page');
@@ -274,6 +277,80 @@ function setData(data) {
   if (!writeCache(data)) {
     console.warn('Local cache not updated (content.json exceeds this browser\'s storage quota). Unpushed edits will not survive a reload.');
   }
+}
+
+// ── PUBLIC DATA ───────────────────────────────
+// Public pages never download the whole content.json (~5MB). They read small
+// files that scripts/build_data.py derives from it on every content.json change
+// (regen-rss Action): data/index.json for navigation, plus one file per article,
+// episode, list page, category and static page. Each file keeps a best-effort
+// localStorage copy that is read only when the network fails.
+
+const DATA_DIR       = 'data/';
+const DATA_CACHE_KEY = 'ew-data:';
+const EMPTY_INDEX    = {
+  settings: {}, categories: [], latestArticles: [], latestEpisodes: [],
+  articleCount: 0, episodeCount: 0, articleListPages: 0, episodeListPages: 0
+};
+
+// Resolves to the parsed file, or null when it does not exist or cannot be loaded.
+async function loadDataFile(path) {
+  const key = DATA_CACHE_KEY + path;
+  let res;
+  try {
+    res = await fetch(DATA_DIR + path, { cache: 'no-cache' });   // revalidate: 304 when unchanged
+  } catch (e) {
+    return readCache(key);                                       // offline
+  }
+  // A missing file is a 404, or — on Cloudflare Pages, which has no 404.html
+  // here — the home page served as text/html. Either way the item is gone.
+  if (res.status === 404 || (res.ok && !/json/.test(res.headers.get('content-type') || ''))) {
+    try { localStorage.removeItem(key); } catch (_) { /* storage blocked */ }
+    return null;
+  }
+  try {
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    writeCache(data, key);
+    return data;
+  } catch (e) {
+    return readCache(key);                                       // server error, bad body
+  }
+}
+
+async function getIndex() {
+  return Object.assign({}, EMPTY_INDEX, await loadDataFile('index.json'));
+}
+
+// kind: 'articles' | 'episodes' | 'categories' | 'pages'. Ids are file names, so
+// only the characters build_data.py writes files for are accepted.
+function getItem(kind, id) {
+  if (typeof id !== 'string' || !/^[A-Za-z0-9_-]+$/.test(id)) return Promise.resolve(null);
+  return loadDataFile(`${kind}/${id}.json`);
+}
+
+// Loads data/lists/<kind>-<n>.json in order, on demand, handing each batch of
+// new items to onItems(items, startIndex). ensure() calls run one after another.
+function pagedList(kind, pages, onItems) {
+  const seen = new Set();
+  let loaded = 0, count = 0, chain = Promise.resolve();
+  return {
+    get done()  { return loaded >= pages; },
+    get count() { return count; },
+    ensure(n) {  // resolves once at least n items are loaded, or every file is
+      const run = chain.then(async () => {
+        while (count < n && loaded < pages) {
+          const page  = (await loadDataFile(`lists/${kind}-${++loaded}.json`)) || [];
+          const fresh = page.filter(it => it && !seen.has(it.id));
+          fresh.forEach(it => seen.add(it.id));
+          onItems(fresh, count);
+          count += fresh.length;
+        }
+      });
+      chain = run.catch(e => console.warn(`Loading the ${kind} list failed:`, e));
+      return chain;
+    }
+  };
 }
 
 // ── IMAGE COMPRESSION ─────────────────────────
@@ -597,14 +674,14 @@ function initPlayer(total, prefix, audioUrl) {
 function renderNav(data) {
   const al = document.getElementById('nav-articles');
   const el = document.getElementById('nav-episodes');
-  if (al) al.innerHTML = data.articles.slice(0, 5).map(a => `<li><a href="article.html?id=${a.id}">${escHtml(a.title)}</a></li>`).join('');
-  if (el) el.innerHTML = data.episodes.slice(0, 5).map(e => `<li><a href="episode.html?id=${e.id}">${escHtml(e.title)}</a></li>`).join('');
+  if (al) al.innerHTML = data.latestArticles.slice(0, 5).map(a => `<li><a href="article.html?id=${a.id}">${escHtml(a.title)}</a></li>`).join('');
+  if (el) el.innerHTML = data.latestEpisodes.slice(0, 5).map(e => `<li><a href="episode.html?id=${e.id}">${escHtml(e.title)}</a></li>`).join('');
 }
 
 // ── HOME ──────────────────────────────────────
 
 async function initHome() {
-  const data = await getData();
+  const data = await getIndex();
   renderNav(data);
   renderFooter(data);
   setPageMeta({ url: `${SITE_URL}/` });
@@ -616,7 +693,7 @@ async function initHome() {
     if (header) header.style.backgroundImage = `url('${bgImg}')`;
   }
 
-  const art = data.articles[0];
+  const art = await getItem('articles', data.latestArticles[0]?.id);
   if (art) {
     const tl = document.getElementById('preview-title-link');
     if (tl) tl.href = `article.html?id=${art.id}`;
@@ -631,7 +708,7 @@ async function initHome() {
     else if (homeChartWrap) { homeChartWrap.style.display = 'none'; }
   }
 
-  const ep = data.episodes[0];
+  const ep = data.latestEpisodes[0];
   if (ep) {
     document.getElementById('ep-title').textContent = ep.title;
     document.getElementById('ep-tags').innerHTML    = tagsHTML(data, ep.categories);
@@ -647,12 +724,13 @@ async function initHome() {
 // ── ARTICLE DETAIL ────────────────────────────
 
 async function initArticle() {
-  const data = await getData();
+  const idParam = new URLSearchParams(location.search).get('id');
+  const [data, item] = await Promise.all([getIndex(), getItem('articles', idParam)]);
   renderNav(data);
   renderFooter(data);
 
-  const id  = new URLSearchParams(location.search).get('id') ?? data.articles[0]?.id;
-  const art = data.articles.find(a => a.id === id);
+  // No ?id= at all → newest article (as before); an unknown id → "not found".
+  const art = idParam !== null ? item : await getItem('articles', data.latestArticles[0]?.id);
   if (!art) { document.getElementById('article-content').innerHTML = '<p>Article not found.</p>'; return; }
 
   setPageMeta({
@@ -720,14 +798,12 @@ async function initArticle() {
       ? `<h3 class="sources-heading">Sources</h3><p class="sources-text">${escHtml(art.sources)}</p>` : '';
   }
 
-  // Related articles: same category first, then fill to 3 from other articles
+  // Related articles (same category first, then fill to 3 from other articles)
+  // are picked by build_data.py, which sees every article.
   const relWrap = document.getElementById('related-articles');
   const relList = document.getElementById('related-list');
   if (relWrap && relList) {
-    const others = data.articles.filter(a => a.id !== art.id);
-    const sameCategory = others.filter(a => a.categories.some(c => art.categories.includes(c)));
-    const rest = others.filter(a => !a.categories.some(c => art.categories.includes(c)));
-    const related = [...sameCategory, ...rest].slice(0, 3);
+    const related = art.related || [];
     if (related.length) {
       relList.innerHTML = related.map(a => `
         <a href="article.html?id=${a.id}" class="related-card">
@@ -743,7 +819,7 @@ async function initArticle() {
 // ── ARTICLES LIST ─────────────────────────────
 
 async function initArticlesList() {
-  const data = await getData();
+  const data = await getIndex();
   renderFooter(data);
   setPageMeta({
     title:       'All Articles',
@@ -772,34 +848,46 @@ async function initArticlesList() {
   const moreWrap    = document.getElementById('articles-more-wrap');
   const moreBtn     = document.getElementById('articles-more-btn');
 
-  if (!data.articles.length) {
+  if (!data.articleCount) {
     container.innerHTML = '<p class="no-results">No articles yet.</p>';
     return;
   }
 
-  // Render all cards (hidden beyond page 1); search works across all of them
-  container.innerHTML = data.articles.map((a, i) =>
-    articleCard(a).replace('class="cat-item"',
-      `class="cat-item"${i >= PAGE_SIZE ? ' style="display:none"' : ''} data-page-idx="${i}"`)
-  ).join('');
+  // Cards arrive one list file (50 articles) at a time, hidden beyond what is
+  // shown. "Load more" fetches the next file when it runs out; the first search
+  // loads every file, since search works across all articles.
+  let shown = Math.min(PAGE_SIZE, data.articleCount);
+  const list = pagedList('articles', data.articleListPages, (items, start) => {
+    container.insertAdjacentHTML('beforeend', items.map((a, i) =>
+      articleCard(a).replace('class="cat-item"',
+        `class="cat-item"${start + i >= shown ? ' style="display:none"' : ''} data-page-idx="${start + i}"`)
+    ).join(''));
+  });
+  const total = () => list.done ? list.count : data.articleCount;
 
-  let shown = Math.min(PAGE_SIZE, data.articles.length);
-  if (moreWrap) moreWrap.style.display = data.articles.length > PAGE_SIZE ? '' : 'none';
+  await list.ensure(shown);
+  if (moreWrap) moreWrap.style.display = total() > shown ? '' : 'none';
 
   if (moreBtn) {
-    moreBtn.addEventListener('click', () => {
+    moreBtn.addEventListener('click', async () => {
       const next = shown + PAGE_SIZE;
+      await list.ensure(next);
       container.querySelectorAll('.cat-item[data-page-idx]').forEach(el => {
         const idx = parseInt(el.dataset.pageIdx, 10);
         if (idx < next) el.style.display = '';
       });
-      shown = Math.min(next, data.articles.length);
-      if (shown >= data.articles.length && moreWrap) moreWrap.style.display = 'none';
+      shown = Math.min(next, total());
+      if (shown >= total() && moreWrap) moreWrap.style.display = 'none';
     });
   }
 
   if (searchInput) {
-    searchInput.addEventListener('input', () => {
+    searchInput.addEventListener('input', async () => {
+      if (searchInput.value.trim() && !list.done) {
+        if (countEl) countEl.textContent = 'Searching…';
+        await list.ensure(Infinity);
+      }
+      // Read the query only now: more keystrokes may have arrived while loading.
       const q = searchInput.value.trim().toLowerCase();
       let visible = 0;
       container.querySelectorAll('.cat-item').forEach(el => {
@@ -816,7 +904,7 @@ async function initArticlesList() {
         }
         if (match && (q || parseInt(el.dataset.pageIdx, 10) < shown)) visible++;
       });
-      if (moreWrap) moreWrap.style.display = q ? 'none' : (shown < data.articles.length ? '' : 'none');
+      if (moreWrap) moreWrap.style.display = q ? 'none' : (shown < total() ? '' : 'none');
       if (countEl)  countEl.textContent = q ? `${visible} result${visible !== 1 ? 's' : ''}` : '';
     });
   }
@@ -825,7 +913,7 @@ async function initArticlesList() {
 // ── EPISODES LIST ─────────────────────────────
 
 async function initEpisodesList() {
-  const data = await getData();
+  const data = await getIndex();
   renderFooter(data);
   setPageMeta({
     title:       'Podcast Episodes',
@@ -844,7 +932,7 @@ async function initEpisodesList() {
   const epMoreWrap   = document.getElementById('episodes-more-wrap');
   const epMoreBtn    = document.getElementById('episodes-more-btn');
 
-  if (!data.episodes.length) {
+  if (!data.episodeCount) {
     container.innerHTML = '<p class="no-results">No episodes yet.</p>';
     return;
   }
@@ -852,8 +940,13 @@ async function initEpisodesList() {
   // Outer element is a <div>, not <a> — episode cards contain <a class="tag"> links,
   // and nested <a> tags are invalid HTML (browsers auto-close the outer one, breaking
   // layout). Title link uses ::after to cover the full card; tags sit above via z-index.
-  container.innerHTML = data.episodes.map((ep, i) => `
-      <div class="ep-list-card" data-ep-idx="${i}"${i >= EP_PAGE_SIZE ? ' style="display:none"' : ''}>
+  // Cards arrive one list file (50 episodes) at a time, like the articles list.
+  let epShown = Math.min(EP_PAGE_SIZE, data.episodeCount);
+  const list = pagedList('episodes', data.episodeListPages, (eps, start) => {
+    container.insertAdjacentHTML('beforeend', eps.map((ep, j) => {
+      const i = start + j;
+      return `
+      <div class="ep-list-card" data-ep-idx="${i}"${i >= epShown ? ' style="display:none"' : ''}>
         <a href="episode.html?id=${ep.id}" class="ep-list-thumb-link" tabindex="-1" aria-hidden="true">${epThumb(ep)}</a>
         <div class="ep-list-body">
           <span class="episode-badge ep-list-badge">S${ep.season || 1} · E${ep.episodeNumber || 1}</span>
@@ -861,19 +954,23 @@ async function initEpisodesList() {
           <div class="cat-item-tags">${tagsHTML(data, ep.categories)}</div>
           ${ep.notes ? `<p class="ep-list-notes">${escHtml(ep.notes.slice(0, 120))}${ep.notes.length > 120 ? '…' : ''}</p>` : ''}
         </div>
-      </div>`).join('');
+      </div>`;
+    }).join(''));
+  });
+  const total = () => list.done ? list.count : data.episodeCount;
 
-  let epShown = Math.min(EP_PAGE_SIZE, data.episodes.length);
-  if (epMoreWrap) epMoreWrap.style.display = data.episodes.length > EP_PAGE_SIZE ? '' : 'none';
+  await list.ensure(epShown);
+  if (epMoreWrap) epMoreWrap.style.display = total() > epShown ? '' : 'none';
 
   if (epMoreBtn) {
-    epMoreBtn.addEventListener('click', () => {
+    epMoreBtn.addEventListener('click', async () => {
       const next = epShown + EP_PAGE_SIZE;
+      await list.ensure(next);
       container.querySelectorAll('.ep-list-card[data-ep-idx]').forEach(el => {
         if (parseInt(el.dataset.epIdx, 10) < next) el.style.display = '';
       });
-      epShown = Math.min(next, data.episodes.length);
-      if (epShown >= data.episodes.length && epMoreWrap) epMoreWrap.style.display = 'none';
+      epShown = Math.min(next, total());
+      if (epShown >= total() && epMoreWrap) epMoreWrap.style.display = 'none';
     });
   }
 }
@@ -881,9 +978,9 @@ async function initEpisodesList() {
 // ── CATEGORY ─────────────────────────────────
 
 async function initCategory() {
-  const data  = await getData();
-  renderFooter(data);
   const id    = new URLSearchParams(location.search).get('id');
+  const [data, items] = await Promise.all([getIndex(), getItem('categories', id)]);
+  renderFooter(data);
   const cat   = data.categories.find(c => c.id === id);
   const label = cat?.label ?? id ?? 'Category';
 
@@ -894,8 +991,8 @@ async function initCategory() {
   });
   document.getElementById('cat-heading').textContent = label;
 
-  const arts = data.articles.filter(a => a.categories.includes(id));
-  const eps  = data.episodes.filter(e => e.categories.includes(id));
+  const arts = items?.articles || [];
+  const eps  = items?.episodes || [];
 
   document.getElementById('cat-articles').innerHTML = arts.length
     ? arts.map(a => `<div class="cat-item"><a href="article.html?id=${a.id}" class="cat-item-title">${escHtml(a.title)}</a><div class="cat-item-tags">${tagsHTML(data, a.categories)}</div><p class="cat-item-excerpt">${escHtml(a.excerpt)}</p></div>`).join('')
@@ -909,24 +1006,25 @@ async function initCategory() {
 // ── STATIC PAGES (About / Imprint) ───────────
 
 async function initPage(pageKey, titleText) {
-  const data = await getData();
+  const [data, page] = await Promise.all([getIndex(), getItem('pages', pageKey)]);
   renderFooter(data);
   setPageMeta({
     title: titleText,
     url:   `${SITE_URL}/${pageKey}.html`
   });
   const el = document.getElementById('page-content');
-  if (el) el.innerHTML = renderHTML(data.pages?.[pageKey] || '');
+  if (el) el.innerHTML = renderHTML(page?.content || '');
 }
 
 // ── EPISODE DETAIL ────────────────────────────
 
 async function initEpisodePage() {
-  const data = await getData();
+  const idParam = new URLSearchParams(location.search).get('id');
+  const [data, item] = await Promise.all([getIndex(), getItem('episodes', idParam)]);
   renderFooter(data);
 
-  const id = new URLSearchParams(location.search).get('id') ?? data.episodes[0]?.id;
-  const ep = data.episodes.find(e => e.id === id);
+  // No ?id= at all → newest episode (as before); an unknown id → "not found".
+  const ep = idParam !== null ? item : await getItem('episodes', data.latestEpisodes[0]?.id);
   if (!ep) {
     const el = document.getElementById('episode-content');
     if (el) el.innerHTML = '<p style="color:#8ab4cc;padding:20px">Episode not found.</p>';

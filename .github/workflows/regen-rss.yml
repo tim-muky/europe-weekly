@@ -1,10 +1,11 @@
-name: Regenerate RSS feed
+name: Regenerate RSS feed + site data
 
 on:
   push:
     branches: [main]
     paths:
-      - content.json   # only runs when episode/article data changes
+      - content.json             # only runs when episode/article data changes
+      - scripts/build_data.py    # ...or when the derived site data format changes
   workflow_dispatch:     # allow manual trigger from Actions tab
 
 permissions:
@@ -31,14 +32,32 @@ jobs:
       - name: Regenerate podcast-feed.xml
         run: python3 scripts/generate_rss.py
 
-      - name: Commit updated RSS (if changed)
+      # The public pages read data/ (a small index + one file per article,
+      # episode, list page, category and static page) instead of the whole
+      # content.json. It is built here and committed together with the feed, so
+      # a publish is still followed by a single bot push (and Pages deploy).
+      # A failure must never hold back the feed: the feed is committed anyway
+      # and the last step marks the run failed.
+      - name: Rebuild site data (data/)
+        id: data
+        continue-on-error: true
+        run: python3 scripts/build_data.py
+
+      - name: Commit updated RSS + site data (if changed)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add podcast-feed.xml
+          if [ "${{ steps.data.outcome }}" = "success" ]; then git add -A data; fi
           if git diff --cached --quiet; then
-            echo "RSS unchanged — nothing to commit."
+            echo "RSS and site data unchanged — nothing to commit."
           else
-            git commit -m "auto: Regenerate RSS feed from content.json"
+            git commit -m "auto: Regenerate RSS feed + site data from content.json"
             git push
           fi
+
+      - name: Fail if the site data could not be rebuilt
+        if: steps.data.outcome == 'failure'
+        run: |
+          echo "::error::scripts/build_data.py failed, so the public pages still show the previous data/ (the RSS feed was updated)."
+          exit 1
