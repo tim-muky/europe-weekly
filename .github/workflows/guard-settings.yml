@@ -119,6 +119,15 @@ jobs:
           if git diff --cached --quiet; then
             echo "No settings were cleared — nothing to commit."
           else
+            # The public pages read data/, derived from content.json, and they show
+            # two of these fields (footer YouTube link, AI-podcast page). This bot
+            # push does not trigger regen-rss, so rebuild data/ here — but never
+            # let that hold back the restore itself.
+            if python3 scripts/build_data.py; then
+              git add -A data
+            else
+              echo "::warning::scripts/build_data.py failed — data/ not refreshed; the next content.json change will rebuild it."
+            fi
             git commit -m "auto: Restore protected settings cleared by direct commit"
             git push
           fi
