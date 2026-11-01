@@ -200,6 +200,30 @@ function _mergeProtectedSettings(incoming, local) {
   }
 }
 
+// The localStorage copy of content.json is a best-effort cache ONLY. content.json
+// is ~5MB: over Safari's localStorage quota (WebKit counts 2 bytes per char once
+// the text holds any curly quote or accented letter, so ~2.6M chars) and close to
+// Chrome's/Firefox's (~5.2M chars). A failed write used to sit inside the fetch
+// try/catch, so it was mistaken for "offline" and the page rendered EMPTY data.
+// Never let a cache write decide what renders, and drop the copy when it can't
+// be refreshed, so an outdated one can never be served or pushed later.
+function readCache() {
+  try {
+    const raw = localStorage.getItem(CMS_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch (e) { return null; }            // corrupt or storage blocked
+}
+
+function writeCache(data) {
+  try {
+    localStorage.setItem(CMS_KEY, JSON.stringify(data));
+    return true;
+  } catch (e) {
+    try { localStorage.removeItem(CMS_KEY); } catch (_) { /* storage blocked */ }
+    return false;
+  }
+}
+
 async function getData() {
   const token   = getGHToken();
   const isAdmin = document.body?.classList.contains('admin-page');
@@ -208,26 +232,24 @@ async function getData() {
   // This ensures deletions, settings and categories made in the CMS are never
   // overwritten by an older published content.json.
   if (token && isAdmin) {
+    let data = null;
     try {
-      const { data } = await fetchFromGitHub(token);
-      // If GitHub has empty protected fields but localStorage has values the user
-      // previously entered, keep the local values so the form is not blanked out.
-      const localRaw = localStorage.getItem(CMS_KEY);
-      let localCache = null;
-      if (localRaw) { try { localCache = JSON.parse(localRaw); } catch (e) { /* corrupt */ } }
-      _mergeProtectedSettings(data, localCache);
-      localStorage.setItem(CMS_KEY, JSON.stringify(data));
-      return data;
+      ({ data } = await fetchFromGitHub(token));
     } catch (e) {
       console.warn('GitHub fetch failed — falling back to local cache:', e);
+    }
+    if (data) {
+      // If GitHub has empty protected fields but localStorage has values the user
+      // previously entered, keep the local values so the form is not blanked out.
+      _mergeProtectedSettings(data, readCache());
+      writeCache(data);
+      return data;
     }
   }
 
   // Public pages (or no token): compare local cache with published content.json
   // so bot-published updates propagate to returning visitors automatically.
-  const raw = localStorage.getItem(CMS_KEY);
-  let local = null;
-  if (raw) { try { local = JSON.parse(raw); } catch (e) { /* corrupt */ } }
+  const local = readCache();
 
   try {
     const res    = await fetch('content.json?v=' + Date.now());
@@ -236,7 +258,7 @@ async function getData() {
       // Preserve any protected settings the user entered locally that a publish
       // commit may have blanked out.
       _mergeProtectedSettings(remote, local);
-      localStorage.setItem(CMS_KEY, JSON.stringify(remote));
+      writeCache(remote);
       return remote;
     }
   } catch (e) { /* offline – keep cached copy */ }
@@ -246,12 +268,11 @@ async function getData() {
 
 function setData(data) {
   // Stamp with current time so local admin edits are not overwritten by an
-  // older published content.json.
+  // older published content.json. The in-memory object is what gets pushed
+  // (see pushDataToGitHub); the localStorage copy is only a cache.
   data.version = Date.now();
-  try {
-    localStorage.setItem(CMS_KEY, JSON.stringify(data));
-  } catch (e) {
-    alert('Could not save — storage is full. Use an image URL instead of uploading large files directly.');
+  if (!writeCache(data)) {
+    console.warn('Local cache not updated (content.json exceeds this browser\'s storage quota). Unpushed edits will not survive a reload.');
   }
 }
 
@@ -1142,7 +1163,7 @@ function generateSitemap(data) {
 
 // Returns true only when the data actually reached GitHub. Callers must not
 // report "Saved" unless this resolves truthy.
-async function pushDataToGitHub(message) {
+async function pushDataToGitHub(message, data) {
   const token = getGHToken();
   if (!token) {
     // No token → the change only lives in THIS browser's localStorage and will
@@ -1153,9 +1174,13 @@ async function pushDataToGitHub(message) {
     return false;
   }
 
-  const raw = localStorage.getItem(CMS_KEY);
-  if (!raw) return false;
-  const data = JSON.parse(raw);
+  // Push the caller's in-memory data. Reading it back from localStorage is NOT
+  // safe: once content.json outgrew the storage quota the write could fail and
+  // leave an OLDER copy there, and pushing that would delete newer episodes.
+  if (!data || !Array.isArray(data.episodes) || !Array.isArray(data.articles)) {
+    showGHStatus('NOT saved — no data loaded. Reload the admin page and try again.', 'error');
+    return false;
+  }
 
   showGHStatus('Pushing to GitHub…', 'pending');
 
@@ -1217,7 +1242,7 @@ async function initAdmin() {
   }
 
   // Returns the push promise so callers can await real success before showing "Saved ✓".
-  function save(msg) { syncSettingsFromForm(); setData(data); return pushDataToGitHub(msg || 'cms: update'); }
+  function save(msg) { syncSettingsFromForm(); setData(data); return pushDataToGitHub(msg || 'cms: update', data); }
 
   function showSaved(btn) {
     const orig = btn.textContent;
