@@ -1,5 +1,5 @@
 {
-  "version": 1793599587550,
+  "version": 1793599717622,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-12c50c0",
+      "title": "Ireland's Public Finances at a Crossroads: Strike Threat Meets Surplus Illusion",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "Ireland faces a simultaneous test of its fiscal credibility and social stability, as more than 300,000 public-sector workers press for inflation-beating pay rises while the Government prepares to repay €8 billion in EU-IMF bailout loans early. The juxtaposition captures a deeper paradox: a state flush with corporation-tax receipts from multinational companies yet uncertain whether that prosperity is durable. How Dublin navigates the next several months will shape public services, household incomes and the country's reputation as a model post-bailout economy.",
+      "body": "<h3>A Pay Standoff With No Easy Resolution</h3><p>For the first time since 2009, Ireland&#x27;s public sector is on the brink of broad industrial action. More than 300,000 workers, including teachers, nurses and civil servants, have entered a formal dispute with the Government after negotiations on a successor to the 2024–2026 pay agreement collapsed. The central argument concerns not only the size of any new increase but also the sequencing: unions insist that inflation protection must be agreed before any discussion of productivity or changes to working conditions, a precondition the Government has so far resisted.</p><p>The Government points to a strong record under the outgoing deal. It says public-sector pay rose by 22.5% between 2019 and 2025, with the lowest-paid workers receiving increases of 36%. Under the 2024–2026 agreement specifically, pay rose 9.6% against consumer price inflation of 6.6%, a real-terms gain that ministers argue renders claims of sustained purchasing-power losses difficult to sustain. Dublin has also signalled its willingness to engage, allocating €1.2 billion in Budget 2027 for a potential settlement.</p><p>The unions, however, contend that cumulative headline figures obscure a more uncomfortable present reality. With inflation running at 4.1% in September 2026 and the Central Bank projecting an average rate of 3.4% for the full year, workers are again falling behind prices in real time. Union representatives have further argued that once existing pay commitments and ancillary costs are absorbed, the €1.2 billion envelope could translate into an effective increase of only around 2.5%, below current inflation. On the historical record, the Government has the stronger case; on the immediate cost-of-living squeeze, the unions&#x27; argument carries credible weight.</p><h3>Repaying the Bailout, but at What Cost?</h3><p>Alongside the pay dispute, the Government has announced plans to repay €8 billion in loans dating from Ireland&#x27;s EU-IMF bailout a decade and a half ago. The early repayment is projected to save approximately €90 million in interest costs, improves the State&#x27;s balance sheet and allows ministers to present Ireland as a fully restored, fiscally responsible member of the European Union rather than a former crisis case requiring external supervision. For a country that endured one of the most severe austerity programmes in the eurozone, the symbolic dimension is considerable.</p><p>Yet opposition parties and fiscal watchdogs are urging caution about what that surplus actually represents. Ireland&#x27;s buoyant public finances rest to an unusual degree on corporation-tax receipts paid by a relatively small number of large multinational companies. Those receipts are sensitive to changes in global tax rules, shifts in corporate profitability, and strategic investment decisions made in boardrooms far beyond Dublin&#x27;s influence. Critics therefore argue that using exceptional revenues to accelerate debt repayment, rather than addressing persistent deficits in housing, healthcare and infrastructure, carries its own risks. Recurring public expenditure, they warn, should not be built on income that may prove temporary.</p><p>The prudent assessment is that Ireland can afford the repayment under current conditions, but that fiscal security remains contingent rather than structural. National output figures, distorted by the booking of multinational intellectual property and other mobile assets, make GDP an unreliable guide to the true health of the domestic economy. The real test of Ireland&#x27;s fiscal maturity will come if and when corporation-tax receipts weaken, and the Government must demonstrate that core spending commitments remain sustainable on a narrower, more stable revenue base.</p><h3>Two Tests, One Verdict on Durability</h3><p>Taken together, the pay confrontation and the bailout repayment present Irish policymakers with a demanding balancing act. A generous public-sector settlement would ease immediate pressure on household incomes and reduce the risk of disruptive strikes in schools and hospitals, but it would also lock in permanent spending commitments at a moment when the revenue foundations beneath the surplus remain fragile. An overly restrictive offer, on the other hand, risks prolonged industrial action and a deterioration in public services, which would carry its own economic cost.</p><p>For the broader European Union, Ireland functions as a revealing test case. The country&#x27;s recovery from the 2010 bailout has been spectacularly swift by conventional metrics, and the planned debt repayment reinforces that narrative. But the Irish model also illustrates the vulnerabilities of small, open economies that have become structurally reliant on mobile capital and the tax decisions of a handful of technology and pharmaceutical corporations. Any significant revision to international tax arrangements, whether through the OECD&#x27;s ongoing global minimum tax framework or unilateral measures by major trading partners, could rapidly alter Dublin&#x27;s fiscal arithmetic.</p><p>The coming months will be decisive. Formal mediation is under way in the pay dispute, and tentative signs of renewed dialogue have prevented an immediate breakdown. On the fiscal side, the Government faces pressure to articulate a credible long-term spending plan that does not assume exceptional corporation-tax receipts will continue indefinitely. Both questions ultimately circle the same issue: whether Ireland&#x27;s current prosperity represents a durable transformation or a prosperous interlude that demands more cautious stewardship than the headline numbers suggest.</p>",
+      "keywords": "Ireland, public-sector pay, strikes, inflation, EU-IMF bailout, corporation tax, multinational companies, fiscal policy, trade unions, European Union, budget surplus, debt repayment, OECD global minimum tax",
+      "sources": "Irish Government Budget 2027 documentation; Central Bank of Ireland inflation projections 2026; Trade union submissions on public-sector pay; EU-IMF loan repayment announcement, Irish Department of Finance; Irish consumer price index, September 2026",
+      "pubDate": "2026-11-02",
+      "chartData": {
+        "values": [
+          9.6,
+          6.6,
+          4.1,
+          2.5
+        ],
+        "labels": [
+          "Public Pay Rise 2024-26 (%)",
+          "Inflation 2024-26 (%)",
+          "Current Inflation Sept 2026 (%)",
+          "Estimated New Pay Offer (%)"
+        ]
+      }
+    },
     {
       "id": "article-9f59887",
       "title": "Finland Faces a Dual Crisis as Unemployment Surges and Austerity Debate Turns Bitter",
@@ -16364,6 +16390,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261102-ireland",
+      "title": "Ireland's Public Finances at a Crossroads · 02 Nov",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "8:54",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Ireland_Episode_2026_11_02.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 316,
+      "keywords": "Ireland, public-sector pay, strikes, inflation, EU-IMF bailout, corporation tax, multinational companies, fiscal policy, trade unions, European Union, budget surplus, debt repayment, OECD global minimum tax",
+      "notes": "Ireland faces a simultaneous test of its fiscal credibility and social stability, as more than 300,000 public-sector workers press for inflation-beating pay rises while the Government prepares to repay €8 billion in EU-IMF bailout loans early. The juxtaposition captures a deeper paradox: a state flush with corporation-tax receipts from multinational companies yet uncertain whether that prosperity is durable. How Dublin navigates the next several months will shape public services, household incomes and the country's reputation as a model post-bailout economy.",
+      "pubDate": "2026-11-02",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Ireland_Episode_2026_11_02.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Ireland_Short_2026_11_02.mp4"
+    },
     {
       "id": "episode-20261102-finland",
       "title": "Finland Faces a Dual Crisis as Unemployment Surges and Austerity Debate Turns… · 02 Nov",
