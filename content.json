@@ -1,5 +1,5 @@
 {
-  "version": 1792995046810,
+  "version": 1793599345592,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-2dba742",
+      "title": "Sweden Caught Between Political Deadlock and Rising Economic Anxiety",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "More than a month after its general election, Sweden remains without a fully constituted government as coalition negotiations founder on irreconcilable demands between centrist and left-wing parties. Meanwhile, the Riksbank is signalling a possible interest rate increase even as household confidence has suffered its sharpest monthly fall in years. Together, the two crises expose a country suspended between political paralysis and economic uncertainty. The combination is testing public patience and raising questions about Sweden's capacity to respond to urgent challenges at home and in Europe.",
+      "body": "<h3>A Paper Majority That Cannot Govern</h3><p>Sweden&#x27;s election produced a result that looked decisive on the night but has since proved almost impossible to translate into a working government. The centre-left bloc holds 176 of the 349 seats in the Riksdag, a narrow but arithmetically sufficient majority. Yet the parties that comprise that bloc disagree fundamentally about the terms under which they would share power, and that disagreement has paralysed the formation process for more than a month.</p><p>Centre Party leader Elisabeth Thand Ringqvist attempted and failed to build a centrist coalition capable of commanding majority support in parliament. A vote on her candidacy as prime minister is now due, and if that fails, the Riksdag speaker is expected to turn to incumbent Prime Minister Ulf Kristersson as a fallback option. That path is itself uncertain. The Sweden Democrats, whose parliamentary presence underpinned Kristersson&#x27;s previous administration, are reported to be seeking direct cabinet participation this time, a condition the Centre Party flatly rejects.</p><p>The Left Party has added a further complication. Its leaders argue that having delivered votes to the centre-left majority, the party should not be expected to provide external support for a cabinet from which it is entirely excluded. The Centre Party, for its part, contends that a parliamentary majority for certain policies does not automatically constitute a majority for any specific coalition that would include every centre-left party. What looks from the outside like stubborn arithmetic is, in practice, a collision of political identities and conditions that neither side is yet willing to abandon.</p><h3>Households Feel the Squeeze Before Relief Arrives</h3><p>The political vacuum arrives at a moment when Swedish households are growing noticeably more anxious about their economic circumstances. Consumer confidence fell from 102.3 to 94.3 in October, one of the sharpest single-month declines recorded in recent years. Inflation expectations for the coming year rose to 7.7 percent, while households&#x27; assessments of their own future finances turned negative and unemployment expectations worsened. The data describe a public that is not yet convinced that any recovery has reached them.</p><p>The aggregate economic picture presents a more mixed reading. Preliminary data showed quarterly GDP growth of 0.4 percent, and the Riksbank&#x27;s September projections envisaged growth of 2.8 percent in 2026 and 2.4 percent in 2027, suggesting a degree of medium-term resilience. Yet monthly GDP contracted by 0.7 percent in September, and retail sales volumes fell by 0.4 percent over the same period. That divergence between headline and underlying figures points to an uneven recovery in which aggregate growth coexists with real stress at the household level.</p><p>Riksbank Governor Erik Thedéen stated that there were strong grounds for a near-term interest rate increase, potentially as early as November, citing stronger-than-expected economic activity and renewed upside risks to inflation from energy prices, supply disruptions and a weaker krona. The central bank&#x27;s policy rate currently stands at 1.75 percent. For mortgage holders, a rate rise would translate directly into higher monthly costs; for renters, landlords&#x27; financing expenses could eventually feed through to rents; and for businesses already facing weaker consumer demand, tighter credit conditions could suppress investment and hiring.</p><h3>Two Crises, One Warning for Europe</h3><p>The Riksbank faces the classic central banker&#x27;s dilemma in concentrated form: acting to contain inflation risks deepening the very household pain that is already eroding confidence, while inaction risks allowing price pressures to become entrenched and harder to reverse. Acting early, as Thedéen argued, may prevent a larger problem later. But the timing is awkward. Raising borrowing costs when consumers are already pulling back and monthly output is falling is politically sensitive and economically uncertain in its effects.</p><p>The caretaker government can manage ongoing and urgent business, but its mandate does not extend to the kind of substantive programme needed to address the pressures that households are confronting. A transitional budget provides continuity but defers major decisions on taxes, public spending, welfare and services. Every week without a functioning government is a week in which Sweden&#x27;s response to economic shocks, security questions and EU negotiations is constrained. According to analysts and officials familiar with the process, a new election would only follow repeated failed prime-ministerial votes, meaning the deadlock could persist for weeks or months further.</p><p>Sweden&#x27;s experience carries a wider European resonance. As a small, open economy with close trade and energy links to the continent, it transmits external shocks quickly and its difficulties serve as an early indicator for others. The combination of fragmented parliaments, difficult coalition arithmetic and a household sector that feels left behind by headline growth figures is not uniquely Swedish. Across the European Union, governments are discovering that winning elections and building workable majorities have become separate challenges, and that central banks are being asked to navigate inflation risks while voters who have not yet felt a recovery grow increasingly impatient. Sweden&#x27;s dual crisis offers a concentrated version of that dilemma, and its resolution, or failure to resolve it, will be watched closely in Brussels and beyond.</p>",
+      "keywords": "Sweden, coalition negotiations, Riksdag, Elisabeth Thand Ringqvist, Ulf Kristersson, Left Party, Centre Party, Sweden Democrats, Riksbank, interest rates, inflation, household confidence, Erik Thedéen, Swedish economy, European politics, monetary policy, caretaker government, GDP growth",
+      "sources": "Riksdag election results and coalition formation reporting, cited as sources 1, 2, 3, 6; Centre Party statements, cited as sources 3, 6; Left Party statements, cited as sources 2, 3; Riksbank monetary policy communications and September projections, cited as sources 4, 7, 9; Swedish household confidence survey, October, cited as source 5; Sweden Democrats coalition position reporting, cited as source 8",
+      "pubDate": "2026-11-02",
+      "chartData": {
+        "values": [
+          102.3,
+          94.3
+        ],
+        "labels": [
+          "Household Confidence September",
+          "Household Confidence October"
+        ]
+      }
+    },
     {
       "id": "article-a122292",
       "title": "Ireland's Public-Sector Strike Exposes the Fault Lines Beneath a Prosperous Economy",
@@ -16296,6 +16318,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261102-sweden",
+      "title": "Sweden Caught Between Political Deadlock and Rising Economic Anxiety · 02 Nov",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "8:37",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Sweden_Episode_2026_11_02.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 313,
+      "keywords": "Sweden, coalition negotiations, Riksdag, Elisabeth Thand Ringqvist, Ulf Kristersson, Left Party, Centre Party, Sweden Democrats, Riksbank, interest rates, inflation, household confidence, Erik Thedéen, Swedish economy, European politics, monetary policy, caretaker government, GDP growth",
+      "notes": "More than a month after its general election, Sweden remains without a fully constituted government as coalition negotiations founder on irreconcilable demands between centrist and left-wing parties. Meanwhile, the Riksbank is signalling a possible interest rate increase even as household confidence has suffered its sharpest monthly fall in years. Together, the two crises expose a country suspended between political paralysis and economic uncertainty. The combination is testing public patience and raising questions about Sweden's capacity to respond to urgent challenges at home and in Europe.",
+      "pubDate": "2026-11-02",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Sweden_Episode_2026_11_02.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Sweden_Short_2026_11_02.mp4"
+    },
     {
       "id": "episode-20261026-ireland",
       "title": "Ireland's Public-Sector Strike Exposes the Fault Lines Beneath a Prosperous… · 26 Oct",
