@@ -1,5 +1,5 @@
 {
-  "version": 1793599345592,
+  "version": 1793599474422,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-568f91e",
+      "title": "Denmark at a Crossroads: Pharmaceutical Boom Fades as Defence Spending Rises",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "excerpt": "Denmark faces a delicate balancing act as exceptional growth driven by its pharmaceutical sector begins to normalise, even as the government accelerates defence-industrial spending and commits public guarantees to Ukrainian arms production. Danmarks Nationalbank has warned that limited spare capacity means additional fiscal stimulus risks intensifying wage and price pressures. The convergence of these two pressures is shaping one of the most consequential policy debates in Copenhagen in years.",
+      "body": "<h3>A Boom With a Narrow Base</h3><p>Denmark&#x27;s economy has performed strongly in recent years, but the country&#x27;s central bank is sounding an increasingly cautious note. Much of the recent momentum has been tied to a surge in pharmaceutical output, a sector where Denmark punches far above its weight internationally. As that exceptional contribution begins to fade, questions are mounting about whether broader prosperity will follow or whether headline growth has masked underlying vulnerabilities.</p><p>Danmarks Nationalbank projects GDP growth of 4.0 percent in 2026, declining to 2.3 percent in 2027 and 2.0 percent in 2028. Inflation, meanwhile, is expected to rise from 1.7 percent in 2026 to 2.4 percent in 2027 before easing slightly to 2.1 percent in 2028. The central bank has explicitly advised the government against stimulating demand beyond existing plans, arguing that the economy is already operating close to capacity and that additional fiscal easing risks amplifying wage and price pressures rather than cushioning a slowdown.</p><p>For Danish households, the figures raise a practical question: does strong headline growth translate into higher real wages, better public services, and affordable housing, or does it largely reflect the fortunes of a narrow pharmaceutical cluster? If everyday costs including rent, energy, and food remain elevated while sectoral growth normalises, the gap between official optimism and lived experience could widen quickly.</p><h3>Government Presses Ahead With Fiscal Easing</h3><p>Despite the central bank&#x27;s warnings, the Danish government has signalled its intention to ease fiscal policy, pointing to the country&#x27;s strong public finances as justification for investing in households, infrastructure, and defence. Ministers argue that solid fiscal buffers create room to act and that restraint during a period of global uncertainty would be unnecessarily cautious. The government&#x27;s position is that the economy can absorb additional spending without triggering a sustained inflationary spiral.</p><p>Critics disagree. Opposition parties have framed the debate as a question of political credibility, asking whether ministers are responding to genuine economic need or pursuing expansion because it is electorally attractive. Trade unions occupy an ambivalent position: broadly supportive of higher wages and public-sector investment, but wary that renewed inflation would erode the real purchasing power of the workers they represent. The Nationalbank&#x27;s own projections do not support the claim that inflationary pressures are disappearing; price rises are expected to accelerate in 2027, not retreat.</p><p>Denmark&#x27;s dilemma is not unique within the European Union. Small, open economies across the bloc are grappling with the same tension: how to meet growing demands for defence spending and social investment without reigniting the inflationary cycle that squeezed living standards after 2021. Denmark&#x27;s relatively robust fiscal position gives it more room than most, but it does not make the trade-off disappear.</p><h3>Betting on Defence: Copenhagen&#x27;s Industrial Pivot</h3><p>Alongside the fiscal debate, Denmark is undertaking a significant strategic shift. The government has moved beyond conventional defence procurement and is now actively supporting the construction of defence production capacity, including a 750-million-kroner loan guarantee extended through the Danish Export and Investment Fund to Fire Point, the Danish subsidiary of a Ukrainian defence company. The facility is intended to produce missile fuel and is expected to become operational by the end of 2027.</p><p>The government&#x27;s rationale is twofold. First, ministers argue that Russia&#x27;s invasion of Ukraine has fundamentally altered Europe&#x27;s security environment and that deeper defence-industrial capability is a strategic necessity rather than a political choice. Second, producing military components in Denmark is explicitly designed to reduce the vulnerability of supply chains that are currently exposed to Russian strikes on Ukrainian territory. Officials said the decision to extend a state guarantee reflects the difficulty Fire Point would face obtaining commercial financing during an active war.</p><p>However, the guarantee is not without risk. It transfers a portion of the company&#x27;s borrowing exposure to Danish taxpayers. Whether the investment will generate significant domestic employment, prove financially viable, or reduce military risk in practice remains unverified; these are projections, not established outcomes. Critics have questioned the transparency of the arrangement and raised concerns that accelerating missile production on Danish soil carries escalation risks. Some also argue that defence commitments of this scale will compete with spending on healthcare, housing, and climate policy, priorities that command strong public support.</p><h3>The Convergence: Two Pressures, One Budget</h3><p>The most significant aspect of Denmark&#x27;s current situation is not either story in isolation but the way they intersect. The government is being asked to spend more on defence and resilience at precisely the moment that the pharmaceutical-driven growth cycle that has financed fiscal comfort appears to be normalising. If growth slows faster than projected, the fiscal space that ministers are relying on could narrow, making hard choices about priorities unavoidable.</p><p>For the European Union, Denmark&#x27;s trajectory illustrates a wider institutional challenge. Brussels has encouraged member states to invest in defence and reduce strategic dependence on external suppliers, and supporting Ukrainian arms production on EU territory aligns with those objectives. But the same governments are expected to maintain fiscal discipline and avoid stoking inflation in economies that are still recovering from the post-pandemic price shock. The two imperatives are not impossible to reconcile, but they are in tension, and Denmark will be an early test of whether that tension can be managed credibly.</p><p>The coming months will be telling. If Denmark&#x27;s fiscal expansion coincides with renewed inflationary pressure and a deceleration in pharmaceutical-sector output, the Nationalbank&#x27;s warnings will look prescient. If the Fire Point facility encounters delays, cost overruns, or questions about its financial viability, public appetite for state-backed defence guarantees may cool. Copenhagen is betting that security investment and managed fiscal easing can coexist. The central bank, for now, remains unconvinced.</p>",
+      "keywords": "Denmark, Danish economy, pharmaceuticals, GDP growth, inflation, fiscal policy, Danmarks Nationalbank, defence spending, Fire Point, Ukraine, missile production, loan guarantee, European Union, industrial policy, security",
+      "sources": "Danmarks Nationalbank, September 2024 economic outlook; Danish Export and Investment Fund, Fire Point loan guarantee documentation; Danish Ministry of Finance fiscal projections; European Central Bank regional economic assessments",
+      "pubDate": "2026-11-02",
+      "chartData": {
+        "values": [
+          4.0,
+          2.3,
+          2.0
+        ],
+        "labels": [
+          "GDP Growth 2026",
+          "GDP Growth 2027",
+          "GDP Growth 2028"
+        ]
+      }
+    },
     {
       "id": "article-2dba742",
       "title": "Sweden Caught Between Political Deadlock and Rising Economic Anxiety",
@@ -16318,6 +16342,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261102-denmark",
+      "title": "Denmark at a Crossroads: Pharmaceutical Boom Fades as Defence Spending Rises · 02 Nov",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "duration": "8:35",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Denmark_Episode_2026_11_02.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 314,
+      "keywords": "Denmark, Danish economy, pharmaceuticals, GDP growth, inflation, fiscal policy, Danmarks Nationalbank, defence spending, Fire Point, Ukraine, missile production, loan guarantee, European Union, industrial policy, security",
+      "notes": "Denmark faces a delicate balancing act as exceptional growth driven by its pharmaceutical sector begins to normalise, even as the government accelerates defence-industrial spending and commits public guarantees to Ukrainian arms production. Danmarks Nationalbank has warned that limited spare capacity means additional fiscal stimulus risks intensifying wage and price pressures. The convergence of these two pressures is shaping one of the most consequential policy debates in Copenhagen in years.",
+      "pubDate": "2026-11-02",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Denmark_Episode_2026_11_02.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_02/Denmark_Short_2026_11_02.mp4"
+    },
     {
       "id": "episode-20261102-sweden",
       "title": "Sweden Caught Between Political Deadlock and Rising Economic Anxiety · 02 Nov",
