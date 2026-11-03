@@ -1,5 +1,5 @@
 {
-  "version": 1793685753793,
+  "version": 1793685882824,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-ea4e68f",
+      "title": "Housing Costs and Rail Deaths Put Spain's Government on Trial Before Snap Election",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "A deadly train crash in Toledo and a deepening housing affordability crisis have converged to define Spain's forthcoming snap election, transforming a contest over party programmes into a referendum on the state's capacity to govern. With 68 people killed in the Toledo rail disaster and rents rising faster than incomes across the country, Prime Minister Pedro Sánchez faces simultaneous crises of safety and economic confidence. The twin emergencies have energised both his opponents and a public mood that analysts describe as angry, grieving, and increasingly distrustful of institutional competence.",
+      "body": "<h3>A Housing Emergency That No Single Policy Can Quickly Fix</h3><p>Spain&#x27;s housing crisis has moved from a structural complaint to a defining electoral issue in a matter of months. Rents and purchase prices have outpaced household incomes in most major cities, evictions have accelerated, and a chronic shortage of supply has left younger Spaniards and lower-income families with few viable options. The frustration helped destabilise the government&#x27;s legislative agenda and contributed directly to the calling of a snap election.</p><p>The Sánchez government argues that housing is a social right requiring immediate state intervention. Its platform includes stronger tenant protections, limits on rent increases in high-pressure markets, restrictions on evictions, and measures to curb speculative property ownership. Supporters of this approach argue that market forces have demonstrably failed to deliver affordable homes within a reasonable timeframe, and that the scale of public protests reinforces rather than exaggerates the severity of the crisis.</p><p>The People&#x27;s Party rejects that diagnosis as incomplete. It argues that rent controls and eviction restrictions risk deterring landlords from making properties available, compressing supply further and displacing the problem rather than solving it. Its proposed remedy is a construction-first strategy: releasing land, streamlining planning permits, and driving new supply. Independent economists broadly regard this argument as more durable over time, while acknowledging that it offers limited immediate relief to households facing unaffordable rents today. The Bank of Spain forecasts inflation at 3.9 percent in 2026, even as the broader economy is projected to grow by 2.6 percent, a gap that illustrates why respectable headline figures have not translated into a sense of financial ease for ordinary citizens.</p><h3>Toledo Rail Crash Places Infrastructure Accountability at the Centre of the Campaign</h3><p>The collision in Toledo province, which killed 68 people, arrived with devastating political timing. Coming only months after another fatal incident on the same line, and only weeks before the election, it transformed a campaign already focused on economic grievances into one that also questions the state&#x27;s most basic obligation: keeping citizens physically safe. Public anger has been sharp and swift, shaped not only by the scale of the tragedy but by the fact that the line had already claimed lives within recent memory.</p><p>The government has urged restraint in attributing blame before the formal technical investigation is complete. Ministers have noted that Spain operates a comparatively extensive national rail network and argued that it would be irresponsible to draw ministerial conclusions from accident circumstances that have not yet been established. The position is procedurally defensible but politically costly in a moment of national grief.</p><p>The opposition has moved more aggressively. The People&#x27;s Party and allied critics argue that two fatal incidents on the same corridor within months suggest a systemic failure, not an isolated technical fault, and have demanded answers on maintenance schedules, safety audits, and whether warnings from inspectors were acted upon. Their argument is not yet supported by confirmed findings from the investigation, but the pattern of incidents gives it sufficient credibility to sustain pressure throughout the remaining campaign period. The strongest evidence-based position available at this stage is that accountability is plainly warranted, while definitive causation must await independent findings.</p><h3>An Election Reframed as a Test of Governing Competence</h3><p>Taken together, the housing crisis and the Toledo disaster have recast the terms of the election in ways that complicate the government&#x27;s ability to campaign on its macroeconomic record. Spain&#x27;s projected growth of 2.6 percent in 2026 would be the envy of several eurozone peers, yet the lived experience of a significant portion of the electorate is one of rising costs, strained public services, and now, acute public grief. The government&#x27;s challenge is to persuade voters that these failures are manageable without conceding that they reflect a deeper failure of governance.</p><p>For the opposition, the convergence of issues creates a coherent and emotionally resonant narrative: that the Sánchez coalition has presided over an economy that grows in aggregate while leaving citizens unable to afford homes or trust their railways. The People&#x27;s Party is likely to use both crises to argue that competent administration, rather than ideological ambition, is what the country needs. Whether that framing is sufficient to produce a governing majority remains uncertain in a fragmented parliamentary landscape.</p><p>Beyond Spain&#x27;s borders, the stakes carry broader relevance. Housing affordability has become a pressure point across the European Union, from Amsterdam to Lisbon, and political systems that fail to respond risk accelerating support for populist movements that promise simpler solutions. On rail, European transport policy increasingly depends on public confidence in cross-border networks as a viable alternative to road and air travel. A sustained loss of trust in rail safety anywhere in the bloc can weaken political support for the infrastructure investment that Europe&#x27;s climate and connectivity commitments require. The outcome of Spain&#x27;s election will be watched as an early indicator of how voters in a major EU economy respond when economic growth and personal security fail to arrive together.</p>",
+      "keywords": "Spain election, housing crisis, Toledo rail disaster, Pedro Sánchez, People's Party, rent controls, rail safety, Spain economy, European housing, infrastructure accountability, snap election, Bank of Spain",
+      "sources": "Bank of Spain economic forecasts, 2026 projections; Spanish government housing policy statements; People's Party housing and transport policy platforms; Toledo rail disaster initial reporting and investigation notice; Spanish transport ministry public records; European Commission rail safety framework documentation",
+      "pubDate": "2026-11-03",
+      "chartData": {
+        "values": [
+          2.6,
+          3.9
+        ],
+        "labels": [
+          "GDP Growth Forecast 2026 (%)",
+          "Inflation Forecast 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-0d99ed2",
       "title": "Portugal's Housing Crisis Puts a Fragile Government to the Test",
@@ -16416,6 +16438,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261103-spain",
+      "title": "Housing Costs and Rail Deaths Put Spain's Government on Trial Before Snap… · 03 Nov",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:47",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Spain_Episode_2026_11_03.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 318,
+      "keywords": "Spain election, housing crisis, Toledo rail disaster, Pedro Sánchez, People's Party, rent controls, rail safety, Spain economy, European housing, infrastructure accountability, snap election, Bank of Spain",
+      "notes": "A deadly train crash in Toledo and a deepening housing affordability crisis have converged to define Spain's forthcoming snap election, transforming a contest over party programmes into a referendum on the state's capacity to govern. With 68 people killed in the Toledo rail disaster and rents rising faster than incomes across the country, Prime Minister Pedro Sánchez faces simultaneous crises of safety and economic confidence. The twin emergencies have energised both his opponents and a public mood that analysts describe as angry, grieving, and increasingly distrustful of institutional competence.",
+      "pubDate": "2026-11-03",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Spain_Episode_2026_11_03.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Spain_Short_2026_11_03.mp4"
+    },
     {
       "id": "episode-20261103-portugal",
       "title": "Portugal's Housing Crisis Puts a Fragile Government to the Test · 03 Nov",
