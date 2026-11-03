@@ -1,5 +1,5 @@
 {
-  "version": 1793599717622,
+  "version": 1793685753793,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-0d99ed2",
+      "title": "Portugal's Housing Crisis Puts a Fragile Government to the Test",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "excerpt": "Portugal is grappling with one of the European Union's fastest-rising housing markets, while its centre-right minority government attempts to pass a 2027 budget without a parliamentary majority. The collision of a deepening affordability crisis and politically precarious finances has turned rental reform into the country's defining social conflict. How Lisbon manages both will carry lessons for minority governments across a changing Europe.",
+      "body": "<h3>A Market in Overdrive, a Government Under Pressure</h3><p>Portuguese house prices rose by approximately 14.2 percent year-on-year in the second quarter of 2026, placing the country among the fastest-rising markets in the European Union, according to Eurostat data. Separate figures recorded an annual increase of 16.5 percent under a comparable measure, while bank-sector analysis reported growth of nearly 19 percent in 2025, citing supply shortages, construction constraints and sustained demand. For many residents, particularly younger people and lower-income households, those numbers translate into a simple daily reality: wages are not keeping pace with the cost of finding a home.</p><p>The government of Prime Minister Luís Montenegro has responded with a rental reform package that would make evictions easier, remove rent caps on new leases and offer tax incentives for new construction. The plan includes restrictions on short-term rentals and a commitment to build 145,000 new homes. Ministers argue that current controls discourage investment and leave properties vacant, and that strengthening landlord rights will ultimately draw more rental stock onto the market. Critics, however, contend that the bill delivers immediate advantages to property owners while offering no credible short-term relief to tenants.</p><p>Housing activists and trade unions have framed the dispute as fundamentally a wage problem: a situation in which even full-time employment no longer guarantees access to adequate housing. Tent camps erected by protesters have been dismantled by police, and demonstrations have grown in scale and visibility. What began as a technical debate over rental legislation has become a broader confrontation over the government&#x27;s social priorities and its sense of who bears the cost of the housing shortage.</p><h3>A Budget Without a Majority, Growth Without Relief</h3><p>Against that backdrop, the Montenegro government is advancing its 2027 budget without controlling a parliamentary majority. The bill cleared its first reading only because several opposition parties abstained, while Chega, the liberal IL, Livre and the left-wing parties PCP and BE voted against it. That arithmetic means each subsequent vote carries the weight of a confidence test, and the government must negotiate concession by concession rather than govern from a position of settled authority.</p><p>On the macroeconomic surface, the government can point to genuine momentum. Preliminary figures indicated annual GDP growth of 2.4 percent in the third quarter, and the International Monetary Fund raised its 2026 growth forecast for Portugal to 2.1 percent. Ministers argue that the country is not in recession, retains fiscal credibility and has room for targeted support in areas including housing and municipal finance. That framing is not without foundation. Portugal&#x27;s economic performance compares favourably with several of its European peers.</p><p>The opposition and trade unions, however, argue that headline growth is not translating into improved living standards. Banco de Portugal projected inflation of around 2.8 percent for 2026, a level above the European Central Bank&#x27;s 2 percent target, and a separate Portuguese economic outlook also revised its inflation estimate upward to 2.8 percent while lowering its 2026 growth forecast to 1.8 percent. A slower rate of price increases does not mean housing, food or energy have become cheaper, only that they are becoming more expensive at a reduced pace. The gap between macroeconomic resilience and household experience is precisely what the opposition intends to exploit in budget negotiations. Proposed funding reductions affecting roughly 210 parishes have added a local-government dimension to the conflict, reinforcing the argument that national growth can coexist with pressure on the services citizens rely upon most.</p><h3>An Unstable Equilibrium With European Echoes</h3><p>Portugal&#x27;s situation illustrates a tension increasingly visible across the European Union: economies posting respectable growth rates while large portions of the population feel materially worse off. The specific combination of a supply-constrained housing market, post-pandemic demand and high interest rates has produced affordability crises from Dublin to Lisbon, and governments of different political orientations have struggled to find a response that is both economically coherent and socially credible.</p><p>The competing policy models on display in Lisbon, rent controls on one side and market liberalisation with supply-side incentives on the other, are being tested in real time, and the evidence does not yet vindicate either camp decisively. The government&#x27;s long-term supply argument is plausible but unproven; supply-side measures typically take years to affect prices, and the households facing today&#x27;s rents cannot wait that long. The opposition&#x27;s critique of deregulation is well-founded on the immediate affordability question, but it has not advanced an alternative with comparable detail on how new housing stock would be delivered.</p><p>The more immediate question is political survival. The budget must secure final parliamentary approval, and every concession extracted by opposition parties will test the government&#x27;s ability to maintain fiscal coherence while also credibly addressing the housing emergency. If the Montenegro government cannot demonstrate that economic growth is improving ordinary life, the tent camps and street protests of 2026 are likely to define Portuguese politics well into the election cycle that follows. For the rest of Europe, watching a minority government navigate a housing crisis with a fragile mandate and mixed economic signals, the outcome carries implications that extend well beyond Lisbon.</p>",
+      "keywords": "Portugal, housing crisis, rental reform, minority government, 2027 budget, house prices, inflation, Luís Montenegro, EU housing policy, parliamentary majority, tenant rights, Eurostat, Banco de Portugal, IMF, affordable housing",
+      "sources": "Eurostat, House Price Index, Q2 2026; Eurostat, Annual House Price Comparison Release; Banco de Portugal, Inflation Projections 2026; Portuguese Economic Outlook, revised forecasts 2026; IMF, Portugal Growth Forecast Update 2026; Bank-sector housing analysis, 2025 annual review",
+      "pubDate": "2026-11-03",
+      "chartData": {
+        "values": [
+          14.2,
+          16.5,
+          19.0,
+          2.8
+        ],
+        "labels": [
+          "Eurostat House Price Rise Q2 2026 (%)",
+          "Eurostat Alternate Measure (%)",
+          "Bank-Sector House Price Growth 2025 (%)",
+          "Projected Inflation 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-12c50c0",
       "title": "Ireland's Public Finances at a Crossroads: Strike Threat Meets Surplus Illusion",
@@ -16390,6 +16416,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261103-portugal",
+      "title": "Portugal's Housing Crisis Puts a Fragile Government to the Test · 03 Nov",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "duration": "9:04",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Portugal_Episode_2026_11_03.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 317,
+      "keywords": "Portugal, housing crisis, rental reform, minority government, 2027 budget, house prices, inflation, Luís Montenegro, EU housing policy, parliamentary majority, tenant rights, Eurostat, Banco de Portugal, IMF, affordable housing",
+      "notes": "Portugal is grappling with one of the European Union's fastest-rising housing markets, while its centre-right minority government attempts to pass a 2027 budget without a parliamentary majority. The collision of a deepening affordability crisis and politically precarious finances has turned rental reform into the country's defining social conflict. How Lisbon manages both will carry lessons for minority governments across a changing Europe.",
+      "pubDate": "2026-11-03",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Portugal_Episode_2026_11_03.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Portugal_Short_2026_11_03.mp4"
+    },
     {
       "id": "episode-20261102-ireland",
       "title": "Ireland's Public Finances at a Crossroads · 02 Nov",
