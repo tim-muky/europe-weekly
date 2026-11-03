@@ -1,5 +1,5 @@
 {
-  "version": 1793686006117,
+  "version": 1793686125677,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-ced9d41",
+      "title": "Greece's Recovery on Paper Meets Resistance at the Kitchen Table",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "excerpt": "Greece is posting improved employment figures and deploying targeted subsidies to shield households from rising prices, yet a surge in energy inflation and mass education protests suggest the recovery is failing to reach ordinary citizens. With harmonised inflation climbing to 5.1 percent in September 2026 and around 10,000 demonstrators taking to the streets of Athens, the government faces a widening gap between its macroeconomic narrative and public experience. The tension carries consequences not only for domestic politics ahead of a 2027 election, but also for Greece's relationship with EU fiscal rules.",
+      "body": "<h3>Subsidies Hold the Line, but Prices Keep Climbing</h3><p>Greece&#x27;s government has staked much of its economic credibility on a programme of targeted fuel and energy subsidies designed to blunt the impact of rising household costs without repeating the untargeted spending of the debt-crisis era. The approach has a coherent logic: cushion the most exposed families and businesses while maintaining fiscal discipline, keep unemployment falling and push toward a stated minimum wage target of 1,000 euros by early 2028. Officials argue the strategy is working, pointing to Greece&#x27;s unemployment rate of 7.6 percent, recorded by Eurostat, as evidence that the labour market is strengthening in ways that will eventually lift living standards.</p><p>The inflation data, however, tells a more uncomfortable story. Greek harmonised inflation rose sharply to 5.1 percent in September 2026, up from 3.7 percent in August, driven in large part by energy inflation, which accelerated to 25.4 percent from 15.4 percent in the same period, according to available price indices. The Bank of Greece separately recorded average inflation of 3.8 percent across the first nine months of 2026, with services, rents and energy identified as persistent pressure points. For households trying to pay electricity bills, meet rent and cover transport costs, the subsidy at the petrol pump offers partial relief at best.</p><p>Opposition parties and trade unions argue that the government&#x27;s framing obscures the real problem. Temporary relief measures may reduce a monthly bill, but they do not address structurally high rents, chronically low wages in parts of the economy or the quality of public services. The distinction matters: a subsidy is a flow of money that stops when political or fiscal conditions change, while purchasing power is a stock of capacity that has eroded steadily over years.</p><h3>Education Becomes a Proxy for a Wider Grievance</h3><p>On 21 October, approximately 10,000 people demonstrated in Athens and surrounding areas, with parallel mobilisations reported elsewhere in the country. The protests were organised around education demands, including higher funding for schools, smaller class sizes, improved facilities, better staffing levels and stronger pay for teachers. Yet the composition of the demonstrations reflected something broader. Students, teachers and other public-sector workers marched alongside one another, and reports connected the turnout directly to unaffordable student housing, rising household energy costs and stagnant purchasing power.</p><p>The government&#x27;s response has been to acknowledge the demands while arguing that sustained improvements require time and that competing budget pressures cannot be resolved in a single fiscal cycle. Officials have also noted that political mobilisation tends to intensify ahead of elections, with a national vote expected in 2027, and that the country&#x27;s programme of roughly 90 priority commitments covering wages, housing and infrastructure represents a credible long-term framework. Those arguments have not visibly calmed the protests.</p><p>The deeper issue is structural. Education spending affects not only the immediate experience of students and teachers but also regional inequality, demographic trends and Greece&#x27;s capacity to retain young, educated workers rather than see them emigrate. Student housing connects the education dispute directly to the rental market, which in turn connects to the cost-of-living crisis. The protests are, in that sense, several grievances occupying the same street at the same time.</p><h3>An Election on the Horizon and an EU Question Unanswered</h3><p>Greece&#x27;s situation illustrates a tension that extends well beyond Athens. The country can simultaneously record a falling unemployment rate and a rising cost of living, a functioning subsidy programme and mass demonstrations about public services. These are not contradictions so much as different windows onto the same economy, one that has stabilised in aggregate terms while leaving many citizens feeling that the stabilisation has not reached them. The political risk is that by 2027, voters will judge the government not on macroeconomic indicators but on whether schools are adequately staffed, rents are bearable and energy bills have come down.</p><p>For the European Union, Greece&#x27;s predicament poses a question that applies across several member states: can governments meet fiscal consolidation requirements and competitiveness benchmarks while maintaining public services at a standard citizens consider acceptable? Athens has already signalled that it wants more flexibility over energy support measures, a position that puts it in tension with EU rules designed to phase out distorting subsidies. How that negotiation develops will affect not only Greek households but also the broader debate about the social sustainability of the EU&#x27;s fiscal framework.</p><p>The coming months will be watched closely on several fronts. Energy prices will determine whether the September inflation spike is a temporary jolt or the beginning of a more sustained upward trend. Education negotiations between the government and unions will signal whether protests remain organised or escalate further. And the government&#x27;s budget decisions in the run-up to the 2027 election will reveal whether it prioritises fiscal credibility, social spending or some combination of both. Greece may be recovering on paper, but the argument at kitchen-table level remains firmly open.</p>",
+      "keywords": "Greece, cost of living, energy inflation, subsidies, education protests, unemployment, public services, EU fiscal rules, Athens demonstrations, minimum wage, student housing, purchasing power, Greek economy, 2027 election",
+      "sources": "Eurostat unemployment data, Greece, 2026; Bank of Greece inflation report, first nine months of 2026; Greek harmonised inflation indices, August and September 2026; Athens protest reports, 21 October 2026; Education sector strike and demonstration reports, October 2026",
+      "pubDate": "2026-11-03",
+      "chartData": {
+        "values": [
+          5.1,
+          3.7,
+          25.4,
+          15.4
+        ],
+        "labels": [
+          "Inflation Sep 2026 (%)",
+          "Inflation Aug 2026 (%)",
+          "Energy Inflation Sep 2026 (%)",
+          "Energy Inflation Aug 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-e233728",
       "title": "Italy's Budget Battle and Fuel Protests Put Meloni's Government to the Test",
@@ -16464,6 +16490,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261103-greece",
+      "title": "Greece's Recovery on Paper Meets Resistance at the Kitchen Table · 03 Nov",
+      "categories": [
+        "cat-ft8hclh"
+      ],
+      "duration": "8:06",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Greece_Episode_2026_11_03.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 320,
+      "keywords": "Greece, cost of living, energy inflation, subsidies, education protests, unemployment, public services, EU fiscal rules, Athens demonstrations, minimum wage, student housing, purchasing power, Greek economy, 2027 election",
+      "notes": "Greece is posting improved employment figures and deploying targeted subsidies to shield households from rising prices, yet a surge in energy inflation and mass education protests suggest the recovery is failing to reach ordinary citizens. With harmonised inflation climbing to 5.1 percent in September 2026 and around 10,000 demonstrators taking to the streets of Athens, the government faces a widening gap between its macroeconomic narrative and public experience. The tension carries consequences not only for domestic politics ahead of a 2027 election, but also for Greece's relationship with EU fiscal rules.",
+      "pubDate": "2026-11-03",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Greece_Episode_2026_11_03.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_03/Greece_Short_2026_11_03.mp4"
+    },
     {
       "id": "episode-20261103-italy",
       "title": "Italy's Budget Battle and Fuel Protests Put Meloni's Government to the Test · 03 Nov",
