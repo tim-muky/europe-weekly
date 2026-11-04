@@ -1,5 +1,5 @@
 {
-  "version": 1793772414456,
+  "version": 1793772544507,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a15633a",
+      "title": "Dutch Coalition Walks Budget Tightrope as Energy Costs Squeeze Industry and Households",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "excerpt": "The Netherlands' minority coalition is navigating a deepening political crisis over its 2027 budget and a contested tax reform, while simultaneously preparing a multibillion-euro lifeline for energy-intensive industry. Both debates expose the same underlying tension: how to distribute economic pain fairly in a low-growth environment. The outcome will shape public finances, household bills and Dutch competitiveness within the European Union for years to come.",
+      "body": "<h3>A Government in Search of a Majority</h3><p>The D66-VVD-CDA minority coalition is in a precarious position. Without a parliamentary majority of its own, it must negotiate outside support vote by vote for each major legislative measure, turning every budget decision into a potential confidence test. The most contentious item on the table is the reform of Box 3, the Dutch tax regime that applies to savings and investments held outside pension accounts. The proposed overhaul would shift the system toward taxing actual investment returns rather than assumed ones, a change with broad implications for savers, landlords, small investors and pensioners across the country.</p><p>The 2027 Box 3 rate is scheduled to remain at 36 percent, with a tax-free wealth threshold of 60,098 euros. The assumed return on other assets is set at 6.37 percent. Those parameters may generate predictable revenue in the short term, but they do not settle the deeper dispute over whether assumed-return taxation is legally or morally defensible. Dutch courts have previously found earlier versions of Box 3 to be in breach of property rights, creating a legacy of litigation that the government has yet to fully resolve.</p><p>The Council of State has reportedly warned that proceeding with the proposed 2028 implementation approach could be irresponsible, lending weight to critics who argue that a single replacement system from 2030 would be more reliable. The government has already postponed key amendments because no agreement was found on how to cover the budgetary cost, placing the intended January 2028 start date in serious doubt. Progressive parties such as PvdA-GroenLinks and Volt face pressure to support the budget to prevent political paralysis and protect social spending, even where the compromise demands higher taxes on capital.</p><h3>Industry Seeks Relief as Energy Bills Bite</h3><p>Alongside the budget impasse, the government is preparing a substantial support package for energy-intensive companies. The plan allocates 150 million euros in additional assistance in 2027, rising to 495 million euros annually between 2029 and 2035. The rationale is straightforward: Dutch electricity costs are placing domestic producers at a structural disadvantage relative to competitors in countries with cheaper energy or more generous state support. Without intervention, the government and industrial employers argue, companies in chemicals, metals, refining and manufacturing may reduce output or relocate, taking skilled jobs and tax revenues with them.</p><p>The case for some form of targeted support is substantiated by the broader economic data. De Nederlandsche Bank projects Dutch GDP growth of just 0.8 percent in 2026, a weak environment that leaves industrial firms with little margin to absorb elevated operating costs. DNB also projects inflation at 2.7 percent in 2026, above the European Central Bank&#x27;s 2 percent target, and identifies higher energy bills as a significant contributing factor. Crucially, DNB expects inflation to remain above 2 percent throughout the projection period, meaning that while price growth has moderated compared with previous years, prices themselves are still rising.</p><p>Critics, including trade unions and opposition parties, raise legitimate concerns about the conditions attached to such support. They argue that public funds should not unconditionally compensate companies for an energy model that may no longer be viable, and that smaller businesses and ordinary households could reasonably ask why large industrial users receive long-term assistance while consumers continue to absorb elevated bills. Union representatives are likely to demand binding employment commitments, restrictions on dividend payments and executive remuneration tied to subsidies, and verifiable investment in cleaner technology before backing any package.</p><h3>Paralysis Risk and the EU Dimension</h3><p>Taken together, the two debates paint a picture of a government caught between competing pressures: the need to reform public finances responsibly, the demand to protect industrial competitiveness and the requirement to maintain political support across a fragmented parliament. The public mood, according to observers, is less one of open anger than of fatigue and economic defensiveness. Citizens want affordable energy and secure employment, but are increasingly alert to what they perceive as a two-tier system in which large employers receive structured protection while households face continued uncertainty over taxes, welfare and energy bills.</p><p>The EU dimension adds further complexity. Dutch industrial subsidies risk distorting competition within the single market, potentially encouraging other member states to launch rival support schemes and contributing to a broader fragmentation of European industrial policy. The European Commission has been monitoring state aid in the energy sector closely, and a package of the scale and duration proposed by The Hague will require scrutiny under EU rules. That process could constrain the government&#x27;s room for manoeuvre and delay implementation even if a domestic political agreement is reached.</p><p>The immediate calendar is unforgiving. Budget negotiations must produce a credible funding framework for the 2027 fiscal year while simultaneously resolving or deferring the Box 3 question. Any further delay to the tax reform risks extending legal uncertainty for millions of taxpayers and complicating revenue projections. On energy, the government must decide whether to narrow the scope of its industrial support to sectors where the competitiveness case is strongest, or risk a political backlash if the package is seen as rewarding corporate interests at public expense. How the coalition manages both pressure points in the coming weeks will test whether a minority government can still govern in substance, not just in name.</p>",
+      "keywords": "Netherlands, Dutch budget, Box 3 tax reform, minority coalition, energy costs, industrial subsidies, D66, VVD, CDA, De Nederlandsche Bank, Dutch inflation, GDP growth, EU state aid, energy-intensive industry, Dutch politics, fiscal policy",
+      "sources": "De Nederlandsche Bank economic projections 2026, inflation and GDP outlook;Dutch Ministry of Finance, Box 3 tax parameters 2027 and amendment timeline;Council of State reported assessment of Box 3 2028 implementation approach;DNB core inflation trajectory through projection period;Dutch government energy-intensive industry support package details, 2027-2035",
+      "pubDate": "2026-11-04",
+      "chartData": {
+        "values": [
+          150.0,
+          495.0
+        ],
+        "labels": [
+          "Energy support 2027 (million euros)",
+          "Energy support 2029-2035 annual (million euros)"
+        ]
+      }
+    },
     {
       "id": "article-54972e0",
       "title": "Belgium's Budget Deadlock Tests Coalition Survival and Bond Market Patience",
@@ -16566,6 +16588,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261104-netherlands",
+      "title": "Netherlands: Dutch Coalition Walks Budget Tightrope · 04 Nov",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "duration": "8:47",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Netherlands_Episode_2026_11_04.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 324,
+      "keywords": "Netherlands, Dutch budget, Box 3 tax reform, minority coalition, energy costs, industrial subsidies, D66, VVD, CDA, De Nederlandsche Bank, Dutch inflation, GDP growth, EU state aid, energy-intensive industry, Dutch politics, fiscal policy",
+      "notes": "The Netherlands' minority coalition is navigating a deepening political crisis over its 2027 budget and a contested tax reform, while simultaneously preparing a multibillion-euro lifeline for energy-intensive industry. Both debates expose the same underlying tension: how to distribute economic pain fairly in a low-growth environment. The outcome will shape public finances, household bills and Dutch competitiveness within the European Union for years to come.",
+      "pubDate": "2026-11-04",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Netherlands_Episode_2026_11_04.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Netherlands_Short_2026_11_04.mp4"
+    },
     {
       "id": "episode-20261104-belgium",
       "title": "Belgium's Budget Deadlock Tests Coalition Survival and Bond Market Patience · 04 Nov",
