@@ -1,5 +1,5 @@
 {
-  "version": 1793686125677,
+  "version": 1793772144462,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-2b46e08",
+      "title": "Germany's Fragile Recovery Fuels Economic Anxiety and Eurosceptic Politics",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "excerpt": "Germany has returned to modest growth, but a 0.2% quarterly expansion and falling inflation have done little to restore public confidence after years of industrial stagnation and rising costs. The AfD is capitalising on that frustration, framing the country's economic difficulties as evidence that the European Union's institutional model is broken. The convergence of household financial strain and political polarisation poses a challenge not just for Berlin, but for the EU as a whole.",
+      "body": "<h3>A Recovery That Looks Better on Paper Than in Practice</h3><p>Germany&#x27;s economy expanded by 0.2% in the third quarter of 2026, its third consecutive quarter of growth, according to Destatis, the country&#x27;s federal statistics office. Headline inflation fell to 2.8% in October, with core inflation down to 2.1%. On paper, the numbers point in the right direction. In practice, they describe an economy that has stabilised rather than one that has genuinely turned a corner.</p><p>The government has sought to frame the data as evidence that its strategy is working. Household consumption has increased, suggesting some return of consumer confidence, and slower inflation provides relief for families whose budgets were squeezed hard by earlier price surges. Officials have also pointed to longer-term plans for industrial modernisation, artificial intelligence investment, and digital infrastructure as the structural remedy to Germany&#x27;s prolonged weakness.</p><p>That optimism, however, faces a pointed challenge from trade unions and opposition parties. Energy prices were still 12.2% higher year-on-year in October, according to available data, and economists note that lower inflation does not reverse the cumulative purchasing-power losses households have already absorbed. A quarterly growth rate of 0.2% is, by any standard measure, modest. Exports and investment have remained soft, leaving Germany&#x27;s recovery dependent on domestic consumption rather than the durable industrial demand that underpinned its pre-pandemic model. The most accurate reading of the current moment is not crisis, but it is not vindication either.</p><h3>The AfD Converts Economic Anxiety Into a Political Argument Against Europe</h3><p>Into that climate of resigned unease, the Alternative für Deutschland has inserted a pointed political narrative. The party is seeking to link Germany&#x27;s industrial difficulties, elevated energy costs, and administrative burdens directly to European Union policy, arguing that Brussels has accumulated too much authority over decisions that should belong to national governments. Its proposals reportedly include significant changes to European institutional structures, including reform of how the European Parliament is elected.</p><p>The AfD&#x27;s argument has traction precisely because the economic anxieties it draws on are real. Germany&#x27;s energy-intensive manufacturers have faced structural pressure since the energy market disruptions of recent years. Small and medium-sized businesses have complained persistently about regulatory complexity and slow permitting. Industrial closures, while not universal, have been visible enough to reinforce a sense of decline. The party has proved skilled at translating those concrete material frustrations into a broader demand for political control, arguing that voters have been left with little effective power over decisions that shape their daily lives.</p><p>Pro-European parties and the government counter that weakening EU structures would do more harm than good to an export-oriented economy that depends on the single market, common trade rules, and coordinated standards. Trade unions broadly share that view, though they add a condition: industrial policy, they argue, must include binding employment protections, collective bargaining guarantees, and public investment in strategic sectors, not simply a rebalancing of sovereignty between Brussels and Berlin. Their concern is that nationalist competition between member states would undermine worker protections even as it claims to restore democratic accountability. The honest assessment is that the AfD has identified genuine frustrations, but the evidence does not establish that EU institutions are the primary cause of Germany&#x27;s difficulties, which also reflect global competition, domestic underinvestment, demographic pressures, and the structural transition away from fossil fuels.</p><h3>What Comes Next, and Why It Matters Beyond Germany</h3><p>The immediate political risk for the German government is a credibility gap. If officials continue to emphasise incremental statistical improvements while households still feel the accumulated weight of higher food, energy, housing, and service costs, the space between official optimism and public experience becomes a resource for the opposition. The AfD does not need to offer a fully worked-out alternative economic programme if its principal task is to deepen distrust in existing institutions.</p><p>The stakes extend well beyond German domestic politics. As the EU&#x27;s largest economy, Germany is a central actor in negotiations over fiscal rules, energy policy, defence financing, industrial subsidies, migration management, and continued support for Ukraine. A prolonged period of economic frustration that consistently strengthens Eurosceptic forces in Berlin would complicate every one of those discussions. It would also increase pressure on other member states navigating their own economic difficulties to follow a similar political path.</p><p>The question the data cannot yet answer is whether Germany&#x27;s recovery will deepen quickly enough to change the public mood before the political cost becomes structural. For that to happen, growth would need to broaden from consumption into investment and exports, energy costs would need to fall sustainably, and industrial modernisation would need to produce visible benefits for workers rather than appearing as a management strategy for managed decline. None of those conditions are currently met. Germany is no longer contracting, but it has not yet produced the kind of recovery that inoculates democratic institutions against the politics of frustration.</p>",
+      "keywords": "Germany economy, GDP growth, inflation, AfD, European Union, Euroscepticism, industrial policy, energy prices, cost of living, German politics, EU reform, trade unions, economic recovery",
+      "sources": "Destatis, German Federal Statistics Office, GDP and household consumption data, Q3 2026; German Federal Statistical Office, inflation data, October 2026, including headline, core, and energy sub-indices",
+      "pubDate": "2026-11-04",
+      "chartData": {
+        "values": [
+          0.2,
+          2.8,
+          2.1,
+          12.2
+        ],
+        "labels": [
+          "GDP Growth Q3 2026 (%)",
+          "Headline Inflation Oct (%)",
+          "Core Inflation Oct (%)",
+          "Energy Price Change YoY (%)"
+        ]
+      }
+    },
     {
       "id": "article-ced9d41",
       "title": "Greece's Recovery on Paper Meets Resistance at the Kitchen Table",
@@ -16490,6 +16516,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261104-germany",
+      "title": "Germany's Fragile Recovery Fuels Economic Anxiety and Eurosceptic Politics · 04 Nov",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "duration": "9:00",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Germany_Episode_2026_11_04.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 321,
+      "keywords": "Germany economy, GDP growth, inflation, AfD, European Union, Euroscepticism, industrial policy, energy prices, cost of living, German politics, EU reform, trade unions, economic recovery",
+      "notes": "Germany has returned to modest growth, but a 0.2% quarterly expansion and falling inflation have done little to restore public confidence after years of industrial stagnation and rising costs. The AfD is capitalising on that frustration, framing the country's economic difficulties as evidence that the European Union's institutional model is broken. The convergence of household financial strain and political polarisation poses a challenge not just for Berlin, but for the EU as a whole.",
+      "pubDate": "2026-11-04",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Germany_Episode_2026_11_04.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Germany_Short_2026_11_04.mp4"
+    },
     {
       "id": "episode-20261103-greece",
       "title": "Greece's Recovery on Paper Meets Resistance at the Kitchen Table · 03 Nov",
