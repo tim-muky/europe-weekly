@@ -1,5 +1,5 @@
 {
-  "version": 1793772279920,
+  "version": 1793772414456,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-54972e0",
+      "title": "Belgium's Budget Deadlock Tests Coalition Survival and Bond Market Patience",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Belgium's five-party federal coalition teetered on the edge of collapse after Prime Minister Bart De Wever offered his resignation over an unresolved plan to close a fiscal gap of roughly ten billion euros by 2029. With the country's ten-year bond yield at its highest level in around fifteen years, the standoff has moved well beyond parliamentary corridors. The central question is no longer whether Belgium faces a serious budget problem, but who should bear the cost of fixing it.",
+      "body": "<h3>A Resignation Offer and a Coalition Under Strain</h3><p>Prime Minister Bart De Wever submitted his resignation after the five-party coalition he leads failed to agree on a medium-term fiscal package intended to erase a deficit that exceeds five percent of gross domestic product. King Philippe initially declined to accept the offer, instead consulting coalition leaders in an attempt to revive negotiations. The gesture bought time, but it did not dissolve the fundamental disagreement at the heart of the crisis.</p><p>The government&#x27;s case rests on arithmetic. Belgium needs to find approximately ten billion euros in savings and additional revenue by 2029 to meet its fiscal obligations and restore confidence among European institutions. Ministers have proposed a combination of spending restraint, healthcare reform and new revenue measures. Without a credible multi-year plan, they argue, Belgium faces the prospect of governing under a caretaker or temporary budget, weakening its capacity to deliver policy and potentially increasing its financing costs further.</p><p>Opposition within the coalition, backed by Belgium&#x27;s major trade unions, has mounted a sustained challenge to the composition of that plan. Healthcare reductions and increases in consumption taxes have proved especially contentious. Centre-left coalition partners have argued that wealthier households and corporations have not been asked to contribute proportionately, and that the burden as currently designed falls disproportionately on ordinary citizens and public services. Tens of thousands of workers joined rolling demonstrations, taking the dispute out of closed cabinet rooms and onto the streets.</p><h3>When Political Delay Becomes Financially Costly</h3><p>Alongside the political crisis, Belgium faces a deteriorating position in sovereign debt markets. The country&#x27;s ten-year government bond yield climbed to its highest level in approximately fifteen years, according to available reporting, reflecting a confluence of concerns: high public debt, a deficit well above the European Union&#x27;s reference threshold, sustained political uncertainty and broader European economic risks. The rise in yields is a signal that investors are demanding a higher premium to hold Belgian debt, and that premium has real consequences.</p><p>Higher borrowing costs mean that a larger share of government expenditure must be allocated to interest payments, crowding out spending on healthcare, infrastructure, social protection and investment. The government has used this dynamic to reinforce its case for consolidation, arguing that delay is not a neutral choice but an increasingly expensive one. Each month without a credible agreement narrows the fiscal space available for future decisions, whatever their political colour.</p><p>Critics of the government&#x27;s framing argue that bond-market pressure does not, by itself, dictate the precise content of a budget. Yield movements reflect overall perceptions of fiscal credibility and risk, including factors beyond Belgium&#x27;s control, such as energy market conditions, broader European monetary policy and global risk appetite. The opposition&#x27;s contention is that cutting services and raising consumption taxes may weaken domestic demand and deepen inequality without necessarily producing the market confidence the government seeks. The stronger evidence-based conclusion is that prolonged deadlock carries a rising financial cost, while the composition of any adjustment remains an inherently political choice.</p><h3>What Comes Next for Belgium and the Eurozone</h3><p>The immediate stakes for Belgian citizens are considerable. A collapse of the coalition would trigger a fresh round of government formation negotiations, a process Belgium has historically conducted over many months or even years. In the interim, the country would likely operate under a caretaker administration, limiting its capacity to pass budgets, reform social services or respond to external shocks. For households, the uncertainty prolongs questions about healthcare access, pension security, public-sector employment and the trajectory of taxes.</p><p>At the European level, Belgium&#x27;s situation carries broader implications. The country is a member of the eurozone and subject to the EU&#x27;s fiscal rules framework, which requires member states to bring deficits below three percent of GDP over an agreed adjustment path. A prolonged impasse could invite formal EU scrutiny and reinforce concerns that heavily indebted member states are unable or unwilling to implement fiscal correction without triggering domestic political crises. That perception, if it spreads, risks pushing up borrowing costs in other vulnerable eurozone economies.</p><p>The path forward requires the coalition partners to agree not only on a total fiscal figure but on its distribution across income groups, sectors and policy areas. The Belgian debate is, in this sense, a microcosm of a wider European tension: between the structural need for fiscal adjustment in high-debt economies and the political and social limits of austerity as a governing strategy. How De Wever and his partners resolve the question of who pays for Belgium&#x27;s fiscal repair will determine both the survival of his government and the country&#x27;s credibility as a eurozone partner in the months ahead.</p>",
+      "keywords": "Belgium, budget crisis, Bart De Wever, coalition government, fiscal deficit, bond yields, austerity, eurozone, trade unions, King Philippe, public debt, EU fiscal rules",
+      "sources": "Reporting on Belgian coalition crisis and Prime Minister De Wever resignation offer, source reference [1]; Reporting on Belgian fiscal deficit, coalition negotiations, trade union protests and bond market developments, source reference [2]",
+      "pubDate": "2026-11-04",
+      "chartData": {
+        "values": [
+          5.0,
+          15.0,
+          10.0
+        ],
+        "labels": [
+          "Deficit as % of GDP",
+          "Bond yield (15-year high indicator)",
+          "Fiscal gap target (billions EUR)"
+        ]
+      }
+    },
     {
       "id": "article-350538e",
       "title": "France Faces Twin Crisis as Austerity Drive Collides With Cost-of-Living Revolt",
@@ -16542,6 +16566,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261104-belgium",
+      "title": "Belgium's Budget Deadlock Tests Coalition Survival and Bond Market Patience · 04 Nov",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "8:59",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Belgium_Episode_2026_11_04.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 323,
+      "keywords": "Belgium, budget crisis, Bart De Wever, coalition government, fiscal deficit, bond yields, austerity, eurozone, trade unions, King Philippe, public debt, EU fiscal rules",
+      "notes": "Belgium's five-party federal coalition teetered on the edge of collapse after Prime Minister Bart De Wever offered his resignation over an unresolved plan to close a fiscal gap of roughly ten billion euros by 2029. With the country's ten-year bond yield at its highest level in around fifteen years, the standoff has moved well beyond parliamentary corridors. The central question is no longer whether Belgium faces a serious budget problem, but who should bear the cost of fixing it.",
+      "pubDate": "2026-11-04",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Belgium_Episode_2026_11_04.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_04/Belgium_Short_2026_11_04.mp4"
+    },
     {
       "id": "episode-20261104-france",
       "title": "France Faces Twin Crisis as Austerity Drive Collides With Cost-of-Living… · 04 Nov",
