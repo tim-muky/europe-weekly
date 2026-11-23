@@ -1,5 +1,5 @@
 {
-  "version": 1795446139901,
+  "version": 1795446267494,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-f0c4654",
+      "title": "Denmark's Booming Economy and Hardening Immigration Debate Reveal a Nation Divided Against Itself",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "excerpt": "Denmark is outperforming most of its European neighbours by headline economic measures, yet a narrowly concentrated pharmaceutical boom and rising household unease tell a more complicated story. Prime Minister Mette Frederiksen has simultaneously intensified the country's immigration debate, invoking language that critics associate with far-right movements. Together, these developments pose a fundamental question: who exactly benefits from Denmark's prosperity, and what kind of society is it meant to sustain?",
+      "body": "<h3>A Pharmaceutical Boom That Flatters the Headline Figures</h3><p>Denmark&#x27;s economy expanded by 0.8% in the third quarter of 2026, driven in large part by pharmaceutical exports and net trade. By European standards, this is a strong performance. Harmonised inflation stood at approximately 2.1% in October, according to Eurostat-based data, well below the EU average of 4.0%. On paper, Copenhagen can credibly claim to be one of the continent&#x27;s better-managed economies.</p><p>Yet the composition of that growth raises questions that the headline figures obscure. The expansion is unusually narrow, anchored to a single sector and to external demand rather than domestic consumption. Consumer confidence has weakened, unemployment has edged upward, and household spending remains subdued. The government projects a budget surplus for 2026, providing fiscal room to fund defence, infrastructure and public services, but trade unions argue that this space may be absorbed by defence commitments before it reaches ordinary workers.</p><p>The critical distinction, one that often gets lost in political debate, is between slowing inflation and falling prices. Slower price growth means costs are rising less quickly than before; it does not reverse the cumulative price increases households have absorbed over the past several years. If pharmaceutical-led export growth does not translate into stronger real wages or more secure employment, Denmark risks looking prosperous in international league tables while feeling stagnant at the kitchen table.</p><h3>Frederiksen&#x27;s Immigration Rhetoric Shifts the Political Centre</h3><p>Economic unease is unfolding against a parallel, and increasingly heated, political debate. Prime Minister Mette Frederiksen has sharpened her immigration stance in ways that have drawn both support and sharp condemnation. Her opposition to what she described as large-scale population replacement, and her explicit rejection of an equal-status multicultural model, generated immediate controversy. Critics, including progressive opposition parties and civil-liberties organisations, argued that the framing echoes language historically associated with far-right movements rather than mainstream social democracy.</p><p>The government&#x27;s position is rooted in a longer policy trajectory. Denmark has maintained consistently low asylum acceptance rates, pursued deportation initiatives and explored the externalisation of asylum processing. Supporters of the current direction argue that strong national cultural norms and enforceable migration limits are preconditions for successful integration. Some within the Social Democratic movement contend that occupying this ground prevents the far right from monopolising the issue entirely.</p><p>The charge from critics is not simply rhetorical. Human-rights advocates have questioned whether externalisation and deportation policies comply with European refugee law. Progressive parties argue that invoking replacement language stigmatises established minority communities and frames integration as ethnic conformity rather than civic participation. Trade unions have added a different concern: that identity-focused political debate distracts attention from labour shortages, the economic contribution of migrants and the practical task of integrating newcomers through employment and public services.</p><h3>An Unresolved Tension With European Implications</h3><p>The two debates are not as separate as they might appear. A country with low relative inflation, exceptional export performance and a projected fiscal surplus is simultaneously deliberating over who belongs within its borders and where public resources should flow: toward household welfare and education, toward defence, or toward the administration of stricter migration controls. How Denmark resolves that tension will shape domestic policy for years.</p><p>The international dimension is also significant. Denmark has long punched above its weight in European asylum and border-control debates. When a centre-left government adopts language and policies once associated with the nationalist right, it provides political cover for similar moves elsewhere and may nudge the European mainstream further in a restrictive direction. Several EU member states are watching closely, as are institutions navigating the already-fraught politics of the bloc&#x27;s migration and asylum frameworks.</p><p>In the near term, the Danish government faces a dual test. On the economy, it must demonstrate that pharmaceutical export revenues and fiscal strength are delivering tangible improvements for households, not merely flattering national statistics. On immigration, it must show that its hardened rhetoric corresponds to workable, legally sound policy rather than to a political positioning exercise that inflames without resolving. Both tests have deadlines measured in parliamentary cycles and in the daily experience of Danish citizens. The gap between national success and household confidence is not academic; it is electoral.</p>",
+      "keywords": "Denmark, Danish economy, pharmaceutical exports, GDP growth, inflation, Mette Frederiksen, immigration, population replacement, Social Democrats, European politics, asylum policy, integration, far right, EU migration, consumer confidence, fiscal surplus",
+      "sources": "Statistics Denmark, GDP growth Q3 2026 (source [1]); Eurostat harmonised inflation data, October 2026 (source [2]); Reporting on Prime Minister Frederiksen's immigration remarks (source [3]); Analysis of Danish immigration policy and political reaction (source [4])",
+      "pubDate": "2026-11-23",
+      "chartData": {
+        "values": [
+          0.8,
+          2.1,
+          4.0
+        ],
+        "labels": [
+          "Denmark GDP Growth Q3 2026 (%)",
+          "Danish Harmonised Inflation October 2026 (%)",
+          "EU Average Inflation October 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-3def7e0",
       "title": "Sweden Caught Between Political Deadlock and Rising Borrowing Costs",
@@ -16614,6 +16638,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261123-denmark",
+      "title": "Denmark's Booming Economy and Hardening Immigration Debate Reveal a Nation… · 23 Nov",
+      "categories": [
+        "cat-xlbr9em"
+      ],
+      "duration": "8:24",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Denmark_Episode_2026_11_23.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 326,
+      "keywords": "Denmark, Danish economy, pharmaceutical exports, GDP growth, inflation, Mette Frederiksen, immigration, population replacement, Social Democrats, European politics, asylum policy, integration, far right, EU migration, consumer confidence, fiscal surplus",
+      "notes": "Denmark is outperforming most of its European neighbours by headline economic measures, yet a narrowly concentrated pharmaceutical boom and rising household unease tell a more complicated story. Prime Minister Mette Frederiksen has simultaneously intensified the country's immigration debate, invoking language that critics associate with far-right movements. Together, these developments pose a fundamental question: who exactly benefits from Denmark's prosperity, and what kind of society is it meant to sustain?",
+      "pubDate": "2026-11-23",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Denmark_Episode_2026_11_23.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Denmark_Short_2026_11_23.mp4"
+    },
     {
       "id": "episode-20261123-sweden",
       "title": "Sweden Caught Between Political Deadlock and Rising Borrowing Costs · 23 Nov",
