@@ -1,5 +1,5 @@
 {
-  "version": 1793772544507,
+  "version": 1795446139901,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3def7e0",
+      "title": "Sweden Caught Between Political Deadlock and Rising Borrowing Costs",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "excerpt": "Sweden faces a dual crisis as prolonged coalition negotiations leave the country without a stable government, while the Riksbank has raised interest rates despite headline inflation falling well below its 2 percent target. The Centre Party's decision to negotiate with Social Democrat leader Magdalena Andersson offers a narrow path forward, but a confirmed majority remains elusive. Meanwhile, households already stretched by the cost-of-living crisis are absorbing higher mortgage costs even as official price data appears to improve.",
+      "body": "<h3>Andersson&#x27;s Coalition Bid Remains Unresolved as Centre Party Holds the Balance</h3><p>Magdalena Andersson, leader of Sweden&#x27;s Social Democrats, remains the frontrunner to form the country&#x27;s next government, but she is not yet a confirmed prime minister. The Centre Party has opted to continue negotiations with her, a decision that opens the most plausible route to a centre-left administration comprising the Social Democrats, the Centre Party and the Greens. However, parliamentary arithmetic is tight, and the arrangement depends on support from the Left Party, which is currently pushing for formal influence in government rather than a role confined to outside backing.</p><p>The impasse reflects the fundamental difficulty of Sweden&#x27;s post-election landscape: no bloc commands a comfortable majority, and the veto positions of individual parties are blocking conventional alliances. If the Left Party&#x27;s demands cannot be resolved, further parliamentary votes could fail, potentially pushing Sweden toward a fresh election. Ulf Kristersson and the centre-right bloc remain a theoretical alternative, but Kristersson faces his own coalition contradictions, particularly the Centre Party&#x27;s firm opposition to cooperation with the Sweden Democrats.</p><p>The broader consequence for Swedish citizens is a government vacuum at precisely the moment when households need clarity on economic policy, public-service funding and labour-market measures. The mood among voters, according to political observers, is less one of dramatic political rupture than of mounting exhaustion: people across the political spectrum want a functioning administration, regardless of which bloc ultimately delivers it.</p><h3>Riksbank Raises Rates as Underlying Inflation Tells a Different Story from the Headline</h3><p>On 11 November, Sweden&#x27;s central bank raised its policy rate by 0.25 percentage points to 2 percent, a decision that has puzzled many households. Official figures showed the Consumer Price Index with Fixed Interest Rate, known as CPIF, running at just 1.5 percent in September and falling further to 1.1 percent in October, both readings comfortably below the Riksbank&#x27;s 2 percent target. For mortgage holders and small businesses already navigating elevated debt costs, the rate increase was difficult to reconcile with statistics suggesting that inflation was cooling.</p><p>The Riksbank&#x27;s reasoning, however, points to a distinction between headline and underlying price dynamics. When temporary fiscal measures are stripped out of the calculation, CPIF inflation was running at approximately 3 percent in September, according to the bank&#x27;s own analysis. The institution also cited a weaker Swedish krona, persistent supply disruptions and rising input costs as factors likely to push inflation above target in the coming year. The rate increase, the Riksbank argued, is a preventive response to forward-looking risks rather than a reaction to price pressures already breaching the ceiling.</p><p>Critics, including opposition figures and advocates for indebted households, argue the move risks undermining a recovery that has not yet consolidated. Higher borrowing costs falling on mortgage holders and construction businesses before the economy is fully stable could slow growth without necessarily preventing a future inflation surge. Trade unions, while broadly accepting the need to guard against a second wave of price increases, are likely to scrutinise whether the burden of monetary adjustment falls disproportionately on workers and lower-income households already stretched by energy and import costs.</p><h3>Political Paralysis and Monetary Tightening Combine to Narrow Sweden&#x27;s Room for Manoeuvre</h3><p>The two crises are not unrelated. A government unable to form with a stable mandate is also a government unable to deliver a coherent economic strategy. Fiscal policy tools that could soften the impact of higher interest rates on vulnerable households, or accelerate labour-market adaptation, require a functioning parliamentary majority to pass and sustain. The longer coalition negotiations continue, the wider the gap between the economic pressures citizens face and the state&#x27;s capacity to respond.</p><p>For Sweden&#x27;s European partners and institutional observers, the situation offers a cautionary illustration of a broader pattern. Headline inflation figures across several European economies have moderated from their peaks, creating a surface impression that the cost-of-living crisis is receding. Yet underlying price dynamics, currency pressures and supply-side disruptions continue to shape central bank decisions in ways that directly affect household balance sheets. Low headline inflation does not automatically mean a return to economic normality, and narrow parliamentary majorities in countries from Stockholm to Rome are making calibrated policy responses harder to deliver.</p><p>The immediate next steps in Sweden are parliamentary in nature: further votes on a government mandate are expected, and the Centre Party&#x27;s continued participation in talks with Andersson will be the clearest short-term signal of whether a minority government is achievable before the year&#x27;s end. If talks collapse, constitutional provisions could require another election, adding months of further uncertainty. On the monetary side, the Riksbank&#x27;s forward guidance will be scrutinised closely in the coming weeks, with markets and households alike watching whether inflationary pressures materialise as the bank projects or whether the rate increase proves premature.</p>",
+      "keywords": "Sweden, Riksbank, interest rates, inflation, coalition government, Magdalena Andersson, Centre Party, Social Democrats, Swedish politics, monetary policy, cost of living, CPIF, Ulf Kristersson, Left Party, Greens, Swedish economy",
+      "sources": "Riksbank monetary policy announcement, 11 November; Riksbank CPIF inflation data, September and October; Swedish parliamentary reporting on coalition negotiations; Riksbank forward inflation projections and underlying price analysis",
+      "pubDate": "2026-11-23",
+      "chartData": {
+        "values": [
+          2.0,
+          1.5,
+          1.1,
+          3.0
+        ],
+        "labels": [
+          "Riksbank Policy Rate (%)",
+          "CPIF Inflation September (%)",
+          "CPIF Inflation October (%)",
+          "CPIF Excl. Fiscal Effects September (%)"
+        ]
+      }
+    },
     {
       "id": "article-a15633a",
       "title": "Dutch Coalition Walks Budget Tightrope as Energy Costs Squeeze Industry and Households",
@@ -16588,6 +16614,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261123-sweden",
+      "title": "Sweden Caught Between Political Deadlock and Rising Borrowing Costs · 23 Nov",
+      "categories": [
+        "cat-5gtq4f2"
+      ],
+      "duration": "6:05",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Sweden_Episode_2026_11_23.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 325,
+      "keywords": "Sweden, Riksbank, interest rates, inflation, coalition government, Magdalena Andersson, Centre Party, Social Democrats, Swedish politics, monetary policy, cost of living, CPIF, Ulf Kristersson, Left Party, Greens, Swedish economy",
+      "notes": "Sweden faces a dual crisis as prolonged coalition negotiations leave the country without a stable government, while the Riksbank has raised interest rates despite headline inflation falling well below its 2 percent target. The Centre Party's decision to negotiate with Social Democrat leader Magdalena Andersson offers a narrow path forward, but a confirmed majority remains elusive. Meanwhile, households already stretched by the cost-of-living crisis are absorbing higher mortgage costs even as official price data appears to improve.",
+      "pubDate": "2026-11-23",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Sweden_Episode_2026_11_23.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Sweden_Short_2026_11_23.mp4"
+    },
     {
       "id": "episode-20261104-netherlands",
       "title": "Netherlands: Dutch Coalition Walks Budget Tightrope · 04 Nov",
