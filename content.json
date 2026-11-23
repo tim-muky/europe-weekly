@@ -1,5 +1,5 @@
 {
-  "version": 1795446395246,
+  "version": 1795446523325,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-a8a3d25",
+      "title": "Ireland's Fiscal Paradox: Record Surpluses, Strained Services and a Pay Deal That Tests the Limits",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "excerpt": "Ireland is running some of the strongest public finances in the European Union, yet citizens face housing shortages, long healthcare waits and rising living costs. A landmark public-sector pay agreement and an intensifying debate over corporation-tax windfalls have brought the country's central economic contradiction into sharp focus. The question now is whether a wealthy state can translate aggregate prosperity into tangible improvements in everyday life.",
+      "body": "<h3>A Surplus Built on Uncertain Foundations</h3><p>Ireland&#x27;s government finances look enviable by European standards. The country is forecast to record a general-government surplus of 1.4 percent of GDP in 2026, according to the European Commission. Yet fiscal analysts and opposition lawmakers argue that headline figure conceals a more precarious reality beneath it.</p><p>The Irish Fiscal Advisory Council has calculated that, if excess corporation-tax receipts are stripped out, the state is expected to run a deficit of more than 11 billion euros in 2026, equivalent to over 3 percent of national income. That gap underscores how heavily public finances have come to depend on taxes paid by a small cluster of large multinational companies, most of them American technology and pharmaceutical groups that booked profits through Irish subsidiaries.</p><p>The government has acknowledged the exposure. Its position, broadly supported by the Commission, is that windfall corporation-tax revenues should not be treated as permanent income and should not be used to fund open-ended spending commitments that could prove unaffordable if multinational profit flows or international tax rules shift. The Commission projects the surplus will narrow to 0.6 percent of GDP by 2028 as expenditure grows faster than revenue, adding weight to that cautionary argument. The Fiscal Council has noted that the government currently plans to save only about one euro in every six collected in corporation tax through 2030, directing the remainder into public services.</p><h3>Investment Gap Fuels Political Pressure</h3><p>Opposition parties and public-service advocates reject the idea that caution is the only responsible response. Ireland, they argue, faces acute and visible shortfalls in housing supply, hospital capacity, electricity infrastructure, transport networks and school buildings. Saving windfall receipts while those deficits persist amounts, in their view, to a political choice to under-invest at precisely the moment when the state has the fiscal room to act.</p><p>The tension is not abstract for Irish households. Citizens are aware that the state is recording surpluses, yet many struggle to find affordable housing, face long waiting lists for medical procedures and contend with energy costs that remain elevated. Modified domestic demand, a measure that strips out multinational distortions and better reflects the lived economy, is forecast by the Commission to grow by 3.9 percent in 2026, suggesting the underlying domestic economy remains relatively solid. Yet that aggregate strength has not translated quickly enough into expanded public capacity, and frustration is growing.</p><p>The most evidence-based path, as assessed against the available data, lies between the two positions: directing windfall revenues toward capital investment that raises long-term productive capacity, such as housing supply, energy networks and healthcare infrastructure, while protecting a meaningful share in fiscal reserves. Permanent additions to current spending are harder to reverse quickly if corporation-tax flows decline, making capital allocation the lower-risk channel for deploying the surplus.</p><h3>Pay Agreement Adds Billions to the Spending Equation</h3><p>Alongside the corporation-tax debate, the government reached a proposed pay settlement with public-sector unions that will cost the state approximately 5.2 billion euros. The agreement provides for increases of around 10.75 percent from July 2026 through to March 2029, covering nurses, teachers, doctors, civil servants and other workers across the broader public service. The deal was struck against a backdrop of threatened industrial action serious enough to raise the prospect of widespread disruption to schools, hospitals and state administration.</p><p>The Commission forecasts Irish consumer-price inflation at 3.4 percent in 2026, easing to 3.1 percent in 2027 and 2.2 percent in 2028. In aggregate, a nominal increase of 10.5 to 10.75 percent spread across nearly three years would, on those projections, exceed forecast price growth. The government argued the settlement was both substantial and necessary to stabilise industrial relations and stem the loss of experienced workers from essential services. Union representatives countered that previous agreements had failed to keep pace with real living costs, particularly in a rental and housing market where accommodation expenses consume an outsized share of household income and can far outstrip the national consumer-price index.</p><p>The settlement is most accurately characterised as a combination of catch-up compensation and a recruitment measure, rather than a straightforward inflation adjustment. Its practical effect for citizens depends heavily on whether higher pay translates into better-staffed hospitals, shorter waiting lists and more consistent school provision. If the wage bill rises without a parallel expansion of capacity, the agreement will satisfy workers in the short term while leaving service users frustrated. The cost also arrives at a moment when the Commission expects expenditure growth to outpace revenue growth, compressing the surplus that currently anchors Ireland&#x27;s fiscal reputation in Brussels.</p>",
+      "keywords": "Ireland, corporation tax, public finances, fiscal surplus, multinational companies, public sector pay, inflation, European Commission, Fiscal Advisory Council, housing, healthcare, budget, Irish economy",
+      "sources": "European Commission Spring 2025 European Economic Forecast (Ireland chapter); Irish Fiscal Advisory Council fiscal assessment 2025; Government of Ireland public-sector pay settlement announcement; European Commission Ireland-specific fiscal risk assessment",
+      "pubDate": "2026-11-23",
+      "chartData": {
+        "values": [
+          1.4,
+          0.6,
+          3.4,
+          3.1
+        ],
+        "labels": [
+          "Govt surplus % GDP 2026",
+          "Govt surplus % GDP 2028",
+          "Inflation forecast 2026",
+          "Inflation forecast 2027"
+        ]
+      }
+    },
     {
       "id": "article-7b52581",
       "title": "Finland's Recovery Illusion: Growth Returns but Jobs and Confidence Lag Behind",
@@ -16664,6 +16690,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261123-ireland",
+      "title": "Ireland's Fiscal Paradox: Record Surpluses · 23 Nov",
+      "categories": [
+        "cat-r212kti"
+      ],
+      "duration": "9:04",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Ireland_Episode_2026_11_23.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 328,
+      "keywords": "Ireland, corporation tax, public finances, fiscal surplus, multinational companies, public sector pay, inflation, European Commission, Fiscal Advisory Council, housing, healthcare, budget, Irish economy",
+      "notes": "Ireland is running some of the strongest public finances in the European Union, yet citizens face housing shortages, long healthcare waits and rising living costs. A landmark public-sector pay agreement and an intensifying debate over corporation-tax windfalls have brought the country's central economic contradiction into sharp focus. The question now is whether a wealthy state can translate aggregate prosperity into tangible improvements in everyday life.",
+      "pubDate": "2026-11-23",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Ireland_Episode_2026_11_23.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_23/Ireland_Short_2026_11_23.mp4"
+    },
     {
       "id": "episode-20261123-finland",
       "title": "Finland's Recovery Illusion: Growth Returns but Jobs and Confidence Lag Behind · 23 Nov",
