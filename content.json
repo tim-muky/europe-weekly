@@ -1,5 +1,5 @@
 {
-  "version": 1795446523325,
+  "version": 1795532533800,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-0ffca59",
+      "title": "Portugal's Budget Battle Lays Bare the Tension Between Fiscal Discipline and Daily Hardship",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "excerpt": "Portugal's minority centre-right government has cleared the first parliamentary hurdle for its 2027 budget, but a national public-sector strike and protests across 32 cities signal that fiscal stability has yet to translate into relief for ordinary households. With inflation still running close to 4% and housing costs consuming an ever-larger share of wages, the country faces a defining political test: whether economic credibility and social adequacy can coexist in a single spending plan.",
+      "body": "<h3>A Budget That Balances the Books, but Not Everyone&#x27;s Books</h3><p>Portugal&#x27;s government presented its 2027 budget with a message of cautious optimism. The bill targets a surplus of 0.1% of GDP, following a projected balanced budget in 2026, while cutting the corporate tax rate from 19% to 18%, reducing income taxes for lower earners and raising pension spending. The package survived its first vote in parliament after the main opposition Socialist Party chose to abstain rather than block the bill outright, sparing the government an immediate crisis.</p><p>Finance officials argued that the combination of modest tax relief and continued fiscal responsibility would reinforce investor confidence, support Portugal&#x27;s borrowing position and create conditions for private-sector expansion. That argument carries real weight: Portugal has worked hard over the past decade to restore credibility with bond markets and European institutions, and a small surplus would represent a meaningful marker of that effort.</p><p>Yet the political arithmetic remains fragile. The Socialist abstention kept the budget alive, but it did not deliver governing comfort. Critics within parliament and beyond argued that the corporate tax cut risks shrinking revenue at precisely the moment when hospitals, schools, the courts and social security require greater, not smaller, investment. Whether tax reductions and adequate public services can genuinely coexist remains, in the words of the available evidence, fiscally and politically unproven.</p><h3>Strikes and Protests Reveal a Deeper Social Fracture</h3><p>The political tension crystallised in a national strike that simultaneously affected schools, hospitals, courts and other public services, as trade unions rejected the government&#x27;s claim that the budget adequately addressed wage pressures and staffing shortages. Union leaders said the plan failed workers in sectors where recruitment and retention crises have already eroded service quality. The strike was not simply a protest against one budget line; it was a signal that fiscal stability, as experienced by public employees, feels less like recovery and more like continued restraint.</p><p>Housing and the broader cost of living sharpened that anger further. Demonstrations on 14 November spread across 32 cities, with protesters demanding stronger rent protections, expanded public housing and firmer safeguards against evictions. What had once been framed as a renters&#x27; issue has become a cross-generational grievance, drawing younger workers, families, public-sector employees and pensioners into a shared complaint: that incomes are not keeping pace with what it costs to live.</p><p>The inflation picture reinforces that mood. Statistics Portugal estimated annual consumer price inflation at 3.8% in October, up from 3.6% in September. Eurostat&#x27;s harmonised measure placed Portugal at 3.9%, against a euro-area average of 4.0%. Prices may no longer be rising at the speed recorded during the peak inflation shock, but accumulated cost increases in rent, mortgages, food and energy continue to erode household purchasing power. Describing inflation as simply &quot;down&quot; would be misleading; for most families, the pressure is ongoing.</p><h3>An EU-Wide Question Played Out in Lisbon</h3><p>Portugal&#x27;s budget dispute is not purely a domestic affair. It encapsulates a tension visible across the European Union: governments are under pressure to maintain the fiscal credibility demanded by markets and EU rules, while citizens increasingly demand protection from housing costs, inflation and the slow deterioration of public services. The question is no longer only whether deficits are under control, but whether the stability that appears on government spreadsheets is felt inside household budgets.</p><p>For an average Portuguese citizen, the practical test is straightforward. Can wages cover rent, food, energy and transport, while public services remain reliable enough to be useful? The wave of strikes and demonstrations that has accompanied the budget debate suggests that many would answer no. The government&#x27;s longer-term supply-side argument on housing, that better investment conditions will eventually expand construction and ease prices, may be economically defensible, but it offers little comfort to workers in Lisbon or Porto who are already paying unaffordable rents today.</p><p>The budget&#x27;s next parliamentary stages will determine whether the government can hold together a working majority on individual votes, or whether it will be forced into further concessions. If the Socialists decide to shift from abstention to opposition on later amendments, spending commitments could grow, complicating the surplus target. Meanwhile, trade unions have not indicated they will stand down, and housing campaigners show every sign of maintaining pressure through the winter. The gap between fiscal ambition and social reality may prove to be the defining political fault line of Portugal&#x27;s parliamentary term.</p>",
+      "keywords": "Portugal, 2027 budget, fiscal policy, housing crisis, cost of living, inflation, public sector strike, Socialist Party, corporate tax, rent controls, Eurostat, minority government, European Union, public services, wage pressures",
+      "sources": "Statistics Portugal, October 2024 CPI flash estimate; Eurostat, October 2024 harmonised inflation data; Portuguese government 2027 budget bill documentation; Portuguese parliament vote record on budget first reading; Trade union strike communications and demands, November 2024; Housing protest reports, 14 November 2024, 32 cities",
+      "pubDate": "2026-11-24",
+      "chartData": {
+        "values": [
+          3.8,
+          3.9,
+          4.0
+        ],
+        "labels": [
+          "Portugal CPI (Oct)",
+          "Portugal HICP (Oct)",
+          "Euro Area HICP (Oct)"
+        ]
+      }
+    },
     {
       "id": "article-a8a3d25",
       "title": "Ireland's Fiscal Paradox: Record Surpluses, Strained Services and a Pay Deal That Tests the Limits",
@@ -16690,6 +16714,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261124-portugal",
+      "title": "Portugal's Budget Battle Lays Bare the Tension Between Fiscal Discipline and… · 24 Nov",
+      "categories": [
+        "cat-bt20cny"
+      ],
+      "duration": "8:12",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Portugal_Episode_2026_11_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 329,
+      "keywords": "Portugal, 2027 budget, fiscal policy, housing crisis, cost of living, inflation, public sector strike, Socialist Party, corporate tax, rent controls, Eurostat, minority government, European Union, public services, wage pressures",
+      "notes": "Portugal's minority centre-right government has cleared the first parliamentary hurdle for its 2027 budget, but a national public-sector strike and protests across 32 cities signal that fiscal stability has yet to translate into relief for ordinary households. With inflation still running close to 4% and housing costs consuming an ever-larger share of wages, the country faces a defining political test: whether economic credibility and social adequacy can coexist in a single spending plan.",
+      "pubDate": "2026-11-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Portugal_Episode_2026_11_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Portugal_Short_2026_11_24.mp4"
+    },
     {
       "id": "episode-20261123-ireland",
       "title": "Ireland's Fiscal Paradox: Record Surpluses · 23 Nov",
