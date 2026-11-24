@@ -1,5 +1,5 @@
 {
-  "version": 1795532533800,
+  "version": 1795532667667,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-6174526",
+      "title": "Spain's Housing Crisis and Snap Election Put Growth Gains Under Pressure",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "excerpt": "Spain heads toward a potentially transformative election as a structural housing shortage and persistent inflation erode the credibility of otherwise strong macroeconomic figures. With real house prices rising nearly 10 percent in 2025 and younger households increasingly priced out of the market, both the governing Socialists and the opposition People's Party are offering competing visions that go far beyond technocratic policy. The outcome could shape not only Spain's domestic direction but also broader European debates on housing, fiscal policy, and coalition governance.",
+      "body": "<h3>A Bank Levy and a Supply Crisis Collide</h3><p>Spain&#x27;s government has extended a levy on the country&#x27;s banking sector, expected to generate approximately 1.4 billion euros, which it intends to channel into public and affordable housing programmes. Prime Minister Pedro Sánchez&#x27;s administration argues that lenders profited substantially from the period of elevated interest rates and that the proceeds represent a fair contribution to addressing one of Spain&#x27;s most pressing social problems.</p><p>The case for urgency is difficult to dispute. Data from the Banco de España show that real house prices rose by roughly 9.7 percent in 2025, far outpacing wage growth, while the central bank has itself identified supply constraints as a core structural challenge. Demand and household formation are running ahead of construction, producing a shortage that no single fiscal measure is likely to reverse quickly.</p><p>The main opposition People&#x27;s Party, led by Alberto Núñez Feijóo, contests the levy on the grounds that it could reduce banks&#x27; appetite to lend, raise borrowing costs, or simply be passed on to retail customers. The PP&#x27;s alternative rests on tax relief, deregulation, and incentives for private construction, arguing that freeing up the market will do more to increase housing supply than state-directed funding. The factual record, however, suggests both sides are partially right: the shortage is real, the levy is substantial but probably insufficient on its own, and the lending risk remains a credible concern rather than a proven outcome.</p><h3>Strong Growth, Weak Confidence and an Election That Could Reorder Alliances</h3><p>Spain&#x27;s macroeconomic position is, by several measures, among the more resilient in the euro area. The Banco de España projects GDP growth of 2.6 percent for 2026, a figure the Sánchez government has repeatedly cited as evidence that its interventionist economic model is working. Yet the same institution projects inflation at 3.9 percent and an unemployment rate of around 10 percent for the same period, figures that sit uneasily alongside the growth headline.</p><p>The disconnect between aggregate performance and lived experience is at the heart of the snap election campaign. Voters are, according to polling and protest activity, evaluating the economy through rent levels, mortgage payments, grocery bills, and the perceived quality of public services rather than through GDP statistics. Housing demonstrations have moved the affordability question from a peripheral concern to a central political test, feeding a broader atmosphere that analysts have described as simultaneously chaotic and distrustful.</p><p>The PP argues that headline growth obscures deteriorating household purchasing power and raises questions about fiscal transparency, calling for a public-finance audit. The Socialists counter that intervention is shielding lower-income households while sustaining expansion. Claims that public accounts were falsified remain politically contested and cannot be treated as established without an independent review. What the evidence does confirm is that Spain&#x27;s economy is growing while a significant share of its population struggles to afford basic housing, a tension neither party has fully resolved in its platform.</p><h3>Coalition Arithmetic, European Consequences and the Road Ahead</h3><p>The election&#x27;s most consequential uncertainty may be less about which party wins the most seats than about which parties form a government and on what terms. A PP-led administration would likely require external support or a formal coalition arrangement with the far-right Vox, a prospect that has introduced a layer of ideological unpredictability into projections about tax policy, housing strategy, migration and Spain&#x27;s posture within European institutions.</p><p>For the broader European Union, the Spanish contest is being watched as a test case for a problem that extends well beyond the Iberian Peninsula. Strong employment and growth coexisting with increasingly inaccessible housing markets is a pattern visible in the Netherlands, Germany, Ireland and beyond. How Spain responds, whether through state-directed investment, market deregulation, or some combination, will carry lessons and political signals for governments across the bloc grappling with similar pressures.</p><p>In the near term, the most immediate deadlines are electoral. If a right-led government does take office, the speed and design of any fiscal audit, the future of the bank levy, and the direction of housing regulation will be among the first real tests of its stated priorities. For younger Spaniards in particular, the outcome is not primarily an argument about economic theory: it is a question of whether forming a household and affording a home will become measurably easier or harder within a foreseeable timeframe.</p>",
+      "keywords": "Spain, housing crisis, snap election, bank levy, People's Party, PSOE, Sánchez, Feijóo, Vox, GDP growth, inflation, Banco de España, affordable housing, coalition government, European Union, fiscal policy",
+      "sources": "Banco de España economic projections and housing supply assessment; Spanish government statements on the bank levy extension; People's Party policy platform on tax relief and deregulation; Reporting on housing protests and electoral polling; European comparative housing data",
+      "pubDate": "2026-11-24",
+      "chartData": {
+        "values": [
+          9.7,
+          2.6,
+          3.9,
+          10.0
+        ],
+        "labels": [
+          "House Price Rise 2025 (%)",
+          "GDP Growth Forecast 2026 (%)",
+          "Inflation Forecast 2026 (%)",
+          "Unemployment Forecast 2026 (%)"
+        ]
+      }
+    },
     {
       "id": "article-0ffca59",
       "title": "Portugal's Budget Battle Lays Bare the Tension Between Fiscal Discipline and Daily Hardship",
@@ -16714,6 +16740,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261124-spain",
+      "title": "Spain's Housing Crisis and Snap Election Put Growth Gains Under Pressure · 24 Nov",
+      "categories": [
+        "cat-afrit6a"
+      ],
+      "duration": "8:44",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Spain_Episode_2026_11_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 330,
+      "keywords": "Spain, housing crisis, snap election, bank levy, People's Party, PSOE, Sánchez, Feijóo, Vox, GDP growth, inflation, Banco de España, affordable housing, coalition government, European Union, fiscal policy",
+      "notes": "Spain heads toward a potentially transformative election as a structural housing shortage and persistent inflation erode the credibility of otherwise strong macroeconomic figures. With real house prices rising nearly 10 percent in 2025 and younger households increasingly priced out of the market, both the governing Socialists and the opposition People's Party are offering competing visions that go far beyond technocratic policy. The outcome could shape not only Spain's domestic direction but also broader European debates on housing, fiscal policy, and coalition governance.",
+      "pubDate": "2026-11-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Spain_Episode_2026_11_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Spain_Short_2026_11_24.mp4"
+    },
     {
       "id": "episode-20261124-portugal",
       "title": "Portugal's Budget Battle Lays Bare the Tension Between Fiscal Discipline and… · 24 Nov",
