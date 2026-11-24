@@ -1,5 +1,5 @@
 {
-  "version": 1795532667667,
+  "version": 1795532800326,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-387c732",
+      "title": "Italy's €26 Billion Budget Sets Up a Battle Over Who Bears the Cost of Recovery",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "excerpt": "Prime Minister Giorgia Meloni's government is advancing a €26 billion budget combining tax cuts and new spending ahead of a 2027 election, financed partly through levies on banks, insurers and energy companies. A general strike on 20 November brought an estimated 1.5 million workers and students into the streets across more than 100 Italian towns, challenging the government's claim that the package delivers meaningful relief. The dispute cuts to a question that extends well beyond Italy: can a heavily indebted government satisfy EU fiscal rules while protecting wages, public services and household purchasing power at the same time.",
+      "body": "<h3>A Pre-Election Budget With an Unfamiliar Financing Formula</h3><p>Giorgia Meloni&#x27;s government has presented what it describes as its most consequential fiscal package yet: a budget worth approximately €26 billion that lowers the tax burden on middle-income earners and the self-employed while directing additional funding toward the national health service. The measures, expected to anchor the government&#x27;s platform ahead of a likely 2027 election, are designed to demonstrate that Italy can combine visible household relief with continued respect for European Union deficit rules.</p><p>The budget&#x27;s unusual feature is where much of the financing comes from. Rather than raising broad consumption taxes or cutting welfare programmes outright, the government intends to collect roughly €5 billion from banks, insurers and energy companies, with earlier estimates suggesting the financial sector could face a cumulative burden of around €7 billion over three years. Officials argue this approach makes the financial sector — which benefited from higher interest rates in recent years as household borrowing costs climbed — contribute to a package that is intended to help ordinary families.</p><p>The political logic is transparent. Taxing institutions seen as having prospered while mortgage holders and credit users struggled carries real popular appeal. But the economic logic is more contested, and the government faces pushback from multiple directions simultaneously, including from the very institutions it is asking to pay.</p><h3>Banks, Unions and the Opposition Find Different Reasons to Push Back</h3><p>Italian banks and insurers have warned that higher taxation could constrain lending capacity and may prompt financial institutions to reduce their holdings of Italian government debt. That second concern carries particular weight: Italy&#x27;s borrowing costs are sensitive to domestic bank demand for sovereign bonds, and any shift in portfolio behaviour could move spreads in ways that affect the budget&#x27;s own financing assumptions. The government has dismissed those warnings as self-interested, but analysts note they represent a material risk rather than simply a negotiating position, and they warrant monitoring against Bank of Italy data on credit growth and sovereign-debt holdings.</p><p>Trade union federation CGIL and its allies mounted a broader challenge on 20 November, when workers, public-sector employees and students staged strikes and demonstrations in more than 100 cities and towns. CGIL claimed around 1.5 million participants and a 60 percent strike rate, figures that reflect the union&#x27;s own estimates rather than independently verified counts. Even discounting for typical differences between union and official tallies, the geographic spread and the involvement of student groups signal that dissatisfaction extends well beyond traditional union membership.</p><p>The strikers&#x27; demands centred on wages, pension indexation, healthcare, education and housing costs. The union federation CGIL, alongside Cobas and student organisations, argued that the budget&#x27;s headline tax relief does not compensate for the purchasing power lost to inflation over recent years. Their core point rests on a distinction the government has been less explicit about: a slowdown in inflation means prices are rising more slowly, not that they have returned to pre-surge levels. Food, energy, rent and transport costs remain substantially higher than they were three or four years ago, and public-service shortages increasingly push households toward private spending to cover gaps in healthcare and education.</p><h3>An Electoral Package Carrying Structural Risks</h3><p>The budget represents the last significant fiscal statement before what most analysts expect will be a 2027 election cycle, making its design as much an exercise in electoral communication as in economic management. The government has succeeded in constructing a package with broadly popular elements: health funding increases, tax relief for the self-employed and a financing mechanism that places the visible burden on banks rather than households. Whether those elements translate into lasting improvements in living standards depends on factors the budget itself cannot guarantee: how inflation-adjusted wages evolve, whether public-service capacity keeps pace with demand and how financial markets assess the credibility of the whole exercise.</p><p>Italy&#x27;s position in the euro area amplifies the stakes. As one of the bloc&#x27;s most heavily indebted economies, Italy&#x27;s borrowing costs respond quickly to shifts in market confidence. A budget judged credible by investors can help contain spread widening; one perceived as relying on one-off or reversible revenue sources may invite scrutiny from both markets and European Commission fiscal monitors. The government has argued its plan is compatible with EU rules, but the Commission&#x27;s formal assessment, alongside updated data on Italy&#x27;s debt trajectory and deficit path, will be the decisive test of that claim.</p><p>Looking ahead, three sets of data will determine whether the government&#x27;s narrative holds. Eurostat figures on harmonised inflation and real wages will show whether household purchasing power is genuinely recovering or whether disinflation has simply reduced the pace of deterioration. Bank of Italy data on credit conditions and sovereign-bond portfolios will indicate whether the bank levy generates the expected revenue without unintended consequences for lending or spreads. And official healthcare, education and pension spending figures, measured against rising demand, will reveal whether the budget&#x27;s public-service commitments are substantive or presentational. Until those numbers are available, the budget remains a political proposition whose economic consequences are still being written.</p>",
+      "keywords": "Italy budget 2027, Giorgia Meloni, general strike, CGIL, bank levy, cost of living, EU fiscal rules, Italian economy, euro area debt, purchasing power, inflation Italy, public services Italy",
+      "sources": "Reuters, reporting on Italy's 2027 budget tax cuts and spending increases; Reuters, reporting on trade union strike demands and wage recovery concerns; ANSA, reporting on 20 November general strike participation and CGIL estimates; Italian government budget communications, as reported by Reuters and ANSA",
+      "pubDate": "2026-11-24",
+      "chartData": {
+        "values": [
+          26.0,
+          5.0,
+          7.0
+        ],
+        "labels": [
+          "Total Budget Package (€bn)",
+          "Bank and Insurer Levy (€bn)",
+          "Projected Financial Sector Burden Over Three Years (€bn)"
+        ]
+      }
+    },
     {
       "id": "article-6174526",
       "title": "Spain's Housing Crisis and Snap Election Put Growth Gains Under Pressure",
@@ -16740,6 +16764,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261124-italy",
+      "title": "Italy's €26 Billion Budget Sets Up a Battle Over Who Bears the Cost of… · 24 Nov",
+      "categories": [
+        "cat-brofdjc"
+      ],
+      "duration": "8:21",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Italy_Episode_2026_11_24.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 331,
+      "keywords": "Italy budget 2027, Giorgia Meloni, general strike, CGIL, bank levy, cost of living, EU fiscal rules, Italian economy, euro area debt, purchasing power, inflation Italy, public services Italy",
+      "notes": "Prime Minister Giorgia Meloni's government is advancing a €26 billion budget combining tax cuts and new spending ahead of a 2027 election, financed partly through levies on banks, insurers and energy companies. A general strike on 20 November brought an estimated 1.5 million workers and students into the streets across more than 100 Italian towns, challenging the government's claim that the package delivers meaningful relief. The dispute cuts to a question that extends well beyond Italy: can a heavily indebted government satisfy EU fiscal rules while protecting wages, public services and household purchasing power at the same time.",
+      "pubDate": "2026-11-24",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Italy_Episode_2026_11_24.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_24/Italy_Short_2026_11_24.mp4"
+    },
     {
       "id": "episode-20261124-spain",
       "title": "Spain's Housing Crisis and Snap Election Put Growth Gains Under Pressure · 24 Nov",
