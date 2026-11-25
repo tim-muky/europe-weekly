@@ -1,5 +1,5 @@
 {
-  "version": 1795619209356,
+  "version": 1795619346966,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-d84155c",
+      "title": "Dutch Coalition Fractures Over Wealth Tax as Households Wait for Relief",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "excerpt": "The Netherlands is navigating a dual crisis: a minority government that passed a contentious wealth-tax package only by relying on opposition votes, and an economy that looks resilient on paper but continues to squeeze household budgets. The tax vote exposed deep divisions within the coalition, raising questions about whether the cabinet can sustain a governing programme. For Dutch citizens, the central question remains whether macroeconomic stability will translate into tangible financial relief.",
+      "body": "<h3>A Coalition Fracture Hidden Inside a Tax Vote</h3><p>The Dutch government&#x27;s 2027 tax package cleared parliament this week under circumstances that exposed the fragility of the Jetten-led minority cabinet. The measure, which would raise approximately one billion euros in additional wealth-tax revenue and use part of that sum to lower income taxes, passed only after the centrist D66 and the Christian democrat CDA reached an agreement with opposition parties PRO and Volt. Coalition partner VVD voted against the bill, a rupture that went far beyond a routine parliamentary disagreement.</p><p>Supporters of the package, including government ministers and centre-left backers, argued that the legislation makes the tax system more equitable by shifting the burden from earned income toward accumulated wealth. They also pointed to the successful vote itself as evidence that a minority cabinet can still legislate by building issue-by-issue majorities across the aisle. That argument, however credible on procedural grounds, did not resolve the deeper political damage.</p><p>VVD officials and business-aligned critics rejected the framing entirely, arguing that the coalition had breached its internal governing agreement and lurched to the left without their consent. VVD&#x27;s claim that higher wealth taxation will damage investment and competitiveness remains politically potent but, as yet, unsubstantiated by any quantified impact assessment cited in the available evidence. What is well documented is that the government lacks a stable parliamentary majority and must now negotiate each major legislative step as though starting from scratch.</p><h3>An Economy That Grows Without Making People Feel Better</h3><p>Separate from the political turbulence, the Dutch economy presents a picture that statisticians and finance ministers can defend but that many citizens find difficult to recognise in their daily lives. De Nederlandsche Bank projects inflation at 2.7 percent in 2026, falling to 2.3 percent in 2027, according to its published forecasts. Those figures suggest a gradual easing of price pressures, but they remain above the European Central Bank&#x27;s two percent target throughout the forecast horizon.</p><p>Government optimists point to the Netherlands having absorbed successive energy shocks better than many peer economies, supported by robust exports, sustained public spending and its strategic position in the global semiconductor supply chain. On those measures, the resilience argument holds. The risk, critics and trade unions argue, is that resilience is being confused with comfort. Inflation declining does not mean prices are falling; it means prices are rising more slowly than before, leaving households to manage a permanently higher cost base for essentials including rent, food, energy and mortgage repayments.</p><p>The gap between official macroeconomic indicators and lived experience is not merely a communications problem. It is a structural one. Workers require real wage growth and targeted relief to feel any improvement, and the available data does not establish that such gains have broadly materialised. Opposition politicians have been quick to characterise the government&#x27;s optimism as detached, and polling suggests that voter confidence in the coalition&#x27;s economic management remains fragile.</p><h3>Instability With Consequences Beyond the Netherlands</h3><p>The coming months will test whether the Jetten cabinet can sustain its programme in the absence of a reliable parliamentary majority. The tax vote demonstrated that legislation is achievable through ad hoc opposition coalitions, but that model carries real costs. It signals to investors, trading partners and European Union institutions that Dutch fiscal and policy decisions cannot be treated as predictable, and it creates incentives for smaller parties to extract concessions on each successive vote.</p><p>For the broader euro area, the stakes are meaningful. The Netherlands is a significant exporter, a major institutional investor and a critical node in the semiconductor supply chain that European policymakers have identified as strategically important. Prolonged political uncertainty in Amsterdam could complicate the country&#x27;s contribution to EU-level fiscal discussions and erode confidence in one of the bloc&#x27;s larger economies at a moment when the European Commission is pressing member states for coordinated responses to sluggish growth.</p><p>The underlying argument animating both the tax dispute and the economic debate is the same: who should bear the cost of an economy that is growing in aggregate but failing to make ordinary households feel more secure. That question will not be resolved by the passage of a single tax package. With the coalition&#x27;s internal cohesion visibly strained and inflation set to remain above target well into 2027, the political and economic pressures feeding Dutch public discontent are unlikely to ease before the next electoral cycle forces a reckoning.</p>",
+      "keywords": "Netherlands, Dutch politics, coalition government, wealth tax, Jetten cabinet, VVD, D66, CDA, Dutch economy, inflation, De Nederlandsche Bank, cost of living, euro area, minority government, fiscal policy, semiconductor supply chain",
+      "sources": "De Nederlandsche Bank inflation and economic outlook forecasts; Dutch parliamentary reporting on the 2027 tax package vote; Public statements from D66, CDA, VVD, PRO and Volt on the coalition tax negotiations; European Central Bank two percent inflation target reference; European Commission assessments of euro-area member state fiscal coordination",
+      "pubDate": "2026-11-25",
+      "chartData": {
+        "values": [
+          3.0,
+          2.7,
+          2.3
+        ],
+        "labels": [
+          "2025 Inflation (%)",
+          "2026 Forecast (%)",
+          "2027 Forecast (%)"
+        ]
+      }
+    },
     {
       "id": "article-1b78896",
       "title": "Belgium's Budget Crisis Puts Coalition Survival and Social Contract to the Test",
@@ -16860,6 +16884,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261125-netherlands",
+      "title": "Netherlands: Dutch Coalition Fractures Over Wealth Tax as Households Wait for Relief · 25 Nov",
+      "categories": [
+        "cat-hwc886m"
+      ],
+      "duration": "9:18",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Netherlands_Episode_2026_11_25.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 336,
+      "keywords": "Netherlands, Dutch politics, coalition government, wealth tax, Jetten cabinet, VVD, D66, CDA, Dutch economy, inflation, De Nederlandsche Bank, cost of living, euro area, minority government, fiscal policy, semiconductor supply chain",
+      "notes": "The Netherlands is navigating a dual crisis: a minority government that passed a contentious wealth-tax package only by relying on opposition votes, and an economy that looks resilient on paper but continues to squeeze household budgets. The tax vote exposed deep divisions within the coalition, raising questions about whether the cabinet can sustain a governing programme. For Dutch citizens, the central question remains whether macroeconomic stability will translate into tangible financial relief.",
+      "pubDate": "2026-11-25",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Netherlands_Episode_2026_11_25.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Netherlands_Short_2026_11_25.mp4"
+    },
     {
       "id": "episode-20261125-belgium",
       "title": "Belgium's Budget Crisis Puts Coalition Survival and Social Contract to the… · 25 Nov",
