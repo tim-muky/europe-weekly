@@ -1,5 +1,5 @@
 {
-  "version": 1795619078300,
+  "version": 1795619209356,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-1b78896",
+      "title": "Belgium's Budget Crisis Puts Coalition Survival and Social Contract to the Test",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "excerpt": "Prime Minister Bart De Wever's five-party coalition is locked in a deepening dispute over how to close a budget deficit exceeding 5% of GDP, with roughly ten billion euros in savings at stake. A national strike paralysed flights, railways and public services as trade unions and tens of thousands of protesters took to the streets of Brussels. The confrontation has exposed a fundamental disagreement not just over fiscal arithmetic, but over who should bear the cost of restoring Belgium's public finances.",
+      "body": "<h3>A Coalition Under Pressure as the Deficit Deepens</h3><p>Belgium&#x27;s governing coalition is in serious difficulty. Prime Minister Bart De Wever has sought additional time from King Philippe to hold his five-party alliance together, a gesture that underscored the depth of disagreement over how to close a budget gap that official figures place at more than 5% of gross domestic product. The target is to find approximately ten billion euros in savings, a figure large enough to touch almost every area of public spending and taxation.</p><p>The government&#x27;s proposed package reportedly includes reductions in healthcare expenditure and an increase in value-added tax, measures that centre-right parties argue are necessary to restore fiscal credibility and avoid a more painful adjustment later. Their implicit argument is one of timing: delay now, they contend, and European fiscal rules, rising borrowing costs and accumulated debt will narrow Belgium&#x27;s options even further in the years ahead.</p><p>Belgium is a founding member of the European Union, and its fiscal difficulties carry a wider institutional dimension. Under EU fiscal rules, governments are expected to put deficit trajectories on a credible downward path. Persistent overshooting risks formal proceedings from Brussels and unwanted attention from bond markets, raising the cost of the state&#x27;s borrowing and squeezing the resources available for hospitals, pensions and public services.</p><h3>Unions and Socialists Push Back on Who Bears the Burden</h3><p>Vooruit, the Flemish socialist party and the coalition&#x27;s left flank, has broken with the government&#x27;s preferred approach, arguing that deficit reduction should lean more heavily on taxes targeting wealthy households rather than cuts to healthcare and welfare. The party&#x27;s position is as much political as economic: it insists that workers and citizens who depend on public services should not carry the primary burden for a fiscal imbalance they did not create.</p><p>Trade unions made the same case in far more disruptive fashion. A national strike grounded flights, crippled rail and public transport and disrupted services across the country, while tens of thousands marched through Brussels. The scale of the mobilisation gave the unions&#x27; distributive argument practical weight, demonstrating that the budget dispute is not confined to parliamentary committees but reaches directly into the functioning of the country.</p><p>The unions argue that austerity of the kind proposed threatens purchasing power, healthcare access, pensions and the social protections that define Belgium&#x27;s post-war model. Their position, too, has an internal logic: cutting public healthcare expenditure may reduce the government&#x27;s outlays on paper while shifting real costs onto households through higher out-of-pocket medical expenses and deteriorating services. Whether higher taxes on wealth could realistically replace those cuts, however, requires detailed distributional analysis and official revenue projections that remain absent from the public debate.</p><h3>An Unresolved Question With Consequences for Every Belgian Household</h3><p>The political mood is best described as chaotic and increasingly angry. The coalition&#x27;s inability to reach agreement, the prime minister&#x27;s appeal to the head of state and open discussion of possible alternative coalition configurations all point to a government operating under acute strain. For ordinary citizens, the uncertainty is not abstract. The outcome of the budget negotiations will shape healthcare access and costs, VAT levels, pension arrangements, public-sector employment and the quality of services that millions rely upon daily.</p><p>Both sides of the argument hold partial truths. The deficit is a genuine fiscal constraint, and no credible political programme can simply ignore it. At the same time, the choices made in closing that gap will distribute costs unequally, and the strike demonstrated that those affected are prepared to make their opposition felt. Neither claim fully resolves the central question: how much of the adjustment can realistically come from revenue measures rather than spending reductions, and what distributional consequences follow from each path?</p><p>The coming weeks will test whether De Wever&#x27;s coalition can reach an internal agreement before the political arithmetic shifts decisively against it. If no deal is struck, Belgium faces the prospect of a government collapse, fresh coalition negotiations or an early election, any of which would delay the fiscal adjustment further and risk precisely the market and institutional pressure the government says it is trying to avoid. For Belgium, the question is whether fiscal credibility and social protection can be reconciled, or whether the pressure to choose between them will ultimately break the coalition apart.</p>",
+      "keywords": "Belgium, budget crisis, Bart De Wever, coalition government, austerity, national strike, trade unions, Vooruit, EU fiscal rules, deficit, healthcare cuts, VAT, social protection, Brussels, European affairs",
+      "sources": "Reporting on Belgium's coalition budget negotiations and trade union strike action, sources 1, 2 and 3 as cited in research dossier; Eurostat harmonised fiscal and consumer-price data referenced as contextual standard; National Bank of Belgium indicators noted as relevant benchmark for household purchasing power assessment",
+      "pubDate": "2026-11-25",
+      "chartData": {
+        "values": [
+          5.0,
+          10.0
+        ],
+        "labels": [
+          "Budget Deficit (% of GDP)",
+          "Savings Target (Billions EUR)"
+        ]
+      }
+    },
     {
       "id": "article-c8187bf",
       "title": "France Faces a Fiscal Reckoning as Pension Politics Heat Up Ahead of 2027",
@@ -16838,6 +16860,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261125-belgium",
+      "title": "Belgium's Budget Crisis Puts Coalition Survival and Social Contract to the… · 25 Nov",
+      "categories": [
+        "cat-d7jygr4"
+      ],
+      "duration": "8:46",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Belgium_Episode_2026_11_25.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 335,
+      "keywords": "Belgium, budget crisis, Bart De Wever, coalition government, austerity, national strike, trade unions, Vooruit, EU fiscal rules, deficit, healthcare cuts, VAT, social protection, Brussels, European affairs",
+      "notes": "Prime Minister Bart De Wever's five-party coalition is locked in a deepening dispute over how to close a budget deficit exceeding 5% of GDP, with roughly ten billion euros in savings at stake. A national strike paralysed flights, railways and public services as trade unions and tens of thousands of protesters took to the streets of Brussels. The confrontation has exposed a fundamental disagreement not just over fiscal arithmetic, but over who should bear the cost of restoring Belgium's public finances.",
+      "pubDate": "2026-11-25",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Belgium_Episode_2026_11_25.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Belgium_Short_2026_11_25.mp4"
+    },
     {
       "id": "episode-20261125-france",
       "title": "France Faces a Fiscal Reckoning as Pension Politics Heat Up Ahead of 2027 · 25 Nov",
