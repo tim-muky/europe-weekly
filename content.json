@@ -1,5 +1,5 @@
 {
-  "version": 1795618940934,
+  "version": 1795619078300,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-c8187bf",
+      "title": "France Faces a Fiscal Reckoning as Pension Politics Heat Up Ahead of 2027",
+      "categories": [
+        "cat-8azgfhe"
+      ],
+      "excerpt": "France is caught between a widening budget deficit and near-stagnant growth, leaving policymakers with few comfortable options. As European Commission forecasts undercut the government's own economic assumptions, the debate over who should bear the cost of adjustment is sharpening into one of the defining fault lines of the 2027 presidential race. The pension system, already the site of mass protest, has emerged as the most politically explosive test of France's ability to reform without fracturing.",
+      "body": "<h3>A Deficit That Refuses to Close</h3><p>France&#x27;s public finances are under greater pressure than the government&#x27;s own projections acknowledge. The European Commission forecasts a budget deficit of 5.5 percent of GDP in 2026, narrowing only slightly to 5.4 percent in 2027, well above both the EU&#x27;s 3 percent reference value and the government&#x27;s stated target of 5 percent. Gross public debt is projected to rise from 119.2 percent of GDP in 2026 to 122.1 percent in 2027, a trajectory that is drawing increasing scrutiny from France&#x27;s European partners and financial markets.</p><p>The growth outlook compounds the difficulty. The Commission projects economic expansion of just 0.4 percent in 2026 and 0.6 percent in 2027, the weakest performance in the euro area, and notably more pessimistic than the government&#x27;s own forecast of around 1 percent. Finance Minister Roland Lescure has acknowledged that the official growth assumption may require downward revision, an admission that calls into question the revenue assumptions underlying the entire consolidation plan.</p><p>For ordinary households, the consequences are already taking shape. Unemployment is projected to rise from 8.4 percent in 2026 to 9.2 percent in 2027, limiting income gains at precisely the moment when fiscal tightening may further compress public services, local government spending and social transfers. Critics on the left and within the trade-union movement argue that addressing the deficit through spending restraint alone risks suppressing the demand that France needs to grow its way out of trouble.</p><h3>The Pension Battle Lines Are Drawn</h3><p>Pensions have become the most charged proxy in France&#x27;s fiscal debate, and the 2027 presidential contest has clarified two sharply opposing visions. Former Prime Minister Édouard Philippe has proposed raising the statutory retirement age to 65, pairing that measure with spending cuts and a revision of the 35-hour workweek. His argument is structural: France cannot reduce a deficit above 5 percent of GDP and debt approaching 120 percent without increasing the number of working, contributing citizens and reducing the duration of pension payouts.</p><p>Marine Le Pen&#x27;s National Rally has taken the opposite position, proposing to soften or reverse the Macron government&#x27;s earlier reform by allowing workers who entered employment young to retire between the ages of 60 and 62 after 40 to 42 years of contributions. The RN frames its proposal as a matter of fairness, arguing that a uniform statutory retirement age penalises those who performed physically demanding work or entered the labour market early. Trade unions and social critics have echoed that argument, contending that the burden of fiscal adjustment should fall on employers, wealth and capital rather than on workers with long contribution records.</p><p>The arithmetic, however, is uncomfortable for the earlier-retirement camp. France already has one of the lowest effective retirement ages among advanced economies, while life expectancy remains comparatively high. Allowing large numbers of additional workers to retire earlier would create a measurable financing gap unless offset by higher contributions, reduced benefits elsewhere or credible new revenue streams, none of which the current proposals fully specify. Critics of the RN plan question whether proposed employer-funded mechanisms would cover the cost, while supporters of Philippe&#x27;s approach face their own problem: a push toward 65 has historically triggered strikes, street protests and significant political backlash.</p><h3>An Uneasy Outlook for Paris and Brussels</h3><p>The collision between fiscal necessity and political volatility places France in an awkward position within the European Union. The Commission has stated that France&#x27;s draft 2027 budget is compatible with agreed EU expenditure limits, but persistent deficits in the eurozone&#x27;s second-largest economy carry risks that extend beyond Paris. Bond market pressure, questions about the credibility of EU fiscal rules and broader debates over how much flexibility member states should be permitted are all bound up in how France navigates the coming months.</p><p>A reversal of pension reform, whether partial or complete, would send a signal to Brussels and financial markets that unpopular but fiscally significant measures cannot be sustained in a democratic cycle. A sharp increase in the retirement age, by contrast, risks intensifying social conflict at a moment when the government&#x27;s room for manoeuvre is already narrow. Neither outcome is straightforwardly reassuring for European institutional credibility.</p><p>The next pressure points are coming quickly. The 2027 budget process and the presidential campaign will run in parallel, forcing candidates to quantify their promises against a backdrop of Commission forecasts that make optimistic assumptions look increasingly implausible. Whether any government can restore fiscal credibility while preserving social legitimacy remains the central, unanswered question of French politics heading into the election cycle, and the answer will matter well beyond France&#x27;s borders.</p>",
+      "keywords": "France, budget deficit, fiscal policy, pensions, retirement age, Marine Le Pen, Édouard Philippe, European Commission, eurozone, 2027 presidential election, Roland Lescure, GDP growth, public debt, EU fiscal rules, National Rally",
+      "sources": "European Commission Spring 2025 Economic Forecast (source reference [1]); Statements by Finance Minister Roland Lescure (source reference [2]); National Rally pension policy documentation (source reference [3]); Édouard Philippe programme statements (source reference [4])",
+      "pubDate": "2026-11-25",
+      "chartData": {
+        "values": [
+          5.5,
+          5.4,
+          119.2,
+          122.1
+        ],
+        "labels": [
+          "Deficit 2026 (% GDP)",
+          "Deficit 2027 (% GDP)",
+          "Debt 2026 (% GDP)",
+          "Debt 2027 (% GDP)"
+        ]
+      }
+    },
     {
       "id": "article-2105dc4",
       "title": "Germany Bets on Borrowed Money to Fund Its Economic and Security Transformation",
@@ -16812,6 +16838,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261125-france",
+      "title": "France Faces a Fiscal Reckoning as Pension Politics Heat Up Ahead of 2027 · 25 Nov",
+      "categories": [
+        "cat-8azgfhe"
+      ],
+      "duration": "8:43",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/France_Episode_2026_11_25.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 334,
+      "keywords": "France, budget deficit, fiscal policy, pensions, retirement age, Marine Le Pen, Édouard Philippe, European Commission, eurozone, 2027 presidential election, Roland Lescure, GDP growth, public debt, EU fiscal rules, National Rally",
+      "notes": "France is caught between a widening budget deficit and near-stagnant growth, leaving policymakers with few comfortable options. As European Commission forecasts undercut the government's own economic assumptions, the debate over who should bear the cost of adjustment is sharpening into one of the defining fault lines of the 2027 presidential race. The pension system, already the site of mass protest, has emerged as the most politically explosive test of France's ability to reform without fracturing.",
+      "pubDate": "2026-11-25",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/France_Episode_2026_11_25.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/France_Short_2026_11_25.mp4"
+    },
     {
       "id": "episode-20261125-germany",
       "title": "Germany Bets on Borrowed Money to Fund Its Economic and Security… · 25 Nov",
