@@ -1,5 +1,5 @@
 {
-  "version": 1795532940404,
+  "version": 1795618940934,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-2105dc4",
+      "title": "Germany Bets on Borrowed Money to Fund Its Economic and Security Transformation",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "excerpt": "Germany's coalition government is pushing forward with a 2027 budget of €560.9 billion, financed in part by €210.4 billion in new borrowing, as it attempts to modernise infrastructure, expand defence capacity and revive a stagnant economy. The scale of the fiscal gamble is approaching pandemic-era records, even as growth remains near zero and industrial workers stage strikes over wages and job security. The central question now confronting Berlin, and Brussels, is not whether Germany should transform, but who will bear the cost of doing so.",
+      "body": "<h3>A Historic Borrowing Surge Finances a National Reset</h3><p>Chancellor Friedrich Merz&#x27;s coalition has presented its 2027 federal budget as a response to exceptional circumstances: sluggish economic growth, deteriorating infrastructure, a more dangerous European security environment and mounting pressure to meet defence commitments. The budget totals €560.9 billion, with new borrowing of €210.4 billion, just below the €215.4 billion pandemic record, meaning that roughly one in three euros of planned expenditure will be debt-financed when the core budget and special funds are considered together.</p><p>The government argues that the alternative to borrowing is costlier still. Deferring investment, it said, risks eroding Germany&#x27;s industrial competitiveness, deepening its economic stagnation and leaving the country unable to fulfil its security obligations. Supporters of the plan point to years of underinvestment in roads, rail, digital networks and defence as evidence that the fiscal brakes were held too tight for too long.</p><p>Critics are unconvinced. Opposition voices argue that the borrowing programme risks replacing fiscal discipline with structural deficit financing, limiting future governments&#x27; room for manoeuvre and creating long-term pressure on taxes or public services. The debt is real and immediate, they note, while the productivity and security gains it is intended to buy may take years to materialise, if they arrive at all.</p><h3>Workers Push Back as Growth Stalls and Prices Rise</h3><p>The government&#x27;s investment plans are unfolding against a backdrop of acute economic fragility. Germany&#x27;s economy expanded by just 0.1 percent quarter-on-quarter in the third quarter of 2026, below an earlier estimate of 0.2 percent, according to data published by Destatis, the federal statistics office. Annual growth stood at 1.2 percent, consistent with stabilisation rather than any robust recovery. Business sentiment surveys suggest improving expectations, but analysts caution that confidence indicators are forward-looking and do not override the weak output data.</p><p>Workers in some of Germany&#x27;s most strategically important sectors are not waiting for the recovery to arrive on its own terms. IG Metall, the powerful metalworkers union, has called a series of 24-hour strikes across the automotive and shipbuilding industries while pressing for a 5 percent pay rise and binding employment guarantees. The union argues that workers should not be required to absorb the cost of an industrial transition they did not create, particularly at a time when purchasing power is under pressure. Bundesbank data show that annual inflation rose from 2.6 percent in the second quarter of 2026 to 3.0 percent in the third quarter, complicating any narrative of steadily declining living costs.</p><p>Employers and government officials counter that large wage increases, combined with existing structural pressures, could accelerate investment decisions against German production sites. Companies in automotive manufacturing are already navigating a costly shift toward new technologies amid intensifying global competition. For employers, the government&#x27;s public investment programme is presented as the more sustainable path to job creation, though union leaders argue that defence procurement and infrastructure contracts offer little direct protection to workers in vulnerable factories today.</p><h3>Outlook: Political Stability Hinges on Visible Gains Before Debt Bites</h3><p>The fiscal programme and the labour disputes are not separate stories. They are two expressions of the same unresolved tension: who carries the burden of Germany&#x27;s economic and security transformation. The government is asking taxpayers and future budgets to finance a national reset. Workers are asking employers and policymakers to protect present incomes and employment. The timeline for each set of demands is very different, and that asymmetry is politically explosive.</p><p>For the European Union, the stakes extend well beyond Germany&#x27;s borders. As the bloc&#x27;s largest economy, Germany&#x27;s fiscal choices carry consequences for European demand, for the credibility of EU fiscal rules and for the broader political debate over how the green and technological transition is managed. A German recovery that strengthens consumption and industrial output could lift growth across the Union. A debt-heavy programme that underdelivers on growth while generating social friction could sharpen disputes over economic governance in Brussels.</p><p>The next critical test will come in the wage negotiations between IG Metall and the automotive sector, whose outcome will signal whether the costs of restructuring can be distributed in ways workers find acceptable. Beyond that, the government faces the harder challenge of demonstrating, with actual growth data rather than budget announcements, that borrowed investment can produce a recovery visible to ordinary households before debt pressures and industrial insecurity harden into lasting political resentment.</p>",
+      "keywords": "Germany, federal budget, debt, borrowing, Friedrich Merz, IG Metall, wage strikes, inflation, GDP growth, defence spending, infrastructure, industrial policy, European Union, fiscal rules, automotive sector, shipbuilding, Bundesbank, Destatis",
+      "sources": "Destatis, Q3 2026 GDP flash estimate; Bundesbank, quarterly inflation data Q2–Q3 2026; Federal Ministry of Finance, 2027 draft budget documentation; IG Metall, strike notice and wage claim statements",
+      "pubDate": "2026-11-25",
+      "chartData": {
+        "values": [
+          560.9,
+          210.4,
+          215.4
+        ],
+        "labels": [
+          "2027 Total Budget (€bn)",
+          "2027 New Borrowing (€bn)",
+          "Pandemic-Era Borrowing Record (€bn)"
+        ]
+      }
+    },
     {
       "id": "article-08dbf6b",
       "title": "Greece's Fiscal Triumph Meets a Household Squeeze: Can Athens Claim Economic Success?",
@@ -16788,6 +16812,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261125-germany",
+      "title": "Germany Bets on Borrowed Money to Fund Its Economic and Security… · 25 Nov",
+      "categories": [
+        "cat-q3xena4"
+      ],
+      "duration": "8:49",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Germany_Episode_2026_11_25.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 333,
+      "keywords": "Germany, federal budget, debt, borrowing, Friedrich Merz, IG Metall, wage strikes, inflation, GDP growth, defence spending, infrastructure, industrial policy, European Union, fiscal rules, automotive sector, shipbuilding, Bundesbank, Destatis",
+      "notes": "Germany's coalition government is pushing forward with a 2027 budget of €560.9 billion, financed in part by €210.4 billion in new borrowing, as it attempts to modernise infrastructure, expand defence capacity and revive a stagnant economy. The scale of the fiscal gamble is approaching pandemic-era records, even as growth remains near zero and industrial workers stage strikes over wages and job security. The central question now confronting Berlin, and Brussels, is not whether Germany should transform, but who will bear the cost of doing so.",
+      "pubDate": "2026-11-25",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Germany_Episode_2026_11_25.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_25/Germany_Short_2026_11_25.mp4"
+    },
     {
       "id": "episode-20261124-greece",
       "title": "Greece's Fiscal Triumph Meets a Household Squeeze · 24 Nov",
