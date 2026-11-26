@@ -1,5 +1,5 @@
 {
-  "version": 1795705341758,
+  "version": 1795705462610,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-5428b86",
+      "title": "Slovenia's Development Referendum Puts Janša Government and Household Finances to the Test",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "excerpt": "A referendum on Slovenia's Intervention Act for development has evolved into an unofficial confidence vote on Prime Minister Janez Janša's fragile government, exposing the tension between strong macroeconomic indicators and persistent household cost pressures. Slovenia is forecast to expand by 3.9 percent in 2026, yet housing and energy costs remain sharply elevated, leaving many citizens unconvinced by official optimism. The vote illustrates a dilemma familiar across the European Union: how governments communicate economic success when everyday costs continue to rise.",
+      "body": "<h3>A Technical Vote With Political Consequences</h3><p>Slovenians are being asked to vote on the Intervention Act, a piece of development legislation championed by Janez Janša&#x27;s centre-right government. Formally, the referendum is a legal instrument to ratify or reject a specific economic measure. Politically, however, it has become something else entirely: an indirect test of a government that lacks a clear parliamentary majority and has struggled to build legislative consensus.</p><p>Janša has insisted the vote is straightforward, arguing it concerns development investment and household finances rather than the survival of his cabinet. &quot;This referendum is about people&#x27;s pockets,&quot; he said, maintaining that the government will continue regardless of the outcome. His opponents argue the framing is deliberately evasive. Without a stable parliamentary base, the government is effectively seeking popular legitimacy through an economic vote rather than facing a direct confidence motion — a manoeuvre that opposition parties say obscures what is really at stake.</p><p>The government&#x27;s legal position is technically correct: the referendum carries no constitutional obligation to trigger a resignation. But political logic rarely follows legal definitions. A decisive rejection of the government&#x27;s flagship economic legislation would expose the limits of its authority and hand the opposition a significant narrative victory, making Janša&#x27;s insistence that &quot;this is not a confidence vote&quot; difficult to sustain in practice.</p><h3>Strong Growth, Stubborn Costs</h3><p>Beneath the political contest lies a genuine economic debate. The European Commission forecasts GDP growth of 3.9 percent for Slovenia in 2026, with unemployment at 3.8 percent — figures that place the country among the more resilient smaller eurozone economies. Consumer confidence showed modest improvement in November, and the government has pointed to public-sector pay increases, fuel support, and social measures as evidence that growth is being shared broadly.</p><p>The inflation picture complicates that argument considerably. Annual consumer price inflation held at 3.3 percent in October, unchanged from September, while prices for housing, water, electricity, gas, and other fuels were 8.6 percent higher than a year earlier. Energy and housing categories alone contributed 1.1 percentage points to annual inflation, with housing-related goods, energy, and transport together accounting for roughly 2 percentage points of the overall figure. The monthly rate was flat in October, meaning prices did not rise during that month — but that is not the same as prices falling, and it offers little comfort to households that have already absorbed months of elevated costs.</p><p>The European Commission projects inflation of 3.4 percent for 2026 and flags a deteriorating fiscal trajectory: a deficit of 2.9 percent of GDP this year, rising sharply to 4.5 percent in 2027, alongside public debt of 64.5 percent of GDP. The pattern is one of disinflation, not cheaper living. A household facing an 8.6 percent rise in its utility bills is unlikely to experience a 3.9 percent growth rate as tangible personal improvement, however accurately that figure reflects the broader economy.</p><h3>Wider Implications for a Post-Crisis Europe</h3><p>The two dynamics — a politically freighted referendum and a gap between macroeconomic strength and lived experience — are not unique to Slovenia. Across the European Union, governments have attempted to maintain living standards through elevated public spending while simultaneously managing deficits that widened during the energy and cost-of-living crises of recent years. The result is a fiscal tightrope that Slovenia&#x27;s projections illustrate with unusual clarity: strong growth and rising debt, side by side.</p><p>For EU observers, Slovenia offers a compact case study in a broader communication failure. Headline growth statistics, falling unemployment, and improving sentiment indices tell one story; energy bills, rent, and transport costs tell another. When the two narratives diverge, citizens tend to trust the one they experience directly. That dynamic helps explain why economic referendums so readily transform into political verdicts, and why governments across the continent have found it difficult to convert macroeconomic recovery into durable popular support.</p><p>The immediate next step is the referendum result itself, which will set the political temperature in Ljubljana for months. If the legislation passes, Janša can claim a popular mandate and argue that citizens endorsed his economic programme despite the opposition&#x27;s efforts to reframe the vote. If it fails, the government will face intensified scrutiny of its parliamentary position and its fiscal commitments, with Brussels likely watching the deficit trajectory closely as the 2027 projection comes into view. Either way, the vote will mark a significant staging post in determining whether Slovenia&#x27;s growth story translates into political stability — or whether the gap between the data and the doorstep proves too wide to bridge.</p>",
+      "keywords": "Slovenia, Janez Janša, referendum, Intervention Act, GDP growth, inflation, housing costs, energy prices, fiscal deficit, European Commission, EU economics, cost of living, political confidence vote",
+      "sources": "European Commission economic forecasts for Slovenia; Slovenian Statistical Office, consumer price index October data; Janša government public statements on the Intervention Act referendum; Opposition political commentary on parliamentary confidence dynamics",
+      "pubDate": "2026-11-26",
+      "chartData": {
+        "values": [
+          3.9,
+          3.4,
+          2.9,
+          4.5
+        ],
+        "labels": [
+          "GDP Growth 2026 (%)",
+          "Inflation 2026 (%)",
+          "Deficit 2026 (% of GDP)",
+          "Deficit 2027 (% of GDP)"
+        ]
+      }
+    },
     {
       "id": "article-6d46772",
       "title": "Bulgaria Faces Twin Crises of Fiscal Credibility and Democratic Trust Ahead of 2027 Budget",
@@ -16908,6 +16934,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261126-slovenia",
+      "title": "Slovenia's Development Referendum Puts Janša Government and Household… · 26 Nov",
+      "categories": [
+        "cat-d8v8u9s"
+      ],
+      "duration": "8:48",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Slovenia_Episode_2026_11_26.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 338,
+      "keywords": "Slovenia, Janez Janša, referendum, Intervention Act, GDP growth, inflation, housing costs, energy prices, fiscal deficit, European Commission, EU economics, cost of living, political confidence vote",
+      "notes": "A referendum on Slovenia's Intervention Act for development has evolved into an unofficial confidence vote on Prime Minister Janez Janša's fragile government, exposing the tension between strong macroeconomic indicators and persistent household cost pressures. Slovenia is forecast to expand by 3.9 percent in 2026, yet housing and energy costs remain sharply elevated, leaving many citizens unconvinced by official optimism. The vote illustrates a dilemma familiar across the European Union: how governments communicate economic success when everyday costs continue to rise.",
+      "pubDate": "2026-11-26",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Slovenia_Episode_2026_11_26.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Slovenia_Short_2026_11_26.mp4"
+    },
     {
       "id": "episode-20261126-bulgaria",
       "title": "Bulgaria Faces Twin Crises of Fiscal Credibility and Democratic Trust Ahead… · 26 Nov",
