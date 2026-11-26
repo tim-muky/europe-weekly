@@ -1,5 +1,5 @@
 {
-  "version": 1795619346966,
+  "version": 1795705341758,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-6d46772",
+      "title": "Bulgaria Faces Twin Crises of Fiscal Credibility and Democratic Trust Ahead of 2027 Budget",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "excerpt": "Bulgaria is confronting simultaneous pressures on its public finances and its democratic institutions, with the European Commission projecting the country's deficit will remain above EU treaty limits through 2027. A disputed mayoral removal in Varna has deepened public cynicism about whether legal and administrative bodies serve citizens equally. Together, the two developments raise serious questions about Sofia's credibility with both EU institutions and its own electorate.",
+      "body": "<h3>A Budget That Consolidates Without Convincing</h3><p>Bulgaria&#x27;s government is presenting its 2027 budget as a responsible step toward fiscal correction, arguing that it begins consolidation without delivering a sharp shock to households or public services. Officials point to a projected decline in the deficit from roughly 5% of GDP in 2026 to approximately 4% in 2027 as evidence that the trajectory is moving in the right direction.</p><p>The European Commission&#x27;s own assessment, however, tells a more cautious story. Brussels projects the 2027 deficit will remain above the EU treaty reference value of 3% of GDP, while public debt is expected to rise as a share of the economy. That combination leaves Bulgaria exposed to sustained EU oversight and limits its room for manoeuvre on wages, healthcare investment and regional spending in future budget cycles.</p><p>Opposition parties and trade unions have been quick to seize on those numbers. Critics argue that the plan postpones rather than resolves structural problems, and that the fiscal burden will fall disproportionately on ordinary workers rather than on the inefficiencies the government claims to be targeting. The restructuring of state-owned enterprises, presented by the cabinet as a modernising efficiency drive to reduce duplication and limit public losses, is viewed by labour representatives as a vehicle for layoffs in sectors where public employment remains a stabilising force in smaller regional economies.</p><h3>Inflation Complicates the Narrative for Households</h3><p>The government&#x27;s fiscal messaging is further complicated by an inflation picture that defies easy reassurance. Annual HICP inflation reached 5% in August 2026, up from 3.5% in December 2025, according to data from the Bulgarian National Bank, which projected average inflation for the full year 2026 at approximately 4.6%, with the year-end rate expected to reach around 5.2%. Claims that price pressures are simply easing are therefore not supported by the available evidence.</p><p>The practical consequence for Bulgarian households is a gap between official framing and lived experience. Even where future inflation is expected to moderate, prices do not revert to earlier levels. Citizens are paying substantially more for food, energy and services than they were two years ago, and many public-sector workers now face the additional uncertainty of possible reorganisation or redundancy as part of the state-company restructuring programme.</p><p>The prevailing public mood, analysts and observers suggest, is anxious rather than optimistic, with an undertone of resignation. The sense that successive governments have created the conditions for fiscal pressure, while ordinary citizens absorb the correction, is a recurring theme in public commentary. Bulgaria&#x27;s ability to restore fiscal credibility with EU institutions while maintaining domestic social cohesion will depend heavily on whether the consolidation plan is seen as equitable.</p><h3>Varna&#x27;s Mayoral Crisis Becomes a National Symbol</h3><p>Running in parallel with the fiscal debate is a political confrontation that has moved well beyond the city of Varna. The removal of mayor Blagomir Kotsev has generated street protests in both Varna and Sofia, sharp exchanges in parliament and competing claims about whether Bulgaria&#x27;s institutions operate impartially or serve narrower political interests. The government-aligned position is that the removal followed lawful procedures and that elected officials at every level must remain subject to oversight and accountability.</p><p>Opponents, including civil society groups and parties outside the governing coalition, dispute that framing. Their central argument is not simply about Kotsev&#x27;s individual case, but about the consistency with which legal and administrative mechanisms are applied across political divides. If institutions are perceived to act selectively, the legitimacy of elections and courts erodes regardless of whether any specific procedural step was technically correct. Those allegations of political interference remain contested and are not independently proven by available reporting, but their political force is real.</p><p>The case matters beyond municipal politics because local government directly controls services citizens rely on daily, including transport, waste collection, planning decisions and municipal infrastructure. Political instability at city level can deter investment and stall public projects for months or years. More broadly, democratic credibility is not separable from fiscal credibility when Bulgaria&#x27;s EU partners assess whether the country is meeting the standards required for deeper integration. A transparent, consistently applied legal process that is open to effective appeal remains the minimum standard against which the removal will ultimately be judged, and that standard has not yet visibly been met in public perception.</p><h3>Outlook: Deadlines, Dependencies and the EU Dimension</h3><p>The immediate calendar will test both pressures simultaneously. Parliamentary scrutiny of the 2027 budget is expected to sharpen opposition attacks on the deficit projections and the social costs of restructuring, while the Varna controversy is unlikely to dissipate without either a transparent legal resolution or a political settlement that neither side currently appears to favour. Both stories feed a broader narrative about institutional reliability that matters to Brussels as much as to Bulgarian voters.</p><p>Bulgaria&#x27;s path toward deeper eurozone integration, long delayed by political instability, requires demonstrating progress on both fiscal and governance fronts. A deficit that remains above treaty limits into 2027, combined with public protests over perceived selective justice, creates a compound credibility problem that individual policy announcements are unlikely to resolve. The government faces a narrow path: fiscal consolidation rigorous enough to satisfy the Commission, implemented in a manner gradual enough to avoid social rupture, and defended through institutions transparent enough to sustain public trust.</p><p>Whether that balance is achievable within the current political configuration is the central question the coming months will answer. The budget debate and the Varna case are, in that sense, two dimensions of the same challenge: Bulgaria is being asked to demonstrate simultaneously that it can manage its public finances and that it governs itself fairly. The evidence so far suggests progress on neither front has been secured.</p>",
+      "keywords": "Bulgaria, fiscal deficit, 2027 budget, European Commission, EU oversight, inflation, Bulgarian National Bank, state-owned enterprises, public sector restructuring, Varna, Blagomir Kotsev, institutional trust, democratic governance, eurozone, civil society protests, political accountability",
+      "sources": "European Commission fiscal projections for Bulgaria, 2026–2027; Bulgarian National Bank (BNB) monetary policy and inflation reports, August 2026; parliamentary and civil society reporting on the removal of Varna mayor Blagomir Kotsev; trade union statements on state-sector restructuring",
+      "pubDate": "2026-11-26",
+      "chartData": {
+        "values": [
+          5.0,
+          4.0,
+          3.0
+        ],
+        "labels": [
+          "2026 Projected Deficit (% GDP)",
+          "2027 Projected Deficit (% GDP)",
+          "EU Treaty Reference Value (% GDP)"
+        ]
+      }
+    },
     {
       "id": "article-d84155c",
       "title": "Dutch Coalition Fractures Over Wealth Tax as Households Wait for Relief",
@@ -16884,6 +16908,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261126-bulgaria",
+      "title": "Bulgaria Faces Twin Crises of Fiscal Credibility and Democratic Trust Ahead… · 26 Nov",
+      "categories": [
+        "cat-5zyoo2c"
+      ],
+      "duration": "8:21",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Bulgaria_Episode_2026_11_26.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 337,
+      "keywords": "Bulgaria, fiscal deficit, 2027 budget, European Commission, EU oversight, inflation, Bulgarian National Bank, state-owned enterprises, public sector restructuring, Varna, Blagomir Kotsev, institutional trust, democratic governance, eurozone, civil society protests, political accountability",
+      "notes": "Bulgaria is confronting simultaneous pressures on its public finances and its democratic institutions, with the European Commission projecting the country's deficit will remain above EU treaty limits through 2027. A disputed mayoral removal in Varna has deepened public cynicism about whether legal and administrative bodies serve citizens equally. Together, the two developments raise serious questions about Sofia's credibility with both EU institutions and its own electorate.",
+      "pubDate": "2026-11-26",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Bulgaria_Episode_2026_11_26.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Bulgaria_Short_2026_11_26.mp4"
+    },
     {
       "id": "episode-20261125-netherlands",
       "title": "Netherlands: Dutch Coalition Fractures Over Wealth Tax as Households Wait for Relief · 25 Nov",
