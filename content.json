@@ -1,5 +1,5 @@
 {
-  "version": 1795705585271,
+  "version": 1795705711502,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-64c4d68",
+      "title": "Croatia's Big-Spending Budget Tests the Limits of Fiscal Credibility and Household Patience",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "excerpt": "Croatia has unveiled a €41.5 billion budget for 2027 that promises investment, pension protection and easing inflation, but operates with a deficit perilously close to the EU's 3% ceiling. The government argues the plan is fiscally responsible and growth-driven; critics warn that optimistic assumptions leave little margin for error. Meanwhile, a slowdown in price growth is offering limited comfort to households still absorbing years of accumulated cost increases.",
+      "body": "<h3>A Budget Built on Ambition and Thin Margins</h3><p>Croatia&#x27;s government has presented its 2027 budget as evidence that fiscal discipline and social investment are compatible. Total expenditure reaches €41.5 billion, with significant commitments to pensions, defence, healthcare, education, infrastructure and housing. The plan projects economic growth of 2.1 percent, a general-government deficit of 2.9 percent of GDP and public debt declining to 55.3 percent of GDP.</p><p>On paper, the headline numbers hold. The deficit remains below the EU&#x27;s 3 percent reference value, and debt is projected to fall. The European Commission&#x27;s own 2027 growth forecast for Croatia stands at approximately 2.4 percent, suggesting the government&#x27;s 2.1 percent assumption is, if anything, conservative rather than inflated. For a government seeking to demonstrate economic competence ahead of domestic political pressures, that is a defensible position.</p><p>Yet the comfort ends there. The European Commission has indicated that Croatia&#x27;s deficit could remain close to the 3 percent ceiling and that the decline in the debt ratio may stall by the end of the forecast period. The budget relies substantially on EU co-funded projects to drive growth and revenue, and opposition parties have argued that any delay in EU disbursements or a modest slowdown in economic activity could expose the plan&#x27;s limited room for manoeuvre. The government has the stronger case on the thresholds, but the opposition is not wrong about the vulnerability.</p><h3>Inflation Is Easing. That Is Not the Same as Prices Falling.</h3><p>Alongside its fiscal projections, the government has pointed to moderating inflation as a sign that the cost-of-living squeeze is easing. Its budget assumes inflation of around 2.7 percent in 2027, down from significantly higher rates in preceding years. The European Commission&#x27;s forecast is slightly less optimistic, projecting approximately 3 percent, but both figures point in the same direction: price pressures are subsiding.</p><p>The claim is broadly accurate and also, critics argue, dangerously incomplete. A lower rate of inflation means prices are rising more slowly, not that they are falling. Croatian households have absorbed substantial price increases across food, energy, rent and services over recent years, and those accumulated costs do not disappear when the annual rate moderates. Trade unions and opposition politicians have been quick to make this distinction, arguing that pension indexation, public-sector pay settlements and social transfers must be benchmarked against the real basket of necessities families face, not against a improving macroeconomic indicator.</p><p>The gap between the government&#x27;s 2.7 percent assumption and the Commission&#x27;s roughly 3 percent forecast is not dramatic, but it carries practical consequences. If the Commission&#x27;s figure is closer to the outcome, wage negotiations and pension adjustments built on the government&#x27;s lower estimate could leave recipients behind. The Commission has also noted continuing pressure from services and domestic costs, suggesting the path to lower inflation is neither linear nor guaranteed. For citizens, the political message of easing inflation risks sounding like official reassurance rather than lived relief.</p><h3>The Deeper Question: Can Spending Buy Sustainable Growth?</h3><p>Taken together, the two debates frame a single strategic question for Zagreb: can Croatia use public investment and social spending to lift long-term living standards without allowing fiscal and household pressures to compound in the background? The government&#x27;s answer is essentially yes, pointing to EU-funded projects as growth engines, to below-ceiling deficit numbers as proof of discipline, and to social programmes as evidence that the benefits are being distributed broadly.</p><p>The counter-argument from opposition parties and labour groups is not that investment is wrong, but that the design of the budget prioritises political optics over structural resilience. A deficit at 2.9 percent is one modest revenue shortfall away from breaching the EU&#x27;s reference value, and Croatia&#x27;s dependence on external EU funding means that a shift in Brussels priorities or disbursement timelines could force difficult choices. The European Commission&#x27;s warning that debt reduction could stall before the forecast period closes adds weight to that concern.</p><p>Croatia&#x27;s experience also carries a wider European lesson. Lower inflation and rising public investment can coexist with a durable sense among citizens that economic conditions have not genuinely improved. If wages and benefits do not catch up with accumulated price increases, governments risk a disconnect between favourable macro-indicators and deteriorating public sentiment. For Zagreb, the near-term test will come in wage negotiations, pension reviews and the pace at which EU-funded projects translate into visible improvements in public services and household incomes. The budget sets the ambition; the next twelve months will determine whether the numbers hold.</p>",
+      "keywords": "Croatia, budget 2027, fiscal policy, EU deficit rules, inflation, cost of living, public spending, European Commission, pensions, economic growth, EU funding, household finances",
+      "sources": "Croatian Government Budget Documentation 2027; European Commission Economic Forecast for Croatia 2027; European Commission Excessive Deficit Procedure Reference Framework; Croatian Opposition Parliamentary Statements on Budget 2027",
+      "pubDate": "2026-11-26",
+      "chartData": {
+        "values": [
+          2.9,
+          55.3,
+          2.1,
+          2.7
+        ],
+        "labels": [
+          "Deficit % of GDP",
+          "Public Debt % of GDP",
+          "GDP Growth Forecast %",
+          "Inflation Assumption %"
+        ]
+      }
+    },
     {
       "id": "article-b636e62",
       "title": "Romania Faces Deficit Pressure and Economic Squeeze as EU Scrutiny Intensifies",
@@ -16960,6 +16986,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261126-croatia",
+      "title": "Croatia's Big-Spending Budget Tests the Limits of Fiscal Credibility and… · 26 Nov",
+      "categories": [
+        "cat-kbuqz4q"
+      ],
+      "duration": "8:53",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Croatia_Episode_2026_11_26.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 340,
+      "keywords": "Croatia, budget 2027, fiscal policy, EU deficit rules, inflation, cost of living, public spending, European Commission, pensions, economic growth, EU funding, household finances",
+      "notes": "Croatia has unveiled a €41.5 billion budget for 2027 that promises investment, pension protection and easing inflation, but operates with a deficit perilously close to the EU's 3% ceiling. The government argues the plan is fiscally responsible and growth-driven; critics warn that optimistic assumptions leave little margin for error. Meanwhile, a slowdown in price growth is offering limited comfort to households still absorbing years of accumulated cost increases.",
+      "pubDate": "2026-11-26",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Croatia_Episode_2026_11_26.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_26/Croatia_Short_2026_11_26.mp4"
+    },
     {
       "id": "episode-20261126-romania",
       "title": "Romania Faces Deficit Pressure and Economic Squeeze as EU Scrutiny Intensifies · 26 Nov",
