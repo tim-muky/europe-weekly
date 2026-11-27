@@ -1,5 +1,5 @@
 {
-  "version": 1795759463331,
+  "version": 1795759586994,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-7c5f8dc",
+      "title": "Hungary's Minimum-Wage Deal and Political Turbulence Test Government's Economic Credibility",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "excerpt": "Hungary has agreed to raise its statutory minimum wage by 7.5 percent from January 2027, a compromise that falls between sharply opposing demands from employers and trade unions. The deal arrives against a backdrop of political uncertainty, with the opposition Tisza party challenging Fidesz's grip on power and unresolved disputes over EU rule-of-law conditions continuing to cloud the country's access to European funds. Whether the wage increase translates into genuine gains for workers depends on inflation trends that remain unclear.",
+      "body": "<h3>A Wage Deal Shaped by Competing Pressures</h3><p>Hungary&#x27;s government, employers and trade unions have reached an agreement to raise the gross statutory minimum wage by 7.5 percent, lifting the monthly floor to HUF 347,000 from January 2027. Skilled workers covered by the guaranteed minimum would see their floor rise by approximately 6.1 percent, to HUF 396,000. The settlement lands roughly midway between the positions of the two sides: employers had pushed for an increase of around 4 percent, while unions had demanded somewhere between 12 and 14 percent, according to reports from the negotiations.</p><p>Government officials argued that the increase protects low-paid workers, supports household consumption and moves Hungary closer to the European Union&#x27;s minimum-wage objectives. Union representatives described the compromise as acceptable under difficult economic conditions, adding that accompanying changes to tax credits could make the improvement in take-home pay larger than the gross figure alone suggests. The government&#x27;s broader case is that stronger wages can help sustain domestic demand at a time of weak growth and ease persistent labor shortages.</p><p>Employers&#x27; groups, however, warned that a 7.5 percent statutory increase raises labor costs significantly, particularly for smaller firms, and could feed through to higher consumer prices, reduced hiring or accelerated automation. The practical impact on workers&#x27; living standards will ultimately depend on where consumer-price inflation settles in the period ahead. If prices rise more slowly than wages, minimum-wage earners will gain purchasing power; if inflation tracks close to or above 7.5 percent, much of the nominal increase could be absorbed by the cost of food, rent and energy.</p><h3>Political Volatility Complicates the Economic Picture</h3><p>The wage agreement has been reached in a political environment that has grown markedly more turbulent. Péter Magyar&#x27;s Tisza party has emerged as a significant opposition force, with polling suggesting a substantial shift in public sentiment away from the long-dominant Fidesz. While the precise scale of any polling lead remains difficult to verify independently across multiple established Hungarian research organizations, the political contest has moved beyond symbolic protest and into a more direct competition for governing authority.</p><p>Fidesz has pushed back, arguing that unfavorable polling reflects partisan methodology and premature conclusions. The governing side has presented its record as one of national sovereignty and economic protection, characterizing its disputes with Brussels over rule-of-law conditions as technical and legal disagreements rather than evidence of democratic backsliding. Officials have pointed to the wage deal and broader fiscal management as proof of responsible economic stewardship.</p><p>The opposition frames the picture differently. Tisza and allied forces argue that the political shift reflects accumulated public fatigue with prolonged Fidesz rule, credible corruption allegations, falling real living standards and Hungary&#x27;s confrontation with EU institutions. The unresolved question of withheld or conditional EU funds has become a central theme for the opposition, which uses delayed investment as evidence that the rule-of-law dispute carries direct economic consequences for municipalities, businesses and ordinary households. That framing has gained traction precisely because the material stakes are visible: stalled projects, constrained local budgets and weakened investor confidence.</p><h3>What Comes Next for Budapest, Brussels and the Region</h3><p>The coming months will test whether the minimum-wage agreement holds up as a genuine improvement in living standards or whether it is remembered as a political compromise that failed to outpace rising prices. Much depends on data that is not yet available: verified inflation figures, household expenditure trends and the actual take-home impact of any associated tax adjustments. Without that evidence, the government&#x27;s claim that workers will be materially better off remains plausible but unproven.</p><p>Hungary&#x27;s experience also carries relevance for the broader Central European region. Its wage policy is an early test of whether governments facing both weak growth and persistent price pressures can lift statutory floors without reigniting inflation or placing unsustainable costs on small and medium-sized employers. Neighboring economies with similar wage structures and labor-market dynamics will be watching the outcome closely.</p><p>For the European Union, the stakes extend well beyond pay policy. Any significant political change in Budapest could affect decisions on sanctions, Ukraine-related spending and institutional votes where Hungary has repeatedly acted as a dissenting voice. The EU funding dispute, which has already cost Hungary measurable investment momentum, is likely to remain a live issue regardless of which political force holds office, as the conditions attached to cohesion funds are structural rather than partisan. Investors and businesses operating in Hungary face a compound uncertainty: a wage settlement whose real value is unclear, a political contest whose outcome is unresolved and an EU relationship whose next chapter has yet to be written.</p>",
+      "keywords": "Hungary, minimum wage, Fidesz, Tisza, Péter Magyar, EU rule of law, Hungarian politics, Central Europe wages, HUF, European Commission, labor costs, inflation, wage deal 2027, opposition politics, EU funding",
+      "sources": "Hungarian government wage negotiation reports, January 2027 implementation announcement; Employer federation position statements on 4 percent target increase; Trade union demands documentation citing 12–14 percent initial claim; European Union minimum wage directive framework communications; Hungarian tax credit adjustment announcements accompanying wage deal",
+      "pubDate": "2026-11-27",
+      "chartData": {
+        "values": [
+          347000.0,
+          396000.0
+        ],
+        "labels": [
+          "Minimum Wage (HUF/month)",
+          "Skilled Worker Minimum (HUF/month)"
+        ]
+      }
+    },
     {
       "id": "article-cb8735c",
       "title": "Slovakia Restricts Overseas Voting and Challenges Brussels on Energy in Dual Test of Democratic and European Norms",
@@ -17034,6 +17056,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261127-hungary",
+      "title": "Hungary's Minimum-Wage Deal and Political Turbulence Test Government's… · 27 Nov",
+      "categories": [
+        "cat-no95m3z"
+      ],
+      "duration": "8:36",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Hungary_Episode_2026_11_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 343,
+      "keywords": "Hungary, minimum wage, Fidesz, Tisza, Péter Magyar, EU rule of law, Hungarian politics, Central Europe wages, HUF, European Commission, labor costs, inflation, wage deal 2027, opposition politics, EU funding",
+      "notes": "Hungary has agreed to raise its statutory minimum wage by 7.5 percent from January 2027, a compromise that falls between sharply opposing demands from employers and trade unions. The deal arrives against a backdrop of political uncertainty, with the opposition Tisza party challenging Fidesz's grip on power and unresolved disputes over EU rule-of-law conditions continuing to cloud the country's access to European funds. Whether the wage increase translates into genuine gains for workers depends on inflation trends that remain unclear.",
+      "pubDate": "2026-11-27",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Hungary_Episode_2026_11_27.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Hungary_Short_2026_11_27.mp4"
+    },
     {
       "id": "episode-20261127-slovakia",
       "title": "Slovakia Restricts Overseas Voting and Challenges Brussels on Energy in Dual… · 27 Nov",
