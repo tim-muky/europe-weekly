@@ -1,5 +1,5 @@
 {
-  "version": 1795705711502,
+  "version": 1795759338457,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-b0d9cd4",
+      "title": "Czech Government Faces Twin Battles Over Media Independence and Household Finances",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "excerpt": "Prague is confronting two interlocking crises that cut to the heart of democratic governance and economic wellbeing. A controversial plan to overhaul public-media funding has drawn mass protests and warnings from EU institutions, while improving economic sentiment masks persistent household vulnerability. Together, the two disputes reveal a government confident in its parliamentary mandate but facing growing pressure from citizens, unions and critics who fear the costs are being borne by those least able to absorb them.",
+      "body": "<h3>A Funding Overhaul That Critics Call a Democratic Risk</h3><p>The Czech government&#x27;s proposal to abolish the monthly household broadcasting fee of 205 Czech crowns and replace it with direct state-budget financing for Czech Television and Czech Radio has become the country&#x27;s most polarising political dispute of recent months. Officials argue the licence-fee model is outdated, administratively burdensome and poorly suited to a modern media environment. They say parliamentary oversight of public spending would bring greater transparency and force broadcasters to operate more efficiently.</p><p>Opponents see the reform differently. Under the proposed model, public media would lose approximately 15 percent of their combined funding while becoming financially dependent on annual state appropriations rather than a dedicated, ring-fenced revenue stream. Critics, including opposition parties, trade unions, media workers and cultural organisations, argue that a government controlling the budget also controls the pressure point. The structural risk, they say, is not theoretical: a parliamentary majority that can reduce a broadcaster&#x27;s income in any given year holds leverage that a fixed household fee does not provide.</p><p>The dispute escalated sharply in early November when broadcaster employees staged a one-day strike, followed by large demonstrations across the country. The European Parliament cited organisers&#x27; estimates of between 350,000 and 450,000 participants; Reuters described tens of thousands on the streets. Whatever the precise figure, the scale was significant, and the timing carried additional weight: the protests fell close to the anniversary of the 1989 Velvet Revolution, lending them an explicitly democratic framing. EU institutions and press-freedom groups have since called for stronger statutory safeguards to protect editorial independence if the reform proceeds.</p><h3>Economic Confidence Rises, but Household Pressures Remain</h3><p>Separate from the media dispute, the Czech economy presents a picture of genuine but uneven improvement. Overall economic sentiment rose to 100.2 in November from 97.9 in October, according to Czech Statistical Office data, with business confidence reaching 99.4 and industrial confidence 97.5. The government has pointed to these figures as evidence of stabilisation after a prolonged period of elevated inflation and subdued growth, arguing that recession fears are receding and that investment and employment prospects are gradually improving.</p><p>The cautionary view comes from within the central bank itself. Czech National Bank board member Jakub Seidler warned that rising energy prices could simultaneously push inflation higher and weaken economic activity, creating conditions associated with stagflation. That combination would leave policymakers with limited room to manoeuvre: cutting rates to stimulate growth risks stoking inflation, while holding rates high to control prices extends the squeeze on borrowers. Reports of increasing household reliance on consumer credit and online lending suggest that some families are already bridging the gap between income and expenses through debt rather than savings.</p><p>The distinction between disinflation and lower prices is critical here. Even if the rate of inflation slows, the overall price level remains elevated relative to pre-shock baselines. Households managing variable-rate mortgages, high energy bills or food costs that have not retreated to earlier levels may not register any recovery in their daily finances, regardless of what sentiment surveys indicate at the aggregate level. Trade unions have made precisely this argument, contending that wage growth and job security are more meaningful measures of economic health than business confidence indices.</p><h3>Outlook: Institutional Safeguards and Economic Resilience Under Scrutiny</h3><p>The two disputes share an underlying question about who controls critical national systems and who absorbs the consequences when those systems come under pressure. On public media, the legislative process is likely to continue into the coming months, with opposition parties and broadcaster representatives expected to push for amendments that would establish multi-year funding guarantees or independent oversight boards to insulate editorial decisions from budgetary politics. Without such safeguards, the reform may face legal challenges and continued pressure from EU institutions monitoring media freedom across member states.</p><p>On the economic front, much depends on energy markets and the pace of wage growth heading into the first half of next year. If energy prices rise sharply through winter, the Czech National Bank could face a more difficult policy environment than the November confidence data would suggest. For households already borrowing to cover living costs, a further inflation spike without commensurate wage gains would deepen financial stress and feed directly into political dissatisfaction with the government&#x27;s economic management.</p><p>For the broader European context, Czechia&#x27;s situation is a compressed version of tensions visible across the continent. Governments with strong parliamentary majorities are restructuring institutions in ways that concentrate fiscal leverage, while households in energy-dependent, export-oriented economies remain exposed to shocks beyond national control. The coming weeks will test whether Prague can pass a media-funding law that satisfies both efficiency goals and independence standards, and whether improving business sentiment translates into relief that citizens can actually feel.</p>",
+      "keywords": "Czech Republic, public media funding, Czech Television, Czech Radio, broadcasting fee, media independence, press freedom, economic sentiment, Czech National Bank, inflation, household debt, energy prices, Velvet Revolution anniversary, EU democratic resilience, Prague protests",
+      "sources": "Czech Statistical Office, economic sentiment data, November reporting; Czech National Bank, statements by board member Jakub Seidler, reported by Bloomberg; Reuters, coverage of Czech public-media protests, November; European Parliament, cited protest attendance estimates; Czech public broadcaster reports on proposed funding reform and strike action, November; EU institutions and press-freedom organisations, statements on Czech media independence safeguards",
+      "pubDate": "2026-11-27",
+      "chartData": {
+        "values": [
+          100.2,
+          99.4,
+          97.5,
+          97.9
+        ],
+        "labels": [
+          "Overall Sentiment Nov",
+          "Business Confidence Nov",
+          "Industrial Confidence Nov",
+          "Overall Sentiment Oct"
+        ]
+      }
+    },
     {
       "id": "article-64c4d68",
       "title": "Croatia's Big-Spending Budget Tests the Limits of Fiscal Credibility and Household Patience",
@@ -16986,6 +17012,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261127-czechia",
+      "title": "Czechia: Czech Government Faces Twin Battles Over Media Independence and Household… · 27 Nov",
+      "categories": [
+        "cat-p4f2tu7"
+      ],
+      "duration": "8:52",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Czechia_Episode_2026_11_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 341,
+      "keywords": "Czech Republic, public media funding, Czech Television, Czech Radio, broadcasting fee, media independence, press freedom, economic sentiment, Czech National Bank, inflation, household debt, energy prices, Velvet Revolution anniversary, EU democratic resilience, Prague protests",
+      "notes": "Prague is confronting two interlocking crises that cut to the heart of democratic governance and economic wellbeing. A controversial plan to overhaul public-media funding has drawn mass protests and warnings from EU institutions, while improving economic sentiment masks persistent household vulnerability. Together, the two disputes reveal a government confident in its parliamentary mandate but facing growing pressure from citizens, unions and critics who fear the costs are being borne by those least able to absorb them.",
+      "pubDate": "2026-11-27",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Czechia_Episode_2026_11_27.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Czechia_Short_2026_11_27.mp4"
+    },
     {
       "id": "episode-20261126-croatia",
       "title": "Croatia's Big-Spending Budget Tests the Limits of Fiscal Credibility and… · 26 Nov",
