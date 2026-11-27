@@ -1,5 +1,5 @@
 {
-  "version": 1795759586994,
+  "version": 1795759714964,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-ab1814b",
+      "title": "Austria Caught Between Paper Recovery and Household Hardship as Coalition Pushes Contested Welfare Cuts",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "excerpt": "Austria's economy returned to marginal growth in the third quarter of 2026, but persistent inflation and rising energy costs continue to erode household purchasing power, leaving citizens largely unmoved by official reassurances. The governing coalition is simultaneously pressing ahead with a contentious welfare reform that has drawn opposition from more than 35 civil-society organisations and faces serious questions over its implementation timeline. Together, the two developments expose a widening gap between macroeconomic stabilisation and lived economic reality.",
+      "body": "<h3>Modest Growth, Stubborn Prices and the Limits of Official Reassurance</h3><p>Austria&#x27;s gross domestic product expanded by just 0.2 percent quarter-on-quarter in the third quarter of 2026, a figure the government has cited as evidence that the economy has weathered the energy-price shock and returned to positive territory. The economic research institute WIFO has described the economy as defying the energy shock, lending some institutional credibility to that framing. For a government in search of good news, the return to growth, however slim, is a headline worth defending.</p><p>The inflation picture complicates that narrative considerably. Austria&#x27;s national consumer-price index held steady at 3.6 percent in October 2026, unchanged from September, meaning prices continued to rise at the same pace rather than easing. Only the harmonised measure, used for EU-wide comparisons, edged marginally lower from 3.6 to 3.5 percent. Housing and utilities costs accelerated over the same period, with household gas prices rising particularly sharply, deepening the squeeze on renters and lower-income families who spend a disproportionate share of their budgets on energy and accommodation.</p><p>The result is an economy that looks better on paper than it feels in practice. Trade unions have argued that nominal stabilisation is not the same as restored living standards, and the data largely support that position. Prices are still rising; they are simply rising more slowly than during the peak of the inflation shock. For households that absorbed several years of above-average price increases, that distinction offers limited comfort.</p><h3>Welfare Reform Becomes a Coalition Stress Test</h3><p>Alongside its economic messaging, the governing coalition is pursuing a reform of Austria&#x27;s social assistance system, with proposals said to include tighter eligibility rules and reduced support for some larger families. The government has framed the changes as a matter of fiscal sustainability and improved targeting, arguing that a reformed system would be better placed to finance pensions, healthcare and other public services without broader tax increases. Proponents have also pointed to anti-fraud measures as a central element of the package, presenting them as a defence of taxpayers and of the welfare state&#x27;s long-term viability.</p><p>The opposition has been swift and broad. More than 35 organisations have reportedly criticised the proposal, while the Vienna Chamber of Labour argued that the reform risks undermining the stated policy goal of reducing poverty rather than advancing it. The Austrian Public Employment Service has said that implementing the changes by January 2027 is not operationally feasible, casting doubt on the government&#x27;s timetable. Critics have also objected to what they described as an unusually short consultation period, raising questions about the process as much as the substance.</p><p>The government&#x27;s fiscal argument is not without merit. Budget pressures are real, and demographic ageing will intensify them. But the strongest conclusion the available evidence supports is that the reform is politically contentious and administratively disputed. Projected savings from anti-fraud measures remain unverified by published Finance Ministry or audit-office documents, and the claim that benefit reductions would substantially increase employment has not yet been demonstrated. The coalition faces the task of proving not just that the reform is necessary, but that it will work as advertised.</p><h3>A Dispute That Resonates Well Beyond Vienna</h3><p>Austria&#x27;s predicament is in many respects a concentrated version of a dilemma facing governments across the European Union. Inflation may moderate, but it does not reverse the cumulative loss of purchasing power that households accumulated over several years of elevated prices. GDP figures can turn positive while grocery bills, rent and heating costs remain the dominant economic reality for a large share of the population. Governments that point to improving macroeconomic indicators while citizens judge conditions through their monthly outgoings risk a credibility gap that feeds political volatility.</p><p>The welfare debate maps onto a similarly familiar European fault line. Many member states facing demographic pressure and constrained public finances must choose between welfare retrenchment, higher taxation, cuts in other spending areas or policies designed to accelerate growth. Austria&#x27;s coalition has opted for a reform-and-restraint approach, but the breadth of civil-society opposition and the unresolved implementation questions suggest it has not yet built sufficient political and institutional consensus to carry the changes through smoothly.</p><p>The immediate calendar is tight. If the January 2027 implementation date is to be met, the government will need to resolve the objections raised by the employment service and address the operational concerns of the agencies responsible for delivery. Failure to do so would hand opponents a concrete example of policy overreach and poor preparation. More broadly, with inflation still elevated and household confidence fragile, the coalition&#x27;s ability to present fiscal reform as a shared burden rather than a targeted penalty on vulnerable groups may determine whether it can hold together through the months ahead.</p>",
+      "keywords": "Austria, inflation, GDP growth, cost of living, welfare reform, coalition politics, social assistance, energy prices, European Union, fiscal policy, WIFO, household purchasing power",
+      "sources": "Statistics Austria, national CPI release, October 2026; WIFO economic assessment, Q3 2026; Eurostat harmonised inflation data, October 2026; Vienna Chamber of Labour, statement on welfare reform proposal; Austrian Public Employment Service, implementation assessment, 2026",
+      "pubDate": "2026-11-27",
+      "chartData": {
+        "values": [
+          0.2,
+          3.6,
+          3.5
+        ],
+        "labels": [
+          "GDP Growth Q3 2026 (% QoQ)",
+          "National CPI Oct 2026 (% YoY)",
+          "Harmonised CPI Oct 2026 (% YoY)"
+        ]
+      }
+    },
     {
       "id": "article-7c5f8dc",
       "title": "Hungary's Minimum-Wage Deal and Political Turbulence Test Government's Economic Credibility",
@@ -17056,6 +17080,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261127-austria",
+      "title": "Austria Caught Between Paper Recovery and Household Hardship · 27 Nov",
+      "categories": [
+        "cat-edscj6n"
+      ],
+      "duration": "8:43",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Austria_Episode_2026_11_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 344,
+      "keywords": "Austria, inflation, GDP growth, cost of living, welfare reform, coalition politics, social assistance, energy prices, European Union, fiscal policy, WIFO, household purchasing power",
+      "notes": "Austria's economy returned to marginal growth in the third quarter of 2026, but persistent inflation and rising energy costs continue to erode household purchasing power, leaving citizens largely unmoved by official reassurances. The governing coalition is simultaneously pressing ahead with a contentious welfare reform that has drawn opposition from more than 35 civil-society organisations and faces serious questions over its implementation timeline. Together, the two developments expose a widening gap between macroeconomic stabilisation and lived economic reality.",
+      "pubDate": "2026-11-27",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Austria_Episode_2026_11_27.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Austria_Short_2026_11_27.mp4"
+    },
     {
       "id": "episode-20261127-hungary",
       "title": "Hungary's Minimum-Wage Deal and Political Turbulence Test Government's… · 27 Nov",
