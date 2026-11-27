@@ -1,5 +1,5 @@
 {
-  "version": 1795759338457,
+  "version": 1795759463331,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-cb8735c",
+      "title": "Slovakia Restricts Overseas Voting and Challenges Brussels on Energy in Dual Test of Democratic and European Norms",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "excerpt": "Slovakia's parliament has voted to abolish postal voting for citizens abroad, replacing it with embassy-only balloting from 2027, in a move the opposition says will suppress expatriate participation. Simultaneously, Prime Minister Robert Fico is pursuing a legal challenge against an EU energy directive at the Court of Justice of the European Union. Together, the two developments signal a government increasingly willing to test both domestic democratic conventions and its relationship with Brussels.",
+      "body": "<h3>Parliament Votes to End Postal Voting for Expatriates, Opposition Vows Court Fight</h3><p>Slovakia&#x27;s National Council passed legislation on Wednesday abolishing postal voting for Slovak citizens residing abroad, replacing it with mandatory in-person voting at embassies and consulates. The bill passed by a narrow margin of 79 votes to 71, exposing deep divisions over the measure&#x27;s intent and its likely effects on future elections. The change is set to take effect from 2027, pending the president&#x27;s signature and the outcome of any constitutional review.</p><p>The governing coalition defended the reform on grounds of electoral security, arguing that postal ballots are inherently harder to verify and that voting through accredited diplomatic missions provides a more controlled and transparent process. Ministers stressed that overseas citizens would retain their right to vote and cited the integrity of the secret ballot as the primary justification for the change.</p><p>Opposition parties rejected that rationale, arguing no evidence of systemic fraud under the existing postal system has been presented. They contend that compelling voters to attend a Slovak diplomatic mission in person imposes significant logistical burdens, including travel costs and time, on the estimated hundreds of thousands of Slovaks living and working across the European Union and beyond. Several opposition groupings announced plans to file a formal challenge before the Constitutional Court, framing the law as a politically motivated restriction on participation timed to influence the composition of the electorate before the next parliamentary election.</p><h3>Fico Takes Energy Dispute to Luxembourg as Subsidies Shield Households at Home</h3><p>Separately, Prime Minister Robert Fico confirmed that Slovakia has filed a legal action against an EU decision under the RePowerEU framework at the Court of Justice of the European Union, and that Bratislava is pressing for the case to be heard on an expedited basis, potentially before the end of 2027. The government argues that EU-level energy directives risk imposing unacceptable costs on Slovak households and industrial consumers, and frames the lawsuit as a defence of national sovereignty over energy supply decisions.</p><p>The domestic political logic of the challenge is reinforced by existing government policy: subsidised gas and electricity prices remain in place for the majority of Slovak households, allowing the coalition to present itself as a protector against externally imposed price pressure. Fico&#x27;s administration has argued consistently that Bratislava should retain greater flexibility to manage energy costs, particularly during a period of economic uncertainty and ongoing industrial restructuring.</p><p>The case carries consequences well beyond Slovakia&#x27;s borders. EU institutions have argued that harmonised energy policy under RePowerEU is designed to reduce collective dependence on insecure external suppliers and to manage the continent&#x27;s energy transition in a coordinated manner. A successful Slovak challenge could constrain the Union&#x27;s capacity to implement common energy measures across member states; a failed one risks deepening the estrangement between Bratislava and Brussels at a moment when cohesion funds, budget negotiations, and investment flows all remain sensitive. Trade unions find themselves in an ambiguous position, broadly supportive of measures that contain energy bills for workers but wary of a confrontational strategy that generates legal uncertainty and may undermine access to EU structural funding.</p><h3>Two Crises, One Pattern: Domestic Survival Collides with European Commitments</h3><p>Taken together, the two disputes illuminate a governing strategy that prioritises short-term domestic protection over longer-term institutional relationships, whether with the Slovak Constitutional Court or with the European Union itself. The postal-voting controversy raises fundamental questions about the conditions under which participation is permitted, a concern that resonates across a Union where free movement has made expatriate electoral access a matter of practical significance for millions of citizens. The opposition&#x27;s planned constitutional challenge means the law may not survive in its current form, and the narrow parliamentary majority suggests the government&#x27;s legislative coalition is under strain.</p><p>The energy lawsuit presents a more complex calculus. While the government&#x27;s claim that RePowerEU has already measurably raised Slovak household bills or caused industrial losses is not supported by publicly available data, the political salience of energy costs is not in doubt. What remains unresolved is whether a legal confrontation in Luxembourg will deliver tangible and durable benefits for Slovak consumers, or whether it will primarily serve as a rhetorical instrument ahead of the next election cycle, leaving businesses, investors, and workers in a prolonged state of uncertainty over the country&#x27;s regulatory and funding environment.</p><p>The coming months will be defined by several concrete deadlines and decisions. The president must decide whether to sign the postal-voting legislation or return it to parliament, and the Constitutional Court could move relatively quickly if an opposition challenge is formally lodged. On energy, the speed with which the Court of Justice agrees to hear the Slovak case will determine when and whether Bratislava faces a definitive legal ruling. For citizens, the stakes are tangible: who can vote easily from abroad, how much they pay for gas and electricity, and whether Slovakia retains the institutional relationships needed to attract investment and shape EU policy in areas that affect their daily lives.</p>",
+      "keywords": "Slovakia, postal voting, expatriate voting, Robert Fico, RePowerEU, Court of Justice of the European Union, EU energy policy, Slovak politics, electoral reform, Constitutional Court, Brussels, energy subsidies, democratic access",
+      "sources": "Slovak parliament vote reporting, sources 1, 2, 3; Fico government statement on CJEU challenge, source 4; EU Commission position on RePowerEU framework, source 4",
+      "pubDate": "2026-11-27",
+      "chartData": {
+        "values": [
+          79.0,
+          71.0
+        ],
+        "labels": [
+          "Votes For",
+          "Votes Against"
+        ]
+      }
+    },
     {
       "id": "article-b0d9cd4",
       "title": "Czech Government Faces Twin Battles Over Media Independence and Household Finances",
@@ -17012,6 +17034,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261127-slovakia",
+      "title": "Slovakia Restricts Overseas Voting and Challenges Brussels on Energy in Dual… · 27 Nov",
+      "categories": [
+        "cat-lqlzgi3"
+      ],
+      "duration": "8:15",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Slovakia_Episode_2026_11_27.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 342,
+      "keywords": "Slovakia, postal voting, expatriate voting, Robert Fico, RePowerEU, Court of Justice of the European Union, EU energy policy, Slovak politics, electoral reform, Constitutional Court, Brussels, energy subsidies, democratic access",
+      "notes": "Slovakia's parliament has voted to abolish postal voting for citizens abroad, replacing it with embassy-only balloting from 2027, in a move the opposition says will suppress expatriate participation. Simultaneously, Prime Minister Robert Fico is pursuing a legal challenge against an EU energy directive at the Court of Justice of the European Union. Together, the two developments signal a government increasingly willing to test both domestic democratic conventions and its relationship with Brussels.",
+      "pubDate": "2026-11-27",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Slovakia_Episode_2026_11_27.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_27/Slovakia_Short_2026_11_27.mp4"
+    },
     {
       "id": "episode-20261127-czechia",
       "title": "Czechia: Czech Government Faces Twin Battles Over Media Independence and Household… · 27 Nov",
