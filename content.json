@@ -1,5 +1,5 @@
 {
-  "version": 1795845857540,
+  "version": 1795845994995,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-b753fb9",
+      "title": "Lithuania Faces a Double Bind: Defence Ambitions Collide With Fiscal Limits and Industrial Risk",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "excerpt": "Lithuania is pressing ahead with one of NATO's most ambitious defence-spending commitments, targeting 5% of GDP by 2027, but the costs are creating mounting tensions at home. A projected budget deficit above EU limits, a teachers' strike, and a proposed energy tax that could threaten thousands of industrial jobs are testing the limits of public consent. The country's dilemma is becoming a template for how frontline states manage security without fracturing their social contract.",
+      "body": "<h3>A Security Bill That Strains the Budget</h3><p>Lithuania&#x27;s government is planning to allocate more than 4.8 billion euros, equivalent to roughly 5% of gross domestic product, to defence in 2027, cementing its position as one of NATO&#x27;s highest-spending members relative to the size of its economy. The scale of the commitment reflects a genuine strategic calculus: Lithuania sits on the alliance&#x27;s eastern flank, shares borders with Russia&#x27;s exclave of Kaliningrad and Belarus, and is preparing to host a permanent German brigade of approximately 5,000 troops.</p><p>The fiscal arithmetic, however, is becoming difficult to ignore. Lithuania&#x27;s revised budget projects a government deficit of 3.9% of GDP, above the European Union&#x27;s 3% reference limit, while the European Commission forecasts an even wider general-government shortfall of 4.3% in 2027. Public debt is currently projected at around 48.2% of GDP, a level that does not yet signal a crisis, but the trajectory is pointing toward a rapidly narrowing budgetary space. Officials have committed to sustaining defence spending at between 5% and 6% of GDP through 2030, a pledge that makes the fiscal pressure structural rather than temporary.</p><p>The government argues that the security environment justifies treating defence as an insurance premium, costly but essential for deterrence and national resilience. Critics in parliament are less persuaded. Lawmakers previously returned the budget draft to the government amid concerns about prioritisation and transparency, and trade unions representing public-sector workers have drawn a direct line between military expenditure and pressure on wages, education, and healthcare. A continuing teachers&#x27; strike gives that argument practical and visible force.</p><h3>An Energy Tax That Could Cost More Than It Raises</h3><p>Alongside the defence budget debate, the government is weighing a new tax on energy companies designed to raise at least 100 million euros, with a portion of the proceeds earmarked for security spending. The proposal has a surface-level political logic: rather than asking households alone to bear the cost of rearmament, the government would draw on a strategically significant and largely foreign-owned sector of the economy.</p><p>Orlen Lietuva, the Polish-owned operator of Lithuania&#x27;s only oil refinery in Mažeikiai, has responded with a stark warning. The company has stated that if its planned modernisation programme is not completed, operations at the refinery could cease. The company directly employs more than 1,500 people, while local authorities estimate that around 5,000 jobs in total, including workers in the supply chain and associated businesses, could be affected if the facility were to contract or close. For a regional economy centred on a single industrial anchor, the stakes are unusually high.</p><p>Independent analysis suggests both sides are overstating their case. The refinery closure should be treated as a credible risk scenario rather than a confirmed outcome: what Orlen has signalled is a possible decision not to proceed with modernisation, not an imminent shutdown. At the same time, the government cannot assume that the tax would leave the refinery&#x27;s economics unaffected. What is clear is that if the burden is passed on, motorists could face higher fuel prices, while a loss of refining capacity would increase Lithuania&#x27;s dependence on imported refined products, raising questions about energy security that extend well beyond the tax itself.</p><h3>A Dilemma With European Dimensions</h3><p>Lithuania&#x27;s predicament is not simply a domestic budgetary dispute. It is an early and unusually sharp illustration of a problem that confronts nearly every country on NATO&#x27;s eastern flank: how to finance a step-change in defence spending without eroding the public services and industrial base that underpin political stability and long-term economic capacity. Poland, Estonia, Latvia, and Finland are navigating variants of the same tension.</p><p>For the European Union, Lithuania is testing how far a member state can push its deficit without triggering formal procedures, particularly when the spending in question serves a collective security interest. The Commission has so far taken a measured approach to defence-related fiscal overruns in frontline states, but the political precedent being set in Vilnius will be watched closely in Brussels and in other capitals.</p><p>The immediate calendar is unforgiving. The government must pass a credible budget that satisfies parliament, stabilise relations with striking teachers before the dispute becomes entrenched, and decide whether to proceed with the energy tax in the face of industrial lobbying. If the refinery question is mishandled, the government could find itself defending a revenue measure that destroys a larger tax base than it creates. If it retreats, it must find another way to close a defence funding gap that is not going away.</p><p>For Lithuanian citizens, the trade-off is becoming concrete. Greater military security may reduce existential risk, but the near-term experience could include slower public-sector pay growth, constrained school budgets, and uncertainty about fuel costs and jobs in western Lithuania. How the government resolves that tension will determine whether the country&#x27;s exceptional defence commitment retains broad popular support or begins to fracture along social and economic lines.</p>",
+      "keywords": "Lithuania, defence spending, NATO, EU fiscal rules, budget deficit, Orlen Lietuva, energy tax, Mažeikiai refinery, eastern flank, security spending, public sector strikes, teachers strike, European Commission, fiscal sustainability, industrial policy",
+      "sources": "Lithuanian government budget documentation, 2027 defence allocation figures; European Commission fiscal projections for Lithuania, 2027; NATO eastern flank basing and German brigade deployment plans; Lithuanian parliamentary proceedings on budget return; Lithuanian trade union and teachers strike reporting; Orlen Lietuva statements on refinery modernisation and employment; Mažeikiai local authority employment impact estimates",
+      "pubDate": "2026-11-28",
+      "chartData": {
+        "values": [
+          5.0,
+          3.9,
+          4.3,
+          48.2
+        ],
+        "labels": [
+          "Defence Spending % GDP (2027)",
+          "Revised Deficit % GDP",
+          "EC Forecast Deficit % GDP (2027)",
+          "Public Debt % GDP"
+        ]
+      }
+    },
     {
       "id": "article-c45dd47",
       "title": "Latvia's New Government Bets on Austerity and Security in a Narrowing Fiscal Window",
@@ -17132,6 +17158,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261128-lithuania",
+      "title": "Lithuania Faces a Double Bind: Defence Ambitions Collide With Fiscal Limits… · 28 Nov",
+      "categories": [
+        "cat-oifdqv9"
+      ],
+      "duration": "8:59",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Lithuania_Episode_2026_11_28.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 347,
+      "keywords": "Lithuania, defence spending, NATO, EU fiscal rules, budget deficit, Orlen Lietuva, energy tax, Mažeikiai refinery, eastern flank, security spending, public sector strikes, teachers strike, European Commission, fiscal sustainability, industrial policy",
+      "notes": "Lithuania is pressing ahead with one of NATO's most ambitious defence-spending commitments, targeting 5% of GDP by 2027, but the costs are creating mounting tensions at home. A projected budget deficit above EU limits, a teachers' strike, and a proposed energy tax that could threaten thousands of industrial jobs are testing the limits of public consent. The country's dilemma is becoming a template for how frontline states manage security without fracturing their social contract.",
+      "pubDate": "2026-11-28",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Lithuania_Episode_2026_11_28.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Lithuania_Short_2026_11_28.mp4"
+    },
     {
       "id": "episode-20261128-latvia",
       "title": "Latvia's New Government Bets on Austerity and Security in a Narrowing Fiscal… · 28 Nov",
