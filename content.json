@@ -1,5 +1,5 @@
 {
-  "version": 1795759714964,
+  "version": 1795845737289,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-3fa1864",
+      "title": "Poland Caught Between Fiscal Crisis and Russian Missiles as Tusk and Nawrocki Clash",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "excerpt": "Poland is simultaneously navigating a deepening institutional standoff over tax policy and a direct security breach after Russian cruise missiles entered its airspace. President Karol Nawrocki's veto of a government tax bill has laid bare tensions over public finances at a moment when the European Commission forecasts a deficit above 7% of GDP. The dual pressure underscores Poland's increasingly difficult position as both a frontline NATO state and a country whose democratic institutions remain fiercely contested.",
+      "body": "<h3>A Tax Veto Exposes Deeper Faultlines</h3><p>Polish President Karol Nawrocki last week vetoed a government-backed tax bill that would have raised the personal income-tax threshold for approximately 3.5 million middle-income earners while imposing higher corporate taxes on large companies. The decision immediately inflamed an already volatile relationship between the presidency and Prime Minister Donald Tusk&#x27;s coalition government, turning what might have been a technical fiscal measure into a fully fledged constitutional confrontation.</p><p>Nawrocki argued that the bill unfairly targeted businesses and entrepreneurs, burdening the productive economy in the name of limited redistribution. His allies in the opposition added a broader fiscal warning: Poland is already running one of the European Union&#x27;s largest budget deficits, and promising tax relief while spending continues to expand stretches the country&#x27;s credibility with European partners and financial markets alike.</p><p>The government countered that the measure represented targeted relief for ordinary households, not a reckless giveaway, and that Tusk needs to show voters tangible gains in living standards before the next parliamentary election. Supporters argued that asking the largest corporations to contribute more while easing the burden on workers is a defensible form of redistribution, particularly after years of elevated inflation that eroded real wages.</p><h3>The Numbers Behind the Noise</h3><p>European Commission forecasts add important context to both sides of the argument. Poland&#x27;s economy is still projected to grow by 3.5% in 2026, which makes this something other than an acute recession story. However, growth is expected to slow to 2.7% in 2027, inflation is forecast to rise from 3.3% to 4.4% over the same period, and the government deficit is projected to remain above 7% of GDP. Those figures lend weight to the president&#x27;s fiscal caution, even if they do not invalidate the government&#x27;s distributional case.</p><p>The inflation picture deserves particular attention. The claim that price pressures have eased is partly true, in the sense that Poland has moved away from the extreme cost-of-living shock of recent years, but the Commission&#x27;s own projections point to renewed acceleration. Describing inflation as simply falling would be misleading; the more accurate reading is that it moderated from earlier peaks and is now expected to climb again.</p><p>For Polish citizens, the stakes of this dispute are immediate. Households stand to benefit or lose from changes to the tax-free threshold, businesses face potential cost increases that could feed through to prices and hiring decisions, and the broader economy risks closer EU fiscal surveillance if the deficit trajectory does not improve. For investors, the standoff signals that Poland&#x27;s economic policymaking remains subject to institutional deadlock as much as economic logic.</p><h3>Russian Missiles Over Polish Territory Force NATO&#x27;s Hand</h3><p>Overlapping with the domestic political crisis, Polish authorities confirmed that three Russian Kh-101 cruise missiles entered Polish airspace and came down on Polish territory during a Russian military strike on Ukraine. NATO responded by authorising the forward deployment of an AWACS airborne early-warning aircraft to Poland, providing an immediate and visible signal of allied commitment without crossing the threshold of direct military confrontation with Russia.</p><p>Warsaw framed the incident as a serious violation of Polish sovereignty demanding a concrete allied response. Government officials argued that enhanced surveillance was essential to improve detection, attribution, and reaction time, and that stronger NATO involvement is precisely what deters future incursions rather than provoking them. The AWACS deployment, they said, reflects the alliance taking Poland&#x27;s exposure seriously.</p><p>Opposition voices urged greater care in how the evidence is characterised, drawing a distinction between missiles that crossed into Poland during an attack on Ukraine and a deliberate act of aggression against a NATO member. That distinction carries significant political and military consequences. The verified facts establish Russian origin and confirmed airspace violation; whether the incursions were intentional remains a separate and highly consequential question that responsible analysis should not foreclose prematurely.</p><h3>A Frontline State Under Compound Pressure</h3><p>Taken together, the two crises paint a portrait of a country under compound stress. Internally, Poland&#x27;s institutions are locked in a power struggle that is making coherent economic governance difficult at precisely the moment when fiscal discipline matters most. Externally, its geography continues to place it at the sharp edge of Europe&#x27;s most dangerous security crisis since the Cold War.</p><p>The missile incident reinforces arguments, long advanced in Warsaw and Brussels, that European air defence, intelligence-sharing, and defence procurement cannot be treated as separate national responsibilities. Poland has consistently pushed for a greater allied footprint on its territory, and each airspace incident strengthens that case politically, even as it increases pressure on a budget already struggling to absorb defence spending increases alongside social commitments.</p><p>In the near term, Tusk&#x27;s government must decide whether to seek a parliamentary override of the presidential veto, a path that requires a three-fifths majority in the Sejm and is far from guaranteed. On the security front, NATO allies will be watching closely to see whether the AWACS deployment and intensified surveillance prove sufficient or whether further escalation by Russia requires a more assertive response. With Polish parliamentary elections on the horizon and the war in Ukraine showing no sign of resolution, neither pressure is likely to ease.</p>",
+      "keywords": "Poland, Nawrocki, Tusk, tax veto, fiscal deficit, NATO, AWACS, Russian missiles, airspace violation, Polish economy, EU fiscal rules, defence spending, Eastern flank, inflation, GDP growth",
+      "sources": "Polish government statements on presidential veto of income tax threshold bill; European Commission economic forecasts for Poland, 2026–2027; NATO statement on AWACS deployment to Poland; Polish authorities' confirmation of Russian Kh-101 cruise missile airspace violation; Opposition commentary on fiscal sustainability and missile incident attribution",
+      "pubDate": "2026-11-28",
+      "chartData": {
+        "values": [
+          3.5,
+          2.7,
+          3.3,
+          4.4
+        ],
+        "labels": [
+          "GDP Growth 2026 (%)",
+          "GDP Growth 2027 (%)",
+          "Inflation 2026 (%)",
+          "Inflation 2027 (%)"
+        ]
+      }
+    },
     {
       "id": "article-ab1814b",
       "title": "Austria Caught Between Paper Recovery and Household Hardship as Coalition Pushes Contested Welfare Cuts",
@@ -17080,6 +17106,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261128-poland",
+      "title": "Poland Caught Between Fiscal Crisis and Russian Missiles · 28 Nov",
+      "categories": [
+        "cat-9s0v3r9"
+      ],
+      "duration": "8:33",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Poland_Episode_2026_11_28.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 345,
+      "keywords": "Poland, Nawrocki, Tusk, tax veto, fiscal deficit, NATO, AWACS, Russian missiles, airspace violation, Polish economy, EU fiscal rules, defence spending, Eastern flank, inflation, GDP growth",
+      "notes": "Poland is simultaneously navigating a deepening institutional standoff over tax policy and a direct security breach after Russian cruise missiles entered its airspace. President Karol Nawrocki's veto of a government tax bill has laid bare tensions over public finances at a moment when the European Commission forecasts a deficit above 7% of GDP. The dual pressure underscores Poland's increasingly difficult position as both a frontline NATO state and a country whose democratic institutions remain fiercely contested.",
+      "pubDate": "2026-11-28",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Poland_Episode_2026_11_28.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Poland_Short_2026_11_28.mp4"
+    },
     {
       "id": "episode-20261127-austria",
       "title": "Austria Caught Between Paper Recovery and Household Hardship · 27 Nov",
