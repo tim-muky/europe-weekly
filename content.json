@@ -1,5 +1,5 @@
 {
-  "version": 1795845737289,
+  "version": 1795845857540,
   "settings": {
     "backgroundImage": "",
     "social": {
@@ -122,6 +122,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "article-c45dd47",
+      "title": "Latvia's New Government Bets on Austerity and Security in a Narrowing Fiscal Window",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "excerpt": "Latvia's freshly approved coalition under Prime Minister Andris Kulbergs is pursuing an ambitious dual agenda: cutting public administration costs to revive a lagging economy while expanding defence commitments on NATO's eastern flank. European Commission forecasts show growth slowing and deficits widening, putting the government's confidence under immediate pressure. The central question is whether fiscal restraint can produce growth without hollowing out the public services that citizens depend on.",
+      "body": "<h3>A Government Built on Two Bets at Once</h3><p>When the Saeima approved Andris Kulbergs&#x27;s coalition on November 17, Latvia acquired its most explicitly reform-minded government in years. The partnership between the United List and the nationalist National Alliance rests on a political bargain that is straightforward in outline but demanding in execution: restructure the state to free resources for private-sector growth, and do so without compromising Latvia&#x27;s security commitments to NATO and Ukraine.</p><p>The government&#x27;s programme targets nearly two billion euros in savings between 2027 and 2030, with roughly 900 million euros earmarked to come from restructuring public administration. On the revenue side, the coalition plans to raise an additional 2.875 billion euros over the same period. Those are large numbers for a small economy, and they signal that Kulbergs is prepared for a confrontation with entrenched public-sector interests. Whether the arithmetic adds up is another matter.</p><p>Latvia&#x27;s economic case for reform is not invented. The country has consistently trailed Estonia and Lithuania on growth, productivity and investment attractiveness. The government argues that an oversized administrative apparatus has absorbed resources that could otherwise have supported the private sector. The diagnosis is widely accepted; the prescribed treatment is not.</p><h3>When Fiscal Discipline Meets Geopolitical Reality</h3><p>Latvia&#x27;s position on NATO&#x27;s eastern flank, sharing a border with Russia, gives its security commitments an urgency that few western European governments face. The Kulbergs coalition has explicitly framed fiscal discipline not as austerity for its own sake but as a way to preserve the budgetary space needed for defence and strategic investment. In that framing, cutting bureaucracy and backing Ukraine are complementary rather than competing goals.</p><p>The European Commission&#x27;s own projections, however, expose the difficulty of that position. Latvia&#x27;s government deficit is forecast at 2.9 percent of GDP in 2026, rising to 4.4 percent in 2027. Public debt is projected to climb from 46.8 percent of GDP in 2026 to 50.9 percent in 2027. Those figures do not describe a government with ample room to simultaneously expand defence spending, support Ukraine and reduce the structural deficit through supply-side reform. They describe a government making difficult choices in a tightening fiscal environment.</p><p>Opposition lawmakers have pressed the coalition on exactly this point, arguing that the partnership is attempting to pursue too many priorities at once. There is also a political risk embedded in the National Alliance&#x27;s participation: security imperatives can be used to deflect scrutiny of spending decisions, making it harder for critics to challenge cuts without appearing to undermine Latvia&#x27;s defence posture. That dynamic will bear watching as the reform programme moves from declared intention to legislative reality.</p><h3>Growth Hopes Rest on Assumptions Not Yet Tested</h3><p>The Commission&#x27;s economic outlook for Latvia is not catastrophic, but it is not encouraging either. GDP growth is forecast at 2.6 percent in 2026, decelerating to 1.8 percent in 2027. Inflation, meanwhile, is projected at 3.2 percent in 2026 and 3.6 percent in 2027, meaning that households will continue to face rising living costs even as the government pursues consolidation. That combination of slowing growth and persistent inflation narrows the political tolerance for public-sector reductions.</p><p>The core economic risk is one the government has not fully addressed in public: cutting state spending too rapidly could weaken domestic demand at a moment when private investment has not yet arrived to replace it. The claim that administrative efficiency will automatically unlock faster growth remains, in the available evidence, a hypothesis rather than a demonstrated outcome. Zero-based budgeting and reduced red tape are legitimate tools, but their effects take years to materialise, and the interim period can be damaging if services deteriorate or unemployment rises.</p><p>For Latvia&#x27;s Baltic neighbours and for EU partners further east, the Kulbergs experiment carries wider significance. Many eastern member states face an identical dilemma: higher defence commitments, support for Ukraine and the need to maintain social stability while public finances tighten. If Latvia can demonstrate that fiscal consolidation and growth are compatible in a security-sensitive small economy, it offers a model. If it cannot, it offers a warning. Either outcome will be instructive, and Brussels will be paying close attention.</p>",
+      "keywords": "Latvia, Andris Kulbergs, austerity, economic reform, NATO, national security, Baltic states, European Commission, fiscal policy, public administration, coalition government, defence spending, Ukraine, EU eastern flank",
+      "sources": "European Commission economic forecasts for Latvia (2026–2027); Latvian government coalition programme, November 2024; Saeima vote on Kulbergs government, November 17, 2024; research dossier on Latvia's austerity-and-growth agenda and security-for-reform bargain",
+      "pubDate": "2026-11-28",
+      "chartData": {
+        "values": [
+          2.6,
+          1.8,
+          3.2,
+          3.6
+        ],
+        "labels": [
+          "GDP Growth 2026 (%)",
+          "GDP Growth 2027 (%)",
+          "Inflation 2026 (%)",
+          "Inflation 2027 (%)"
+        ]
+      }
+    },
     {
       "id": "article-3fa1864",
       "title": "Poland Caught Between Fiscal Crisis and Russian Missiles as Tusk and Nawrocki Clash",
@@ -17106,6 +17132,23 @@
     }
   ],
   "episodes": [
+    {
+      "id": "episode-20261128-latvia",
+      "title": "Latvia's New Government Bets on Austerity and Security in a Narrowing Fiscal… · 28 Nov",
+      "categories": [
+        "cat-jszfyjk"
+      ],
+      "duration": "8:39",
+      "audioUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Latvia_Episode_2026_11_28.mp3",
+      "coverArt": "https://audio.europe-weekly.eu/podcast-cover.jpg",
+      "season": 2,
+      "episodeNumber": 346,
+      "keywords": "Latvia, Andris Kulbergs, austerity, economic reform, NATO, national security, Baltic states, European Commission, fiscal policy, public administration, coalition government, defence spending, Ukraine, EU eastern flank",
+      "notes": "Latvia's freshly approved coalition under Prime Minister Andris Kulbergs is pursuing an ambitious dual agenda: cutting public administration costs to revive a lagging economy while expanding defence commitments on NATO's eastern flank. European Commission forecasts show growth slowing and deficits widening, putting the government's confidence under immediate pressure. The central question is whether fiscal restraint can produce growth without hollowing out the public services that citizens depend on.",
+      "pubDate": "2026-11-28",
+      "transcriptUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Latvia_Episode_2026_11_28.txt",
+      "shortUrl": "https://audio.europe-weekly.eu/episodes/v3/2026_11_28/Latvia_Short_2026_11_28.mp4"
+    },
     {
       "id": "episode-20261128-poland",
       "title": "Poland Caught Between Fiscal Crisis and Russian Missiles · 28 Nov",
